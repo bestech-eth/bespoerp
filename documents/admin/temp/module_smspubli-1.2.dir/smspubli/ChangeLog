@@ -1,0 +1,14 @@
+--------------------------------------------------------------
+English Dolibarr SMS Publi ChangeLog
+--------------------------------------------------------------
+
+***** ChangeLog for 1.2 compared to 1.1 *****
+- Compatible with Dolibarr v14
+- Add configurable Fake sending sms to SmsPubli (for testing).
+
+***** ChangeLog for 1.1 compared to 1.0 *****
+- Fix some English translations.
+
+***** Initial version 1.0 *****
+- Connection with SmsPubli account
+- Send SMS from Thirdparties tab

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "mocean/client": "^2.1"
+    }
+}

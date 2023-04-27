@@ -1,0 +1,208 @@
+# Copyright (C) 2022 SuperAdmin
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleMoceanAPIName'
+ModuleMoceanAPIName = MoceanAPI
+# Module description 'ModuleMoceanAPIDesc'
+ModuleMoceanAPIDesc = Automate SMS notification and Send Bulk SMS
+
+#
+# Admin page
+#
+MoceanAPISetup = MoceanAPI setup
+# Settings Stuff
+Settings = Settings
+MoceanAPISetupPage = MoceanAPI setup page
+MOCEAN_API_KEY = Mocean API Key
+MOCEAN_API_KEYTooltip = Mocean API Key required
+MOCEAN_API_SECRET= Mocean API Secret
+MOCEAN_API_SECRETTooltip= Mocean API Secret required
+MOCEAN_FROM = Sender
+MOCEAN_FROMTooltip = Your business name
+MOCEAN_CALLBACK_NUMBER = Callback number
+MOCEAN_CALLBACK_NUMBER_TOOLTIP = Your number to receive calls. Please include country code eg: 11472536546
+MOCEAN_ACTIVE_HOUR = Active hours to send SMS reminders
+MOCEAN_ACTIVE_HOUR_TOOLTIP = SMS Reminders will be sent within the active hours.
+
+# Menu details
+moceanapi_menu_template_config_title = SMS Templates
+moceanapi_menu_send_sms_title = Send SMS
+moceanapi_menu_sms_logs_title = SMS Logs
+moceanapi_menu_sms_outbox_title = SMS Outbox
+
+# Setup Page
+setting_page_title = MoceanAPI Settings
+setting_page_menu_title = SMS Settings
+third_party_page_title = Third Party Notification Settings
+contact_page_title = Contact Notification Settings
+logs_page_title=Logs
+invoice_page_title=Invoice Notification Settings
+supplier_order_page_title=Supplier Order Notification Settings
+project_page_title=Project Notification Settings
+help_page_title=Help
+send_sms_page_title=Send SMS
+bulk_sms_page_title=Bulk SMS
+sms_outbox_page_title=SMS Outbox
+ticket_page_title=Ticket Notification Settings
+shipment_page_title=Shipment Notification Settings
+member_page_title=Member Notification Settings
+voice_call_logs_page_title = Voice Call Logs
+
+BulkSMSSettingPageTitle=Bulk SMS
+SendSMSSettingPageTitle=Send SMS
+SMSOutboxSettingPageTitle=SMS Outbox
+LogsSettingPageTitle=Logs
+InvoiceSettingPageTitle=Invoice
+ProjectSettingPageTitle=Project
+ThirdPartySettingPageTitle=Third Party
+ContactSettingPageTitle=Contact
+HelpSettingPageTitle=Help
+SupplierOrderSettingPageTitle=Supplier Order
+TicketSettingPageTitle=Ticket
+ShipmentSettingPageTitle=Shipment
+MemberSettingPageTitle=Member
+VoiceCallSettingPageTitle=Voice Call Logs
+
+
+# SMS Form
+sms_form_save = Save SMS settings
+sms_form_enable_notification = Enable SMS notification
+sms_form_send_from = Sender
+sms_form_send_on = Send notifications on
+sms_form_send_reminder = Send reminder
+sms_form_sms_templates = SMS templates
+
+# Third Party SMS Form
+moceanapi_third_party_enable = Enable
+moceanapi_third_party_send_on_created = Third party created
+moceanapi_third_party_sms_templates_created = Third party created SMS template
+
+# Contact SMS Form
+moceanapi_contact_enable = Enable
+moceanapi_contact_send_on_created = Contact created
+moceanapi_contact_send_on_enabledisabled = Contact enabled / disabled
+moceanapi_contact_sms_templates_created = Contact created SMS template
+moceanapi_contact_sms_templates_enabledisabled = Contact enabled / disabled SMS template
+
+# Invoice SMS Form
+moceanapi_invoice_enable = Enable
+moceanapi_invoice_send_on_created = Invoice created
+moceanapi_invoice_send_on_updated = Invoice updated
+moceanapi_invoice_send_on_validated = Invoice validated
+moceanapi_invoice_send_on_cancelled = Invoice abandoned / cancelled
+moceanapi_invoice_send_on_paid = Invoice paid
+moceanapi_invoice_send_on_unpaid = Invoice unpaid
+moceanapi_invoice_sms_templates_created = Invoice created SMS template
+moceanapi_invoice_sms_templates_updated = Invoice updated SMS template
+moceanapi_invoice_sms_templates_validated = Invoice validated SMS template
+moceanapi_invoice_sms_templates_cancelled = Invoice cancelled / abandoned SMS template
+moceanapi_invoice_sms_templates_paid = Invoice paid SMS template
+moceanapi_invoice_sms_templates_unpaid = Invoice unpaid SMS template
+
+# Supplier Order SMS Form
+moceanapi_supplier_order_enable = Enable
+moceanapi_supplier_order_send_on_created           = Supplier order created
+moceanapi_supplier_order_send_on_validated         = Supplier order validated
+moceanapi_supplier_order_send_on_approved          = Supplier order approved
+moceanapi_supplier_order_send_on_refused           = Supplier order refused
+moceanapi_supplier_order_send_on_dispatched        = Supplier order dispatched
+moceanapi_supplier_order_sms_templates_created     = Supplier order created SMS template
+moceanapi_supplier_order_sms_templates_validated   = Supplier order validated SMS template
+moceanapi_supplier_order_sms_templates_approved    = Supplier order approved SMS template
+moceanapi_supplier_order_sms_templates_refused     = Supplier order refused SMS template
+moceanapi_supplier_order_sms_templates_dispatched  = Supplier order dispatched SMS template
+
+# Ticket SMS Form
+moceanapi_ticket_enable = Enable
+moceanapi_ticket_send_on_created         = Ticket created
+moceanapi_ticket_send_on_closed          = Ticket closed
+moceanapi_ticket_send_on_read            = Ticket read
+moceanapi_ticket_send_on_abandoned       = Ticket abandoned
+moceanapi_ticket_send_on_assigned        = Ticket assigned
+moceanapi_ticket_sms_templates_created   = Ticket created SMS template
+moceanapi_ticket_sms_templates_closed    = Ticket closed SMS template
+moceanapi_ticket_sms_templates_read      = Ticket read SMS template
+moceanapi_ticket_sms_templates_abandoned = Ticket abandoned SMS template
+moceanapi_ticket_sms_templates_assigned  = Ticket assigned SMS template
+
+# Shipment SMS Form
+moceanapi_shipment_enable = Enable
+moceanapi_shipment_send_on_created         = Shipment created
+moceanapi_shipment_send_on_validated       = Shipment validated
+moceanapi_shipment_send_on_closed          = Shipment closed
+moceanapi_shipment_send_on_delivered       = Shipment delivered
+moceanapi_shipment_sms_templates_created   = Shipment created SMS template
+moceanapi_shipment_sms_templates_validated = Shipment validated SMS template
+moceanapi_shipment_sms_templates_closed    = Shipment closed SMS template
+moceanapi_shipment_sms_templates_delivered = Shipment delivered SMS template
+
+# Member SMS Form
+moceanapi_member_enable = Enable
+moceanapi_member_send_on_created                        = Member created
+moceanapi_member_send_on_validated                      = Member validated
+moceanapi_member_send_on_subscription_created           = Member new contribution
+moceanapi_member_send_on_terminated                     = Member terminated
+moceanapi_member_sms_templates_created                  = Member created SMS template
+moceanapi_member_sms_templates_validated                = Member validated SMS template
+moceanapi_member_sms_templates_subscription_created     = Member new contribution SMS template
+moceanapi_member_sms_templates_terminated               = Member terminated SMS template
+
+# Project SMS Form
+moceanapi_project_enable = Enable
+moceanapi_project_send_on_prospection           = Lead status prospection
+moceanapi_project_send_on_qualification         = Lead status qualification
+moceanapi_project_send_on_proposal              = Lead status proposal
+moceanapi_project_send_on_negotiation           = Lead status negotiation
+moceanapi_project_sms_templates_prospection     = Lead status prospection SMS template
+moceanapi_project_sms_templates_qualification   = Lead status qualification SMS template
+moceanapi_project_sms_templates_proposal        = Lead status proposal SMS template
+moceanapi_project_sms_templates_negotiation     = Lead status negotiation SMS template
+
+# Tab details
+MoceanAPITabTitle   = MoceanAPI SMS
+SmsCounterLinkText  = SMS Character Counter
+SendSMSButtonTitle  = Send SMS
+SmsTo               = To
+SmsText             = Message
+Sms_To_Thirdparty_Flag = Send SMS to third party
+
+# Voice Call
+moceanapi_voice_call_button_label = MoceanAPI - Call
+moceanapi_voice_call_disabled_title = No callback number configured
+moceanapi_voice_call_user_invalid_phone = User's phone number is invalid
+
+#
+# About page
+#
+About = About
+MoceanAPIAbout = About MoceanAPI
+MoceanAPIAboutPage = MoceanAPI about page
+
+#
+# Sample page
+#
+MyPageName = My page name
+
+#
+# Sample widget
+#
+MyWidget = My widget
+MyWidgetDescription = My widget description
+
+savesetting = Save Settings

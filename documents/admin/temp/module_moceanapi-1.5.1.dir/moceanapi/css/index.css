@@ -1,0 +1,12 @@
+.mocean-table {
+	width: auto;
+}
+
+.mocean-table tbody tr td label {
+	display: block;
+}
+
+.mocean-table tbody tr td:first-child {
+	text-align: left;
+	vertical-align: top;
+}
