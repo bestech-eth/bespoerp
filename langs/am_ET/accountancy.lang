@@ -1,10 +1,10 @@
 # Dolibarr language file - en_US - Accountancy (Double entries)
 Accountancy=የሂሳብ አያያዝ
 Accounting=የሂሳብ አያያዝ
-ACCOUNTING_EXPORT_SEPARATORCSV=Column separator for export file
-ACCOUNTING_EXPORT_DATE=Date format for export file
-ACCOUNTING_EXPORT_PIECE=Export the number of piece
-ACCOUNTING_EXPORT_GLOBAL_ACCOUNT=Export with global account
+ACCOUNTING_EXPORT_SEPARATORCSV=ወደ ውጭ የሚላክ ፋይል የአምድ መለያ
+ACCOUNTING_EXPORT_DATE=ወደ ውጭ የሚላክ ፋይል የቀን ቅርጸት
+ACCOUNTING_EXPORT_PIECE=የቁራጩን ቁጥር ወደ ውጪ ላክ
+ACCOUNTING_EXPORT_GLOBAL_ACCOUNT=በአለምአቀፍ መለያ ወደ ውጭ ላክ
 ACCOUNTING_EXPORT_LABEL=Export label
 ACCOUNTING_EXPORT_AMOUNT=Export amount
 ACCOUNTING_EXPORT_DEVISE=Export currency
