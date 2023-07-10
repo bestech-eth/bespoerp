@@ -1,6 +1,6 @@
 # Dolibarr language file - en_US - Accountancy (Double entries)
-Accountancy=Accountancy
-Accounting=Accounting
+Accountancy=የሂሳብ አያያዝ
+Accounting=የሂሳብ አያያዝ
 ACCOUNTING_EXPORT_SEPARATORCSV=Column separator for export file
 ACCOUNTING_EXPORT_DATE=Date format for export file
 ACCOUNTING_EXPORT_PIECE=Export the number of piece
