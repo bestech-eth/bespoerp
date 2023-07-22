@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - paypal
+# bespoerp language file - Source file is en_US - paypal
 PaypalSetup=Configurare modul PayPal
 PaypalDesc=Acest modul permite plata de la clienţi prin <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a>. Acesta poate fi utilizat pentru plăţi ad-hoc payment sau pentru plăţi aferente unui obiect din sistem (factură, comandă, ...)
 PaypalOrCBDoPayment=Plăteşte cu PayPal (Card sau PayPal)

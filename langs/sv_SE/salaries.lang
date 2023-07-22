@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# bespoerp language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Konto (från kontoplanen) används som standard för "användare" tredje part
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Det dedikerade kontot som definieras på användarkortet kommer endast att användas för underreskontra. Denna kommer att användas för huvudbok och som standardvärde för underreskontra om ett dedikerat användarkonto för användare inte är definierat.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Redovisningskonto som standard för lönebetalningar

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - workflow
+# bespoerp language file - Source file is en_US - workflow
 WorkflowSetup=İş Akışı modülü kurulumu
 WorkflowDesc=Bu modül bazı otomatik işlemler sağlar. Varsayılan olarak, iş akışı açıktır (işleri istediğiniz sırayla yapabilirsiniz) ama burada bazı otomatik eylemleri etkinleştirebilirsiniz.
 ThereIsNoWorkflowToModify=Etkin modüllerde hiç iş akışı değişikliği yok.

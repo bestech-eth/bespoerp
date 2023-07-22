@@ -41,7 +41,7 @@ if (!defined('NOREQUIREAJAX')) {
 	define('NOREQUIREAJAX', '1');
 }
 
-// Load Dolibarr environment
+// Load bespoerp environment
 if (!defined('INCLUDE_PHONEPAGE_FROM_PUBLIC_PAGE')) {
 	require '../main.inc.php';
 }
@@ -913,7 +913,7 @@ if (empty($reshook)) {
 				$sectionwithinvoicelink .= ' <button id="buttonprint" type="button" onclick="TakeposPrinting('.$placeid.');">'.$langs->trans('PrintTicket').'</button>';
 			}
 		} elseif (getDolGlobalString('TAKEPOS_PRINT_METHOD') == "receiptprinter") {
-			$sectionwithinvoicelink .= ' <button id="buttonprint" type="button" onclick="DolibarrTakeposPrinting('.$placeid.');">'.$langs->trans('PrintTicket').'</button>';
+			$sectionwithinvoicelink .= ' <button id="buttonprint" type="button" onclick="bespoerpTakeposPrinting('.$placeid.');">'.$langs->trans('PrintTicket').'</button>';
 		} else {
 			$sectionwithinvoicelink .= ' <button id="buttonprint" type="button" onclick="Print('.$placeid.');">'.$langs->trans('PrintTicket').'</button>';
 			if (getDolGlobalString('TAKEPOS_PRINT_WITHOUT_DETAILS')) {
@@ -941,7 +941,7 @@ $form = new Form($db);
 
 // llxHeader
 if ((getDolGlobalString('TAKEPOS_PHONE_BASIC_LAYOUT') == 1 && $conf->browser->layout == 'phone') || defined('INCLUDE_PHONEPAGE_FROM_PUBLIC_PAGE')) {
-	$title = 'TakePOS - Dolibarr '.DOL_VERSION;
+	$title = 'TakePOS - bespoerp '.DOL_VERSION;
 	if (!empty($conf->global->MAIN_APPLICATION_TITLE)) {
 		$title = 'TakePOS - '.$conf->global->MAIN_APPLICATION_TITLE;
 	}
@@ -1118,8 +1118,8 @@ function TakeposConnector(id){
 	});
 }
 
-function DolibarrTakeposPrinting(id) {
-	console.log("DolibarrTakeposPrinting Printing invoice ticket " + id)
+function bespoerpTakeposPrinting(id) {
+	console.log("bespoerpTakeposPrinting Printing invoice ticket " + id)
 	$.ajax({
 		type: "GET",
 		data: { token: '<?php echo currentToken(); ?>' },
@@ -1296,7 +1296,7 @@ if (!empty($conf->global->TAKEPOS_CUSTOMER_DISPLAY)) {
 // Add again js for footer because this content is injected into index.php page so all init
 // for tooltip and other js beautifiers must be reexecuted too.
 if (!empty($conf->use_javascript_ajax)) {
-	print "\n".'<!-- Includes JS Footer of Dolibarr -->'."\n";
+	print "\n".'<!-- Includes JS Footer of bespoerp -->'."\n";
 	print '<script src="'.DOL_URL_ROOT.'/core/js/lib_foot.js.php?lang='.$langs->defaultlang.'"></script>'."\n";
 }
 

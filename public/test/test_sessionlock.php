@@ -55,11 +55,11 @@ print '<br>';
 print 'session_status='.session_status().' (before main.inc.php)';
 print '<br>';
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../../main.inc.php';
 
 // Security
-if ($dolibarr_main_prod) {
+if ($bespoerp_main_prod) {
 	accessforbidden();
 }
 

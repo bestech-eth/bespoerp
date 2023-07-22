@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# bespoerp language file - Source file is en_US - website
 WebsiteSetupDesc=Aqui você pode criar os sites que você deseja usar. Em seguida, vá para o menu Websites para editá-los.
 DeleteWebsite=Apagar website
 ConfirmDeleteWebsite=Tem certeza que deseja excluir este site? Todas as suas páginas e conteúdo também serão removidos. Os arquivos enviados (como no diretório de mídia, no módulo ECM, ...) permanecerão.

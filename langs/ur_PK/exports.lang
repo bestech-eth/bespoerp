@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# bespoerp language file - Source file is en_US - exports
 ExportsArea=برآمدات
 ImportArea=درآمد کریں۔
 NewExport=نئی ایکسپورٹ
@@ -59,7 +59,7 @@ ChooseFormatOfFileToImport=اسے منتخب کرنے کے لیے %s آئیکن 
 ChooseFileToImport=فائل اپ لوڈ کریں پھر %s آئیکن پر کلک کریں تاکہ فائل کو سورس امپورٹ فائل کے طور پر منتخب کیا جا سکے۔
 SourceFileFormat=ماخذ فائل کی شکل
 FieldsInSourceFile=سورس فائل میں فیلڈز
-FieldsInTargetDatabase=Dolibarr ڈیٹا بیس میں ٹارگٹ فیلڈز (بولڈ = لازمی)
+FieldsInTargetDatabase=bespoerp ڈیٹا بیس میں ٹارگٹ فیلڈز (بولڈ = لازمی)
 Field=میدان
 NoFields=کوئی فیلڈز نہیں۔
 MoveField=فیلڈ کالم نمبر %s منتقل کریں۔

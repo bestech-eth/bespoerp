@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# bespoerp language file - Source file is en_US - stripe
 StripeSetup=கோடு தொகுதி அமைப்பு
-StripeDesc=<a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a> வழியாக கிரெடிட்/டெபிட் கார்டுகள் மூலம் பணம் செலுத்த உங்கள் வாடிக்கையாளர்களுக்கு ஆன்லைன் கட்டணப் பக்கத்தை வழங்கவும். உங்கள் வாடிக்கையாளர்கள் தற்காலிகப் பணம் செலுத்துவதற்கு அல்லது குறிப்பிட்ட Dolibarr பொருளுக்கு (விலைப்பட்டியல், ஆர்டர், ...) தொடர்பான பணம் செலுத்துவதற்கு இது பயன்படுத்தப்படலாம்.
+StripeDesc=<a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a> வழியாக கிரெடிட்/டெபிட் கார்டுகள் மூலம் பணம் செலுத்த உங்கள் வாடிக்கையாளர்களுக்கு ஆன்லைன் கட்டணப் பக்கத்தை வழங்கவும். உங்கள் வாடிக்கையாளர்கள் தற்காலிகப் பணம் செலுத்துவதற்கு அல்லது குறிப்பிட்ட bespoerp பொருளுக்கு (விலைப்பட்டியல், ஆர்டர், ...) தொடர்பான பணம் செலுத்துவதற்கு இது பயன்படுத்தப்படலாம்.
 StripeOrCBDoPayment=கிரெடிட் கார்டு அல்லது ஸ்ட்ரைப் மூலம் பணம் செலுத்துங்கள்
-FollowingUrlAreAvailableToMakePayments=Dolibarr பொருள்களில் பணம் செலுத்த வாடிக்கையாளருக்கு ஒரு பக்கத்தை வழங்க பின்வரும் URLகள் உள்ளன
+FollowingUrlAreAvailableToMakePayments=bespoerp பொருள்களில் பணம் செலுத்த வாடிக்கையாளருக்கு ஒரு பக்கத்தை வழங்க பின்வரும் URLகள் உள்ளன
 PaymentForm=பணம் செலுத்தும் படிவம்
 WelcomeOnPaymentPage=எங்கள் ஆன்லைன் கட்டண சேவைக்கு வரவேற்கிறோம்
 ThisScreenAllowsYouToPay=%s க்கு ஆன்லைனில் பணம் செலுத்த இந்தத் திரை உங்களை அனுமதிக்கிறது.

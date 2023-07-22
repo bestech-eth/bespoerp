@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# bespoerp language file - Source file is en_US - ecm
 ECMNbOfDocs=No. of documents in directory
 ECMSection=Directory
 ECMSectionManual=Manual directory
@@ -15,7 +15,7 @@ ECMNbOfSubDir=Number of sub-directories
 ECMNbOfFilesInSubDir=Number of files in sub-directories
 ECMCreationUser=Creator
 ECMArea=DMS/ECM area
-ECMAreaDesc=The DMS/ECM (Document Management System / Electronic Content Management) area allows you to save, share and search quickly all kind of documents in Dolibarr.
+ECMAreaDesc=The DMS/ECM (Document Management System / Electronic Content Management) area allows you to save, share and search quickly all kind of documents in bespoerp.
 ECMAreaDesc2=* Automatic directories are filled automatically when adding documents from card of an element.<br>* Manual directories can be used to save documents not linked to a particular element.
 ECMSectionWasRemoved=Directory <b>%s</b> has been deleted.
 ECMSectionWasCreated=Directory <b>%s</b> has been created.

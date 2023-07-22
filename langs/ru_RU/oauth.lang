@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - oauth
+# bespoerp language file - Source file is en_US - oauth
 ConfigOAuth=Конфигурация OAuth
 OAuthServices=Службы OAuth
 ManualTokenGeneration=Ручная генерация токенов

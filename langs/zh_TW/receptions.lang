@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - receptions
+# bespoerp language file - Source file is en_US - receptions
 ReceptionDescription=供應商收貨管理（建立收貨文件）
 ReceptionsSetup=產品收貨設定
 RefReception=收貨參考
@@ -49,6 +49,6 @@ ReceptionsNumberingModules=收貨編號模組
 ReceptionsReceiptModel=收貨用文件範本
 NoMorePredefinedProductToDispatch=沒有更多預定義的產品要調度
 ReceptionExist=有櫃台
-ReceptionBackToDraftInDolibarr=收貨 %s 回到草案狀態
-ReceptionClassifyClosedInDolibarr=收貨%s 分類為已關閉
-ReceptionUnClassifyCloseddInDolibarr=收貨 %s 重新啟用
+ReceptionBackToDraftInbespoerp=收貨 %s 回到草案狀態
+ReceptionClassifyClosedInbespoerp=收貨%s 分類為已關閉
+ReceptionUnClassifyCloseddInbespoerp=收貨 %s 重新啟用

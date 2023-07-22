@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - projects
+# bespoerp language file - Source file is en_US - projects
 RefProject=ອ້າງອີງ ໂຄງການ
 ProjectRef=ໂຄງການອ້າງອີງ
 ProjectId=ID ໂຄງການ
@@ -157,12 +157,12 @@ ConfirmCloneProject=ເຈົ້າແນ່ໃຈບໍ່ທີ່ຈະໂຄ
 ProjectReportDate=ປ່ຽນວັນທີວຽກຕາມວັນທີເລີ່ມຕົ້ນໂຄງການໃ່
 ErrorShiftTaskDate=ເປັນໄປບໍ່ໄດ້ທີ່ຈະປ່ຽນວັນທີວຽກຕາມວັນທີເລີ່ມຕົ້ນໂຄງການໃ່
 ProjectsAndTasksLines=ໂຄງການແລະ ໜ້າ ວຽກ
-ProjectCreatedInDolibarr=ສ້າງໂຄງການ %s ແລ້ວ
-ProjectValidatedInDolibarr=ໂຄງການ %s ຖືກກວດສອບແລ້ວ
-ProjectModifiedInDolibarr=ໂຄງການ %s ຖືກແກ້ໄຂ
-TaskCreatedInDolibarr=ສ້າງວຽກງານ %s
-TaskModifiedInDolibarr=ໜ້າ ວຽກ %s ຖືກແກ້ໄຂ
-TaskDeletedInDolibarr=ລຶບ ໜ້າ ວຽກ %s ອອກແລ້ວ
+ProjectCreatedInbespoerp=ສ້າງໂຄງການ %s ແລ້ວ
+ProjectValidatedInbespoerp=ໂຄງການ %s ຖືກກວດສອບແລ້ວ
+ProjectModifiedInbespoerp=ໂຄງການ %s ຖືກແກ້ໄຂ
+TaskCreatedInbespoerp=ສ້າງວຽກງານ %s
+TaskModifiedInbespoerp=ໜ້າ ວຽກ %s ຖືກແກ້ໄຂ
+TaskDeletedInbespoerp=ລຶບ ໜ້າ ວຽກ %s ອອກແລ້ວ
 OpportunityStatus=ສະຖານະຜູ້ນໍາ
 OpportunityStatusShort=ສະຖານະຜູ້ນໍາ
 OpportunityProbability=ຄວາມເປັນໄປໄດ້ຂອງຜູ້ນໍາ

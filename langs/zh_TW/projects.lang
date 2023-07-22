@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - projects
+# bespoerp language file - Source file is en_US - projects
 RefProject=參考專案
 ProjectRef=專案參考
 ProjectId=專案編號
@@ -157,12 +157,12 @@ ConfirmCloneProject=您確定要複製此專案嗎？
 ProjectReportDate=根據新專案的開始日期更改任務日期
 ErrorShiftTaskDate=不可能根據新專案的開始日期更改任務日期
 ProjectsAndTasksLines=專案與任務
-ProjectCreatedInDolibarr=專案 %s 已建立
-ProjectValidatedInDolibarr=專案%s已驗證
-ProjectModifiedInDolibarr=專案 %s 已修改
-TaskCreatedInDolibarr=任務%s已建立
-TaskModifiedInDolibarr=任務%s已修改
-TaskDeletedInDolibarr=任務%s已刪除
+ProjectCreatedInbespoerp=專案 %s 已建立
+ProjectValidatedInbespoerp=專案%s已驗證
+ProjectModifiedInbespoerp=專案 %s 已修改
+TaskCreatedInbespoerp=任務%s已建立
+TaskModifiedInbespoerp=任務%s已修改
+TaskDeletedInbespoerp=任務%s已刪除
 OpportunityStatus=潛在狀態
 OpportunityStatusShort=潛在狀態
 OpportunityProbability=潛在可能性

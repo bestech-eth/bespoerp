@@ -32,7 +32,7 @@ if (!defined('NOREQUIRESOC')) {
 	define('NOREQUIRESOC', '1');
 }
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/product/class/product.class.php';
 require_once DOL_DOCUMENT_ROOT.'/variants/class/ProductCombination.class.php';

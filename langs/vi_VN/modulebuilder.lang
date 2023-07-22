@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# bespoerp language file - Source file is en_US - loan
 IdModule= Module id
 ModuleBuilderDesc=This tool must be used only by experienced users or developers. It provides utilities to build or edit your own module. Documentation for alternative <a href="%s" target="_blank" rel="noopener noreferrer">manual development is here</a>.
 EnterNameOfModuleDesc=Enter the name of the module/application to create with no spaces. Use uppercase to separate words (For example: MyModule, EcommerceForShop, SyncWithMySystem...)
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=Bạn có thể xóa mô-đun của bạn. CẢNH 
 EnterNameOfObjectToDeleteDesc=Bạn có thể xóa một đối tượng. CẢNH BÁO: Tất cả các tệp mã hóa (được tạo hoặc tạo thủ công) liên quan đến đối tượng sẽ bị xóa!
 DangerZone=Khu vực nguy hiểm
 BuildPackage=Xây dựng gói
-BuildPackageDesc=Bạn có thể tạo gói zip của ứng dụng để bạn sẵn sàng phân phối nó trên bất kỳ Dolibarr nào. Bạn cũng có thể phân phối hoặc bán nó trên thị trường như <a href="https://www.dolistore.com">DoliStore.com</a> .
+BuildPackageDesc=Bạn có thể tạo gói zip của ứng dụng để bạn sẵn sàng phân phối nó trên bất kỳ bespoerp nào. Bạn cũng có thể phân phối hoặc bán nó trên thị trường như <a href="https://www.dolistore.com">DoliStore.com</a> .
 BuildDocumentation=Xây dựng tài liệu
 ModuleIsNotActive=This module is not activated yet. Go to %s to make it live or click here
 ModuleIsLive=Mô-đun này đã được kích hoạt. Bất kỳ thay đổi có thể phá vỡ một tính năng sống hiện tại.
@@ -110,7 +110,7 @@ HooksDefDesc=Định nghĩa trong thuộc tính <b>module_parts ['hook']</b> , t
 TriggerDefDesc=Define in the trigger file the code that you want to execute when a business event external to your module is executed (events triggered by other modules).
 SeeIDsInUse=Xem ID được sử dụng trong cài đặt của bạn
 SeeReservedIDsRangeHere=Xem phạm vi ID dành riêng
-ToolkitForDevelopers=Bộ công cụ dành cho nhà phát triển Dolibarr
+ToolkitForDevelopers=Bộ công cụ dành cho nhà phát triển bespoerp
 TryToUseTheModuleBuilder=Nếu bạn có kiến thức về SQL và PHP, bạn có thể sử dụng trình hướng dẫn xây dựng mô-đun gốc. <br> Kích hoạt mô-đun <strong>%s</strong> và sử dụng trình hướng dẫn bằng cách nhấp vào <span class="fa fa-bug"></span> trên menu trên cùng bên phải. <br> Cảnh báo: Đây là một tính năng dành cho nhà phát triển nâng cao, <b>không</b> thử nghiệm trên trang web sản xuất của bạn!
 SeeTopRightMenu=Xem <span class="fa fa-bug"></span> trên menu bên phải
 AddLanguageFile=Thêm tập tin ngôn ngữ

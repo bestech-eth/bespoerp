@@ -34,7 +34,7 @@
  * \brief Page to show product prices
  */
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/product.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/price.lib.php';
@@ -116,7 +116,7 @@ if (empty($reshook)) {
 	if ($action == 'setlabelsellingprice' && $user->admin) {
 		require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 		$keyforlabel = 'PRODUIT_MULTIPRICES_LABEL'.GETPOST('pricelevel');
-		dolibarr_set_const($db, $keyforlabel, GETPOST('labelsellingprice', 'alpha'), 'chaine', 0, '', $conf->entity);
+		bespoerp_set_const($db, $keyforlabel, GETPOST('labelsellingprice', 'alpha'), 'chaine', 0, '', $conf->entity);
 		$action = '';
 	}
 

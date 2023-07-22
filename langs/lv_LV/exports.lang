@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# bespoerp language file - Source file is en_US - exports
 ExportsArea=Eksports
 ImportArea=Imports
 NewExport=Jauns eksports
@@ -61,7 +61,7 @@ ChooseFormatOfFileToImport=Izvēlieties faila formātu, ko izmantot kā importa 
 ChooseFileToImport=Augšupielādējiet failu, pēc tam noklikšķiniet uz %s ikonas, lai atlasītu failu kā avota importa failu ...
 SourceFileFormat=Avota faila formāts
 FieldsInSourceFile=Lauki sākotnējā failā
-FieldsInTargetDatabase=Mērķa lauki Dolibarr datu bāzē (treknrakstā = obligāti)
+FieldsInTargetDatabase=Mērķa lauki bespoerp datu bāzē (treknrakstā = obligāti)
 Field=Lauks
 NoFields=Nav lauki
 MoveField=Pārvietot lauka kolonnas numurs %s

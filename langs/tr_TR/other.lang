@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# bespoerp language file - Source file is en_US - other
 SecurityCode=Güvenlik kodu
 NumberingShort=N°
 Tools=Araçlar
@@ -106,7 +106,7 @@ PredefinedMailContentSendFichInter=__(Hello)__\n\n__REF__ referans numaralı mü
 PredefinedMailContentLink=Ödemeniz yapılmadıysa ödemenizi yapmak için aşağıdaki bağlantıyı tıklayabilirsiniz.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Hello)__\n\n\n__(Sincerely)__\n\n__USER_SIGNATURE__
 PredefinedMailContentSendActionComm=Event reminder "__EVENT_LABEL__" on __EVENT_DATE__ at __EVENT_TIME__<br><br>This is an automatic message, please do not reply.
-DemoDesc=Dolibarr, çeşitli iş modüllerini destekleyen kompakt bir ERP/CRM çözümüdür. Tüm modüllerin sergilendiği bir demonun mantığı yoktur, çünkü böyle bir senaryo asla gerçekleşmez (birkaç yüz adet mevcut). Bu nedenle birkaç demo profili vardır.
+DemoDesc=bespoerp, çeşitli iş modüllerini destekleyen kompakt bir ERP/CRM çözümüdür. Tüm modüllerin sergilendiği bir demonun mantığı yoktur, çünkü böyle bir senaryo asla gerçekleşmez (birkaç yüz adet mevcut). Bu nedenle birkaç demo profili vardır.
 ChooseYourDemoProfil=İşlemlerinize uyan demo profilini seçin...
 ChooseYourDemoProfilMore=...veya kendi profilinizi oluşturun<br>(manuel modül seçimi)
 DemoFundation=Bir derneğin üyelerini yönet
@@ -185,10 +185,10 @@ BugTracker=Hata izleyici
 SendNewPasswordDesc=Bu form yeni bir parola istemenizi sağlar. Yeni parolanız e-posta adresinize gönderilecektir. <br>Gelen e-postadaki onay bağlantısını tıkladığınızda değişiklik gerçekleşecektir.<br>Gelen kutunuzu kontrol edin.
 EnterNewPasswordHere=Enter your new password here
 BackToLoginPage=Oturum açma sayfasına geri dön
-AuthenticationDoesNotAllowSendNewPassword=Kimlik doğrulama modu <b>%s</b>.<br>bu modda, Dolibarr parolanızı bilemez ve değiştiremez.<br>Parola değiştirmek istiyorsanız sistem yöneticinize danışın.
+AuthenticationDoesNotAllowSendNewPassword=Kimlik doğrulama modu <b>%s</b>.<br>bu modda, bespoerp parolanızı bilemez ve değiştiremez.<br>Parola değiştirmek istiyorsanız sistem yöneticinize danışın.
 EnableGDLibraryDesc=Bu seçeneği kullanmak için PHP nizdeki GD kütüphanesini kurun ya da etkinleştirin.
 ProfIdShortDesc=<b>Uzman no %s</b> üçüncü parti ülkesine bağlı bir bilgidir.<br>Örneğin, <b>%s</b> ülkesi için kodu<b>%s</b>dir.
-DolibarrDemo=Dolibarr ERP/CRM demosu
+bespoerpDemo=bespoerp ERP/CRM demosu
 StatsByNumberOfUnits=Ürün/hizmet miktarının toplamı için istatistikler
 StatsByNumberOfEntities=Atıfta bulunulan varlıkların sayısı için istatistikler (fatura veya sipariş sayısı...)
 NumberOfProposals=Teklif sayısı
@@ -229,7 +229,7 @@ EMailTextHolidayValidated=Leave request %s has been validated.
 EMailTextHolidayApproved=Leave request %s has been approved.
 EMailTextActionAdded=The action %s has been added to the Agenda.
 ImportedWithSet=Veri dizisinin içe aktarımı
-DolibarrNotification=Otomatik bilgilendirme
+bespoerpNotification=Otomatik bilgilendirme
 ResizeDesc=Yeni genişliği <b>VEYA</b> yeni yüksekliği gir. Yeniden boyutlandırma sırasında oran kotunacaktır...
 NewLength=Yeni genişlik
 NewHeight=Yeni yükseklik

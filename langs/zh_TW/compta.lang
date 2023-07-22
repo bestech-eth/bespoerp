@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - compta
+# bespoerp language file - Source file is en_US - compta
 MenuFinancial=開票|付款
 TaxModuleSetupToModifyRules=前往“ <a href="%s">稅金模組設定</a>修改計算規則
 TaxModuleSetupToModifyRulesLT=前往<a href="%s">公司設定</a>修改計算規則

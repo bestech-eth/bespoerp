@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# bespoerp language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=%s kompaniyasining nomi allaqachon mavjud. Boshqasini tanlang.
 ErrorSetACountryFirst=Avval mamlakatni o'rnating
 SelectThirdParty=Uchinchi tomonni tanlang
@@ -12,7 +12,7 @@ MenuNewSupplier=Yangi sotuvchi
 MenuNewPrivateIndividual=Yangi xususiy shaxs
 NewCompany=Yangi kompaniya (prospekt, mijoz, sotuvchi)
 NewThirdParty=Yangi Uchinchi tomon (prospekt, mijoz, sotuvchi)
-CreateDolibarrThirdPartySupplier=Uchinchi tomonni (sotuvchini) yarating
+CreatebespoerpThirdPartySupplier=Uchinchi tomonni (sotuvchini) yarating
 CreateThirdPartyOnly=Uchinchi tomonni yarating
 CreateThirdPartyAndContact=Uchinchi tomon + bolalar bilan aloqa yaratish
 ProspectionArea=Qidiruv maydoni
@@ -383,7 +383,7 @@ CapitalOf=%s poytaxti
 EditCompany=Kompaniyani tahrirlash
 ThisUserIsNot=Ushbu foydalanuvchi istiqbolli, mijoz yoki sotuvchi emas
 VATIntraCheck=Tekshiring
-VATIntraCheckDesc=QQS identifikatorida mamlakat prefiksi bo'lishi kerak. <b> %s </b> havolasida Dolibarr serveridan Internetga kirishni talab qiladigan Evropa QQS tekshiruvi xizmati (VIES) ishlatiladi.
+VATIntraCheckDesc=QQS identifikatorida mamlakat prefiksi bo'lishi kerak. <b> %s </b> havolasida bespoerp serveridan Internetga kirishni talab qiladigan Evropa QQS tekshiruvi xizmati (VIES) ishlatiladi.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Evropa Komissiyasi veb-saytida Jamiyat ichidagi QQS identifikatorini tekshiring
 VATIntraManualCheck=Shuningdek, siz Yevropa Komissiyasining veb-saytida qo'lda tekshirishingiz mumkin <a href="%s" target="_blank" rel="noopener noreferrer"> %s </a>
@@ -429,8 +429,8 @@ ProspectsByStatus=Vaziyat bo'yicha istiqbollar
 NoParentCompany=None
 ExportCardToFormat=Kartani formatlash uchun eksport qiling
 ContactNotLinkedToCompany=Uchinchi tomon bilan bog'lanmagan aloqa
-DolibarrLogin=Dolibarr tizimiga kirish
-NoDolibarrAccess=Dolibarr-ga kirish taqiqlangan
+bespoerpLogin=bespoerp tizimiga kirish
+NobespoerpAccess=bespoerp-ga kirish taqiqlangan
 ExportDataset_company_1=Uchinchi tomonlar (kompaniyalar / fondlar / jismoniy odamlar) va ularning xususiyatlari
 ExportDataset_company_2=Kontaktlar va ularning xususiyatlari
 ImportDataset_company_1=Uchinchi shaxslar va ularning xususiyatlari

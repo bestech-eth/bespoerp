@@ -430,7 +430,7 @@ class MultiCurrency extends CommonObject
 	 * @param	double	$rate	new rate
 	 * @return 	int 			-1 if KO, 1 if OK, 2 if label found and OK
 	 */
-	public function addRateFromDolibarr($code, $rate)
+	public function addRateFrombespoerp($code, $rate)
 	{
 		global $user;
 
@@ -561,16 +561,16 @@ class MultiCurrency extends CommonObject
 	 *
 	 * @param	int				$fk_facture				id of facture
 	 * @param	double			$amount					amount to convert
-	 * @param	string			$way					'dolibarr' mean the amount is in dolibarr currency
+	 * @param	string			$way					'bespoerp' mean the amount is in bespoerp currency
 	 * @param	string			$table					facture or facture_fourn
 	 * @return	double|boolean 							amount converted or false if conversion fails
 	 */
-	public static function getAmountConversionFromInvoiceRate($fk_facture, $amount, $way = 'dolibarr', $table = 'facture')
+	public static function getAmountConversionFromInvoiceRate($fk_facture, $amount, $way = 'bespoerp', $table = 'facture')
 	{
 		$multicurrency_tx = self::getInvoiceRate($fk_facture, $table);
 
 		if ($multicurrency_tx) {
-			if ($way == 'dolibarr') {
+			if ($way == 'bespoerp') {
 				return price2num($amount * $multicurrency_tx, 'MU');
 			} else {
 				return price2num($amount / $multicurrency_tx, 'MU');
@@ -665,7 +665,7 @@ class MultiCurrency extends CommonObject
 						if ($obj->fetch(null, $code) > 0) {
 							$obj->updateRate($rate);
 						} elseif ($addifnotfound) {
-							$this->addRateFromDolibarr($code, $rate);
+							$this->addRateFrombespoerp($code, $rate);
 						}
 					}
 				}

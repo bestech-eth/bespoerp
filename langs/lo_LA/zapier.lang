@@ -13,9 +13,9 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-ModuleZapierForDolibarrName = Zapier ສຳ ລັບ Dolibarr
-ModuleZapierForDolibarrDesc = Zapier ສຳ ລັບໂມດູນ Dolibarr
-ZapierForDolibarrSetup=ການຕິດຕັ້ງ Zapier ສໍາລັບ Dolibarr
+ModuleZapierForbespoerpName = Zapier ສຳ ລັບ bespoerp
+ModuleZapierForbespoerpDesc = Zapier ສຳ ລັບໂມດູນ bespoerp
+ZapierForbespoerpSetup=ການຕິດຕັ້ງ Zapier ສໍາລັບ bespoerp
 ZapierDescription=ການໂຕ້ຕອບກັບ Zapier
 ZapierAbout=ກ່ຽວກັບໂມດູນ Zapier
-ZapierSetupPage=ບໍ່ ຈຳ ເປັນຕ້ອງມີການຕິດຕັ້ງຢູ່ດ້ານ Dolibarr ເພື່ອໃຊ້ Zapier. ແນວໃດກໍ່ຕາມ, ເຈົ້າຕ້ອງສ້າງແລະເຜີຍແຜ່ແພັກເກດໃນ zapier ເພື່ອຈະສາມາດໃຊ້ Zapier ກັບ Dolibarr. ເບິ່ງເອກະສານຢູ່ໃນ <a href="https://wiki.dolibarr.org/index.php/Module_Zapier"> ໜ້າ wiki ນີ້ </a>.
+ZapierSetupPage=ບໍ່ ຈຳ ເປັນຕ້ອງມີການຕິດຕັ້ງຢູ່ດ້ານ bespoerp ເພື່ອໃຊ້ Zapier. ແນວໃດກໍ່ຕາມ, ເຈົ້າຕ້ອງສ້າງແລະເຜີຍແຜ່ແພັກເກດໃນ zapier ເພື່ອຈະສາມາດໃຊ້ Zapier ກັບ bespoerp. ເບິ່ງເອກະສານຢູ່ໃນ <a href="https://wiki.bespoerp.org/index.php/Module_Zapier"> ໜ້າ wiki ນີ້ </a>.

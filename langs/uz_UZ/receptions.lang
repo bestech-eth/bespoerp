@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - receptions
+# bespoerp language file - Source file is en_US - receptions
 ReceptionDescription=Sotuvchini qabul qilishni boshqarish (qabul qilish hujjatlarini yaratish)
 ReceptionsSetup=Sotuvchini qabul qilishni sozlash
 RefReception=Ref. ziyofat
@@ -49,6 +49,6 @@ ReceptionsReceiptModel=Qabul qilish uchun hujjat shablonlari
 NoMorePredefinedProductToDispatch=Yuborish uchun oldindan belgilangan mahsulotlar yo'q
 ReceptionExist=Qabulxona mavjud
 ByingPrice=Narxi bo'yicha
-ReceptionBackToDraftInDolibarr=Qabul qilish %s qoralamaga qaytdi
-ReceptionClassifyClosedInDolibarr=Qabul %s tasniflangan Yopiq
-ReceptionUnClassifyCloseddInDolibarr=Qabul %s qayta ochiladi
+ReceptionBackToDraftInbespoerp=Qabul qilish %s qoralamaga qaytdi
+ReceptionClassifyClosedInbespoerp=Qabul %s tasniflangan Yopiq
+ReceptionUnClassifyCloseddInbespoerp=Qabul %s qayta ochiladi

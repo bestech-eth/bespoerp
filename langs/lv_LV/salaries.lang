@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# bespoerp language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Konts (no kontu plāna), ko pēc noklusējuma izmanto "lietotāja" trešajām pusēm
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Lietotāja kartē norādītais speciālais konts tiks izmantots tikai Apakšgrāmatas uzskaitei. Šis tiks izmantots Virsgrāmatai un kā apakšvirsgrāmatas uzskaites noklusējuma vērtība, ja lietotājam nav definēts īpašs lietotāja uzskaites konts.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Grāmatvedības konts pēc noklusējuma algu maksājumiem

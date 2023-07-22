@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# bespoerp language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=用戶<b>%s</b>在網域<b>%s</b> 的密碼必須更改
 UserMustChangePassNextLogon=用戶必須更改在網域%s上的密碼
 LDAPInformationsForThisContact=LDAP資料庫中此聯絡人的資訊
@@ -22,7 +22,7 @@ GroupSynchronized=群組已同步
 MemberSynchronized=會員已同步
 MemberTypeSynchronized=會員類型已同步
 ContactSynchronized=聯絡人已同步
-ForceSynchronize=強制同步中Dolibarr -> LDAP
+ForceSynchronize=強制同步中bespoerp -> LDAP
 ErrorFailedToReadLDAP=無法讀取LDAP資料庫。檢查的LDAP模組設定和資料庫可存取權限。
 PasswordOfUserInLDAP=LDAP用戶密碼
 LDAPPasswordHashType=密碼hash類型

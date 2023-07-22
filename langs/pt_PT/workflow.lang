@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - workflow
+# bespoerp language file - Source file is en_US - workflow
 WorkflowSetup=Configurar módulo de fluxo de frabalho
 WorkflowDesc=Este módulo fornece algumas ações automáticas. Por padrão, o fluxo de trabalho é aberto (você pode fazer as coisas na ordem desejada), mas aqui você pode ativar algumas ações automáticas.
 ThereIsNoWorkflowToModify=Não há modificações de fluxo de trabalho disponíveis para os módulos ativados.

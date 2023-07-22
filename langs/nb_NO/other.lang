@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# bespoerp language file - Source file is en_US - other
 SecurityCode=Sikkerhetskode
 NumberingShort=Nr
 Tools=Verktøy
@@ -106,7 +106,7 @@ PredefinedMailContentSendFichInter=__(Hei)__\n\nIntervensjon __REF__ vedlagt\n\n
 PredefinedMailContentLink=Du kan klikke på linken under for å utføre betalingen din, hvis det ikke allerede er gjort.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Hei)__\n\n\n__(Vennlig hilsen)__\n\n__USER_SIGNATURE__
 PredefinedMailContentSendActionComm=Hendelsespåminnelse "__EVENT_LABEL__" den __EVENT_DATE__ kl. __EVENT_TIME__ <br> <br> Dette er en automatisk melding. Ikke svar.
-DemoDesc=Dolibarr er en kompakt ERP/CRM med støtte for flere forretningsmoduler. En demo som viser alle moduler gir ingen mening da dette scenariet aldri skjer (flere hundre tilgjengelig). Derforer flere demoprofiler er tilgjengelig.
+DemoDesc=bespoerp er en kompakt ERP/CRM med støtte for flere forretningsmoduler. En demo som viser alle moduler gir ingen mening da dette scenariet aldri skjer (flere hundre tilgjengelig). Derforer flere demoprofiler er tilgjengelig.
 ChooseYourDemoProfil=Velg en demoprofil som passer best til dine krav
 ChooseYourDemoProfilMore=... eller bygg din egen profil<br>(manuell utvelgelse av moduler)
 DemoFundation=Håndtere medlemmer i en organisasjon
@@ -185,10 +185,10 @@ BugTracker=Feilsporing (bugtracker)
 SendNewPasswordDesc=Dette skjemaet lar deg be om et nytt passord. Det vil bli sendt til din e-postadresse. <br> Endring skjer når du klikker på bekreftelseslinken i e-posten. <br> Sjekk innboksen din.
 EnterNewPasswordHere=Skriv inn ditt nye passord her
 BackToLoginPage=Tilbake til innloggingssiden
-AuthenticationDoesNotAllowSendNewPassword=Autensitering er satt til <b>%s</b>.<br>Det betyr at Dolibarr ikke kan vite eller endre passordet ditt.<br>Kontakt systemadministrator hvis du vil endre passordet ditt.
+AuthenticationDoesNotAllowSendNewPassword=Autensitering er satt til <b>%s</b>.<br>Det betyr at bespoerp ikke kan vite eller endre passordet ditt.<br>Kontakt systemadministrator hvis du vil endre passordet ditt.
 EnableGDLibraryDesc=Installer eller aktiver GD-bibliotek i din PHP-installasjon for å bruke denne opsjonen.
 ProfIdShortDesc=<b>Prof-ID %s</b> er avhengig av tredjepartens land.<br>For eksempel er det for <b>%s</b>, koden <b>%s</b>.
-DolibarrDemo=Dolibarr ERP/CRM demo
+bespoerpDemo=bespoerp ERP/CRM demo
 StatsByNumberOfUnits=Statistikk over summen av produkter/tjenester
 StatsByNumberOfEntities=Statistikk for antall henvisende enheter (antall fakturaer, eller bestillinger...)
 NumberOfProposals=Antall tilbud
@@ -229,7 +229,7 @@ EMailTextHolidayValidated=Permisjonsforespørsel %s er validert.
 EMailTextHolidayApproved=Permisjonsforespørsel %s er godkjent.
 EMailTextActionAdded=Handlingen %s er lagt til i agendaen.
 ImportedWithSet=Datasett for import
-DolibarrNotification=Automatisk varsling
+bespoerpNotification=Automatisk varsling
 ResizeDesc=Skriv inn ny bredde <b>eller</b> ny høyde. BxH forhold vil bli beholdt .
 NewLength=Ny bredde
 NewHeight=Ny høyde

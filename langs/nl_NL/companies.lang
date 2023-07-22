@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# bespoerp language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=De bedrijfsnaam %s bestaat al. kies een andere.
 ErrorSetACountryFirst=Stel eerst het land in
 SelectThirdParty=Selecteer een derde
@@ -12,7 +12,7 @@ MenuNewSupplier=Nieuwe leverancier
 MenuNewPrivateIndividual=Nieuwe particulier
 NewCompany=Nieuwe onderneming (prospect, klant, leverancier)
 NewThirdParty=Nieuwe derde partij (prospect, klant, leverancier)
-CreateDolibarrThirdPartySupplier=Aanmaken relatie (leverancier)
+CreatebespoerpThirdPartySupplier=Aanmaken relatie (leverancier)
 CreateThirdPartyOnly=Nieuwe relatie
 CreateThirdPartyAndContact=Creëer nieuwe klant + nieuw contact
 ProspectionArea=Prospectenoverzicht
@@ -383,7 +383,7 @@ CapitalOf=Kapitaal van %s
 EditCompany=Bedrijf bewerken
 ThisUserIsNot=Deze gebruiker is geen prospect, klant of leverancier
 VATIntraCheck=Controleren
-VATIntraCheckDesc=Het btw-nummer moet het landnummer bevatten. De link <b>%s</b> maakt gebruik van de European VAT checker service (VIES) die internettoegang vanaf de Dolibarr-server vereist.
+VATIntraCheckDesc=Het btw-nummer moet het landnummer bevatten. De link <b>%s</b> maakt gebruik van de European VAT checker service (VIES) die internettoegang vanaf de bespoerp-server vereist.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Controleer het intracommunautaire btw-nummer op de website van de Europese Commissie
 VATIntraManualCheck=U kunt ook handmatig controleren op de website van de Europese Commissie <a href="%s" target="_blank" rel="noopener noreferrer"> %s </a>
@@ -429,8 +429,8 @@ ProspectsByStatus=Prospecten per status
 NoParentCompany=Geen
 ExportCardToFormat=Export details naar formaat
 ContactNotLinkedToCompany=Contact niet gekoppeld aan enige Klant
-DolibarrLogin=Dolibarr login
-NoDolibarrAccess=Geen Dolibarr toegang
+bespoerpLogin=bespoerp login
+NobespoerpAccess=Geen bespoerp toegang
 ExportDataset_company_1=Derden (bedrijven / stichtingen / fysieke mensen) en hun eigenschappen
 ExportDataset_company_2=Contacten en hun eigenschappen
 ImportDataset_company_1=Relaties en hun eigenschappen

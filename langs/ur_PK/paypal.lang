@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# bespoerp language file - Source file is en_US - paypal
 PaypalSetup=پے پال ماڈیول سیٹ اپ
-PaypalDesc=یہ ماڈیول صارفین کو <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external"> PayPal </a> کے ذریعے ادائیگی کی اجازت دیتا ہے۔ اسے ایڈہاک ادائیگی کے لیے یا Dolibarr آبجیکٹ (انوائس، آرڈر، ...) سے متعلق ادائیگی کے لیے استعمال کیا جا سکتا ہے۔
+PaypalDesc=یہ ماڈیول صارفین کو <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external"> PayPal </a> کے ذریعے ادائیگی کی اجازت دیتا ہے۔ اسے ایڈہاک ادائیگی کے لیے یا bespoerp آبجیکٹ (انوائس، آرڈر، ...) سے متعلق ادائیگی کے لیے استعمال کیا جا سکتا ہے۔
 PaypalOrCBDoPayment=پے پال (کارڈ یا پے پال) سے ادائیگی کریں
 PaypalDoPayment=پے پال کے ساتھ ادائیگی کریں۔
 PAYPAL_API_SANDBOX=موڈ ٹیسٹ/سینڈ باکس

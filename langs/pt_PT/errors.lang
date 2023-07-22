@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# bespoerp language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Nenhum erro
@@ -48,10 +48,10 @@ ErrorBadDateFormat=&quot;%s&quot; Valor tem formato de data errado
 ErrorWrongDate=A data não está correcta!
 ErrorFailedToWriteInDir=Impossivel escrever na pasta %s
 ErrorFoundBadEmailInFile=Encontrada sintaxis incorrecta em email em %s linhas em Ficheiro (Exemplo linha %s com email=%s)
-ErrorUserCannotBeDelete=O usuário não pode ser excluído. Talvez esteja associado a entidades do Dolibarr.
+ErrorUserCannotBeDelete=O usuário não pode ser excluído. Talvez esteja associado a entidades do bespoerp.
 ErrorFieldsRequired=Some required fields have been left blank.
 ErrorSubjectIsRequired=The email subject is required
-ErrorFailedToCreateDir=Erro na criação de uma pasta. Verifique se o usuário do servidor Web tem acesso de escrita aos documentos Dolibarr. Se o parâmetro <b> safe_mode </ b> está ativo no PHP, Verifique se os arquivos php do Dolibarr são da propriedade do usuário do servidor web.
+ErrorFailedToCreateDir=Erro na criação de uma pasta. Verifique se o usuário do servidor Web tem acesso de escrita aos documentos bespoerp. Se o parâmetro <b> safe_mode </ b> está ativo no PHP, Verifique se os arquivos php do bespoerp são da propriedade do usuário do servidor web.
 ErrorNoMailDefinedForThisUser=E-Mail não definido para este utilizador
 ErrorSetupOfEmailsNotComplete=Setup of emails is not complete
 ErrorFeatureNeedJavascript=Esta Funcionalidade precisa de javascript activo para funcionar. Modifique em configuração->ambiente.
@@ -79,7 +79,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=O campo <b> %s </ b> não deve 
 ErrorFieldMustHaveXChar=O campo <b> %s </ b> deve ter pelo menos %s caracteres.
 ErrorNoAccountancyModuleLoaded=Módulo de Contabilidade não activado
 ErrorExportDuplicateProfil=Este nome de perfil já existe para este conjunto de exportação.
-ErrorLDAPSetupNotComplete=A configuração Dolibarr-LDAP é incompleta.
+ErrorLDAPSetupNotComplete=A configuração bespoerp-LDAP é incompleta.
 ErrorLDAPMakeManualTest=Foi criado um Ficheiro .ldif na pasta %s. Trate de gerir manualmente este Ficheiro desde a linha de comandos para Obter mais detalhes acerca do erro.
 ErrorCantSaveADoneUserWithZeroPercentage=Não é possível salvar uma ação com "status não iniciado" se o campo "concluído por" também estiver preenchido.
 ErrorRefAlreadyExists=Reference <b>%s</b> already exists.
@@ -111,8 +111,8 @@ ErrorProdIdAlreadyExist=%s é atribuído a um terço
 ErrorFailedToSendPassword=Erro ao enviar a palavra-passe
 ErrorFailedToLoadRSSFile=Falha ao obter feed RSS. Tente adicionar MAIN_SIMPLEXMLLOAD_DEBUG constante se as mensagens de erro não fornecer informações suficientes.
 ErrorForbidden=Acesso negado. <br> Você tenta acessar uma página, área ou recurso de um módulo desativado ou sem estar em uma sessão autenticada ou que não é permitido ao usuário.
-ErrorForbidden2=Os permissões para este utilizador podem ser asignados pelo o administrador Dolibarr mediante o menu %s-> %s.
-ErrorForbidden3=Dolibarr não parece funcionar numa Sessão autentificada. Consulte a documentação de Instalação de Dolibarr para saber como administrar as autenticações (htaccess, mod_auth u outro...).
+ErrorForbidden2=Os permissões para este utilizador podem ser asignados pelo o administrador bespoerp mediante o menu %s-> %s.
+ErrorForbidden3=bespoerp não parece funcionar numa Sessão autentificada. Consulte a documentação de Instalação de bespoerp para saber como administrar as autenticações (htaccess, mod_auth u outro...).
 ErrorForbidden4=Note: clear your browser cookies to destroy existing sessions for this login.
 ErrorNoImagickReadimage=A função imagick_readimage não está presente nesta Instalação de PHP. a revisão não está pois disponivel. Os administradores podem desactivar este separador no menu configuração - visualização.
 ErrorRecordAlreadyExists=Registo já existente
@@ -135,8 +135,8 @@ ErrorWebServerUserHasNotPermission=Conta de usuário utilizada para executar <b>
 ErrorNoActivatedBarcode=Nenhum tipo de código de barras ativado
 ErrUnzipFails=Falha ao extrair %s com o ZipArchive
 ErrNoZipEngine=Nenhum mecanismo para compactar / descompactar o arquivo %s neste PHP
-ErrorFileMustBeADolibarrPackage=O ficheiro %s deve ser um pacote Dolibarr no formato zip
-ErrorModuleFileRequired=Você deve selecionar um arquivo de pacote do módulo Dolibarr
+ErrorFileMustBeAbespoerpPackage=O ficheiro %s deve ser um pacote bespoerp no formato zip
+ErrorModuleFileRequired=Você deve selecionar um arquivo de pacote do módulo bespoerp
 ErrorPhpCurlNotInstalled=O PHP CURL não está instalado, isto é essencial para comunicar com o Paypal
 ErrorFailedToAddToMailmanList=Falha ao adicionar o registro %s à lista Mailman %s ou base SPIP
 ErrorFailedToRemoveToMailmanList=Falha ao remover o registro %s para a lista do Mailman %s ou base do SPIP
@@ -148,7 +148,7 @@ ErrorDateMustBeBeforeToday=The date must be lower than today
 ErrorDateMustBeInFuture=The date must be greater than today
 ErrorPaymentModeDefinedToWithoutSetup=Um modo de pagamento foi definido para digitar %s, mas a configuração do módulo Fatura não foi concluída para definir informações a serem exibidas para esse modo de pagamento.
 ErrorPHPNeedModule=Erro, o php deve ter o módulo <b>%s</b> instalado para utilizar esta funcionalidade
-ErrorOpenIDSetupNotComplete=Você configura o arquivo de configuração Dolibarr para permitir a autenticação OpenID, mas o URL do serviço OpenID não está definido em %s constante
+ErrorOpenIDSetupNotComplete=Você configura o arquivo de configuração bespoerp para permitir a autenticação OpenID, mas o URL do serviço OpenID não está definido em %s constante
 ErrorWarehouseMustDiffers=Os armazéns de origem e de destino não devem ser iguais
 ErrorBadFormat=Formato incorrecto!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Erro, este membro ainda não está vinculado a terceiros. Vincule o membro a um terceiro existente ou crie um novo terceiro antes de criar uma assinatura com fatura.
@@ -211,7 +211,7 @@ ErrorUserNotAssignedToTask=O usuário deve ser atribuído à tarefa para poder i
 ErrorTaskAlreadyAssigned=Tarefa já atribuída ao usuário
 ErrorModuleFileSeemsToHaveAWrongFormat=O pacote de módulos parece ter um formato incorreto.
 ErrorModuleFileSeemsToHaveAWrongFormat2=At least one mandatory directory must exists into zip of module: <strong>%s</strong> or <strong>%s</strong>
-ErrorFilenameDosNotMatchDolibarrPackageRules=O nome do pacote do módulo (<strong> %s </ strong>) não corresponde à sintaxe de nome esperada: <strong> %s </ strong>
+ErrorFilenameDosNotMatchbespoerpPackageRules=O nome do pacote do módulo (<strong> %s </ strong>) não corresponde à sintaxe de nome esperada: <strong> %s </ strong>
 ErrorDuplicateTrigger=Erro, nome de disparo duplicado %s. Já carregado de %s.
 ErrorNoWarehouseDefined=Erro, nenhum armazém definido.
 ErrorBadLinkSourceSetButBadValueForRef=O link que você usa não é válido. Uma 'fonte' para pagamento é definida, mas o valor para 'ref' não é válido.
@@ -280,7 +280,7 @@ ErrorRequestTooLarge=Error, request too large
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=Your PHP parameter upload_max_filesize (%s) is higher than PHP parameter post_max_size (%s). This is not a consistent setup.
-WarningPasswordSetWithNoAccount=Uma senha foi definida para este membro. No entanto, nenhuma conta de usuário foi criada. Portanto, essa senha é armazenada, mas não pode ser usada para fazer login no Dolibarr. Pode ser usado por um módulo externo / interface, mas se você não precisa definir nenhum login nem senha para um membro, você pode desativar a opção "Gerenciar um login para cada membro" da configuração do módulo de membro. Se você precisar gerenciar um login, mas não precisar de nenhuma senha, poderá manter esse campo vazio para evitar esse aviso. Nota: O email também pode ser usado como um login se o membro estiver vinculado a um usuário.
+WarningPasswordSetWithNoAccount=Uma senha foi definida para este membro. No entanto, nenhuma conta de usuário foi criada. Portanto, essa senha é armazenada, mas não pode ser usada para fazer login no bespoerp. Pode ser usado por um módulo externo / interface, mas se você não precisa definir nenhum login nem senha para um membro, você pode desativar a opção "Gerenciar um login para cada membro" da configuração do módulo de membro. Se você precisar gerenciar um login, mas não precisar de nenhuma senha, poderá manter esse campo vazio para evitar esse aviso. Nota: O email também pode ser usado como um login se o membro estiver vinculado a um usuário.
 WarningMandatorySetupNotComplete=Click here to setup mandatory parameters
 WarningEnableYourModulesApplications=Click here to enable your modules and applications
 WarningSafeModeOnCheckExecDir=Atenção, PHP <b>safe_mode</b> opção está no modo de comando devem ser armazenados dentro de um diretório declarado pelo <b>safe_mode_exec_dir</b> parâmetro php.

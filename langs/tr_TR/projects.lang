@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - projects
+# bespoerp language file - Source file is en_US - projects
 RefProject=Referans Proje
 ProjectRef=Proje ref.
 ProjectId=Proje Kimliği
@@ -153,12 +153,12 @@ ConfirmCloneProject=Bu projenin kopyasını oluşturmak istediğinizden emin mis
 ProjectReportDate=Change task dates according to new project start date
 ErrorShiftTaskDate=Görev tarihini yeni proje başlama tarihine göre kaydırmak olası değil
 ProjectsAndTasksLines=Projeler ve görevler
-ProjectCreatedInDolibarr=%s projesi oluşturuldu
-ProjectValidatedInDolibarr=%s projesi onaylandı
-ProjectModifiedInDolibarr=Proje %s değiştirildi
-TaskCreatedInDolibarr=%s görev oluşturuldu
-TaskModifiedInDolibarr=%s görev değiştirildi
-TaskDeletedInDolibarr=%s görev silindi
+ProjectCreatedInbespoerp=%s projesi oluşturuldu
+ProjectValidatedInbespoerp=%s projesi onaylandı
+ProjectModifiedInbespoerp=Proje %s değiştirildi
+TaskCreatedInbespoerp=%s görev oluşturuldu
+TaskModifiedInbespoerp=%s görev değiştirildi
+TaskDeletedInbespoerp=%s görev silindi
 OpportunityStatus=Lead status
 OpportunityStatusShort=Lead status
 OpportunityProbability=Lead probability

@@ -1,7 +1,7 @@
-# Dolibarr language file - Source file is en_US - paybox
+# bespoerp language file - Source file is en_US - paybox
 PayBoxSetup=پے باکس ماڈیول سیٹ اپ
-PayBoxDesc=یہ ماڈیول صارفین کو <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a> پر ادائیگی کی اجازت دینے کے لیے صفحات پیش کرتا ہے۔ اسے مفت ادائیگی کے لیے یا کسی خاص Dolibarr چیز (انوائس، آرڈر، ...) پر ادائیگی کے لیے استعمال کیا جا سکتا ہے۔
-FollowingUrlAreAvailableToMakePayments=Dolibarr اشیاء پر ادائیگی کرنے کے لیے صارف کو صفحہ پیش کرنے کے لیے درج ذیل URLs دستیاب ہیں۔
+PayBoxDesc=یہ ماڈیول صارفین کو <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a> پر ادائیگی کی اجازت دینے کے لیے صفحات پیش کرتا ہے۔ اسے مفت ادائیگی کے لیے یا کسی خاص bespoerp چیز (انوائس، آرڈر، ...) پر ادائیگی کے لیے استعمال کیا جا سکتا ہے۔
+FollowingUrlAreAvailableToMakePayments=bespoerp اشیاء پر ادائیگی کرنے کے لیے صارف کو صفحہ پیش کرنے کے لیے درج ذیل URLs دستیاب ہیں۔
 PaymentForm=ادائیگی کا فارم
 WelcomeOnPaymentPage=ہماری آن لائن ادائیگی کی خدمت میں خوش آمدید
 ThisScreenAllowsYouToPay=یہ اسکرین آپ کو %s پر آن لائن ادائیگی کرنے کی اجازت دیتی ہے۔

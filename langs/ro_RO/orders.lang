@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - orders
+# bespoerp language file - Source file is en_US - orders
 OrderExists=O comandă era deja deschisă legată de această ofertă comercială, așa că nicio altă comandă nu a fost creată automat
 OrdersArea=Comenzi clienţi
 SuppliersOrdersArea=Comenzi de achiziție
@@ -129,8 +129,8 @@ ConfirmCloneOrder=Sigur doriți să clonați această comandă <b>%s</b>?
 DispatchSupplierOrder=Recepţia comenzii de achiziție %s
 FirstApprovalAlreadyDone=Prima aprobare a fost deja făcută
 SecondApprovalAlreadyDone=A doua aprobare a fost deja făcută
-SupplierOrderReceivedInDolibarr=Comanda de achiziţie %s a fost recepţionată %s
-SupplierOrderSubmitedInDolibarr=Comanda de achiziţie %s a fost trimisă
+SupplierOrderReceivedInbespoerp=Comanda de achiziţie %s a fost recepţionată %s
+SupplierOrderSubmitedInbespoerp=Comanda de achiziţie %s a fost trimisă
 SupplierOrderClassifiedBilled=Comanda de achiziţie %s a fost setată ca facturată
 OtherOrders=Alte comenzi
 SupplierOrderValidatedAndApproved=Comanda de achiziţie este validată şi aprobată : %s

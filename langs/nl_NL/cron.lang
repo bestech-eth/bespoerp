@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# bespoerp language file - Source file is en_US - cron
 # About page
 # Right
 Permission23101 = Lees geplande taak
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Deactiveren
 CronTaskInactive=Deze taak is uitgeschakeld (niet gepland)
 CronId=Id
 CronClassFile=Bestandsnaam met class
-CronModuleHelp=Naam van Dolibarr-modulemap (werkt ook met externe Dolibarr-module). <BR> Als u bijvoorbeeld de ophaalmethode van Dolibarr Product-object / htdocs / <u>product</u> /class/product.class.php wilt aanroepen, is de waarde voor module <br> <i>Product</i>
-CronClassFileHelp=Het relatieve pad en de bestandsnaam die moet worden geladen (pad is relatief ten opzichte van de hoofdmap van de webserver). <BR> Als u bijvoorbeeld de ophaalmethode van Dolibarr Product-object htdocs / product / class / <u>product.class.php</u> wilt aanroepen, is de waarde voor de klasse bestandsnaam <br> <i>product / class / product.class.php</i>
-CronObjectHelp=De objectnaam die moet worden geladen. <BR> Als u bijvoorbeeld de ophaalmethode van Dolibarr Product-object /htdocs/product/class/product.class.php wilt aanroepen, is de waarde voor de klasse bestandsnaam <br> <i>Product</i>
-CronMethodHelp=De objectmethode om te starten. <BR> Als u bijvoorbeeld de ophaalmethode van Dolibarr Product-object /htdocs/product/class/product.class.php wilt aanroepen, is de waarde voor methode <br> <i>halen</i>
-CronArgsHelp=De methode argumenten. <BR> Om bijvoorbeeld de ophaalmethode van het Dolibarr-productobject /htdocs/product/class/product.class.php aan te roepen, kan de waarde voor paramters zijn <br> <i>0, ProductRef</i>
+CronModuleHelp=Naam van bespoerp-modulemap (werkt ook met externe bespoerp-module). <BR> Als u bijvoorbeeld de ophaalmethode van bespoerp Product-object / htdocs / <u>product</u> /class/product.class.php wilt aanroepen, is de waarde voor module <br> <i>Product</i>
+CronClassFileHelp=Het relatieve pad en de bestandsnaam die moet worden geladen (pad is relatief ten opzichte van de hoofdmap van de webserver). <BR> Als u bijvoorbeeld de ophaalmethode van bespoerp Product-object htdocs / product / class / <u>product.class.php</u> wilt aanroepen, is de waarde voor de klasse bestandsnaam <br> <i>product / class / product.class.php</i>
+CronObjectHelp=De objectnaam die moet worden geladen. <BR> Als u bijvoorbeeld de ophaalmethode van bespoerp Product-object /htdocs/product/class/product.class.php wilt aanroepen, is de waarde voor de klasse bestandsnaam <br> <i>Product</i>
+CronMethodHelp=De objectmethode om te starten. <BR> Als u bijvoorbeeld de ophaalmethode van bespoerp Product-object /htdocs/product/class/product.class.php wilt aanroepen, is de waarde voor methode <br> <i>halen</i>
+CronArgsHelp=De methode argumenten. <BR> Om bijvoorbeeld de ophaalmethode van het bespoerp-productobject /htdocs/product/class/product.class.php aan te roepen, kan de waarde voor paramters zijn <br> <i>0, ProductRef</i>
 CronCommandHelp=De te uitvoeren opdrachtregel.
 CronCreateJob=Aanmaken nieuwe geplande taak
 CronFrom=Van

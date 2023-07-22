@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# bespoerp language file - Source file is en_US - products
 ProductRef=Ref. produs
 ProductLabel=Etichetă produs
 ProductLabelTranslated=Etichetă produs tradusă
@@ -300,7 +300,7 @@ MinSupplierPrice=Preţ minim de achiziţie
 MinCustomerPrice=Preț minim de vânzare
 NoDynamicPrice=Fără preț dinamic
 DynamicPriceConfiguration=Setarea dinamică a prețului
-DynamicPriceDesc=Puteți defini formule matematice pentru a calcula prețurile clienților sau furnizorilor. Astfel de formule pot folosi toți operatorii matematici, unele constante și variabile. Puteți defini aici variabilele pe care doriți să le utilizați. Dacă variabila are nevoie de o actualizare automată, puteți defini adresa URL externă pentru a permite Dolibarr să actualizeze automat valoarea.
+DynamicPriceDesc=Puteți defini formule matematice pentru a calcula prețurile clienților sau furnizorilor. Astfel de formule pot folosi toți operatorii matematici, unele constante și variabile. Puteți defini aici variabilele pe care doriți să le utilizați. Dacă variabila are nevoie de o actualizare automată, puteți defini adresa URL externă pentru a permite bespoerp să actualizeze automat valoarea.
 AddVariable=Adăugare variabilă
 AddUpdater=Adăugare actualizator
 GlobalVariables=Variabile globale

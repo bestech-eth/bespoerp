@@ -32,7 +32,7 @@
  *  MEMBER_NEWFORM_AMOUNT               Default amount for auto-subscribe form
  *  MEMBER_MIN_AMOUNT                   Minimum amount
  *  MEMBER_NEWFORM_PAYONLINE            Suggest payment with paypal, paybox or stripe
- *  MEMBER_NEWFORM_DOLIBARRTURNOVER     Show field turnover (specific for dolibarr foundation)
+ *  MEMBER_NEWFORM_bespoerpTURNOVER     Show field turnover (specific for bespoerp foundation)
  *  MEMBER_URL_REDIRECT_SUBSCRIPTION    Url to redirect once registration form has been submitted (hidden option, by default we just show a message on same page or redirect to the payment page)
  *  MEMBER_NEWFORM_FORCETYPE            Force type of member
  *  MEMBER_NEWFORM_FORCEMORPHY          Force nature of member (mor/phy)
@@ -49,7 +49,7 @@ if (!defined('NOBROWSERNOTIF')) {
 	define('NOBROWSERNOTIF', '1');
 }
 if (!defined('NOIPCHECK')) {
-	define('NOIPCHECK', '1'); // Do not check IP defined into conf $dolibarr_main_restrict_ip
+	define('NOIPCHECK', '1'); // Do not check IP defined into conf $bespoerp_main_restrict_ip
 }
 
 // For MultiCompany module.
@@ -60,7 +60,7 @@ if (is_numeric($entity)) {
 }
 
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/company.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/payments.lib.php';
@@ -127,8 +127,8 @@ function llxHeaderVierge($title, $head = "", $disablejs = 0, $disablehead = 0, $
 		$urllogo = DOL_URL_ROOT.'/viewimage.php?cache=1&amp;modulepart=mycompany&amp;file='.urlencode('logos/thumbs/'.$mysoc->logo_small);
 	} elseif (!empty($mysoc->logo) && is_readable($conf->mycompany->dir_output.'/logos/'.$mysoc->logo)) {
 		$urllogo = DOL_URL_ROOT.'/viewimage.php?cache=1&amp;modulepart=mycompany&amp;file='.urlencode('logos/'.$mysoc->logo);
-	} elseif (is_readable(DOL_DOCUMENT_ROOT.'/theme/dolibarr_logo.svg')) {
-		$urllogo = DOL_URL_ROOT.'/theme/dolibarr_logo.svg';
+	} elseif (is_readable(DOL_DOCUMENT_ROOT.'/theme/bespoerp_logo.svg')) {
+		$urllogo = DOL_URL_ROOT.'/theme/bespoerp_logo.svg';
 	}
 
 	print '<div class="center">';
@@ -140,7 +140,7 @@ function llxHeaderVierge($title, $head = "", $disablejs = 0, $disablehead = 0, $
 		print '<img id="dolpaymentlogo" src="'.$urllogo.'">';
 		print '</div>';
 		if (empty($conf->global->MAIN_HIDE_POWERED_BY)) {
-			print '<div class="poweredbypublicpayment opacitymedium right"><a class="poweredbyhref" href="https://www.dolibarr.org?utm_medium=website&utm_source=poweredby" target="dolibarr" rel="noopener">'.$langs->trans("PoweredBy").'<br><img class="poweredbyimg" src="'.DOL_URL_ROOT.'/theme/dolibarr_logo.svg" width="80px"></a></div>';
+			print '<div class="poweredbypublicpayment opacitymedium right"><a class="poweredbyhref" href="https://www.bespoerp.org?utm_medium=website&utm_source=poweredby" target="bespoerp" rel="noopener">'.$langs->trans("PoweredBy").'<br><img class="poweredbyimg" src="'.DOL_URL_ROOT.'/theme/bespoerp_logo.svg" width="80px"></a></div>';
 		}
 		print '</div>';
 	}
@@ -247,7 +247,7 @@ if (empty($reshook) && $action == 'add') {
 		$langs->load("errors");
 		$errmsg .= $langs->trans("ErrorBadDateFormat")."<br>\n";
 	}
-	if (!empty($conf->global->MEMBER_NEWFORM_DOLIBARRTURNOVER)) {
+	if (!empty($conf->global->MEMBER_NEWFORM_bespoerpTURNOVER)) {
 		if (GETPOST("morphy") == 'mor' && GETPOST('budget') <= 0) {
 			$error++;
 			$errmsg .= $langs->trans("ErrorFieldRequired", $langs->transnoentitiesnoconv("TurnoverOrBudget"))."<br>\n";
@@ -361,7 +361,7 @@ if (empty($reshook) && $action == 'add') {
 					$texttosend = make_substitutions(dol_concatdesc($msg, $adht->getMailOnValid()), $substitutionarray, $outputlangs);
 
 					if ($subjecttosend && $texttosend) {
-						$moreinheader = 'X-Dolibarr-Info: send_an_email by public/members/new.php'."\r\n";
+						$moreinheader = 'X-bespoerp-Info: send_an_email by public/members/new.php'."\r\n";
 
 						$result = $object->send_an_email($texttosend, $subjecttosend, array(), array(), array(), "", "", 0, -1, '', $moreinheader);
 					}
@@ -686,9 +686,9 @@ if (!empty($conf->global->MEMBER_SKIP_TABLE) || !empty($conf->global->MEMBER_NEW
 	print '<td class="tdtop"><textarea name="note_private" id="note_private" wrap="soft" class="quatrevingtpercent" rows="'.ROWS_3.'">'.dol_escape_htmltag(GETPOST('note_private', 'restricthtml'), 0, 1).'</textarea></td>';
 	print '</tr>'."\n";
 
-	// Add specific fields used by Dolibarr foundation for example
+	// Add specific fields used by bespoerp foundation for example
 	// TODO Move this into generic feature.
-	if (!empty($conf->global->MEMBER_NEWFORM_DOLIBARRTURNOVER)) {
+	if (!empty($conf->global->MEMBER_NEWFORM_bespoerpTURNOVER)) {
 		$arraybudget = array('50'=>'<= 100 000', '100'=>'<= 200 000', '200'=>'<= 500 000', '300'=>'<= 1 500 000', '600'=>'<= 3 000 000', '1000'=>'<= 5 000 000', '2000'=>'5 000 000+');
 		print '<tr id="trbudget" class="trcompany"><td>'.$langs->trans("TurnoverOrBudget").' <span style="color: red">*</span></td><td>';
 		print $form->selectarray('budget', $arraybudget, GETPOST('budget'), 1);

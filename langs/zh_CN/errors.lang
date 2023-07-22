@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# bespoerp language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=没有错误，我们承诺
@@ -51,10 +51,10 @@ ErrorWrongDate=日期不正确！
 ErrorFailedToWriteInDir=无法写在目录%s
 ErrorFailedToBuildArchive=建立档案文件%s失败
 ErrorFoundBadEmailInFile=找到%S的语法不正确的电子邮件文件中的行（例如行%的电子邮件s =%s）的
-ErrorUserCannotBeDelete=无法删除用户，也许它与Dolibarr实体相关
+ErrorUserCannotBeDelete=无法删除用户，也许它与bespoerp实体相关
 ErrorFieldsRequired=一些必填字段被留空
 ErrorSubjectIsRequired=需要电子邮件主题
-ErrorFailedToCreateDir=无法创建一个目录。检查Web服务器的用户有权限写入Dolibarr文件目录。如果参数<b>safe_mode设置</b>为启用这个PHP，检查Dolibarr php文件到Web服务器的用户拥有（或组）。
+ErrorFailedToCreateDir=无法创建一个目录。检查Web服务器的用户有权限写入bespoerp文件目录。如果参数<b>safe_mode设置</b>为启用这个PHP，检查bespoerp php文件到Web服务器的用户拥有（或组）。
 ErrorNoMailDefinedForThisUser=没有邮件定义该用户
 ErrorSetupOfEmailsNotComplete=电子邮件设置未完成
 ErrorFeatureNeedJavascript=此功能需要Javascript被激活才能工作。更改此设置 - 显示。
@@ -82,7 +82,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=字段<b>%s</b>必须不包括�
 ErrorFieldMustHaveXChar=字段<b>%s</b>必须有至少%s字符
 ErrorNoAccountancyModuleLoaded=没有激活启用任何财务会计模块
 ErrorExportDuplicateProfil=导出设定配置名称已存在
-ErrorLDAPSetupNotComplete=Dolibarr - LDAP的匹配是不完整的。
+ErrorLDAPSetupNotComplete=bespoerp - LDAP的匹配是不完整的。
 ErrorLDAPMakeManualTest=甲。LDIF文件已经生成在目录%s的尝试加载命令行手动有更多的错误信息。
 ErrorCantSaveADoneUserWithZeroPercentage=Can't save an action with "status not started" if field "done by" is also filled.
 ErrorRefAlreadyExists=参考<b>%s</b>已存在
@@ -115,8 +115,8 @@ ErrorProdIdAlreadyExist=%s被分配到其他合作方
 ErrorFailedToSendPassword=无法传送密码
 ErrorFailedToLoadRSSFile=未能得到RSS提要。尝试添加恒定MAIN_SIMPLEXMLLOAD_DEBUG，如果错误消息不提供足够的信息。
 ErrorForbidden=访问被拒绝。<br>您尝试访问已禁用模块的页面、区域或功能，或者不在经过身份验证的会话中或不允许您的用户访问。
-ErrorForbidden2=此登陆权限可在你的Dolibarr管理员菜单 %s->%s中定义。
-ErrorForbidden3=看来Dolibarr是不是通过身份验证的会话中使用。以在Dolibarr安装文件就会知道如何管理认证（htaccess的，mod_auth或其他...).
+ErrorForbidden2=此登陆权限可在你的bespoerp管理员菜单 %s->%s中定义。
+ErrorForbidden3=看来bespoerp是不是通过身份验证的会话中使用。以在bespoerp安装文件就会知道如何管理认证（htaccess的，mod_auth或其他...).
 ErrorForbidden4=注意：清除你的浏览器cookies，以销毁该登录的现有会话。
 ErrorNoImagickReadimage=功能imagick_readimage是没有发现在这个PHP。没有预览可用。管理员可以从菜单中禁用此设置 - 显示选项卡。
 ErrorRecordAlreadyExists=记录已存在
@@ -139,8 +139,8 @@ ErrorWebServerUserHasNotPermission=<b>%s</b>用来执行Web服务器用户帐户
 ErrorNoActivatedBarcode=没有激活的条码类型
 ErrUnzipFails=%s 无法解压缩与解压缩
 ErrNoZipEngine=没有引擎在这个PHP中压缩/解压缩%s文件
-ErrorFileMustBeADolibarrPackage=%s 文件必须是Dolibarr zip格式包
-ErrorModuleFileRequired=您必须选择Dolibarr模块包文件
+ErrorFileMustBeAbespoerpPackage=%s 文件必须是bespoerp zip格式包
+ErrorModuleFileRequired=您必须选择bespoerp模块包文件
 ErrorPhpCurlNotInstalled=PHP Curl没有安装，这需要与支付宝协调
 ErrorFailedToAddToMailmanList=Failed to add record %s to Mailman list %s or SPIP base
 ErrorFailedToRemoveToMailmanList=Failed to remove record %s to Mailman list %s or SPIP base
@@ -152,7 +152,7 @@ ErrorDateMustBeBeforeToday=日期必须早于今天
 ErrorDateMustBeInFuture=日期必须晚于今天
 ErrorPaymentModeDefinedToWithoutSetup=付款模式设置为键入%s但未完成模块发票的设置以定义要为此付款模式显示的信息。
 ErrorPHPNeedModule=错误，您的PHP必须安装模块<b> %s </b>才能使用此功能。
-ErrorOpenIDSetupNotComplete=您设置Dolibarr配置文件以允许OpenID身份认证，但OpenID服务的网址未定义为常量%s
+ErrorOpenIDSetupNotComplete=您设置bespoerp配置文件以允许OpenID身份认证，但OpenID服务的网址未定义为常量%s
 ErrorWarehouseMustDiffers=源仓库和目标仓库必须不同
 ErrorBadFormat=格式错误！
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=错误，此会员尚未链接到任何合作方。在创建订阅发票之前，将会员链接到现有合作方或创建新的合作方。
@@ -215,7 +215,7 @@ ErrorUserNotAssignedToTask=必须为任务分配用户才能输入消耗的时�
 ErrorTaskAlreadyAssigned=任务已分配给用户
 ErrorModuleFileSeemsToHaveAWrongFormat=模块包似乎格式错误。
 ErrorModuleFileSeemsToHaveAWrongFormat2=至少有一个强制性目录必须存在于模块的压缩包中： <strong>%s</strong>或<strong>%s</strong>
-ErrorFilenameDosNotMatchDolibarrPackageRules=模块包的名称（<strong> %s </strong>）与预期的名称语法不匹配：<strong> %s </strong>
+ErrorFilenameDosNotMatchbespoerpPackageRules=模块包的名称（<strong> %s </strong>）与预期的名称语法不匹配：<strong> %s </strong>
 ErrorDuplicateTrigger=错误，重复的触发器名称%s。已经从%s加载。
 ErrorNoWarehouseDefined=错误，没有定义仓库。
 ErrorBadLinkSourceSetButBadValueForRef=您使用的链接无效。付款的“来源”已定义，但“参考”的值无效。
@@ -306,13 +306,13 @@ ErrorTooMuchFileInForm=Too much files in form, the maximum number is %s file(s)
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=您的PHP参数 upload_max_filesize （%s）比PHP参数 post_max_size（%s）高。这不是一个一致的设置。
-WarningPasswordSetWithNoAccount=为此成员设置了密码。但是，未创建任何用户帐户。因此，此密码已存储，但无法用于登录Dolibarr。它可以由外部模块/接口使用，但如果您不需要为成员定义任何登录名或密码，则可以从成员模块设置中禁用“管理每个成员的登录名”选项。如果您需要管理登录但不需要任何密码，则可以将此字段保留为空以避免此警告。注意：如果成员链接到用户，则电子邮件也可用作登录。
+WarningPasswordSetWithNoAccount=为此成员设置了密码。但是，未创建任何用户帐户。因此，此密码已存储，但无法用于登录bespoerp。它可以由外部模块/接口使用，但如果您不需要为成员定义任何登录名或密码，则可以从成员模块设置中禁用“管理每个成员的登录名”选项。如果您需要管理登录但不需要任何密码，则可以将此字段保留为空以避免此警告。注意：如果成员链接到用户，则电子邮件也可用作登录。
 WarningMandatorySetupNotComplete=点击这里设置主要参数
 WarningEnableYourModulesApplications=点击这里，启用您的模块和应用程序
 WarningSafeModeOnCheckExecDir=警告，PHP的选项<b>safe_mode设置</b>为在此情况下命令必须在<b>safe_mode_exec_dir之</b>存储参数的PHP目录内宣布。
 WarningBookmarkAlreadyExists=本标题或此目标（网址）书签已存在。
 WarningPassIsEmpty=警告，数据库密码是空的。这是一个安全漏洞。您应该添加一个密码到您的数据库，并改变你的conf.php文件，以反映这一点。
-WarningConfFileMustBeReadOnly=警告：您的服务器配置文件 (<b>htdocs/conf/conf.php</b>——LiAnGjiA注：初始安装时需要允许Dolibarr读写权限安装完成后为了安全着想则需要取消写入权限害怕被公鸡啦) 有写入权限。这是个非常严重的漏洞。其允许服务器权限级别的文件读取与写入，有被恶意利用的风险。假如你是Windows的磁盘格式是FAT格式，你必须将该配置文件的权限修改为只读权限，并请继续加强其他服务器安全防护工作。
+WarningConfFileMustBeReadOnly=警告：您的服务器配置文件 (<b>htdocs/conf/conf.php</b>——LiAnGjiA注：初始安装时需要允许bespoerp读写权限安装完成后为了安全着想则需要取消写入权限害怕被公鸡啦) 有写入权限。这是个非常严重的漏洞。其允许服务器权限级别的文件读取与写入，有被恶意利用的风险。假如你是Windows的磁盘格式是FAT格式，你必须将该配置文件的权限修改为只读权限，并请继续加强其他服务器安全防护工作。
 WarningsOnXLines=<b>%S上</b>的源代码行警告
 WarningNoDocumentModelActivated=No model, for document generation, has been activated. A model will be chosen by default until you check your module setup.
 WarningLockFileDoesNotExists=Warning, once setup is finished, you must disable the installation/migration tools by adding a file <b>install.lock</b> into directory <b>%s</b>. Omitting the creation of this file is a grave security risk.

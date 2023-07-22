@@ -1,7 +1,7 @@
-# Dolibarr language file - Source file is en_US - paybox
+# bespoerp language file - Source file is en_US - paybox
 PayBoxSetup=PayBox moduļa iestatīšana
-PayBoxDesc=Šis modulis piedāvā lapas, kas ļauj klientiem veikt maksājumus <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a>. To var izmantot bezmaksas maksājumam vai maksājumam par konkrētu Dolibarr objektu (rēķins, pasūtījums, ...)
-FollowingUrlAreAvailableToMakePayments=Pēc URL ir pieejami, lai piedāvātu lapu, lai klients varētu veikt maksājumu par Dolibarr objektiem
+PayBoxDesc=Šis modulis piedāvā lapas, kas ļauj klientiem veikt maksājumus <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a>. To var izmantot bezmaksas maksājumam vai maksājumam par konkrētu bespoerp objektu (rēķins, pasūtījums, ...)
+FollowingUrlAreAvailableToMakePayments=Pēc URL ir pieejami, lai piedāvātu lapu, lai klients varētu veikt maksājumu par bespoerp objektiem
 PaymentForm=Maksājuma formu
 WelcomeOnPaymentPage=Laipni lūdzam mūsu tiešsaistes maksājumu pakalpojumu
 ThisScreenAllowsYouToPay=Šis ekrāns ļauj jums veikt tiešsaistes maksājumu %s.

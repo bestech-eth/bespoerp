@@ -27,7 +27,7 @@
 /**
  *     	\file       htdocs/public/website/index.php
  *		\ingroup    website
- *		\brief      Wrapper to output pages when website is powered by Dolibarr instead of a native web server
+ *		\brief      Wrapper to output pages when website is powered by bespoerp instead of a native web server
  */
 
 if (!defined('NOTOKENRENEWAL')) {
@@ -49,7 +49,7 @@ if (!defined('NOREQUIREAJAX')) {
 	define('NOREQUIREAJAX', '1');
 }
 if (!defined('NOIPCHECK')) {
-	define('NOIPCHECK', '1'); // Do not check IP defined into conf $dolibarr_main_restrict_ip
+	define('NOIPCHECK', '1'); // Do not check IP defined into conf $bespoerp_main_restrict_ip
 }
 if (!defined('NOBROWSERNOTIF')) {
 	define('NOBROWSERNOTIF', '1');
@@ -161,17 +161,17 @@ if (!empty($conf->global->MAIN_APPLICATION_TITLE)) {
 
 
 // Security: Delete string ../ into $original_file
-global $dolibarr_main_data_root;
+global $bespoerp_main_data_root;
 
 if ($pageid == 'css') {   // No more used ?
 	header('Content-type: text/css');
-	// Important: Following code is to avoid page request by browser and PHP CPU at each Dolibarr page access.
-	//if (empty($dolibarr_nocache)) header('Cache-Control: max-age=3600, public, must-revalidate');
+	// Important: Following code is to avoid page request by browser and PHP CPU at each bespoerp page access.
+	//if (empty($bespoerp_nocache)) header('Cache-Control: max-age=3600, public, must-revalidate');
 	//else
 	header('Cache-Control: no-cache');
-	$original_file = $dolibarr_main_data_root.($conf->entity > 1 ? '/'.$conf->entity : '').'/website/'.$websitekey.'/styles.css.php';
+	$original_file = $bespoerp_main_data_root.($conf->entity > 1 ? '/'.$conf->entity : '').'/website/'.$websitekey.'/styles.css.php';
 } else {
-	$original_file = $dolibarr_main_data_root.($conf->entity > 1 ? '/'.$conf->entity : '').'/website/'.$websitekey.'/page'.$pageid.'.tpl.php';
+	$original_file = $bespoerp_main_data_root.($conf->entity > 1 ? '/'.$conf->entity : '').'/website/'.$websitekey.'/page'.$pageid.'.tpl.php';
 }
 
 // Find the subdirectory name as the reference
@@ -215,8 +215,8 @@ if (!file_exists($original_file_osencoded)) {
 
 
 // Output page content
-define('USEDOLIBARRSERVER', 1);
-print '<!-- Page content '.$original_file.' rendered with DOLIBARR SERVER : Html with CSS link and html header + Body that was saved into tpl dir -->'."\n";
+define('USEbespoerpSERVER', 1);
+print '<!-- Page content '.$original_file.' rendered with bespoerp SERVER : Html with CSS link and html header + Body that was saved into tpl dir -->'."\n";
 include_once $original_file_osencoded; // Note: The pageXXX.tpl.php showed here contains a formatage with dolWebsiteOutput() at end of page.
 
 if (is_object($db)) {

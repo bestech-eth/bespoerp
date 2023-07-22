@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - workflow
+# bespoerp language file - Source file is en_US - workflow
 WorkflowSetup=Podešavanja modula Workflow
 WorkflowDesc=This module provides some automatic actions. By default, the workflow is open (you can do things in the order you want) but here you can activate some automatic actions.
 ThereIsNoWorkflowToModify=Nema mogućih izmena workflow-a u aktiviranim modulima.

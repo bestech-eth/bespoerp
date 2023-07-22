@@ -29,7 +29,7 @@ if (!defined('NOBROWSERNOTIF')) {
 	define('NOBROWSERNOTIF', '1');
 }
 if (!defined('NOIPCHECK')) {
-	define('NOIPCHECK', '1'); // Do not check IP defined into conf $dolibarr_main_restrict_ip
+	define('NOIPCHECK', '1'); // Do not check IP defined into conf $bespoerp_main_restrict_ip
 }
 
 // C'est un wrapper, donc header vierge
@@ -52,7 +52,7 @@ function llxFooterVierge()
 	print '</body></html>';
 }
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/don/class/don.class.php';
 

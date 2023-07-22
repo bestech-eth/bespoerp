@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# bespoerp language file - Source file is en_US - cron
 # About page
 # Right
 Permission23101 = Lasīt Plānotos darbus
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Izslēgt
 CronTaskInactive=Šis darbs ir atspējots (nav ieplānots)
 CronId=Id
 CronClassFile=Faila nosaukums ar klasi
-CronModuleHelp=Dolibarr moduļu direktorijas nosaukums (arī darbojas ar ārēju Dolibarr moduli). <BR> Piemēram, lai izsauktu Dolibarr produkta objektu /htdocs/<u>product</u>/class/product.class.php iegūšanas metodi, moduļa vērtība ir <br> <i>produkts</i>
-CronClassFileHelp=Relatīvais ceļš un faila nosaukums ielādei (ceļš ir salīdzinājumā ar tīmekļa servera saknes direktoriju). <BR> Piemēram, lai izsauktu Dolibarr produkta objekta htdocs / product / class / <u> product.class.php </ u> iegūšanas metodi, klases faila nosaukuma vērtība ir <br> <i> produkts / klase / product.class.php </ i>
-CronObjectHelp=Objekta nosaukums ielādei. <BR> Piemēram, lai izsauktu Dolibarr Produkta objekta /htdocs/product/class/product.class.php ielādes metodi, klases faila nosaukuma vērtība ir <br> <i> Produkts </ i>
-CronMethodHelp=Objekta metode, lai palaistu. <BR> Piemēram, lai izsauktu Dolibarr Produkta objekta /htdocs/product/class/product.class.php iegūšanas metodi, metodes vērtība ir <br> <i> atnest </ i>
-CronArgsHelp=Metodes argumenti. <BR> Piemēram, lai izsauktu Dolibarr produkta objekta /htdocs/product/class/product.class.php ielādes metodi, paramērķu vērtība var būt <br> <i> 0, ProductRef </ i>
+CronModuleHelp=bespoerp moduļu direktorijas nosaukums (arī darbojas ar ārēju bespoerp moduli). <BR> Piemēram, lai izsauktu bespoerp produkta objektu /htdocs/<u>product</u>/class/product.class.php iegūšanas metodi, moduļa vērtība ir <br> <i>produkts</i>
+CronClassFileHelp=Relatīvais ceļš un faila nosaukums ielādei (ceļš ir salīdzinājumā ar tīmekļa servera saknes direktoriju). <BR> Piemēram, lai izsauktu bespoerp produkta objekta htdocs / product / class / <u> product.class.php </ u> iegūšanas metodi, klases faila nosaukuma vērtība ir <br> <i> produkts / klase / product.class.php </ i>
+CronObjectHelp=Objekta nosaukums ielādei. <BR> Piemēram, lai izsauktu bespoerp Produkta objekta /htdocs/product/class/product.class.php ielādes metodi, klases faila nosaukuma vērtība ir <br> <i> Produkts </ i>
+CronMethodHelp=Objekta metode, lai palaistu. <BR> Piemēram, lai izsauktu bespoerp Produkta objekta /htdocs/product/class/product.class.php iegūšanas metodi, metodes vērtība ir <br> <i> atnest </ i>
+CronArgsHelp=Metodes argumenti. <BR> Piemēram, lai izsauktu bespoerp produkta objekta /htdocs/product/class/product.class.php ielādes metodi, paramērķu vērtība var būt <br> <i> 0, ProductRef </ i>
 CronCommandHelp=Sistēma komandrindā izpildīt.
 CronCreateJob=Izveidot jaunu plānoto darbu
 CronFrom=No

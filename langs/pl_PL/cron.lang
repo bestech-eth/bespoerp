@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# bespoerp language file - Source file is en_US - cron
 # About page
 # Right
 Permission23101 = Przeglądaj zaplanowane zadania
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Wyłączone
 CronTaskInactive=To zadanie jest wyłączone (nie zaplanowano)
 CronId=ID
 CronClassFile=Nazwa pliku z klasą
-CronModuleHelp=Nazwa katalogu modułu Dolibarr (działa również z zewnętrznym modułem Dolibarr). <BR> Na przykład, aby wywołać metodę pobierania obiektu Dolibarr Product / htdocs / <u> </u> /class/product.class.php, wartość modułu to <br> a049271e8bz0 a049271e8bz0
-CronClassFileHelp=Względna ścieżka i nazwa pliku do załadowania (ścieżka jest względna w stosunku do katalogu głównego serwera WWW). <BR> Na przykład, aby wywołać metodę pobierania obiektu Dolibarr Product htdocs / product / class / <u> product.class.php </u>, wartość dla nazwy pliku klasy to <br> a049271e818cz0 klasa / produkt.
-CronObjectHelp=Nazwa obiektu do załadowania. <BR> Na przykład, aby wywołać metodę pobierania obiektu Dolibarr Product /htdocs/product/class/product.class.php, wartość nazwy pliku klasy to <br> <i> Produkt </i>
-CronMethodHelp=Metoda obiektu do uruchomienia. <BR> Na przykład, aby wywołać metodę pobierania obiektu Dolibarr Product /htdocs/product/class/product.class.php, wartość metody to <br> <i> fetch </i>
-CronArgsHelp=Argumenty metody. <BR> Na przykład, aby wywołać metodę pobierania obiektu Dolibarr Product /htdocs/product/class/product.class.php, parametr może mieć wartość <br> <i> 0, ProductRef </i>
+CronModuleHelp=Nazwa katalogu modułu bespoerp (działa również z zewnętrznym modułem bespoerp). <BR> Na przykład, aby wywołać metodę pobierania obiektu bespoerp Product / htdocs / <u> </u> /class/product.class.php, wartość modułu to <br> a049271e8bz0 a049271e8bz0
+CronClassFileHelp=Względna ścieżka i nazwa pliku do załadowania (ścieżka jest względna w stosunku do katalogu głównego serwera WWW). <BR> Na przykład, aby wywołać metodę pobierania obiektu bespoerp Product htdocs / product / class / <u> product.class.php </u>, wartość dla nazwy pliku klasy to <br> a049271e818cz0 klasa / produkt.
+CronObjectHelp=Nazwa obiektu do załadowania. <BR> Na przykład, aby wywołać metodę pobierania obiektu bespoerp Product /htdocs/product/class/product.class.php, wartość nazwy pliku klasy to <br> <i> Produkt </i>
+CronMethodHelp=Metoda obiektu do uruchomienia. <BR> Na przykład, aby wywołać metodę pobierania obiektu bespoerp Product /htdocs/product/class/product.class.php, wartość metody to <br> <i> fetch </i>
+CronArgsHelp=Argumenty metody. <BR> Na przykład, aby wywołać metodę pobierania obiektu bespoerp Product /htdocs/product/class/product.class.php, parametr może mieć wartość <br> <i> 0, ProductRef </i>
 CronCommandHelp=System linii poleceń do wykonania.
 CronCreateJob=Utwórz nowe zaplanowane zadanie
 CronFrom=Z

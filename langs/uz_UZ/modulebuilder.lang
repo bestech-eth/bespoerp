@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# bespoerp language file - Source file is en_US - loan
 IdModule= Module id
 ModuleBuilderDesc=Ushbu vositadan faqat tajribali foydalanuvchilar yoki ishlab chiquvchilar foydalanishi kerak. U o'z modulingizni yaratish yoki tahrirlash uchun yordamchi dasturlarni taqdim etadi. Muqobil <a href="%s" target="_blank" rel="noopener noreferrer"> qo'lda ishlab chiqish uchun hujjatlar bu yerda </a>.
 EnterNameOfModuleDesc=Bo'sh joy qoldirmasdan yaratish uchun modul/ilova nomini kiriting. So'zlarni ajratish uchun katta harflardan foydalaning (masalan: MyModule, EcommerceForShop, SyncWithMySystem...)
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=Siz modulingizni o'chirib tashlashingiz mumkin. OG
 EnterNameOfObjectToDeleteDesc=Ob'ektni o'chirishingiz mumkin. OGOHLANTIRISH: Ob'ektga tegishli bo'lgan barcha kodlash fayllari (qo'lda yaratilgan yoki yaratilgan) o'chiriladi!
 DangerZone=Xavfli hudud
 BuildPackage=Paket yaratish
-BuildPackageDesc=Siz o'zingizning arizangizning zip paketini yaratishingiz mumkin, shunda siz uni har qanday Dolibarr-da tarqatishga tayyor bo'lasiz. Siz uni tarqatishingiz yoki <a href="https://www.dolistore.com"> kabi bozorda sotishingiz mumkin DoliStore.com </a>.
+BuildPackageDesc=Siz o'zingizning arizangizning zip paketini yaratishingiz mumkin, shunda siz uni har qanday bespoerp-da tarqatishga tayyor bo'lasiz. Siz uni tarqatishingiz yoki <a href="https://www.dolistore.com"> kabi bozorda sotishingiz mumkin DoliStore.com </a>.
 BuildDocumentation=Hujjatlarni yaratish
 ModuleIsNotActive=Ushbu modul hali faollashtirilmagan. Uni jonli qilish uchun %s-ga o'ting yoki shu yerni bosing
 ModuleIsLive=Ushbu modul faollashtirildi. Har qanday o'zgarish joriy jonli xususiyatni buzishi mumkin.
@@ -110,7 +110,7 @@ HooksDefDesc=<b> module_parts ['ilgaklar'] </b> xususiyatida, modul identifikato
 TriggerDefDesc=Trigger faylida modulingizdan tashqari biznes hodisasi (boshqa modullar tomonidan ishga tushirilgan hodisalar) bajarilganda bajarmoqchi bo'lgan kodni aniqlang.
 SeeIDsInUse=O'rnatishda foydalanilayotgan identifikatorlarni ko'ring
 SeeReservedIDsRangeHere=Saqlangan identifikatorlar qatorini ko'ring
-ToolkitForDevelopers=Dolibarr dasturchilari uchun qo'llanma
+ToolkitForDevelopers=bespoerp dasturchilari uchun qo'llanma
 TryToUseTheModuleBuilder=Agar siz SQL va PHP haqida ma'lumotga ega bo'lsangiz, mahalliy modul yaratuvchisi sehrgaridan foydalanishingiz mumkin. <br> <strong> %s </strong> modulini yoqing va ustadan <span class="fa fa-bug"> </span> o'ng menyusida bosing. <br> Ogohlantirish: Bu ishlab chiquvchining rivojlangan xususiyati, ishlab chiqarish saytida </b> emas, balki <b> tajribasini bajaring!
 SeeTopRightMenu=Yuqoridagi o'ng menyuda <span class="fa fa-bug"> </span> ga qarang.
 AddLanguageFile=Til faylini qo'shing

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - projects
+# bespoerp language file - Source file is en_US - projects
 RefProject=Tham chiếu dự án
 ProjectRef=Tham chiếu dự án
 ProjectId=ID dự án
@@ -157,12 +157,12 @@ ConfirmCloneProject=Bạn có chắc chắn để nhân bản dự án này?
 ProjectReportDate=Thay đổi ngày nhiệm vụ theo ngày bắt đầu dự án mới
 ErrorShiftTaskDate=Không thể dịch chuyển ngày của tác vụ theo ngày bắt đầu của dự án mới
 ProjectsAndTasksLines=Các dự án và tác vụ
-ProjectCreatedInDolibarr=Dự án %s đã được tạo
-ProjectValidatedInDolibarr=Dự án %s được xác nhận
-ProjectModifiedInDolibarr=Dự án %s được sửa đổi
-TaskCreatedInDolibarr=Tác vụ %s được tạo
-TaskModifiedInDolibarr=Tác vụ %s đã chỉnh sửa
-TaskDeletedInDolibarr=Tác vụ %s đã xóa
+ProjectCreatedInbespoerp=Dự án %s đã được tạo
+ProjectValidatedInbespoerp=Dự án %s được xác nhận
+ProjectModifiedInbespoerp=Dự án %s được sửa đổi
+TaskCreatedInbespoerp=Tác vụ %s được tạo
+TaskModifiedInbespoerp=Tác vụ %s đã chỉnh sửa
+TaskDeletedInbespoerp=Tác vụ %s đã xóa
 OpportunityStatus=Trạng thái tiềm năng
 OpportunityStatusShort=Trạng thái tiềm năng
 OpportunityProbability=Xác suất tiềm năng

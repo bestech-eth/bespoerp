@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# bespoerp language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Numele societăţii %s există deja. Alegeţi un altul.
 ErrorSetACountryFirst=Setaţi mai întâi ţara
 SelectThirdParty=Selectaţi un terţ
@@ -12,7 +12,7 @@ MenuNewSupplier=Furnizor nou
 MenuNewPrivateIndividual=Persoană fizică nouă
 NewCompany=Companie nouă (prospect, client, furnizor)
 NewThirdParty=Terț nou (prospect, client, furnizor)
-CreateDolibarrThirdPartySupplier=Crează un terț (furnizor)
+CreatebespoerpThirdPartySupplier=Crează un terț (furnizor)
 CreateThirdPartyOnly=Creare terţ
 CreateThirdPartyAndContact=Creați un terț + un contact asociat
 ProspectionArea=Prospecţi
@@ -429,8 +429,8 @@ ProspectsByStatus=Prospecţi după status
 NoParentCompany=Niciunul
 ExportCardToFormat=Export fişă în format
 ContactNotLinkedToCompany=Contact neasociat la un terţ
-DolibarrLogin=Nume de autentificare
-NoDolibarrAccess=Utilizator fără acces în sistem
+bespoerpLogin=Nume de autentificare
+NobespoerpAccess=Utilizator fără acces în sistem
 ExportDataset_company_1=Terți (companii/fundații/persoane fizice) și proprietățile acestora
 ExportDataset_company_2=Persoane de contact și proprietățile acestora
 ImportDataset_company_1=Terți și proprietățile acestora

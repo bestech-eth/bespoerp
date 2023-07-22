@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - marque pages
+# bespoerp language file - Source file is en_US - marque pages
 AddThisPageToBookmarks=Ychwanegu tudalen gyfredol at nodau tudalen
 Bookmark=Llyfrnod
 Bookmarks=Llyfrnodau
@@ -15,7 +15,7 @@ UrlOrLink=URL
 BehaviourOnClick=Ymddygiad pan ddewisir URL nod tudalen
 CreateBookmark=Creu nod tudalen
 SetHereATitleForLink=Gosodwch enw ar gyfer y nod tudalen
-UseAnExternalHttpLinkOrRelativeDolibarrLink=Defnyddiwch ddolen allanol/absoliwt (https://externalurl.com) neu ddolen fewnol/perthynol (/mypage.php). Gallwch hefyd ddefnyddio ffôn fel ffôn: 0123456.
+UseAnExternalHttpLinkOrRelativebespoerpLink=Defnyddiwch ddolen allanol/absoliwt (https://externalurl.com) neu ddolen fewnol/perthynol (/mypage.php). Gallwch hefyd ddefnyddio ffôn fel ffôn: 0123456.
 ChooseIfANewWindowMustBeOpenedOnClickOnBookmark=Dewiswch a ddylai'r dudalen gysylltiedig agor yn y tab cyfredol neu dab newydd
 BookmarksManagement=Rheoli nodau tudalen
 BookmarksMenuShortCut=Ctrl + shifft + m

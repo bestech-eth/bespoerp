@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# bespoerp language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=A palavra-passe para o utilizador <b>%s</b> no domínio <b>%s</b> deve de ser alterada.
 UserMustChangePassNextLogon=O utilizador deve alterar a palavra-passe no domínio %s
 LDAPInformationsForThisContact=Informação da base de dados LDAP deste contacto
@@ -22,6 +22,6 @@ GroupSynchronized=Grupo sincronizado
 MemberSynchronized=Membro sincronizado
 MemberTypeSynchronized=Tipo de membro sincronizado
 ContactSynchronized=Contato sincronizado
-ForceSynchronize=forçar sincronização Dolibarr -> LDAP
+ForceSynchronize=forçar sincronização bespoerp -> LDAP
 ErrorFailedToReadLDAP=Erro na leitura do anuario LDAP. Verificar a configuração do módulo LDAP e a acessibilidade do anuario.
 PasswordOfUserInLDAP=Palavra-passe do utilizador para LDAP

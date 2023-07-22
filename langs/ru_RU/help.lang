@@ -1,12 +1,12 @@
-# Dolibarr language file - Source file is en_US - help
+# bespoerp language file - Source file is en_US - help
 CommunitySupport=Поддержка через Форум/Wiki
 EMailSupport=Поддержка по email
 RemoteControlSupport=Онлайн-поддержка в реальном времени / удаленная поддержка
 OtherSupport=Другие виды поддержки
 ToSeeListOfAvailableRessources=Связаться/Смотреть имеющиеся ресурсы:
 HelpCenter=Справочный центр
-DolibarrHelpCenter=Центр справки и поддержки Dolibarr
-ToGoBackToDolibarr=В противном случае <a href="%s">щелкните здесь, чтобы продолжить использование Dolibarr</a>.
+bespoerpHelpCenter=Центр справки и поддержки bespoerp
+ToGoBackTobespoerp=В противном случае <a href="%s">щелкните здесь, чтобы продолжить использование bespoerp</a>.
 TypeOfSupport=Тип поддержки
 TypeSupportCommunauty=Сообщество (бесплатно)
 TypeSupportCommercial=Коммерческая
@@ -17,7 +17,7 @@ TypeHelpOnly=Только справка
 TypeHelpDev=Справка + Разработка
 TypeHelpDevForm=Помощь + Развитие + Обучение
 BackToHelpCenter=В противном случае <a href="%s">вернитесь на домашнюю страницу справочного центра</a>.
-LinkToGoldMember=Вы можете позвонить одному из тренеров, предварительно выбранных Dolibarr для вашего языка (%s), щелкнув его виджет (статус и максимальная цена обновляются автоматически):
+LinkToGoldMember=Вы можете позвонить одному из тренеров, предварительно выбранных bespoerp для вашего языка (%s), щелкнув его виджет (статус и максимальная цена обновляются автоматически):
 PossibleLanguages=Поддерживаемые языки
 SubscribeToFoundation=Помогите проекту Долибарр, подпишитесь на фонд
-SeeOfficalSupport=Для официальной поддержки Dolibarr на вашем языке: <br><b><a href="%s" target="_blank">%s</a></b>
+SeeOfficalSupport=Для официальной поддержки bespoerp на вашем языке: <br><b><a href="%s" target="_blank">%s</a></b>

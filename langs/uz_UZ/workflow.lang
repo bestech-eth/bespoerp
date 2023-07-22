@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - workflow
+# bespoerp language file - Source file is en_US - workflow
 WorkflowSetup=Ish oqimi modulini sozlash
 WorkflowDesc=Ushbu modul ba'zi bir avtomatik harakatlarni ta'minlaydi. Odatiy bo'lib, ish oqimi ochiq (siz o'zingiz xohlagan tartibda ish qilishingiz mumkin), lekin bu erda siz ba'zi avtomatik harakatlarni faollashtirishingiz mumkin.
 ThereIsNoWorkflowToModify=Faollashtirilgan modullar bilan ishlash jarayonini o'zgartirishlar mavjud emas.

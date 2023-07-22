@@ -35,7 +35,7 @@ if (!defined('NOREQUIREAJAX')) {
 	define('NOREQUIREAJAX', '1');
 }
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../main.inc.php'; // Load $user and permissions
 require_once DOL_DOCUMENT_ROOT.'/compta/facture/class/facture.class.php';
 
@@ -117,7 +117,7 @@ if ($action == "add") {
 
 // Title
 $head = '';
-$title = 'TakePOS - Dolibarr '.DOL_VERSION;
+$title = 'TakePOS - bespoerp '.DOL_VERSION;
 if (!empty($conf->global->MAIN_APPLICATION_TITLE)) {
 	$title = 'TakePOS - '.$conf->global->MAIN_APPLICATION_TITLE;
 }

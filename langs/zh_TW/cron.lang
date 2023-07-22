@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# bespoerp language file - Source file is en_US - cron
 # About page
 # Right
 Permission23101 = 讀取預定工作
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=停用
 CronTaskInactive=此作業已停用（未排程）
 CronId=Id
 CronClassFile=類別的檔案名稱
-CronModuleHelp=Dolibarr模組資料夾名稱（也適用於外部Dolibarr模組）。 <BR>例如，調用Dolibarr產品項目/ htdocs / <u>product</u> /class/product.class.php的提取方法，模組的值為<br> <i>product</i>
-CronClassFileHelp=要載入的相對路徑和檔案名稱（路徑相對於Web伺服器根目錄）。 <BR>例如，調用Dolibarr產品項目htdocs / product / class / <u>product.class.php</u>的提取方法，類別檔案名稱的值為<br> <i>product / class / product.class.php</i>
-CronObjectHelp=要載入的項目名稱。 <BR>例如，調用Dolibarr產品項目/htdocs/product/class/product.class.php的提取方法，類別檔案名稱的值為<br> <i>Product</i>
-CronMethodHelp=要啟動的項目方法。 <BR>例如，調用Dolibarr產品項目/htdocs/product/class/product.class.php的提取方法，該方法的值為<br> <i>fetch</i>
-CronArgsHelp=方法參數。 <BR>例如，調用Dolibarr產品項目/htdocs/product/class/product.class.php的提取方法，參數值可以為<br> <i>0，ProductRef</i>
+CronModuleHelp=bespoerp模組資料夾名稱（也適用於外部bespoerp模組）。 <BR>例如，調用bespoerp產品項目/ htdocs / <u>product</u> /class/product.class.php的提取方法，模組的值為<br> <i>product</i>
+CronClassFileHelp=要載入的相對路徑和檔案名稱（路徑相對於Web伺服器根目錄）。 <BR>例如，調用bespoerp產品項目htdocs / product / class / <u>product.class.php</u>的提取方法，類別檔案名稱的值為<br> <i>product / class / product.class.php</i>
+CronObjectHelp=要載入的項目名稱。 <BR>例如，調用bespoerp產品項目/htdocs/product/class/product.class.php的提取方法，類別檔案名稱的值為<br> <i>Product</i>
+CronMethodHelp=要啟動的項目方法。 <BR>例如，調用bespoerp產品項目/htdocs/product/class/product.class.php的提取方法，該方法的值為<br> <i>fetch</i>
+CronArgsHelp=方法參數。 <BR>例如，調用bespoerp產品項目/htdocs/product/class/product.class.php的提取方法，參數值可以為<br> <i>0，ProductRef</i>
 CronCommandHelp=要執行的系統命令列。
 CronCreateJob=建立新的計劃工作
 CronFrom=從

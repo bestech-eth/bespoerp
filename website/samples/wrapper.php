@@ -4,7 +4,7 @@ $websitekey = basename(__DIR__);
 if (strpos($_SERVER["PHP_SELF"], 'website/samples/wrapper.php')) {
 	die("Sample file for website module. Can be called directly.");
 }
-if (!defined('USEDOLIBARRSERVER') && !defined('USEDOLIBARREDITOR')) {
+if (!defined('USEbespoerpSERVER') && !defined('USEbespoerpEDITOR')) {
 	require_once './master.inc.php';
 } // Load master if not already loaded
 include_once DOL_DOCUMENT_ROOT.'/core/lib/images.lib.php';
@@ -82,7 +82,7 @@ $original_file = str_replace("../", "/", $original_file);
 // Cache or not
 if (GETPOST("cache", 'aZ09') || image_format_supported($original_file) >= 0) {
 	// Important: Following code is to avoid page request by browser and PHP CPU at
-	// each Dolibarr page access.
+	// each bespoerp page access.
 	header('Cache-Control: max-age=3600, public, must-revalidate');
 	header('Pragma: cache'); // This is to avoid having Pragma: no-cache
 }

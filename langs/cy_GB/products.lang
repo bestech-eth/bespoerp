@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# bespoerp language file - Source file is en_US - products
 ProductRef=Cyf cynnyrch.
 ProductLabel=Label cynnyrch
 ProductLabelTranslated=Label cynnyrch wedi'i gyfieithu
@@ -300,7 +300,7 @@ MinSupplierPrice=Isafswm pris prynu
 MinCustomerPrice=Isafswm pris gwerthu
 NoDynamicPrice=Dim pris deinamig
 DynamicPriceConfiguration=Cyfluniad pris deinamig
-DynamicPriceDesc=Gallwch ddiffinio fformiwlâu mathemategol i gyfrifo prisiau Cwsmer neu Werthwr. Gall fformiwlâu o'r fath ddefnyddio pob gweithredwr mathemategol, rhai cysonion a newidynnau. Yma gallwch chi ddiffinio'r newidynnau rydych chi am eu defnyddio. Os oes angen diweddariad awtomatig ar y newidyn, gallwch ddiffinio'r URL allanol i ganiatáu i Dolibarr ddiweddaru'r gwerth yn awtomatig.
+DynamicPriceDesc=Gallwch ddiffinio fformiwlâu mathemategol i gyfrifo prisiau Cwsmer neu Werthwr. Gall fformiwlâu o'r fath ddefnyddio pob gweithredwr mathemategol, rhai cysonion a newidynnau. Yma gallwch chi ddiffinio'r newidynnau rydych chi am eu defnyddio. Os oes angen diweddariad awtomatig ar y newidyn, gallwch ddiffinio'r URL allanol i ganiatáu i bespoerp ddiweddaru'r gwerth yn awtomatig.
 AddVariable=Ychwanegu Newidyn
 AddUpdater=Ychwanegu Updater
 GlobalVariables=Newidynnau byd-eang
@@ -379,7 +379,7 @@ NewProductAttribute=Priodoledd newydd
 NewProductAttributeValue=Gwerth priodoledd newydd
 ErrorCreatingProductAttributeValue=Bu gwall wrth greu'r gwerth priodoledd. Gallai fod oherwydd bod gwerth eisoes yn bodoli gyda'r cyfeiriad hwnnw
 ProductCombinationGeneratorWarning=Os byddwch yn parhau, cyn cynhyrchu amrywiadau newydd, bydd yr holl rai blaenorol yn cael eu DILEU. Bydd y rhai sy'n bodoli eisoes yn cael eu diweddaru gyda'r gwerthoedd newydd
-TooMuchCombinationsWarning=Gall cynhyrchu llawer o amrywiadau arwain at CPU uchel, defnydd cof ac ni all Dolibarr eu creu. Gallai galluogi'r opsiwn "%s" helpu i leihau'r defnydd o gof.
+TooMuchCombinationsWarning=Gall cynhyrchu llawer o amrywiadau arwain at CPU uchel, defnydd cof ac ni all bespoerp eu creu. Gallai galluogi'r opsiwn "%s" helpu i leihau'r defnydd o gof.
 DoNotRemovePreviousCombinations=Peidiwch â chael gwared ar amrywiadau blaenorol
 UsePercentageVariations=Defnyddiwch amrywiadau canrannol
 PercentageVariation=Amrywiad canrannol

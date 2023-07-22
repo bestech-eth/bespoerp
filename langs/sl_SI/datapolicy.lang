@@ -64,7 +64,7 @@ DATAPOLICY_opposition_prospection = Nasprotuje obdelavi njegovih osebnih podatko
 # Popup
 #
 DATAPOLICY_POPUP_ANONYME_TITLE = Anonimizirajte partnerja
-DATAPOLICY_POPUP_ANONYME_TEXTE = Tega stika ne morete izbrisati iz Dolibarra, ker so povezani elementi. V skladu z GDPR boste zaradi izpolnjevanja svojih obveznosti vse te podatke naredili anonimne. Bi radi nadaljevali?
+DATAPOLICY_POPUP_ANONYME_TEXTE = Tega stika ne morete izbrisati iz bespoerpa, ker so povezani elementi. V skladu z GDPR boste zaradi izpolnjevanja svojih obveznosti vse te podatke naredili anonimne. Bi radi nadaljevali?
 
 #
 # Button for portability

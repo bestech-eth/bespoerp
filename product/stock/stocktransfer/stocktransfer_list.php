@@ -23,7 +23,7 @@
  *		\brief      List page for stocktransfer
  */
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formcompany.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/date.lib.php';

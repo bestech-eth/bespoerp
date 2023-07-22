@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - productbatch
+# bespoerp language file - Source file is en_US - productbatch
 ManageLotSerial=Use lote / número de série
 ProductStatusOnBatch=Sim (lote obrigatório)
 ProductStatusOnSerial=Sim (número de série exclusivo necessário)

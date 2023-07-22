@@ -22,7 +22,7 @@
  *      \brief      Page to setup printing module
  */
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../../main.inc.php';
 
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
@@ -70,7 +70,7 @@ if ($action == 'setconst' && $user->admin) {
 	$db->begin();
 	foreach ($_POST['setupdriver'] as $setupconst) {
 		//print '<pre>'.print_r($setupconst, true).'</pre>';
-		$result = dolibarr_set_const($db, $setupconst['varname'], $setupconst['value'], 'chaine', 0, '', $conf->entity);
+		$result = bespoerp_set_const($db, $setupconst['varname'], $setupconst['value'], 'chaine', 0, '', $conf->entity);
 		if (!($result > 0)) {
 			$error++;
 		}
@@ -89,7 +89,7 @@ if ($action == 'setconst' && $user->admin) {
 if ($action == 'setvalue' && $user->admin) {
 	$db->begin();
 
-	$result = dolibarr_set_const($db, $varname, $value, 'chaine', 0, '', $conf->entity);
+	$result = bespoerp_set_const($db, $varname, $value, 'chaine', 0, '', $conf->entity);
 	if (!($result > 0)) {
 		$error++;
 	}
@@ -208,7 +208,7 @@ if ($mode == 'setup' && $user->admin) {
 				print '<td>'.$langs->trans("Token").'</td>';
 				print '<td colspan="2">';
 				$tokenobj = null;
-				// Dolibarr storage
+				// bespoerp storage
 				$storage = new DoliStorage($db, $conf, $keyforprovider);
 				try {
 					$tokenobj = $storage->retrieveAccessToken($OAUTH_SERVICENAME_GOOGLE);

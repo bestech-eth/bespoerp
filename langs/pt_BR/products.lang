@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# bespoerp language file - Source file is en_US - products
 ProductRef=Ref. produto
 ProductLabel=Rótulo do produto
 ProductLabelTranslated=Etiqueta do produto traduzido
@@ -152,7 +152,7 @@ ComposedProductIncDecStock=Aumento/diminuição do estoque, armazém, atual
 ComposedProduct=Produtos filhos
 MinCustomerPrice=Preço de venda mínimo
 DynamicPriceConfiguration=Configuração de preço dinâmico
-DynamicPriceDesc=Voce pode definir uma fórmula matemática para calcular preços de clientes e fornecedores. Nessas fórmulas podem ser usadas todos as operações, contantes e variáveis. Voce pode definir aqui as variáveis que voce quer usar. Se a variável, deve ser automaticamente ajustada, voce pode definir uma URLl externa, que irá permitir o Dolibarr atualizar este valor automaticamente
+DynamicPriceDesc=Voce pode definir uma fórmula matemática para calcular preços de clientes e fornecedores. Nessas fórmulas podem ser usadas todos as operações, contantes e variáveis. Voce pode definir aqui as variáveis que voce quer usar. Se a variável, deve ser automaticamente ajustada, voce pode definir uma URLl externa, que irá permitir o bespoerp atualizar este valor automaticamente
 GlobalVariables=As variáveis ​​globais
 GlobalVariableUpdaters=Atualizadores externos para variáveis
 GlobalVariableUpdaterHelp0=Analisa os dados JSON de URL especificada, valor especifica a localização de valor relevante,

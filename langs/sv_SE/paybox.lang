@@ -1,7 +1,7 @@
-# Dolibarr language file - Source file is en_US - paybox
+# bespoerp language file - Source file is en_US - paybox
 PayBoxSetup=Inställningar för PayBox-modulen
-PayBoxDesc=Denna modul erbjuder sidor för att tillåta betalning via <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">PayBox</a> för kunder. Detta kan användas för exempelvis en betalning på ett visst Dolibarr-objekt (faktura, order, ...)
-FollowingUrlAreAvailableToMakePayments=Följande webbadresser finns att erbjuda en kund för att göra en betalning på Dolibarr-objekt
+PayBoxDesc=Denna modul erbjuder sidor för att tillåta betalning via <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">PayBox</a> för kunder. Detta kan användas för exempelvis en betalning på ett visst bespoerp-objekt (faktura, order, ...)
+FollowingUrlAreAvailableToMakePayments=Följande webbadresser finns att erbjuda en kund för att göra en betalning på bespoerp-objekt
 PaymentForm=Betalningsformulär
 WelcomeOnPaymentPage=Välkommen till vår onlinebetalning
 ThisScreenAllowsYouToPay=Denna vy låter dig göra en onlinebetalning till %s.

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# bespoerp language file - Source file is en_US - website
 Shortname=代碼
 WebsiteName=Name of the website
 WebsiteSetupDesc=在此處建立您要使用的網站。然後進入選單網站進行編輯。
@@ -48,13 +48,13 @@ VirtualhostDesc=The name of the Virtual host or domain (For example: www.mywebsi
 SetHereVirtualHost=<u>使用Apache/NGinx/...</u><br>建立您的網頁伺服器 (Apache, Nginx, ...) 啟用了含有PHP的專用虛擬主機並且根目錄資料夾位於<br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=在Apache虛擬主機設定中使用的範例：
 YouCanAlsoTestWithPHPS=在開發環境中<u>使用嵌入式PHP伺服器</u><br>, 您也許想要使用<br><strong>php -S 0.0.0.0:8080 -t %s</strong> 來測試此嵌入式PHP伺服器 (需要PHP 5.5) 的網站
-YouCanAlsoDeployToAnotherWHP=<u>在其他Dolibarr網站託管供應商執行您的網站</u> <br>如果您在網路上沒有Apache或NGinx之類的Web伺服器，則可以將網站匯出並匯入到另一個由Dolibarr網站託管供應商提供且有完整整合網站模組。您可以在<a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external"> https://saas.dolibarr.org </a>上找到一些Dolibarr網站託管服務供應商的清單。
+YouCanAlsoDeployToAnotherWHP=<u>在其他bespoerp網站託管供應商執行您的網站</u> <br>如果您在網路上沒有Apache或NGinx之類的Web伺服器，則可以將網站匯出並匯入到另一個由bespoerp網站託管供應商提供且有完整整合網站模組。您可以在<a href="https://saas.bespoerp.org" target="_blank" rel="noopener noreferrer external"> https://saas.bespoerp.org </a>上找到一些bespoerp網站託管服務供應商的清單。
 CheckVirtualHostPerms=同時請確認虛擬主機使用者(例如www-data)擁有檔案<br><strong>%s</strong>的<strong>%s</strong>權限
 ReadPerm=閱讀
 WritePerm=寫入
 TestDeployOnWeb=上線 測試/部署
 PreviewSiteServedByWebServer=<u>在新分頁中預覽%s。 </u> <br> <br> %s將由外部Web伺服器（例如Apache，Nginx，IIS）提供服務。您必須先安裝和設定此伺服器，然後再指向目錄：<br> <strong> %s </strong> <br>外部伺服器提供的網址：<br><strong>%s</strong>
-PreviewSiteServedByDolibarr=<u>在新分頁中預覽%s。 </u> <br> <br> Dolibarr伺服器將為%s提供服務，因此不需要安裝任何其他Web伺服器（例如Apache，Nginx，IIS）。 <br>的不便之處在於頁面的URL不友好，並且以您的Dolibarr路徑開始。 <br> URL由Dolibarr提供：<br> <strong> %s </strong> <br> <br>要使用自己的外部Web伺服器來服務於這個網站，在您的Web伺服器上建立一個虛擬主機其指向目錄<br> <strong> %s </strong> <br>然後輸入該虛伺服器的名稱然後點擊此連結"在此網站測試/佈署"。
+PreviewSiteServedBybespoerp=<u>在新分頁中預覽%s。 </u> <br> <br> bespoerp伺服器將為%s提供服務，因此不需要安裝任何其他Web伺服器（例如Apache，Nginx，IIS）。 <br>的不便之處在於頁面的URL不友好，並且以您的bespoerp路徑開始。 <br> URL由bespoerp提供：<br> <strong> %s </strong> <br> <br>要使用自己的外部Web伺服器來服務於這個網站，在您的Web伺服器上建立一個虛擬主機其指向目錄<br> <strong> %s </strong> <br>然後輸入該虛伺服器的名稱然後點擊此連結"在此網站測試/佈署"。
 VirtualHostUrlNotDefined=未定義由外部網站伺服器提供服務的虛擬主機網址
 NoPageYet=暫無頁面
 YouCanCreatePageOrImportTemplate=您可以建立一個新頁面或匯入完整的網站模板

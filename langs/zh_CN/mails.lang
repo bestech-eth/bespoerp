@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - mails
+# bespoerp language file - Source file is en_US - mails
 Mailing=发送电子邮件
 EMailing=发送电子邮件
 EMailings=电子邮件
@@ -90,7 +90,7 @@ MailingModuleDescContactsByCategory=按类别划分的联系
 MailingModuleDescContactsByFunction=按职位联系
 MailingModuleDescEmailsFromFile=来自档案的电子邮件
 MailingModuleDescEmailsFromUser=用户输入的电子邮件
-MailingModuleDescDolibarrUsers=用户使用电子邮件
+MailingModuleDescbespoerpUsers=用户使用电子邮件
 MailingModuleDescThirdPartiesByCategories=合作方
 SendingFromWebInterfaceIsNotAllowed=不允许从Web界面发送。
 EmailCollectorFilterDesc=All filters must match to have an email being collected

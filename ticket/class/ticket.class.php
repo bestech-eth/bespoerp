@@ -1423,7 +1423,7 @@ class Ticket extends CommonObject
 	public function getNomUrl($withpicto = 0, $option = '', $notooltip = 0, $morecss = '', $save_lastsearch_value = -1)
 	{
 		global $db, $conf, $langs;
-		global $dolibarr_main_authentication, $dolibarr_main_demo;
+		global $bespoerp_main_authentication, $bespoerp_main_demo;
 		global $menumanager;
 
 		if (!empty($conf->dol_no_mouse_hover)) {
@@ -2761,7 +2761,7 @@ class Ticket extends CommonObject
 				include_once DOL_DOCUMENT_ROOT.'/core/class/CMailFile.class.php';
 				$trackid = "tic".$this->id;
 
-				$moreinheader = 'X-Dolibarr-Info: sendTicketMessageByEmail'."\r\n";
+				$moreinheader = 'X-bespoerp-Info: sendTicketMessageByEmail'."\r\n";
 				if (!empty($this->email_msgid)) {
 					$moreinheader .= 'References <'.$this->email_msgid.'>'."\r\n";
 				}

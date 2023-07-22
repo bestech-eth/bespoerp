@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - projects
+# bespoerp language file - Source file is en_US - projects
 RefProject=Ref. திட்டம்
 ProjectRef=திட்ட குறிப்பு.
 ProjectId=திட்ட ஐடி
@@ -157,12 +157,12 @@ ConfirmCloneProject=இந்த திட்டத்தை குளோன் 
 ProjectReportDate=புதிய திட்ட தொடக்க தேதிக்கு ஏற்ப பணி தேதிகளை மாற்றவும்
 ErrorShiftTaskDate=புதிய திட்டம் தொடங்கும் தேதிக்கு ஏற்ப பணி தேதியை மாற்றுவது சாத்தியமில்லை
 ProjectsAndTasksLines=திட்டங்கள் மற்றும் பணிகள்
-ProjectCreatedInDolibarr=திட்டம் %s உருவாக்கப்பட்டது
-ProjectValidatedInDolibarr=திட்டம் %s சரிபார்க்கப்பட்டது
-ProjectModifiedInDolibarr=திட்டம் %s மாற்றப்பட்டது
-TaskCreatedInDolibarr=பணி %s உருவாக்கப்பட்டது
-TaskModifiedInDolibarr=பணி %s மாற்றப்பட்டது
-TaskDeletedInDolibarr=பணி %s நீக்கப்பட்டது
+ProjectCreatedInbespoerp=திட்டம் %s உருவாக்கப்பட்டது
+ProjectValidatedInbespoerp=திட்டம் %s சரிபார்க்கப்பட்டது
+ProjectModifiedInbespoerp=திட்டம் %s மாற்றப்பட்டது
+TaskCreatedInbespoerp=பணி %s உருவாக்கப்பட்டது
+TaskModifiedInbespoerp=பணி %s மாற்றப்பட்டது
+TaskDeletedInbespoerp=பணி %s நீக்கப்பட்டது
 OpportunityStatus=முன்னணி நிலை
 OpportunityStatusShort=முன்னணி நிலை
 OpportunityProbability=முன்னணி நிகழ்தகவு

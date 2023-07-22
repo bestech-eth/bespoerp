@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - orders
+# bespoerp language file - Source file is en_US - orders
 OrderExists=Naročilo je bilo že odprto, povezano s tem predlogom, zato ni bilo samodejno ustvarjeno nobeno drugo naročilo
 OrdersArea=Področje naročil kupcev
 SuppliersOrdersArea=Področje naročil dobaviteljem
@@ -125,8 +125,8 @@ ConfirmCloneOrder=Ali želite klonirati naročilo <b>%s</b>?
 DispatchSupplierOrder=Prejemanje po nabavnem nalogu %s
 FirstApprovalAlreadyDone=Prva odobritev je že narejena
 SecondApprovalAlreadyDone=Druga odobritev je že narejena
-SupplierOrderReceivedInDolibarr=Nabavni nalog %s prejet %s
-SupplierOrderSubmitedInDolibarr=Nabavni nalog oddan %s
+SupplierOrderReceivedInbespoerp=Nabavni nalog %s prejet %s
+SupplierOrderSubmitedInbespoerp=Nabavni nalog oddan %s
 SupplierOrderClassifiedBilled=Nabavni nalog %s zaračunan
 OtherOrders=Ostala naročila
 SupplierOrderValidatedAndApproved=Naročilo dobavitelja je potrjeno in odobreno: %s

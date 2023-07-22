@@ -22,7 +22,7 @@
  *  \brief      Page of RecruitmentCandidature events
  */
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require_once '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/contact/class/contact.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/company.lib.php';

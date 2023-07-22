@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - projects
+# bespoerp language file - Source file is en_US - projects
 RefProject=Ссылка проект
 ProjectRef=Проект ссылка
 ProjectId=ID Проекта
@@ -157,12 +157,12 @@ ConfirmCloneProject=Вы уверены, что скопируете этот п
 ProjectReportDate=Изменить даты задач в соответствии с датой начала нового проекта
 ErrorShiftTaskDate=Невозможно сдвинуть дату задачи по причине новой даты начала проекта
 ProjectsAndTasksLines=Проекты и задачи
-ProjectCreatedInDolibarr=Проект %s создан
-ProjectValidatedInDolibarr=Проект %s валидирован
-ProjectModifiedInDolibarr=Проект %s изменен
-TaskCreatedInDolibarr=Задача %s создана
-TaskModifiedInDolibarr=Задача %s изменена
-TaskDeletedInDolibarr=Задача %s удалена
+ProjectCreatedInbespoerp=Проект %s создан
+ProjectValidatedInbespoerp=Проект %s валидирован
+ProjectModifiedInbespoerp=Проект %s изменен
+TaskCreatedInbespoerp=Задача %s создана
+TaskModifiedInbespoerp=Задача %s изменена
+TaskDeletedInbespoerp=Задача %s удалена
 OpportunityStatus=Статус лида
 OpportunityStatusShort=Статус лида
 OpportunityProbability=Вероятность опережения

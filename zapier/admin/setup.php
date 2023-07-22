@@ -22,7 +22,7 @@
  * \brief   Zapier setup page.
  */
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../../main.inc.php';
 
 // Libraries
@@ -42,8 +42,8 @@ $action = GETPOST('action', 'aZ09');
 $backtopage = GETPOST('backtopage', 'alpha');
 
 $arrayofparameters = array(
-//	'ZAPIERFORDOLIBARR_MYPARAM1'=>array('css'=>'minwidth200', 'enabled'=>1),
-//	'ZAPIERFORDOLIBARR_MYPARAM2'=>array('css'=>'minwidth500', 'enabled'=>1)
+//	'ZAPIERFORbespoerp_MYPARAM1'=>array('css'=>'minwidth200', 'enabled'=>1),
+//	'ZAPIERFORbespoerp_MYPARAM2'=>array('css'=>'minwidth500', 'enabled'=>1)
 );
 
 if (empty($conf->zapier->enabled)) accessforbidden();
@@ -63,7 +63,7 @@ if ((float) DOL_VERSION >= 6) {
  * View
  */
 
-$page_name = 'ZapierForDolibarrSetup';
+$page_name = 'ZapierForbespoerpSetup';
 $help_url = 'EN:Module_Zapier';
 llxHeader('', $langs->trans($page_name), $help_url);
 

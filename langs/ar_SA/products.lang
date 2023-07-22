@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# bespoerp language file - Source file is en_US - products
 ProductRef=مرجع المنتج
 ProductLabel=وصف المنتج
 ProductLabelTranslated=تسمية المنتج مترجمة
@@ -300,7 +300,7 @@ MinSupplierPrice=الحد الأدنى من سعر الشراء
 MinCustomerPrice=أدنى سعر بيع
 NoDynamicPrice=لا يوجد سعر ديناميكي
 DynamicPriceConfiguration=التكوين سعر ديناميكي
-DynamicPriceDesc=يمكنك تحديد الصيغ الرياضية لحساب أسعار العميل أو البائع. يمكن أن تستخدم هذه الصيغ جميع العوامل الرياضية ، وبعض الثوابت والمتغيرات. يمكنك هنا تحديد المتغيرات التي ترغب في استخدامها. إذا كان المتغير يحتاج إلى تحديث تلقائي ، فيمكنك تحديد عنوان URL الخارجي للسماح لـ Dolibarr بتحديث القيمة تلقائيًا.
+DynamicPriceDesc=يمكنك تحديد الصيغ الرياضية لحساب أسعار العميل أو البائع. يمكن أن تستخدم هذه الصيغ جميع العوامل الرياضية ، وبعض الثوابت والمتغيرات. يمكنك هنا تحديد المتغيرات التي ترغب في استخدامها. إذا كان المتغير يحتاج إلى تحديث تلقائي ، فيمكنك تحديد عنوان URL الخارجي للسماح لـ bespoerp بتحديث القيمة تلقائيًا.
 AddVariable=أضف متغير
 AddUpdater=أضف المحدث
 GlobalVariables=المتغيرات العالمية
@@ -379,7 +379,7 @@ NewProductAttribute=جديد السمة
 NewProductAttributeValue=قيمة السمة الجديدة
 ErrorCreatingProductAttributeValue=حدث خطأ أثناء إنشاء قيمة السمة. قد يكون ذلك بسبب وجود قيمة موجودة بالفعل بهذا المرجع
 ProductCombinationGeneratorWarning=إذا تابعت ، قبل إنشاء متغيرات جديدة ، سيتم حذف جميع المتغيرات السابقة. سيتم تحديث القيم الموجودة بالفعل بالقيم الجديدة
-TooMuchCombinationsWarning=قد يؤدي توليد الكثير من المتغيرات إلى ارتفاع استخدام وحدة المعالجة المركزية والذاكرة وعدم قدرة Dolibarr على إنشائها. قد يساعد تمكين الخيار "%s" في تقليل استخدام الذاكرة.
+TooMuchCombinationsWarning=قد يؤدي توليد الكثير من المتغيرات إلى ارتفاع استخدام وحدة المعالجة المركزية والذاكرة وعدم قدرة bespoerp على إنشائها. قد يساعد تمكين الخيار "%s" في تقليل استخدام الذاكرة.
 DoNotRemovePreviousCombinations=لا تقم بإزالة المتغيرات السابقة
 UsePercentageVariations=استخدم الاختلافات المئوية
 PercentageVariation=اختلاف النسبة المئوية

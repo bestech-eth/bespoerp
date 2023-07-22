@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - orders
+# bespoerp language file - Source file is en_US - orders
 OrdersArea=Mijozlar buyurtma maydoni
 SuppliersOrdersArea=Sotib olish buyurtmalari maydoni
 OrderCard=Buyurtma kartasi
@@ -124,8 +124,8 @@ ConfirmCloneOrder=Ushbu buyurtmani klonlamoqchimisiz <b> %s </b>?
 DispatchSupplierOrder=%s sotib olish buyurtmasini qabul qilish
 FirstApprovalAlreadyDone=Birinchi tasdiqlash allaqachon qilingan
 SecondApprovalAlreadyDone=Ikkinchi tasdiqlash allaqachon amalga oshirilgan
-SupplierOrderReceivedInDolibarr=%s sotib olish buyurtmasi %s qabul qilindi
-SupplierOrderSubmitedInDolibarr=%s sotib olish buyurtmasi taqdim etildi
+SupplierOrderReceivedInbespoerp=%s sotib olish buyurtmasi %s qabul qilindi
+SupplierOrderSubmitedInbespoerp=%s sotib olish buyurtmasi taqdim etildi
 SupplierOrderClassifiedBilled=Xarid qilish buyurtmasi %s to'plami taqdim etiladi
 OtherOrders=Boshqa buyurtmalar
 SupplierOrderValidatedAndApproved=Yetkazib beruvchining buyurtmasi tasdiqlangan va tasdiqlangan: %s

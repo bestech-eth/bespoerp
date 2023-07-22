@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - mails
+# bespoerp language file - Source file is en_US - mails
 Mailing=メールで送信
 EMailing=メールで送信
 EMailings=EMailings
@@ -90,7 +90,7 @@ MailingModuleDescContactsByCategory=カテゴリ別の連絡先
 MailingModuleDescContactsByFunction=位置別の連絡先
 MailingModuleDescEmailsFromFile=ファイルからのメール
 MailingModuleDescEmailsFromUser=ユーザが入力したメール
-MailingModuleDescDolibarrUsers=メールを持っているユーザ
+MailingModuleDescbespoerpUsers=メールを持っているユーザ
 MailingModuleDescThirdPartiesByCategories=取引先
 SendingFromWebInterfaceIsNotAllowed=Webインターフェイスからの送信は許可されていない。
 EmailCollectorFilterDesc=メールを取得するには、全フィルタが適合している必要がある

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - mails
+# bespoerp language file - Source file is en_US - mails
 Mailing=مراسلة
 EMailing=مراسلة
 EMailings=EMailings
@@ -90,7 +90,7 @@ MailingModuleDescContactsByCategory=Contacts by categories
 MailingModuleDescContactsByFunction=Contacts by position
 MailingModuleDescEmailsFromFile=رسائل البريد الإلكتروني من الملف
 MailingModuleDescEmailsFromUser=إدخال رسائل البريد الإلكتروني من قبل المستخدم
-MailingModuleDescDolibarrUsers=المستخدمون الذين لديهم رسائل بريد إلكتروني
+MailingModuleDescbespoerpUsers=المستخدمون الذين لديهم رسائل بريد إلكتروني
 MailingModuleDescThirdPartiesByCategories=أطراف ثالثة
 SendingFromWebInterfaceIsNotAllowed=الإرسال من واجهة الويب غير مسموح به.
 EmailCollectorFilterDesc=يجب أن تتطابق جميع المرشحات حتى يتم جمع بريد إلكتروني

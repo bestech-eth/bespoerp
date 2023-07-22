@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# bespoerp language file - Source file is en_US - other
 SecurityCode=سیکیورٹی کوڈ
 NumberingShort=N°
 Tools=اوزار
@@ -104,7 +104,7 @@ PredefinedMailContentSendFichInter=__(ہیلو)__\n\nبراہ کرم __REF__ م�
 PredefinedMailContentLink=اگر آپ نے ادائیگی نہیں کی ہے تو آپ نیچے دیئے گئے لنک پر کلک کر سکتے ہیں۔\n\n%s\n\n
 PredefinedMailContentGeneric=__(ہیلو)__\n\n\n__(مخلص)__\n\n__USER_SIGNATURE__
 PredefinedMailContentSendActionComm=ایونٹ کی یاددہانی "__EVENT_DATE__ کو __EVENT_DATE__ کو __EVENT_TIME__ <br> <br> یہ ایک خودکار پیغام ہے، براہ کرم جواب نہ دیں۔
-DemoDesc=Dolibarr ایک کمپیکٹ ERP/CRM ہے جو کئی کاروباری ماڈیولز کو سپورٹ کرتا ہے۔ تمام ماڈیولز کی نمائش کرنے والا ڈیمو کوئی معنی نہیں رکھتا کیونکہ یہ منظر کبھی نہیں ہوتا (کئی سو دستیاب)۔ لہذا، کئی ڈیمو پروفائلز دستیاب ہیں۔
+DemoDesc=bespoerp ایک کمپیکٹ ERP/CRM ہے جو کئی کاروباری ماڈیولز کو سپورٹ کرتا ہے۔ تمام ماڈیولز کی نمائش کرنے والا ڈیمو کوئی معنی نہیں رکھتا کیونکہ یہ منظر کبھی نہیں ہوتا (کئی سو دستیاب)۔ لہذا، کئی ڈیمو پروفائلز دستیاب ہیں۔
 ChooseYourDemoProfil=ڈیمو پروفائل کا انتخاب کریں جو آپ کی ضروریات کے مطابق ہو...
 ChooseYourDemoProfilMore=یا اپنا پروفائل بنائیں <br> (دستی ماڈیول کا انتخاب)
 DemoFundation=فاؤنڈیشن کے ممبروں کا نظم کریں۔
@@ -182,10 +182,10 @@ SizeUnitpoint=نقطہ
 BugTracker=بگ ٹریکر
 SendNewPasswordDesc=یہ فارم آپ کو نئے پاس ورڈ کی درخواست کرنے کی اجازت دیتا ہے۔ یہ آپ کے ای میل ایڈریس پر بھیجا جائے گا۔ <br> ای میل میں تصدیقی لنک پر کلک کرنے کے بعد تبدیلی موثر ہو جائے گی۔ <br> اپنا ان باکس چیک کریں۔
 BackToLoginPage=لاگ ان صفحہ پر واپس جائیں۔
-AuthenticationDoesNotAllowSendNewPassword=توثیق کا موڈ <b> %s </b> ہے۔ <br> اس موڈ میں، Dolibarr آپ کا پاس ورڈ نہ جان سکتا ہے اور نہ ہی تبدیل کر سکتا ہے۔ <br> اگر آپ اپنا پاس ورڈ تبدیل کرنا چاہتے ہیں تو اپنے سسٹم ایڈمنسٹریٹر سے رابطہ کریں۔
+AuthenticationDoesNotAllowSendNewPassword=توثیق کا موڈ <b> %s </b> ہے۔ <br> اس موڈ میں، bespoerp آپ کا پاس ورڈ نہ جان سکتا ہے اور نہ ہی تبدیل کر سکتا ہے۔ <br> اگر آپ اپنا پاس ورڈ تبدیل کرنا چاہتے ہیں تو اپنے سسٹم ایڈمنسٹریٹر سے رابطہ کریں۔
 EnableGDLibraryDesc=اس اختیار کو استعمال کرنے کے لیے اپنی پی ایچ پی کی تنصیب پر جی ڈی لائبریری کو انسٹال یا فعال کریں۔
 ProfIdShortDesc= <b> Prof Id %s </b> تیسری پارٹی کے ملک پر منحصر ایک معلومات ہے۔ <br> مثال کے طور پر، ملک کے لیے <b> %s </b>، اس کا کوڈ <b> a0ecb2ec87f4987f49fz0a07f49fz0 ہے۔
-DolibarrDemo=Dolibarr ERP/CRM ڈیمو
+bespoerpDemo=bespoerp ERP/CRM ڈیمو
 StatsByNumberOfUnits=پروڈکٹس/سروسز کی مقدار کے مجموعے کے اعدادوشمار
 StatsByNumberOfEntities=حوالہ دینے والے اداروں کی تعداد کے اعداد و شمار (انوائسز یا آرڈرز کی تعداد...)
 NumberOfProposals=تجاویز کی تعداد
@@ -223,7 +223,7 @@ EMailTextHolidayValidated=چھوڑنے کی درخواست %s کی توثیق ک
 EMailTextHolidayApproved=چھٹی کی درخواست %s منظور کر لی گئی ہے۔
 EMailTextActionAdded=کارروائی %s کو ایجنڈے میں شامل کر دیا گیا ہے۔
 ImportedWithSet=درآمدی ڈیٹا سیٹ
-DolibarrNotification=خودکار اطلاع
+bespoerpNotification=خودکار اطلاع
 ResizeDesc=نئی چوڑائی <b> یا </b> نئی اونچائی درج کریں۔ سائز تبدیل کرنے کے دوران تناسب رکھا جائے گا...
 NewLength=نئی چوڑائی
 NewHeight=نئی اونچائی

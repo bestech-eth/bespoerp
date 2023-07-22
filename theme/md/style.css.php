@@ -79,8 +79,8 @@ if (empty($user->id) && !empty($_SESSION['dol_login'])) {
 
 // Define css type
 top_httphead('text/css');
-// Important: Following code is to avoid page request by browser and PHP CPU at each Dolibarr page access.
-if (empty($dolibarr_nocache)) {
+// Important: Following code is to avoid page request by browser and PHP CPU at each bespoerp page access.
+if (empty($bespoerp_nocache)) {
 	header('Cache-Control: max-age=10800, public, must-revalidate');
 } else {
 	header('Cache-Control: no-cache');
@@ -5236,7 +5236,7 @@ tr.visible {
 .websiteformtoolbar {
 	position: sticky;
 	top: <?php echo empty($dol_hide_topmenu) ? ($disableimages ? '36px' : '50px') : '0'; ?>;
-	z-index: 1002;	/* Dolibarr menu is 1001, Website menu is 1002 */
+	z-index: 1002;	/* bespoerp menu is 1001, Website menu is 1002 */
 }
 
 .exampleapachesetup {
@@ -6384,7 +6384,7 @@ span#select2-boxbookmark-container, span#select2-boxcombo-container {
 }
 
 /* To emulate select 2 style */
-.select2-container-multi-dolibarr .select2-choices-dolibarr .select2-search-choice-dolibarr {
+.select2-container-multi-bespoerp .select2-choices-bespoerp .select2-search-choice-bespoerp {
   padding: 3px 5px 2px 5px;
   margin: 0 0 2px 3px;
   position: relative;
@@ -6407,14 +6407,14 @@ span#select2-boxbookmark-container, span#select2-boxcombo-container {
   background-image: -moz-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);
   background-image: linear-gradient(to bottom, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);
 }
-.select2-container-multi-dolibarr .select2-choices-dolibarr .select2-search-choice-dolibarr a {
+.select2-container-multi-bespoerp .select2-choices-bespoerp .select2-search-choice-bespoerp a {
 	font-weight: normal;
 }
-.select2-container-multi-dolibarr .select2-choices-dolibarr li {
+.select2-container-multi-bespoerp .select2-choices-bespoerp li {
   float: left;
   list-style: none;
 }
-.select2-container-multi-dolibarr .select2-choices-dolibarr {
+.select2-container-multi-bespoerp .select2-choices-bespoerp {
   height: auto !important;
   height: 1%;
   margin: 0;

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - projects
+# bespoerp language file - Source file is en_US - projects
 RefProject=Ref. loyiha
 ProjectRef=Loyiha ref.
 ProjectId=Loyiha identifikatori
@@ -157,12 +157,12 @@ ConfirmCloneProject=Ushbu loyihani klonlashingizga ishonchingiz komilmi?
 ProjectReportDate=Loyihaning yangi boshlanish sanasiga ko'ra topshiriq sanalarini o'zgartiring
 ErrorShiftTaskDate=Loyihaning yangi boshlanish sanasiga ko'ra topshiriq sanasini almashtirish mumkin emas
 ProjectsAndTasksLines=Loyihalar va vazifalar
-ProjectCreatedInDolibarr=%s loyihasi yaratildi
-ProjectValidatedInDolibarr=%s loyihasi tasdiqlangan
-ProjectModifiedInDolibarr=%s loyihasi o'zgartirildi
-TaskCreatedInDolibarr=%s vazifasi yaratildi
-TaskModifiedInDolibarr=Vazifa %s o'zgartirildi
-TaskDeletedInDolibarr=%s vazifasi o'chirildi
+ProjectCreatedInbespoerp=%s loyihasi yaratildi
+ProjectValidatedInbespoerp=%s loyihasi tasdiqlangan
+ProjectModifiedInbespoerp=%s loyihasi o'zgartirildi
+TaskCreatedInbespoerp=%s vazifasi yaratildi
+TaskModifiedInbespoerp=Vazifa %s o'zgartirildi
+TaskDeletedInbespoerp=%s vazifasi o'chirildi
 OpportunityStatus=Qo'rg'oshin holati
 OpportunityStatusShort=Qo'rg'oshin holati
 OpportunityProbability=Qo'rg'oshin ehtimoli

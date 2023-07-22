@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cashdesk
+# bespoerp language file - Source file is en_US - cashdesk
 CashDeskBankCash=Bankrekening (cash)
 CashDeskBankCheque=Bankrekening (cheque)
 CashdeskShowServices=Verkoop van diensten
@@ -7,5 +7,5 @@ TotalTicket=Totale ticketprijs
 BankToPay=Betalingsaccount
 ShowCompany=Toon bedrijf
 ShowStock=Toon magazijn
-DolibarrReceiptPrinter=Dolibarr Ontvangsten Printer
+bespoerpReceiptPrinter=bespoerp Ontvangsten Printer
 Receipt=Ontvangst

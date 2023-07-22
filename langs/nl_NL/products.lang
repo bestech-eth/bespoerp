@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# bespoerp language file - Source file is en_US - products
 ProductRef=Productreferentie
 ProductLabel=Naam
 ProductLabelTranslated=Vertaald product label
@@ -300,7 +300,7 @@ MinSupplierPrice=Minimum aankoopprijs
 MinCustomerPrice=Minimum verkoopprijs
 NoDynamicPrice=Geen dynamische prijs
 DynamicPriceConfiguration=Dynamische prijs configuratie
-DynamicPriceDesc=U kunt wiskundige formules definiëren om klant- of leveranciersprijzen te berekenen. Dergelijke formules kunnen alle wiskundige operatoren, sommige constanten en variabelen gebruiken. U kunt hier de variabelen definiëren die u wilt gebruiken. Als de variabele een automatische update nodig heeft, kunt u de externe URL definiëren zodat Dolibarr de waarde automatisch kan bijwerken.
+DynamicPriceDesc=U kunt wiskundige formules definiëren om klant- of leveranciersprijzen te berekenen. Dergelijke formules kunnen alle wiskundige operatoren, sommige constanten en variabelen gebruiken. U kunt hier de variabelen definiëren die u wilt gebruiken. Als de variabele een automatische update nodig heeft, kunt u de externe URL definiëren zodat bespoerp de waarde automatisch kan bijwerken.
 AddVariable=Variabele toevoegen
 AddUpdater=Voeg Updater toe
 GlobalVariables=Globale variabelen
@@ -379,7 +379,7 @@ NewProductAttribute=Nieuwe attribuut
 NewProductAttributeValue=Waarde nieuw attribuut
 ErrorCreatingProductAttributeValue=Er is een fout opgetreden bij het maken van de kenmerkwaarde. Het kan zijn omdat er al een bestaande waarde is met die referentie
 ProductCombinationGeneratorWarning=Als u doorgaat voordat u nieuwe varianten genereert, worden alle vorige verwijderd. Al bestaande versies worden bijgewerkt met de nieuwe waarden
-TooMuchCombinationsWarning=Het genereren van veel varianten kan leiden tot een hoge CPU, geheugengebruik waardoor Dolibarr deze niet kan aanmaken. Als u de optie "%s" inschakelt, kan dit het geheugengebruik verminderen.
+TooMuchCombinationsWarning=Het genereren van veel varianten kan leiden tot een hoge CPU, geheugengebruik waardoor bespoerp deze niet kan aanmaken. Als u de optie "%s" inschakelt, kan dit het geheugengebruik verminderen.
 DoNotRemovePreviousCombinations=Verwijder voorgaande varianten niet
 UsePercentageVariations=Gebruik percentagevariaties
 PercentageVariation=Variatie in percentage

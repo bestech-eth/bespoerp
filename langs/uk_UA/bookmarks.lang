@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - marque pages
+# bespoerp language file - Source file is en_US - marque pages
 AddThisPageToBookmarks=Додати поточну сторінку до закладок
 Bookmark=Закладка
 Bookmarks=Закладки
@@ -15,7 +15,7 @@ UrlOrLink=URL
 BehaviourOnClick=Поведінка, коли вибрано URL-адресу закладки
 CreateBookmark=Створити закладку
 SetHereATitleForLink=Установіть назву для закладки
-UseAnExternalHttpLinkOrRelativeDolibarrLink=Використовуйте зовнішнє/абсолютне посилання (https://externalurl.com) або внутрішнє/відносне посилання (/mypage.php). Ви також можете скористатися телефоном, як тел: 0123456.
+UseAnExternalHttpLinkOrRelativebespoerpLink=Використовуйте зовнішнє/абсолютне посилання (https://externalurl.com) або внутрішнє/відносне посилання (/mypage.php). Ви також можете скористатися телефоном, як тел: 0123456.
 ChooseIfANewWindowMustBeOpenedOnClickOnBookmark=Виберіть, чи потрібно відкривати пов’язану сторінку в поточній вкладці чи в новій вкладці
 BookmarksManagement=Управління закладками
 BookmarksMenuShortCut=Ctrl + shift + m

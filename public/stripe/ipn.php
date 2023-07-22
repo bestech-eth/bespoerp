@@ -23,7 +23,7 @@ if (!defined('NOCSRFCHECK')) {
 	define("NOCSRFCHECK", 1); // We accept to go on this page from external web site.
 }
 if (!defined('NOIPCHECK')) {
-	define('NOIPCHECK', '1'); // Do not check IP defined into conf $dolibarr_main_restrict_ip
+	define('NOIPCHECK', '1'); // Do not check IP defined into conf $bespoerp_main_restrict_ip
 }
 if (!defined('NOBROWSERNOTIF')) {
 	define('NOBROWSERNOTIF', '1');
@@ -34,7 +34,7 @@ if (is_numeric($entity)) {
 	define("DOLENTITY", $entity);
 }
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/user/class/user.class.php';
@@ -82,7 +82,7 @@ if (empty($endpoint_secret)) {
 }
 
 if (!empty($conf->global->STRIPE_USER_ACCOUNT_FOR_ACTIONS)) {
-	// We set the user to use for all ipn actions in Dolibarr
+	// We set the user to use for all ipn actions in bespoerp
 	$user = new User($db);
 	$user->fetch($conf->global->STRIPE_USER_ACCOUNT_FOR_ACTIONS);
 	$user->getrights();
@@ -156,7 +156,7 @@ dol_syslog("***** Stripe IPN was called with event->type = ".$event->type);
 if ($event->type == 'payout.created') {
 	$error = 0;
 
-	$result = dolibarr_set_const($db, $service."_NEXTPAYOUT", date('Y-m-d H:i:s', $event->data->object->arrival_date), 'chaine', 0, '', $conf->entity);
+	$result = bespoerp_set_const($db, $service."_NEXTPAYOUT", date('Y-m-d H:i:s', $event->data->object->arrival_date), 'chaine', 0, '', $conf->entity);
 
 	if ($result > 0) {
 		$subject = $societeName.' - [NOTIFICATION] Stripe payout scheduled';
@@ -198,7 +198,7 @@ if ($event->type == 'payout.created') {
 } elseif ($event->type == 'payout.paid') {
 	global $conf;
 	$error = 0;
-	$result = dolibarr_set_const($db, $service."_NEXTPAYOUT", null, 'chaine', 0, '', $conf->entity);
+	$result = bespoerp_set_const($db, $service."_NEXTPAYOUT", null, 'chaine', 0, '', $conf->entity);
 	if ($result) {
 		$langs->load("errors");
 

@@ -25,9 +25,9 @@
  * API class for projects
  *
  * @access protected
- * @class  DolibarrApiAccess {@requires user,external}
+ * @class  bespoerpApiAccess {@requires user,external}
  */
-class Projects extends DolibarrApi
+class Projects extends bespoerpApi
 {
 
 	/**
@@ -66,7 +66,7 @@ class Projects extends DolibarrApi
 	 */
 	public function get($id)
 	{
-		if (!DolibarrApiAccess::$user->rights->projet->lire) {
+		if (!bespoerpApiAccess::$user->rights->projet->lire) {
 			throw new RestException(401);
 		}
 
@@ -75,8 +75,8 @@ class Projects extends DolibarrApi
 			throw new RestException(404, 'Project not found');
 		}
 
-		if (!DolibarrApi::_checkAccessToResource('project', $this->project->id)) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if (!bespoerpApi::_checkAccessToResource('project', $this->project->id)) {
+			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
 		}
 
 		$this->project->fetchObjectLinked();
@@ -103,23 +103,23 @@ class Projects extends DolibarrApi
 	{
 		global $db, $conf;
 
-		if (!DolibarrApiAccess::$user->rights->projet->lire) {
+		if (!bespoerpApiAccess::$user->rights->projet->lire) {
 			throw new RestException(401);
 		}
 
 		$obj_ret = array();
 
 		// case of external user, $thirdparty_ids param is ignored and replaced by user's socid
-		$socids = DolibarrApiAccess::$user->socid ? DolibarrApiAccess::$user->socid : $thirdparty_ids;
+		$socids = bespoerpApiAccess::$user->socid ? bespoerpApiAccess::$user->socid : $thirdparty_ids;
 
 		// If the internal user must only see his customers, force searching by him
 		$search_sale = 0;
-		if (!DolibarrApiAccess::$user->rights->societe->client->voir && !$socids) {
-			$search_sale = DolibarrApiAccess::$user->id;
+		if (!bespoerpApiAccess::$user->rights->societe->client->voir && !$socids) {
+			$search_sale = bespoerpApiAccess::$user->id;
 		}
 
 		$sql = "SELECT t.rowid";
-		if ((!DolibarrApiAccess::$user->rights->societe->client->voir && !$socids) || $search_sale > 0) {
+		if ((!bespoerpApiAccess::$user->rights->societe->client->voir && !$socids) || $search_sale > 0) {
 			$sql .= ", sc.fk_soc, sc.fk_user"; // We need these fields in order to filter by sale (including the case where the user can only see his prospects)
 		}
 		$sql .= " FROM ".MAIN_DB_PREFIX."projet as t";
@@ -127,12 +127,12 @@ class Projects extends DolibarrApi
 		if ($category > 0) {
 			$sql .= ", ".MAIN_DB_PREFIX."categorie_project as c";
 		}
-		if ((!DolibarrApiAccess::$user->rights->societe->client->voir && !$socids) || $search_sale > 0) {
+		if ((!bespoerpApiAccess::$user->rights->societe->client->voir && !$socids) || $search_sale > 0) {
 			$sql .= ", ".MAIN_DB_PREFIX."societe_commerciaux as sc"; // We need this table joined to the select in order to filter by sale
 		}
 
 		$sql .= ' WHERE t.entity IN ('.getEntity('project').')';
-		if ((!DolibarrApiAccess::$user->rights->societe->client->voir && !$socids) || $search_sale > 0) {
+		if ((!bespoerpApiAccess::$user->rights->societe->client->voir && !$socids) || $search_sale > 0) {
 			$sql .= " AND t.fk_soc = sc.fk_soc";
 		}
 		if ($socids) {
@@ -200,7 +200,7 @@ class Projects extends DolibarrApi
 	 */
 	public function post($request_data = null)
 	{
-		if (!DolibarrApiAccess::$user->rights->projet->creer) {
+		if (!bespoerpApiAccess::$user->rights->projet->creer) {
 			throw new RestException(401, "Insuffisant rights");
 		}
 		// Check mandatory fields
@@ -216,7 +216,7 @@ class Projects extends DolibarrApi
 		  }
 		  $this->project->lines = $lines;
 		}*/
-		if ($this->project->create(DolibarrApiAccess::$user) < 0) {
+		if ($this->project->create(bespoerpApiAccess::$user) < 0) {
 			throw new RestException(500, "Error creating project", array_merge(array($this->project->error), $this->project->errors));
 		}
 
@@ -235,7 +235,7 @@ class Projects extends DolibarrApi
 	 */
 	public function getLines($id, $includetimespent = 0)
 	{
-		if (!DolibarrApiAccess::$user->rights->projet->lire) {
+		if (!bespoerpApiAccess::$user->rights->projet->lire) {
 			throw new RestException(401);
 		}
 
@@ -244,10 +244,10 @@ class Projects extends DolibarrApi
 			throw new RestException(404, 'Project not found');
 		}
 
-		if (!DolibarrApi::_checkAccessToResource('project', $this->project->id)) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if (!bespoerpApi::_checkAccessToResource('project', $this->project->id)) {
+			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
 		}
-		$this->project->getLinesArray(DolibarrApiAccess::$user);
+		$this->project->getLinesArray(bespoerpApiAccess::$user);
 		$result = array();
 		foreach ($this->project->lines as $line) {      // $line is a task
 			if ($includetimespent == 1) {
@@ -276,7 +276,7 @@ class Projects extends DolibarrApi
 	{
 		global $db;
 
-		if (!DolibarrApiAccess::$user->rights->projet->lire) {
+		if (!bespoerpApiAccess::$user->rights->projet->lire) {
 			throw new RestException(401);
 		}
 
@@ -285,13 +285,13 @@ class Projects extends DolibarrApi
 			throw new RestException(404, 'Project not found');
 		}
 
-		if (!DolibarrApi::_checkAccessToResource('project', $this->project->id)) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if (!bespoerpApi::_checkAccessToResource('project', $this->project->id)) {
+			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
 		}
 
 		require_once DOL_DOCUMENT_ROOT.'/projet/class/task.class.php';
 		$taskstatic = new Task($this->db);
-		$userp = DolibarrApiAccess::$user;
+		$userp = bespoerpApiAccess::$user;
 		if ($userid > 0) {
 			$userp = new User($this->db);
 			$userp->fetch($userid);
@@ -318,7 +318,7 @@ class Projects extends DolibarrApi
 	/*
 	public function postLine($id, $request_data = null)
 	{
-		if(! DolibarrApiAccess::$user->rights->projet->creer) {
+		if(! bespoerpApiAccess::$user->rights->projet->creer) {
 			throw new RestException(401);
 		}
 
@@ -327,8 +327,8 @@ class Projects extends DolibarrApi
 			throw new RestException(404, 'Project not found');
 		}
 
-		if( ! DolibarrApi::_checkAccessToResource('project',$this->project->id)) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if( ! bespoerpApi::_checkAccessToResource('project',$this->project->id)) {
+			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
 		}
 
 		$request_data = (object) $request_data;
@@ -385,7 +385,7 @@ class Projects extends DolibarrApi
 	/*
 	public function putLine($id, $lineid, $request_data = null)
 	{
-		if(! DolibarrApiAccess::$user->rights->projet->creer) {
+		if(! bespoerpApiAccess::$user->rights->projet->creer) {
 			throw new RestException(401);
 		}
 
@@ -394,8 +394,8 @@ class Projects extends DolibarrApi
 			throw new RestException(404, 'Project not found');
 		}
 
-		if( ! DolibarrApi::_checkAccessToResource('project',$this->project->id)) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if( ! bespoerpApi::_checkAccessToResource('project',$this->project->id)) {
+			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
 		}
 
 		$request_data = (object) $request_data;
@@ -446,7 +446,7 @@ class Projects extends DolibarrApi
 	 */
 	public function put($id, $request_data = null)
 	{
-		if (!DolibarrApiAccess::$user->rights->projet->creer) {
+		if (!bespoerpApiAccess::$user->rights->projet->creer) {
 			throw new RestException(401);
 		}
 
@@ -455,8 +455,8 @@ class Projects extends DolibarrApi
 			throw new RestException(404, 'Project not found');
 		}
 
-		if (!DolibarrApi::_checkAccessToResource('project', $this->project->id)) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if (!bespoerpApi::_checkAccessToResource('project', $this->project->id)) {
+			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
 		}
 		foreach ($request_data as $field => $value) {
 			if ($field == 'id') {
@@ -465,7 +465,7 @@ class Projects extends DolibarrApi
 			$this->project->$field = $value;
 		}
 
-		if ($this->project->update(DolibarrApiAccess::$user) >= 0) {
+		if ($this->project->update(bespoerpApiAccess::$user) >= 0) {
 			return $this->get($id);
 		} else {
 			throw new RestException(500, $this->project->error);
@@ -481,7 +481,7 @@ class Projects extends DolibarrApi
 	 */
 	public function delete($id)
 	{
-		if (!DolibarrApiAccess::$user->rights->projet->supprimer) {
+		if (!bespoerpApiAccess::$user->rights->projet->supprimer) {
 			throw new RestException(401);
 		}
 		$result = $this->project->fetch($id);
@@ -489,11 +489,11 @@ class Projects extends DolibarrApi
 			throw new RestException(404, 'Project not found');
 		}
 
-		if (!DolibarrApi::_checkAccessToResource('project', $this->project->id)) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if (!bespoerpApi::_checkAccessToResource('project', $this->project->id)) {
+			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
 		}
 
-		if (!$this->project->delete(DolibarrApiAccess::$user)) {
+		if (!$this->project->delete(bespoerpApiAccess::$user)) {
 			throw new RestException(500, 'Error when delete project : '.$this->project->error);
 		}
 
@@ -525,7 +525,7 @@ class Projects extends DolibarrApi
 	 */
 	public function validate($id, $notrigger = 0)
 	{
-		if (!DolibarrApiAccess::$user->rights->projet->creer) {
+		if (!bespoerpApiAccess::$user->rights->projet->creer) {
 			throw new RestException(401);
 		}
 		$result = $this->project->fetch($id);
@@ -533,11 +533,11 @@ class Projects extends DolibarrApi
 			throw new RestException(404, 'Project not found');
 		}
 
-		if (!DolibarrApi::_checkAccessToResource('project', $this->project->id)) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if (!bespoerpApi::_checkAccessToResource('project', $this->project->id)) {
+			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
 		}
 
-		$result = $this->project->setValid(DolibarrApiAccess::$user, $notrigger);
+		$result = $this->project->setValid(bespoerpApiAccess::$user, $notrigger);
 		if ($result == 0) {
 			throw new RestException(304, 'Error nothing done. May be object is already validated');
 		}

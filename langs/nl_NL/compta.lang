@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - compta
+# bespoerp language file - Source file is en_US - compta
 MenuFinancial=Facturatie | Betaling
 TaxModuleSetupToModifyRules=Ga naar <a href="%s">Belastingen module setup</a> om regels voor de berekening wijzigen
 TaxModuleSetupToModifyRulesLT=Ga naar <a href="%s">Bedrijf instellingen</a> om regels voor de berekening wijzigen

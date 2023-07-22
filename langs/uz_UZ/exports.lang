@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# bespoerp language file - Source file is en_US - exports
 ExportsArea=Exports
 ImportArea=Import
 NewExport=Yangi eksport
@@ -59,7 +59,7 @@ ChooseFormatOfFileToImport=Faylni import qilish formati sifatida tanlang, uni ta
 ChooseFileToImport=Faylni yuklang, so'ngra faylni manba import fayli sifatida tanlash uchun %s belgisini bosing ...
 SourceFileFormat=Manba fayl formati
 FieldsInSourceFile=Manba faylidagi maydonlar
-FieldsInTargetDatabase=Dolibarr ma'lumotlar bazasidagi maqsad maydonlari (qalin = majburiy)
+FieldsInTargetDatabase=bespoerp ma'lumotlar bazasidagi maqsad maydonlari (qalin = majburiy)
 Field=Maydon
 NoFields=Maydonlar yo‘q
 MoveField=%s maydon ustun satrini siljiting

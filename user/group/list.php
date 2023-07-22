@@ -25,7 +25,7 @@
  *      \brief      Page of user groups
  */
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/user/class/usergroup.class.php';
 

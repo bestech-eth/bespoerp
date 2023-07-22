@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# bespoerp language file - Source file is en_US - exports
 ExportsArea=导出
 ImportArea=Import
 NewExport=New Export
@@ -59,7 +59,7 @@ ChooseFormatOfFileToImport=Choose the file format to use as import file format b
 ChooseFileToImport=Upload file then click on the %s icon to select file as source import file...
 SourceFileFormat=源文件格式
 FieldsInSourceFile=在源文件中的字段
-FieldsInTargetDatabase=目标字段：Dolibarr数据库(粗体=强制)
+FieldsInTargetDatabase=目标字段：bespoerp数据库(粗体=强制)
 Field=栏位
 NoFields=没有字段
 MoveField=移动领域的%s的列号

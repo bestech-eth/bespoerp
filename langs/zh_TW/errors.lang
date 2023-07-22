@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# bespoerp language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=我們保證沒有錯誤
@@ -51,10 +51,10 @@ ErrorWrongDate=日期不正確！
 ErrorFailedToWriteInDir=無法寫入資料夾%s
 ErrorFailedToBuildArchive=Failed to build archive file %s
 ErrorFoundBadEmailInFile=找到電子郵件文件中的%s行語法不正確（例如電子郵件%s行 =%s）
-ErrorUserCannotBeDelete=無法刪除用戶。也許它與Dolibarr實體相關。
+ErrorUserCannotBeDelete=無法刪除用戶。也許它與bespoerp實體相關。
 ErrorFieldsRequired=一些必填欄位已留空。
 ErrorSubjectIsRequired=電子郵件主題為必填
-ErrorFailedToCreateDir=無法建立資料夾。檢查網頁伺服器中的用戶有權限寫入Dolibarr檔案資料夾。如果PHP使用了參數<b>safe_mode</b>，檢查網頁伺服器的用戶（或群組）擁有Dolibarr php檔案。
+ErrorFailedToCreateDir=無法建立資料夾。檢查網頁伺服器中的用戶有權限寫入bespoerp檔案資料夾。如果PHP使用了參數<b>safe_mode</b>，檢查網頁伺服器的用戶（或群組）擁有bespoerp php檔案。
 ErrorNoMailDefinedForThisUser=沒有此用戶的定義郵件
 ErrorSetupOfEmailsNotComplete=電子郵件設定未完成
 ErrorFeatureNeedJavascript=此功能需要啟動Javascript。需要變更請前往設定 - 顯示。
@@ -82,7 +82,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=The field <b>%s</b> must not co
 ErrorFieldMustHaveXChar=欄位 <b>%s</b> 至少必須有%s 字元.
 ErrorNoAccountancyModuleLoaded=會計模組未啟動
 ErrorExportDuplicateProfil=此匯出設定已存在此設定檔案名稱。
-ErrorLDAPSetupNotComplete=Dolibarr與LDAP的匹配不完整。
+ErrorLDAPSetupNotComplete=bespoerp與LDAP的匹配不完整。
 ErrorLDAPMakeManualTest=.ldif檔案已在資料夾%s中.請以命令行手動讀取以得到更多的錯誤信息。
 ErrorCantSaveADoneUserWithZeroPercentage=如果填寫了“完成者”欄位，則無法使用“狀態未開始”保存操作。
 ErrorRefAlreadyExists=參考<b>%s</b>已經存在。
@@ -115,8 +115,8 @@ ErrorProdIdAlreadyExist=%s已被分配到另一個合作方
 ErrorFailedToSendPassword=無法傳送密碼
 ErrorFailedToLoadRSSFile=無法獲取RSS訂閱. 如果錯誤訊息沒有提供足夠的資訊,請嘗試增加參數MAIN_SIMPLEXMLLOAD_DEBUG
 ErrorForbidden=訪問被拒絕。 <br>您嘗試訪問已停用模組的頁面，區域或功能，或者沒經過身份驗證的程序，或者不允許用戶訪問。
-ErrorForbidden2=可以經由您的Dolibarr管理員從選單%s->%s中定義此登入權限。
-ErrorForbidden3=似乎Dolibarr被未通過身份驗證的程序使用。查看Dolibarr設定文件，以了解如何管理身份驗證（htaccess，mod_auth或其他...）。
+ErrorForbidden2=可以經由您的bespoerp管理員從選單%s->%s中定義此登入權限。
+ErrorForbidden3=似乎bespoerp被未通過身份驗證的程序使用。查看bespoerp設定文件，以了解如何管理身份驗證（htaccess，mod_auth或其他...）。
 ErrorForbidden4=注意：清除您的瀏覽器 cookie 以銷毀此登錄的現有程序。
 ErrorNoImagickReadimage=在此 PHP 中沒有 imagick 類別，所以無法預覽。管理員可以從選單設定 - 顯示中停用此分頁。
 ErrorRecordAlreadyExists=記錄已存在
@@ -139,8 +139,8 @@ ErrorWebServerUserHasNotPermission=用戶帳戶<b>%s</b>沒有權限用來執行
 ErrorNoActivatedBarcode=沒有啟動的條碼類型
 ErrUnzipFails=無法使用ZipArchive解壓縮%s
 ErrNoZipEngine=在此PHP中沒有用於壓縮/解壓縮%s檔案的引擎
-ErrorFileMustBeADolibarrPackage=檔案%s必須是Dolibarr壓縮包
-ErrorModuleFileRequired=您必須選擇一個Dolibarr模組軟體包檔案
+ErrorFileMustBeAbespoerpPackage=檔案%s必須是bespoerp壓縮包
+ErrorModuleFileRequired=您必須選擇一個bespoerp模組軟體包檔案
 ErrorPhpCurlNotInstalled=未安裝PHP CURL，這對於使用Paypal很重要
 ErrorFailedToAddToMailmanList=無法將記錄%s增加到Mailman清單%s或SPIP
 ErrorFailedToRemoveToMailmanList=無法將記錄%s刪除到Mailman清單%s或SPIP
@@ -152,7 +152,7 @@ ErrorDateMustBeBeforeToday=日期必須早於今天
 ErrorDateMustBeInFuture=日期必須晚於今天
 ErrorPaymentModeDefinedToWithoutSetup=付款方式已設定為%s類型，但模組“發票”尚未完整定義要為此付款方式顯示的資訊設定。
 ErrorPHPNeedModule=錯誤，您的PHP必須安裝模組<b>%s</b>才能使用此功能。
-ErrorOpenIDSetupNotComplete=您設定了Dolibarr設定檔案以允許OpenID身份驗證，但未將OpenID的服務網址定義為常數%s
+ErrorOpenIDSetupNotComplete=您設定了bespoerp設定檔案以允許OpenID身份驗證，但未將OpenID的服務網址定義為常數%s
 ErrorWarehouseMustDiffers=來源倉庫和目標倉庫必須不同
 ErrorBadFormat=格式錯誤！
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=錯誤，此會員尚未連結到任何合作方。在使用發票建立訂閱之前，將會員連結到現有的合作方或建立新的合作方。
@@ -215,7 +215,7 @@ ErrorUserNotAssignedToTask=必須為用戶分配任務才能輸入花費的時�
 ErrorTaskAlreadyAssigned=任務已分配給用戶
 ErrorModuleFileSeemsToHaveAWrongFormat=模組軟體包的格式似乎錯誤。
 ErrorModuleFileSeemsToHaveAWrongFormat2=模組的zip檔案中必須至少存在一個強制性資料夾： <strong>%s</strong>或<strong>%s</strong>
-ErrorFilenameDosNotMatchDolibarrPackageRules=模組軟體包的名稱（ <strong>%s</strong> ）與預期的名稱語法不匹配： <strong>%s</strong>
+ErrorFilenameDosNotMatchbespoerpPackageRules=模組軟體包的名稱（ <strong>%s</strong> ）與預期的名稱語法不匹配： <strong>%s</strong>
 ErrorDuplicateTrigger=錯誤，觸發器名稱%s已重複。已從%s載入。
 ErrorNoWarehouseDefined=錯誤，未定義倉庫。
 ErrorBadLinkSourceSetButBadValueForRef=您使用的連結接無效。定義了付款的“來源”，但“參考”的值無效。
@@ -306,7 +306,7 @@ ErrorTooMuchFileInForm=Too much files in form, the maximum number is %s file(s)
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=您的PHP參數upload_max_filesize（%s）高於PHP參數post_max_size（%s）。這不是相同的設定。
-WarningPasswordSetWithNoAccount=為此會員設定了密碼。但是，沒有建立用戶帳戶。因此，雖然密碼已儲存，但不能用於登入Dolibarr。外部模組/界面可以使用它，但是如果您不需要為會員定義任何登入名稱或密碼，則可以從會員模組設定中關閉選項“管理每個會員的登入名稱”。如果您需要管理登入名稱但不需要任何密碼，則可以將此欄位保留為空白以避免此警告。注意：如果會員連結到用戶，電子郵件也可以用作登入名稱。
+WarningPasswordSetWithNoAccount=為此會員設定了密碼。但是，沒有建立用戶帳戶。因此，雖然密碼已儲存，但不能用於登入bespoerp。外部模組/界面可以使用它，但是如果您不需要為會員定義任何登入名稱或密碼，則可以從會員模組設定中關閉選項“管理每個會員的登入名稱”。如果您需要管理登入名稱但不需要任何密碼，則可以將此欄位保留為空白以避免此警告。注意：如果會員連結到用戶，電子郵件也可以用作登入名稱。
 WarningMandatorySetupNotComplete=Click here to setup main parameters
 WarningEnableYourModulesApplications=點擊此處啟用您的模組和應用程式
 WarningSafeModeOnCheckExecDir=警告，PHP選項<b>safe_mode</b>處於開啟狀態，因此命令必須儲存在php參數<b>safe_mode_exec_dir</b>聲明的資料夾內。

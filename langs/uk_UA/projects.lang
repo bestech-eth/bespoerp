@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - projects
+# bespoerp language file - Source file is en_US - projects
 RefProject=Пос. проект
 ProjectRef=Проект реф.
 ProjectId=Ідентифікатор проекту
@@ -157,12 +157,12 @@ ConfirmCloneProject=Ви впевнені, що клонуєте цей прое
 ProjectReportDate=Змініть дати завдань відповідно до нової дати початку проекту
 ErrorShiftTaskDate=Неможливо змінити дату завдання відповідно до дати початку проекту
 ProjectsAndTasksLines=Проекти та завдання
-ProjectCreatedInDolibarr=Створено проект %s
-ProjectValidatedInDolibarr=Проект %s перевірено
-ProjectModifiedInDolibarr=Проект %s змінено
-TaskCreatedInDolibarr=Завдання %s створено
-TaskModifiedInDolibarr=Завдання %s змінено
-TaskDeletedInDolibarr=Завдання %s видалено
+ProjectCreatedInbespoerp=Створено проект %s
+ProjectValidatedInbespoerp=Проект %s перевірено
+ProjectModifiedInbespoerp=Проект %s змінено
+TaskCreatedInbespoerp=Завдання %s створено
+TaskModifiedInbespoerp=Завдання %s змінено
+TaskDeletedInbespoerp=Завдання %s видалено
 OpportunityStatus=Статус ведучого
 OpportunityStatusShort=Статус ведучого
 OpportunityProbability=Імовірність свинцю

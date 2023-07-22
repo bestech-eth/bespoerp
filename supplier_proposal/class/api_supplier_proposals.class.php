@@ -25,9 +25,9 @@ require_once DOL_DOCUMENT_ROOT.'/supplier_proposal/class/supplier_proposal.class
  * API class for orders
  *
  * @access protected
- * @class  DolibarrApiAccess {@requires user,external}
+ * @class  bespoerpApiAccess {@requires user,external}
  */
-class Supplierproposals extends DolibarrApi
+class Supplierproposals extends bespoerpApi
 {
 
 	/**
@@ -64,7 +64,7 @@ class Supplierproposals extends DolibarrApi
 	 */
 	public function get($id)
 	{
-		if (!DolibarrApiAccess::$user->rights->supplier_proposal->lire) {
+		if (!bespoerpApiAccess::$user->rights->supplier_proposal->lire) {
 			throw new RestException(401);
 		}
 
@@ -73,8 +73,8 @@ class Supplierproposals extends DolibarrApi
 			throw new RestException(404, 'Supplier Proposal not found');
 		}
 
-		if (!DolibarrApi::_checkAccessToResource('supplier_proposal', $this->propal->id)) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if (!bespoerpApi::_checkAccessToResource('supplier_proposal', $this->propal->id)) {
+			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
 		}
 
 		$this->supplier_proposal->fetchObjectLinked();
@@ -98,33 +98,33 @@ class Supplierproposals extends DolibarrApi
 	{
 		global $db, $conf;
 
-		if (!DolibarrApiAccess::$user->rights->supplier_proposal->lire) {
+		if (!bespoerpApiAccess::$user->rights->supplier_proposal->lire) {
 			throw new RestException(401);
 		}
 
 		$obj_ret = array();
 
 		// case of external user, $thirdparty_ids param is ignored and replaced by user's socid
-		$socids = DolibarrApiAccess::$user->socid ? DolibarrApiAccess::$user->socid : $thirdparty_ids;
+		$socids = bespoerpApiAccess::$user->socid ? bespoerpApiAccess::$user->socid : $thirdparty_ids;
 
 		// If the internal user must only see his customers, force searching by him
 		$search_sale = 0;
-		if (!DolibarrApiAccess::$user->rights->societe->client->voir && !$socids) {
-			$search_sale = DolibarrApiAccess::$user->id;
+		if (!bespoerpApiAccess::$user->rights->societe->client->voir && !$socids) {
+			$search_sale = bespoerpApiAccess::$user->id;
 		}
 
 		$sql = "SELECT t.rowid";
-		if ((!DolibarrApiAccess::$user->rights->societe->client->voir && !$socids) || $search_sale > 0) {
+		if ((!bespoerpApiAccess::$user->rights->societe->client->voir && !$socids) || $search_sale > 0) {
 			$sql .= ", sc.fk_soc, sc.fk_user"; // We need these fields in order to filter by sale (including the case where the user can only see his prospects)
 		}
 		$sql .= " FROM ".MAIN_DB_PREFIX."supplier_proposal as t";
 
-		if ((!DolibarrApiAccess::$user->rights->societe->client->voir && !$socids) || $search_sale > 0) {
+		if ((!bespoerpApiAccess::$user->rights->societe->client->voir && !$socids) || $search_sale > 0) {
 			$sql .= ", ".MAIN_DB_PREFIX."societe_commerciaux as sc"; // We need this table joined to the select in order to filter by sale
 		}
 
 		$sql .= ' WHERE t.entity IN ('.getEntity('propal').')';
-		if ((!DolibarrApiAccess::$user->rights->societe->client->voir && !$socids) || $search_sale > 0) {
+		if ((!bespoerpApiAccess::$user->rights->societe->client->voir && !$socids) || $search_sale > 0) {
 			$sql .= " AND t.fk_soc = sc.fk_soc";
 		}
 		if ($socids) {

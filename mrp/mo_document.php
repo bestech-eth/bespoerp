@@ -21,7 +21,7 @@
  *  \brief      Tab for documents linked to Mo
  */
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../main.inc.php';
 
 require_once DOL_DOCUMENT_ROOT.'/projet/class/project.class.php';

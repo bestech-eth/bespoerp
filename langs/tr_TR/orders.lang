@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - orders
+# bespoerp language file - Source file is en_US - orders
 OrdersArea=Müşteri siparişleri alanı
 SuppliersOrdersArea=Tedarikçi siparişleri alanı
 OrderCard=Sipariş kartı
@@ -120,8 +120,8 @@ ConfirmCloneOrder=<b>%s</b> siparişinin kopyasını oluşturmak istediğinizden
 DispatchSupplierOrder=%s Satınalma siparişinin kabulü
 FirstApprovalAlreadyDone=İlk onay zaten yapılmış
 SecondApprovalAlreadyDone=İkinci onaylama zaten yapılmış
-SupplierOrderReceivedInDolibarr=%s Tedarikçi Siparişi teslim alındı %s
-SupplierOrderSubmitedInDolibarr=%s Tedarikçi Siparişi gönderildi
+SupplierOrderReceivedInbespoerp=%s Tedarikçi Siparişi teslim alındı %s
+SupplierOrderSubmitedInbespoerp=%s Tedarikçi Siparişi gönderildi
 SupplierOrderClassifiedBilled=%s Tedarikçi Siparişi faturalandı olarak ayarlı
 OtherOrders=Diğer siparişler
 SupplierOrderValidatedAndApproved=Supplier order is validated and approved : %s

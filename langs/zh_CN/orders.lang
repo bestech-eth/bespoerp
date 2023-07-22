@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - orders
+# bespoerp language file - Source file is en_US - orders
 OrderExists=An order was already open linked to this proposal, so no other order was created automatically
 OrdersArea=客户订单区
 SuppliersOrdersArea=采购订单区
@@ -125,8 +125,8 @@ ConfirmCloneOrder=您确定要克隆此订单<b> %s </b>吗？
 DispatchSupplierOrder=Receiving purchase order %s
 FirstApprovalAlreadyDone=审批已完成
 SecondApprovalAlreadyDone=第二次批准已经完成
-SupplierOrderReceivedInDolibarr=采购订单%s收到%s
-SupplierOrderSubmitedInDolibarr=Purchase Order %s submitted
+SupplierOrderReceivedInbespoerp=采购订单%s收到%s
+SupplierOrderSubmitedInbespoerp=Purchase Order %s submitted
 SupplierOrderClassifiedBilled=采购订单%s设置开票
 OtherOrders=其他订单
 SupplierOrderValidatedAndApproved=Supplier order is validated and approved : %s

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# bespoerp language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Không có lỗi, chúng tôi cam kết
@@ -49,10 +49,10 @@ ErrorBadDateFormat=Giá trị '% s' có định dạng sai ngày
 ErrorWrongDate=Ngày là không đúng!
 ErrorFailedToWriteInDir=Không thể viết trong thư mục% s
 ErrorFoundBadEmailInFile=Tìm thấy cú pháp email không chính xác cho% s dòng trong tập tin (ví dụ dòng% s với email =% s)
-ErrorUserCannotBeDelete=Người dùng không thể bị xóa. Có lẽ nó được liên kết với các thực thể Dolibarr.
+ErrorUserCannotBeDelete=Người dùng không thể bị xóa. Có lẽ nó được liên kết với các thực thể bespoerp.
 ErrorFieldsRequired=Some required fields have been left blank.
 ErrorSubjectIsRequired=The email subject is required
-ErrorFailedToCreateDir=Không thể tạo một thư mục. Kiểm tra xem người sử dụng máy chủ web có quyền ghi vào thư mục tài liệu Dolibarr. Nếu tham số <b>safe_mode</b> được kích hoạt trên PHP này, hãy kiểm tra các tập tin php Dolibarr sở hữu cho người sử dụng máy chủ web (hoặc một nhóm).
+ErrorFailedToCreateDir=Không thể tạo một thư mục. Kiểm tra xem người sử dụng máy chủ web có quyền ghi vào thư mục tài liệu bespoerp. Nếu tham số <b>safe_mode</b> được kích hoạt trên PHP này, hãy kiểm tra các tập tin php bespoerp sở hữu cho người sử dụng máy chủ web (hoặc một nhóm).
 ErrorNoMailDefinedForThisUser=Không có thư xác định cho người dùng này
 ErrorSetupOfEmailsNotComplete=Setup of emails is not complete
 ErrorFeatureNeedJavascript=Tính năng này cần javascript để được kích hoạt để làm việc. Thay đổi điều này trong thiết lập - hiển thị.
@@ -80,7 +80,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=Trường <b>%s</b> không đư
 ErrorFieldMustHaveXChar=Trường <b>%s</b> phải có ít nhất %s ký tự.
 ErrorNoAccountancyModuleLoaded=Không có mô-đun kế toán kích hoạt
 ErrorExportDuplicateProfil=Tên hồ sơ này đã tồn tại cho bộ xuất khẩu này.
-ErrorLDAPSetupNotComplete=Dolibarr-LDAP phù hợp là không đầy đủ.
+ErrorLDAPSetupNotComplete=bespoerp-LDAP phù hợp là không đầy đủ.
 ErrorLDAPMakeManualTest=Một tập tin .ldif đã được tạo ra trong thư mục% s. Hãy thử để tải nó bằng tay từ dòng lệnh để có thêm thông tin về lỗi.
 ErrorCantSaveADoneUserWithZeroPercentage=Không thể lưu một hành động với "trạng thái chưa bắt đầu" nếu trường "được thực hiện bởi" cũng được điền.
 ErrorRefAlreadyExists=Reference <b>%s</b> already exists.
@@ -113,8 +113,8 @@ ErrorProdIdAlreadyExist=% S được gán cho một phần ba
 ErrorFailedToSendPassword=Không gửi mật khẩu
 ErrorFailedToLoadRSSFile=Không có nguồn cấp dữ liệu RSS. Cố gắng thêm MAIN_SIMPLEXMLLOAD_DEBUG liên tục nếu các thông báo lỗi không cung cấp đủ thông tin.
 ErrorForbidden=Truy cập bị từ chối. <br> Bạn cố gắng truy cập vào một trang, khu vực hoặc tính năng của một mô-đun bị vô hiệu hóa hoặc không có trong một phiên xác thực hoặc không được phép cho người dùng của bạn.
-ErrorForbidden2=Cho phép đăng nhập này có thể được xác định bởi người quản trị Dolibarr của bạn từ trình đơn% s ->% s.
-ErrorForbidden3=Dường như Dolibarr không được sử dụng thông qua một phiên chứng thực. Hãy xem tài liệu hướng dẫn thiết lập Dolibarr biết làm thế nào để quản lý xác thực (htaccess, mod_auth hay khác ...).
+ErrorForbidden2=Cho phép đăng nhập này có thể được xác định bởi người quản trị bespoerp của bạn từ trình đơn% s ->% s.
+ErrorForbidden3=Dường như bespoerp không được sử dụng thông qua một phiên chứng thực. Hãy xem tài liệu hướng dẫn thiết lập bespoerp biết làm thế nào để quản lý xác thực (htaccess, mod_auth hay khác ...).
 ErrorForbidden4=Note: clear your browser cookies to destroy existing sessions for this login.
 ErrorNoImagickReadimage=Lớp Imagick không tìm thấy trong PHP này. Không có xem trước có thể có sẵn. Quản trị có thể vô hiệu hóa tab này từ menu Setup - Hiển thị.
 ErrorRecordAlreadyExists=Kỷ lục đã tồn tại
@@ -137,8 +137,8 @@ ErrorWebServerUserHasNotPermission=Tài khoản người <b>dùng% s</b> đượ
 ErrorNoActivatedBarcode=Không có loại mã vạch kích hoạt
 ErrUnzipFails=Không thể giải nén% s với ZipArchive
 ErrNoZipEngine=Không có công cụ nào để zip/ unzip tệp %s trong PHP này
-ErrorFileMustBeADolibarrPackage=Các tập tin% s phải là một gói zip Dolibarr
-ErrorModuleFileRequired=Bạn phải chọn tệp gói mô-đun Dolibarr
+ErrorFileMustBeAbespoerpPackage=Các tập tin% s phải là một gói zip bespoerp
+ErrorModuleFileRequired=Bạn phải chọn tệp gói mô-đun bespoerp
 ErrorPhpCurlNotInstalled=PHP CURL không được cài đặt, điều này là cần thiết để nói chuyện với Paypal
 ErrorFailedToAddToMailmanList=Không thể để thêm biểu ghi% s vào danh sách Mailman% s hoặc cơ sở SPIP
 ErrorFailedToRemoveToMailmanList=Không thể loại bỏ kỷ lục% s vào danh sách Mailman% s hoặc cơ sở SPIP
@@ -150,7 +150,7 @@ ErrorDateMustBeBeforeToday=The date must be lower than today
 ErrorDateMustBeInFuture=The date must be greater than today
 ErrorPaymentModeDefinedToWithoutSetup=Một phương thức thanh toán đã được thiết lập để gõ% s nhưng thiết lập các mô-đun hóa đơn không được hoàn thành để xác định thông tin để hiển thị cho phương thức thanh toán này.
 ErrorPHPNeedModule=Lỗi, PHP của bạn phải có <b>mô-đun% s</b> được cài đặt để sử dụng tính năng này.
-ErrorOpenIDSetupNotComplete=Bạn thiết lập Dolibarr tập tin cấu hình để cho phép xác thực OpenID, nhưng URL của dịch vụ OpenID không được xác định vào liên tục% s
+ErrorOpenIDSetupNotComplete=Bạn thiết lập bespoerp tập tin cấu hình để cho phép xác thực OpenID, nhưng URL của dịch vụ OpenID không được xác định vào liên tục% s
 ErrorWarehouseMustDiffers=Nguồn và đích kho phải có khác nhau
 ErrorBadFormat=Bad định dạng!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Lỗi, thành viên này chưa được liên kết với bất kỳ bên thứ ba nào. Liên kết thành viên với bên thứ ba hiện có hoặc tạo bên thứ ba mới trước khi tạo đăng ký tham gia bằng hóa đơn.
@@ -213,7 +213,7 @@ ErrorUserNotAssignedToTask=Người dùng phải được chỉ định cho nhi�
 ErrorTaskAlreadyAssigned=Nhiệm vụ đã được phân công cho người dùng
 ErrorModuleFileSeemsToHaveAWrongFormat=Gói mô-đun dường như có một sai định dạng.
 ErrorModuleFileSeemsToHaveAWrongFormat2=Ít nhất một thư mục bắt buộc phải tồn tại trong tập zip của mô-đun: <strong>%s</strong> hoặc <strong>%s</strong>
-ErrorFilenameDosNotMatchDolibarrPackageRules=Tên của gói mô-đun ( <strong>%s</strong> ) không khớp với cú pháp tên dự kiến: <strong>%s</strong>
+ErrorFilenameDosNotMatchbespoerpPackageRules=Tên của gói mô-đun ( <strong>%s</strong> ) không khớp với cú pháp tên dự kiến: <strong>%s</strong>
 ErrorDuplicateTrigger=Lỗi, trùng lặp tên trigger %s. Đã được tải từ %s.
 ErrorNoWarehouseDefined=Lỗi, không có kho được định nghĩa.
 ErrorBadLinkSourceSetButBadValueForRef=Liên kết bạn sử dụng không hợp lệ. Một 'nguồn' để thanh toán được xác định, nhưng giá trị cho 'tham chiếu' không hợp lệ.
@@ -294,7 +294,7 @@ ErrorQuantityIsLimitedTo=Quantity is limited to %s
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=Tham số PHP của bạn upload_max_filesize (%s) cao hơn tham số PHP post_max_size (%s). Đây không phải là một thiết lập phù hợp.
-WarningPasswordSetWithNoAccount=Một mật khẩu đã được đặt cho thành viên này. Tuy nhiên, không có tài khoản người dùng nào được tạo. Vì vậy, mật khẩu này được lưu trữ nhưng không thể được sử dụng để đăng nhập vào Dolibarr. Nó có thể được sử dụng bởi một mô-đun / giao diện bên ngoài nhưng nếu bạn không cần xác định bất kỳ thông tin đăng nhập hay mật khẩu nào cho thành viên, bạn có thể tắt tùy chọn "Quản lý đăng nhập cho từng thành viên" từ thiết lập mô-đun Thành viên. Nếu bạn cần quản lý thông tin đăng nhập nhưng không cần bất kỳ mật khẩu nào, bạn có thể để trống trường này để tránh cảnh báo này. Lưu ý: Email cũng có thể được sử dụng làm thông tin đăng nhập nếu thành viên được liên kết với người dùng.
+WarningPasswordSetWithNoAccount=Một mật khẩu đã được đặt cho thành viên này. Tuy nhiên, không có tài khoản người dùng nào được tạo. Vì vậy, mật khẩu này được lưu trữ nhưng không thể được sử dụng để đăng nhập vào bespoerp. Nó có thể được sử dụng bởi một mô-đun / giao diện bên ngoài nhưng nếu bạn không cần xác định bất kỳ thông tin đăng nhập hay mật khẩu nào cho thành viên, bạn có thể tắt tùy chọn "Quản lý đăng nhập cho từng thành viên" từ thiết lập mô-đun Thành viên. Nếu bạn cần quản lý thông tin đăng nhập nhưng không cần bất kỳ mật khẩu nào, bạn có thể để trống trường này để tránh cảnh báo này. Lưu ý: Email cũng có thể được sử dụng làm thông tin đăng nhập nếu thành viên được liên kết với người dùng.
 WarningMandatorySetupNotComplete=Click here to setup main parameters
 WarningEnableYourModulesApplications=Nhấn vào đây để kích hoạt các mô-đun và ứng dụng của bạn
 WarningSafeModeOnCheckExecDir=Cảnh báo, PHP <b>safe_mode</b> lựa chọn là do đó, lệnh phải được lưu trữ bên trong một thư mục tuyên bố tham số php <b>safe_mode_exec_dir.</b>

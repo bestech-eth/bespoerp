@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paybox
+# bespoerp language file - Source file is en_US - paybox
 PayBoxSetup=Configurar módulo PayBox
-PayBoxDesc=Este módulo oferece uma página para permitir o pagamento de clientes no <a href="http://www.paybox.com" target="_blank">Paybox</a>. Isto pode ser utilizado para pagamento livre ou para um pagamento em particular de um objeto Dolibarr (fatura, ordem, ...)
+PayBoxDesc=Este módulo oferece uma página para permitir o pagamento de clientes no <a href="http://www.paybox.com" target="_blank">Paybox</a>. Isto pode ser utilizado para pagamento livre ou para um pagamento em particular de um objeto bespoerp (fatura, ordem, ...)
 FollowingUrlAreAvailableToMakePayments=As seguintes URL estão disponiveis para permitir a um cliente efectuar um pagamento
 PaymentForm=Forma de pagamento
 WelcomeOnPaymentPage=Bem-vindo ao nosso serviço de pagamento online

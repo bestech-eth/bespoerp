@@ -1,5 +1,5 @@
-# Dolibarr language file - Source file is en_US - boxes
-BoxDolibarrStateBoard=資料庫中主要業務對象的統計資料
+# bespoerp language file - Source file is en_US - boxes
+BoxbespoerpStateBoard=資料庫中主要業務對象的統計資料
 BoxLoginInformation=登入資訊
 BoxLastRssInfos=RSS資訊
 BoxLastProducts=最新%s筆的產品/服務

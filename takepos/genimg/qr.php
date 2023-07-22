@@ -21,7 +21,7 @@ if (!defined("NOLOGIN")) {
 	define("NOLOGIN", '1'); // If this page is public (can be called outside logged session)
 }
 if (!defined('NOIPCHECK')) {
-	define('NOIPCHECK', '1'); // Do not check IP defined into conf $dolibarr_main_restrict_ip
+	define('NOIPCHECK', '1'); // Do not check IP defined into conf $bespoerp_main_restrict_ip
 }
 if (!defined('NOREQUIRESOC')) {
 	define('NOREQUIRESOC', '1');
@@ -39,11 +39,11 @@ if (!defined('NOREQUIREAJAX')) {
 	define('NOREQUIREAJAX', '1');
 }
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../../main.inc.php'; // Load $user and permissions
 require '../../core/modules/barcode/doc/tcpdfbarcode.modules.php';
 
-$urlwithouturlroot = preg_replace('/'.preg_quote(DOL_URL_ROOT, '/').'$/i', '', trim($dolibarr_main_url_root));
+$urlwithouturlroot = preg_replace('/'.preg_quote(DOL_URL_ROOT, '/').'$/i', '', trim($bespoerp_main_url_root));
 $urlwithroot = $urlwithouturlroot.DOL_URL_ROOT; // This is to use external domain name found into config file
 
 

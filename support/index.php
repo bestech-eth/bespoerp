@@ -25,11 +25,11 @@
  */
 
 
-// Use its own include to not share the include of Dolibarr
-// This is a standalone feature with no information from Dolibarr to show
+// Use its own include to not share the include of bespoerp
+// This is a standalone feature with no information from bespoerp to show
 // and no database access to do.
 include_once 'inc.php';
-$uri = preg_replace('/^http(s?):\/\//i', '', $dolibarr_main_url_root);
+$uri = preg_replace('/^http(s?):\/\//i', '', $bespoerp_main_url_root);
 $pos = strstr($uri, '/'); // $pos contient alors url sans nom domaine
 if ($pos == '/') {
 	$pos = ''; // si $pos vaut /, on le met a ''
@@ -45,7 +45,7 @@ $langs->loadLangs(array("other", $langs->load("help")));
  * View
  */
 
-pHeader($langs->trans("DolibarrHelpCenter"), $_SERVER["PHP_SELF"]);
+pHeader($langs->trans("bespoerpHelpCenter"), $_SERVER["PHP_SELF"]);
 
 print '<br><span class="opacitymedium">'.$langs->trans("HelpCenterDesc1")."<br>\n";
 print $langs->trans("HelpCenterDesc2")."</span><br>\n";
@@ -65,7 +65,7 @@ if (GETPOST('dol_no_mouse_hover')) {
 if (GETPOST('dol_use_jmobile')) {
 	$homeurl .= (strpos($homeurl, '?') === false ? '?' : '&').'dol_use_jmobile=1';
 }
-print $langs->trans("ToGoBackToDolibarr", $homeurl);
+print $langs->trans("ToGoBackTobespoerp", $homeurl);
 
 print '<br><br>';
 
@@ -104,35 +104,35 @@ print '<td align="center" valign="middle">';
 
 print '<table class="nocellnopadd">';
 print '<tr><td align="center">';
-$urlwiki = 'https://wiki.dolibarr.org';
+$urlwiki = 'https://wiki.bespoerp.org';
 if (preg_match('/fr/i', $langs->defaultlang)) {
-	$urlwiki = 'https://wiki.dolibarr.org/index.php/Accueil';
+	$urlwiki = 'https://wiki.bespoerp.org/index.php/Accueil';
 }
 if (preg_match('/es/i', $langs->defaultlang)) {
-	$urlwiki = 'https://wiki.dolibarr.org/index.php/Portada';
+	$urlwiki = 'https://wiki.bespoerp.org/index.php/Portada';
 }
 if (preg_match('/de/i', $langs->defaultlang)) {
-	$urlwiki = 'https://wiki.dolibarr.org/index.php/Hauptseite';
+	$urlwiki = 'https://wiki.bespoerp.org/index.php/Hauptseite';
 }
 print '<div class="wordbreak">';
 print '<br>'.$langs->trans("ForDocumentationSeeWiki", $urlwiki, $urlwiki);
 print '<br>';
-$urlforum = 'https://www.dolibarr.org/forum/';
-$urlforumlocal = 'https://www.dolibarr.org/forum/';
+$urlforum = 'https://www.bespoerp.org/forum/';
+$urlforumlocal = 'https://www.bespoerp.org/forum/';
 if (preg_match('/fr/i', $langs->defaultlang)) {
-	$urlforumlocal = 'https://www.dolibarr.fr/forum/';
+	$urlforumlocal = 'https://www.bespoerp.fr/forum/';
 }
 if (preg_match('/es/i', $langs->defaultlang)) {
-	$urlforumlocal = 'https://www.dolibarr.es/foro/';
+	$urlforumlocal = 'https://www.bespoerp.es/foro/';
 }
 if (preg_match('/it/i', $langs->defaultlang)) {
-	$urlforumlocal = 'http://www.dolibarr.it/forum/';
+	$urlforumlocal = 'http://www.bespoerp.it/forum/';
 }
 if (preg_match('/gr/i', $langs->defaultlang)) {
-	$urlforumlocal = 'https://www.dolibarr.gr/forum/';
+	$urlforumlocal = 'https://www.bespoerp.gr/forum/';
 }
 if (preg_match('/de/i', $langs->defaultlang)) {
-	$urlforumlocal = 'https://www.dolibarr.de/forum/';
+	$urlforumlocal = 'https://www.bespoerp.de/forum/';
 }
 print '<br>'.$langs->trans("ForAnswersSeeForum", $urlforumlocal, $urlforumlocal).'<br>';
 if ($urlforumlocal != $urlforum) {
@@ -170,7 +170,7 @@ print '</td></tr></table>';
 
 print '</td>';
 print '</tr><tr>';
-$urlwiki = 'https://partners.dolibarr.org';
+$urlwiki = 'https://partners.bespoerp.org';
 print '<td align="center" valign="top">';
 print '<table class="nocellnopadd">';
 print '<tr><td align="center">';
@@ -211,7 +211,7 @@ print '</td></tr></table>';
 
 print '</td>';
 print '</tr><tr>';
-$urlwiki = 'https://partners.dolibarr.org';
+$urlwiki = 'https://partners.bespoerp.org';
 print '<td align="center" valign="top">';
 print '<table class="nocellnopadd">';
 print '<tr><td align="center">';

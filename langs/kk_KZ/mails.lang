@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - mails
+# bespoerp language file - Source file is en_US - mails
 Mailing=Электрондық пошта
 EMailing=Электрондық пошта
 EMailings=Электрондық пошталар
@@ -90,7 +90,7 @@ MailingModuleDescContactsByCategory=Байланыстар санаттар бо
 MailingModuleDescContactsByFunction=Байланыстар лауазымы бойынша
 MailingModuleDescEmailsFromFile=Файлдан келген хаттар
 MailingModuleDescEmailsFromUser=Пайдаланушының электрондық поштаны енгізуі
-MailingModuleDescDolibarrUsers=Электрондық поштасы бар пайдаланушылар
+MailingModuleDescbespoerpUsers=Электрондық поштасы бар пайдаланушылар
 MailingModuleDescThirdPartiesByCategories=Third parties
 SendingFromWebInterfaceIsNotAllowed=Веб -интерфейстен жіберуге рұқсат жоқ.
 EmailCollectorFilterDesc=Электрондық поштаның жиналуы үшін барлық сүзгілер сәйкес келуі керек

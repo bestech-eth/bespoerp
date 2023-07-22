@@ -16,11 +16,11 @@ if (!defined("NOLOGIN")) {
 	define("NOLOGIN", '1'); // If this page is public (can be called outside logged session)
 }
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../../main.inc.php';
 
 // Security
-if ($dolibarr_main_prod) {
+if ($bespoerp_main_prod) {
 	accessforbidden();
 }
 
@@ -36,7 +36,7 @@ header("X-Content-Type-Options: nosniff"); // With the nosniff option, if the se
 header("X-Frame-Options: SAMEORIGIN"); // Frames allowed only if on same domain (stop some XSS attacks)
 ?>
 
-This is a form to test if a CSRF exists into a Dolibarr page.<br>
+This is a form to test if a CSRF exists into a bespoerp page.<br>
 <br>
 - Change url to send request to into this file (URL to a hard coded page on a server B)<br>
 - Open this form into a virtual server A.<br>
@@ -45,7 +45,7 @@ This is a form to test if a CSRF exists into a Dolibarr page.<br>
 
 <br>
 <?php
-	$urltosendrequest = "http://127.0.0.1/dolibarr/htdocs/user/group/card.php";
+	$urltosendrequest = "http://127.0.0.1/bespoerp/htdocs/user/group/card.php";
 	print 'urltosendrequest = '.$urltosendrequest.'<br><br>';
 ?>
 
@@ -62,7 +62,7 @@ Test logout
 <html>
   <body>
   <script>history.pushState('', '', '/')</script>
-	<form action="http://localhostgit/dolibarr_dev/htdocs/user/logout.php">
+	<form action="http://localhostgit/bespoerp_dev/htdocs/user/logout.php">
 	  <input type="submit" value="Submit request" />
 	</form>
 	<script>

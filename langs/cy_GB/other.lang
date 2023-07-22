@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# bespoerp language file - Source file is en_US - other
 SecurityCode=Cod diogelwch
 NumberingShort=Rhif
 Tools=Offer
@@ -104,7 +104,7 @@ PredefinedMailContentSendFichInter=__(Helo)__\n\nGweler ymyriad __REF__ ynghlwm\
 PredefinedMailContentLink=Gallwch glicio ar y ddolen isod i wneud eich taliad os nad yw wedi'i wneud eisoes.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Helo)__\n\n\n__(Yn gywir)__\n\n_USER_LLOFNOD_
 PredefinedMailContentSendActionComm=Nodyn atgoffa digwyddiad "__EVENT_LABEL__" ar __EVENT_DATE__ am __EVENT_TIME__ <br> <br> Neges awtomatig yw hon, peidiwch ag ateb.
-DemoDesc=Mae Dolibarr yn ERP/CRM cryno sy'n cefnogi sawl modiwl busnes. Nid yw demo sy'n arddangos pob modiwl yn gwneud unrhyw synnwyr gan nad yw'r senario hwn byth yn digwydd (sawl cant ar gael). Felly, mae sawl proffil demo ar gael.
+DemoDesc=Mae bespoerp yn ERP/CRM cryno sy'n cefnogi sawl modiwl busnes. Nid yw demo sy'n arddangos pob modiwl yn gwneud unrhyw synnwyr gan nad yw'r senario hwn byth yn digwydd (sawl cant ar gael). Felly, mae sawl proffil demo ar gael.
 ChooseYourDemoProfil=Dewiswch y proffil demo sy'n gweddu orau i'ch anghenion...
 ChooseYourDemoProfilMore=...neu adeiladu eich proffil eich hun <br> (dewis modiwl â llaw)
 DemoFundation=Rheoli aelodau sefydliad
@@ -182,10 +182,10 @@ SizeUnitpoint=pwynt
 BugTracker=Traciwr bygiau
 SendNewPasswordDesc=Mae'r ffurflen hon yn eich galluogi i ofyn am gyfrinair newydd. Bydd yn cael ei anfon i'ch cyfeiriad e-bost. <br> Bydd y newid yn dod yn effeithiol ar ôl i chi glicio ar y ddolen gadarnhau yn yr e-bost. <br> Gwiriwch eich mewnflwch.
 BackToLoginPage=Yn ôl i'r dudalen mewngofnodi
-AuthenticationDoesNotAllowSendNewPassword=Modd dilysu yw <b> %s </b> . <br> Yn y modd hwn, ni all Dolibarr wybod na newid eich cyfrinair. <br> Cysylltwch â gweinyddwr eich system os ydych am newid eich cyfrinair.
+AuthenticationDoesNotAllowSendNewPassword=Modd dilysu yw <b> %s </b> . <br> Yn y modd hwn, ni all bespoerp wybod na newid eich cyfrinair. <br> Cysylltwch â gweinyddwr eich system os ydych am newid eich cyfrinair.
 EnableGDLibraryDesc=Gosod neu alluogi llyfrgell GD ar eich gosodiad PHP i ddefnyddio'r opsiwn hwn.
 ProfIdShortDesc= <b> Prof Id %s </b> yn wybodaeth yn dibynnu ar wlad trydydd parti. <br> Er enghraifft, ar gyfer gwlad <b> %s </b> , mae'n cod <b> a0ecb2ec87f4907f .
-DolibarrDemo=Demo ERP/CRM Dolibarr
+bespoerpDemo=Demo ERP/CRM bespoerp
 StatsByNumberOfUnits=Ystadegau ar gyfer swm y cynhyrchion/gwasanaethau
 StatsByNumberOfEntities=Ystadegau ar gyfer nifer yr endidau cyfeirio (nifer yr anfonebau, neu archebion...)
 NumberOfProposals=Nifer y cynigion
@@ -223,7 +223,7 @@ EMailTextHolidayValidated=Cais am adael %s wedi'i ddilysu.
 EMailTextHolidayApproved=Cais am wyliau %s wedi'i gymeradwyo.
 EMailTextActionAdded=Mae'r cam gweithredu %s wedi'i ychwanegu at yr Agenda.
 ImportedWithSet=Set ddata mewnforio
-DolibarrNotification=Hysbysiad awtomatig
+bespoerpNotification=Hysbysiad awtomatig
 ResizeDesc=Rhowch lled newydd <b> NEU </b> uchder newydd. Bydd y gymhareb yn cael ei chadw wrth newid maint...
 NewLength=Lled newydd
 NewHeight=Uchder newydd

@@ -17,10 +17,10 @@
 
 /**
  *       \file       htdocs/webservices/demo_wsclient_productorservice.php
- *       \brief      Demo page to make a client call to Dolibarr WebServices "server_product"
+ *       \brief      Demo page to make a client call to bespoerp WebServices "server_product"
  */
 
-// This is to make Dolibarr working with Plesk
+// This is to make bespoerp working with Plesk
 set_include_path($_SERVER['DOCUMENT_ROOT'].'/htdocs');
 
 require_once '../master.inc.php';
@@ -31,7 +31,7 @@ $WS_DOL_URL = DOL_MAIN_URL_ROOT.'/webservices/server_productorservice.php';
 $WS_METHOD1 = 'createProductOrService';
 $WS_METHOD2 = 'getProductOrService';
 $WS_METHOD3 = 'getListOfProductsOrServices';
-$ns='http://www.dolibarr.org/ns/';
+$ns='http://www.bespoerp.org/ns/';
 
 
 // Set the WebService URL
@@ -58,7 +58,7 @@ if ($soapclient3)
 
 // Call the WebService method and store its result in $result.
 $authentication=array(
-    'dolibarrkey'=>$conf->global->WEBSERVICES_KEY,
+    'bespoerpkey'=>$conf->global->WEBSERVICES_KEY,
     'sourceapplication'=>'DEMO',
     'login'=>'admin',
     'password'=>'changeme',

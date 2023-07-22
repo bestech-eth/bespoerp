@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - interventions
+# bespoerp language file - Source file is en_US - interventions
 Intervention=Zásah
 Interventions=Zásahy
 InterventionCard=Karta zásahu
@@ -30,13 +30,13 @@ InterventionClassifyDone=Classify "Done"
 StatusInterInvoiced=Účtované
 SendInterventionRef=Záznam zásahu %s
 SendInterventionByMail=Send intervention by email
-InterventionCreatedInDolibarr=Zásah %s vytvorený
-InterventionValidatedInDolibarr=Zásah %s overený
-InterventionModifiedInDolibarr=Zásah %s upravený
-InterventionClassifiedBilledInDolibarr=Zásah %s bude účtovaný
-InterventionClassifiedUnbilledInDolibarr=Zásah %s nebude účtovaný 
+InterventionCreatedInbespoerp=Zásah %s vytvorený
+InterventionValidatedInbespoerp=Zásah %s overený
+InterventionModifiedInbespoerp=Zásah %s upravený
+InterventionClassifiedBilledInbespoerp=Zásah %s bude účtovaný
+InterventionClassifiedUnbilledInbespoerp=Zásah %s nebude účtovaný 
 InterventionSentByEMail=Intervention %s sent by email
-InterventionDeletedInDolibarr=Zásah %s odstránený
+InterventionDeletedInbespoerp=Zásah %s odstránený
 InterventionsArea=Interventions area
 DraftFichinter=Draft interventions
 LastModifiedInterventions=Najnovšie %s upravené zásahy

@@ -35,10 +35,10 @@ dol_include_once('/recruitment/core/modules/recruitment/modules_recruitmentcandi
 class mod_recruitmentcandidature_advanced extends ModeleNumRefRecruitmentCandidature
 {
 	/**
-	 * Dolibarr version of the loaded document
+	 * bespoerp version of the loaded document
 	 * @var string
 	 */
-	public $version = 'dolibarr'; // 'development', 'experimental', 'dolibarr'
+	public $version = 'bespoerp'; // 'development', 'experimental', 'bespoerp'
 
 	/**
 	 * @var string Error message

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# bespoerp language file - Source file is en_US - loan
 IdModule= ID modula
 ModuleBuilderDesc=To orodje smejo uporabljati samo izkušeni uporabniki ali razvijalci. Ponuja pripomočke za izdelavo ali urejanje lastnega modula. Dokumentacija za alternativni <a href="%s" target="_blank" rel="noopener noreferrer"> ročni razvoj je tukaj </a>.
 EnterNameOfModuleDesc=Brez presledkov vnesite ime modula/aplikacije, ki jo želite ustvariti. Za ločevanje besed uporabite velike črke (na primer: MyModule, E-CommerceForShop, SyncWithMySystem ...)
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=Svoj modul lahko izbrišete. OPOZORILO: Vse datote
 EnterNameOfObjectToDeleteDesc=Predmet lahko izbrišete. OPOZORILO: Vse datoteke kodiranja (generirane ali ustvarjene ročno), povezane z objektom, bodo izbrisane!
 DangerZone=Nevarno območje
 BuildPackage=Zgradite paket
-BuildPackageDesc=Lahko ustvarite zip paket svoje aplikacije, tako da ste pripravljeni za distribucijo na kateri koli Dolibarr. Lahko ga tudi distribuirate ali prodajate na trgu, kot je <a href="https://www.dolistore.com"> DoliStore.com </a>.
+BuildPackageDesc=Lahko ustvarite zip paket svoje aplikacije, tako da ste pripravljeni za distribucijo na kateri koli bespoerp. Lahko ga tudi distribuirate ali prodajate na trgu, kot je <a href="https://www.dolistore.com"> DoliStore.com </a>.
 BuildDocumentation=Gradnja dokumentacije
 ModuleIsNotActive=Ta modul še ni aktiviran. Pojdite na %s, da ga objavite v živo, ali kliknite tukaj
 ModuleIsLive=Ta modul je bil aktiviran. Vsaka sprememba lahko prekine trenutno funkcijo v živo.
@@ -110,7 +110,7 @@ HooksDefDesc=V lastnosti <b> module_parts['hooks'] </b> v deskriptorju modula de
 TriggerDefDesc=V prožilni datoteki definirajte kodo, ki jo želite izvesti, ko se izvede poslovni dogodek zunaj vašega modula (dogodki, ki jih sprožijo drugi moduli).
 SeeIDsInUse=Oglejte si ID-je, ki se uporabljajo v vaši namestitvi
 SeeReservedIDsRangeHere=Oglejte si obseg rezerviranih ID-jev
-ToolkitForDevelopers=Komplet orodij za razvijalce Dolibarr
+ToolkitForDevelopers=Komplet orodij za razvijalce bespoerp
 TryToUseTheModuleBuilder=Če poznate SQL in PHP, lahko uporabite čarovnika za ustvarjanje izvirnega modula. <br> Omogočite modul <strong> %s </strong> in uporabite čarovnika s klikom na <span class="fa fa-bug"> </span> v zgornjem desnem meniju. <br> Opozorilo: To je napredna funkcija za razvijalce, ne <b> ne </b> eksperimentirajte na svojem proizvodnem mestu!
 SeeTopRightMenu=Oglejte si <span class="fa fa-bug"> </span> v zgornjem desnem meniju
 AddLanguageFile=Dodajte jezikovno datoteko

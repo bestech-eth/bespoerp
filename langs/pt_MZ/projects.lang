@@ -1,7 +1,7 @@
-# Dolibarr language file - Source file is en_US - projects
+# bespoerp language file - Source file is en_US - projects
 SharedProject=A todos
 TaskTimeUser=Usuário
-ProjectModifiedInDolibarr=Projeto %s modificado
+ProjectModifiedInbespoerp=Projeto %s modificado
 LinkToElementShort=Link para
 ProjectReferers=Itens correlatos
 OppStatusPROPO=Proposta

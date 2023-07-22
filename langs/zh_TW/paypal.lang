@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# bespoerp language file - Source file is en_US - paypal
 PaypalSetup=PayPal模組設定
-PaypalDesc=此模組允許客戶以<a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal付款</a>。這可以用於臨時付款或與Dolibarr項目有關的付款（發票，訂單等）。
+PaypalDesc=此模組允許客戶以<a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal付款</a>。這可以用於臨時付款或與bespoerp項目有關的付款（發票，訂單等）。
 PaypalOrCBDoPayment=使用PayPal（信用卡或PayPal）付款
 PaypalDoPayment=用PayPal付款
 PAYPAL_API_SANDBOX=測試/沙盒模式

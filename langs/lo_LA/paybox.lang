@@ -1,7 +1,7 @@
-# Dolibarr language file - Source file is en_US - paybox
+# bespoerp language file - Source file is en_US - paybox
 PayBoxSetup=ຕັ້ງຄ່າໂມດູນ PayBox
-PayBoxDesc=ໂມດູນນີ້ສະ ເໜີ ໃຫ້ ໜ້າ ເວັບຕ່າງ to ອະນຸຍາດໃຫ້ການຊໍາລະຢູ່ໃນ <a href="http://www.paybox.com" target="_blank"> ຕູ້ຊໍາລະ </a> ໂດຍລູກຄ້າ. ອັນນີ້ສາມາດໃຊ້ໄດ້ສໍາລັບການຊໍາລະເງິນຟຣີຫຼືສໍາລັບການຊໍາລະຢູ່ໃນວັດຖຸ Dolibarr ໂດຍສະເພາະ (ໃບເກັບເງິນ, ຄໍາສັ່ງ, ... )
-FollowingUrlAreAvailableToMakePayments=URLs ຕໍ່ໄປນີ້ແມ່ນມີຢູ່ເພື່ອສະ ເໜີ ໜ້າ ໃຫ້ລູກຄ້າເພື່ອຊໍາລະເງິນກັບວັດຖຸ Dolibarr
+PayBoxDesc=ໂມດູນນີ້ສະ ເໜີ ໃຫ້ ໜ້າ ເວັບຕ່າງ to ອະນຸຍາດໃຫ້ການຊໍາລະຢູ່ໃນ <a href="http://www.paybox.com" target="_blank"> ຕູ້ຊໍາລະ </a> ໂດຍລູກຄ້າ. ອັນນີ້ສາມາດໃຊ້ໄດ້ສໍາລັບການຊໍາລະເງິນຟຣີຫຼືສໍາລັບການຊໍາລະຢູ່ໃນວັດຖຸ bespoerp ໂດຍສະເພາະ (ໃບເກັບເງິນ, ຄໍາສັ່ງ, ... )
+FollowingUrlAreAvailableToMakePayments=URLs ຕໍ່ໄປນີ້ແມ່ນມີຢູ່ເພື່ອສະ ເໜີ ໜ້າ ໃຫ້ລູກຄ້າເພື່ອຊໍາລະເງິນກັບວັດຖຸ bespoerp
 PaymentForm=ແບບຟອມການຊໍາລະເງິນ
 WelcomeOnPaymentPage=ຍິນດີຕ້ອນຮັບສູ່ການບໍລິການຊໍາລະເງິນອອນໄລນຂອງພວກເຮົາ
 ThisScreenAllowsYouToPay=ໜ້າ ຈໍນີ້ຊ່ວຍໃຫ້ເຈົ້າສາມາດຊໍາລະເງິນອອນໄລນ to ຫາ %s.

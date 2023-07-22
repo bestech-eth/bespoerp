@@ -211,13 +211,13 @@ class PartnershipUtils
 
 
 	/**
-	 * Action executed by scheduler to check if Dolibarr backlink not found on partner website. (Max number of action batch per call = $conf->global->PARTNERSHIP_MAX_WARNING_BACKLINK_PER_CALL)
+	 * Action executed by scheduler to check if bespoerp backlink not found on partner website. (Max number of action batch per call = $conf->global->PARTNERSHIP_MAX_WARNING_BACKLINK_PER_CALL)
 	 *
 	 * CAN BE A CRON TASK
 	 *
 	 * @return  int                 0 if OK, <>0 if KO (this function is used also by cron so only 0 is OK)
 	 */
-	public function doWarningOfPartnershipIfDolibarrBacklinkNotfound()
+	public function doWarningOfPartnershipIfbespoerpBacklinkNotfound()
 	{
 		global $conf, $langs, $user;
 
@@ -242,7 +242,7 @@ class PartnershipUtils
 
 		$fk_partner = ($managedfor == 'member') ? 'fk_member' : 'fk_soc';
 
-		dol_syslog(get_class($this)."::doWarningOfPartnershipIfDolibarrBacklinkNotfound Warning of partnership");
+		dol_syslog(get_class($this)."::doWarningOfPartnershipIfbespoerpBacklinkNotfound Warning of partnership");
 
 		$now = dol_now();
 		$datetotest = dol_time_plus_duree($now, -1 * abs($gracedelay), 'd');
@@ -265,7 +265,7 @@ class PartnershipUtils
 		$sql .= " WHERE 1 = 1";
 		$sql .= " AND p.".$fk_partner." > 0";
 		$sql .= " AND p.status = ".((int) $partnership::STATUS_APPROVED); // Only accepted not yet canceled
-		$sql .= " AND (p.last_check_backlink IS NULL OR p.last_check_backlink <= '".$this->db->idate($now - 7 * 24 * 3600)."')"; // Every week, check that website contains a link to dolibarr.
+		$sql .= " AND (p.last_check_backlink IS NULL OR p.last_check_backlink <= '".$this->db->idate($now - 7 * 24 * 3600)."')"; // Every week, check that website contains a link to bespoerp.
 		$sql .= $this->db->order('p.rowid', 'ASC');
 		// Limit is managed into loop later
 
@@ -283,7 +283,7 @@ class PartnershipUtils
 					if (!empty($partnershipsprocessed[$obj->rowid])) continue;
 
 					if ($somethingdoneonpartnership >= $MAXPERCALL) {
-						dol_syslog("We reach the limit of ".$MAXPERCALL." partnership processed, so we quit loop for this batch doWarningOfPartnershipIfDolibarrBacklinkNotfound to avoid to reach email quota.", LOG_WARNING);
+						dol_syslog("We reach the limit of ".$MAXPERCALL." partnership processed, so we quit loop for this batch doWarningOfPartnershipIfbespoerpBacklinkNotfound to avoid to reach email quota.", LOG_WARNING);
 						break;
 					}
 
@@ -303,7 +303,7 @@ class PartnershipUtils
 					if (empty($website)) {
 						$websitenotfound .= ($websitenotfound ? ', ' : '').'Website not found for id="'.$fk_partner.'"'."\n";
 					} else {
-						$backlinkfound = $this->checkDolibarrBacklink($website);
+						$backlinkfound = $this->checkbespoerpBacklink($website);
 					}
 
 					if (!$backlinkfound) {
@@ -393,12 +393,12 @@ class PartnershipUtils
 	}
 
 	/**
-	 * Action to check if Dolibarr backlink not found on partner website
+	 * Action to check if bespoerp backlink not found on partner website
 	 *
 	 * @param  $website      Website	Partner's website
 	 * @return  int                 	0 if KO, 1 if OK
 	 */
-	private function checkDolibarrBacklink($website = null)
+	private function checkbespoerpBacklink($website = null)
 	{
 		global $conf, $langs, $user;
 

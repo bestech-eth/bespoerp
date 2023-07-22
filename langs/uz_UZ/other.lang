@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# bespoerp language file - Source file is en_US - other
 SecurityCode=Havfsizlik kodi
 NumberingShort=N °
 Tools=Tools
@@ -104,7 +104,7 @@ PredefinedMailContentSendFichInter=__(Salom)__\n\nIltimos, __REF__ aralashuvini 
 PredefinedMailContentLink=Agar siz hali to'lamagan bo'lsangiz, to'lovni amalga oshirish uchun quyidagi havolani bosishingiz mumkin.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Salom)__\n\n\n__ (samimiyat bilan) __\n\n__USER_SIGNATURE__
 PredefinedMailContentSendActionComm=__EVENT_DATE__ soat __EVENT_TIME__ da "__EVENT_LABEL__" voqea eslatmasi <br> <br> Bu avtomatik xabar, iltimos javob bermang.
-DemoDesc=Dolibarr - bu bir nechta biznes modullarini qo'llab-quvvatlovchi ixcham ERP / CRM. Barcha modullarni namoyish etadigan demo hech qanday ma'noga ega emas, chunki bu stsenariy hech qachon ro'y bermaydi (bir necha yuzta mavjud). Shunday qilib, bir nechta demo profillari mavjud.
+DemoDesc=bespoerp - bu bir nechta biznes modullarini qo'llab-quvvatlovchi ixcham ERP / CRM. Barcha modullarni namoyish etadigan demo hech qanday ma'noga ega emas, chunki bu stsenariy hech qachon ro'y bermaydi (bir necha yuzta mavjud). Shunday qilib, bir nechta demo profillari mavjud.
 ChooseYourDemoProfil=Sizning ehtiyojlaringizga mos keladigan demo profilini tanlang ...
 ChooseYourDemoProfilMore=... yoki o'zingizning profilingizni yarating <br> (modulni qo'lda tanlash)
 DemoFundation=Jamg'arma a'zolarini boshqarish
@@ -182,10 +182,10 @@ SizeUnitpoint=nuqta
 BugTracker=Xatolarni kuzatuvchi
 SendNewPasswordDesc=Ushbu shakl yangi parolni so'rashga imkon beradi. Bu sizning elektron pochta manzilingizga yuboriladi. <br> O'zgartirish elektron pochtadagi tasdiqlash havolasini bosgandan so'ng kuchga kiradi. <br> pochta qutisini tekshiring.
 BackToLoginPage=Kirish sahifasiga qaytish
-AuthenticationDoesNotAllowSendNewPassword=Autentifikatsiya rejimi <b> %s </b>. <br> Ushbu rejimda Dolibarr parolingizni bilolmaydi va o'zgartira olmaydi. <br> Agar parolingizni o'zgartirmoqchi bo'lsangiz, tizim ma'muringizga murojaat qiling.
+AuthenticationDoesNotAllowSendNewPassword=Autentifikatsiya rejimi <b> %s </b>. <br> Ushbu rejimda bespoerp parolingizni bilolmaydi va o'zgartira olmaydi. <br> Agar parolingizni o'zgartirmoqchi bo'lsangiz, tizim ma'muringizga murojaat qiling.
 EnableGDLibraryDesc=Ushbu parametrdan foydalanish uchun PHP o'rnatishingizda GD kutubxonasini o'rnating yoki yoqing.
 ProfIdShortDesc= <b> Prof Id %s </b> - bu uchinchi tomon mamlakatiga bog'liq bo'lgan ma'lumot. <br> Masalan, <b> %s </b> mamlakati uchun bu <b> %s a09a4b739f8
-DolibarrDemo=Dolibarr ERP / CRM demo
+bespoerpDemo=bespoerp ERP / CRM demo
 StatsByNumberOfUnits=Mahsulotlar / xizmatlar miqdori yig'indisi statistikasi
 StatsByNumberOfEntities=Yo'naltiruvchi tashkilotlarning statistikasi (hisob-fakturalar yoki buyurtmalar ...)
 NumberOfProposals=Takliflar soni
@@ -223,7 +223,7 @@ EMailTextHolidayValidated=%s qoldirish so'rovi tasdiqlangan.
 EMailTextHolidayApproved=%s ta'tilga chiqish so'rovi tasdiqlandi.
 EMailTextActionAdded=%s harakati kun tartibiga qo'shildi.
 ImportedWithSet=Import ma'lumotlari to'plami
-DolibarrNotification=Avtomatik bildirishnoma
+bespoerpNotification=Avtomatik bildirishnoma
 ResizeDesc=Yangi kenglikni kiriting <b> YOKI </b> yangi balandlik. O'lchamini o'zgartirish paytida nisbat saqlanib qoladi ...
 NewLength=Yangi kenglik
 NewHeight=Yangi balandlik

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - mails
+# bespoerp language file - Source file is en_US - mails
 Mailing=Gửi Email
 EMailing=Gửi Email
 EMailings=Gửi Email
@@ -90,7 +90,7 @@ MailingModuleDescContactsByCategory=Liên lạc theo danh mục
 MailingModuleDescContactsByFunction=Liên lạc theo vị trí
 MailingModuleDescEmailsFromFile=Email từ tập tin
 MailingModuleDescEmailsFromUser=Email đầu vào của người dùng
-MailingModuleDescDolibarrUsers=Người dùng có email
+MailingModuleDescbespoerpUsers=Người dùng có email
 MailingModuleDescThirdPartiesByCategories=Bên thứ ba
 SendingFromWebInterfaceIsNotAllowed=Gửi từ giao diện web không được phép.
 EmailCollectorFilterDesc=All filters must match to have an email being collected

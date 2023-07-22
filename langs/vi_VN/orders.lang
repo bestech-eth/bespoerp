@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - orders
+# bespoerp language file - Source file is en_US - orders
 OrdersArea=Khu vực đặt hàng của khách hàng
 SuppliersOrdersArea=Khu vực đặt hàng thu mua
 OrderCard=Thẻ đặt hàng
@@ -120,8 +120,8 @@ ConfirmCloneOrder=Bạn có chắc chắn muốn sao chép đơn đặt hàng n�
 DispatchSupplierOrder=Nhận đơn đặt hàng mua %s
 FirstApprovalAlreadyDone=Duyệt mức đầu tiên đã xong
 SecondApprovalAlreadyDone=Phê duyệt lần thứ hai đã được thực hiện
-SupplierOrderReceivedInDolibarr=Đơn đặt hàng mua %s đã nhận %s
-SupplierOrderSubmitedInDolibarr=Đơn đặt hàng mua %s đã gửi
+SupplierOrderReceivedInbespoerp=Đơn đặt hàng mua %s đã nhận %s
+SupplierOrderSubmitedInbespoerp=Đơn đặt hàng mua %s đã gửi
 SupplierOrderClassifiedBilled=Đơn đặt hàng mua %s đã xuất hóa đơn
 OtherOrders=Đơn hàng khác
 SupplierOrderValidatedAndApproved=Supplier order is validated and approved : %s

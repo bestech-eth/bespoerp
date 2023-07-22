@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - bills
+# bespoerp language file - Source file is en_US - bills
 Bill=Hoá đơn
 Bills=Hoá đơn
 BillsCustomers=Hóa đơn khách hàng
@@ -594,8 +594,8 @@ AutoFillDateFromShort=Đặt ngày bắt đầu
 AutoFillDateTo=Đặt ngày kết thúc cho dòng dịch vụ với ngày hóa đơn tiếp theo
 AutoFillDateToShort=Đặt ngày kết thúc
 MaxNumberOfGenerationReached=Số lượng tạo ra đạt tối đa
-BILL_DELETEInDolibarr=Hóa đơn đã bị xóa
-BILL_SUPPLIER_DELETEInDolibarr=Hoá đơn Nhà cung cấp đã được xoá
+BILL_DELETEInbespoerp=Hóa đơn đã bị xóa
+BILL_SUPPLIER_DELETEInbespoerp=Hoá đơn Nhà cung cấp đã được xoá
 UnitPriceXQtyLessDiscount=Unit price x Qty - Discount
 CustomersInvoicesArea=Customer billing area
 SupplierInvoicesArea=Supplier billing area

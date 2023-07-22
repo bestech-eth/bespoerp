@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - projects
+# bespoerp language file - Source file is en_US - projects
 ProjectsArea=Project Omgeving
 AllAllowedProjects=Alle projecten die ik kan lezen (mijn + openbaar)
 TasksOnProjectsPublicDesc=Deze weergave geeft alle taken weer van projecten die u mag lezen.
@@ -14,4 +14,4 @@ AddHereTimeSpentForDay=Voeg hier de besteedde tijd voor deze dag / taak toe
 MyProjectsArea=Mijn projectengebied
 CurentlyOpenedTasks=Actueel openstaande taken
 WhichIamLinkedToProject=waaraan ik ben gekoppeld aan het project
-ProjectModifiedInDolibarr=Project %s gewijzigd
+ProjectModifiedInbespoerp=Project %s gewijzigd

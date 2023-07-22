@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - receptions
+# bespoerp language file - Source file is en_US - receptions
 ReceptionDescription=Upravljanje sprejema prodajalca (ustvarjanje sprejemnih dokumentov)
 ReceptionsSetup=Nastavitev sprejema dobavitelja
 RefReception=Ref. sprejem
@@ -49,6 +49,6 @@ ReceptionsNumberingModules=Modul oštevilčenja za sprejeme
 ReceptionsReceiptModel=Predloge dokumentov za sprejeme
 NoMorePredefinedProductToDispatch=Nič več vnaprej določenih izdelkov za pošiljanje
 ReceptionExist=Recepcija obstaja
-ReceptionBackToDraftInDolibarr=Sprejem %s nazaj na osnutek
-ReceptionClassifyClosedInDolibarr=Sprejem %s tajno Zaprto
-ReceptionUnClassifyCloseddInDolibarr=Recepcija %s ponovno odprta
+ReceptionBackToDraftInbespoerp=Sprejem %s nazaj na osnutek
+ReceptionClassifyClosedInbespoerp=Sprejem %s tajno Zaprto
+ReceptionUnClassifyCloseddInbespoerp=Recepcija %s ponovno odprta

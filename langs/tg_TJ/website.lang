@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# bespoerp language file - Source file is en_US - website
 Shortname=Рамз
 WebsiteName=Name of the website
 WebsiteSetupDesc=Дар ин ҷо вебсайтҳое, ки мехоҳед истифода баред, эҷод кунед. Сипас ба менюи Вебсайтҳо ворид шавед, то онҳоро таҳрир кунед.
@@ -48,13 +48,13 @@ VirtualhostDesc=The name of the Virtual host or domain (For example: www.mywebsi
 SetHereVirtualHost=<u>Use with Apache/NGinx/...</u><br>Create on your web server (Apache, Nginx, ...) a dedicated Virtual Host with PHP enabled and a Root directory on<br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Намуна барои истифода дар танзими мизбони виртуалии Apache:
 YouCanAlsoTestWithPHPS=<u>Use with PHP embedded server</u><br>On develop environment, you may prefer to test the site with the PHP embedded web server (PHP 5.5 required) by running<br><strong>php -S 0.0.0.0:8080 -t %s</strong>
-YouCanAlsoDeployToAnotherWHP=<u>Run your web site with another Dolibarr Hosting provider</u><br>If you don't have a web server like Apache or NGinx available on internet, you can export and import your web site onto another Dolibarr instance provided by another Dolibarr hosting provider that provide full integration with the Website module. You can find a list of some Dolibarr hosting providers on <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Run your web site with another bespoerp Hosting provider</u><br>If you don't have a web server like Apache or NGinx available on internet, you can export and import your web site onto another bespoerp instance provided by another bespoerp hosting provider that provide full integration with the Website module. You can find a list of some bespoerp hosting providers on <a href="https://saas.bespoerp.org" target="_blank" rel="noopener noreferrer external">https://saas.bespoerp.org</a>
 CheckVirtualHostPerms=Check also that the virtual host user (for example www-data) has <strong>%s</strong> permissions on files into<br><strong>%s</strong>
 ReadPerm=Хондан
 WritePerm=Нависед
 TestDeployOnWeb=Санҷиш/густариш дар веб
 PreviewSiteServedByWebServer=<u>Preview %s in a new tab.</u><br><br>The %s will be served by an external web server (like Apache, Nginx, IIS). You must install and setup this server before to point to directory:<br><strong>%s</strong><br>URL served by external server:<br><strong>%s</strong>
-PreviewSiteServedByDolibarr= <u> Пешнамоиши %s дар ҷадвали нав. </u> <br> <br> %s аз ҷониби сервери Dolibarr хидмат карда мешавад, аз ин рӯ барои насб кардан ягон сервери иловагии веб (ба монанди Apache, Nginx, IIS) лозим нест. <br> Хеле нороҳаткунанда дар он аст, ки URL -и саҳифаҳо барои корбарон қулай нестанд ва аз роҳи Dolibarr -и худ оғоз мекунанд. <br> URL хизмат аз тарафи Dolibarr: <br> <strong> %s </strong> <br> <br> Барои истифодаи худ веб беруна сервери Шумо ба хизмат дар ин сомона, эҷод мизбон виртуалӣ дар веб-сервер аз шумо, ки нуқтаҳои оид ба феҳрист <br> <strong> %s </strong> <br> он гоҳ номи ин сервер виртуалӣ дохил дар хосиятҳои ин вебсайт ва истиноди "Санҷиш/Ҷойгиркунӣ дар веб" -ро клик кунед.
+PreviewSiteServedBybespoerp= <u> Пешнамоиши %s дар ҷадвали нав. </u> <br> <br> %s аз ҷониби сервери bespoerp хидмат карда мешавад, аз ин рӯ барои насб кардан ягон сервери иловагии веб (ба монанди Apache, Nginx, IIS) лозим нест. <br> Хеле нороҳаткунанда дар он аст, ки URL -и саҳифаҳо барои корбарон қулай нестанд ва аз роҳи bespoerp -и худ оғоз мекунанд. <br> URL хизмат аз тарафи bespoerp: <br> <strong> %s </strong> <br> <br> Барои истифодаи худ веб беруна сервери Шумо ба хизмат дар ин сомона, эҷод мизбон виртуалӣ дар веб-сервер аз шумо, ки нуқтаҳои оид ба феҳрист <br> <strong> %s </strong> <br> он гоҳ номи ин сервер виртуалӣ дохил дар хосиятҳои ин вебсайт ва истиноди "Санҷиш/Ҷойгиркунӣ дар веб" -ро клик кунед.
 VirtualHostUrlNotDefined=URL -и мизбони маҷозӣ, ки аз ҷониби веб -сервери беруна хидмат мекунад, муайян нашудааст
 NoPageYet=Ҳоло ягон саҳифа нест
 YouCanCreatePageOrImportTemplate=Шумо метавонед як саҳифаи нав эҷод кунед ё як қолаби пурраи вебсайтро ворид кунед

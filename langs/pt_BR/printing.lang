@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - printing
+# bespoerp language file - Source file is en_US - printing
 PrintingDriverDesc=Configuração de variáveis para o driver de impressão.
 ListDrivers=Lista de drivers
 FileWasSentToPrinter=Arquivo %s enviado para impressora

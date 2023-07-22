@@ -26,7 +26,7 @@
  *	\brief      Management page of documents attached to an reception
  */
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/order.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/files.lib.php';

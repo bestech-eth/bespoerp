@@ -23,7 +23,7 @@
  *  \brief      Tab for notes on Workstation
  */
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../main.inc.php';
 
 require_once DOL_DOCUMENT_ROOT.'/workstation/class/workstation.class.php';

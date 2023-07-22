@@ -25,7 +25,7 @@
  *	\brief      Third party module setup page
  */
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/company.lib.php';
@@ -52,14 +52,14 @@ $formcompany = new FormCompany($db);
 include DOL_DOCUMENT_ROOT.'/core/actions_setmoduleoptions.inc.php';
 
 if ($action == 'setcodeclient') {
-	$result = dolibarr_set_const($db, "SOCIETE_CODECLIENT_ADDON", $value, 'chaine', 0, '', $conf->entity);
+	$result = bespoerp_set_const($db, "SOCIETE_CODECLIENT_ADDON", $value, 'chaine', 0, '', $conf->entity);
 	if ($result <= 0) {
 		dol_print_error($db);
 	}
 }
 
 if ($action == 'setcodecompta') {
-	$result = dolibarr_set_const($db, "SOCIETE_CODECOMPTA_ADDON", $value, 'chaine', 0, '', $conf->entity);
+	$result = bespoerp_set_const($db, "SOCIETE_CODECOMPTA_ADDON", $value, 'chaine', 0, '', $conf->entity);
 	if ($result <= 0) {
 		dol_print_error($db);
 	}
@@ -68,7 +68,7 @@ if ($action == 'setcodecompta') {
 if ($action == 'updateoptions') {
 	if (GETPOST('COMPANY_USE_SEARCH_TO_SELECT')) {
 		$companysearch = GETPOST('activate_COMPANY_USE_SEARCH_TO_SELECT', 'alpha');
-		$res = dolibarr_set_const($db, "COMPANY_USE_SEARCH_TO_SELECT", $companysearch, 'chaine', 0, '', $conf->entity);
+		$res = bespoerp_set_const($db, "COMPANY_USE_SEARCH_TO_SELECT", $companysearch, 'chaine', 0, '', $conf->entity);
 		if (!($res > 0)) {
 			$error++;
 		}
@@ -81,7 +81,7 @@ if ($action == 'updateoptions') {
 
 	if (GETPOST('CONTACT_USE_SEARCH_TO_SELECT')) {
 		$contactsearch = GETPOST('activate_CONTACT_USE_SEARCH_TO_SELECT', 'alpha');
-		$res = dolibarr_set_const($db, "CONTACT_USE_SEARCH_TO_SELECT", $contactsearch, 'chaine', 0, '', $conf->entity);
+		$res = bespoerp_set_const($db, "CONTACT_USE_SEARCH_TO_SELECT", $contactsearch, 'chaine', 0, '', $conf->entity);
 		if (!($res > 0)) {
 			$error++;
 		}
@@ -94,7 +94,7 @@ if ($action == 'updateoptions') {
 
 	if (GETPOST('THIRDPARTY_CUSTOMERTYPE_BY_DEFAULT')) {
 		$customertypedefault = GETPOST('defaultcustomertype', 'int');
-		$res = dolibarr_set_const($db, "THIRDPARTY_CUSTOMERTYPE_BY_DEFAULT", $customertypedefault, 'chaine', 0, '', $conf->entity);
+		$res = bespoerp_set_const($db, "THIRDPARTY_CUSTOMERTYPE_BY_DEFAULT", $customertypedefault, 'chaine', 0, '', $conf->entity);
 		if (!($res > 0)) {
 			$error++;
 		}
@@ -142,7 +142,7 @@ if ($action == 'setdoc') {
 
 	$db->begin();
 
-	dolibarr_set_const($db, "COMPANY_ADDON_PDF", $value, 'chaine', 0, '', $conf->entity);
+	bespoerp_set_const($db, "COMPANY_ADDON_PDF", $value, 'chaine', 0, '', $conf->entity);
 
 	// On active le modele
 	$type = 'company';
@@ -170,7 +170,7 @@ if ($action == 'setdoc') {
 //Activate Set accountancy code customer invoice mandatory
 if ($action == "setaccountancycodecustomerinvoicemandatory") {
 	$setaccountancycodecustomerinvoicemandatory = GETPOST('value', 'int');
-	$res = dolibarr_set_const($db, "SOCIETE_ACCOUNTANCY_CODE_CUSTOMER_INVOICE_MANDATORY", $setaccountancycodecustomerinvoicemandatory, 'yesno', 0, '', $conf->entity);
+	$res = bespoerp_set_const($db, "SOCIETE_ACCOUNTANCY_CODE_CUSTOMER_INVOICE_MANDATORY", $setaccountancycodecustomerinvoicemandatory, 'yesno', 0, '', $conf->entity);
 	if (!($res > 0)) {
 		$error++;
 	}
@@ -184,7 +184,7 @@ if ($action == "setaccountancycodecustomerinvoicemandatory") {
 //Activate Set vat id unique
 if ($action == "setvatintraunique") {
 	$setvatintraunique = GETPOST('value', 'int');
-	$res = dolibarr_set_const($db, "SOCIETE_VAT_INTRA_UNIQUE", $setvatintraunique, 'yesno', 0, '', $conf->entity);
+	$res = bespoerp_set_const($db, "SOCIETE_VAT_INTRA_UNIQUE", $setvatintraunique, 'yesno', 0, '', $conf->entity);
 	if (!($res > 0)) {
 		$error++;
 	}
@@ -198,7 +198,7 @@ if ($action == "setvatintraunique") {
 //Activate Set ref in list
 if ($action == "setaddrefinlist") {
 	$setaddrefinlist = GETPOST('value', 'int');
-	$res = dolibarr_set_const($db, "SOCIETE_ADD_REF_IN_LIST", $setaddrefinlist, 'yesno', 0, '', $conf->entity);
+	$res = bespoerp_set_const($db, "SOCIETE_ADD_REF_IN_LIST", $setaddrefinlist, 'yesno', 0, '', $conf->entity);
 	if (!($res > 0)) {
 		$error++;
 	}
@@ -212,7 +212,7 @@ if ($action == "setaddrefinlist") {
 //Activate Set vat in list
 if ($action == "setvatinlist") {
 	$setvatinlist = GETPOST('value', 'int');
-	$res = dolibarr_set_const($db, "SOCIETE_SHOW_VAT_IN_LIST", $setvatinlist, 'yesno', 0, '', $conf->entity);
+	$res = bespoerp_set_const($db, "SOCIETE_SHOW_VAT_IN_LIST", $setvatinlist, 'yesno', 0, '', $conf->entity);
 	if (!($res > 0)) {
 		$error++;
 	}
@@ -226,7 +226,7 @@ if ($action == "setvatinlist") {
 //Activate Set adress in list
 if ($action == "setaddadressinlist") {
 	$val = GETPOST('value', 'int');
-	$res = dolibarr_set_const($db, "COMPANY_SHOW_ADDRESS_SELECTLIST", $val, 'yesno', 0, '', $conf->entity);
+	$res = bespoerp_set_const($db, "COMPANY_SHOW_ADDRESS_SELECTLIST", $val, 'yesno', 0, '', $conf->entity);
 	if (!($res > 0)) {
 		$error++;
 	}
@@ -240,7 +240,7 @@ if ($action == "setaddadressinlist") {
 //Activate Set email phone town in contact list
 if ($action == "setaddemailphonetownincontactlist") {
 	$val = GETPOST('value', 'int');
-	$res = dolibarr_set_const($db, "CONTACT_SHOW_EMAIL_PHONE_TOWN_SELECTLIST", $val, 'yesno', 0, '', $conf->entity);
+	$res = bespoerp_set_const($db, "CONTACT_SHOW_EMAIL_PHONE_TOWN_SELECTLIST", $val, 'yesno', 0, '', $conf->entity);
 	if (!($res > 0)) {
 		$error++;
 	}
@@ -254,7 +254,7 @@ if ($action == "setaddemailphonetownincontactlist") {
 //Activate Ask For Preferred Shipping Method
 if ($action == "setaskforshippingmet") {
 	$setaskforshippingmet = GETPOST('value', 'int');
-	$res = dolibarr_set_const($db, "SOCIETE_ASK_FOR_SHIPPING_METHOD", $setaskforshippingmet, 'yesno', 0, '', $conf->entity);
+	$res = bespoerp_set_const($db, "SOCIETE_ASK_FOR_SHIPPING_METHOD", $setaskforshippingmet, 'yesno', 0, '', $conf->entity);
 	if (!($res > 0)) {
 		$error++;
 	}
@@ -268,7 +268,7 @@ if ($action == "setaskforshippingmet") {
 // Activate "Disable prospect/customer type"
 if ($action == "setdisableprospectcustomer") {
 	$setdisableprospectcustomer = GETPOST('value', 'int');
-	$res = dolibarr_set_const($db, "SOCIETE_DISABLE_PROSPECTSCUSTOMERS", $setdisableprospectcustomer, 'yesno', 0, '', $conf->entity);
+	$res = bespoerp_set_const($db, "SOCIETE_DISABLE_PROSPECTSCUSTOMERS", $setdisableprospectcustomer, 'yesno', 0, '', $conf->entity);
 	if (!($res > 0)) {
 		$error++;
 	}
@@ -284,7 +284,7 @@ if ($action == 'setprofid') {
 	$status = GETPOST('status', 'alpha');
 
 	$idprof = "SOCIETE_".$value."_UNIQUE";
-	$result = dolibarr_set_const($db, $idprof, $status, 'chaine', 0, '', $conf->entity);
+	$result = bespoerp_set_const($db, $idprof, $status, 'chaine', 0, '', $conf->entity);
 	if ($result <= 0) {
 		dol_print_error($db);
 	}
@@ -295,7 +295,7 @@ if ($action == 'setprofidmandatory') {
 	$status = GETPOST('status', 'alpha');
 
 	$idprof = "SOCIETE_".$value."_MANDATORY";
-	$result = dolibarr_set_const($db, $idprof, $status, 'chaine', 0, '', $conf->entity);
+	$result = bespoerp_set_const($db, $idprof, $status, 'chaine', 0, '', $conf->entity);
 	if ($result <= 0) {
 		dol_print_error($db);
 	}
@@ -306,7 +306,7 @@ if ($action == 'setprofidinvoicemandatory') {
 	$status = GETPOST('status', 'alpha');
 
 	$idprof = "SOCIETE_".$value."_INVOICE_MANDATORY";
-	$result = dolibarr_set_const($db, $idprof, $status, 'chaine', 0, '', $conf->entity);
+	$result = bespoerp_set_const($db, $idprof, $status, 'chaine', 0, '', $conf->entity);
 	if ($result <= 0) {
 		dol_print_error($db);
 	}
@@ -316,14 +316,14 @@ if ($action == 'setprofidinvoicemandatory') {
 if ($action == 'sethideinactivethirdparty') {
 	$status = GETPOST('status', 'alpha');
 
-	$result = dolibarr_set_const($db, "COMPANY_HIDE_INACTIVE_IN_COMBOBOX", $status, 'chaine', 0, '', $conf->entity);
+	$result = bespoerp_set_const($db, "COMPANY_HIDE_INACTIVE_IN_COMBOBOX", $status, 'chaine', 0, '', $conf->entity);
 	if ($result <= 0) {
 		dol_print_error($db);
 	}
 }
 if ($action == 'setonsearchandlistgooncustomerorsuppliercard') {
 	$setonsearchandlistgooncustomerorsuppliercard = GETPOST('value', 'int');
-	$res = dolibarr_set_const($db, "SOCIETE_ON_SEARCH_AND_LIST_GO_ON_CUSTOMER_OR_SUPPLIER_CARD", $setonsearchandlistgooncustomerorsuppliercard, 'yesno', 0, '', $conf->entity);
+	$res = bespoerp_set_const($db, "SOCIETE_ON_SEARCH_AND_LIST_GO_ON_CUSTOMER_OR_SUPPLIER_CARD", $setonsearchandlistgooncustomerorsuppliercard, 'yesno', 0, '', $conf->entity);
 	if (!($res > 0)) {
 		$error++;
 	}

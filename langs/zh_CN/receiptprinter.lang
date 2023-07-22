@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - receiptprinter
+# bespoerp language file - Source file is en_US - receiptprinter
 ReceiptPrinterSetup=设置发票打印机模块
 PrinterAdded=打印机 %s 已添加
 PrinterUpdated=打印机 %s 已更新

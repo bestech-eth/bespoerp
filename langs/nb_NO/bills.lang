@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - bills
+# bespoerp language file - Source file is en_US - bills
 Bill=Faktura
 Bills=Fakturaer
 BillsCustomers=Kundefakturaer
@@ -612,8 +612,8 @@ AutoFillDateFromShort=Angi startdato
 AutoFillDateTo=Angi sluttdato for tjenestelinje med neste faktura dato
 AutoFillDateToShort=Angi sluttdato
 MaxNumberOfGenerationReached=Maks ant. genereringer nådd
-BILL_DELETEInDolibarr=Faktura slettet
-BILL_SUPPLIER_DELETEInDolibarr=Leverandørfaktura slettet
+BILL_DELETEInbespoerp=Faktura slettet
+BILL_SUPPLIER_DELETEInbespoerp=Leverandørfaktura slettet
 UnitPriceXQtyLessDiscount=Enhetspris x Antall - Rabatt
 CustomersInvoicesArea=Kunde-faktureringsområde
 SupplierInvoicesArea=Leverandør faktureringsområde

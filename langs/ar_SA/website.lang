@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# bespoerp language file - Source file is en_US - website
 Shortname=نص مرمز
 WebsiteName=Name of the website
 WebsiteSetupDesc=قم بإنشاء الموقع الالكتروني الذي ترغب باستخدامه ثم اذهب الى القائمة المواقع الإلكترونية لتعديلها
@@ -48,13 +48,13 @@ VirtualhostDesc=The name of the Virtual host or domain (For example: www.mywebsi
 SetHereVirtualHost=<u>بإستخدام اباتشي \\انجنكس\\...</u><br> على خادمك (اباتشي او انجنكس..) قم بإنشاء خادم افتراضي يدعم البي اتش بي واجعل المسار الجذر له<br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=مثال إعدادات لاستخدامه مع خادم اباتشي افتراضي
 YouCanAlsoTestWithPHPS=<u>لاستخدام خادم بي اتش بي المضمن </u><br>على بيئة التطوير ربما تفضل تجربة موقعك بخادم بي اتش بي المضمن (النسخة 5.5 فما فوق) عبر تشغيل <br><strong> php -S 0.0.0.0:8080 -t %s</strong> 
-YouCanAlsoDeployToAnotherWHP= <u> قم بتشغيل موقع الويب الخاص بك مع مزود استضافة Dolibarr آخر </u> <br> إذا لم يكن لديك خادم ويب مثل Apache أو NGinx متاحًا على الإنترنت ، فيمكنك تصدير واستيراد موقع الويب الخاص بك إلى مثيل Dolibarr آخر يوفره مزود استضافة Dolibarr آخر يوفره بالكامل التكامل مع وحدة موقع الويب. يمكنك العثور على قائمة ببعض موفري خدمة استضافة Dolibarr على <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external"> https://saas.dolibarr.org </a>
+YouCanAlsoDeployToAnotherWHP= <u> قم بتشغيل موقع الويب الخاص بك مع مزود استضافة bespoerp آخر </u> <br> إذا لم يكن لديك خادم ويب مثل Apache أو NGinx متاحًا على الإنترنت ، فيمكنك تصدير واستيراد موقع الويب الخاص بك إلى مثيل bespoerp آخر يوفره مزود استضافة bespoerp آخر يوفره بالكامل التكامل مع وحدة موقع الويب. يمكنك العثور على قائمة ببعض موفري خدمة استضافة bespoerp على <a href="https://saas.bespoerp.org" target="_blank" rel="noopener noreferrer external"> https://saas.bespoerp.org </a>
 CheckVirtualHostPerms=ايضاً تأكد من ان مستخدم الخادم (مثلا www-data ) لديه صلاحيات <strong>%s</strong> على الملفات <br><strong>%s</strong>
 ReadPerm=قرأ
 WritePerm=التعديل والكتابة
 TestDeployOnWeb=تجربة \\نشر على الانترنت
 PreviewSiteServedByWebServer=<u>إستعراض %s في علامة تبويب جديدة.</u><br><br> الرابط %s سيتم إنشائه بواسطة خادم خارجي (اباتشي او انجنكس مثلاً). لابد ان تثبت هذا الخادم بنفسك وتقوم بإعداده ليشير الى المسار : <br><strong>%s</strong><br>الرابط المخدوم بواسطة خادم خارجي هو : <br><strong>%s</strong>
-PreviewSiteServedByDolibarr=<u>إستعراض %s في علامة تبويب جديدة.</u><br><br> الرابط %s سيتم إنشائه بواسطة خادم نظام دوليبار وبذالك لا يحتاج لتثبيت خادم خارجي (مثل اباتشي او انجنكس) .<br>المزعج في الامر ان روابط الصفحات صعبة للمستخدمين وستحتوي على مسار نظام دوليبار.<br> الرابط المخدوم بواسطة دوليبار :<br><strong>%s</strong><br><br>لإستخدام خادمك الخاص لتقديم موقعك الإلكتروني قم بأنشاء خادم إفتراضي (كما في اباتشي) واجعله يشير الى المسار<br><strong>%s</strong><br>ثم قم باضافة الرابط في إعدادات الموقع الإلكتروني ثم قم بالضغط على "تجربة\\نشر موقعك الإلكتروني"
+PreviewSiteServedBybespoerp=<u>إستعراض %s في علامة تبويب جديدة.</u><br><br> الرابط %s سيتم إنشائه بواسطة خادم نظام دوليبار وبذالك لا يحتاج لتثبيت خادم خارجي (مثل اباتشي او انجنكس) .<br>المزعج في الامر ان روابط الصفحات صعبة للمستخدمين وستحتوي على مسار نظام دوليبار.<br> الرابط المخدوم بواسطة دوليبار :<br><strong>%s</strong><br><br>لإستخدام خادمك الخاص لتقديم موقعك الإلكتروني قم بأنشاء خادم إفتراضي (كما في اباتشي) واجعله يشير الى المسار<br><strong>%s</strong><br>ثم قم باضافة الرابط في إعدادات الموقع الإلكتروني ثم قم بالضغط على "تجربة\\نشر موقعك الإلكتروني"
 VirtualHostUrlNotDefined=رابط الخادم الافتراضي المخدوم بواسطة خادم خارجي غير معرف
 NoPageYet=لا يوجد صفحات بعد
 YouCanCreatePageOrImportTemplate=يمكنك انشاء صفحة جديدة او إستيراد موقع إلكتروني كامل

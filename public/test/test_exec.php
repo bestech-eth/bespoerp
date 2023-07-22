@@ -35,12 +35,12 @@ if (!defined("NOSESSION")) {
 	define("NOSESSION", '1');
 }
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../../main.inc.php';
 
 // Security
-if ($dolibarr_main_prod) {
-	accessforbidden('Access forbidden when $dolibarr_main_prod is set to 1');
+if ($bespoerp_main_prod) {
+	accessforbidden('Access forbidden when $bespoerp_main_prod is set to 1');
 }
 
 

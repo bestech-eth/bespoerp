@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - interventions
+# bespoerp language file - Source file is en_US - interventions
 Intervention=Интервенция
 Interventions=Интервенциялар
 InterventionCard=Интервенциялық карта
@@ -30,13 +30,13 @@ InterventionClassifyDone=«Орындалды» деп жіктеу
 StatusInterInvoiced=Есепшот
 SendInterventionRef=%s араласуын ұсыну
 SendInterventionByMail=Интервенцияны электрондық пошта арқылы жіберіңіз
-InterventionCreatedInDolibarr=%s араласуы жасалды
-InterventionValidatedInDolibarr=%s араласуы расталды
-InterventionModifiedInDolibarr=%s араласуы өзгертілді
-InterventionClassifiedBilledInDolibarr=%s араласуы есепке қойылды
-InterventionClassifiedUnbilledInDolibarr=%s араласуы есепке алынбаған ретінде орнатылды
+InterventionCreatedInbespoerp=%s араласуы жасалды
+InterventionValidatedInbespoerp=%s араласуы расталды
+InterventionModifiedInbespoerp=%s араласуы өзгертілді
+InterventionClassifiedBilledInbespoerp=%s араласуы есепке қойылды
+InterventionClassifiedUnbilledInbespoerp=%s араласуы есепке алынбаған ретінде орнатылды
 InterventionSentByEMail=Интервенция %s электрондық пошта арқылы жіберілді
-InterventionDeletedInDolibarr=%s араласуы жойылды
+InterventionDeletedInbespoerp=%s араласуы жойылды
 InterventionsArea=Интервенциялар аймағы
 DraftFichinter=Жобалық араласулар
 LastModifiedInterventions=Соңғы %s өзгертілген араласулар

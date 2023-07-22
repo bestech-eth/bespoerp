@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - projects
+# bespoerp language file - Source file is en_US - projects
 RefProject=Ref. proiect
 ProjectRef=Referinţă proiect
 ProjectId=ID Proiect
@@ -157,12 +157,12 @@ ConfirmCloneProject=Sunteți sigur că doriți clonarea acest proiect?
 ProjectReportDate=Schimbați datele task-ului în funcție de data de începere a proiectului
 ErrorShiftTaskDate=Imposibil de schimbat data taskului conform cu noua dată de debut a proiectului
 ProjectsAndTasksLines=Proiecte şi task-uri
-ProjectCreatedInDolibarr=Proiect %s creat
-ProjectValidatedInDolibarr=Proiectul %s a fost validat
-ProjectModifiedInDolibarr=Proiectul %s a fost modificat
-TaskCreatedInDolibarr=Task-ul %s a fost creat
-TaskModifiedInDolibarr=Task-ul %s a fost modificat
-TaskDeletedInDolibarr=Task-ul %s a fost şters
+ProjectCreatedInbespoerp=Proiect %s creat
+ProjectValidatedInbespoerp=Proiectul %s a fost validat
+ProjectModifiedInbespoerp=Proiectul %s a fost modificat
+TaskCreatedInbespoerp=Task-ul %s a fost creat
+TaskModifiedInbespoerp=Task-ul %s a fost modificat
+TaskDeletedInbespoerp=Task-ul %s a fost şters
 OpportunityStatus=Status lead
 OpportunityStatusShort=Status lead
 OpportunityProbability=Probabilitate lead

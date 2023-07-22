@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# bespoerp language file - Source file is en_US - exports
 ExportsArea=Exports
 ImportArea=Імпорт
 NewExport=Новий експорт
@@ -59,7 +59,7 @@ ChooseFormatOfFileToImport=Виберіть формат файлу для ви�
 ChooseFileToImport=Завантажте файл, а потім натисніть на піктограму %s, щоб вибрати файл як вихідний файл імпорту...
 SourceFileFormat=Формат вихідного файлу
 FieldsInSourceFile=Поля у вихідному файлі
-FieldsInTargetDatabase=Цільові поля в базі даних Dolibarr (жирний = обов'язковий)
+FieldsInTargetDatabase=Цільові поля в базі даних bespoerp (жирний = обов'язковий)
 Field=Поле
 NoFields=Немає полів
 MoveField=Перемістити номер стовпця поля %s

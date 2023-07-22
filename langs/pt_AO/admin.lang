@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - admin
+# bespoerp language file - Source file is en_US - admin
 Permission41=Read projects and tasks (shared project and projects I'm contact for). Can also enter time consumed, for me or my hierarchy, on assigned tasks (Timesheet)
 Permission42=Create/modify projects (shared project and projects I'm contact for). Can also create tasks and assign users to project and tasks
 Permission44=Delete projects (shared project and projects I'm contact for)

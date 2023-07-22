@@ -17,7 +17,7 @@
 
 /**
  *	\file       htdocs/public/notice.php
- *	\brief      Dolibarr public page to show a notice.
+ *	\brief      bespoerp public page to show a notice.
  *              Default notice is a message to say network connection is off. Some parameters can be used to show another message.
  *              You can call this page with URL:
  *                /public/notice.php?lang=xx_XX&transkey=translation_key  		(key must be inside file main.lang, error.lang or other.lang)
@@ -31,7 +31,7 @@ if (!defined('NOCSRFCHECK')) {
 	define("NOCSRFCHECK", 1); // We accept to go on this page from external web site.
 }
 if (!defined('NOIPCHECK')) {
-	define('NOIPCHECK', '1'); // Do not check IP defined into conf $dolibarr_main_restrict_ip
+	define('NOIPCHECK', '1'); // Do not check IP defined into conf $bespoerp_main_restrict_ip
 }
 if (!defined('NOSESSION')) {
 	define('NOSESSION', '1');
@@ -40,7 +40,7 @@ if (!defined('NOBROWSERNOTIF')) {
 	define('NOBROWSERNOTIF', '1');
 }
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../main.inc.php';
 
 

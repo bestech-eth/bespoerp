@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - interventions
+# bespoerp language file - Source file is en_US - interventions
 Intervention=Intervenţie
 Interventions=Intervenţii
 InterventionCard=Fişă intervenţie
@@ -30,13 +30,13 @@ InterventionClassifyDone=Clasează "Finalizat"
 StatusInterInvoiced=Facturat
 SendInterventionRef=Ref. intervenţie %s
 SendInterventionByMail=Trimite intervenția pe email
-InterventionCreatedInDolibarr=Intervenţia %s a fost creată
-InterventionValidatedInDolibarr=Intervenţia %s a fost validată
-InterventionModifiedInDolibarr=Intervenţia %s a fost modificată
-InterventionClassifiedBilledInDolibarr=Intervenţia %s a fost setată ca facturată
-InterventionClassifiedUnbilledInDolibarr=Intervenţia %s a fost setată ca nefacturată
+InterventionCreatedInbespoerp=Intervenţia %s a fost creată
+InterventionValidatedInbespoerp=Intervenţia %s a fost validată
+InterventionModifiedInbespoerp=Intervenţia %s a fost modificată
+InterventionClassifiedBilledInbespoerp=Intervenţia %s a fost setată ca facturată
+InterventionClassifiedUnbilledInbespoerp=Intervenţia %s a fost setată ca nefacturată
 InterventionSentByEMail=Intervenția %s a fost trimisă pe email
-InterventionDeletedInDolibarr=Intervenţia %s a fost ştearsă
+InterventionDeletedInbespoerp=Intervenţia %s a fost ştearsă
 InterventionsArea=Intervenţii
 DraftFichinter=Intervenții schiţă
 LastModifiedInterventions=Ultimele %s intervenţii modificate

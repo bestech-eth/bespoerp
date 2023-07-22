@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# bespoerp language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Ingen feil
@@ -51,10 +51,10 @@ ErrorWrongDate=Dato er feil!
 ErrorFailedToWriteInDir=Kan ikke skrive til mappen %s
 ErrorFailedToBuildArchive=Kunne ikke bygge arkivfilen %s
 ErrorFoundBadEmailInFile=Feil e-postsyntaks for %s linjer i filen (for eksempel linje %s med e-post=%s)
-ErrorUserCannotBeDelete=Brukeren kan ikke slettes. Kanskje det er knyttet til Dolibarr-enheter.
+ErrorUserCannotBeDelete=Brukeren kan ikke slettes. Kanskje det er knyttet til bespoerp-enheter.
 ErrorFieldsRequired=Noen obligatoriske felt er tomme.
 ErrorSubjectIsRequired=E-postemnet er obligatorisk
-ErrorFailedToCreateDir=Kunne ikke opprette mappen. Kontroller at webserverbrukeren har skriverettigheter i dokumentmappen i Dolibarr. Hvis <b>safe_mode</b> er akivert i PHP, sjekk at webserveren eier eller er med i gruppen(eller bruker) for Dolibarr php-filer.
+ErrorFailedToCreateDir=Kunne ikke opprette mappen. Kontroller at webserverbrukeren har skriverettigheter i dokumentmappen i bespoerp. Hvis <b>safe_mode</b> er akivert i PHP, sjekk at webserveren eier eller er med i gruppen(eller bruker) for bespoerp php-filer.
 ErrorNoMailDefinedForThisUser=Ingen e-post angitt for denne brukeren.
 ErrorSetupOfEmailsNotComplete=Installasjonen av e-post er ikke fullført
 ErrorFeatureNeedJavascript=Denne funksjonen krever javascript for å virke. Endre dette i Oppsett - Visning.
@@ -82,7 +82,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=Feltet <b> %s </b> må ikke inn
 ErrorFieldMustHaveXChar=Feltet <b> %s </b> må ha minst %s tegn.
 ErrorNoAccountancyModuleLoaded=Ingen regnskapsmodul aktivert
 ErrorExportDuplicateProfil=Profilnavnet til dette eksport-oppsettet finnes allerede
-ErrorLDAPSetupNotComplete=Dolibarr-LDAP oppsett er ikke komplett.
+ErrorLDAPSetupNotComplete=bespoerp-LDAP oppsett er ikke komplett.
 ErrorLDAPMakeManualTest=En .ldif fil er opprettet i mappen %s. Prøv å lese den manuelt for å se mer informasjon om feil.
 ErrorCantSaveADoneUserWithZeroPercentage=Kan ikke lagre en handling med "status ikke startet" hvis feltet "ferdig innen" også er fylt ut.
 ErrorRefAlreadyExists=Referanse <b> %s </b> eksisterer allerede.
@@ -115,8 +115,8 @@ ErrorProdIdAlreadyExist=%s er tilordnet en annen tredjepart
 ErrorFailedToSendPassword=Klarte ikke å sende passord
 ErrorFailedToLoadRSSFile=Klarer ikke hente RSS-feed. Prøv å legge konstant MAIN_SIMPLEXMLLOAD_DEBUG hvis feilmeldinger ikke gir nok informasjon.
 ErrorForbidden=Ingen tilgang. <br> Du prøver å få tilgang til en side, område eller funksjon i en deaktivert modul eller uten å være i en godkjent økt eller som ikke er tillatt din bruker.
-ErrorForbidden2=Tillatelse for denne innloggingen kan settes av Dolibarr-administratoren fra menyen %s->%s.
-ErrorForbidden3=Det ser ut til at Dolibarr ikke brukes gjennom en autentisert sesjon. Du kan lese mer i dokumentasjonen om hvordan du håndterer autentisering (htaccess, mod_auth eller andre...).
+ErrorForbidden2=Tillatelse for denne innloggingen kan settes av bespoerp-administratoren fra menyen %s->%s.
+ErrorForbidden3=Det ser ut til at bespoerp ikke brukes gjennom en autentisert sesjon. Du kan lese mer i dokumentasjonen om hvordan du håndterer autentisering (htaccess, mod_auth eller andre...).
 ErrorForbidden4=Merk: slett informasjonskapslene i nettleseren for å fjerne eksisterende økter for denne påloggingen.
 ErrorNoImagickReadimage=Funksjonen imagick_readimage finnes ikke på denne PHP-installasjonen. Forhåndsvisning er da ikke mulig. Administrator kan slå av denne fanen i Oppsett - Visning.
 ErrorRecordAlreadyExists=Posten eksistererer fra før.
@@ -139,8 +139,8 @@ ErrorWebServerUserHasNotPermission=Brukerkonto <b>%s</b> som brukes til å kjør
 ErrorNoActivatedBarcode=Ingen strekkodetype aktivert
 ErrUnzipFails=Klarte ikke å pakke ut %s med ZipArchive
 ErrNoZipEngine=Ingen motor til zip/unzip %s filen i dette PHP-miljøet
-ErrorFileMustBeADolibarrPackage=Filen %s må være en Dolibarr zip-pakke
-ErrorModuleFileRequired=Du må velge en Dolibarr modulpakke-fil
+ErrorFileMustBeAbespoerpPackage=Filen %s må være en bespoerp zip-pakke
+ErrorModuleFileRequired=Du må velge en bespoerp modulpakke-fil
 ErrorPhpCurlNotInstalled=PHP CURL er ikke installert. Denne må være installert for å kommunisere med Paypal
 ErrorFailedToAddToMailmanList=Klarte ikke å legge post %s til Mailman-liste %s eller SPIP-base
 ErrorFailedToRemoveToMailmanList=Klarte ikke å fjerne post %s fra Mailman-liste %s eller SPIP-base
@@ -152,7 +152,7 @@ ErrorDateMustBeBeforeToday=Datoen må være før i dag
 ErrorDateMustBeInFuture=Datoen må være etter i dag
 ErrorPaymentModeDefinedToWithoutSetup=En betalingsmodus var satt til å skrive %s, men oppsett av modulen Faktura er ikke ferdig definert for å vise for denne betalingsmodusen.
 ErrorPHPNeedModule=Feil! Din PHP må ha modulen <b>%s</b> installert for  å kunne bruke denne funksjonen.
-ErrorOpenIDSetupNotComplete=Du satte opp Dolibarr config-filen til å tillate OpenID-autentisering, men url til OpenID-tjenesten er ikke definert i konstanten %s
+ErrorOpenIDSetupNotComplete=Du satte opp bespoerp config-filen til å tillate OpenID-autentisering, men url til OpenID-tjenesten er ikke definert i konstanten %s
 ErrorWarehouseMustDiffers=Kilde- og mållager må være ulike
 ErrorBadFormat=Feil format!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Feil, dette medlemmet er ennå ikke knyttet til noen tredjepart. Koble medlemmet til en eksisterende tredjepart eller opprett en ny tredjepart før du oppretter abonnement med faktura.
@@ -215,7 +215,7 @@ ErrorUserNotAssignedToTask=Bruker må tilordnes til en oppgave for å være i st
 ErrorTaskAlreadyAssigned=Oppgaven er allerede tildelt bruker
 ErrorModuleFileSeemsToHaveAWrongFormat=Modulpakken ser ut til å ha feil format.
 ErrorModuleFileSeemsToHaveAWrongFormat2=Minst en obligatorisk katalog må finnes i modulens zip-fil: <strong>%s</strong> eller <strong>%s</strong>
-ErrorFilenameDosNotMatchDolibarrPackageRules=Navnet på modulpakken (<strong>%s</strong>) passer ikke forventet navn-syntaks: <strong>%s</strong>
+ErrorFilenameDosNotMatchbespoerpPackageRules=Navnet på modulpakken (<strong>%s</strong>) passer ikke forventet navn-syntaks: <strong>%s</strong>
 ErrorDuplicateTrigger=Feil, duplikat utløsernavn %s. Allerede lastet fra %s.
 ErrorNoWarehouseDefined=Feil, ingen lagre definert.
 ErrorBadLinkSourceSetButBadValueForRef=Lenken du bruker er ikke gyldig. En 'kilde' for betaling er definert, men verdien for 'ref' er ikke gyldig.
@@ -313,7 +313,7 @@ ErrorCoherenceMenu=<b>%s</b> er påkrevd når <b>%s</b> er 'venstre'
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=PHP-parameteren upload_max_filesize (%s) er høyere enn PHP-parameteren post_max_size (%s). Dette er ikke et konsistent oppsett.
-WarningPasswordSetWithNoAccount=Et passord ble satt for dette medlemmet, men ingen brukerkonto ble opprettet. Det fører til at passordet ikke kan benyttes for å logge inn på Dolibarr. Det kan brukes av en ekstern modul/grensesnitt, men hvis du ikke trenger å definere noen innlogging eller passord for et medlem, kan du deaktivere alternativet "opprett en pålogging for hvert medlem" fra medlemsmodul-oppsettet. Hvis du trenger å administrere en pålogging, men ikke trenger noe passord, kan du holde dette feltet tomt for å unngå denne advarselen. Merk: E-post kan også brukes som en pålogging dersom medlemmet er knyttet til en bruker.
+WarningPasswordSetWithNoAccount=Et passord ble satt for dette medlemmet, men ingen brukerkonto ble opprettet. Det fører til at passordet ikke kan benyttes for å logge inn på bespoerp. Det kan brukes av en ekstern modul/grensesnitt, men hvis du ikke trenger å definere noen innlogging eller passord for et medlem, kan du deaktivere alternativet "opprett en pålogging for hvert medlem" fra medlemsmodul-oppsettet. Hvis du trenger å administrere en pålogging, men ikke trenger noe passord, kan du holde dette feltet tomt for å unngå denne advarselen. Merk: E-post kan også brukes som en pålogging dersom medlemmet er knyttet til en bruker.
 WarningMandatorySetupNotComplete=Klikk her for å sette opp hovedparametere
 WarningEnableYourModulesApplications=Klikk her for å aktivere modulene og applikasjonene dine
 WarningSafeModeOnCheckExecDir=Advarsel, PHP alternativet <b>safe_mode</b> er på så kommandere må lagres i en mappe erklært av php parameter <b>safe_mode_exec_dir.</b>

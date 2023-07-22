@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# bespoerp language file - Source file is en_US - stripe
 StripeSetup=إعداد وحدة الشريط
-StripeDesc=قدم لعملائك صفحة دفع عبر الإنترنت للمدفوعات باستخدام بطاقات الائتمان / الخصم عبر <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a>. يمكن استخدام هذا للسماح لعملائك بإجراء مدفوعات مخصصة أو للمدفوعات المتعلقة بكائن Dolibarr معين (فاتورة ، أمر ، ...)
+StripeDesc=قدم لعملائك صفحة دفع عبر الإنترنت للمدفوعات باستخدام بطاقات الائتمان / الخصم عبر <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a>. يمكن استخدام هذا للسماح لعملائك بإجراء مدفوعات مخصصة أو للمدفوعات المتعلقة بكائن bespoerp معين (فاتورة ، أمر ، ...)
 StripeOrCBDoPayment=ادفع ببطاقة الائتمان أو Stripe
-FollowingUrlAreAvailableToMakePayments=فيما يلي عناوين المواقع المتاحة لعرض هذه الصفحة زبون لتسديد دفعة Dolibarr على الأجسام
+FollowingUrlAreAvailableToMakePayments=فيما يلي عناوين المواقع المتاحة لعرض هذه الصفحة زبون لتسديد دفعة bespoerp على الأجسام
 PaymentForm=شكل الدفع
 WelcomeOnPaymentPage=مرحبًا بك في خدمة الدفع عبر الإنترنت
 ThisScreenAllowsYouToPay=تتيح لك هذه الشاشة إجراء الدفع الإلكتروني إلى ٪ s.

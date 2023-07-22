@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - workflow
+# bespoerp language file - Source file is en_US - workflow
 WorkflowSetup=Установка модуля Рабочих процессов
 WorkflowDesc=Этот модуль предусматривает автоматические действия. По умолчанию рабочий процесс открыт (вы можете делать все в нужном вам порядке), но здесь вы можете включить какие-либо автоматические действия.
 ThereIsNoWorkflowToModify=Для активированных модулей нет доступных изменений рабочего процесса.

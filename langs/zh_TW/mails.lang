@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - mails
+# bespoerp language file - Source file is en_US - mails
 Mailing=寄送電子郵件
 EMailing=電子郵件
 EMailings=電子郵件
@@ -90,7 +90,7 @@ MailingModuleDescContactsByCategory=依類別聯絡
 MailingModuleDescContactsByFunction=依職位聯絡
 MailingModuleDescEmailsFromFile=來自檔案的電子郵件
 MailingModuleDescEmailsFromUser=用戶輸入的電子郵件
-MailingModuleDescDolibarrUsers=擁有電子郵件的用戶
+MailingModuleDescbespoerpUsers=擁有電子郵件的用戶
 MailingModuleDescThirdPartiesByCategories=合作方
 SendingFromWebInterfaceIsNotAllowed=不允許從Web界面發送。
 EmailCollectorFilterDesc=所有過濾條件必須符合才能收集電子郵件

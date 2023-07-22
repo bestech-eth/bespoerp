@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - projects
+# bespoerp language file - Source file is en_US - projects
 RefProject=Cyf. prosiect
 ProjectRef=Prosiect cyf.
 ProjectId=ID Prosiect
@@ -157,12 +157,12 @@ ConfirmCloneProject=Ydych chi'n siŵr o glonio'r prosiect hwn?
 ProjectReportDate=Newid dyddiadau tasgau yn ôl dyddiad cychwyn prosiect newydd
 ErrorShiftTaskDate=Amhosib symud dyddiad tasg yn ôl dyddiad cychwyn prosiect newydd
 ProjectsAndTasksLines=Prosiectau a thasgau
-ProjectCreatedInDolibarr=Prosiect %s wedi'i greu
-ProjectValidatedInDolibarr=Prosiect %s wedi'i ddilysu
-ProjectModifiedInDolibarr=Prosiect %s wedi'i addasu
-TaskCreatedInDolibarr=Tasg %s wedi'i chreu
-TaskModifiedInDolibarr=Tasg %s wedi'i addasu
-TaskDeletedInDolibarr=Tasg %s wedi'i dileu
+ProjectCreatedInbespoerp=Prosiect %s wedi'i greu
+ProjectValidatedInbespoerp=Prosiect %s wedi'i ddilysu
+ProjectModifiedInbespoerp=Prosiect %s wedi'i addasu
+TaskCreatedInbespoerp=Tasg %s wedi'i chreu
+TaskModifiedInbespoerp=Tasg %s wedi'i addasu
+TaskDeletedInbespoerp=Tasg %s wedi'i dileu
 OpportunityStatus=Statws arweiniol
 OpportunityStatusShort=Statws arweiniol
 OpportunityProbability=Tebygolrwydd arweiniol

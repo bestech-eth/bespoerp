@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - projects
+# bespoerp language file - Source file is en_US - projects
 RefProject=المرجع. مشروع
 ProjectRef=المرجع المشروع.
 ProjectId=رقم المشروع
@@ -157,12 +157,12 @@ ConfirmCloneProject=هل أنت متأكد من استنساخ هذا المشر
 ProjectReportDate=قم بتغيير تواريخ المهام وفقًا لتاريخ بدء المشروع الجديد
 ErrorShiftTaskDate=من المستحيل تحويل التاريخ المهمة وفقا لتاريخ بدء المشروع الجديد
 ProjectsAndTasksLines=المشاريع والمهام
-ProjectCreatedInDolibarr=مشروع٪ الصورة التي تم إنشاؤها
-ProjectValidatedInDolibarr=تم التحقق من صحة المشروع %s
-ProjectModifiedInDolibarr=المشروع %s تم تعديلة
-TaskCreatedInDolibarr=مهمة٪ الصورة التي تم إنشاؤها
-TaskModifiedInDolibarr=مهمة٪ الصورة المعدلة
-TaskDeletedInDolibarr=مهمة٪ الصورة حذف
+ProjectCreatedInbespoerp=مشروع٪ الصورة التي تم إنشاؤها
+ProjectValidatedInbespoerp=تم التحقق من صحة المشروع %s
+ProjectModifiedInbespoerp=المشروع %s تم تعديلة
+TaskCreatedInbespoerp=مهمة٪ الصورة التي تم إنشاؤها
+TaskModifiedInbespoerp=مهمة٪ الصورة المعدلة
+TaskDeletedInbespoerp=مهمة٪ الصورة حذف
 OpportunityStatus=حالة الرصاص
 OpportunityStatusShort=حالة الرصاص
 OpportunityProbability=احتمال الرصاص

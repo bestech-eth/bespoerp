@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# bespoerp language file - Source file is en_US - other
 SecurityCode=Қауіпсіздік коды
 NumberingShort=N °
 Tools=Құралдар
@@ -104,7 +104,7 @@ PredefinedMailContentSendFichInter=__(Сәлеметсіз бе)__\n\nҚосыл
 PredefinedMailContentLink=Төлем жасау үшін төмендегі сілтемені бассаңыз болады.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Сәлеметсіз бе)__\n\n\n__ (Құрметпен) __\n\n__ҚОЛДАНУШЫ_ҚОЛДАНУ__
 PredefinedMailContentSendActionComm=Оқиғаны еске салатын «__EVENT_LABEL__» __EVENT_DATE__ күні __EVENT_TIME__ <br> <br> Бұл автоматты хабарлама, жауап бермеңіз.
-DemoDesc=Dolibarr - бұл бірнеше бизнес -модульдерді қолдайтын ықшам ERP/CRM. Барлық модульдерді көрсететін демонстрацияның мағынасы жоқ, өйткені бұл сценарий ешқашан болмайды (бірнеше жүз қол жетімді). Сонымен, бірнеше демо профильдер қол жетімді.
+DemoDesc=bespoerp - бұл бірнеше бизнес -модульдерді қолдайтын ықшам ERP/CRM. Барлық модульдерді көрсететін демонстрацияның мағынасы жоқ, өйткені бұл сценарий ешқашан болмайды (бірнеше жүз қол жетімді). Сонымен, бірнеше демо профильдер қол жетімді.
 ChooseYourDemoProfil=Сіздің қажеттіліктеріңізге сәйкес келетін демо -профильді таңдаңыз ...
 ChooseYourDemoProfilMore=... немесе өзіңіздің <br> профиліңізді құрыңыз (модульді қолмен таңдау)
 DemoFundation=Қор мүшелерін басқару
@@ -185,7 +185,7 @@ BackToLoginPage=Кіру бетіне оралу
 AuthenticationDoesNotAllowSendNewPassword=Аутентификация режимі - <b> %s </b>. <br> Бұл режимде Долибарр сіздің құпия сөзіңізді біле де алмайды. <br> Егер құпия сөзді өзгерткіңіз келсе, жүйе әкімшісіне хабарласыңыз.
 EnableGDLibraryDesc=Бұл опцияны қолдану үшін PHP қондырғысына GD кітапханасын орнатыңыз немесе қосыңыз.
 ProfIdShortDesc= <b> Prof Id %s </b> - бұл үшінші тарап еліне байланысты ақпарат. <br> Мысалы, <b> %s </b> елі үшін бұл <b> %s a09a4b739f170
-DolibarrDemo=Dolibarr ERP/CRM демонстрациясы
+bespoerpDemo=bespoerp ERP/CRM демонстрациясы
 StatsByNumberOfUnits=Өнімдер/қызметтер саны бойынша статистика
 StatsByNumberOfEntities=Сілтеме беруші субъектілердің статистикасы (шот -фактуралар немесе тапсырыстар жоқ ...)
 NumberOfProposals=Ұсыныстар саны
@@ -223,7 +223,7 @@ EMailTextHolidayValidated=%s қалдыру сұрауы расталды.
 EMailTextHolidayApproved=%s қалдыруға сұраныс мақұлданды.
 EMailTextActionAdded=%s әрекеті Күн тәртібіне қосылды.
 ImportedWithSet=Импорттық деректер жиынтығы
-DolibarrNotification=Автоматты хабарландыру
+bespoerpNotification=Автоматты хабарландыру
 ResizeDesc=<b> OR </b> жаңа енін енгізіңіз. Өлшемді өзгерту кезінде коэффициент сақталады ...
 NewLength=Жаңа ені
 NewHeight=Жаңа биіктік

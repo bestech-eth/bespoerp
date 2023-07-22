@@ -24,7 +24,7 @@
  *     \brief      Page with reception statistics
  */
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/reception/class/reception.class.php';
 require_once DOL_DOCUMENT_ROOT.'/reception/class/receptionstats.class.php';

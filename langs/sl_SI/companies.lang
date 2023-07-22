@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# bespoerp language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Naziv podjetja %s že obstaja. Izberite drug naziv.
 ErrorSetACountryFirst=Najprej izberite državo
 SelectThirdParty=Izberite partnerja
@@ -12,7 +12,7 @@ MenuNewSupplier=Nov dobavitelj
 MenuNewPrivateIndividual=Nova fizična oseba
 NewCompany=Novo podjetje (potencialni kupec, kupec, dobavitelj)
 NewThirdParty=Nov partner (potencialni kupec, kupec, dobavitelj)
-CreateDolibarrThirdPartySupplier=Ustvari partnerja (dobavitelj)
+CreatebespoerpThirdPartySupplier=Ustvari partnerja (dobavitelj)
 CreateThirdPartyOnly=Ustvari partnerja
 CreateThirdPartyAndContact=Ustvarite partnerja + pripadajoč stik
 ProspectionArea=Potencialni kupci
@@ -383,7 +383,7 @@ CapitalOf=Kapital %s
 EditCompany=Uredi podjetje
 ThisUserIsNot=Ta uporabnik ni potencialni kupec, kupec ali dobavitelj
 VATIntraCheck=Kontrola
-VATIntraCheckDesc=ID za DDV mora vsebovati predpono države. Povezava <b> %s </b> uporablja evropsko storitev preverjanja DDV (VIES), ki zahteva dostop do interneta s strežnika Dolibarr.
+VATIntraCheckDesc=ID za DDV mora vsebovati predpono države. Povezava <b> %s </b> uporablja evropsko storitev preverjanja DDV (VIES), ki zahteva dostop do interneta s strežnika bespoerp.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Preverite ID za DDV znotraj Skupnosti na spletni strani Evropske komisije
 VATIntraManualCheck=Preverite lahko tudi ročno na spletni strani Evropske komisije <a href="%s" target="_blank" rel="noopener noreferrer"> %s </a>
@@ -429,8 +429,8 @@ ProspectsByStatus=Možne stranke po statusu
 NoParentCompany=Brez
 ExportCardToFormat=Izvoz podatkov v formatu
 ContactNotLinkedToCompany=Kontakt ni povezan z nobenim partnerjem
-DolibarrLogin=Uporabniško ime
-NoDolibarrAccess=Nima dostopa
+bespoerpLogin=Uporabniško ime
+NobespoerpAccess=Nima dostopa
 ExportDataset_company_1=Partnerji (podjetja/fundacije/fizične osebe) in njihova lastnina
 ExportDataset_company_2=Stiki in njihove lastnosti
 ImportDataset_company_1=Partnerji in njihove lastnosti

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# bespoerp language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Konto (fra kontoplanen) brukes som standard for "bruker" tredjeparter
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Den dedikerte kontoen som er definert på brukerkortet, vil kun brukes til underreskontro. Denne vil bli brukt for hovedbok og som standardverdi for underreskontro hvis dedikert brukerkonto for bruker ikke er definert.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Regnskapskonto som standard for lønnsutbetalinger

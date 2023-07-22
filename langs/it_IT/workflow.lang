@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - workflow
+# bespoerp language file - Source file is en_US - workflow
 WorkflowSetup=Impostazioni flusso di lavoro
 WorkflowDesc=Questo modulo è progettato per modificare il comportamento di azioni automatiche nell'applicazione. Per impostazione predefinita, il flusso di lavoro è aperto (si possono fare cose nell'ordine che volete). È possibile attivare le azioni automatiche che vi interessano.
 ThereIsNoWorkflowToModify=Non ci sono modifiche del flusso di lavoro disponibili con i moduli attivati.

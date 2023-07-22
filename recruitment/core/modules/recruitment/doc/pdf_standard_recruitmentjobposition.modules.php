@@ -75,10 +75,10 @@ class pdf_standard_recruitmentjobposition extends ModelePDFRecruitmentJobPositio
 	public $phpmin = array(7, 0);
 
 	/**
-	 * Dolibarr version of the loaded document
+	 * bespoerp version of the loaded document
 	 * @var string
 	 */
-	public $version = 'dolibarr';
+	public $version = 'bespoerp';
 
 	/**
 	 * Issuer
@@ -324,7 +324,7 @@ class pdf_standard_recruitmentjobposition extends ModelePDFRecruitmentJobPositio
 
 				$pdf->SetTitle($outputlangs->convToOutputCharset($object->ref));
 				$pdf->SetSubject($object->label);
-				$pdf->SetCreator("Dolibarr ".DOL_VERSION);
+				$pdf->SetCreator("bespoerp ".DOL_VERSION);
 				$pdf->SetAuthor($outputlangs->convToOutputCharset($user->getFullName($outputlangs)));
 				$pdf->SetKeyWords($outputlangs->convToOutputCharset($object->ref)." ".$object->label." ".$outputlangs->convToOutputCharset($object->thirdparty->name));
 				if (getDolGlobalString('MAIN_DISABLE_PDF_COMPRESSION')) {

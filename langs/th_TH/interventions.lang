@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - interventions
+# bespoerp language file - Source file is en_US - interventions
 Intervention=การแทรกแซง
 Interventions=การแทรกแซง
 InterventionCard=บัตรแทรกแซง
@@ -30,13 +30,13 @@ InterventionClassifyDone=Classify "Done"
 StatusInterInvoiced=การเรียกเก็บเงิน
 SendInterventionRef=การส่งของการแทรกแซง% s
 SendInterventionByMail=Send intervention by email
-InterventionCreatedInDolibarr=s แทรกแซง% สร้าง
-InterventionValidatedInDolibarr=s% แทรกแซงการตรวจสอบ
-InterventionModifiedInDolibarr=s% แทรกแซงการแก้ไข
-InterventionClassifiedBilledInDolibarr=ชุดแทรกแซง% s เป็นการเรียกเก็บเงิน
-InterventionClassifiedUnbilledInDolibarr=การแทรกแซง% s เป็นชุดยังไม่เรียกเก็บ
+InterventionCreatedInbespoerp=s แทรกแซง% สร้าง
+InterventionValidatedInbespoerp=s% แทรกแซงการตรวจสอบ
+InterventionModifiedInbespoerp=s% แทรกแซงการแก้ไข
+InterventionClassifiedBilledInbespoerp=ชุดแทรกแซง% s เป็นการเรียกเก็บเงิน
+InterventionClassifiedUnbilledInbespoerp=การแทรกแซง% s เป็นชุดยังไม่เรียกเก็บ
 InterventionSentByEMail=Intervention %s sent by email
-InterventionDeletedInDolibarr=s แทรกแซง% ลบ
+InterventionDeletedInbespoerp=s แทรกแซง% ลบ
 InterventionsArea=Interventions area
 DraftFichinter=Draft interventions
 LastModifiedInterventions=Latest %s modified interventions

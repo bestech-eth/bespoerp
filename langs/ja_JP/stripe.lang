@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# bespoerp language file - Source file is en_US - stripe
 StripeSetup=Stripe モジュールの設定
-StripeDesc=<a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe</a>を介してクレジット/デビットカードで支払うためのオンライン支払ページを顧客に提供する。これを使用して、顧客が臨時の支払や、特定のDolibarrオブジェクト（請求書、注文など）に関連する支払の実行ができるようになる。
+StripeDesc=<a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe</a>を介してクレジット/デビットカードで支払うためのオンライン支払ページを顧客に提供する。これを使用して、顧客が臨時の支払や、特定のbespoerpオブジェクト（請求書、注文など）に関連する支払の実行ができるようになる。
 StripeOrCBDoPayment=クレジットカードまたはStripeで支払う
-FollowingUrlAreAvailableToMakePayments=以下のURLはDolibarrオブジェクト上で支払をするために顧客にページを提供するために利用可能 
+FollowingUrlAreAvailableToMakePayments=以下のURLはbespoerpオブジェクト上で支払をするために顧客にページを提供するために利用可能 
 PaymentForm=支払形態
 WelcomeOnPaymentPage=オンライン決済サービスへようこそ
 ThisScreenAllowsYouToPay=この画面では、%sにオンライン決済を行うことができる。

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# bespoerp language file - Source file is en_US - exports
 ExportsArea=匯出
 ImportArea=匯入
 NewExport=新匯出
@@ -61,7 +61,7 @@ ChooseFormatOfFileToImport=通過點選%s圖示選擇要匯入的檔案格式...
 ChooseFileToImport=上傳檔案，然後點擊%s圖示以選擇要匯入的檔案...
 SourceFileFormat=來源檔案格式
 FieldsInSourceFile=來源檔案欄位
-FieldsInTargetDatabase=Dolibarr資料庫中的目標欄位（粗體=必填）
+FieldsInTargetDatabase=bespoerp資料庫中的目標欄位（粗體=必填）
 Field=欄位
 NoFields=沒有欄位
 MoveField=移動欄位行號 %s

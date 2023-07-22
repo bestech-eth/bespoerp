@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# bespoerp language file - Source file is en_US - products
 ProductRef=Rif. prodotto
 ProductLabel=Etichetta prodotto
 ProductLabelTranslated=Etichetta del prodotto tradotto
@@ -300,7 +300,7 @@ MinSupplierPrice=Prezzo d'acquisto minimo
 MinCustomerPrice=Prezzo minimo di vendita
 NoDynamicPrice=Nessun prezzo dinamico
 DynamicPriceConfiguration=Configurazione dinamica dei prezzi
-DynamicPriceDesc=You may define mathematical formulae to calculate Customer or Vendor prices. Such formulas can use all mathematical operators, some constants and variables. You can define here the variables you wish to use. If the variable needs an automatic update, you may define the external URL to allow Dolibarr to update the value automatically.
+DynamicPriceDesc=You may define mathematical formulae to calculate Customer or Vendor prices. Such formulas can use all mathematical operators, some constants and variables. You can define here the variables you wish to use. If the variable needs an automatic update, you may define the external URL to allow bespoerp to update the value automatically.
 AddVariable=Aggiungi variabile
 AddUpdater=Aggiungi Aggiornamento
 GlobalVariables=Variabili globali
@@ -379,7 +379,7 @@ NewProductAttribute=Nuovo attributo
 NewProductAttributeValue=Nuovo valore dell'attributo
 ErrorCreatingProductAttributeValue=Si è verificato un errore durante la creazione del valore dell'attributo. Potrebbe essere perché c'è già un valore esistente con quel riferimento
 ProductCombinationGeneratorWarning=Se continui, prima di generare nuove varianti, tutte le precedenti saranno CANCELLATE. Quelli già esistenti verranno aggiornati con i nuovi valori
-TooMuchCombinationsWarning=Generare molte varianti può comportare un elevato utilizzo della CPU e della memoria, e Dolibarr non è in grado di crearle. Abilitare l'opzione "%s" può aiutare a ridurre l'utilizzo della memoria.
+TooMuchCombinationsWarning=Generare molte varianti può comportare un elevato utilizzo della CPU e della memoria, e bespoerp non è in grado di crearle. Abilitare l'opzione "%s" può aiutare a ridurre l'utilizzo della memoria.
 DoNotRemovePreviousCombinations=Non rimuovere le precedenti varianti di prodotto
 UsePercentageVariations=Usa le variazioni percentuali
 PercentageVariation=Variazione percentuale

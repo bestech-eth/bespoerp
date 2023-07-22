@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - interventions
+# bespoerp language file - Source file is en_US - interventions
 Intervention=Interventie
 Interventions=Interventies
 InterventionCard=Interventie details
@@ -30,13 +30,13 @@ InterventionClassifyDone=Classificeer "Klaar"
 StatusInterInvoiced=Gefactureerd
 SendInterventionRef=Inzending van de interventie %s
 SendInterventionByMail=Stuur interventie per e-mail
-InterventionCreatedInDolibarr=Interventie %s gecreëerd
-InterventionValidatedInDolibarr=Interventie %s gevalideerd
-InterventionModifiedInDolibarr=Interventie %s gewijzigd
-InterventionClassifiedBilledInDolibarr=Interventie %s als gefactureerd geclassificeerd
-InterventionClassifiedUnbilledInDolibarr=Interventie %s als nog niet gefactureerd geclassificeerd
+InterventionCreatedInbespoerp=Interventie %s gecreëerd
+InterventionValidatedInbespoerp=Interventie %s gevalideerd
+InterventionModifiedInbespoerp=Interventie %s gewijzigd
+InterventionClassifiedBilledInbespoerp=Interventie %s als gefactureerd geclassificeerd
+InterventionClassifiedUnbilledInbespoerp=Interventie %s als nog niet gefactureerd geclassificeerd
 InterventionSentByEMail=Interventie %s verzonden per e-mail
-InterventionDeletedInDolibarr=Interventie %s verwijderd
+InterventionDeletedInbespoerp=Interventie %s verwijderd
 InterventionsArea=Interventies onderdeel
 DraftFichinter=Concept interventies
 LastModifiedInterventions=Laatste %s aangepaste interventies

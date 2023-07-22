@@ -73,7 +73,7 @@ if (empty($user->rights->takepos->run) && !defined('INCLUDE_PHONEPAGE_FROM_PUBLI
 
 if (empty($action)) {
 	// Code for llxHeader()
-	$title = 'TakePOS - Dolibarr '.DOL_VERSION;
+	$title = 'TakePOS - bespoerp '.DOL_VERSION;
 	if (!empty($conf->global->MAIN_APPLICATION_TITLE)) {
 		$title = 'TakePOS - '.$conf->global->MAIN_APPLICATION_TITLE;
 	}

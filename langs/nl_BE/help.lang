@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - help
+# bespoerp language file - Source file is en_US - help
 CommunitySupport=Forum en Wiki ondersteuning
 EMailSupport=E-mailondersteuning
 ToSeeListOfAvailableRessources=Om contact op te nemen zie de beschikbare bronnen:
@@ -7,4 +7,4 @@ TypeOfHelp=Soort
 Efficiency=Efficiëntie
 TypeHelpOnly=Alleen Hulp
 TypeHelpDev=Hulp & Ontwikkeling
-SeeOfficalSupport=Voor officiële Dolibarr ondersteuning in uw taal: <br><b><a href="%s" target="_blank">%s</a></b>
+SeeOfficalSupport=Voor officiële bespoerp ondersteuning in uw taal: <br><b><a href="%s" target="_blank">%s</a></b>

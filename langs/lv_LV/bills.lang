@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - bills
+# bespoerp language file - Source file is en_US - bills
 Bill=Pavadzīme
 Bills=Pavadzīmes
 BillsCustomers=Klienta rēķini
@@ -612,8 +612,8 @@ AutoFillDateFromShort=Iestatīt sākuma datumu
 AutoFillDateTo=Iestatīt pakalpojuma līnijas beigu datumu ar nākamo rēķina datumu
 AutoFillDateToShort=Iestatīt beigu datumu
 MaxNumberOfGenerationReached=Maksimālais gen. sasniedza
-BILL_DELETEInDolibarr=Rēķins dzēsts
-BILL_SUPPLIER_DELETEInDolibarr=Piegādātāja rēķins ir izdzēsts
+BILL_DELETEInbespoerp=Rēķins dzēsts
+BILL_SUPPLIER_DELETEInbespoerp=Piegādātāja rēķins ir izdzēsts
 UnitPriceXQtyLessDiscount=Vienības cena x Daudzums - Atlaide
 CustomersInvoicesArea=Klientu norēķinu zona
 SupplierInvoicesArea=Piegādātāja norēķinu zona

@@ -33,7 +33,7 @@
  *	\brief      Card of a reception
  */
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formfile.class.php';
 require_once DOL_DOCUMENT_ROOT.'/reception/class/reception.class.php';
@@ -827,7 +827,7 @@ if ($action == 'create') {
 			// Note Public
 			print '<tr><td>'.$langs->trans("NotePublic").'</td>';
 			print '<td colspan="3">';
-			$doleditor = new DolEditor('note_public', $objectsrc->note_public, '', 60, 'dolibarr_notes', 'In', 0, false, empty($conf->global->FCKEDITOR_ENABLE_NOTE_PUBLIC) ? 0 : 1, ROWS_3, '90%');
+			$doleditor = new DolEditor('note_public', $objectsrc->note_public, '', 60, 'bespoerp_notes', 'In', 0, false, empty($conf->global->FCKEDITOR_ENABLE_NOTE_PUBLIC) ? 0 : 1, ROWS_3, '90%');
 			print $doleditor->Create(1);
 			print "</td></tr>";
 
@@ -835,7 +835,7 @@ if ($action == 'create') {
 			if ($objectsrc->note_private && !$user->socid) {
 				print '<tr><td>'.$langs->trans("NotePrivate").'</td>';
 				print '<td colspan="3">';
-				$doleditor = new DolEditor('note_private', $objectsrc->note_private, '', 60, 'dolibarr_notes', 'In', 0, false, empty($conf->global->FCKEDITOR_ENABLE_NOTE_PRIVATE) ? 0 : 1, ROWS_3, '90%');
+				$doleditor = new DolEditor('note_private', $objectsrc->note_private, '', 60, 'bespoerp_notes', 'In', 0, false, empty($conf->global->FCKEDITOR_ENABLE_NOTE_PRIVATE) ? 0 : 1, ROWS_3, '90%');
 				print $doleditor->Create(1);
 				print "</td></tr>";
 			}

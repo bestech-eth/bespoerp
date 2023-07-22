@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# bespoerp language file - Source file is en_US - stripe
 StripeSetup=Gosod modiwl stripe
-StripeDesc=Cynigiwch dudalen dalu ar-lein i'ch cwsmeriaid ar gyfer taliadau gyda chardiau credyd/debyd trwy <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a> . Gellir defnyddio hwn i ganiatáu i'ch cwsmeriaid wneud taliadau ad-hoc neu ar gyfer taliadau sy'n ymwneud â gwrthrych arbennig o Dolibarr (anfoneb, archeb, ...)
+StripeDesc=Cynigiwch dudalen dalu ar-lein i'ch cwsmeriaid ar gyfer taliadau gyda chardiau credyd/debyd trwy <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a> . Gellir defnyddio hwn i ganiatáu i'ch cwsmeriaid wneud taliadau ad-hoc neu ar gyfer taliadau sy'n ymwneud â gwrthrych arbennig o bespoerp (anfoneb, archeb, ...)
 StripeOrCBDoPayment=Talu gyda cherdyn credyd neu Stripe
-FollowingUrlAreAvailableToMakePayments=Mae URLs canlynol ar gael i gynnig tudalen i gwsmer i wneud taliad ar wrthrychau Dolibarr
+FollowingUrlAreAvailableToMakePayments=Mae URLs canlynol ar gael i gynnig tudalen i gwsmer i wneud taliad ar wrthrychau bespoerp
 PaymentForm=Ffurflen talu
 WelcomeOnPaymentPage=Croeso i'n gwasanaeth talu ar-lein
 ThisScreenAllowsYouToPay=Mae'r sgrin hon yn caniatáu ichi wneud taliad ar-lein i %s.

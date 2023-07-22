@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# bespoerp language file - Source file is en_US - exports
 ExportsArea=Xuất dữ liệu
 ImportArea=Nhập dữ liệu
 NewExport=Xuất dữ liệu mới
@@ -59,7 +59,7 @@ ChooseFormatOfFileToImport=Chọn định dạng tệp để sử dụng làm đ
 ChooseFileToImport=Tải lên tệp sau đó nhấp vào biểu tượng %s để lựa chọn tệp là tệp nguồn nhập
 SourceFileFormat=Định dạng tệp nguồn
 FieldsInSourceFile=Các trường trong tệp nguồn
-FieldsInTargetDatabase=Các trường mục tiêu trong cơ sở dữ liệu Dolibarr (bold = bắt buộc)
+FieldsInTargetDatabase=Các trường mục tiêu trong cơ sở dữ liệu bespoerp (bold = bắt buộc)
 Field=Trường
 NoFields=Không có trường
 MoveField=Di chuyển số cột trường %s

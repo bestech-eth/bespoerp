@@ -42,7 +42,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=Обратные ссылки для провер
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=Кол-во дней до отмены статуса партнерства по истечении срока подписки
 ReferingWebsiteCheck=Проверка ссылки на сайт
 ReferingWebsiteCheckDesc=Вы можете включить функцию проверки того, что ваши партнеры добавили обратную ссылку на домены вашего веб-сайта на своем собственном веб-сайте.
-PublicFormRegistrationPartnerDesc=Dolibarr может предоставить вам общедоступный URL-адрес/веб-сайт, чтобы внешние посетители могли запросить участие в партнерской программе.
+PublicFormRegistrationPartnerDesc=bespoerp может предоставить вам общедоступный URL-адрес/веб-сайт, чтобы внешние посетители могли запросить участие в партнерской программе.
 
 #
 # Object

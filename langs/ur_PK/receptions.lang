@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - receptions
+# bespoerp language file - Source file is en_US - receptions
 ReceptionDescription=Vendor reception management (Create reception documents)
 ReceptionsSetup=Vendor Reception setup
 RefReception=حوالہ استقبالیہ
@@ -49,6 +49,6 @@ ReceptionsReceiptModel=استقبالیہ کے لیے دستاویز کے سان
 NoMorePredefinedProductToDispatch=بھیجنے کے لیے مزید پہلے سے طے شدہ مصنوعات نہیں۔
 ReceptionExist=ایک استقبالیہ موجود ہے۔
 ByingPrice=قیمت کے حساب سے
-ReceptionBackToDraftInDolibarr=استقبالیہ %s ڈرافٹ پر واپس
-ReceptionClassifyClosedInDolibarr=استقبالیہ %s کلاسیفائیڈ بند
-ReceptionUnClassifyCloseddInDolibarr=استقبالیہ %s دوبارہ کھولیں۔
+ReceptionBackToDraftInbespoerp=استقبالیہ %s ڈرافٹ پر واپس
+ReceptionClassifyClosedInbespoerp=استقبالیہ %s کلاسیفائیڈ بند
+ReceptionUnClassifyCloseddInbespoerp=استقبالیہ %s دوبارہ کھولیں۔

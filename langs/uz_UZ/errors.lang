@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# bespoerp language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Biz xato qilamiz
@@ -51,10 +51,10 @@ ErrorWrongDate=Sana to'g'ri emas!
 ErrorFailedToWriteInDir=%s katalogiga yozib bo'lmadi
 ErrorFailedToBuildArchive=Failed to build archive file %s
 ErrorFoundBadEmailInFile=Faylda %s satrlari uchun noto'g'ri elektron pochta sintaksisini topdi (masalan, %s qatori elektron pochta bilan = %s)
-ErrorUserCannotBeDelete=Foydalanuvchini o'chirib bo'lmaydi. Ehtimol, bu Dolibarr sub'ektlari bilan bog'liq.
+ErrorUserCannotBeDelete=Foydalanuvchini o'chirib bo'lmaydi. Ehtimol, bu bespoerp sub'ektlari bilan bog'liq.
 ErrorFieldsRequired=Ba'zi majburiy maydonlar bo'sh qoldirildi.
 ErrorSubjectIsRequired=Elektron pochta mavzusi talab qilinadi
-ErrorFailedToCreateDir=Katalog yaratilmadi. Veb-server foydalanuvchisida Dolibarr hujjatlar katalogiga yozish uchun ruxsat borligini tekshiring. Agar ushbu PHP-da <b> safe_mode </b> parametri yoqilgan bo'lsa, Dolibarr php fayllari veb-server foydalanuvchisiga (yoki guruhiga) tegishli ekanligini tekshiring.
+ErrorFailedToCreateDir=Katalog yaratilmadi. Veb-server foydalanuvchisida bespoerp hujjatlar katalogiga yozish uchun ruxsat borligini tekshiring. Agar ushbu PHP-da <b> safe_mode </b> parametri yoqilgan bo'lsa, bespoerp php fayllari veb-server foydalanuvchisiga (yoki guruhiga) tegishli ekanligini tekshiring.
 ErrorNoMailDefinedForThisUser=Ushbu foydalanuvchi uchun hech qanday pochta belgilanmagan
 ErrorSetupOfEmailsNotComplete=Elektron pochta xabarlarini sozlash tugallanmagan
 ErrorFeatureNeedJavascript=Ushbu xususiyatni ishga tushirish uchun javascript kerak. Buni sozlash - displeyda o'zgartiring.
@@ -82,7 +82,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=The field <b>%s</b> must not co
 ErrorFieldMustHaveXChar=<b> %s </b> maydonida kamida %s belgilar bo'lishi kerak.
 ErrorNoAccountancyModuleLoaded=Buxgalteriya moduli faollashtirilmagan
 ErrorExportDuplicateProfil=Ushbu eksport to'plami uchun ushbu profil nomi allaqachon mavjud.
-ErrorLDAPSetupNotComplete=Dolibarr-LDAP mos kelmadi.
+ErrorLDAPSetupNotComplete=bespoerp-LDAP mos kelmadi.
 ErrorLDAPMakeManualTest=%s katalogida .ldif fayli yaratilgan. Xatolar haqida ko'proq ma'lumotga ega bo'lish uchun uni buyruq satridan qo'lda yuklashga harakat qiling.
 ErrorCantSaveADoneUserWithZeroPercentage=Agar "bajarilgan" maydoni ham to'ldirilgan bo'lsa, "holat boshlanmadi" bilan amalni saqlab bo'lmaydi.
 ErrorRefAlreadyExists=<b> %s </b> ma'lumotnomasi allaqachon mavjud.
@@ -115,8 +115,8 @@ ErrorProdIdAlreadyExist=%s yana uchdan biriga tayinlangan
 ErrorFailedToSendPassword=Parolni yuborib bo'lmadi
 ErrorFailedToLoadRSSFile=RSS tasmasini ololmadi. Xato xabarlari etarli ma'lumot bermasa, doimiy ravishda MAIN_SIMPLEXMLLOAD_DEBUG qo'shishga harakat qiling.
 ErrorForbidden=Ruxsat yo'q. <br> Siz o'chirib qo'yilgan modulning sahifasiga, maydoniga yoki xususiyatiga yoki autentifikatsiya qilingan sessiyada bo'lmasdan yoki foydalanuvchingizga ruxsat berilmagan holda kirishga harakat qilasiz.
-ErrorForbidden2=Ushbu kirish uchun ruxsat sizning Dolibarr administratoringiz tomonidan %s-> %s menyusidan aniqlanishi mumkin.
-ErrorForbidden3=Dolibarr autentifikatsiya qilingan seans orqali ishlatilmaydi. Autentifikatsiyani qanday boshqarishni bilish uchun Dolibarrni sozlash bo'yicha hujjatlarni ko'rib chiqing (htaccess, mod_auth yoki boshqa ...).
+ErrorForbidden2=Ushbu kirish uchun ruxsat sizning bespoerp administratoringiz tomonidan %s-> %s menyusidan aniqlanishi mumkin.
+ErrorForbidden3=bespoerp autentifikatsiya qilingan seans orqali ishlatilmaydi. Autentifikatsiyani qanday boshqarishni bilish uchun bespoerpni sozlash bo'yicha hujjatlarni ko'rib chiqing (htaccess, mod_auth yoki boshqa ...).
 ErrorForbidden4=Eslatma: ushbu login uchun mavjud sessiyalarni yo'q qilish uchun brauzeringiz cookie-fayllarini tozalang.
 ErrorNoImagickReadimage=Imagick sinfi ushbu PHP-da mavjud emas. Hech qanday oldindan ko'rish mumkin emas. Administrator ushbu yorliqni O'rnatish - Displey menyusidan o'chirib qo'yishi mumkin.
 ErrorRecordAlreadyExists=Yozuv allaqachon mavjud
@@ -139,8 +139,8 @@ ErrorWebServerUserHasNotPermission=Veb-serverni amalga oshirish uchun foydalanil
 ErrorNoActivatedBarcode=Shtrixli kod yoqilmagan
 ErrUnzipFails=%s ni ZipArchive bilan ochib bo'lmadi
 ErrNoZipEngine=Ushbu PHP-da %s faylini ziplash / ochish uchun vosita yo'q
-ErrorFileMustBeADolibarrPackage=%s fayli Dolibarr zip to'plami bo'lishi kerak
-ErrorModuleFileRequired=Dolibarr moduli to'plami faylini tanlashingiz kerak
+ErrorFileMustBeAbespoerpPackage=%s fayli bespoerp zip to'plami bo'lishi kerak
+ErrorModuleFileRequired=bespoerp moduli to'plami faylini tanlashingiz kerak
 ErrorPhpCurlNotInstalled=PHP CURL o'rnatilmagan, bu Paypal bilan suhbatlashish uchun juda muhimdir
 ErrorFailedToAddToMailmanList=%s yoki MailIP ro'yxatiga %s yozuvini yoki SPIP bazasini qo'shib bo'lmadi
 ErrorFailedToRemoveToMailmanList=%s yozuvini %s yoki SPIP bazasini pochtachilar ro'yxatiga o'chirib bo'lmadi
@@ -152,7 +152,7 @@ ErrorDateMustBeBeforeToday=Sana bugundan pastroq bo'lishi kerak
 ErrorDateMustBeInFuture=Sana bugundan kattaroq bo'lishi kerak
 ErrorPaymentModeDefinedToWithoutSetup=%s yozish uchun to'lov rejimi o'rnatildi, ammo ushbu to'lov rejimi uchun ma'lumotni aniqlash uchun fakturani moduli o'rnatilmagan.
 ErrorPHPNeedModule=Xato, PHP-da ushbu funktsiyadan foydalanish uchun <b> %s </b> moduli o'rnatilgan bo'lishi kerak.
-ErrorOpenIDSetupNotComplete=OpenID autentifikatsiyasiga ruxsat berish uchun Dolibarr konfiguratsiya faylini o'rnatdingiz, ammo OpenID xizmatining URL manzili doimiy ravishda %s shaklida aniqlanmagan
+ErrorOpenIDSetupNotComplete=OpenID autentifikatsiyasiga ruxsat berish uchun bespoerp konfiguratsiya faylini o'rnatdingiz, ammo OpenID xizmatining URL manzili doimiy ravishda %s shaklida aniqlanmagan
 ErrorWarehouseMustDiffers=Manba va maqsadli omborlar farq qilishi kerak
 ErrorBadFormat=Noto'g'ri format!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Xato, bu a'zo hali hech qanday uchinchi tomon bilan bog'lanmagan. Hisob-faktura bilan obuna yaratishdan oldin a'zoni mavjud bo'lgan uchinchi tomon bilan bog'lang yoki yangi uchinchi tomonni yarating.
@@ -215,7 +215,7 @@ ErrorUserNotAssignedToTask=Vaqtni sarflashni kiritish uchun foydalanuvchiga tops
 ErrorTaskAlreadyAssigned=Vazifa allaqachon foydalanuvchiga berilgan
 ErrorModuleFileSeemsToHaveAWrongFormat=Modul to'plami noto'g'ri formatga o'xshaydi.
 ErrorModuleFileSeemsToHaveAWrongFormat2=Modul zip-da kamida bitta majburiy katalog mavjud bo'lishi kerak: <strong> %s </strong> yoki <strong> %s </strong>
-ErrorFilenameDosNotMatchDolibarrPackageRules=Modul paketining nomi (<strong> %s </strong>) kutilgan nom sintaksisiga mos kelmaydi: <strong> %s a0a65d071f6fcz
+ErrorFilenameDosNotMatchbespoerpPackageRules=Modul paketining nomi (<strong> %s </strong>) kutilgan nom sintaksisiga mos kelmaydi: <strong> %s a0a65d071f6fcz
 ErrorDuplicateTrigger=Xato, %s trigger nomini takrorlang. %s dan allaqachon yuklangan.
 ErrorNoWarehouseDefined=Xato, omborlar aniqlanmadi.
 ErrorBadLinkSourceSetButBadValueForRef=Siz foydalanadigan havola yaroqsiz. To'lov uchun "manba" aniqlangan, ammo "ref" qiymati haqiqiy emas.
@@ -306,7 +306,7 @@ ErrorTooMuchFileInForm=Too much files in form, the maximum number is %s file(s)
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=PHP parametringiz upload_max_filesize (%s) PHP post_max_size (%s) parametridan yuqori. Bu izchil o'rnatish emas.
-WarningPasswordSetWithNoAccount=Ushbu a'zo uchun parol o'rnatildi. Biroq, foydalanuvchi hisobi yaratilmagan. Shunday qilib, ushbu parol saqlanadi, ammo Dolibarr-ga kirish uchun foydalanib bo'lmaydi. U tashqi modul / interfeys tomonidan ishlatilishi mumkin, ammo agar siz a'zo uchun hech qanday login va parolni belgilashga hojat bo'lmasa, siz "har bir a'zo uchun kirishni boshqarish" parametrini a'zo modulidan o'chirib qo'yishingiz mumkin. Agar sizga loginni boshqarish kerak bo'lsa, lekin hech qanday parol kerak bo'lmasa, ushbu ogohlantirishni oldini olish uchun ushbu maydonni bo'sh qoldirishingiz mumkin. Izoh: Agar foydalanuvchi bilan bog'langan bo'lsa, elektron pochta orqali kirish sifatida ham foydalanish mumkin.
+WarningPasswordSetWithNoAccount=Ushbu a'zo uchun parol o'rnatildi. Biroq, foydalanuvchi hisobi yaratilmagan. Shunday qilib, ushbu parol saqlanadi, ammo bespoerp-ga kirish uchun foydalanib bo'lmaydi. U tashqi modul / interfeys tomonidan ishlatilishi mumkin, ammo agar siz a'zo uchun hech qanday login va parolni belgilashga hojat bo'lmasa, siz "har bir a'zo uchun kirishni boshqarish" parametrini a'zo modulidan o'chirib qo'yishingiz mumkin. Agar sizga loginni boshqarish kerak bo'lsa, lekin hech qanday parol kerak bo'lmasa, ushbu ogohlantirishni oldini olish uchun ushbu maydonni bo'sh qoldirishingiz mumkin. Izoh: Agar foydalanuvchi bilan bog'langan bo'lsa, elektron pochta orqali kirish sifatida ham foydalanish mumkin.
 WarningMandatorySetupNotComplete=Click here to setup main parameters
 WarningEnableYourModulesApplications=Modul va dasturlarni yoqish uchun shu erni bosing
 WarningSafeModeOnCheckExecDir=Ogohlantirish, PHP opsiyasi <b> </b> yoniq, shuning uchun buyruq php parametri <b> safe_mode_exec_dir </b> php parametri bilan e'lon qilingan katalog ichida saqlanishi kerak.

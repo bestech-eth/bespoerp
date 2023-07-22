@@ -20,10 +20,10 @@
 /**
  *      \file       htdocs/user/note.php
  *      \ingroup    usergroup
- *      \brief      Fiche de notes sur un utilisateur Dolibarr
+ *      \brief      Fiche de notes sur un utilisateur bespoerp
  */
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/usergroups.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/user/class/user.class.php';
@@ -112,7 +112,7 @@ if ($id) {
 	print '<tr><td class="titlefield">'.$langs->trans("Login").'</td>';
 	if (!empty($object->ldap_sid) && $object->statut == 0) {
 		print '<td class="error">';
-		print $langs->trans("LoginAccountDisableInDolibarr");
+		print $langs->trans("LoginAccountDisableInbespoerp");
 		print '</td>';
 	} else {
 		print '<td>';

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - bills
+# bespoerp language file - Source file is en_US - bills
 Bill=發票
 Bills=發票
 BillsCustomers=客戶發票
@@ -598,8 +598,8 @@ AutoFillDateFromShort=設定開始日期
 AutoFillDateTo=設定服務行的結束日期為下一個發票日期
 AutoFillDateToShort=設定結束日期
 MaxNumberOfGenerationReached=已達到最大產生數目
-BILL_DELETEInDolibarr=發票已刪除
-BILL_SUPPLIER_DELETEInDolibarr=供應商發票已刪除
+BILL_DELETEInbespoerp=發票已刪除
+BILL_SUPPLIER_DELETEInbespoerp=供應商發票已刪除
 UnitPriceXQtyLessDiscount=單價 x 數量 - 折讓
 CustomersInvoicesArea=客戶計費區
 SupplierInvoicesArea=供應商付款區

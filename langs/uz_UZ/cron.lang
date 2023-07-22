@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# bespoerp language file - Source file is en_US - cron
 # About page
 # Right
 Permission23101 = Rejalashtirilgan ishni o'qing
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=O'chirish
 CronTaskInactive=Bu ish o'chirilgan (rejalashtirilgan emas)
 CronId=Id
 CronClassFile=Sinf bilan fayl nomi
-CronModuleHelp=Dolibarr moduli katalogining nomi (tashqi Dolibarr moduli bilan ham ishlaydi). <BR> Masalan, Dolibarr Product ob'ektini olish usulini chaqirish uchun object / htdocs / <u> product </u> /class/product.class.php, modul uchun qiymat <br> a04927zbac18
-CronClassFileHelp=Yuklanadigan nisbiy yo'l va fayl nomi (yo'l veb-serverning ildiz katalogiga nisbatan). <BR> Masalan, Dolibarr Product ob'ektini olish usulini chaqirish uchun htdocs / product / class / <u> product.class.php </u>, sinf fayli nomi uchun qiymati <br> a049271ecaf / product07f.c8f
-CronObjectHelp=Yuklanadigan ob'ekt nomi. <BR> Masalan, Dolibarr Product ob'ektini olish usulini chaqirish uchun
-CronMethodHelp=Ob'ektni ishga tushirish usuli. <BR> Masalan, Dolibarr Product ob'ektini olish usulini chaqirish uchun
-CronArgsHelp=Usul argumentlari. <BR> Masalan, Dolibarr Product ob'ektini olish usulini chaqirish uchun
+CronModuleHelp=bespoerp moduli katalogining nomi (tashqi bespoerp moduli bilan ham ishlaydi). <BR> Masalan, bespoerp Product ob'ektini olish usulini chaqirish uchun object / htdocs / <u> product </u> /class/product.class.php, modul uchun qiymat <br> a04927zbac18
+CronClassFileHelp=Yuklanadigan nisbiy yo'l va fayl nomi (yo'l veb-serverning ildiz katalogiga nisbatan). <BR> Masalan, bespoerp Product ob'ektini olish usulini chaqirish uchun htdocs / product / class / <u> product.class.php </u>, sinf fayli nomi uchun qiymati <br> a049271ecaf / product07f.c8f
+CronObjectHelp=Yuklanadigan ob'ekt nomi. <BR> Masalan, bespoerp Product ob'ektini olish usulini chaqirish uchun
+CronMethodHelp=Ob'ektni ishga tushirish usuli. <BR> Masalan, bespoerp Product ob'ektini olish usulini chaqirish uchun
+CronArgsHelp=Usul argumentlari. <BR> Masalan, bespoerp Product ob'ektini olish usulini chaqirish uchun
 CronCommandHelp=Amalga oshirish uchun tizim buyruq satri.
 CronCreateJob=Yangi Rejalashtirilgan ish yarating
 CronFrom=Kimdan

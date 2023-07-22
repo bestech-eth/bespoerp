@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - bills
+# bespoerp language file - Source file is en_US - bills
 Bill=Шот -фактура
 Bills=Шот -фактуралар
 BillsCustomers=Тұтынушылардың шот -фактуралары
@@ -598,8 +598,8 @@ AutoFillDateFromShort=Басталу күнін орнатыңыз
 AutoFillDateTo=Келесі шот -фактурасы бар қызмет көрсету жолының аяқталу күнін орнатыңыз
 AutoFillDateToShort=Аяқталу күнін орнатыңыз
 MaxNumberOfGenerationReached=Максимум ген саны. жетті
-BILL_DELETEInDolibarr=Шот -фактура жойылды
-BILL_SUPPLIER_DELETEInDolibarr=Жеткізушінің шот -фактурасы жойылды
+BILL_DELETEInbespoerp=Шот -фактура жойылды
+BILL_SUPPLIER_DELETEInbespoerp=Жеткізушінің шот -фактурасы жойылды
 UnitPriceXQtyLessDiscount=Бірлік бағасы x Саны - жеңілдік
 CustomersInvoicesArea=Клиенттердің есеп айырысу аймағы
 SupplierInvoicesArea=Жеткізушінің есеп айырысу аймағы

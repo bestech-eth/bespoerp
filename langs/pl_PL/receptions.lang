@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - receptions
+# bespoerp language file - Source file is en_US - receptions
 ReceptionDescription=Vendor reception management (Create reception documents)
 ReceptionsSetup=Vendor Reception setup
 RefReception=Nr ref. Przyjęcie
@@ -49,6 +49,6 @@ ReceptionsReceiptModel=Wzory dokumentów do przyjęć
 NoMorePredefinedProductToDispatch=Nigdy więcej gotowych produktów do wysyłki
 ReceptionExist=Recepcja istnieje
 ByingPrice=Bying price
-ReceptionBackToDraftInDolibarr=Reception %s back to draft
-ReceptionClassifyClosedInDolibarr=Reception %s classified Closed
-ReceptionUnClassifyCloseddInDolibarr=Reception %s re-open
+ReceptionBackToDraftInbespoerp=Reception %s back to draft
+ReceptionClassifyClosedInbespoerp=Reception %s classified Closed
+ReceptionUnClassifyCloseddInbespoerp=Reception %s re-open

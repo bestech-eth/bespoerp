@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - orders
+# bespoerp language file - Source file is en_US - orders
 OrderExists=An order was already open linked to this proposal, so no other order was created automatically
 OrdersArea=Oblast narudžbina klijenta
 SuppliersOrdersArea=Purchase orders area
@@ -125,8 +125,8 @@ ConfirmCloneOrder=Are you sure you want to clone this order <b>%s</b>?
 DispatchSupplierOrder=Receiving purchase order %s
 FirstApprovalAlreadyDone=Prvo odobrenje je već završeno
 SecondApprovalAlreadyDone=Drugo odobrenje je već završeno
-SupplierOrderReceivedInDolibarr=Purchase Order %s received %s
-SupplierOrderSubmitedInDolibarr=Purchase Order %s submitted
+SupplierOrderReceivedInbespoerp=Purchase Order %s received %s
+SupplierOrderSubmitedInbespoerp=Purchase Order %s submitted
 SupplierOrderClassifiedBilled=Purchase Order %s set billed
 OtherOrders=Druge narudžbine
 SupplierOrderValidatedAndApproved=Supplier order is validated and approved : %s

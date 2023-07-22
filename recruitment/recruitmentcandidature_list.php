@@ -21,7 +21,7 @@
  *		\brief      List page for recruitmentcandidature
  */
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require_once '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/recruitment/lib/recruitment.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/recruitment/lib/recruitment_recruitmentjobposition.lib.php';

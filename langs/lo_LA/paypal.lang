@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# bespoerp language file - Source file is en_US - paypal
 PaypalSetup=ການຕັ້ງຄ່າໂມດູນ PayPal
-PaypalDesc=ໂມດູນນີ້ອະນຸຍາດໃຫ້ການຊໍາລະໂດຍລູກຄ້າຜ່ານ <a href="http://www.paypal.com" target="_blank"> PayPal </a>. ອັນນີ້ສາມາດໃຊ້ສໍາລັບການຈ່າຍເງິນສະເພາະຫຼືສໍາລັບການຊໍາລະທີ່ກ່ຽວຂ້ອງກັບວັດຖຸ Dolibarr (ໃບເກັບເງິນ, ຄໍາສັ່ງ, ... )
+PaypalDesc=ໂມດູນນີ້ອະນຸຍາດໃຫ້ການຊໍາລະໂດຍລູກຄ້າຜ່ານ <a href="http://www.paypal.com" target="_blank"> PayPal </a>. ອັນນີ້ສາມາດໃຊ້ສໍາລັບການຈ່າຍເງິນສະເພາະຫຼືສໍາລັບການຊໍາລະທີ່ກ່ຽວຂ້ອງກັບວັດຖຸ bespoerp (ໃບເກັບເງິນ, ຄໍາສັ່ງ, ... )
 PaypalOrCBDoPayment=ຈ່າຍດ້ວຍ PayPal (ບັດຫຼື PayPal)
 PaypalDoPayment=ຈ່າຍດ້ວຍ PayPal
 PAYPAL_API_SANDBOX=ການທົດສອບໂModeດ/ກ່ອງຊາຍ

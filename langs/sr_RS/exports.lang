@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# bespoerp language file - Source file is en_US - exports
 ExportsArea=Izvozi
 ImportArea=Import
 NewExport=New Export
@@ -59,7 +59,7 @@ ChooseFormatOfFileToImport=Choose the file format to use as import file format b
 ChooseFileToImport=Upload file then click on the %s icon to select file as source import file...
 SourceFileFormat=Format izvornog fajla
 FieldsInSourceFile=Polja u izvornom fajlu
-FieldsInTargetDatabase=Ciljana polja u Dolibarr bazi (bold=obavezna)
+FieldsInTargetDatabase=Ciljana polja u bespoerp bazi (bold=obavezna)
 Field=Polje
 NoFields=Nema polja
 MoveField=Pomeri polje broj %s

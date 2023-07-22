@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# bespoerp language file - Source file is en_US - members
 MembersArea=Área de associados
 MemberCard=Ficha de associado
 SubscriptionCard=Ficha de filiação
@@ -9,7 +9,7 @@ ThirdpartyNotLinkedToMember=Terceiros não vinculados a um membro
 FundationMembers=Membros da fundação
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Outro membro  já está vinculado a um terceiro. Remover este link em primeiro lugar porque um terceiro não pode ser ligado a apenas um membro (e vice-versa).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Por razões de segurança, você deve ter permissões para editar todos os usuários sejam capazes de ligar um membro a um usuário que não é seu.
-SetLinkToThirdParty=Link para um fornecedor Dolibarr
+SetLinkToThirdParty=Link para um fornecedor bespoerp
 MembersListResiliated=Lista de membros encerrados
 MenuMembersResiliated=Membros encerrados
 MemberStatusDraft=Minuta (requer confirmação)

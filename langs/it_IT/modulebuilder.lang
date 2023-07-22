@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# bespoerp language file - Source file is en_US - loan
 ModuleBuilderDesc=Questo strumento deve essere utilizzato solo da utenti esperti o sviluppatori. Fornisce utilità per creare o modificare il proprio modulo. La documentazione per lo sviluppo <a href="%s" target="_blank" rel="noopener noreferrer">manuale alternativo  è qui </a> .
 EnterNameOfModuleDesc=Immettere il nome del modulo/applicazione da creare senza spazi. Usa maiuscolo per separare le parole (ad esempio: MyModule, EcommerceForShop, SyncWithMySystem...)
 EnterNameOfObjectDesc=Immettere il nome dell'oggetto da creare senza spazi. Usa maiuscolo per separare le parole (ad esempio: MioOggetto, Studente, Insegnante...). Verranno generati il file di classe CRUD, ma anche il file API, le pagine per elencare/aggiungere/modificare/eliminare oggetti e file SQL.
@@ -28,7 +28,7 @@ EnterNameOfModuleToDeleteDesc=You can delete your module. WARNING: All coding fi
 EnterNameOfObjectToDeleteDesc=You can delete an object. WARNING: All coding files (generated or created manually) related to object will be deleted!
 DangerZone=Danger zone
 BuildPackage=Crea pacchetto
-BuildPackageDesc=You can generate a zip package of your application so your are ready to distribute it on any Dolibarr. You can also distribute it or sell it on marketplace like <a href="https://www.dolistore.com">DoliStore.com</a>.
+BuildPackageDesc=You can generate a zip package of your application so your are ready to distribute it on any bespoerp. You can also distribute it or sell it on marketplace like <a href="https://www.dolistore.com">DoliStore.com</a>.
 BuildDocumentation=Build documentation
 ModuleIsNotActive=Questo modulo non è ancora attivato. Vai su %s per renderlo live o fai clic qui
 ModuleIsLive=This module has been activated. Any change may break a current live feature.
@@ -104,7 +104,7 @@ HooksDefDesc=Define in the <b>module_parts['hooks']</b> property, in the module 
 TriggerDefDesc=Definisci nel file trigger il codice che vuoi eseguire quando viene eseguito un evento aziendale esterno al tuo modulo (eventi attivati da altri moduli).
 SeeIDsInUse=See IDs in use in your installation
 SeeReservedIDsRangeHere=See range of reserved IDs
-ToolkitForDevelopers=Toolkit for Dolibarr developers
+ToolkitForDevelopers=Toolkit for bespoerp developers
 TryToUseTheModuleBuilder=If you have knowledge of SQL and PHP, you may use the native module builder wizard.<br>Enable the module <strong>%s</strong> and use the wizard by clicking the <span class="fa fa-bug"></span> on the top right menu.<br>Warning: This is an advanced developer feature, do <b>not</b> experiment on your production site!
 SeeTopRightMenu=See <span class="fa fa-bug"></span> on the top right menu
 AddLanguageFile=Add language file

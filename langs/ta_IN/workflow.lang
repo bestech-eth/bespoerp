@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - workflow
+# bespoerp language file - Source file is en_US - workflow
 WorkflowSetup=பணிப்பாய்வு தொகுதி அமைப்பு
 WorkflowDesc=இந்த தொகுதி சில தானியங்கி செயல்களை வழங்குகிறது. இயல்பாக, பணிப்பாய்வு திறந்திருக்கும் (நீங்கள் விரும்பும் வரிசையில் நீங்கள் விஷயங்களைச் செய்யலாம்) ஆனால் இங்கே நீங்கள் சில தானியங்கி செயல்களைச் செயல்படுத்தலாம்.
 ThereIsNoWorkflowToModify=செயல்படுத்தப்பட்ட தொகுதிக்கூறுகளுடன் பணிப்பாய்வு மாற்றங்கள் எதுவும் இல்லை.

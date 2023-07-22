@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# bespoerp language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Inget fel
@@ -51,10 +51,10 @@ ErrorWrongDate=Datum är inte korrekt!
 ErrorFailedToWriteInDir=Misslyckades med att skriva i katalogen %s
 ErrorFailedToBuildArchive=Det gick inte att bygga arkivfilen %s
 ErrorFoundBadEmailInFile=Hittade felaktig e-syntax för %s rader i filen (t.ex. linje %s med email = %s)
-ErrorUserCannotBeDelete=Användaren kan inte raderas. Kanske är det associerat med Dolibarr-enheter.
+ErrorUserCannotBeDelete=Användaren kan inte raderas. Kanske är det associerat med bespoerp-enheter.
 ErrorFieldsRequired=Vissa obligatoriska fält har lämnats tomma.
 ErrorSubjectIsRequired=E-postämnet krävs
-ErrorFailedToCreateDir=Misslyckades med att skapa en katalog. Kontrollera att webbservern användaren har rättigheter att skriva till Dolibarr dokument katalogen. Om parametern <b>safe_mode</b> är aktiv på PHP, kontrollera att Dolibarr php-filer äger till webbserver användare (eller grupp).
+ErrorFailedToCreateDir=Misslyckades med att skapa en katalog. Kontrollera att webbservern användaren har rättigheter att skriva till bespoerp dokument katalogen. Om parametern <b>safe_mode</b> är aktiv på PHP, kontrollera att bespoerp php-filer äger till webbserver användare (eller grupp).
 ErrorNoMailDefinedForThisUser=Ingen post definierats för denna användare
 ErrorSetupOfEmailsNotComplete=Installationen av e-postmeddelanden är inte klar
 ErrorFeatureNeedJavascript=Denna funktion måste ha Javascript vara aktiverat för att arbeta. Ändra detta i inställning - displayen.
@@ -82,7 +82,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=Fältet <b> %s </b> får inte i
 ErrorFieldMustHaveXChar=Fältet <b> %s </b> måste ha minst %s tecken.
 ErrorNoAccountancyModuleLoaded=Ingen bokföring modul aktiverad
 ErrorExportDuplicateProfil=Detta profilnamn finns redan för denna export.
-ErrorLDAPSetupNotComplete=Dolibarr-LDAP matchning inte är fullständig.
+ErrorLDAPSetupNotComplete=bespoerp-LDAP matchning inte är fullständig.
 ErrorLDAPMakeManualTest=A. LDIF filen har genererats i katalogen %s. Försök att läsa in den manuellt från kommandoraden för att få mer information om fel.
 ErrorCantSaveADoneUserWithZeroPercentage=Kan inte spara en åtgärd med "status inte startad" om fältet "gjort av" också är fyllt.
 ErrorRefAlreadyExists=Referens <b> %s </b> finns redan.
@@ -115,8 +115,8 @@ ErrorProdIdAlreadyExist=%s tilldelas ett annat tredje
 ErrorFailedToSendPassword=Misslyckades med att skicka lösenord
 ErrorFailedToLoadRSSFile=Inte få RSS-flöde. Försök att lägga konstant MAIN_SIMPLEXMLLOAD_DEBUG Om felmeddelanden inte ger tillräckligt med information.
 ErrorForbidden=Tillträde beviljas ej. <br> Du försöker komma åt en sida, ett område eller en funktion av en inaktiverad modul eller utan att vara i en autentiserad session eller det är inte tillåtet för din användare.
-ErrorForbidden2=Tillstånd för den här inloggningen kan definieras av din Dolibarr administratör från menyn %s-> %s.
-ErrorForbidden3=Det verkar som Dolibarr inte används genom en bestyrkt session. Ta en titt på Dolibarr inställning dokumentation för att veta hur man ska hantera verifieringar (htaccess, mod_auth eller andra ...).
+ErrorForbidden2=Tillstånd för den här inloggningen kan definieras av din bespoerp administratör från menyn %s-> %s.
+ErrorForbidden3=Det verkar som bespoerp inte används genom en bestyrkt session. Ta en titt på bespoerp inställning dokumentation för att veta hur man ska hantera verifieringar (htaccess, mod_auth eller andra ...).
 ErrorForbidden4=Obs: rensa din webbläsares cookies för att förstöra befintliga sessioner för denna inloggning.
 ErrorNoImagickReadimage=Funktion imagick_readimage finns inte i denna PHP. Ingen förhandsgranskning kan vara tillgängliga. Administratörer kan inaktivera den här fliken från menyn Setup - Display.
 ErrorRecordAlreadyExists=Record finns redan
@@ -139,8 +139,8 @@ ErrorWebServerUserHasNotPermission=Användarkonto <b>%s</b> användas för att e
 ErrorNoActivatedBarcode=Ingen streckkod typ aktiveras
 ErrUnzipFails=Det gick inte att packa upp %s med ZipArchive
 ErrNoZipEngine=Ingen motor att zip / unzip %s fil i detta PHP
-ErrorFileMustBeADolibarrPackage=Filen %s måste vara ett Dolibarr zip-paket
-ErrorModuleFileRequired=Du måste välja en Dolibarr-modulpaketfil
+ErrorFileMustBeAbespoerpPackage=Filen %s måste vara ett bespoerp zip-paket
+ErrorModuleFileRequired=Du måste välja en bespoerp-modulpaketfil
 ErrorPhpCurlNotInstalled=PHP CURL är inte installerat, detta är viktigt för att prata med Paypal
 ErrorFailedToAddToMailmanList=Det gick inte att lägga till post %s till Mailman listan %s eller SPIP bas
 ErrorFailedToRemoveToMailmanList=Det gick inte att ta bort posten %s till Mailman listan %s eller SPIP bas
@@ -152,7 +152,7 @@ ErrorDateMustBeBeforeToday=Datumet måste vara lägre än idag
 ErrorDateMustBeInFuture=Datumet måste vara större än idag
 ErrorPaymentModeDefinedToWithoutSetup=Ett betalningsläge var inställt för att skriva %s, men installationen av modulens faktura fördes inte att definiera informationen som ska visas för den här betalningsläget.
 ErrorPHPNeedModule=Fel, din PHP måste ha modul <b>%s</b> installerad för att använda den här funktionen.
-ErrorOpenIDSetupNotComplete=Du inställning för Dolibarr konfigurationsfil möjliggör OpenID autentisering, men webbadressen OpenID tjänsten definieras inte i ständig %s
+ErrorOpenIDSetupNotComplete=Du inställning för bespoerp konfigurationsfil möjliggör OpenID autentisering, men webbadressen OpenID tjänsten definieras inte i ständig %s
 ErrorWarehouseMustDiffers=Källa och mål lager måste skiljer
 ErrorBadFormat=Dåligt format!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Fel, den här medlemmen är inte länkad till någon tredje part. Länk medlem till en befintlig tredje part eller skapa en ny tredje part innan du skapar abonnemang mot faktura.
@@ -215,7 +215,7 @@ ErrorUserNotAssignedToTask=Användaren måste tilldelas uppgiften för att kunna
 ErrorTaskAlreadyAssigned=Uppgift som redan tilldelats användaren
 ErrorModuleFileSeemsToHaveAWrongFormat=Modulpaketet verkar ha fel format.
 ErrorModuleFileSeemsToHaveAWrongFormat2=Minst en obligatorisk katalog måste finnas i modulens zip: <strong> %s </strong> eller <strong> %s </strong>
-ErrorFilenameDosNotMatchDolibarrPackageRules=Namnet på modulpaketet (<strong> %s </strong>) matchar inte förväntat namnsyntax: <strong> %s </strong>
+ErrorFilenameDosNotMatchbespoerpPackageRules=Namnet på modulpaketet (<strong> %s </strong>) matchar inte förväntat namnsyntax: <strong> %s </strong>
 ErrorDuplicateTrigger=Fel, duplicera utlösarens namn %s. Redan laddad från %s.
 ErrorNoWarehouseDefined=Fel, inga lager definierade.
 ErrorBadLinkSourceSetButBadValueForRef=Länken du använder är inte giltig. En "källa" för betalning definieras, men värdet för "ref" är inte giltigt.
@@ -313,7 +313,7 @@ ErrorCoherenceMenu=<b>%s</b> is required when <b>%s</b> is 'left'
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=Din PHP-parameter upload_max_filesize (%s) är högre än PHP-parameter post_max_size (%s). Detta är inte en konsekvent installation.
-WarningPasswordSetWithNoAccount=Ett lösenord har ställts för den här medlemmen. Men inget användarkonto skapades. Så det här lösenordet är lagrat men kan inte användas för att logga in till Dolibarr. Den kan användas av en extern modul / gränssnitt men om du inte behöver definiera någon inloggning eller ett lösenord för en medlem kan du inaktivera alternativet "Hantera en inloggning för varje medlem" från inställningen av medlemsmodulen. Om du behöver hantera en inloggning men inte behöver något lösenord, kan du hålla fältet tomt för att undvika denna varning. Obs! Email kan också användas som inloggning om medlemmen är länkad till en användare.
+WarningPasswordSetWithNoAccount=Ett lösenord har ställts för den här medlemmen. Men inget användarkonto skapades. Så det här lösenordet är lagrat men kan inte användas för att logga in till bespoerp. Den kan användas av en extern modul / gränssnitt men om du inte behöver definiera någon inloggning eller ett lösenord för en medlem kan du inaktivera alternativet "Hantera en inloggning för varje medlem" från inställningen av medlemsmodulen. Om du behöver hantera en inloggning men inte behöver något lösenord, kan du hålla fältet tomt för att undvika denna varning. Obs! Email kan också användas som inloggning om medlemmen är länkad till en användare.
 WarningMandatorySetupNotComplete=Klicka här för att ställa in huvudparametrar
 WarningEnableYourModulesApplications=Klicka här för att aktivera dina moduler och applikationer
 WarningSafeModeOnCheckExecDir=Varning, PHP alternativ <b>safe_mode</b> är på så kommando måste stoppas in i en katalog som deklarerats av php parameter <b>safe_mode_exec_dir.</b>

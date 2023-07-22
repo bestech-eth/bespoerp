@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# bespoerp language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=كلمة السر للمستخدم <b>٪</b> على النطاق <b>ق ق ٪</b> ويجب أن يتغير.
 UserMustChangePassNextLogon=يجب على المستخدم تغيير كلمة المرور على المجال ق ٪
 LDAPInformationsForThisContact=المعلومات في قاعدة بيانات  خادم الوصول الخفيف للأدلة لهذا الاتصال

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# bespoerp language file - Source file is en_US - loan
 ModuleBuilderDesc=يجب استخدام هذه الأداة فقط من قبل المستخدمين أو المطورين ذوي الخبرة. يوفر أدوات مساعدة لبناء أو تعديل الوحدة الخاصة بك. وثائق التطوير اليدوي <a href="%s" target="_blank" rel="noopener noreferrer"> البديل هنا </a>.
 EnterNameOfModuleDesc=أدخل اسم الوحدة / التطبيق لإنشائه بدون مسافات. استخدم الأحرف الكبيرة لفصل الكلمات (على سبيل المثال: MyModule ، EcommerceForShop ، SyncWithMySystem ...)
 EnterNameOfObjectDesc=أدخل اسم الكائن المراد إنشاؤه بدون مسافات. استخدم الأحرف الكبيرة لفصل الكلمات (على سبيل المثال: MyObject ، الطالب ، المعلم ...). سيتم إنشاء ملف فئة CRUD ، ولكن أيضًا ملف API ، وصفحات لسرد / إضافة / تحرير / حذف كائن وملفات SQL.
@@ -28,7 +28,7 @@ EnterNameOfModuleToDeleteDesc=يمكنك حذف الوحدة الخاصة بك. 
 EnterNameOfObjectToDeleteDesc=يمكنك حذف كائن. تحذير: سيتم حذف جميع ملفات الترميز (التي تم إنشاؤها أو إنشاؤها يدويًا) المتعلقة بالكائن!
 DangerZone=منطقة الخطر
 BuildPackage=بناء الحزمة
-BuildPackageDesc=يمكنك إنشاء حزمة مضغوطة لتطبيقك حتى تكون جاهزًا لتوزيعها على أي Dolibarr. يمكنك أيضًا توزيعه أو بيعه في السوق مثل <a href="https://www.dolistore.com"> DoliStore.com </a>.
+BuildPackageDesc=يمكنك إنشاء حزمة مضغوطة لتطبيقك حتى تكون جاهزًا لتوزيعها على أي bespoerp. يمكنك أيضًا توزيعه أو بيعه في السوق مثل <a href="https://www.dolistore.com"> DoliStore.com </a>.
 BuildDocumentation=بناء الوثائق
 ModuleIsNotActive=لم يتم تفعيل هذه الوحدة بعد. انتقل إلى %s لتفعيله أو انقر هنا
 ModuleIsLive=تم تفعيل هذه الوحدة. قد يؤدي أي تغيير إلى كسر ميزة حية حالية.
@@ -104,7 +104,7 @@ HooksDefDesc=حدد في <b> module_parts ['hooks'] </b> الخاصية ، في 
 TriggerDefDesc=حدد في ملف المشغل الكود الذي تريد تنفيذه عند تنفيذ حدث عمل خارج الوحدة النمطية الخاصة بك (الأحداث التي يتم تشغيلها بواسطة وحدات نمطية أخرى).
 SeeIDsInUse=انظر المعرفات المستخدمة في التثبيت الخاص بك
 SeeReservedIDsRangeHere=انظر مجموعة من المعرفات المحجوزة
-ToolkitForDevelopers=مجموعة أدوات لمطوري Dolibarr
+ToolkitForDevelopers=مجموعة أدوات لمطوري bespoerp
 TryToUseTheModuleBuilder=إذا كانت لديك معرفة بـ SQL و PHP ، فيمكنك استخدام معالج منشئ الوحدات الأصلية. <br> قم بتمكين الوحدة النمطية <strong> %s </strong> واستخدم المعالج بالنقر فوق <span class="fa fa-bug"> </span> في أعلى القائمة اليمنى. <br> تحذير: هذه ميزة مطور متقدمة ، قم بإجراء تجربة <b> وليس </b> على موقع الإنتاج الخاص بك!
 SeeTopRightMenu=شاهد <span class="fa fa-bug"> </span> في القائمة اليمنى العلوية
 AddLanguageFile=أضف ملف اللغة

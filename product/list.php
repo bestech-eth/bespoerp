@@ -34,7 +34,7 @@
  */
 
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/product/class/product.class.php';
 require_once DOL_DOCUMENT_ROOT.'/fourn/class/fournisseur.product.class.php';
@@ -155,7 +155,7 @@ if (empty($action)) {
 	$action = 'list';
 }
 
-// Get object canvas (By default, this is not defined, so standard usage of dolibarr)
+// Get object canvas (By default, this is not defined, so standard usage of bespoerp)
 $canvas = GETPOST("canvas");
 $objcanvas = null;
 if (!empty($canvas)) {

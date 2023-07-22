@@ -24,7 +24,7 @@
  *	\brief      Setup page for TakePos module
  */
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../../main.inc.php'; // Load $user and permissions
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/product/class/html.formproduct.class.php';
@@ -72,42 +72,42 @@ $terminaltouse = $terminal;
 if (GETPOST('action', 'alpha') == 'set') {
 	$db->begin();
 
-	$res = dolibarr_set_const($db, "TAKEPOS_TERMINAL_NAME_".$terminaltouse, (!empty(GETPOST('terminalname'.$terminaltouse, 'restricthtml')) ? GETPOST('terminalname'.$terminaltouse, 'restricthtml') : $langs->trans("TerminalName", $terminaltouse)), 'chaine', 0, '', $conf->entity);
+	$res = bespoerp_set_const($db, "TAKEPOS_TERMINAL_NAME_".$terminaltouse, (!empty(GETPOST('terminalname'.$terminaltouse, 'restricthtml')) ? GETPOST('terminalname'.$terminaltouse, 'restricthtml') : $langs->trans("TerminalName", $terminaltouse)), 'chaine', 0, '', $conf->entity);
 
-	$res = dolibarr_set_const($db, "CASHDESK_ID_THIRDPARTY".$terminaltouse, (GETPOST('socid', 'int') > 0 ? GETPOST('socid', 'int') : ''), 'chaine', 0, '', $conf->entity);
+	$res = bespoerp_set_const($db, "CASHDESK_ID_THIRDPARTY".$terminaltouse, (GETPOST('socid', 'int') > 0 ? GETPOST('socid', 'int') : ''), 'chaine', 0, '', $conf->entity);
 
-	$res = dolibarr_set_const($db, "CASHDESK_ID_BANKACCOUNT_CASH".$terminaltouse, (GETPOST('CASHDESK_ID_BANKACCOUNT_CASH'.$terminaltouse, 'alpha') > 0 ? GETPOST('CASHDESK_ID_BANKACCOUNT_CASH'.$terminaltouse, 'alpha') : ''), 'chaine', 0, '', $conf->entity);
-	$res = dolibarr_set_const($db, "CASHDESK_ID_BANKACCOUNT_CHEQUE".$terminaltouse, (GETPOST('CASHDESK_ID_BANKACCOUNT_CHEQUE'.$terminaltouse, 'alpha') > 0 ? GETPOST('CASHDESK_ID_BANKACCOUNT_CHEQUE'.$terminaltouse, 'alpha') : ''), 'chaine', 0, '', $conf->entity);
-	$res = dolibarr_set_const($db, "CASHDESK_ID_BANKACCOUNT_CB".$terminaltouse, (GETPOST('CASHDESK_ID_BANKACCOUNT_CB'.$terminaltouse, 'alpha') > 0 ? GETPOST('CASHDESK_ID_BANKACCOUNT_CB'.$terminaltouse, 'alpha') : ''), 'chaine', 0, '', $conf->entity);
+	$res = bespoerp_set_const($db, "CASHDESK_ID_BANKACCOUNT_CASH".$terminaltouse, (GETPOST('CASHDESK_ID_BANKACCOUNT_CASH'.$terminaltouse, 'alpha') > 0 ? GETPOST('CASHDESK_ID_BANKACCOUNT_CASH'.$terminaltouse, 'alpha') : ''), 'chaine', 0, '', $conf->entity);
+	$res = bespoerp_set_const($db, "CASHDESK_ID_BANKACCOUNT_CHEQUE".$terminaltouse, (GETPOST('CASHDESK_ID_BANKACCOUNT_CHEQUE'.$terminaltouse, 'alpha') > 0 ? GETPOST('CASHDESK_ID_BANKACCOUNT_CHEQUE'.$terminaltouse, 'alpha') : ''), 'chaine', 0, '', $conf->entity);
+	$res = bespoerp_set_const($db, "CASHDESK_ID_BANKACCOUNT_CB".$terminaltouse, (GETPOST('CASHDESK_ID_BANKACCOUNT_CB'.$terminaltouse, 'alpha') > 0 ? GETPOST('CASHDESK_ID_BANKACCOUNT_CB'.$terminaltouse, 'alpha') : ''), 'chaine', 0, '', $conf->entity);
 	if (isModEnabled('stripe') && !empty($conf->global->STRIPE_CARD_PRESENT)) {
-		$res = dolibarr_set_const($db, "CASHDESK_ID_BANKACCOUNT_STRIPETERMINAL".$terminaltouse, GETPOST('CASHDESK_ID_BANKACCOUNT_STRIPETERMINAL'.$terminaltouse, 'alpha'), 'chaine', 0, '', $conf->entity);
+		$res = bespoerp_set_const($db, "CASHDESK_ID_BANKACCOUNT_STRIPETERMINAL".$terminaltouse, GETPOST('CASHDESK_ID_BANKACCOUNT_STRIPETERMINAL'.$terminaltouse, 'alpha'), 'chaine', 0, '', $conf->entity);
 	}
 	if (getDolGlobalInt('TAKEPOS_ENABLE_SUMUP')) {
-		$res = dolibarr_set_const($db, "CASHDESK_ID_BANKACCOUNT_SUMUP".$terminaltouse, (GETPOST('CASHDESK_ID_BANKACCOUNT_SUMUP'.$terminaltouse, 'alpha') > 0 ? GETPOST('CASHDESK_ID_BANKACCOUNT_SUMUP'.$terminaltouse, 'alpha') : ''), 'chaine', 0, '', $conf->entity);
+		$res = bespoerp_set_const($db, "CASHDESK_ID_BANKACCOUNT_SUMUP".$terminaltouse, (GETPOST('CASHDESK_ID_BANKACCOUNT_SUMUP'.$terminaltouse, 'alpha') > 0 ? GETPOST('CASHDESK_ID_BANKACCOUNT_SUMUP'.$terminaltouse, 'alpha') : ''), 'chaine', 0, '', $conf->entity);
 	}
 	foreach ($paiements as $modep) {
 		if (in_array($modep->code, array('LIQ', 'CB', 'CHQ'))) {
 			continue;
 		}
 		$name = "CASHDESK_ID_BANKACCOUNT_".$modep->code.$terminaltouse;
-		$res = dolibarr_set_const($db, $name, (GETPOST($name, 'alpha') > 0 ? GETPOST($name, 'alpha') : ''), 'chaine', 0, '', $conf->entity);
+		$res = bespoerp_set_const($db, $name, (GETPOST($name, 'alpha') > 0 ? GETPOST($name, 'alpha') : ''), 'chaine', 0, '', $conf->entity);
 	}
-	$res = dolibarr_set_const($db, "CASHDESK_ID_WAREHOUSE".$terminaltouse, (GETPOST('CASHDESK_ID_WAREHOUSE'.$terminaltouse, 'alpha') > 0 ? GETPOST('CASHDESK_ID_WAREHOUSE'.$terminaltouse, 'alpha') : ''), 'chaine', 0, '', $conf->entity);
-	$res = dolibarr_set_const($db, "CASHDESK_NO_DECREASE_STOCK".$terminaltouse, GETPOST('CASHDESK_NO_DECREASE_STOCK'.$terminaltouse, 'alpha'), 'chaine', 0, '', $conf->entity);
-	$res = dolibarr_set_const($db, "TAKEPOS_PRINTER_TO_USE".$terminaltouse, GETPOST('TAKEPOS_PRINTER_TO_USE'.$terminaltouse, 'alpha'), 'chaine', 0, '', $conf->entity);
-	$res = dolibarr_set_const($db, "TAKEPOS_ORDER_PRINTER1_TO_USE".$terminaltouse, GETPOST('TAKEPOS_ORDER_PRINTER1_TO_USE'.$terminaltouse, 'alpha'), 'chaine', 0, '', $conf->entity);
-	$res = dolibarr_set_const($db, "TAKEPOS_ORDER_PRINTER2_TO_USE".$terminaltouse, GETPOST('TAKEPOS_ORDER_PRINTER2_TO_USE'.$terminaltouse, 'alpha'), 'chaine', 0, '', $conf->entity);
-	$res = dolibarr_set_const($db, "TAKEPOS_ORDER_PRINTER3_TO_USE".$terminaltouse, GETPOST('TAKEPOS_ORDER_PRINTER3_TO_USE'.$terminaltouse, 'alpha'), 'chaine', 0, '', $conf->entity);
-	$res = dolibarr_set_const($db, "TAKEPOS_TEMPLATE_TO_USE_FOR_INVOICES".$terminaltouse, GETPOST('TAKEPOS_TEMPLATE_TO_USE_FOR_INVOICES'.$terminaltouse, 'alpha'), 'chaine', 0, '', $conf->entity);
-	$res = dolibarr_set_const($db, "TAKEPOS_TEMPLATE_TO_USE_FOR_ORDERS".$terminaltouse, GETPOST('TAKEPOS_TEMPLATE_TO_USE_FOR_ORDERS'.$terminaltouse, 'alpha'), 'chaine', 0, '', $conf->entity);
+	$res = bespoerp_set_const($db, "CASHDESK_ID_WAREHOUSE".$terminaltouse, (GETPOST('CASHDESK_ID_WAREHOUSE'.$terminaltouse, 'alpha') > 0 ? GETPOST('CASHDESK_ID_WAREHOUSE'.$terminaltouse, 'alpha') : ''), 'chaine', 0, '', $conf->entity);
+	$res = bespoerp_set_const($db, "CASHDESK_NO_DECREASE_STOCK".$terminaltouse, GETPOST('CASHDESK_NO_DECREASE_STOCK'.$terminaltouse, 'alpha'), 'chaine', 0, '', $conf->entity);
+	$res = bespoerp_set_const($db, "TAKEPOS_PRINTER_TO_USE".$terminaltouse, GETPOST('TAKEPOS_PRINTER_TO_USE'.$terminaltouse, 'alpha'), 'chaine', 0, '', $conf->entity);
+	$res = bespoerp_set_const($db, "TAKEPOS_ORDER_PRINTER1_TO_USE".$terminaltouse, GETPOST('TAKEPOS_ORDER_PRINTER1_TO_USE'.$terminaltouse, 'alpha'), 'chaine', 0, '', $conf->entity);
+	$res = bespoerp_set_const($db, "TAKEPOS_ORDER_PRINTER2_TO_USE".$terminaltouse, GETPOST('TAKEPOS_ORDER_PRINTER2_TO_USE'.$terminaltouse, 'alpha'), 'chaine', 0, '', $conf->entity);
+	$res = bespoerp_set_const($db, "TAKEPOS_ORDER_PRINTER3_TO_USE".$terminaltouse, GETPOST('TAKEPOS_ORDER_PRINTER3_TO_USE'.$terminaltouse, 'alpha'), 'chaine', 0, '', $conf->entity);
+	$res = bespoerp_set_const($db, "TAKEPOS_TEMPLATE_TO_USE_FOR_INVOICES".$terminaltouse, GETPOST('TAKEPOS_TEMPLATE_TO_USE_FOR_INVOICES'.$terminaltouse, 'alpha'), 'chaine', 0, '', $conf->entity);
+	$res = bespoerp_set_const($db, "TAKEPOS_TEMPLATE_TO_USE_FOR_ORDERS".$terminaltouse, GETPOST('TAKEPOS_TEMPLATE_TO_USE_FOR_ORDERS'.$terminaltouse, 'alpha'), 'chaine', 0, '', $conf->entity);
 
-	$res = dolibarr_set_const($db, 'CASHDESK_READER_KEYCODE_FOR_ENTER'.$terminaltouse, (GETPOST('CASHDESK_READER_KEYCODE_FOR_ENTER'.$terminaltouse, 'int') > 0 ? GETPOST('CASHDESK_READER_KEYCODE_FOR_ENTER'.$terminaltouse, 'int') : ''), 'chaine', 0, '', $conf->entity);
+	$res = bespoerp_set_const($db, 'CASHDESK_READER_KEYCODE_FOR_ENTER'.$terminaltouse, (GETPOST('CASHDESK_READER_KEYCODE_FOR_ENTER'.$terminaltouse, 'int') > 0 ? GETPOST('CASHDESK_READER_KEYCODE_FOR_ENTER'.$terminaltouse, 'int') : ''), 'chaine', 0, '', $conf->entity);
 
-	$res = dolibarr_set_const($db, "TAKEPOS_ADDON".$terminaltouse, GETPOST('TAKEPOS_ADDON'.$terminaltouse, 'alpha'), 'chaine', 0, '', $conf->entity);
+	$res = bespoerp_set_const($db, "TAKEPOS_ADDON".$terminaltouse, GETPOST('TAKEPOS_ADDON'.$terminaltouse, 'alpha'), 'chaine', 0, '', $conf->entity);
 
 	// add free text on each terminal of cash desk
-	$res = dolibarr_set_const($db, 'TAKEPOS_HEADER'.$terminaltouse, GETPOST('TAKEPOS_HEADER'.$terminaltouse, 'restricthtml'), 'chaine', 0, '', $conf->entity);
-	$res = dolibarr_set_const($db, 'TAKEPOS_FOOTER'.$terminaltouse, GETPOST('TAKEPOS_FOOTER'.$terminaltouse, 'restricthtml'), 'chaine', 0, '', $conf->entity);
+	$res = bespoerp_set_const($db, 'TAKEPOS_HEADER'.$terminaltouse, GETPOST('TAKEPOS_HEADER'.$terminaltouse, 'restricthtml'), 'chaine', 0, '', $conf->entity);
+	$res = bespoerp_set_const($db, 'TAKEPOS_FOOTER'.$terminaltouse, GETPOST('TAKEPOS_FOOTER'.$terminaltouse, 'restricthtml'), 'chaine', 0, '', $conf->entity);
 
 	dol_syslog("admin/cashdesk: level ".GETPOST('level', 'alpha'));
 
@@ -261,7 +261,7 @@ if (isModEnabled('stock')) {
 		print $form->selectyesno('CASHDESK_NO_DECREASE_STOCK'.$terminal, getDolGlobalInt('CASHDESK_NO_DECREASE_STOCK'.$terminal), 1);
 	} else {
 		if (getDolGlobalInt('CASHDESK_NO_DECREASE_STOCK'.$terminal)) {
-			$res = dolibarr_set_const($db, "CASHDESK_NO_DECREASE_STOCK".$terminal, 1, 'chaine', 0, '', $conf->entity);
+			$res = bespoerp_set_const($db, "CASHDESK_NO_DECREASE_STOCK".$terminal, 1, 'chaine', 0, '', $conf->entity);
 		}
 		print $langs->trans("Yes").'<br>';
 		print '<span class="opacitymedium">'.$langs->trans('StockDecreaseForPointOfSaleDisabledbyBatch').'</span>';
@@ -431,7 +431,7 @@ if (!getDolGlobalInt('PDF_ALLOW_HTML_FOR_FREE_TEXT')) {
 	print '<textarea name="'.$variablename.'" class="flat" cols="120">'.$conf->global->{$variablename}.'</textarea>';
 } else {
 	include_once DOL_DOCUMENT_ROOT.'/core/class/doleditor.class.php';
-	$doleditor = new DolEditor($variablename, getDolGlobalString($variablename), '', 80, 'dolibarr_notes');
+	$doleditor = new DolEditor($variablename, getDolGlobalString($variablename), '', 80, 'bespoerp_notes');
 	print $doleditor->Create();
 }
 print '</td></tr>';
@@ -447,7 +447,7 @@ if (!getDolGlobalInt('PDF_ALLOW_HTML_FOR_FREE_TEXT')) {
 	print '<textarea name="'.$variablename.'" class="flat" cols="120">'.$conf->global->{$variablename}.'</textarea>';
 } else {
 	include_once DOL_DOCUMENT_ROOT.'/core/class/doleditor.class.php';
-	$doleditor = new DolEditor($variablename, getDolGlobalString($variablename), '', 80, 'dolibarr_notes');
+	$doleditor = new DolEditor($variablename, getDolGlobalString($variablename), '', 80, 'bespoerp_notes');
 	print $doleditor->Create();
 }
 print '</td></tr>';

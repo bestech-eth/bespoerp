@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# bespoerp language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=ชื่อบริษัท %sมีอยู่แล้ว ให้เลือกอันอื่น
 ErrorSetACountryFirst=ตั้งประเทศไว้ก่อน
 SelectThirdParty=เลือกบุคคลที่สาม
@@ -12,7 +12,7 @@ MenuNewSupplier=New Vendor
 MenuNewPrivateIndividual=ใหม่เอกชน
 NewCompany=บริษัทใหม่ (ผู้มีแนวโน้มจะเป็นลูกค้า, ลูกค้า, ผู้ขาย)
 NewThirdParty=New Third Party (prospect, customer, vendor)
-CreateDolibarrThirdPartySupplier=Create a third party (vendor)
+CreatebespoerpThirdPartySupplier=Create a third party (vendor)
 CreateThirdPartyOnly=สร้างของบุคคลที่สาม
 CreateThirdPartyAndContact=Create a third party + a child contact
 ProspectionArea=พื้นที่ prospection
@@ -383,7 +383,7 @@ CapitalOf=เมืองหลวงของ% s
 EditCompany=แก้ไข บริษัท
 ThisUserIsNot=This user is not a prospect, customer or vendor
 VATIntraCheck=ตรวจสอบ
-VATIntraCheckDesc=The VAT ID must include the country prefix. The link <b>%s</b> uses the European VAT checker service (VIES) which requires internet access from the Dolibarr server.
+VATIntraCheckDesc=The VAT ID must include the country prefix. The link <b>%s</b> uses the European VAT checker service (VIES) which requires internet access from the bespoerp server.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Check the intra-Community VAT ID on the European Commission website
 VATIntraManualCheck=You can also check manually on the European Commission website <a href="%s" target="_blank" rel="noopener noreferrer">%s</a>
@@ -429,8 +429,8 @@ ProspectsByStatus=ลูกค้าเป้าหมายตามสถา�
 NoParentCompany=ไม่
 ExportCardToFormat=การ์ดส่งออกไปยังรูปแบบ
 ContactNotLinkedToCompany=ติดต่อไม่ได้เชื่อมโยงกับบุคคลที่สาม
-DolibarrLogin=เข้าสู่ระบบ Dolibarr
-NoDolibarrAccess=ไม่สามารถเข้าถึง Dolibarr
+bespoerpLogin=เข้าสู่ระบบ bespoerp
+NobespoerpAccess=ไม่สามารถเข้าถึง bespoerp
 ExportDataset_company_1=Third-parties (companies/foundations/physical people) and their properties
 ExportDataset_company_2=Contacts and their properties
 ImportDataset_company_1=Third-parties and their properties

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# bespoerp language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Firma adı zaten %s var. Başka bir tane seçin.
 ErrorSetACountryFirst=Önce ülkeyi ayarla.
 SelectThirdParty=Bir üçüncü parti seç
@@ -12,7 +12,7 @@ MenuNewSupplier=Yeni Tedarikçi
 MenuNewPrivateIndividual=Yeni özel şahıs
 NewCompany=Yeni firma (aday, müşteri, tedarikçi)
 NewThirdParty=Yeni Üçüncü Parti (aday, müşteri, tedarikçi)
-CreateDolibarrThirdPartySupplier=Bir üçüncü parti oluştur (tedarikçi)
+CreatebespoerpThirdPartySupplier=Bir üçüncü parti oluştur (tedarikçi)
 CreateThirdPartyOnly=Üçüncü parti oluştur
 CreateThirdPartyAndContact=Bir üçüncü parti + bağlantılı kişi oluşturun
 ProspectionArea=Müşteri teklifleri alanı
@@ -383,7 +383,7 @@ CapitalOf=Sermaye %s
 EditCompany=Firma düzenle
 ThisUserIsNot=This user is not a prospect, customer or vendor
 VATIntraCheck=Denetle
-VATIntraCheckDesc=Bu Vergi Numarası ülke önekini içermelidir. <b>%s</b> linki, Dolibarr sunucusundan internet erişimi gerektiren Avrupa KDV kontrol hizmetini (VIES) kullanır.
+VATIntraCheckDesc=Bu Vergi Numarası ülke önekini içermelidir. <b>%s</b> linki, bespoerp sunucusundan internet erişimi gerektiren Avrupa KDV kontrol hizmetini (VIES) kullanır.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Avrupa Komisyonu web sitesinden topluluk içi Vergi Numarasını kontrol edin
 VATIntraManualCheck=You can also check manually on the European Commission website <a href="%s" target="_blank" rel="noopener noreferrer">%s</a>
@@ -429,8 +429,8 @@ ProspectsByStatus=Durumuna göre adaylar
 NoParentCompany=Hiçbiri
 ExportCardToFormat=Biçimlendirilecek dışa aktarma kartı
 ContactNotLinkedToCompany=Kişi herhangi bir üçüncü partiye bağlı değil
-DolibarrLogin=Dolibarr kullanıcı adı
-NoDolibarrAccess=Dolibarr erişimi yok
+bespoerpLogin=bespoerp kullanıcı adı
+NobespoerpAccess=bespoerp erişimi yok
 ExportDataset_company_1=Üçüncü Partiler (şirketler/dernekler/şahıslar) ve özellikleri
 ExportDataset_company_2=Kişiler ve özellikleri
 ImportDataset_company_1=Üçüncü Partiler ve özellikleri

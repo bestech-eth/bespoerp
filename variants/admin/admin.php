@@ -16,7 +16,7 @@
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/product.lib.php';
@@ -40,12 +40,12 @@ $error = 0;
 if ($action) {
 	$value = GETPOST('PRODUIT_ATTRIBUTES_HIDECHILD');
 
-	if (!dolibarr_set_const($db, 'PRODUIT_ATTRIBUTES_HIDECHILD', $value, 'chaine', 0, '', $conf->entity)) {
+	if (!bespoerp_set_const($db, 'PRODUIT_ATTRIBUTES_HIDECHILD', $value, 'chaine', 0, '', $conf->entity)) {
 		setEventMessages($langs->trans('CoreErrorMessage'), null, 'errors');
 		$error++;
 	}
 
-	if (!dolibarr_set_const($db, 'PRODUIT_ATTRIBUTES_SEPARATOR', GETPOST('PRODUIT_ATTRIBUTES_SEPARATOR'), 'chaine', 0, '', $conf->entity)) {
+	if (!bespoerp_set_const($db, 'PRODUIT_ATTRIBUTES_SEPARATOR', GETPOST('PRODUIT_ATTRIBUTES_SEPARATOR'), 'chaine', 0, '', $conf->entity)) {
 		setEventMessages($langs->trans('CoreErrorMessage'), null, 'errors');
 		$error++;
 	}

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - workflow
+# bespoerp language file - Source file is en_US - workflow
 WorkflowSetup=ຕັ້ງຄ່າໂມດູນຂັ້ນຕອນການເຮັດວຽກ
 WorkflowDesc=ໂມດູນນີ້ໃຫ້ການກະ ທຳ ອັດຕະໂນມັດບາງອັນ. ໂດຍຄ່າເລີ່ມຕົ້ນ, ຂະບວນການເຮັດວຽກແມ່ນເປີດຢູ່ (ເຈົ້າສາມາດເຮັດສິ່ງຕ່າງ the ຕາມ ລຳ ດັບທີ່ເຈົ້າຕ້ອງການ) ແຕ່ຢູ່ທີ່ນີ້ເຈົ້າສາມາດເປີດໃຊ້ການກະ ທຳ ອັດຕະໂນມັດບາງອັນ.
 ThereIsNoWorkflowToModify=ບໍ່ມີການແກ້ໄຂຂັ້ນຕອນການເຮັດວຽກທີ່ສາມາດໃຊ້ໄດ້ກັບໂມດູນທີ່ເປີດໃຊ້ງານ.

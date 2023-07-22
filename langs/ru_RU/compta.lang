@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - compta
+# bespoerp language file - Source file is en_US - compta
 MenuFinancial=Биллинг | Оплата
 TaxModuleSetupToModifyRules=Используйте <a href="%s">Настройку модуля Налоги</a> для изменения правил расчёта
 TaxModuleSetupToModifyRulesLT=Перейдите к <a href="%s">Настройка компании</a>, чтобы изменить правила расчета

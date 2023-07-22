@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - bills
+# bespoerp language file - Source file is en_US - bills
 Bill=Anfoneb
 Bills=Anfonebau
 BillsCustomers=Anfonebau cwsmeriaid
@@ -598,8 +598,8 @@ AutoFillDateFromShort=Gosod dyddiad cychwyn
 AutoFillDateTo=Gosod dyddiad gorffen ar gyfer llinell gwasanaeth gyda dyddiad anfoneb nesaf
 AutoFillDateToShort=Gosod dyddiad gorffen
 MaxNumberOfGenerationReached=Uchafswm nifer y gen. cyrraedd
-BILL_DELETEInDolibarr=Anfoneb wedi'i dileu
-BILL_SUPPLIER_DELETEInDolibarr=Anfoneb y cyflenwr wedi'i dileu
+BILL_DELETEInbespoerp=Anfoneb wedi'i dileu
+BILL_SUPPLIER_DELETEInbespoerp=Anfoneb y cyflenwr wedi'i dileu
 UnitPriceXQtyLessDiscount=Pris uned x Qty - Gostyngiad
 CustomersInvoicesArea=Ardal bilio cwsmeriaid
 SupplierInvoicesArea=Ardal bilio cyflenwyr

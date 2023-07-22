@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - compta
+# bespoerp language file - Source file is en_US - compta
 MenuFinancial=பில்லிங் | பணம் செலுத்துதல்
 TaxModuleSetupToModifyRules=கணக்கீட்டிற்கான விதிகளை மாற்ற, <a href="%s"> வரிகள் தொகுதி அமைப்பு </a> க்குச் செல்லவும்
 TaxModuleSetupToModifyRulesLT=கணக்கீட்டிற்கான விதிகளை மாற்ற, <a href="%s"> நிறுவன அமைப்பு </a> க்குச் செல்லவும்

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# bespoerp language file - Source file is en_US - other
 SecurityCode=Säkerhetskod
 NumberingShort=N
 Tools=Verktyg
@@ -106,7 +106,7 @@ PredefinedMailContentSendFichInter=__(Hejsan,)__\n\nBifogat detta mail är vår 
 PredefinedMailContentLink=Du kan klicka på länken nedan för att göra din betalning om den inte redan är klar.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Hej)__\n\n\n__(Vänliga hälsningar)__\n\n__USER_SIGNATURE__
 PredefinedMailContentSendActionComm=Påminnelse för händelsen __EVENT_LABEL__ den __EVENT_DATE__ kl __EVENT_TIME__<br><br>Detta är ett automatiskt meddelande, det går inte att svara på.
-DemoDesc=Dolibarr är ett kompakt ERP/CRM som stöder flera affärsmoduler. En demo som visar alla moduler är helt irrelevant eftersom detta scenario aldrig uppstår då flera hundra är tillgängliga. Det finns därför flera olika profiler för demo tillgängliga.
+DemoDesc=bespoerp är ett kompakt ERP/CRM som stöder flera affärsmoduler. En demo som visar alla moduler är helt irrelevant eftersom detta scenario aldrig uppstår då flera hundra är tillgängliga. Det finns därför flera olika profiler för demo tillgängliga.
 ChooseYourDemoProfil=Välj den demoprofil som bäst passar dina behov ...
 ChooseYourDemoProfilMore=... eller bygg din egen profil <br> (manuellt modulval)
 DemoFundation=Hantera medlemmar i en stiftelse
@@ -185,10 +185,10 @@ BugTracker=Felsökare
 SendNewPasswordDesc=Med detta formulär kan du begära ett nytt lösenord. Den skickas till din e-postadress. <br> Ändringen kommer att träda i kraft när du klickar på länken för bekräftelse i e-postmeddelandet. <br> Kontrollera din inkorg.
 EnterNewPasswordHere=Ange ditt nya lösenord här
 BackToLoginPage=Tillbaka till inloggningssidan
-AuthenticationDoesNotAllowSendNewPassword=Autentiseringsläge är <b>%s</b>. <br>I detta läge kan Dolibarr inte känna till eller ändra ditt lösenord. <br>Kontakta systemadministratören om du vill ändra ditt lösenord.
+AuthenticationDoesNotAllowSendNewPassword=Autentiseringsläge är <b>%s</b>. <br>I detta läge kan bespoerp inte känna till eller ändra ditt lösenord. <br>Kontakta systemadministratören om du vill ändra ditt lösenord.
 EnableGDLibraryDesc=Installera eller aktivera GD-biblioteket på din PHP-installation för att använda det här alternativet.
 ProfIdShortDesc=<b>Prof Id %s</b> är en information beroende på tredjeparts land. <br>Till exempel för landets <b>%s</b>, som är kod <b>%s</b>.
-DolibarrDemo=Demo av Dolibarr ERP/CRM
+bespoerpDemo=Demo av bespoerp ERP/CRM
 StatsByNumberOfUnits=Statistik för summan av antalet produkter/tjänster
 StatsByNumberOfEntities=Statistik för antalet valda typer (antal fakturor eller order...)
 NumberOfProposals=Antal offerter
@@ -229,7 +229,7 @@ EMailTextHolidayValidated=Ledighetsansökan %s har bekräftats.
 EMailTextHolidayApproved=Ledighetsansökan %s har godkänts.
 EMailTextActionAdded=Åtgärden %s har lagts till i dagordningen.
 ImportedWithSet=Importera data
-DolibarrNotification=Automatisk notis
+bespoerpNotification=Automatisk notis
 ResizeDesc=Ange ny bredd <b>ELLER</b> ny höjd. Förhållandet kommer att bibehållas under storleksändring ...
 NewLength=Ny bredd
 NewHeight=Ny höjd

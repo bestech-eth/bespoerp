@@ -26,7 +26,7 @@
  *  \brief      Page of salaries payments
  */
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/date.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/salaries/class/salary.class.php';

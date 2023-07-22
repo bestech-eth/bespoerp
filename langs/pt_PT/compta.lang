@@ -1,11 +1,11 @@
-# Dolibarr language file - Source file is en_US - compta
+# bespoerp language file - Source file is en_US - compta
 MenuFinancial=Faturação | Pagamento
 TaxModuleSetupToModifyRules=Ir para <a href="%s">configurar módulo de impostos</a> para modificar as regras de cálculo
 TaxModuleSetupToModifyRulesLT=Ir para <a href="%s">configurar Empresa</a> para modificar as regras de cálculo
 OptionMode=Opção de Gestão Contabilidade
 OptionModeTrue=Opção Depósitos/Despesas
 OptionModeVirtual=Opção Créditos/Dividas
-OptionModeTrueDesc=Neste método, o balanço calcula-se sobre a base das faturas pagas.\nA validade dos valores não está garantida pois a Gestão da Contabilidade passa rigorosamente pelas entradas/saídas das contas mediante as faturas.\nNota : Nesta Versão, Dolibarr utiliza a data da fatura ao estado "Validada" e não a data do estado "Paga".
+OptionModeTrueDesc=Neste método, o balanço calcula-se sobre a base das faturas pagas.\nA validade dos valores não está garantida pois a Gestão da Contabilidade passa rigorosamente pelas entradas/saídas das contas mediante as faturas.\nNota : Nesta Versão, bespoerp utiliza a data da fatura ao estado "Validada" e não a data do estado "Paga".
 OptionModeVirtualDesc=Neste contexto, o balanço é calculado sobre as faturas (data de validação). Quando essas faturas são devidas, tenham sido pagas ou não, elas serão listadas no resultado do balanço.
 FeatureIsSupportedInInOutModeOnly=Função disponível somente ao modo contas CREDITOS-dividas (Ver a configuração do módulo contas)
 VATReportBuildWithOptionDefinedInModule=Montantes apresentados aqui são calculadas usando as regras definidas pelo Imposto de configuração do módulo.

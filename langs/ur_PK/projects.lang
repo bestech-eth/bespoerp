@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - projects
+# bespoerp language file - Source file is en_US - projects
 RefProject=حوالہ پروجیکٹ
 ProjectRef=پروجیکٹ کا حوالہ
 ProjectId=پروجیکٹ کی شناخت
@@ -157,12 +157,12 @@ ConfirmCloneProject=کیا آپ اس پروجیکٹ کو کلون کرنے کا 
 ProjectReportDate=نئے پراجیکٹ کے آغاز کی تاریخ کے مطابق کام کی تاریخوں کو تبدیل کریں۔
 ErrorShiftTaskDate=نئے پراجیکٹ کے آغاز کی تاریخ کے مطابق ٹاسک کی تاریخ کو تبدیل کرنا ناممکن ہے۔
 ProjectsAndTasksLines=منصوبے اور کام
-ProjectCreatedInDolibarr=پروجیکٹ %s بنایا گیا۔
-ProjectValidatedInDolibarr=پروجیکٹ %s کی توثیق کی گئی۔
-ProjectModifiedInDolibarr=پروجیکٹ %s میں ترمیم کی گئی۔
-TaskCreatedInDolibarr=ٹاسک %s بنایا گیا۔
-TaskModifiedInDolibarr=ٹاسک %s میں ترمیم کی گئی۔
-TaskDeletedInDolibarr=ٹاسک %s حذف کر دیا گیا۔
+ProjectCreatedInbespoerp=پروجیکٹ %s بنایا گیا۔
+ProjectValidatedInbespoerp=پروجیکٹ %s کی توثیق کی گئی۔
+ProjectModifiedInbespoerp=پروجیکٹ %s میں ترمیم کی گئی۔
+TaskCreatedInbespoerp=ٹاسک %s بنایا گیا۔
+TaskModifiedInbespoerp=ٹاسک %s میں ترمیم کی گئی۔
+TaskDeletedInbespoerp=ٹاسک %s حذف کر دیا گیا۔
 OpportunityStatus=لیڈ کی حیثیت
 OpportunityStatusShort=لیڈ کی حیثیت
 OpportunityProbability=لیڈ کا امکان

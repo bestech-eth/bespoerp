@@ -24,7 +24,7 @@
  *		\brief      File of main public page for open job position
  */
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/recruitment/lib/recruitment.lib.php';
@@ -47,16 +47,16 @@ $error = 0;
 
 if ($action == 'setRECRUITMENT_ENABLE_PUBLIC_INTERFACE') {
 	if (GETPOST('value')) {
-		dolibarr_set_const($db, 'RECRUITMENT_ENABLE_PUBLIC_INTERFACE', 1, 'chaine', 0, '', $conf->entity);
+		bespoerp_set_const($db, 'RECRUITMENT_ENABLE_PUBLIC_INTERFACE', 1, 'chaine', 0, '', $conf->entity);
 	} else {
-		dolibarr_set_const($db, 'RECRUITMENT_ENABLE_PUBLIC_INTERFACE', 0, 'chaine', 0, '', $conf->entity);
+		bespoerp_set_const($db, 'RECRUITMENT_ENABLE_PUBLIC_INTERFACE', 0, 'chaine', 0, '', $conf->entity);
 	}
 }
 
 if ($action == 'update') {
 	$public = GETPOST('RECRUITMENT_ENABLE_PUBLIC_INTERFACE');
 
-	$res = dolibarr_set_const($db, "RECRUITMENT_ENABLE_PUBLIC_INTERFACE", $public, 'chaine', 0, '', $conf->entity);
+	$res = bespoerp_set_const($db, "RECRUITMENT_ENABLE_PUBLIC_INTERFACE", $public, 'chaine', 0, '', $conf->entity);
 
 	if (!($res > 0)) {
 		$error++;
@@ -152,7 +152,7 @@ if (!empty($conf->global->RECRUITMENT_ENABLE_PUBLIC_INTERFACE)) {
 	}
 
 	// Define $urlwithroot
-	$urlwithouturlroot = preg_replace('/'.preg_quote(DOL_URL_ROOT, '/').'$/i', '', trim($dolibarr_main_url_root));
+	$urlwithouturlroot = preg_replace('/'.preg_quote(DOL_URL_ROOT, '/').'$/i', '', trim($bespoerp_main_url_root));
 	$urlwithroot = $urlwithouturlroot.DOL_URL_ROOT; // This is to use external domain name found into config file
 	//$urlwithroot=DOL_MAIN_URL_ROOT;					// This is to use same domain name than current
 

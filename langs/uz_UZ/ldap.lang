@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# bespoerp language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=<b> %s </b> domenidagi <b> %s </b> foydalanuvchisi uchun parol o'zgartirilishi kerak.
 UserMustChangePassNextLogon=Foydalanuvchi %s domenidagi parolni o'zgartirishi kerak
 LDAPInformationsForThisContact=Ushbu aloqa uchun LDAP ma'lumotlar bazasidagi ma'lumotlar
@@ -22,7 +22,7 @@ GroupSynchronized=Guruh sinxronlashtirildi
 MemberSynchronized=A'zo sinxronlashtirildi
 MemberTypeSynchronized=Ro'yxatdan turi sinxronlashtirildi
 ContactSynchronized=Aloqa sinxronlashtirildi
-ForceSynchronize=Dolibarr -> LDAP-ni sinxronlashtirishni majburlash
+ForceSynchronize=bespoerp -> LDAP-ni sinxronlashtirishni majburlash
 ErrorFailedToReadLDAP=LDAP ma'lumotlar bazasini o'qib bo'lmadi. LDAP modulini sozlashni va ma'lumotlar bazasiga kirishni tekshiring.
 PasswordOfUserInLDAP=LDAP-dagi foydalanuvchi paroli
 LDAPPasswordHashType=Parol xesh turi

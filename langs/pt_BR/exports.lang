@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# bespoerp language file - Source file is en_US - exports
 ImportableDatas=Conjunto de dados que podem ser importados
 SelectExportDataSet=Escolha um conjunto predefinido de dados que deseja exportar...
 SelectImportDataSet=Escolha um conjunto predefinido de dados que deseja importar...
@@ -23,7 +23,7 @@ LineTotalVAT=Valor ICMS por Linha
 TypeOfLineServiceOrProduct=Tipo de Linha (0
 FileToImport=Arquivo de origem de importação
 FieldsInSourceFile=Campos em arquivo de origem
-FieldsInTargetDatabase=Campos de destino no banco de dados Dolibarr (negrito = obrigatório)
+FieldsInTargetDatabase=Campos de destino no banco de dados bespoerp (negrito = obrigatório)
 MoveField=Mover campo número da colunas
 ExampleOfImportFile=Exemplo de arquivo de importação
 SaveImportProfile=Guardar este perfil de importação

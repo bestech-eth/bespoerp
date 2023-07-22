@@ -44,7 +44,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=要檢查的反向連結
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=訂閱到期後取消合作關係狀態前的 Nb 天
 ReferingWebsiteCheck=檢查網站參考
 ReferingWebsiteCheckDesc=您可以啟用一項功能來檢查您的合作夥伴是否在他們自己的網站上增加了指向您網站網域的反向連結。
-PublicFormRegistrationPartnerDesc=Dolibarr can provide you a public URL/website to allow external visitors to request to be part of the partnership program.
+PublicFormRegistrationPartnerDesc=bespoerp can provide you a public URL/website to allow external visitors to request to be part of the partnership program.
 
 #
 # Object

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# bespoerp language file - Source file is en_US - exports
 ExportsArea=صادرات
 ImportArea=يستورد
 NewExport=تصدير جديد
@@ -61,7 +61,7 @@ ChooseFormatOfFileToImport=اختر تنسيق الملف لاستخدامه ك�
 ChooseFileToImport=قم بتحميل الملف ثم انقر فوق أيقونة %s لتحديد الملف كملف استيراد المصدر ...
 SourceFileFormat=مصدر تنسيق ملف
 FieldsInSourceFile=الحقول في ملف المصدر
-FieldsInTargetDatabase=الحقول المستهدفة في قاعدة بيانات Dolibarr (جريئة = إلزامي)
+FieldsInTargetDatabase=الحقول المستهدفة في قاعدة بيانات bespoerp (جريئة = إلزامي)
 Field=حقل
 NoFields=لا الحقول
 MoveField=تحرك %s حقل رقم العمود

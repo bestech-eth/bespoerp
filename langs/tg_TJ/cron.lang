@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# bespoerp language file - Source file is en_US - cron
 # About page
 # Right
 Permission23101 = Кори банақшагирифтаро хонед
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Хомӯш кардан
 CronTaskInactive=Ин кор ғайрифаъол аст (ба нақша гирифта нашудааст)
 CronId=Id
 CronClassFile=Номи файл бо синф
-CronModuleHelp=Номи феҳристи модули Dolibarr (инчунин бо модули беруни Dolibarr кор мекунад). <BR> Масалан, барои даъват кардани усули гирифтани объекти Dolibarr Маҳсулот /htdocs /<u> product </u> /class/product.class.php, арзиши модул a0342fccfda19zz8 a0494b98 аст
-CronClassFileHelp=Роҳи нисбӣ ва номи файл барои бор кардан (роҳ нисбат ба феҳристи решаи сервери веб аст). <BR> Масалан, барои даъват кардани усули гирифтани объекти Dolibarr Маҳсулот htdocs/product/class/<u> product.class.php </u>, арзиши файли синф a0342fccfda19bz8011
-CronObjectHelp=Номи объект барои бор кардан. <BR> Масалан, барои даъват кардани усули гирифтани объекти Dolibarr Product /htdocs/product/class/product.class.php, арзиши номи файли синф <br> <i> Маҳсулот </i> аст
-CronMethodHelp=Усули объекти оғоз. <BR> Масалан, барои даъват кардани усули гирифтани объекти Dolibarr Product /htdocs/product/class/product.class.php, арзиши усул <br> <i> гирифтани </i> аст
-CronArgsHelp=Далелҳои метод. <BR> Масалан, барои занг задан ба усули кашидани объекти Dolibarr Product /htdocs/product/class/product.class.php, арзиши параметрҳо метавонад <br> <i> 0, ProductRef a0ae064758 бошад
+CronModuleHelp=Номи феҳристи модули bespoerp (инчунин бо модули беруни bespoerp кор мекунад). <BR> Масалан, барои даъват кардани усули гирифтани объекти bespoerp Маҳсулот /htdocs /<u> product </u> /class/product.class.php, арзиши модул a0342fccfda19zz8 a0494b98 аст
+CronClassFileHelp=Роҳи нисбӣ ва номи файл барои бор кардан (роҳ нисбат ба феҳристи решаи сервери веб аст). <BR> Масалан, барои даъват кардани усули гирифтани объекти bespoerp Маҳсулот htdocs/product/class/<u> product.class.php </u>, арзиши файли синф a0342fccfda19bz8011
+CronObjectHelp=Номи объект барои бор кардан. <BR> Масалан, барои даъват кардани усули гирифтани объекти bespoerp Product /htdocs/product/class/product.class.php, арзиши номи файли синф <br> <i> Маҳсулот </i> аст
+CronMethodHelp=Усули объекти оғоз. <BR> Масалан, барои даъват кардани усули гирифтани объекти bespoerp Product /htdocs/product/class/product.class.php, арзиши усул <br> <i> гирифтани </i> аст
+CronArgsHelp=Далелҳои метод. <BR> Масалан, барои занг задан ба усули кашидани объекти bespoerp Product /htdocs/product/class/product.class.php, арзиши параметрҳо метавонад <br> <i> 0, ProductRef a0ae064758 бошад
 CronCommandHelp=Хати фармони система барои иҷро.
 CronCreateJob=Эҷоди кори нави ба нақша гирифташуда
 CronFrom=Аз

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - interventions
+# bespoerp language file - Source file is en_US - interventions
 Intervention=Посредничество
 Interventions=Посредничества
 InterventionCard=Карточка посредничества
@@ -30,13 +30,13 @@ InterventionClassifyDone=Классифицируйте "Готово"
 StatusInterInvoiced=Объявленный
 SendInterventionRef=Представление посредничества %s
 SendInterventionByMail=Отправить сообщение по электронной почте
-InterventionCreatedInDolibarr=Посредничество %s создано
-InterventionValidatedInDolibarr=Посредничество %s проверено
-InterventionModifiedInDolibarr=Посредничество %s изменено
-InterventionClassifiedBilledInDolibarr=Посредничество %s готово к созданию счёта.
-InterventionClassifiedUnbilledInDolibarr=Посредничество %s не готово к созданию счёта.
+InterventionCreatedInbespoerp=Посредничество %s создано
+InterventionValidatedInbespoerp=Посредничество %s проверено
+InterventionModifiedInbespoerp=Посредничество %s изменено
+InterventionClassifiedBilledInbespoerp=Посредничество %s готово к созданию счёта.
+InterventionClassifiedUnbilledInbespoerp=Посредничество %s не готово к созданию счёта.
 InterventionSentByEMail=Посредничество %s отправлено по электронной почте
-InterventionDeletedInDolibarr=Посредничество %s  удалено
+InterventionDeletedInbespoerp=Посредничество %s  удалено
 InterventionsArea=Область посредничества
 DraftFichinter=Проект посредничества
 LastModifiedInterventions=Последние модифицированные посредничества %s

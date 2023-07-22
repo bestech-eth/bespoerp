@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# bespoerp language file - Source file is en_US - cron
 # About page
 # Right
 Permission23101 = スケジュールされたジョブを読込む
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=無効にする
 CronTaskInactive=このジョブは無効になっている（スケジュールされていない）
 CronId=Id
 CronClassFile=クラスのあるファイル名
-CronModuleHelp=Dolibarrモジュールディレクトリの名前(外部Dolibarrモジュールでも機能する). <BR> たとえば、Dolibarr製品オブジェクト /htdocs/<u>product</u>/class/product.class.php のfetchメソッドを呼び出す場合、 モジュールの値は<br><i>product</i>
-CronClassFileHelp=ロードする相対パスとファイル名 (パスはWebサーバーのルートディレクトリからの相対パス). <BR> たとえば、Dolibarr製品オブジェクト  htdocs/product/class/<u>product.class.php</u> のfetchメソッドを呼び出す場合、クラスファイル名の値は<br><i>product/class/product.class.php</i>
-CronObjectHelp=ロードするオブジェクト名. <BR>たとえば、Dolibarr製品オブジェクト/htdocs/product/class/product.class.phpのfetchメソッドを呼び出す場合、クラスファイル名の値は<br><i>Product</i>
-CronMethodHelp=起動するオブジェクトメソッド. <BR>たとえば、Dolibarr 製品オブジェクト/htdocs/product/class/product.class.phpのfetchメソッドを呼び出す場合、methodの値は<br> <i> fetch</i> 
-CronArgsHelp=メソッドの引数. <BR> たとえば、Dolibarr製品オブジェクト/htdocs/product/class/product.class.phpのfetchメソッドを呼び出す場合、パラメーターの値は<br><i>0, ProductRef</i>を取りうる
+CronModuleHelp=bespoerpモジュールディレクトリの名前(外部bespoerpモジュールでも機能する). <BR> たとえば、bespoerp製品オブジェクト /htdocs/<u>product</u>/class/product.class.php のfetchメソッドを呼び出す場合、 モジュールの値は<br><i>product</i>
+CronClassFileHelp=ロードする相対パスとファイル名 (パスはWebサーバーのルートディレクトリからの相対パス). <BR> たとえば、bespoerp製品オブジェクト  htdocs/product/class/<u>product.class.php</u> のfetchメソッドを呼び出す場合、クラスファイル名の値は<br><i>product/class/product.class.php</i>
+CronObjectHelp=ロードするオブジェクト名. <BR>たとえば、bespoerp製品オブジェクト/htdocs/product/class/product.class.phpのfetchメソッドを呼び出す場合、クラスファイル名の値は<br><i>Product</i>
+CronMethodHelp=起動するオブジェクトメソッド. <BR>たとえば、bespoerp 製品オブジェクト/htdocs/product/class/product.class.phpのfetchメソッドを呼び出す場合、methodの値は<br> <i> fetch</i> 
+CronArgsHelp=メソッドの引数. <BR> たとえば、bespoerp製品オブジェクト/htdocs/product/class/product.class.phpのfetchメソッドを呼び出す場合、パラメーターの値は<br><i>0, ProductRef</i>を取りうる
 CronCommandHelp=実行するシステムコマンドライン。
 CronCreateJob=新規でスケジュールされたジョブを作成
 CronFrom=から

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - interventions
+# bespoerp language file - Source file is en_US - interventions
 Intervention=干預
 Interventions=干預
 InterventionCard=干預卡
@@ -30,13 +30,13 @@ InterventionClassifyDone=分類“完成”
 StatusInterInvoiced=已開票
 SendInterventionRef=提交干預措施%s
 SendInterventionByMail=通過電子郵件發送干預
-InterventionCreatedInDolibarr=干預%s已建立
-InterventionValidatedInDolibarr=干預%s已驗證
-InterventionModifiedInDolibarr=干預%s已修改
-InterventionClassifiedBilledInDolibarr=干預%s設定為已開票
-InterventionClassifiedUnbilledInDolibarr=干預%s設定為未開票
+InterventionCreatedInbespoerp=干預%s已建立
+InterventionValidatedInbespoerp=干預%s已驗證
+InterventionModifiedInbespoerp=干預%s已修改
+InterventionClassifiedBilledInbespoerp=干預%s設定為已開票
+InterventionClassifiedUnbilledInbespoerp=干預%s設定為未開票
 InterventionSentByEMail=以電子郵件發送的干預%s
-InterventionDeletedInDolibarr=干預%s已刪除
+InterventionDeletedInbespoerp=干預%s已刪除
 InterventionsArea=干預區
 DraftFichinter=干預草案
 LastModifiedInterventions=最新%s已修改干預

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# bespoerp language file - Source file is en_US - products
 ProductRef=Referenca proizvoda
 ProductLabel=Naziv proizvoda
 ProductLabelTranslated=Prevedena oznaka izdelka
@@ -300,7 +300,7 @@ MinSupplierPrice=Najnižjo odkupno ceno
 MinCustomerPrice=Minimalna prodajna cena
 NoDynamicPrice=Brez dinamične cene
 DynamicPriceConfiguration=Dimnamična konfiguracija cene
-DynamicPriceDesc=Določite lahko matematične formule za izračun cen strank ali prodajalcev. Take formule lahko uporabljajo vse matematične operatorje, nekatere konstante in spremenljivke. Tukaj lahko določite spremenljivke, ki jih želite uporabiti. Če spremenljivka potrebuje samodejno posodobitev, lahko definirate zunanji URL, da Dolibarrju omogočite samodejno posodobitev vrednosti.
+DynamicPriceDesc=Določite lahko matematične formule za izračun cen strank ali prodajalcev. Take formule lahko uporabljajo vse matematične operatorje, nekatere konstante in spremenljivke. Tukaj lahko določite spremenljivke, ki jih želite uporabiti. Če spremenljivka potrebuje samodejno posodobitev, lahko definirate zunanji URL, da bespoerpju omogočite samodejno posodobitev vrednosti.
 AddVariable=Dodaj spremenljivko
 AddUpdater=Dodaj posodobitev
 GlobalVariables=Globalne spremenljivke
@@ -379,7 +379,7 @@ NewProductAttribute=Nov atribut
 NewProductAttributeValue=Nova vrednost atributa
 ErrorCreatingProductAttributeValue=Med ustvarjanjem vrednosti atributa je prišlo do napake. Morda zato, ker že obstaja obstoječa vrednost s to referenco
 ProductCombinationGeneratorWarning=Če nadaljujete, bodo pred generiranjem novih različic vse prejšnje IZBRISANE. Že obstoječe bodo posodobljene z novimi vrednostmi
-TooMuchCombinationsWarning=Ustvarjanje številnih različic lahko povzroči visoko porabo procesorja, pomnilnika in jih Dolibarr ne more ustvariti. Če omogočite možnost "%s", lahko zmanjšate porabo pomnilnika.
+TooMuchCombinationsWarning=Ustvarjanje številnih različic lahko povzroči visoko porabo procesorja, pomnilnika in jih bespoerp ne more ustvariti. Če omogočite možnost "%s", lahko zmanjšate porabo pomnilnika.
 DoNotRemovePreviousCombinations=Ne odstranjujte prejšnjih različic
 UsePercentageVariations=Uporabite odstotne razlike
 PercentageVariation=Odstotek variacije

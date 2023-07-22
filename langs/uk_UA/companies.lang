@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# bespoerp language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Компанія з назвою %s уже існує. Виберіть іншу.
 ErrorSetACountryFirst=Спершу оберіть країну
 SelectThirdParty=Оберіть контрагента
@@ -12,7 +12,7 @@ MenuNewSupplier=Новий постачальник
 MenuNewPrivateIndividual=Нова фізична особа
 NewCompany=Нова компанія (потенційний, покупець, постачальник)
 NewThirdParty=Новий контрагент (потенційний, покупець, постачальник)
-CreateDolibarrThirdPartySupplier=Створити контрагента (постачальника)
+CreatebespoerpThirdPartySupplier=Створити контрагента (постачальника)
 CreateThirdPartyOnly=Створити контрагента
 CreateThirdPartyAndContact=Створити контрагента та прив'язати контакт
 ProspectionArea=Розділ потенційних клієнтів
@@ -383,7 +383,7 @@ CapitalOf=Столиця %s
 EditCompany=Редагувати компанію
 ThisUserIsNot=Цей користувач не є потенційним клієнтом, клієнтом чи постачальником
 VATIntraCheck=Чек
-VATIntraCheckDesc=Ідентифікаційний номер платника ПДВ має містити префікс країни. Посилання <b> %s </b> використовує європейську службу перевірки ПДВ (VIES), яка вимагає доступу до Інтернету з сервера Dolibarr.
+VATIntraCheckDesc=Ідентифікаційний номер платника ПДВ має містити префікс країни. Посилання <b> %s </b> використовує європейську службу перевірки ПДВ (VIES), яка вимагає доступу до Інтернету з сервера bespoerp.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Перевірте ідентифікаційний номер платника ПДВ всередині Співтовариства на веб-сайті Європейської комісії
 VATIntraManualCheck=Ви також можете перевірити вручну на веб-сайті Європейської комісії <a href="%s" target="_blank" rel="noopener noreferrer"> %s </a>
@@ -429,8 +429,8 @@ ProspectsByStatus=Перспективи за статусом
 NoParentCompany=Жодного
 ExportCardToFormat=Експортувати картку у формат
 ContactNotLinkedToCompany=Контакт не пов’язаний з третьою стороною
-DolibarrLogin=Вхід в систему Dolibarr
-NoDolibarrAccess=Немає доступу Dolibarr
+bespoerpLogin=Вхід в систему bespoerp
+NobespoerpAccess=Немає доступу bespoerp
 ExportDataset_company_1=Треті сторони (компанії/фонди/фізичні особи) та їх власність
 ExportDataset_company_2=Контакти та їх властивості
 ImportDataset_company_1=Треті особи та їх властивості

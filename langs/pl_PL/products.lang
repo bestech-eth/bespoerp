@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# bespoerp language file - Source file is en_US - products
 ProductRef=Nr ref. produktu
 ProductLabel=Etykieta produktu
 ProductLabelTranslated=Przetłumaczona etykieta produktu
@@ -300,7 +300,7 @@ MinSupplierPrice=Minimalna cena zakupu
 MinCustomerPrice=Minimalna cena sprzedaży
 NoDynamicPrice=Brak ceny dynamicznej
 DynamicPriceConfiguration=Konfiguracja dynamicznych cen
-DynamicPriceDesc=Możesz zdefiniować formuły matematyczne do obliczania cen klientów lub dostawców. Takie formuły mogą wykorzystywać wszystkie operatory matematyczne, niektóre stałe i zmienne. Możesz tutaj zdefiniować zmienne, których chcesz użyć. Jeśli zmienna wymaga automatycznej aktualizacji, możesz zdefiniować zewnętrzny adres URL, aby umożliwić firmie Dolibarr automatyczną aktualizację wartości.
+DynamicPriceDesc=Możesz zdefiniować formuły matematyczne do obliczania cen klientów lub dostawców. Takie formuły mogą wykorzystywać wszystkie operatory matematyczne, niektóre stałe i zmienne. Możesz tutaj zdefiniować zmienne, których chcesz użyć. Jeśli zmienna wymaga automatycznej aktualizacji, możesz zdefiniować zewnętrzny adres URL, aby umożliwić firmie bespoerp automatyczną aktualizację wartości.
 AddVariable=Dodaj zmienną
 AddUpdater=Dodaj Updater
 GlobalVariables=Zmienne globalne
@@ -379,7 +379,7 @@ NewProductAttribute=Nowy atrybut
 NewProductAttributeValue=Nowa wartość atrybutu
 ErrorCreatingProductAttributeValue=Wystąpił błąd podczas tworzenia wartości atrybutu. Może to być spowodowane tym, że istnieje już wartość z tym odniesieniem
 ProductCombinationGeneratorWarning=Jeśli będziesz kontynuować, przed wygenerowaniem nowych wariantów wszystkie poprzednie zostaną USUNIĘTE. Już istniejące zostaną zaktualizowane o nowe wartości
-TooMuchCombinationsWarning=Generowanie wielu wariantów może skutkować dużym obciążeniem procesora i pamięci, a Dolibarr nie będzie w stanie ich utworzyć. Włączenie opcji „%s” może pomóc zmniejszyć użycie pamięci.
+TooMuchCombinationsWarning=Generowanie wielu wariantów może skutkować dużym obciążeniem procesora i pamięci, a bespoerp nie będzie w stanie ich utworzyć. Włączenie opcji „%s” może pomóc zmniejszyć użycie pamięci.
 DoNotRemovePreviousCombinations=Nie usuwaj poprzednich wariantów
 UsePercentageVariations=Użyj odchyleń procentowych
 PercentageVariation=Odchylenie procentowe

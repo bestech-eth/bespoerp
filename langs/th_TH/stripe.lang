@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# bespoerp language file - Source file is en_US - stripe
 StripeSetup=Stripe module setup
-StripeDesc=Offer your customers an online payment page for payments with credit/debit cards via <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a>. This can be used to allow your customers to make ad-hoc payments or for payments related to a particular Dolibarr object (invoice, order, ...)
+StripeDesc=Offer your customers an online payment page for payments with credit/debit cards via <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a>. This can be used to allow your customers to make ad-hoc payments or for payments related to a particular bespoerp object (invoice, order, ...)
 StripeOrCBDoPayment=Pay with credit card or Stripe
-FollowingUrlAreAvailableToMakePayments=URL ต่อไปนี้จะพร้อมที่จะให้หน้าให้กับลูกค้าที่จะทำให้การชำระเงินบนวัตถุ Dolibarr
+FollowingUrlAreAvailableToMakePayments=URL ต่อไปนี้จะพร้อมที่จะให้หน้าให้กับลูกค้าที่จะทำให้การชำระเงินบนวัตถุ bespoerp
 PaymentForm=รูปแบบการชำระเงิน
 WelcomeOnPaymentPage=Welcome to our online payment service
 ThisScreenAllowsYouToPay=หน้าจอนี้จะช่วยให้คุณสามารถชำระเงินออนไลน์ไปยัง% s

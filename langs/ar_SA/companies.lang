@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# bespoerp language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=اسم الشركة %s موجود بالفعل. اختر واحد اخر.
 ErrorSetACountryFirst=اضبط البلد أولاً
 SelectThirdParty=حدد طرفًا ثالثًا
@@ -12,7 +12,7 @@ MenuNewSupplier=مورد جديد
 MenuNewPrivateIndividual=فرد جديد
 NewCompany=شركة جديدة (فرصة، عميل ، مورد)
 NewThirdParty=طرف ثالث جديد (فرصة، عميل ، مورد)
-CreateDolibarrThirdPartySupplier=إنشاء طرف ثالث (مورد)
+CreatebespoerpThirdPartySupplier=إنشاء طرف ثالث (مورد)
 CreateThirdPartyOnly=إنشاء طرف ثالث
 CreateThirdPartyAndContact=إنشاء طرف ثالث + جهة اتصال تابعة
 ProspectionArea=منطقة الفرص
@@ -383,7 +383,7 @@ CapitalOf=راس مال %s
 EditCompany=تحرير الشركة
 ThisUserIsNot=هذا المستخدم ليس فرصة أو عميل أو مورد
 VATIntraCheck=فحص
-VATIntraCheckDesc=The VAT ID must include the country prefix. The link <b>%s</b> uses the European VAT checker service (VIES) which requires internet access from the Dolibarr server.
+VATIntraCheckDesc=The VAT ID must include the country prefix. The link <b>%s</b> uses the European VAT checker service (VIES) which requires internet access from the bespoerp server.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=تحقق من معرف ضريبة القيمة المضافة داخل الاتجاد على موقع المفوضية الأوروبية
 VATIntraManualCheck=يمكنك أيضًا التحقق يدويًا على موقع المفوضية الأوروبية <a href="%s" target="_blank" rel="noopener noreferrer"> %s </a>
@@ -429,8 +429,8 @@ ProspectsByStatus=الفرص حسب الحالة
 NoParentCompany=بلا
 ExportCardToFormat=تصدير البطاقة إلى التنسيق
 ContactNotLinkedToCompany=جهة الاتصال ليست مرتبطة بأي طرف ثالث
-DolibarrLogin=تسجيل الدخول الى دوليبار
-NoDolibarrAccess=لا يوجد وصول دوليبار
+bespoerpLogin=تسجيل الدخول الى دوليبار
+NobespoerpAccess=لا يوجد وصول دوليبار
 ExportDataset_company_1=الأطراف الثالثة (الشركات / المؤسسات / الأشخاص الطبيعيون) وممتلكاتهم
 ExportDataset_company_2=جهات الاتصال وخصائصها
 ImportDataset_company_1=الأطراف الثالثة وممتلكاتهم

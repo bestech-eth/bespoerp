@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - workflow
+# bespoerp language file - Source file is en_US - workflow
 WorkflowSetup=ワークフローモジュールの設定
 WorkflowDesc=このモジュールは、いくつかの自動アクションを提供する。デフォルトでは、ワークフローは開いている(必要な順序で実行できる)が、ここでいくつかの自動アクションを有効化できる。
 ThereIsNoWorkflowToModify=有効化されたモジュールで使用できるワークフローの変更はない。

@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# bespoerp language file - Source file is en_US - paypal
 PaypalSetup=Nastavitev modula PayPal
-PaypalDesc=Ta modul omogoča plačilo strankam preko <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external"> PayPal </a> . Uporablja se lahko za ad hoc plačilo ali za plačilo v zvezi z objektom Dolibarr (račun, naročilo, ...)
+PaypalDesc=Ta modul omogoča plačilo strankam preko <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external"> PayPal </a> . Uporablja se lahko za ad hoc plačilo ali za plačilo v zvezi z objektom bespoerp (račun, naročilo, ...)
 PaypalOrCBDoPayment=Plačajte s PayPal (kartica ali PayPal)
 PaypalDoPayment=Plačajte s PayPal
 PAYPAL_API_SANDBOX=Način test/sandbox

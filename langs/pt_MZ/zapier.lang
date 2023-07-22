@@ -1,5 +1,5 @@
-# Dolibarr language file - Source file is en_US - zapier
-ModuleZapierForDolibarrName =Zapier para Dolibarr
-ModuleZapierForDolibarrDesc =Módulo Zapier para Dolibarr
-ZapierForDolibarrSetup=Configurações do Zapier para Dolibarr
+# bespoerp language file - Source file is en_US - zapier
+ModuleZapierForbespoerpName =Zapier para bespoerp
+ModuleZapierForbespoerpDesc =Módulo Zapier para bespoerp
+ZapierForbespoerpSetup=Configurações do Zapier para bespoerp
 ZapierDescription=Interface com Zapier

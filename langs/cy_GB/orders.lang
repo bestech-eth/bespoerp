@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - orders
+# bespoerp language file - Source file is en_US - orders
 OrdersArea=Ardal archebion cwsmeriaid
 SuppliersOrdersArea=Ardal archebion prynu
 OrderCard=Cerdyn archebu
@@ -124,8 +124,8 @@ ConfirmCloneOrder=A ydych yn siŵr eich bod am glonio'r archeb hon <b> %s </b> ?
 DispatchSupplierOrder=Yn derbyn archeb brynu %s
 FirstApprovalAlreadyDone=Cymeradwyaeth gyntaf wedi ei wneud yn barod
 SecondApprovalAlreadyDone=Ail gymeradwyaeth wedi ei wneud yn barod
-SupplierOrderReceivedInDolibarr=Derbyniwyd archeb brynu %s %s
-SupplierOrderSubmitedInDolibarr=Archeb Brynu %s wedi'i gyflwyno
+SupplierOrderReceivedInbespoerp=Derbyniwyd archeb brynu %s %s
+SupplierOrderSubmitedInbespoerp=Archeb Brynu %s wedi'i gyflwyno
 SupplierOrderClassifiedBilled=Archeb Brynu %s set bilio
 OtherOrders=Gorchmynion eraill
 SupplierOrderValidatedAndApproved=Mae archeb cyflenwr yn cael ei ddilysu a'i gymeradwyo: %s

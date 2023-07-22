@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - orders
+# bespoerp language file - Source file is en_US - orders
 OrdersArea=Зона замовлень клієнтів
 SuppliersOrdersArea=Зона замовлень на закупівлю
 OrderCard=Картка замовлення
@@ -124,8 +124,8 @@ ConfirmCloneOrder=Ви впевнені, що хочете клонувати ц
 DispatchSupplierOrder=Отримання замовлення на покупку %s
 FirstApprovalAlreadyDone=Перше затвердження вже виконано
 SecondApprovalAlreadyDone=Друге затвердження вже виконано
-SupplierOrderReceivedInDolibarr=Замовлення на покупку %s отримано %s
-SupplierOrderSubmitedInDolibarr=Замовлення на покупку %s надіслано
+SupplierOrderReceivedInbespoerp=Замовлення на покупку %s отримано %s
+SupplierOrderSubmitedInbespoerp=Замовлення на покупку %s надіслано
 SupplierOrderClassifiedBilled=Замовлення на покупку %s набір виставлено
 OtherOrders=Інші замовлення
 SupplierOrderValidatedAndApproved=Замовлення постачальника підтверджено та затверджено: %s

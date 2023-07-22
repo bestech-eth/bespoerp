@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# bespoerp language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Geen fout, wij bevestigen
@@ -51,10 +51,10 @@ ErrorWrongDate=Datum is niet correct!
 ErrorFailedToWriteInDir=Schrijven in de map %s mislukt
 ErrorFailedToBuildArchive=Failed to build archive file %s
 ErrorFoundBadEmailInFile=Onjuist e-mail syntax gevonden voor %s regels in het bestand (bijvoorbeeld regel %s met email=%s)
-ErrorUserCannotBeDelete=Gebruiker kan niet worden verwijderd. Misschien is het geassocieerd met Dolibarr-entiteiten.
+ErrorUserCannotBeDelete=Gebruiker kan niet worden verwijderd. Misschien is het geassocieerd met bespoerp-entiteiten.
 ErrorFieldsRequired=Sommige verplichte velden zijn leeg gelaten.
 ErrorSubjectIsRequired=Het e-mailonderwerp is verplicht
-ErrorFailedToCreateDir=Creëren van een map mislukt. Controleer of de Webservergebruiker toestemming heeft om te schrijven in Dolibarr documentenmap. Wanneer de parameter <b>safe_mode</b> is ingeschakeld in PHP, controleer dan dat de Dolibarr php bestanden eigendom zijn van de de webserve gebruiker (of groep).
+ErrorFailedToCreateDir=Creëren van een map mislukt. Controleer of de Webservergebruiker toestemming heeft om te schrijven in bespoerp documentenmap. Wanneer de parameter <b>safe_mode</b> is ingeschakeld in PHP, controleer dan dat de bespoerp php bestanden eigendom zijn van de de webserve gebruiker (of groep).
 ErrorNoMailDefinedForThisUser=Geen e-mailadres ingesteld voor deze gebruiker
 ErrorSetupOfEmailsNotComplete=Het instellen van e-mails is niet voltooid
 ErrorFeatureNeedJavascript=Voor deze functie moet Javascript geactiveerd zijn. Verander dit in het Instellingen - scherm.
@@ -82,7 +82,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=The field <b>%s</b> must not co
 ErrorFieldMustHaveXChar=Het veld <b>%s</b> moet minimaal %s tekens bevatten.
 ErrorNoAccountancyModuleLoaded=Geen boekhoudingsmodule geactiveerd
 ErrorExportDuplicateProfil=Deze profile naam bestaat al voor deze export set.
-ErrorLDAPSetupNotComplete=De Dolibarr-LDAP installatie is niet compleet.
+ErrorLDAPSetupNotComplete=De bespoerp-LDAP installatie is niet compleet.
 ErrorLDAPMakeManualTest=Een .ldif bestand is gegenereerd in de map %s. Probeer het handmatig te laden vanuit een opdrachtregel om meer informatie over fouten te verkrijgen.
 ErrorCantSaveADoneUserWithZeroPercentage=Kan een actie met "status niet gestart" niet opslaan als het veld "gedaan door" ook is ingevuld.
 ErrorRefAlreadyExists=Referentie <b>%s</b> bestaat al.
@@ -115,8 +115,8 @@ ErrorProdIdAlreadyExist=%s is toegewezen aan een derde
 ErrorFailedToSendPassword=Mislukt om het wachtwoord te sturen
 ErrorFailedToLoadRSSFile=Niet in slaagt om RSS feed. Probeer een constante MAIN_SIMPLEXMLLOAD_DEBUG toe te voegen als foutmeldingen niet voldoende informatie.
 ErrorForbidden=Toegang geweigerd. <br> U probeert toegang te krijgen tot een pagina, gebied of functie van een uitgeschakelde module of zonder dat u zich in een geverifieerde sessie bevindt of dat is niet toegestaan voor uw gebruiker.
-ErrorForbidden2=Toestemming voor deze aanmelding kan worden ingesteld door de Dolibarr-beheerder vanaf het menu %s -> %s.
-ErrorForbidden3=Het lijkt erop dat Dolibarr niet wordt gebruikt met een geverifieerde sessie. Kijk eens naar de Dolibarr installatiedocumentatie om te weten hoe het beheer van verificaties (htaccess, mod_auth of andere) werkt.
+ErrorForbidden2=Toestemming voor deze aanmelding kan worden ingesteld door de bespoerp-beheerder vanaf het menu %s -> %s.
+ErrorForbidden3=Het lijkt erop dat bespoerp niet wordt gebruikt met een geverifieerde sessie. Kijk eens naar de bespoerp installatiedocumentatie om te weten hoe het beheer van verificaties (htaccess, mod_auth of andere) werkt.
 ErrorForbidden4=Let op: wis uw browsercookies om bestaande sessies voor deze login te vernietigen.
 ErrorNoImagickReadimage=Functie imagick_readimage is niet gevonden in deze PHP installatie. Er kunnen geen voorbeelden gemaakt worden. Beheerders kunnen dit tabblad uitschakelen vanaf het menu Home->Instellingen->Scherm.
 ErrorRecordAlreadyExists=Tabelregel bestaat al
@@ -139,8 +139,8 @@ ErrorWebServerUserHasNotPermission=User account <b>%s</b> gebruikt om web-server
 ErrorNoActivatedBarcode=Geen geactiveerde barcode soort
 ErrUnzipFails=uitpakken %s mislukt met ZipArchive
 ErrNoZipEngine=Geen engine om een ​​%s bestand in dit PHP te zip / unzippen
-ErrorFileMustBeADolibarrPackage=Het bestand %s moet een Dolibarr zip-pakket zijn
-ErrorModuleFileRequired=U moet een Dolibarr-modulepakketbestand selecteren
+ErrorFileMustBeAbespoerpPackage=Het bestand %s moet een bespoerp zip-pakket zijn
+ErrorModuleFileRequired=U moet een bespoerp-modulepakketbestand selecteren
 ErrorPhpCurlNotInstalled=De PHP CURL is niet geïnstalleerd, dit is van essentieel belang met Paypal te communiceren
 ErrorFailedToAddToMailmanList=Kan record %s niet toevoegen aan Mailman-lijst %s of SPIP-basis
 ErrorFailedToRemoveToMailmanList=Kan record %s niet verwijderen naar Mailman-lijst %s of SPIP-basis
@@ -152,7 +152,7 @@ ErrorDateMustBeBeforeToday=De datum moet eerder zijn dan vandaag
 ErrorDateMustBeInFuture=De datum moet later zijn dan vandaag
 ErrorPaymentModeDefinedToWithoutSetup=Er is een betalingsmodus ingesteld om %s te typen, maar het instellen van de module Factuur is niet voltooid om te definiëren welke informatie moet worden weergegeven voor deze betalingsmodus.
 ErrorPHPNeedModule=Fout, op uw PHP moet module <b>%s zijn</b> geïnstalleerd om deze functie te gebruiken.
-ErrorOpenIDSetupNotComplete=U stelt het Dolibarr-configuratiebestand in om OpenID-authenticatie toe te staan, maar de URL van de OpenID-service is niet gedefinieerd als een constante %s
+ErrorOpenIDSetupNotComplete=U stelt het bespoerp-configuratiebestand in om OpenID-authenticatie toe te staan, maar de URL van de OpenID-service is niet gedefinieerd als een constante %s
 ErrorWarehouseMustDiffers=Bron en doel magazijnen moeten verschillend zijn
 ErrorBadFormat=Verkeerd formaat!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Fout, dit lid is nog niet gekoppeld aan derden. Koppel een lid aan een bestaande derde of maak een nieuwe derde aan voordat u een abonnement met factuur maakt.
@@ -215,7 +215,7 @@ ErrorUserNotAssignedToTask=De gebruiker moet een taak toegewezen krijgen om de t
 ErrorTaskAlreadyAssigned=Taak al toegewezen aan gebruiker
 ErrorModuleFileSeemsToHaveAWrongFormat=Het modulepakket lijkt een verkeerde indeling te hebben.
 ErrorModuleFileSeemsToHaveAWrongFormat2=Ten minste één verplichte map moet bestaan in de zip van de module: <strong>%s</strong> of <strong>%s</strong>
-ErrorFilenameDosNotMatchDolibarrPackageRules=De naam van het <strong>modulepakket</strong> ( <strong>%s</strong> ) komt niet overeen met de verwachte syntaxis van de naam: <strong>%s</strong>
+ErrorFilenameDosNotMatchbespoerpPackageRules=De naam van het <strong>modulepakket</strong> ( <strong>%s</strong> ) komt niet overeen met de verwachte syntaxis van de naam: <strong>%s</strong>
 ErrorDuplicateTrigger=Fout, dubbele triggernaam %s. Al geladen van %s.
 ErrorNoWarehouseDefined=Fout, geen magazijnen gedefinieerd.
 ErrorBadLinkSourceSetButBadValueForRef=De link die u gebruikt is niet geldig. Een 'bron' voor betaling is gedefinieerd, maar de waarde voor 'ref' is niet geldig.
@@ -306,7 +306,7 @@ ErrorTooMuchFileInForm=Too much files in form, the maximum number is %s file(s)
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=Uw PHP-parameter upload_max_filesize (%s) is hoger dan PHP-parameter post_max_size (%s). Dit is geen consistente opstelling.
-WarningPasswordSetWithNoAccount=Er is een wachtwoord ingesteld voor dit lid. Er is echter geen gebruikersaccount gemaakt. Dus dit wachtwoord is opgeslagen maar kan niet worden gebruikt om in te loggen bij Dolibarr. Het kan worden gebruikt door een externe module / interface, maar als u geen gebruikersnaam of wachtwoord voor een lid hoeft aan te maken, kunt u de optie "Beheer een login voor elk lid" in de module-setup van Member uitschakelen. Als u een login moet beheren maar geen wachtwoord nodig heeft, kunt u dit veld leeg houden om deze waarschuwing te voorkomen. Opmerking: e-mail kan ook worden gebruikt als login als het lid aan een gebruiker is gekoppeld.
+WarningPasswordSetWithNoAccount=Er is een wachtwoord ingesteld voor dit lid. Er is echter geen gebruikersaccount gemaakt. Dus dit wachtwoord is opgeslagen maar kan niet worden gebruikt om in te loggen bij bespoerp. Het kan worden gebruikt door een externe module / interface, maar als u geen gebruikersnaam of wachtwoord voor een lid hoeft aan te maken, kunt u de optie "Beheer een login voor elk lid" in de module-setup van Member uitschakelen. Als u een login moet beheren maar geen wachtwoord nodig heeft, kunt u dit veld leeg houden om deze waarschuwing te voorkomen. Opmerking: e-mail kan ook worden gebruikt als login als het lid aan een gebruiker is gekoppeld.
 WarningMandatorySetupNotComplete=Click here to setup main parameters
 WarningEnableYourModulesApplications=Klik hier om uw modules en applicaties in te schakelen
 WarningSafeModeOnCheckExecDir=Waarschuwing, de instelling <b>safe_mode</b> van PHP staat aan daarom moet het commando opgeslagen worden in een map die gedeclareerd is door de PHP instelling <b>safe_mode_exec_dir.</b>

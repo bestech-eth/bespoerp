@@ -13,9 +13,9 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-ModuleZapierForDolibarrName = Zapier voor Dolibarr
-ModuleZapierForDolibarrDesc = Zapier voor Dolibarr module
-ZapierForDolibarrSetup=Installatie van Zapier voor Dolibarr
+ModuleZapierForbespoerpName = Zapier voor bespoerp
+ModuleZapierForbespoerpDesc = Zapier voor bespoerp module
+ZapierForbespoerpSetup=Installatie van Zapier voor bespoerp
 ZapierDescription=Interface met Zapier
 ZapierAbout=Over de module Zapier
-ZapierSetupPage=Het is niet nodig om een setup uit te voeren in Dolibarr om Zapier te gebruiken. Echter, je moet een package genereren en publiceren op zapier om in staat te zijn om Zapier met Dolibarr te gebruiken. Zie ook de documentatie op <a href="https://wiki.dolibarr.org/index.php/Module_Zapier">deze wiki pagina</a>.
+ZapierSetupPage=Het is niet nodig om een setup uit te voeren in bespoerp om Zapier te gebruiken. Echter, je moet een package genereren en publiceren op zapier om in staat te zijn om Zapier met bespoerp te gebruiken. Zie ook de documentatie op <a href="https://wiki.bespoerp.org/index.php/Module_Zapier">deze wiki pagina</a>.

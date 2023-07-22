@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - bills
+# bespoerp language file - Source file is en_US - bills
 Bill=فاتورة
 Bills=فواتير
 BillsCustomers=فواتير العملاء
@@ -612,8 +612,8 @@ AutoFillDateFromShort=حدد تاريخ البدء
 AutoFillDateTo=حدد تاريخ الانتهاء لبندالخدمة بتاريخ الفاتورة التالية
 AutoFillDateToShort=حدد تاريخ الانتهاء
 MaxNumberOfGenerationReached=وصول الحد الأقصى من الانشاء
-BILL_DELETEInDolibarr=تم حذف الفاتورة
-BILL_SUPPLIER_DELETEInDolibarr=تم حذف فاتورة المورد
+BILL_DELETEInbespoerp=تم حذف الفاتورة
+BILL_SUPPLIER_DELETEInbespoerp=تم حذف فاتورة المورد
 UnitPriceXQtyLessDiscount=سعر الوحدة × الكمية - الخصم
 CustomersInvoicesArea=منطقة فواتير العملاء
 SupplierInvoicesArea=منطقة فواتير المورد

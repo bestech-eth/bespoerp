@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - orders
+# bespoerp language file - Source file is en_US - orders
 OrderExists=An order was already open linked to this proposal, so no other order was created automatically
 OrdersArea=Klantenorders overzicht
 SuppliersOrdersArea=Inkooporders gebied
@@ -125,8 +125,8 @@ ConfirmCloneOrder=Weet u zeker dat u order <b>%s</b> wilt klonen?
 DispatchSupplierOrder=Aankooporder ontvangen %s
 FirstApprovalAlreadyDone=Eerste goedkeuring al gedaan
 SecondApprovalAlreadyDone=Tweede goedkeuring al gedaan
-SupplierOrderReceivedInDolibarr=Bestelling %s heeft %s ontvangen
-SupplierOrderSubmitedInDolibarr=Bestelling %s verzonden
+SupplierOrderReceivedInbespoerp=Bestelling %s heeft %s ontvangen
+SupplierOrderSubmitedInbespoerp=Bestelling %s verzonden
 SupplierOrderClassifiedBilled=Bestelling %s gemerkt gefactureerd
 OtherOrders=Andere opdrachten
 SupplierOrderValidatedAndApproved=De bestelling van de leverancier is gevalideerd en goedgekeurd: %s

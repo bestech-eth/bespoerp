@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# bespoerp language file - Source file is en_US - products
 ProductRef=Ref. do produto
 ProductLabel=Etiqueta do produto
 ProductLabelTranslated=Etiqueta do produto traduzida
@@ -299,7 +299,7 @@ MinSupplierPrice=Preço de compra mínimo
 MinCustomerPrice=Preço mínimo de venda
 NoDynamicPrice=No dynamic price
 DynamicPriceConfiguration=Configuração dinâmica de preços
-DynamicPriceDesc=You may define mathematical formulae to calculate Customer or Vendor prices. Such formulas can use all mathematical operators, some constants and variables. You can define here the variables you wish to use. If the variable needs an automatic update, you may define the external URL to allow Dolibarr to update the value automatically.
+DynamicPriceDesc=You may define mathematical formulae to calculate Customer or Vendor prices. Such formulas can use all mathematical operators, some constants and variables. You can define here the variables you wish to use. If the variable needs an automatic update, you may define the external URL to allow bespoerp to update the value automatically.
 AddVariable=Adicionar Variável
 AddUpdater=Adicionar atualizador
 GlobalVariables=Variáveis globais
@@ -378,7 +378,7 @@ NewProductAttribute=Novo atributo
 NewProductAttributeValue=Novo valor de atributo
 ErrorCreatingProductAttributeValue=Ocorreu um erro ao criar o valor do atributo. Pode ser porque já existe um valor com essa referência
 ProductCombinationGeneratorWarning=Se você continuar, antes de gerar novas variantes, todas as anteriores serão DELETADAS. Já os existentes serão atualizados com os novos valores
-TooMuchCombinationsWarning=Gerar muitas variantes pode resultar em alta CPU, uso de memória e o Dolibarr não consegue criá-las. Ativar a opção "%s" pode ajudar a reduzir o uso de memória.
+TooMuchCombinationsWarning=Gerar muitas variantes pode resultar em alta CPU, uso de memória e o bespoerp não consegue criá-las. Ativar a opção "%s" pode ajudar a reduzir o uso de memória.
 DoNotRemovePreviousCombinations=Não remova variantes anteriores
 UsePercentageVariations=Use variações percentuais
 PercentageVariation=Variação percentual

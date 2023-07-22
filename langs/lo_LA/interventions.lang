@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - interventions
+# bespoerp language file - Source file is en_US - interventions
 Intervention=ການແຊກແຊງ
 Interventions=ການແຊກແຊງ
 InterventionCard=ບັດແຊກແຊງ
@@ -30,13 +30,13 @@ InterventionClassifyDone=ຈັດປະເພດ "ສໍາເລັດ"
 StatusInterInvoiced=ເກັບເງິນແລ້ວ
 SendInterventionRef=ການສົ່ງການແຊກແຊງ %s
 SendInterventionByMail=ສົ່ງການແຊກແຊງທາງອີເມລ
-InterventionCreatedInDolibarr=ການແຊກແຊງ %s ສ້າງແລ້ວ
-InterventionValidatedInDolibarr=ການແຊກແຊງ %s ກວດສອບໄດ້
-InterventionModifiedInDolibarr=ການແຊກແຊງ %s ຖືກແກ້ໄຂ
-InterventionClassifiedBilledInDolibarr=ການແຊກແຊງ %s ຖືກຕັ້ງເປັນເກັບເງິນ
-InterventionClassifiedUnbilledInDolibarr=ການແຊກແຊງ %s ຖືກຕັ້ງເປັນບໍ່ເກັບເງິນ
+InterventionCreatedInbespoerp=ການແຊກແຊງ %s ສ້າງແລ້ວ
+InterventionValidatedInbespoerp=ການແຊກແຊງ %s ກວດສອບໄດ້
+InterventionModifiedInbespoerp=ການແຊກແຊງ %s ຖືກແກ້ໄຂ
+InterventionClassifiedBilledInbespoerp=ການແຊກແຊງ %s ຖືກຕັ້ງເປັນເກັບເງິນ
+InterventionClassifiedUnbilledInbespoerp=ການແຊກແຊງ %s ຖືກຕັ້ງເປັນບໍ່ເກັບເງິນ
 InterventionSentByEMail=ການແຊກແຊງ %s ສົ່ງທາງອີເມລ
-InterventionDeletedInDolibarr=ລຶບການແຊກແຊງ %s ອອກແລ້ວ
+InterventionDeletedInbespoerp=ລຶບການແຊກແຊງ %s ອອກແລ້ວ
 InterventionsArea=ພື້ນທີ່ການແຊກແຊງ
 DraftFichinter=ຮ່າງການແຊກແຊງ
 LastModifiedInterventions=ການແຊກແຊງແກ້ໄຂຫຼ້າສຸດ %s

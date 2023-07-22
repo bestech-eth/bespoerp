@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# bespoerp language file - Source file is en_US - cron
 # About page
 # Right
 Permission23101 = திட்டமிடப்பட்ட வேலையைப் படியுங்கள்
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=முடக்கு
 CronTaskInactive=இந்த வேலை முடக்கப்பட்டுள்ளது (திட்டமிடப்படவில்லை)
 CronId=ஐடி
 CronClassFile=வகுப்போடு கோப்புப்பெயர்
-CronModuleHelp=Dolibarr தொகுதி கோப்பகத்தின் பெயர் (வெளிப்புற Dolibarr தொகுதியுடன் வேலை செய்யவும்). <BR> எடுத்துக்காட்டாக, Dolibarr Product object /htdocs/ <u> தயாரிப்பு </u> /class/product.class.php இன் பெறுதல் முறையை அழைக்க, தொகுதிக்கான மதிப்பு a03492fz8cf72018000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-CronClassFileHelp=ஏற்றுவதற்கான தொடர்புடைய பாதை மற்றும் கோப்பு பெயர் (பாதை வலை சேவையக ரூட் கோப்பகத்துடன் தொடர்புடையது). <BR> உதாரணமாக Dolibarr தயாரிப்பு பொருள் htdocs / தயாரிப்பு / வர்க்கம் / <u> product.class.php </u> பிணைப்பை முறை அழைக்க, கிளாஸ் கோப்பு பெயர் மதிப்பு <br> <i> தயாரிப்பு / வர்க்கம் / product.class.php </i> உள்ளது
-CronObjectHelp=ஏற்ற வேண்டிய பொருளின் பெயர். <BR> எடுத்துக்காட்டாக, Dolibarr Product object /htdocs/product/class/product.class.php இன் பெறுதல் முறையை அழைக்க, வகுப்பு கோப்பு பெயருக்கான மதிப்பு <br> a049271e8181fcz638bacz0 தயாரிப்பு a
-CronMethodHelp=தொடங்குவதற்கான பொருள் முறை. <BR> எடுத்துக்காட்டாக, Dolibarr Product object /htdocs/product/class/product.class.php இன் பெறுதல் முறையை அழைக்க, முறைக்கான மதிப்பு <br> <i> fetch a634z58bac3z50
-CronArgsHelp=முறை வாதங்கள். <BR> எடுத்துக்காட்டாக, Dolibarr Product object /htdocs/product/class/product.class.php இன் பெறுதல் முறையை அழைக்க, அளவுருக்களுக்கான மதிப்பு <br> <i>,<i>,a040,a506
+CronModuleHelp=bespoerp தொகுதி கோப்பகத்தின் பெயர் (வெளிப்புற bespoerp தொகுதியுடன் வேலை செய்யவும்). <BR> எடுத்துக்காட்டாக, bespoerp Product object /htdocs/ <u> தயாரிப்பு </u> /class/product.class.php இன் பெறுதல் முறையை அழைக்க, தொகுதிக்கான மதிப்பு a03492fz8cf72018000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+CronClassFileHelp=ஏற்றுவதற்கான தொடர்புடைய பாதை மற்றும் கோப்பு பெயர் (பாதை வலை சேவையக ரூட் கோப்பகத்துடன் தொடர்புடையது). <BR> உதாரணமாக bespoerp தயாரிப்பு பொருள் htdocs / தயாரிப்பு / வர்க்கம் / <u> product.class.php </u> பிணைப்பை முறை அழைக்க, கிளாஸ் கோப்பு பெயர் மதிப்பு <br> <i> தயாரிப்பு / வர்க்கம் / product.class.php </i> உள்ளது
+CronObjectHelp=ஏற்ற வேண்டிய பொருளின் பெயர். <BR> எடுத்துக்காட்டாக, bespoerp Product object /htdocs/product/class/product.class.php இன் பெறுதல் முறையை அழைக்க, வகுப்பு கோப்பு பெயருக்கான மதிப்பு <br> a049271e8181fcz638bacz0 தயாரிப்பு a
+CronMethodHelp=தொடங்குவதற்கான பொருள் முறை. <BR> எடுத்துக்காட்டாக, bespoerp Product object /htdocs/product/class/product.class.php இன் பெறுதல் முறையை அழைக்க, முறைக்கான மதிப்பு <br> <i> fetch a634z58bac3z50
+CronArgsHelp=முறை வாதங்கள். <BR> எடுத்துக்காட்டாக, bespoerp Product object /htdocs/product/class/product.class.php இன் பெறுதல் முறையை அழைக்க, அளவுருக்களுக்கான மதிப்பு <br> <i>,<i>,a040,a506
 CronCommandHelp=இயக்க வேண்டிய கணினி கட்டளை வரி.
 CronCreateJob=புதிய திட்டமிடப்பட்ட வேலையை உருவாக்கவும்
 CronFrom=இருந்து

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# bespoerp language file - Source file is en_US - website
 Shortname=Kod
 WebsiteName=Webbplatsens namn
 WebsiteSetupDesc=Skapa här de webbplatser du vill använda. Gå sedan till menyn webbplatser för att redigera dem.
@@ -48,13 +48,13 @@ VirtualhostDesc=Namnet på den virtuella värden eller domänen (till exempel: w
 SetHereVirtualHost= <u> Use with Apache/NGinx/... </u>  <br> Create on your web server (Apache, Nginx, ...) a dedicated Virtual Host with PHP enabled and a Root directory on <br>  <strong> %s </strong>
 ExampleToUseInApacheVirtualHostConfig=Exempel att använda i Apache virtuell värdinställning:
 YouCanAlsoTestWithPHPS= <u> Använd med PHP-inbäddad server </u> <br> På utvecklingsmiljö kan du föredra att testa webbplatsen med PHP-inbäddad webbserver (PHP 5.5 krävs) genom att köra <br> <strong> php -S 0.0.0.0:8080 -t %s </strong>
-YouCanAlsoDeployToAnotherWHP= <u> Kör din webbplats med en annan Dolibarr-värdleverantör </u> <br> Om du inte har en webbserver som Apache eller NGinx tillgänglig på internet, kan du exportera och importera din webbplats till en annan Dolibarr-instans som tillhandahåller en annan Dolibarr-instans som tillhandahåller en komplett värd från Dolibarr. integration med webbplatsmodulen. Du kan hitta en lista över några Dolibarr-värdleverantörer på <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external"> https://saas.dolibarr.org </a>
+YouCanAlsoDeployToAnotherWHP= <u> Kör din webbplats med en annan bespoerp-värdleverantör </u> <br> Om du inte har en webbserver som Apache eller NGinx tillgänglig på internet, kan du exportera och importera din webbplats till en annan bespoerp-instans som tillhandahåller en annan bespoerp-instans som tillhandahåller en komplett värd från bespoerp. integration med webbplatsmodulen. Du kan hitta en lista över några bespoerp-värdleverantörer på <a href="https://saas.bespoerp.org" target="_blank" rel="noopener noreferrer external"> https://saas.bespoerp.org </a>
 CheckVirtualHostPerms=Kontrollera också att den virtuella värdanvändaren (till exempel www-data) har <strong> %s </strong>-behörigheter för filer till <br><strong>%s</strong> 
 ReadPerm=Läsa
 WritePerm=Skriva
 TestDeployOnWeb=Test / distribuera på webben
 PreviewSiteServedByWebServer=<u> Förhandsgranska %s i en ny flik. </u> <br> <br> %s kommer att serveras av en extern webbserver (som Apache, Nginx, IIS). Du måste installera och konfigurera den här servern innan du pekar på katalogen: <br> <strong> %s </strong> <br> URL betjänad av extern server: <br> <strong> %s </strong>
-PreviewSiteServedByDolibarr= <u> Förhandsgranska %s i en ny flik. </u> <br> <br> %s kommer att serveras av Dolibarr-servern så det behöver inte installeras någon extra webbserver (som Apache, Nginx, IIS). <br> Det obekväma är att sidornas webbadresser inte är användarvänliga och börjar med sökvägen till din Dolibarr. <br> URL betjänas av Dolibarr: <br> <strong> %s </strong> <br> <br> Om du vill använda din egen extern webbserver för att tjäna denna webbplats, skapa en virtuell värd på din webbserver som pekar på katalogen <br> <strong> %s </strong> <br> sedan ange namnet på denna virtuella server i egenskaperna för denna webbplats och klicka på länken "Test / Distribuera på webben".
+PreviewSiteServedBybespoerp= <u> Förhandsgranska %s i en ny flik. </u> <br> <br> %s kommer att serveras av bespoerp-servern så det behöver inte installeras någon extra webbserver (som Apache, Nginx, IIS). <br> Det obekväma är att sidornas webbadresser inte är användarvänliga och börjar med sökvägen till din bespoerp. <br> URL betjänas av bespoerp: <br> <strong> %s </strong> <br> <br> Om du vill använda din egen extern webbserver för att tjäna denna webbplats, skapa en virtuell värd på din webbserver som pekar på katalogen <br> <strong> %s </strong> <br> sedan ange namnet på denna virtuella server i egenskaperna för denna webbplats och klicka på länken "Test / Distribuera på webben".
 VirtualHostUrlNotDefined=URL för den virtuella värd som serveras av extern webbserver som inte definierats
 NoPageYet=Inga sidor ännu
 YouCanCreatePageOrImportTemplate=Du kan skapa en ny sida eller importera en fullständig webbplatsmall

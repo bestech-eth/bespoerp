@@ -23,7 +23,7 @@
  *	\brief      Project card
  */
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/projet/class/project.class.php';
 require_once DOL_DOCUMENT_ROOT.'/projet/class/task.class.php';
@@ -801,7 +801,7 @@ if ($action == 'create' && $user->rights->projet->creer) {
 	// Description
 	print '<tr><td class="tdtop">'.$langs->trans("Description").'</td>';
 	print '<td>';
-	$doleditor = new DolEditor('description', GETPOST("description", 'restricthtml'), '', 90, 'dolibarr_notes', '', false, true, getDolGlobalString('FCKEDITOR_ENABLE_SOCIETE'), ROWS_3, '90%');
+	$doleditor = new DolEditor('description', GETPOST("description", 'restricthtml'), '', 90, 'bespoerp_notes', '', false, true, getDolGlobalString('FCKEDITOR_ENABLE_SOCIETE'), ROWS_3, '90%');
 	$doleditor->Create();
 	print '</td></tr>';
 
@@ -1177,7 +1177,7 @@ if ($action == 'create' && $user->rights->projet->creer) {
 		// Description
 		print '<tr><td class="tdtop">'.$langs->trans("Description").'</td>';
 		print '<td>';
-		$doleditor = new DolEditor('description', $object->description, '', 90, 'dolibarr_notes', '', false, true, getDolGlobalInt('FCKEDITOR_ENABLE_SOCIETE'), ROWS_3, '90%');
+		$doleditor = new DolEditor('description', $object->description, '', 90, 'bespoerp_notes', '', false, true, getDolGlobalInt('FCKEDITOR_ENABLE_SOCIETE'), ROWS_3, '90%');
 		$doleditor->Create();
 		print '</td></tr>';
 

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - interventions
+# bespoerp language file - Source file is en_US - interventions
 Intervention=出張
 Interventions=出張
 InterventionCard=出張のカード
@@ -30,13 +30,13 @@ InterventionClassifyDone="完了" 分類
 StatusInterInvoiced=請求
 SendInterventionRef=出張の提出%s
 SendInterventionByMail=電子メールで出張を送信 
-InterventionCreatedInDolibarr=出張%sが作成された
-InterventionValidatedInDolibarr=出張%sは、検証済
-InterventionModifiedInDolibarr=出張%sが変更された
-InterventionClassifiedBilledInDolibarr=請求済として設定された出張%s
-InterventionClassifiedUnbilledInDolibarr=出張%sが未請求として設定
+InterventionCreatedInbespoerp=出張%sが作成された
+InterventionValidatedInbespoerp=出張%sは、検証済
+InterventionModifiedInbespoerp=出張%sが変更された
+InterventionClassifiedBilledInbespoerp=請求済として設定された出張%s
+InterventionClassifiedUnbilledInbespoerp=出張%sが未請求として設定
 InterventionSentByEMail=電子メールで送信された出張%s
-InterventionDeletedInDolibarr=出張%sが削除された
+InterventionDeletedInbespoerp=出張%sが削除された
 InterventionsArea=出張エリア
 DraftFichinter=下書き出張
 LastModifiedInterventions=最新の%s修正された出張

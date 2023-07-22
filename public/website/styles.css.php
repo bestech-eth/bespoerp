@@ -40,7 +40,7 @@ if (!defined('NOREQUIREAJAX')) {
 	define('NOREQUIREAJAX', '1');
 }
 if (!defined('NOIPCHECK')) {
-	define('NOIPCHECK', '1'); // Do not check IP defined into conf $dolibarr_main_restrict_ip
+	define('NOIPCHECK', '1'); // Do not check IP defined into conf $bespoerp_main_restrict_ip
 }
 if (!defined('NOBROWSERNOTIF')) {
 	define('NOBROWSERNOTIF', '1');
@@ -120,9 +120,9 @@ if (empty($pageid))
 */
 
 // Security: Delete string ../ into $original_file
-global $dolibarr_main_data_root;
+global $bespoerp_main_data_root;
 
-$original_file = $dolibarr_main_data_root.($conf->entity > 1 ? '/'.$conf->entity : '').'/website/'.$website.'/styles.css.php';
+$original_file = $bespoerp_main_data_root.($conf->entity > 1 ? '/'.$conf->entity : '').'/website/'.$website.'/styles.css.php';
 
 // Find the subdirectory name as the reference
 $refname = basename(dirname($original_file)."/");
@@ -161,7 +161,7 @@ if (!file_exists($original_file_osencoded)) {
 
 
 // Output page content
-define('USEDOLIBARRSERVER', 1);
+define('USEbespoerpSERVER', 1);
 print '/* Page content '.$original_file.' : CSS content that was saved into tpl dir */'."\n";
 require_once $original_file_osencoded;
 

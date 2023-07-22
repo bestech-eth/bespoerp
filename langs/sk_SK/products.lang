@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# bespoerp language file - Source file is en_US - products
 ProductRef=Produkt čj.
 ProductLabel=Produkt štítok
 ProductLabelTranslated=Preložený názov produktu
@@ -299,7 +299,7 @@ MinSupplierPrice=Minimálna nákupná cena
 MinCustomerPrice=Minimum selling price
 NoDynamicPrice=No dynamic price
 DynamicPriceConfiguration=Nastavenie dynamickej ceny
-DynamicPriceDesc=You may define mathematical formulae to calculate Customer or Vendor prices. Such formulas can use all mathematical operators, some constants and variables. You can define here the variables you wish to use. If the variable needs an automatic update, you may define the external URL to allow Dolibarr to update the value automatically.
+DynamicPriceDesc=You may define mathematical formulae to calculate Customer or Vendor prices. Such formulas can use all mathematical operators, some constants and variables. You can define here the variables you wish to use. If the variable needs an automatic update, you may define the external URL to allow bespoerp to update the value automatically.
 AddVariable=Pridať premennú
 AddUpdater=Pridať aktualizátor
 GlobalVariables=Globálna premenná
@@ -378,7 +378,7 @@ NewProductAttribute=Nový atribút
 NewProductAttributeValue=New attribute value
 ErrorCreatingProductAttributeValue=There was an error while creating the attribute value. It could be because there is already an existing value with that reference
 ProductCombinationGeneratorWarning=If you continue, before generating new variants, all previous ones will be DELETED. Already existing ones will be updated with the new values
-TooMuchCombinationsWarning=Generating lots of variants may result in high CPU, memory usage and Dolibarr not able to create them. Enabling the option "%s" may help reduce memory usage.
+TooMuchCombinationsWarning=Generating lots of variants may result in high CPU, memory usage and bespoerp not able to create them. Enabling the option "%s" may help reduce memory usage.
 DoNotRemovePreviousCombinations=Do not remove previous variants
 UsePercentageVariations=Use percentage variations
 PercentageVariation=Percentage variation

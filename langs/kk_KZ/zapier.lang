@@ -13,9 +13,9 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-ModuleZapierForDolibarrName = Долибар үшін Запье
-ModuleZapierForDolibarrDesc = Dolibarr модуліне арналған Zapier
-ZapierForDolibarrSetup=Dolibarr үшін Zapier орнату
+ModuleZapierForbespoerpName = Долибар үшін Запье
+ModuleZapierForbespoerpDesc = bespoerp модуліне арналған Zapier
+ZapierForbespoerpSetup=bespoerp үшін Zapier орнату
 ZapierDescription=Zapier интерфейсі
 ZapierAbout=Zapier модулі туралы
-ZapierSetupPage=Zapier пайдалану үшін Dolibarr жағында орнатудың қажеті жоқ. Дегенмен, Zapier -ті Dolibarr -мен бірге пайдалану үшін сіз пакетті zapier -де жасауыңыз және жариялауыңыз керек. <a href="https://wiki.dolibarr.org/index.php/Module_Zapier"> құжаттамасын осы вики бетіндегі </a> қараңыз.
+ZapierSetupPage=Zapier пайдалану үшін bespoerp жағында орнатудың қажеті жоқ. Дегенмен, Zapier -ті bespoerp -мен бірге пайдалану үшін сіз пакетті zapier -де жасауыңыз және жариялауыңыз керек. <a href="https://wiki.bespoerp.org/index.php/Module_Zapier"> құжаттамасын осы вики бетіндегі </a> қараңыз.

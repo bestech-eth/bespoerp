@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - receptions
+# bespoerp language file - Source file is en_US - receptions
 ReceptionDescription=إدارة استقبال البائعين (إنشاء مستندات استلام)
 ReceptionsSetup=إعداد استقبال البائعين
 RefReception=المرجع. استقبال
@@ -49,6 +49,6 @@ ReceptionsNumberingModules=وحدة الترقيم لحفلات الاستقبا
 ReceptionsReceiptModel=قوالب الوثيقة لحفلات الاستقبال
 NoMorePredefinedProductToDispatch=لا مزيد من المنتجات المحددة مسبقًا لإرسالها
 ReceptionExist=يوجد استقبال
-ReceptionBackToDraftInDolibarr=الاستقبال %s يعود إلى المسودة
-ReceptionClassifyClosedInDolibarr=الاستقبال %s مصنف مغلق
-ReceptionUnClassifyCloseddInDolibarr=إعادة فتح الاستقبال %s
+ReceptionBackToDraftInbespoerp=الاستقبال %s يعود إلى المسودة
+ReceptionClassifyClosedInbespoerp=الاستقبال %s مصنف مغلق
+ReceptionUnClassifyCloseddInbespoerp=إعادة فتح الاستقبال %s

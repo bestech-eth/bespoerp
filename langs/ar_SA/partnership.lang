@@ -44,7 +44,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=الروابط الخلفية المراد الت
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=عدد الأيام قبل إلغاء حالة الشراكة عند انتهاء صلاحية الاشتراك
 ReferingWebsiteCheck=تحقق من إحالة الموقع
 ReferingWebsiteCheckDesc=يمكنك تمكين ميزة للتحقق من أن شركائك قد أضافوا رابطًا خلفيًا إلى مجالات موقع الويب الخاص بك على موقع الويب الخاص بهم.
-PublicFormRegistrationPartnerDesc=يمكن أن توفر لك Dolibarr عنوان URL / موقع ويب عام للسماح للزوار الخارجيين بطلب الانضمام إلى برنامج الشراكة.
+PublicFormRegistrationPartnerDesc=يمكن أن توفر لك bespoerp عنوان URL / موقع ويب عام للسماح للزوار الخارجيين بطلب الانضمام إلى برنامج الشراكة.
 
 #
 # Object

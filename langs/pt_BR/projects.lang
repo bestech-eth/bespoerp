@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - projects
+# bespoerp language file - Source file is en_US - projects
 ProjectId=Id do projeto
 ProjectLabel=Etiqueta projeto
 ProjectsArea=Setor de projetos
@@ -95,10 +95,10 @@ CloneMoveDate=Atualizar as datas do projeto/tarefas a partir de agora?
 ConfirmCloneProject=Você tem certeza que deseja clonar este projeto?
 ProjectReportDate=Alterar datas da tarefa de acordo com a data de início do novo projeto
 ErrorShiftTaskDate=Impossível mudar data da tarefa de acordo com a nova data de início do projeto
-ProjectModifiedInDolibarr=Projeto %s modificado
-TaskCreatedInDolibarr=Tarefa %s criada
-TaskModifiedInDolibarr=Tarefa %s alterada
-TaskDeletedInDolibarr=Tarefa %s excluída
+ProjectModifiedInbespoerp=Projeto %s modificado
+TaskCreatedInbespoerp=Tarefa %s criada
+TaskModifiedInbespoerp=Tarefa %s alterada
+TaskDeletedInbespoerp=Tarefa %s excluída
 OpportunityStatusShort=Situação de um potencial contrato
 OpportunityProbability=Lead: Probabilidade
 OpportunityProbabilityShort=Probab. de um potencial negócio

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# bespoerp language file - Source file is en_US - cron
 # About page
 # Right
 Permission23101 = قراءة مهمة مجدولة
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=يعطل
 CronTaskInactive=هذه الوظيفة معطلة (غير مجدولة)
 CronId=هوية شخصية
 CronClassFile=Filename with class
-CronModuleHelp=اسم دليل وحدة Dolibarr (يعمل أيضًا مع وحدة Dolibarr الخارجية). <BR> على سبيل المثال لاستدعاء طريقة الجلب الخاصة بـ Dolibarr Product object / htdocs / <u> product </u> /class/product.class.php ، قيمة الوحدة النمطية هي <br> a049271e81833
-CronClassFileHelp=المسار النسبي واسم الملف المراد تحميله (المسار مرتبط بالدليل الجذر لخادم الويب). <BR> على سبيل المثال لاستدعاء طريقة الجلب لكائن منتج Dolibarr htdocs / product / class / <u> product.class.php </u> ، قيمة اسم ملف الفئة هي <br> a049271e8181
-CronObjectHelp=اسم الكائن المراد تحميله. <BR> على سبيل المثال لاستدعاء طريقة الجلب لكائن Dolibarr Product /htdocs/product/class/product.class.php ، قيمة اسم ملف الفئة هي <br> <i> المنتج </i>
-CronMethodHelp=طريقة الكائن لبدء. <BR> على سبيل المثال لاستدعاء طريقة الجلب لكائن منتج Dolibarr /htdocs/product/class/product.class.php ، قيمة الطريقة هي <br> <i> fetch </i>
-CronArgsHelp=حجج الطريقة. <BR> على سبيل المثال لاستدعاء طريقة الجلب لكائن Dolibarr Product /htdocs/product/class/product.class.php ، يمكن أن تكون قيمة المعلمات <br> <i> 0 ، ProductRef </i>
+CronModuleHelp=اسم دليل وحدة bespoerp (يعمل أيضًا مع وحدة bespoerp الخارجية). <BR> على سبيل المثال لاستدعاء طريقة الجلب الخاصة بـ bespoerp Product object / htdocs / <u> product </u> /class/product.class.php ، قيمة الوحدة النمطية هي <br> a049271e81833
+CronClassFileHelp=المسار النسبي واسم الملف المراد تحميله (المسار مرتبط بالدليل الجذر لخادم الويب). <BR> على سبيل المثال لاستدعاء طريقة الجلب لكائن منتج bespoerp htdocs / product / class / <u> product.class.php </u> ، قيمة اسم ملف الفئة هي <br> a049271e8181
+CronObjectHelp=اسم الكائن المراد تحميله. <BR> على سبيل المثال لاستدعاء طريقة الجلب لكائن bespoerp Product /htdocs/product/class/product.class.php ، قيمة اسم ملف الفئة هي <br> <i> المنتج </i>
+CronMethodHelp=طريقة الكائن لبدء. <BR> على سبيل المثال لاستدعاء طريقة الجلب لكائن منتج bespoerp /htdocs/product/class/product.class.php ، قيمة الطريقة هي <br> <i> fetch </i>
+CronArgsHelp=حجج الطريقة. <BR> على سبيل المثال لاستدعاء طريقة الجلب لكائن bespoerp Product /htdocs/product/class/product.class.php ، يمكن أن تكون قيمة المعلمات <br> <i> 0 ، ProductRef </i>
 CronCommandHelp=سطر الأوامر لتنفيذ النظام.
 CronCreateJob=إنشاء مهمة مجدولة جديدة
 CronFrom=من عند

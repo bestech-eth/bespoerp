@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# bespoerp language file - Source file is en_US - ecm
 ECMNbOfDocs=ディレクトリ内のドキュメントの数
 ECMSection=ディレクトリ
 ECMSectionManual=手動のディレクトリ
@@ -16,7 +16,7 @@ ECMNbOfSubDir=サブディレクトリの数
 ECMNbOfFilesInSubDir=サブディレクトリ内のファイルの数
 ECMCreationUser=クリエイター
 ECMArea=DMS / ECMエリア
-ECMAreaDesc=DMS / ECM(ドキュメント管理システム/電子コンテンツ管理)エリアでは、Dolibarr内のあらゆる種類のドキュメントをすばやく保存、共有、検索できる。
+ECMAreaDesc=DMS / ECM(ドキュメント管理システム/電子コンテンツ管理)エリアでは、bespoerp内のあらゆる種類のドキュメントをすばやく保存、共有、検索できる。
 ECMAreaDesc2a=* 手動ディレクトリは、特定の要素にリンクされていないドキュメントを保存するために使用できる。
 ECMAreaDesc2b=* 要素のページからドキュメントを追加すると、自動ディレクトリが自動的に入力される。
 ECMAreaDesc3=* Medias ディレクトリは、documents ディレクトリのサブディレクトリ <b> /medias </b> にあるファイルであり、ログに記録する必要もファイルを明示的に共有する必要もなく、誰でも読み取り可能。たとえば、電子メールやウェブサイト モジュールなどの画像ファイルを保存するために使用される。

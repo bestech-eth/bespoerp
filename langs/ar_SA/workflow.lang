@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - workflow
+# bespoerp language file - Source file is en_US - workflow
 WorkflowSetup=إعداد وحدة تدفق العمل
 WorkflowDesc=هذه الوحدة توفر بعض الاجراءات التلقائية . في البداية يكون تدفق العمل مفتوحاً (يمكنك ان تعمل بالترتيب الذي تريد) لكن هنا يمكنك تفعيل بعض الجراءات التلقائية
 ThereIsNoWorkflowToModify=لا توجد تعديلات على سير العمل متوفرة مع الوحدات النشطة.

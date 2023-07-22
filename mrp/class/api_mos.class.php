@@ -31,9 +31,9 @@ require_once DOL_DOCUMENT_ROOT.'/mrp/class/mo.class.php';
  * API class for MO
  *
  * @access protected
- * @class  DolibarrApiAccess {@requires user,external}
+ * @class  bespoerpApiAccess {@requires user,external}
  */
-class Mos extends DolibarrApi
+class Mos extends bespoerpApi
 {
 	/**
 	 * @var Mo $mo {@type Mo}
@@ -63,7 +63,7 @@ class Mos extends DolibarrApi
 	 */
 	public function get($id)
 	{
-		if (!DolibarrApiAccess::$user->rights->mrp->read) {
+		if (!bespoerpApiAccess::$user->rights->mrp->read) {
 			throw new RestException(401);
 		}
 
@@ -72,8 +72,8 @@ class Mos extends DolibarrApi
 			throw new RestException(404, 'MO not found');
 		}
 
-		if (!DolibarrApi::_checkAccessToResource('mrp', $this->mo->id, 'mrp_mo')) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if (!bespoerpApi::_checkAccessToResource('mrp', $this->mo->id, 'mrp_mo')) {
+			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
 		}
 
 		return $this->_cleanObjectDatas($this->mo);
@@ -98,30 +98,30 @@ class Mos extends DolibarrApi
 	{
 		global $db, $conf;
 
-		if (!DolibarrApiAccess::$user->rights->mrp->read) {
+		if (!bespoerpApiAccess::$user->rights->mrp->read) {
 			throw new RestException(401);
 		}
 
 		$obj_ret = array();
 		$tmpobject = new Mo($this->db);
 
-		$socid = DolibarrApiAccess::$user->socid ? DolibarrApiAccess::$user->socid : '';
+		$socid = bespoerpApiAccess::$user->socid ? bespoerpApiAccess::$user->socid : '';
 
 		$restrictonsocid = 0; // Set to 1 if there is a field socid in table of object
 
 		// If the internal user must only see his customers, force searching by him
 		$search_sale = 0;
-		if ($restrictonsocid && !DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) {
-			$search_sale = DolibarrApiAccess::$user->id;
+		if ($restrictonsocid && !bespoerpApiAccess::$user->rights->societe->client->voir && !$socid) {
+			$search_sale = bespoerpApiAccess::$user->id;
 		}
 
 		$sql = "SELECT t.rowid";
-		if ($restrictonsocid && (!DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) {
+		if ($restrictonsocid && (!bespoerpApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) {
 			$sql .= ", sc.fk_soc, sc.fk_user"; // We need these fields in order to filter by sale (including the case where the user can only see his prospects)
 		}
 		$sql .= " FROM ".MAIN_DB_PREFIX.$tmpobject->table_element." as t";
 
-		if ($restrictonsocid && (!DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) {
+		if ($restrictonsocid && (!bespoerpApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) {
 			$sql .= ", ".MAIN_DB_PREFIX."societe_commerciaux as sc"; // We need this table joined to the select in order to filter by sale
 		}
 		$sql .= " WHERE 1 = 1";
@@ -133,7 +133,7 @@ class Mos extends DolibarrApi
 		if ($tmpobject->ismultientitymanaged) {
 			$sql .= ' AND t.entity IN ('.getEntity($tmpobject->element).')';
 		}
-		if ($restrictonsocid && (!DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) {
+		if ($restrictonsocid && (!bespoerpApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) {
 			$sql .= " AND t.fk_soc = sc.fk_soc";
 		}
 		if ($restrictonsocid && $socid) {
@@ -193,7 +193,7 @@ class Mos extends DolibarrApi
 	 */
 	public function post($request_data = null)
 	{
-		if (!DolibarrApiAccess::$user->rights->mrp->write) {
+		if (!bespoerpApiAccess::$user->rights->mrp->write) {
 			throw new RestException(401);
 		}
 		// Check mandatory fields
@@ -205,7 +205,7 @@ class Mos extends DolibarrApi
 
 		$this->checkRefNumbering();
 
-		if (!$this->mo->create(DolibarrApiAccess::$user)) {
+		if (!$this->mo->create(bespoerpApiAccess::$user)) {
 			throw new RestException(500, "Error creating MO", array_merge(array($this->mo->error), $this->mo->errors));
 		}
 		return $this->mo->id;
@@ -221,7 +221,7 @@ class Mos extends DolibarrApi
 	 */
 	public function put($id, $request_data = null)
 	{
-		if (!DolibarrApiAccess::$user->rights->mrp->write) {
+		if (!bespoerpApiAccess::$user->rights->mrp->write) {
 			throw new RestException(401);
 		}
 
@@ -230,8 +230,8 @@ class Mos extends DolibarrApi
 			throw new RestException(404, 'MO not found');
 		}
 
-		if (!DolibarrApi::_checkAccessToResource('mrp', $this->mo->id, 'mrp_mo')) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if (!bespoerpApi::_checkAccessToResource('mrp', $this->mo->id, 'mrp_mo')) {
+			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
 		}
 
 		foreach ($request_data as $field => $value) {
@@ -243,7 +243,7 @@ class Mos extends DolibarrApi
 
 		$this->checkRefNumbering();
 
-		if ($this->mo->update(DolibarrApiAccess::$user) > 0) {
+		if ($this->mo->update(bespoerpApiAccess::$user) > 0) {
 			return $this->get($id);
 		} else {
 			throw new RestException(500, $this->mo->error);
@@ -258,7 +258,7 @@ class Mos extends DolibarrApi
 	 */
 	public function delete($id)
 	{
-		if (!DolibarrApiAccess::$user->rights->mrp->delete) {
+		if (!bespoerpApiAccess::$user->rights->mrp->delete) {
 			throw new RestException(401);
 		}
 		$result = $this->mo->fetch($id);
@@ -266,11 +266,11 @@ class Mos extends DolibarrApi
 			throw new RestException(404, 'MO not found');
 		}
 
-		if (!DolibarrApi::_checkAccessToResource('mrp', $this->mo->id, 'mrp_mo')) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if (!bespoerpApi::_checkAccessToResource('mrp', $this->mo->id, 'mrp_mo')) {
+			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
 		}
 
-		if (!$this->mo->delete(DolibarrApiAccess::$user)) {
+		if (!$this->mo->delete(bespoerpApiAccess::$user)) {
 			throw new RestException(500, 'Error when deleting MO : '.$this->mo->error);
 		}
 
@@ -308,7 +308,7 @@ class Mos extends DolibarrApi
 
 		$error = 0;
 
-		if (!DolibarrApiAccess::$user->rights->mrp->write) {
+		if (!bespoerpApiAccess::$user->rights->mrp->write) {
 			throw new RestException(401, 'Not enough permission');
 		}
 		$result = $this->mo->fetch($id);
@@ -404,14 +404,14 @@ class Mos extends DolibarrApi
 								$moline->role = 'toproduce';
 								$moline->fk_mrp_production = "";
 								$moline->fk_stock_movement = $idstockmove;
-								$moline->fk_user_creat = DolibarrApiAccess::$user->id;
+								$moline->fk_user_creat = bespoerpApiAccess::$user->id;
 
-								$resultmoline = $moline->create(DolibarrApiAccess::$user);
+								$resultmoline = $moline->create(bespoerpApiAccess::$user);
 								if ($resultmoline <= 0) {
 									$error++;
 									throw new RestException(500, $moline->error);
 								}
-								$idstockmove = $stockmove->livraison(DolibarrApiAccess::$user, $value["objectid"], $value["fk_warehouse"], $qtytoprocess, 0, $labelmovement, dol_now(), '', '', $tmpproduct->status_batch, $id_product_batch, $codemovement);
+								$idstockmove = $stockmove->livraison(bespoerpApiAccess::$user, $value["objectid"], $value["fk_warehouse"], $qtytoprocess, 0, $labelmovement, dol_now(), '', '', $tmpproduct->status_batch, $id_product_batch, $codemovement);
 							} else {
 								$moline = new MoLine($this->db);
 								$moline->fk_mo = $this->mo->id;
@@ -423,14 +423,14 @@ class Mos extends DolibarrApi
 								$moline->role = 'toconsume';
 								$moline->fk_mrp_production = "";
 								$moline->fk_stock_movement = $idstockmove;
-								$moline->fk_user_creat = DolibarrApiAccess::$user->id;
+								$moline->fk_user_creat = bespoerpApiAccess::$user->id;
 
-								$resultmoline = $moline->create(DolibarrApiAccess::$user);
+								$resultmoline = $moline->create(bespoerpApiAccess::$user);
 								if ($resultmoline <= 0) {
 									$error++;
 									throw new RestException(500, $moline->error);
 								}
-								$idstockmove = $stockmove->reception(DolibarrApiAccess::$user, $value["objectid"], $value["fk_warehouse"], $qtytoprocess, 0, $labelmovement, dol_now(), '', '', $tmpproduct->status_batch, $id_product_batch, $codemovement);
+								$idstockmove = $stockmove->reception(bespoerpApiAccess::$user, $value["objectid"], $value["fk_warehouse"], $qtytoprocess, 0, $labelmovement, dol_now(), '', '', $tmpproduct->status_batch, $id_product_batch, $codemovement);
 							}
 							if ($idstockmove < 0) {
 								$error++;
@@ -453,9 +453,9 @@ class Mos extends DolibarrApi
 							}
 							$moline->fk_mrp_production = "";
 							$moline->fk_stock_movement = $idstockmove;
-							$moline->fk_user_creat = DolibarrApiAccess::$user->id;
+							$moline->fk_user_creat = bespoerpApiAccess::$user->id;
 
-							$resultmoline = $moline->create(DolibarrApiAccess::$user);
+							$resultmoline = $moline->create(bespoerpApiAccess::$user);
 							if ($resultmoline <= 0) {
 								$error++;
 								throw new RestException(500, $moline->error);
@@ -499,9 +499,9 @@ class Mos extends DolibarrApi
 							$stockmove->origin_type = 'mo';
 							$stockmove->origin_id = $this->mo->id;
 							if ($qtytoprocess >= 0) {
-								$idstockmove = $stockmove->livraison(DolibarrApiAccess::$user, $line->fk_product, $line->fk_warehouse, $qtytoprocess, 0, $labelmovement, dol_now(), '', '', $tmpproduct->status_batch, $id_product_batch, $codemovement);
+								$idstockmove = $stockmove->livraison(bespoerpApiAccess::$user, $line->fk_product, $line->fk_warehouse, $qtytoprocess, 0, $labelmovement, dol_now(), '', '', $tmpproduct->status_batch, $id_product_batch, $codemovement);
 							} else {
-								$idstockmove = $stockmove->reception(DolibarrApiAccess::$user, $line->fk_product, $line->fk_warehouse, $qtytoprocess, 0, $labelmovement, dol_now(), '', '', $tmpproduct->status_batch, $id_product_batch, $codemovement);
+								$idstockmove = $stockmove->reception(bespoerpApiAccess::$user, $line->fk_product, $line->fk_warehouse, $qtytoprocess, 0, $labelmovement, dol_now(), '', '', $tmpproduct->status_batch, $id_product_batch, $codemovement);
 							}
 							if ($idstockmove < 0) {
 								$error++;
@@ -520,9 +520,9 @@ class Mos extends DolibarrApi
 							$moline->role = 'consumed';
 							$moline->fk_mrp_production = $line->id;
 							$moline->fk_stock_movement = $idstockmove;
-							$moline->fk_user_creat = DolibarrApiAccess::$user->id;
+							$moline->fk_user_creat = bespoerpApiAccess::$user->id;
 
-							$resultmoline = $moline->create(DolibarrApiAccess::$user);
+							$resultmoline = $moline->create(bespoerpApiAccess::$user);
 							if ($resultmoline <= 0) {
 								$error++;
 								throw new RestException(500, $moline->error);
@@ -559,9 +559,9 @@ class Mos extends DolibarrApi
 							$stockmove->origin_type = 'mo';
 							$stockmove->origin_id = $this->mo->id;
 							if ($qtytoprocess >= 0) {
-								$idstockmove = $stockmove->livraison(DolibarrApiAccess::$user, $line->fk_product, $line->fk_warehouse, $qtytoprocess, 0, $labelmovement, dol_now(), '', '', $tmpproduct->status_batch, $id_product_batch, $codemovement);
+								$idstockmove = $stockmove->livraison(bespoerpApiAccess::$user, $line->fk_product, $line->fk_warehouse, $qtytoprocess, 0, $labelmovement, dol_now(), '', '', $tmpproduct->status_batch, $id_product_batch, $codemovement);
 							} else {
-								$idstockmove = $stockmove->reception(DolibarrApiAccess::$user, $line->fk_product, $line->fk_warehouse, $qtytoprocess, 0, $labelmovement, dol_now(), '', '', $tmpproduct->status_batch, $id_product_batch, $codemovement);
+								$idstockmove = $stockmove->reception(bespoerpApiAccess::$user, $line->fk_product, $line->fk_warehouse, $qtytoprocess, 0, $labelmovement, dol_now(), '', '', $tmpproduct->status_batch, $id_product_batch, $codemovement);
 							}
 							if ($idstockmove < 0) {
 								$error++;
@@ -580,9 +580,9 @@ class Mos extends DolibarrApi
 							$moline->role = 'produced';
 							$moline->fk_mrp_production = $line->id;
 							$moline->fk_stock_movement = $idstockmove;
-							$moline->fk_user_creat = DolibarrApiAccess::$user->id;
+							$moline->fk_user_creat = bespoerpApiAccess::$user->id;
 
-							$resultmoline = $moline->create(DolibarrApiAccess::$user);
+							$resultmoline = $moline->create(bespoerpApiAccess::$user);
 							if ($resultmoline <= 0) {
 								$error++;
 								throw new RestException(500, $moline->error);

@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# bespoerp language file - Source file is en_US - stripe
 StripeSetup=ການຕັ້ງຄ່າໂມດູນເສັ້ນດ່າງ
-StripeDesc=Offer your customers an online payment page for payments with credit/debit cards via <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a>. This can be used to allow your customers to make ad-hoc payments or for payments related to a particular Dolibarr object (invoice, order, ...)
+StripeDesc=Offer your customers an online payment page for payments with credit/debit cards via <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a>. This can be used to allow your customers to make ad-hoc payments or for payments related to a particular bespoerp object (invoice, order, ...)
 StripeOrCBDoPayment=ຈ່າຍດ້ວຍບັດເຄຣດິດຫຼື Stripe
-FollowingUrlAreAvailableToMakePayments=URLs ຕໍ່ໄປນີ້ແມ່ນມີຢູ່ເພື່ອສະ ເໜີ ໜ້າ ໃຫ້ລູກຄ້າເພື່ອຊໍາລະເງິນກັບວັດຖຸ Dolibarr
+FollowingUrlAreAvailableToMakePayments=URLs ຕໍ່ໄປນີ້ແມ່ນມີຢູ່ເພື່ອສະ ເໜີ ໜ້າ ໃຫ້ລູກຄ້າເພື່ອຊໍາລະເງິນກັບວັດຖຸ bespoerp
 PaymentForm=ແບບຟອມການຊໍາລະເງິນ
 WelcomeOnPaymentPage=ຍິນດີຕ້ອນຮັບສູ່ການບໍລິການຊໍາລະເງິນອອນໄລນຂອງພວກເຮົາ
 ThisScreenAllowsYouToPay=ໜ້າ ຈໍນີ້ຊ່ວຍໃຫ້ເຈົ້າສາມາດຊໍາລະເງິນອອນໄລນ to ຫາ %s.

@@ -24,13 +24,13 @@
 
 define('NOSCANPOSTFORINJECTION', 1);
 define('NOSTYLECHECK', 1);
-define('USEDOLIBARREDITOR', 1);
+define('USEbespoerpEDITOR', 1);
 define('FORCE_CKEDITOR', 1); // We need CKEditor, even if module is off.
 if (!defined('DISABLE_JS_GRAHP')) define('DISABLE_JS_GRAPH', 1);
 
 //header('X-XSS-Protection:0');	// Disable XSS filtering protection of some browsers (note: use of Content-Security-Policy is more efficient). Disabled as deprecated.
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/files.lib.php';
@@ -232,8 +232,8 @@ if (empty($pageid) && empty($pageref) && $object->id > 0 && $action != 'createco
 }
 
 
-global $dolibarr_main_data_root;
-$pathofwebsite = $dolibarr_main_data_root.($conf->entity > 1 ? '/'.$conf->entity : '').'/website/'.$websitekey;
+global $bespoerp_main_data_root;
+$pathofwebsite = $bespoerp_main_data_root.($conf->entity > 1 ? '/'.$conf->entity : '').'/website/'.$websitekey;
 $filehtmlheader = $pathofwebsite.'/htmlheader.html';
 $filecss = $pathofwebsite.'/styles.css.php';
 $filejs = $pathofwebsite.'/javascript.js.php';
@@ -248,7 +248,7 @@ $filelicense = $pathofwebsite.'/LICENSE';
 $filemaster = $pathofwebsite.'/master.inc.php';
 
 // Define $urlwithroot
-$urlwithouturlroot = preg_replace('/'.preg_quote(DOL_URL_ROOT, '/').'$/i', '', trim($dolibarr_main_url_root));
+$urlwithouturlroot = preg_replace('/'.preg_quote(DOL_URL_ROOT, '/').'$/i', '', trim($bespoerp_main_url_root));
 $urlwithroot = $urlwithouturlroot.DOL_URL_ROOT; // This is to use external domain name found into config file
 //$urlwithroot=DOL_MAIN_URL_ROOT;					// This is to use same domain name than current
 
@@ -433,25 +433,25 @@ if ($action == 'setwebsiteoffline') {
 	exit;
 }
 if ($action == 'seteditinline') {
-	dolibarr_set_const($db, 'WEBSITE_EDITINLINE', 1);
+	bespoerp_set_const($db, 'WEBSITE_EDITINLINE', 1);
 	setEventMessages($langs->trans("FeatureNotYetAvailable"), null, 'warnings');
-	//dolibarr_set_const($db, 'WEBSITE_SUBCONTAINERSINLINE', 0); // Force disable of 'Include dynamic content'
+	//bespoerp_set_const($db, 'WEBSITE_SUBCONTAINERSINLINE', 0); // Force disable of 'Include dynamic content'
 	header("Location: ".$_SERVER["PHP_SELF"].'?website='.GETPOST('website', 'alphanohtml').'&pageid='.GETPOST('pageid', 'int'));
 	exit;
 }
 if ($action == 'unseteditinline') {
-	dolibarr_del_const($db, 'WEBSITE_EDITINLINE');
+	bespoerp_del_const($db, 'WEBSITE_EDITINLINE');
 	header("Location: ".$_SERVER["PHP_SELF"].'?website='.GETPOST('website', 'alphanohtml').'&pageid='.GETPOST('pageid', 'int'));
 	exit;
 }
 if ($action == 'setshowsubcontainers') {
-	dolibarr_set_const($db, 'WEBSITE_SUBCONTAINERSINLINE', 1);
-	//dolibarr_set_const($db, 'WEBSITE_EDITINLINE', 0); // Force disable of edit inline
+	bespoerp_set_const($db, 'WEBSITE_SUBCONTAINERSINLINE', 1);
+	//bespoerp_set_const($db, 'WEBSITE_EDITINLINE', 0); // Force disable of edit inline
 	header("Location: ".$_SERVER["PHP_SELF"].'?website='.GETPOST('website', 'alphanohtml').'&pageid='.GETPOST('pageid', 'int'));
 	exit;
 }
 if ($action == 'unsetshowsubcontainers') {
-	dolibarr_del_const($db, 'WEBSITE_SUBCONTAINERSINLINE');
+	bespoerp_del_const($db, 'WEBSITE_SUBCONTAINERSINLINE');
 	header("Location: ".$_SERVER["PHP_SELF"].'?website='.GETPOST('website', 'alphanohtml').'&pageid='.GETPOST('pageid', 'int'));
 	exit;
 }
@@ -572,9 +572,9 @@ if ($massaction == 'delcategory' && GETPOST('confirmmassaction', 'alpha') && $us
 if ($massaction == 'replace' && GETPOST('confirmmassaction', 'alpha') && $usercanedit) {
 	$replacestring = GETPOST('replacestring', 'none');
 
-	$dolibarrdataroot = preg_replace('/([\\/]+)$/i', '', DOL_DATA_ROOT);
+	$bespoerpdataroot = preg_replace('/([\\/]+)$/i', '', DOL_DATA_ROOT);
 	$allowimportsite = true;
-	if (dol_is_file($dolibarrdataroot.'/installmodules.lock')) {
+	if (dol_is_file($bespoerpdataroot.'/installmodules.lock')) {
 		$allowimportsite = false;
 	}
 
@@ -585,7 +585,7 @@ if ($massaction == 'replace' && GETPOST('confirmmassaction', 'alpha') && $userca
 			$message = $langs->trans('InstallModuleFromWebHasBeenDisabledContactUs');
 		} else {
 			// Show technical generic message
-			$message = $langs->trans("InstallModuleFromWebHasBeenDisabledByFile", $dolibarrdataroot.'/installmodules.lock');
+			$message = $langs->trans("InstallModuleFromWebHasBeenDisabledByFile", $bespoerpdataroot.'/installmodules.lock');
 		}
 		setEventMessages($message, null, 'errors');
 	} elseif (empty($user->rights->website->writephp)) {
@@ -1016,7 +1016,7 @@ if ($action == 'addcontainer' && $usercanedit) {
 
 						getAllImages($object, $objectpage, $urltograbbis, $tmpgeturl['content'], $action, 1, $grabimages, $grabimagesinto);
 
-						// We try to convert the CSS we got by adding a prefix .bodywebsite with lessc to avoid conflict with CSS of Dolibarr.
+						// We try to convert the CSS we got by adding a prefix .bodywebsite with lessc to avoid conflict with CSS of bespoerp.
 						include_once DOL_DOCUMENT_ROOT.'/core/class/lessc.class.php';
 						$lesscobj = new Lessc();
 						try {
@@ -1049,7 +1049,7 @@ if ($action == 'addcontainer' && $usercanedit) {
 
 				getAllImages($object, $objectpage, $urltograb, $tmp, $action, 1, $grabimages, $grabimagesinto);
 
-				// Normalize links href to Dolibarr internal naming
+				// Normalize links href to bespoerp internal naming
 				$tmp = preg_replace('/a href="\/([^\/"]+)\/([^\/"]+)"/', 'a href="/\1-\2.php"', $tmp);
 				$tmp = preg_replace('/a href="\/([^\/"]+)\/([^\/"]+)\/([^\/"]+)"/', 'a href="/\1-\2-\3.php"', $tmp);
 				$tmp = preg_replace('/a href="\/([^\/"]+)\/([^\/"]+)\/([^\/"]+)\/([^\/"]+)"/', 'a href="/\1-\2-\3-\4.php"', $tmp);
@@ -1281,7 +1281,7 @@ if ($action == 'addcontainer' && $usercanedit) {
 		}
 
 		if (!dol_is_file($filerobot)) {
-			$robotcontent = "# Robot file. Generated with Dolibarr\nUser-agent: *\nAllow: /public/\nDisallow: /administrator/";
+			$robotcontent = "# Robot file. Generated with bespoerp\nUser-agent: *\nAllow: /public/\nDisallow: /administrator/";
 			$result = dolSaveRobotFile($filerobot, $robotcontent);
 		}
 
@@ -1296,7 +1296,7 @@ if ($action == 'addcontainer' && $usercanedit) {
 		}
 
 		if (!dol_is_file($filereadme)) {
-			$readmecontent = "Website generated by Dolibarr ERP CRM";
+			$readmecontent = "Website generated by bespoerp ERP CRM";
 			$result = dolSaveReadme($filereadme, $readmecontent);
 		}
 
@@ -1542,7 +1542,7 @@ if ($action == 'updatecss' && $usercanedit) {
 				/* We disable php code since htmlheader is never executed as an include but only read by fgets_content.
 				$htmlheadercontent.= "<?php // BEGIN PHP\n";
 				$htmlheadercontent.= '$websitekey=basename(__DIR__);'."\n";
-				$htmlheadercontent.= "if (! defined('USEDOLIBARRSERVER') && ! defined('USEDOLIBARREDITOR')) { require_once './master.inc.php'; } // Load env if not already loaded"."\n";
+				$htmlheadercontent.= "if (! defined('USEbespoerpSERVER') && ! defined('USEbespoerpEDITOR')) { require_once './master.inc.php'; } // Load env if not already loaded"."\n";
 				$htmlheadercontent.= "require_once DOL_DOCUMENT_ROOT.'/core/lib/website.lib.php';\n";
 				$htmlheadercontent.= "require_once DOL_DOCUMENT_ROOT.'/core/website.inc.php';\n";
 				$htmlheadercontent.= "ob_start();\n";
@@ -1579,7 +1579,7 @@ if ($action == 'updatecss' && $usercanedit) {
 
 				$csscontent .= "<?php // BEGIN PHP\n";
 				$csscontent .= '$websitekey=basename(__DIR__);'."\n";
-				$csscontent .= "if (! defined('USEDOLIBARRSERVER') && ! defined('USEDOLIBARREDITOR')) { require_once __DIR__.'/master.inc.php'; } // Load env if not already loaded\n"; // For the css, we need to set path of master using the dirname of css file.
+				$csscontent .= "if (! defined('USEbespoerpSERVER') && ! defined('USEbespoerpEDITOR')) { require_once __DIR__.'/master.inc.php'; } // Load env if not already loaded\n"; // For the css, we need to set path of master using the dirname of css file.
 				$csscontent .= "require_once DOL_DOCUMENT_ROOT.'/core/lib/website.lib.php';\n";
 				$csscontent .= "require_once DOL_DOCUMENT_ROOT.'/core/website.inc.php';\n";
 				$csscontent .= "ob_start();\n";
@@ -1622,7 +1622,7 @@ if ($action == 'updatecss' && $usercanedit) {
 
 				$jscontent .= "<?php // BEGIN PHP\n";
 				$jscontent .= '$websitekey=basename(__DIR__);'."\n";
-				$jscontent .= "if (! defined('USEDOLIBARRSERVER') && ! defined('USEDOLIBARREDITOR')) { require_once __DIR__.'/master.inc.php'; } // Load env if not already loaded\n"; // For the css, we need to set path of master using the dirname of css file.
+				$jscontent .= "if (! defined('USEbespoerpSERVER') && ! defined('USEbespoerpEDITOR')) { require_once __DIR__.'/master.inc.php'; } // Load env if not already loaded\n"; // For the css, we need to set path of master using the dirname of css file.
 				$jscontent .= "require_once DOL_DOCUMENT_ROOT.'/core/lib/website.lib.php';\n";
 				$jscontent .= "require_once DOL_DOCUMENT_ROOT.'/core/website.inc.php';\n";
 				$jscontent .= "ob_start();\n";
@@ -1660,7 +1660,7 @@ if ($action == 'updatecss' && $usercanedit) {
 
 				/*$robotcontent.= "<?php // BEGIN PHP\n";
 				$robotcontent.= '$websitekey=basename(__DIR__);'."\n";
-				$robotcontent.= "if (! defined('USEDOLIBARRSERVER') && ! defined('USEDOLIBARREDITOR')) { require_once './master.inc.php'; } // Load env if not already loaded"."\n";
+				$robotcontent.= "if (! defined('USEbespoerpSERVER') && ! defined('USEbespoerpEDITOR')) { require_once './master.inc.php'; } // Load env if not already loaded"."\n";
 				$robotcontent.= "require_once DOL_DOCUMENT_ROOT.'/core/lib/website.lib.php';\n";
 				$robotcontent.= "require_once DOL_DOCUMENT_ROOT.'/core/website.inc.php';\n";
 				$robotcontent.= "ob_start();\n";
@@ -1722,7 +1722,7 @@ if ($action == 'updatecss' && $usercanedit) {
 
 				$manifestjsoncontent .= "<?php // BEGIN PHP\n";
 				$manifestjsoncontent .= '$websitekey=basename(__DIR__);'."\n";
-				$manifestjsoncontent .= "if (! defined('USEDOLIBARRSERVER') && ! defined('USEDOLIBARREDITOR')) { require_once __DIR__.'/master.inc.php'; } // Load env if not already loaded\n"; // For the css, we need to set path of master using the dirname of css file.
+				$manifestjsoncontent .= "if (! defined('USEbespoerpSERVER') && ! defined('USEbespoerpEDITOR')) { require_once __DIR__.'/master.inc.php'; } // Load env if not already loaded\n"; // For the css, we need to set path of master using the dirname of css file.
 				$manifestjsoncontent .= "require_once DOL_DOCUMENT_ROOT.'/core/lib/website.lib.php';\n";
 				$manifestjsoncontent .= "require_once DOL_DOCUMENT_ROOT.'/core/website.inc.php';\n";
 				$manifestjsoncontent .= "ob_start();\n";
@@ -1760,7 +1760,7 @@ if ($action == 'updatecss' && $usercanedit) {
 
 				/*$readmecontent.= "<?php // BEGIN PHP\n";
 				   $readmecontent.= '$websitekey=basename(__DIR__);'."\n";
-				   $readmecontent.= "if (! defined('USEDOLIBARRSERVER') && ! defined('USEDOLIBARREDITOR')) { require_once __DIR__.'/master.inc.php'; } // Load env if not already loaded"."\n";	// For the css, we need to set path of master using the dirname of css file.
+				   $readmecontent.= "if (! defined('USEbespoerpSERVER') && ! defined('USEbespoerpEDITOR')) { require_once __DIR__.'/master.inc.php'; } // Load env if not already loaded"."\n";	// For the css, we need to set path of master using the dirname of css file.
 				   $readmecontent.= "require_once DOL_DOCUMENT_ROOT.'/core/lib/website.lib.php';\n";
 				   $readmecontent.= "require_once DOL_DOCUMENT_ROOT.'/core/website.inc.php';\n";
 				   $readmecontent.= "ob_start();\n";
@@ -1798,7 +1798,7 @@ if ($action == 'updatecss' && $usercanedit) {
 
 				/*$readmecontent.= "<?php // BEGIN PHP\n";
 				 $readmecontent.= '$websitekey=basename(__DIR__);'."\n";
-				 $readmecontent.= "if (! defined('USEDOLIBARRSERVER') && ! defined('USEDOLIBARREDITOR')) { require_once __DIR__.'/master.inc.php'; } // Load env if not already loaded"."\n";	// For the css, we need to set path of master using the dirname of css file.
+				 $readmecontent.= "if (! defined('USEbespoerpSERVER') && ! defined('USEbespoerpEDITOR')) { require_once __DIR__.'/master.inc.php'; } // Load env if not already loaded"."\n";	// For the css, we need to set path of master using the dirname of css file.
 				 $readmecontent.= "require_once DOL_DOCUMENT_ROOT.'/core/lib/website.lib.php';\n";
 				 $readmecontent.= "require_once DOL_DOCUMENT_ROOT.'/core/website.inc.php';\n";
 				 $readmecontent.= "ob_start();\n";
@@ -2166,7 +2166,7 @@ if ($usercanedit && (($action == 'updatesource' || $action == 'updatecontent' ||
 			$tmpwebsite = new Website($db);
 			if ($newwebsiteid > 0 && $newwebsiteid != $object->id) {
 				$tmpwebsite->fetch($newwebsiteid);
-				$pathofwebsitenew = $dolibarr_main_data_root.($conf->entity > 1 ? '/'.$conf->entity : '').'/website/'.$tmpwebsite->ref;
+				$pathofwebsitenew = $bespoerp_main_data_root.($conf->entity > 1 ? '/'.$conf->entity : '').'/website/'.$tmpwebsite->ref;
 			} else {
 				$tmpwebsite = $object;
 			}
@@ -2403,9 +2403,9 @@ if ($action == 'regeneratesite' && $usercanedit) {
 
 // Import site
 if ($action == 'importsiteconfirm' && $usercanedit) {
-	$dolibarrdataroot = preg_replace('/([\\/]+)$/i', '', DOL_DATA_ROOT);
+	$bespoerpdataroot = preg_replace('/([\\/]+)$/i', '', DOL_DATA_ROOT);
 	$allowimportsite = true;
-	if (dol_is_file($dolibarrdataroot.'/installmodules.lock')) {
+	if (dol_is_file($bespoerpdataroot.'/installmodules.lock')) {
 		$allowimportsite = false;
 	}
 
@@ -2481,7 +2481,7 @@ if ($action == 'importsiteconfirm' && $usercanedit) {
 						$action = 'importsite';
 					} else {
 						// Force mode dynamic on
-						dolibarr_set_const($db, 'WEBSITE_SUBCONTAINERSINLINE', 1, 'chaine', 0, '', $conf->entity);
+						bespoerp_set_const($db, 'WEBSITE_SUBCONTAINERSINLINE', 1, 'chaine', 0, '', $conf->entity);
 
 						header("Location: ".$_SERVER["PHP_SELF"].'?website='.$object->ref);
 						exit();
@@ -2495,7 +2495,7 @@ if ($action == 'importsiteconfirm' && $usercanedit) {
 			$message = $langs->trans('InstallModuleFromWebHasBeenDisabledContactUs');
 		} else {
 			// Show technical generic message
-			$message = $langs->trans("InstallModuleFromWebHasBeenDisabledByFile", $dolibarrdataroot.'/installmodules.lock');
+			$message = $langs->trans("InstallModuleFromWebHasBeenDisabledByFile", $bespoerpdataroot.'/installmodules.lock');
 		}
 		setEventMessages($message, null, 'errors');
 	}
@@ -2557,7 +2557,7 @@ if ($action == 'generatesitemaps' && $usercanedit) {
 				if (! preg_match('/^http/i', $domainname)) {
 					$domainname = 'https://'.$domainname;
 				}
-				//$pathofpage = $dolibarr_main_url_root.'/'.$pageurl.'.php';
+				//$pathofpage = $bespoerp_main_url_root.'/'.$pageurl.'.php';
 
 				// URL of sitemaps must end with trailing slash if page is ''
 				$loc = $domtree->createElement('loc', $domainname.'/'.$pageurl);
@@ -3373,7 +3373,7 @@ if (!GETPOST('hide_websitemenu')) {
 			$realpage = $urlwithroot.'/public/website/index.php?website='.$websitekey.'&pageref='.$websitepage->pageurl;
 			$pagealias = $websitepage->pageurl;
 
-			$htmltext = $langs->trans("PreviewSiteServedByDolibarr", $langs->transnoentitiesnoconv("Page"), $langs->transnoentitiesnoconv("Page"), $realpage, $dataroot);
+			$htmltext = $langs->trans("PreviewSiteServedBybespoerp", $langs->transnoentitiesnoconv("Page"), $langs->transnoentitiesnoconv("Page"), $realpage, $dataroot);
 			$htmltext .= '<br>'.$langs->trans("CheckVirtualHostPerms", $langs->transnoentitiesnoconv("ReadPerm"), '{s1}');
 			$htmltext = str_replace('{s1}', $dataroot.'<br>'.DOL_DATA_ROOT.'/medias<br>'.DOL_DOCUMENT_ROOT, $htmltext);
 			//$htmltext .= '<br>'.$langs->trans("CheckVirtualHostPerms", $langs->transnoentitiesnoconv("WritePerm"), '{s1}');
@@ -3424,7 +3424,7 @@ if (!GETPOST('hide_websitemenu')) {
 
 		print '<span class="websitehelp">';
 		if ($action == 'editsource' || $action == 'editcontent' || GETPOST('editsource', 'alpha') || GETPOST('editcontent', 'alpha')) {
-			$url = 'https://wiki.dolibarr.org/index.php/Module_Website';
+			$url = 'https://wiki.bespoerp.org/index.php/Module_Website';
 
 			$htmltext = $langs->transnoentitiesnoconv("YouCanEditHtmlSource", $url);
 			$htmltext .= $langs->transnoentitiesnoconv("YouCanEditHtmlSource2", $url);
@@ -3904,9 +3904,9 @@ if ($action == 'importsite') {
 	print '<span class="opacitymedium">'.$langs->trans("ZipOfWebsitePackageToImport").'</span><br><br>';
 
 
-	$dolibarrdataroot = preg_replace('/([\\/]+)$/i', '', DOL_DATA_ROOT);
+	$bespoerpdataroot = preg_replace('/([\\/]+)$/i', '', DOL_DATA_ROOT);
 	$allowimportsite = true;
-	if (dol_is_file($dolibarrdataroot.'/installmodules.lock')) {
+	if (dol_is_file($bespoerpdataroot.'/installmodules.lock')) {
 		$allowimportsite = false;
 	}
 
@@ -3926,7 +3926,7 @@ if ($action == 'importsite') {
 			$message = $langs->trans('InstallModuleFromWebHasBeenDisabledContactUs');
 		} else {
 			// Show technical generic message
-			$message = $langs->trans("InstallModuleFromWebHasBeenDisabledByFile", $dolibarrdataroot.'/installmodules.lock');
+			$message = $langs->trans("InstallModuleFromWebHasBeenDisabledByFile", $bespoerpdataroot.'/installmodules.lock');
 		}
 		print info_admin($message).'<br><br>';
 	}
@@ -4902,7 +4902,7 @@ if ((empty($action) || $action == 'preview' || $action == 'createfromclone' || $
 		// $filecss
 		// $filephp
 
-		// Ouput page under the Dolibarr top menu
+		// Ouput page under the bespoerp top menu
 		$objectpage->fetch($pageid);
 
 		$jscontent = @file_get_contents($filejs);
@@ -4968,7 +4968,7 @@ if ((empty($action) || $action == 'preview' || $action == 'createfromclone' || $
 			}
 		}
 		$tmpout .= $tmpstyleinheader."\n";
-		// Clean style that may affect global style of Dolibarr
+		// Clean style that may affect global style of bespoerp
 		$tmpout = preg_replace('/}[\s\n]*body\s*{[^}]+}/ims', '}', $tmpout);
 		$out .= $tmpout;
 		$out .= '</style>'."\n";

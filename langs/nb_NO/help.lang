@@ -1,12 +1,12 @@
-# Dolibarr language file - Source file is en_US - help
+# bespoerp language file - Source file is en_US - help
 CommunitySupport=Forum/Wiki-support
 EMailSupport=Epostsupport
 RemoteControlSupport=Online sanntids/ekstern støtte
 OtherSupport=Annen support
 ToSeeListOfAvailableRessources=For å se tilgjengelige ressurser:
 HelpCenter=Hjelpesenter
-DolibarrHelpCenter=Dolibarr hjelp og støttesenter
-ToGoBackToDolibarr=Ellers, klikk <a href="%s"> her for å fortsette å bruke Dolibarr </a>.
+bespoerpHelpCenter=bespoerp hjelp og støttesenter
+ToGoBackTobespoerp=Ellers, klikk <a href="%s"> her for å fortsette å bruke bespoerp </a>.
 TypeOfSupport=Type støtte
 TypeSupportCommunauty=Brukergruppe (gratis)
 TypeSupportCommercial=Kommersiell
@@ -17,7 +17,7 @@ TypeHelpOnly=Kun hjelp
 TypeHelpDev=Hjelp + Utvikling
 TypeHelpDevForm=Hjelp+utvikling+trening
 BackToHelpCenter=Ellers,<a href="%s">gå tilbake til brukerstøttens hjemmeside </a>.
-LinkToGoldMember=Du kan ringe forhåndsvalgt support fra Dolibarr for ditt språk (%s) ved å klikke dennes Widget (status og maksimumspris blir automatisk oppdatert):
+LinkToGoldMember=Du kan ringe forhåndsvalgt support fra bespoerp for ditt språk (%s) ved å klikke dennes Widget (status og maksimumspris blir automatisk oppdatert):
 PossibleLanguages=Støttede språk
-SubscribeToFoundation=Hjelp Dolibarr-prosjektet, bli en abonnent
-SeeOfficalSupport=For offisiell Dolibarr-støtte på ditt språk: <br> <b> <a href="%s" target="_blank" rel="noopener noreferrer"> %s </a></b>
+SubscribeToFoundation=Hjelp bespoerp-prosjektet, bli en abonnent
+SeeOfficalSupport=For offisiell bespoerp-støtte på ditt språk: <br> <b> <a href="%s" target="_blank" rel="noopener noreferrer"> %s </a></b>

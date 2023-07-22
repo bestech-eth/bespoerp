@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - compta
+# bespoerp language file - Source file is en_US - compta
 MenuFinancial=Contabilità
 TaxModuleSetupToModifyRules=Per modificare le regole di calcolo, vai ad <a href="%s">impostazioni Modulo Imposte</a>
 TaxModuleSetupToModifyRulesLT=Per modificare le regole di calcolo, vai ad <a href="%s">impostazioni Azienda</a>\n

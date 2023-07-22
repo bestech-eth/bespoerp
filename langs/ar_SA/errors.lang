@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# bespoerp language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=أي خطأ، ونحن نلزم
@@ -51,10 +51,10 @@ ErrorWrongDate=تاريخ غير صحيح!
 ErrorFailedToWriteInDir=لم يكتب في دليل ٪ ق
 ErrorFailedToBuildArchive=Failed to build archive file %s
 ErrorFoundBadEmailInFile=Found incorrect email syntax for %s lines in file (example line %s with email=العثور على بريد إلكتروني صحيح لتركيب خطوط ق ٪ في ملف (على سبيل المثال خط ٪ ق= ٪ مع البريد الإلكتروني)
-ErrorUserCannotBeDelete=لا يمكن حذف المستخدم. ربما يرتبط بكيانات Dolibarr.
+ErrorUserCannotBeDelete=لا يمكن حذف المستخدم. ربما يرتبط بكيانات bespoerp.
 ErrorFieldsRequired=تم ترك بعض الحقول المطلوبة فارغة.
 ErrorSubjectIsRequired=موضوع البريد الإلكتروني مطلوب
-ErrorFailedToCreateDir=فشل إنشاء دليل. تأكد من أن خادم الويب المستخدم أذونات لكتابة وثائق Dolibarr في الدليل. إذا تم تمكين المعلم <b>safe_mode</b> على هذا PHP ، تحقق من أن ملفات Dolibarr php تملك لخدمة الويب المستخدم (أو مجموعة).
+ErrorFailedToCreateDir=فشل إنشاء دليل. تأكد من أن خادم الويب المستخدم أذونات لكتابة وثائق bespoerp في الدليل. إذا تم تمكين المعلم <b>safe_mode</b> على هذا PHP ، تحقق من أن ملفات bespoerp php تملك لخدمة الويب المستخدم (أو مجموعة).
 ErrorNoMailDefinedForThisUser=البريد لا يعرف لهذا المستخدم
 ErrorSetupOfEmailsNotComplete=لم يكتمل إعداد رسائل البريد الإلكتروني
 ErrorFeatureNeedJavascript=هذه الميزة تحتاج إلى تفعيل جافا سكريبت في العمل. هذا التغيير في البنية -- عرض.
@@ -82,7 +82,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=The field <b>%s</b> must not co
 ErrorFieldMustHaveXChar=يجب أن يحتوي الحقل <b> %s </b> على أحرف %s على الأقل.
 ErrorNoAccountancyModuleLoaded=أي وحدة المحاسبة وتفعيل
 ErrorExportDuplicateProfil=هذا الاسم الشخصي موجود مسبقا لهذه المجموعة التصدير.
-ErrorLDAPSetupNotComplete=Dolibarr - LDAP المطابقة وليس كاملا.
+ErrorLDAPSetupNotComplete=bespoerp - LDAP المطابقة وليس كاملا.
 ErrorLDAPMakeManualTest=ألف. ldif الملف قد ولدت في الدليل ٪ s. انها محاولة لتحميل يدويا من سطر في الحصول على مزيد من المعلومات عن الأخطاء.
 ErrorCantSaveADoneUserWithZeroPercentage=لا يمكن حفظ إجراء مع "الحالة لم تبدأ" إذا تم ملء الحقل "تم بواسطة" أيضًا.
 ErrorRefAlreadyExists=المرجع <b> %s </b> موجود بالفعل.
@@ -115,8 +115,8 @@ ErrorProdIdAlreadyExist=يتم تعيين ثلث آخر إلى %s
 ErrorFailedToSendPassword=لم ترسل كلمة السر
 ErrorFailedToLoadRSSFile=فشل في الحصول على آر إس إس. محاولة إضافة MAIN_SIMPLEXMLLOAD_DEBUG ثابت إذا رسائل الخطأ لا توفر ما يكفي من المعلومات.
 ErrorForbidden=تم الرفض. <br> محاولة الوصول إلى صفحة أو منطقة أو ميزة من وحدة نمطية تعطيل أو دون أن تكون في جلسة مصادقة أو الذي لا يسمح له المستخدم الخاص بك.
-ErrorForbidden2=ويمكن تعريف إذن لهذا الدخول من قبل المسؤول Dolibarr الخاص بك من القائمة %s-> %s.
-ErrorForbidden3=يبدو أن لا يتم استخدام Dolibarr خلال جلسة المصادقة. نلقي نظرة على وثائق الإعداد Dolibarr لمعرفة كيفية إدارة المصادقة (تاكيس، mod_auth أو غيرها ...).
+ErrorForbidden2=ويمكن تعريف إذن لهذا الدخول من قبل المسؤول bespoerp الخاص بك من القائمة %s-> %s.
+ErrorForbidden3=يبدو أن لا يتم استخدام bespoerp خلال جلسة المصادقة. نلقي نظرة على وثائق الإعداد bespoerp لمعرفة كيفية إدارة المصادقة (تاكيس، mod_auth أو غيرها ...).
 ErrorForbidden4=ملاحظة: امسح ملفات تعريف الارتباط في متصفحك لتدمير الجلسات الحالية لتسجيل الدخول هذا.
 ErrorNoImagickReadimage=لم يتم العثور على فئة Imagick في هذا PHP. لا يمكن لمعاينة تكون متاحة. يمكن للمسؤولين تعطيل هذا التبويب من إعداد القائمة - عرض.
 ErrorRecordAlreadyExists=سجل موجود بالفعل
@@ -139,8 +139,8 @@ ErrorWebServerUserHasNotPermission=<b>%s</b> تستخدم حساب مستخدم 
 ErrorNoActivatedBarcode=لا يوجد نوع الباركود تفعيلها
 ErrUnzipFails=فشل بفك٪ الصورة مع ZipArchive
 ErrNoZipEngine=No engine to zip/unzip %s file in this PHP
-ErrorFileMustBeADolibarrPackage=يجب أن يكون الملف٪ s حزمة البريدي Dolibarr
-ErrorModuleFileRequired=You must select a Dolibarr module package file
+ErrorFileMustBeAbespoerpPackage=يجب أن يكون الملف٪ s حزمة البريدي bespoerp
+ErrorModuleFileRequired=You must select a bespoerp module package file
 ErrorPhpCurlNotInstalled=وPHP الضفيرة لم يتم تثبيت، وهذا أمر ضروري لاجراء محادثات مع باي بال
 ErrorFailedToAddToMailmanList=فشل لاضافة التسجيلة٪ s إلى قائمة ميلمان٪ الصورة أو قاعدة SPIP
 ErrorFailedToRemoveToMailmanList=فشل لإزالة سجل٪ s إلى قائمة ميلمان٪ الصورة أو قاعدة SPIP
@@ -152,7 +152,7 @@ ErrorDateMustBeBeforeToday=يجب أن يكون التاريخ أقل من ال�
 ErrorDateMustBeInFuture=يجب أن يكون التاريخ أكبر من اليوم
 ErrorPaymentModeDefinedToWithoutSetup=وتم تشكيل لطريقة الدفع لكتابة٪ الصورة ولكن لم يكتمل الإعداد من وحدة الفاتورة لتحديد المعلومات لاظهار هذه طريقة الدفع.
 ErrorPHPNeedModule=خطأ، يجب PHP الخاص بتثبيت <b>وحدة٪ s إلى</b> استخدام هذه الميزة.
-ErrorOpenIDSetupNotComplete=يمكنك إعداد Dolibarr ملف التكوين للسماح بالمصادقة رض، ولكن لم يتم تعريف URL الخدمة رض إلى المستمر٪ الصورة
+ErrorOpenIDSetupNotComplete=يمكنك إعداد bespoerp ملف التكوين للسماح بالمصادقة رض، ولكن لم يتم تعريف URL الخدمة رض إلى المستمر٪ الصورة
 ErrorWarehouseMustDiffers=يجب المصدر والهدف يختلف المستودعات
 ErrorBadFormat=شكل سيئة!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Error, this member is not yet linked to any third party. Link member to an existing third party or create a new third party before creating subscription with invoice.
@@ -215,7 +215,7 @@ ErrorUserNotAssignedToTask=User must be assigned to task to be able to enter tim
 ErrorTaskAlreadyAssigned=Task already assigned to user
 ErrorModuleFileSeemsToHaveAWrongFormat=The module package seems to have a wrong format.
 ErrorModuleFileSeemsToHaveAWrongFormat2=يجب أن يوجد دليل إلزامي واحد على الأقل في ملف مضغوط للوحدة النمطية: <strong> %s </strong> أو <strong> %s </strong>
-ErrorFilenameDosNotMatchDolibarrPackageRules=The name of the module package (<strong>%s</strong>) does not match expected name syntax: <strong>%s</strong>
+ErrorFilenameDosNotMatchbespoerpPackageRules=The name of the module package (<strong>%s</strong>) does not match expected name syntax: <strong>%s</strong>
 ErrorDuplicateTrigger=Error, duplicate trigger name %s. Already loaded from %s.
 ErrorNoWarehouseDefined=Error, no warehouses defined.
 ErrorBadLinkSourceSetButBadValueForRef=The link you use is not valid. A 'source' for payment is defined, but value for 'ref' is not valid.
@@ -306,7 +306,7 @@ ErrorTooMuchFileInForm=Too much files in form, the maximum number is %s file(s)
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=معلمة PHP upload_max_filesize (%s) أعلى من معلمة PHP post_max_size (%s). هذا ليس إعداد ثابت.
-WarningPasswordSetWithNoAccount=تم تعيين كلمة مرور لهذا العضو. ومع ذلك، تم إنشاء أي حساب المستخدم. لذلك يتم تخزين كلمة المرور هذه ولكن لا يمكن استخدامها للدخول إلى Dolibarr. ويمكن استخدامه من قبل وحدة / واجهة خارجية ولكن إذا كنت لا تحتاج إلى تعريف أي تسجيل دخول أو كلمة المرور لأحد أفراد، يمكنك تعطيل خيار "إدارة تسجيل دخول لكل عضو" من إعداد وحدة الأعضاء. إذا كنت بحاجة إلى إدارة تسجيل الدخول ولكن لا تحتاج إلى أي كلمة المرور، يمكنك الحفاظ على هذا الحقل فارغا لتجنب هذا التحذير. ملاحظة: يمكن أيضا أن تستخدم البريد الإلكتروني لتسجيل الدخول إذا تم ربط عضو إلى المستخدم.
+WarningPasswordSetWithNoAccount=تم تعيين كلمة مرور لهذا العضو. ومع ذلك، تم إنشاء أي حساب المستخدم. لذلك يتم تخزين كلمة المرور هذه ولكن لا يمكن استخدامها للدخول إلى bespoerp. ويمكن استخدامه من قبل وحدة / واجهة خارجية ولكن إذا كنت لا تحتاج إلى تعريف أي تسجيل دخول أو كلمة المرور لأحد أفراد، يمكنك تعطيل خيار "إدارة تسجيل دخول لكل عضو" من إعداد وحدة الأعضاء. إذا كنت بحاجة إلى إدارة تسجيل الدخول ولكن لا تحتاج إلى أي كلمة المرور، يمكنك الحفاظ على هذا الحقل فارغا لتجنب هذا التحذير. ملاحظة: يمكن أيضا أن تستخدم البريد الإلكتروني لتسجيل الدخول إذا تم ربط عضو إلى المستخدم.
 WarningMandatorySetupNotComplete=انقر هنا لإعداد المعلمات الرئيسية
 WarningEnableYourModulesApplications=انقر هنا لتمكين الوحدات والتطبيقات الخاصة بك
 WarningSafeModeOnCheckExecDir=انذار ، فب <b>safe_mode</b> الخيار في ذلك تخزين الأمر يجب أن يكون داخل الدليل الذي أعلنته <b>safe_mode_exec_dir</b> المعلمة بي.

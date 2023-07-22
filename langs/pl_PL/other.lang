@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# bespoerp language file - Source file is en_US - other
 SecurityCode=Kod zabezpieczający
 NumberingShort=N°
 Tools=Narzędzia
@@ -106,7 +106,7 @@ PredefinedMailContentSendFichInter=__(Cześć)__\n\nW załączeniu interwencja _
 PredefinedMailContentLink=Możesz kliknąć poniższy link, aby dokonać płatności, jeśli nie została jeszcze wykonana.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Cześć)__\n\n\n__(Z poważaniem)__\n\n__USER_SIGNATURE__
 PredefinedMailContentSendActionComm=Przypomnienie o wydarzeniu „__EVENT_LABEL__” w dniu __EVENT_DATE__ o __EVENT_TIME__ <br> <br> To jest wiadomość automatyczna, proszę nie odpowiadać.
-DemoDesc=Dolibarr to kompaktowy ERP / CRM obsługujący kilka modułów biznesowych. Demo pokazujące wszystkie moduły nie ma sensu, ponieważ taki scenariusz nigdy się nie zdarzy (kilkaset dostępnych). Tak więc dostępnych jest kilka profili demonstracyjnych.
+DemoDesc=bespoerp to kompaktowy ERP / CRM obsługujący kilka modułów biznesowych. Demo pokazujące wszystkie moduły nie ma sensu, ponieważ taki scenariusz nigdy się nie zdarzy (kilkaset dostępnych). Tak więc dostępnych jest kilka profili demonstracyjnych.
 ChooseYourDemoProfil=Wybierz profil demo najlepiej odzwierciedlający twoje potrzeby...
 ChooseYourDemoProfilMore=... lub stwórz własny profil <br> (ręczny wybór modułu)
 DemoFundation=Zarządzanie członkami fundacji
@@ -185,10 +185,10 @@ BugTracker=Bug tracker
 SendNewPasswordDesc=Ten formularz umożliwia zażądanie nowego hasła. Zostanie on wysłany na Twój adres e-mail. <br> Zmiana zacznie obowiązywać po kliknięciu linku potwierdzającego w wiadomości e-mail. <br> Sprawdź swoją skrzynkę odbiorczą.
 EnterNewPasswordHere=Enter your new password here
 BackToLoginPage=Powrót do strony logowania
-AuthenticationDoesNotAllowSendNewPassword=Uwierzytelnianie w <b>trybie %s.</b> <br> W tym trybie Dolibarr nie może znać ani zmienić hasła. <br> Skontaktuj się z administratorem systemu, jeśli chcesz zmienić swoje hasło.
+AuthenticationDoesNotAllowSendNewPassword=Uwierzytelnianie w <b>trybie %s.</b> <br> W tym trybie bespoerp nie może znać ani zmienić hasła. <br> Skontaktuj się z administratorem systemu, jeśli chcesz zmienić swoje hasło.
 EnableGDLibraryDesc=Zainstaluj lub włącz bibliotekę GD w instalacji PHP, aby użyć tej opcji.
 ProfIdShortDesc=<b>Prof ID %s</b> jest informacji w zależności od trzeciej kraju. <br> Na przykład, dla <b>kraju, %s,</b> jest to <b>kod %s.</b>
-DolibarrDemo=Demo Dolibarr ERP/CRM
+bespoerpDemo=Demo bespoerp ERP/CRM
 StatsByNumberOfUnits=Statystyki dla sum ilości produktów / usług
 StatsByNumberOfEntities=Statystyki wybranego obiektu (np. liczba faktur, liczba zamówień, ...)
 NumberOfProposals=Liczba propozycji
@@ -229,7 +229,7 @@ EMailTextHolidayValidated=Wniosek o opuszczenie %s został zatwierdzony.
 EMailTextHolidayApproved=Wniosek o urlop %s został zatwierdzony.
 EMailTextActionAdded=Akcja %s została dodana do porządku obrad.
 ImportedWithSet=Przywóz zestaw danych
-DolibarrNotification=Automatyczne powiadomienie
+bespoerpNotification=Automatyczne powiadomienie
 ResizeDesc=Skriv inn ny <b>bredde</b> eller ny høyde. Forhold vil bli holdt under resizing ...
 NewLength=Nowa szerokość
 NewHeight=Nowa waga

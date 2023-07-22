@@ -76,7 +76,7 @@ function opensurvey_prepare_head(Opensurveysondage $object)
 function llxHeaderSurvey($title, $head = "", $disablejs = 0, $disablehead = 0, $arrayofjs = '', $arrayofcss = '', $numsondage = '')
 {
 	global $conf, $langs, $mysoc;
-	global $dolibarr_main_url_root;
+	global $bespoerp_main_url_root;
 
 	//$replacemainarea = (empty($conf->dol_hide_leftmenu) ? '<div>' : '').'<div>';
 
@@ -101,10 +101,10 @@ function llxHeaderSurvey($title, $head = "", $disablejs = 0, $disablehead = 0, $
 	$urllogofull = '';
 	if (!empty($logosmall) && is_readable($conf->mycompany->dir_output.'/logos/thumbs/'.$logosmall)) {
 		$urllogo = DOL_URL_ROOT.'/viewimage.php?modulepart=mycompany&amp;entity='.$conf->entity.'&amp;file='.urlencode('logos/thumbs/'.$logosmall);
-		$urllogofull = $dolibarr_main_url_root.'/viewimage.php?modulepart=mycompany&entity='.$conf->entity.'&file='.urlencode('logos/thumbs/'.$logosmall);
+		$urllogofull = $bespoerp_main_url_root.'/viewimage.php?modulepart=mycompany&entity='.$conf->entity.'&file='.urlencode('logos/thumbs/'.$logosmall);
 	} elseif (!empty($logo) && is_readable($conf->mycompany->dir_output.'/logos/'.$logo)) {
 		$urllogo = DOL_URL_ROOT.'/viewimage.php?modulepart=mycompany&amp;entity='.$conf->entity.'&amp;file='.urlencode('logos/'.$logo);
-		$urllogofull = $dolibarr_main_url_root.'/viewimage.php?modulepart=mycompany&entity='.$conf->entity.'&file='.urlencode('logos/'.$logo);
+		$urllogofull = $bespoerp_main_url_root.'/viewimage.php?modulepart=mycompany&entity='.$conf->entity.'&file='.urlencode('logos/'.$logo);
 	}
 
 	// Output html code for logo
@@ -115,7 +115,7 @@ function llxHeaderSurvey($title, $head = "", $disablejs = 0, $disablehead = 0, $
 		print '>';
 		print '</div>';
 		if (empty($conf->global->MAIN_HIDE_POWERED_BY)) {
-			print '<div class="poweredbypublicpayment opacitymedium right"><a class="poweredbyhref" href="https://www.dolibarr.org?utm_medium=website&utm_source=poweredby" target="dolibarr" rel="noopener">'.$langs->trans("PoweredBy").'<br><img src="'.DOL_URL_ROOT.'/theme/dolibarr_logo.svg" width="80px"></a></div>';
+			print '<div class="poweredbypublicpayment opacitymedium right"><a class="poweredbyhref" href="https://www.bespoerp.org?utm_medium=website&utm_source=poweredby" target="bespoerp" rel="noopener">'.$langs->trans("PoweredBy").'<br><img src="'.DOL_URL_ROOT.'/theme/bespoerp_logo.svg" width="80px"></a></div>';
 		}
 		print '</div>';
 	}
@@ -156,9 +156,9 @@ function llxFooterSurvey()
  */
 function get_server_name()
 {
-	global $dolibarr_main_url_root;
+	global $bespoerp_main_url_root;
 
-	$urlwithouturlroot = preg_replace('/'.preg_quote(DOL_URL_ROOT, '/').'$/i', '', trim($dolibarr_main_url_root));
+	$urlwithouturlroot = preg_replace('/'.preg_quote(DOL_URL_ROOT, '/').'$/i', '', trim($bespoerp_main_url_root));
 	//$urlwithroot=$urlwithouturlroot.DOL_URL_ROOT;		// This is to use external domain name found into config file
 	//$urlwithroot=DOL_MAIN_URL_ROOT;					// This is to use same domain name than current
 

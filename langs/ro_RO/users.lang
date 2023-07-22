@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - users
+# bespoerp language file - Source file is en_US - users
 HRMArea=HRM 
 UserCard=Fişă utilizator 
 GroupCard=Fişă grup
@@ -37,7 +37,7 @@ SuperAdministratorDesc=Administrator global, cu toate drepturile
 AdministratorDesc=Administrator
 DefaultRights=Permisiuni implicite
 DefaultRightsDesc=Definiți aici permisiunile <u>implicite</u> care sunt acordate automat unui utilizator <u>nou</u> (pentru a modifica permisiunile pentru utilizatorii existenți, accesați fişa utilizatorului).
-DolibarrUsers=Utilizatori sistem
+bespoerpUsers=Utilizatori sistem
 LastName=Nume
 FirstName=Prenume
 ListOfGroups=Listă grupuri
@@ -61,13 +61,13 @@ PhotoFile=Fişier foto
 ListOfUsersInGroup=Listă utilizatori în acest grup
 ListOfGroupsForUser=Listă grupuri pentru acest utilizator
 LinkToCompanyContact=Link către un terţ/contact
-LinkedToDolibarrMember=Asociază la membru
-LinkedToDolibarrUser=Asociere la utilizator
-LinkedToDolibarrThirdParty=Asociere la terţ
-CreateDolibarrLogin=Creare utilizator
-CreateDolibarrThirdParty=Creare terţ
-LoginAccountDisableInDolibarr=Cont dezactivat în Dolibarr
-PASSWORDInDolibarr=Parolă modificată în Dolibarr
+LinkedTobespoerpMember=Asociază la membru
+LinkedTobespoerpUser=Asociere la utilizator
+LinkedTobespoerpThirdParty=Asociere la terţ
+CreatebespoerpLogin=Creare utilizator
+CreatebespoerpThirdParty=Creare terţ
+LoginAccountDisableInbespoerp=Cont dezactivat în bespoerp
+PASSWORDInbespoerp=Parolă modificată în bespoerp
 UsePersonalValue=Utilizare setări personalizate
 ExportDataset_user_1=Utilizatori și proprietățile acestora
 DomainUser=Utilizator de domeniu %s

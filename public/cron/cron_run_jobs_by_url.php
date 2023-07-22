@@ -40,7 +40,7 @@ if (!defined('NOLOGIN')) {
 	define('NOLOGIN', '1');
 }
 if (!defined('NOIPCHECK')) {
-	define('NOIPCHECK', '1'); // Do not check IP defined into conf $dolibarr_main_restrict_ip
+	define('NOIPCHECK', '1'); // Do not check IP defined into conf $bespoerp_main_restrict_ip
 }
 
 // So log file will have a suffix
@@ -62,7 +62,7 @@ if (php_sapi_name() == "cli") {
 }
 
 // librarie core
-// Dolibarr environment
+// bespoerp environment
 require '../../main.inc.php';
 
 // librarie jobs
@@ -206,7 +206,7 @@ if (is_array($object->lines) && (count($object->lines) > 0)) {
 			if ($result < 0) {
 				echo "Error cronjobid: ".$line->id." cronjob->run_job: ".$cronjob->error."\n";
 				echo "At least one job failed. Go on menu Home-Setup-Admin tools to see result for each job.\n";
-				echo "You can also enable module Log if not yet enabled, run again and take a look into dolibarr.log file\n";
+				echo "You can also enable module Log if not yet enabled, run again and take a look into bespoerp.log file\n";
 				dol_syslog("cron_run_jobs.php::run_jobs Error".$cronjob->error, LOG_ERR);
 				$nbofjobslaunchedko++;
 			} else {
@@ -219,7 +219,7 @@ if (is_array($object->lines) && (count($object->lines) > 0)) {
 			$result = $cronjob->reprogram_jobs($userlogin, $now);
 			if ($result < 0) {
 				echo "Error cronjobid: ".$line->id." cronjob->reprogram_job: ".$cronjob->error."\n";
-				echo "Enable module Log if not yet enabled, run again and take a look into dolibarr.log file\n";
+				echo "Enable module Log if not yet enabled, run again and take a look into bespoerp.log file\n";
 				dol_syslog("cron_run_jobs.php::reprogram_jobs Error".$cronjob->error, LOG_ERR);
 				exit;
 			}

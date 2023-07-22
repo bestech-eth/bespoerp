@@ -64,7 +64,7 @@ DATAPOLICY_opposition_prospection = 調査目的での個人データの処理�
 # Popup
 #
 DATAPOLICY_POPUP_ANONYME_TITLE = 取引先の匿名化
-DATAPOLICY_POPUP_ANONYME_TEXTE = 関連アイテムがあるため、この連絡先を Dolibarr から削除できない。 GDPR に従って、義務を順守するために、このすべてのデータを匿名化する。続行してよいか?
+DATAPOLICY_POPUP_ANONYME_TEXTE = 関連アイテムがあるため、この連絡先を bespoerp から削除できない。 GDPR に従って、義務を順守するために、このすべてのデータを匿名化する。続行してよいか?
 
 #
 # Button for portability

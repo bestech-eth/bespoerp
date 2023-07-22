@@ -38,7 +38,7 @@ if (!defined('NOREQUIREAJAX')) {
 	define('NOREQUIREAJAX', '1');
 }
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../main.inc.php'; // Load $user and permissions
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.form.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formother.class.php';
@@ -64,7 +64,7 @@ if (empty($_SESSION["takeposterminal"])) {
 
 if ($setterminal > 0) {
 	$_SESSION["takeposterminal"] = $setterminal;
-	setcookie("takeposterminal", $setterminal, (time() + (86400 * 354)), '/', null, (empty($dolibarr_main_force_https) ? false : true), true); // Permanent takeposterminal var in a cookie
+	setcookie("takeposterminal", $setterminal, (time() + (86400 * 354)), '/', null, (empty($bespoerp_main_force_https) ? false : true), true); // Permanent takeposterminal var in a cookie
 }
 
 if ($setcurrency != "") {
@@ -122,7 +122,7 @@ if (getDolGlobalInt('TAKEPOS_COLOR_THEME') == 1) {
 
 
 // Title
-$title = 'TakePOS - Dolibarr '.DOL_VERSION;
+$title = 'TakePOS - bespoerp '.DOL_VERSION;
 if (!empty($conf->global->MAIN_APPLICATION_TITLE)) {
 	$title = 'TakePOS - '.$conf->global->MAIN_APPLICATION_TITLE;
 }
@@ -845,8 +845,8 @@ function OpenDrawer(){
 	});
 }
 
-function DolibarrOpenDrawer() {
-	console.log("DolibarrOpenDrawer call ajax url /takepos/ajax/ajax.php?action=opendrawer&token=<?php echo newToken();?>&term=<?php print urlencode($_SESSION["takeposterminal"]); ?>");
+function bespoerpOpenDrawer() {
+	console.log("bespoerpOpenDrawer call ajax url /takepos/ajax/ajax.php?action=opendrawer&token=<?php echo newToken();?>&term=<?php print urlencode($_SESSION["takeposterminal"]); ?>");
 	$.ajax({
 		type: "GET",
 		data: { token: '<?php echo currentToken(); ?>' },
@@ -1255,7 +1255,7 @@ if (getDolGlobalString('TAKEPOS_BAR_RESTAURANT')) {
 				$menus[$r++] = array('title'=>'<span class="fa fa-receipt paddingrightonly"></span><div class="trunc">'.$langs->trans("Receipt").'</div>', 'action'=>'TakeposPrinting(placeid);');
 			}
 		} elseif (getDolGlobalString('TAKEPOS_PRINT_METHOD') == "receiptprinter") {
-			$menus[$r++] = array('title'=>'<span class="fa fa-receipt paddingrightonly"></span><div class="trunc">'.$langs->trans("Receipt").'</div>', 'action'=>'DolibarrTakeposPrinting(placeid);');
+			$menus[$r++] = array('title'=>'<span class="fa fa-receipt paddingrightonly"></span><div class="trunc">'.$langs->trans("Receipt").'</div>', 'action'=>'bespoerpTakeposPrinting(placeid);');
 		} else {
 			$menus[$r++] = array('title'=>'<span class="fa fa-receipt paddingrightonly"></span><div class="trunc">'.$langs->trans("Receipt").'</div>', 'action'=>'Print(placeid);');
 		}
@@ -1274,7 +1274,7 @@ if (getDolGlobalString('TAKEPOS_PRINT_METHOD') == "takeposconnector") {
 if (getDolGlobalString('TAKEPOS_PRINT_METHOD') == "receiptprinter") {
 	$menus[$r++] = array(
 		'title' => '<span class="fa fa-receipt paddingrightonly"></span><div class="trunc">'.$langs->trans("DOL_OPEN_DRAWER").'</div>',
-		'action' => 'DolibarrOpenDrawer();',
+		'action' => 'bespoerpOpenDrawer();',
 	);
 }
 

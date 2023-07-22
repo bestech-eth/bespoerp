@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# bespoerp language file - Source file is en_US - loan
 IdModule= Module id
 ModuleBuilderDesc=This tool must be used only by experienced users or developers. It provides utilities to build or edit your own module. Documentation for alternative <a href="%s" target="_blank" rel="noopener noreferrer">manual development is here</a>.
 EnterNameOfModuleDesc=Enter the name of the module/application to create with no spaces. Use uppercase to separate words (For example: MyModule, EcommerceForShop, SyncWithMySystem...)
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=Шумо метавонед модули худр�
 EnterNameOfObjectToDeleteDesc=Шумо метавонед объектро нест кунед. ҲУШДОР: Ҳама файлҳои рамзгузории (дастӣ тавлидшуда ё сохташуда) марбут ба объект нест карда мешаванд!
 DangerZone=Минтақаи хатарнок
 BuildPackage=Бастаи сохтан
-BuildPackageDesc=Шумо метавонед як бастаи почтаи замимаи худро эҷод кунед, то шумо омодаед онро дар ҳама гуна Dolibarr паҳн кунед. Шумо инчунин метавонед онро дар бозор паҳн кунед ё <a href="https://www.dolistore.com"> DoliStore.com </a> фурӯшед.
+BuildPackageDesc=Шумо метавонед як бастаи почтаи замимаи худро эҷод кунед, то шумо омодаед онро дар ҳама гуна bespoerp паҳн кунед. Шумо инчунин метавонед онро дар бозор паҳн кунед ё <a href="https://www.dolistore.com"> DoliStore.com </a> фурӯшед.
 BuildDocumentation=Ҳуҷҷатгузорӣ сохтан
 ModuleIsNotActive=Ин модул ҳоло фаъол нашудааст. Ба %s равед, то онро зинда созед ё ин ҷо клик кунед
 ModuleIsLive=Ин модул фаъол карда шудааст. Ҳар гуна тағирот метавонад як хусусияти зиндаеро вайрон кунад.
@@ -110,7 +110,7 @@ HooksDefDesc=Дар амволи <b> module_parts ['hooks'] </b>, дар тав�
 TriggerDefDesc=Define in the trigger file the code that you want to execute when a business event external to your module is executed (events triggered by other modules).
 SeeIDsInUse=Бингар, ки ID -ҳои дар насби шумо истифодашаванда
 SeeReservedIDsRangeHere=Ба доираи ID -ҳои ҳифзшуда нигаред
-ToolkitForDevelopers=Маҷмӯи асбобҳо барои таҳиягарони Dolibarr
+ToolkitForDevelopers=Маҷмӯи асбобҳо барои таҳиягарони bespoerp
 TryToUseTheModuleBuilder=Агар шумо дониши SQL ва PHP дошта бошед, шумо метавонед устоди модули ватаниро истифода баред. <br> Модули <strong> %s </strong> фаъол созед ва устодро бо пахши <span class="fa fa-bug"> </span> истифода баред <br> Огоҳӣ: Ин як хусусияти пешрафтаи таҳиякунанда аст, <b> на дар </b> дар сайти истеҳсолии худ кор кунед!
 SeeTopRightMenu=Ба менюи рости боло <span class="fa fa-bug"> </span> нигаред
 AddLanguageFile=Файли забон илова кунед

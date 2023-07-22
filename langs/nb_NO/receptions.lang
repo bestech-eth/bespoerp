@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - receptions
+# bespoerp language file - Source file is en_US - receptions
 ReceptionDescription=Administrasjon av leverandørmottak (Opprett mottaksdokumenter)
 ReceptionsSetup=Leverandørmottak oppsett
 RefReception=Mottak ref.
@@ -49,6 +49,6 @@ ReceptionsNumberingModules=Nummereringsmodul for mottak
 ReceptionsReceiptModel=Dokumentmaler for mottak
 NoMorePredefinedProductToDispatch=Ingen flere forhåndsdefinerte varer som skal sendes
 ReceptionExist=Et mottak finnes
-ReceptionBackToDraftInDolibarr=Mottak %s tilbake til utkast
-ReceptionClassifyClosedInDolibarr=Mottak %s klassifisert Stengt
-ReceptionUnClassifyCloseddInDolibarr=Mottak %s gjenåpne
+ReceptionBackToDraftInbespoerp=Mottak %s tilbake til utkast
+ReceptionClassifyClosedInbespoerp=Mottak %s klassifisert Stengt
+ReceptionUnClassifyCloseddInbespoerp=Mottak %s gjenåpne

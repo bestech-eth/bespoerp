@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# bespoerp language file - Source file is en_US - products
 ProductRef=產品編號
 ProductLabel=產品標籤
 ProductLabelTranslated=已翻譯的產品標籤
@@ -300,7 +300,7 @@ MinSupplierPrice=最低採購價格
 MinCustomerPrice=最低銷售價格
 NoDynamicPrice=沒有動態價格
 DynamicPriceConfiguration=動態價格設置
-DynamicPriceDesc=您可以定義數學公式來計算客戶或供應商的價格。這樣的公式可以使用所有數學運算符，一些常數和變數。您可以在此處定義要使用的變數。如果變數需要自動更新，則可以定義外部URL以允許Dolibarr自動更新值。
+DynamicPriceDesc=您可以定義數學公式來計算客戶或供應商的價格。這樣的公式可以使用所有數學運算符，一些常數和變數。您可以在此處定義要使用的變數。如果變數需要自動更新，則可以定義外部URL以允許bespoerp自動更新值。
 AddVariable=增加變數
 AddUpdater=增加更新程序
 GlobalVariables=全域變數
@@ -379,7 +379,7 @@ NewProductAttribute=新屬性
 NewProductAttributeValue=新屬性值
 ErrorCreatingProductAttributeValue=新增屬性值時出錯。可能是因為已經存在一個值
 ProductCombinationGeneratorWarning=如果繼續，則在生成新變數之前，所有先前的變數將被刪除。將使用新值進行更新
-TooMuchCombinationsWarning=生成大量變數可能會導致較高的CPU使用率，記憶體使用率以並且導致Dolibarr無法新增它們。啟用選項“ %s”可能有助於減少記憶體使用。
+TooMuchCombinationsWarning=生成大量變數可能會導致較高的CPU使用率，記憶體使用率以並且導致bespoerp無法新增它們。啟用選項“ %s”可能有助於減少記憶體使用。
 DoNotRemovePreviousCombinations=不要刪除舊的變數
 UsePercentageVariations=使用變化百分比
 PercentageVariation=變化百分比

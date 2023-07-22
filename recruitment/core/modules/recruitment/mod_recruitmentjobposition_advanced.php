@@ -35,10 +35,10 @@ dol_include_once('/recruitment/core/modules/recruitment/modules_recruitmentjobpo
 class mod_recruitmentjobposition_advanced extends ModeleNumRefRecruitmentJobPosition
 {
 	/**
-	 * Dolibarr version of the loaded document
+	 * bespoerp version of the loaded document
 	 * @var string
 	 */
-	public $version = 'dolibarr'; // 'development', 'experimental', 'dolibarr'
+	public $version = 'bespoerp'; // 'development', 'experimental', 'bespoerp'
 
 	/**
 	 * @var string Error message

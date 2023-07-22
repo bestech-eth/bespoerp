@@ -13,9 +13,9 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-ModuleZapierForDolibarrName = Запьер барои Долибарр
-ModuleZapierForDolibarrDesc = Zapier барои модули Dolibarr
-ZapierForDolibarrSetup=Танзимоти Zapier барои Dolibarr
+ModuleZapierForbespoerpName = Запьер барои Долибарр
+ModuleZapierForbespoerpDesc = Zapier барои модули bespoerp
+ZapierForbespoerpSetup=Танзимоти Zapier барои bespoerp
 ZapierDescription=Интерфейс бо Zapier
 ZapierAbout=Дар бораи модули Zapier
-ZapierSetupPage=Барои истифодаи Zapier дар тарафи Dolibarr ягон танзим лозим нест. Аммо, шумо бояд бастаро дар zapier тавлид ва нашр кунед, то тавонед Zapier -ро бо Dolibarr истифода баред. Ба ҳуҷҷатҳои <a href="https://wiki.dolibarr.org/index.php/Module_Zapier"> нигаред ба ин саҳифаи вики </a>.
+ZapierSetupPage=Барои истифодаи Zapier дар тарафи bespoerp ягон танзим лозим нест. Аммо, шумо бояд бастаро дар zapier тавлид ва нашр кунед, то тавонед Zapier -ро бо bespoerp истифода баред. Ба ҳуҷҷатҳои <a href="https://wiki.bespoerp.org/index.php/Module_Zapier"> нигаред ба ин саҳифаи вики </a>.

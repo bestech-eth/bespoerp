@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# bespoerp language file - Source file is en_US - loan
 IdModule= Module id
 ModuleBuilderDesc=Rhaid i'r offeryn hwn gael ei ddefnyddio gan ddefnyddwyr neu ddatblygwyr profiadol yn unig. Mae'n darparu cyfleustodau i adeiladu neu olygu eich modiwl eich hun. Mae dogfennau ar gyfer datblygiad llaw <a href="%s" target="_blank" rel="noopener noreferrer"> amgen yma </a> .
 EnterNameOfModuleDesc=Enter the name of the module/application to create with no spaces. Use uppercase to separate words (For example: MyModule, EcommerceForShop, SyncWithMySystem...)
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=Gallwch ddileu eich modiwl. RHYBUDD: Bydd holl ffe
 EnterNameOfObjectToDeleteDesc=Gallwch ddileu gwrthrych. RHYBUDD: Bydd yr holl ffeiliau codio (wedi'u cynhyrchu neu eu creu â llaw) sy'n ymwneud â gwrthrych yn cael eu dileu!
 DangerZone=Parth perygl
 BuildPackage=Adeiladu pecyn
-BuildPackageDesc=Gallwch gynhyrchu pecyn sip o'ch cais fel eich bod yn barod i'w ddosbarthu ar unrhyw Ddolibarr. Gallwch hefyd ei ddosbarthu neu ei werthu ar y farchnad fel <a href="https://www.dolistore.com"> DoliStore.com </a> .
+BuildPackageDesc=Gallwch gynhyrchu pecyn sip o'ch cais fel eich bod yn barod i'w ddosbarthu ar unrhyw Dbespoerp. Gallwch hefyd ei ddosbarthu neu ei werthu ar y farchnad fel <a href="https://www.dolistore.com"> DoliStore.com </a> .
 BuildDocumentation=Adeiladu dogfennaeth
 ModuleIsNotActive=Nid yw'r modiwl hwn wedi'i actifadu eto. Ewch i %s i'w wneud yn fyw neu cliciwch yma
 ModuleIsLive=Mae'r modiwl hwn wedi'i actifadu. Gall unrhyw newid dorri nodwedd fyw gyfredol.
@@ -110,7 +110,7 @@ HooksDefDesc=Diffiniwch yn y priodwedd <b> module_parts['bachau'] </b>, yn y dis
 TriggerDefDesc=Diffiniwch yn y ffeil sbardun y cod yr ydych am ei weithredu pan fydd digwyddiad busnes y tu allan i'ch modiwl yn cael ei weithredu (digwyddiadau a ysgogir gan fodiwlau eraill).
 SeeIDsInUse=Gweld IDs sy'n cael eu defnyddio yn eich gosodiad
 SeeReservedIDsRangeHere=Gweler yr ystod o IDau neilltuedig
-ToolkitForDevelopers=Pecyn cymorth ar gyfer datblygwyr Dolibarr
+ToolkitForDevelopers=Pecyn cymorth ar gyfer datblygwyr bespoerp
 TryToUseTheModuleBuilder=Os oes gennych chi wybodaeth am SQL a PHP, gallwch ddefnyddio'r dewin adeiladu modiwlau brodorol. <br> Galluogi'r modiwl <strong> %s </strong> a defnyddio'r dewin trwy glicio ar y <span class="fa fa-bug"> a014f1b93d ar y ddewislen ar y dde top7c65. <br> Rhybudd: Mae hon yn nodwedd datblygwr datblygedig, gwnewch arbrawf <b> nid </b> ar eich safle cynhyrchu!
 SeeTopRightMenu=Gweler <span class="fa fa-bug"> </span> ar y ddewislen dde uchaf
 AddLanguageFile=Ychwanegu ffeil iaith

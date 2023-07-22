@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# bespoerp language file - Source file is en_US - products
 ProductRef=製品の参照符号
 ProductLabel=製品のラベル
 ProductLabelTranslated=翻訳された製品ラベル
@@ -300,7 +300,7 @@ MinSupplierPrice=最小購入価格
 MinCustomerPrice=最低販売価格
 NoDynamicPrice=動的価格でない
 DynamicPriceConfiguration=動的な価格構成
-DynamicPriceDesc=数式を定義して、顧客または仕入先の価格を計算できる。このような数式では、全数学演算子、一部の定数および変数を使用できる。ここで、使用する変数を定義できる。変数に自動更新が必要な場合は、外部URLを定義して、Dolibarrが値を自動的に更新できるようにすることができる。
+DynamicPriceDesc=数式を定義して、顧客または仕入先の価格を計算できる。このような数式では、全数学演算子、一部の定数および変数を使用できる。ここで、使用する変数を定義できる。変数に自動更新が必要な場合は、外部URLを定義して、bespoerpが値を自動的に更新できるようにすることができる。
 AddVariable=変数を追加
 AddUpdater=アップデータを追加
 GlobalVariables=グローバル変数
@@ -379,7 +379,7 @@ NewProductAttribute=新規属性
 NewProductAttributeValue=新規属性値
 ErrorCreatingProductAttributeValue=属性値の作成中にエラーが発生した。その参照を持つ既存の値が既に存在するためである可能性がある
 ProductCombinationGeneratorWarning=続行すると、新規バリアントを生成前に、以前のバリアントはすべて削除される。既存のものは新規値で更新される
-TooMuchCombinationsWarning=多数のバリアントを生成と、CPU、メモリ使用量が高くなり、Dolibarrがそれらを作成できなくなる可能性がある。オプション「%s」を有効にすると、メモリ使用量を減らすのに役立つ場合がある。
+TooMuchCombinationsWarning=多数のバリアントを生成と、CPU、メモリ使用量が高くなり、bespoerpがそれらを作成できなくなる可能性がある。オプション「%s」を有効にすると、メモリ使用量を減らすのに役立つ場合がある。
 DoNotRemovePreviousCombinations=以前のバリアントを削除しないこと
 UsePercentageVariations=パーセンテージバリエーションを使用
 PercentageVariation=変動率

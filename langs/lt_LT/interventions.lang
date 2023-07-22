@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - interventions
+# bespoerp language file - Source file is en_US - interventions
 Intervention=Intervencija
 Interventions=Intervencijos
 InterventionCard=Intervencijos kortelė
@@ -30,13 +30,13 @@ InterventionClassifyDone=Classify "Done"
 StatusInterInvoiced=Pateikta sąskaita
 SendInterventionRef=Submission of intervention %s
 SendInterventionByMail=Send intervention by email
-InterventionCreatedInDolibarr=Intervention %s created
-InterventionValidatedInDolibarr=Intervencija %s pripažinta galiojančia
-InterventionModifiedInDolibarr=Intervention %s modified
-InterventionClassifiedBilledInDolibarr=Intervention %s set as billed
-InterventionClassifiedUnbilledInDolibarr=Intervention %s set as unbilled
+InterventionCreatedInbespoerp=Intervention %s created
+InterventionValidatedInbespoerp=Intervencija %s pripažinta galiojančia
+InterventionModifiedInbespoerp=Intervention %s modified
+InterventionClassifiedBilledInbespoerp=Intervention %s set as billed
+InterventionClassifiedUnbilledInbespoerp=Intervention %s set as unbilled
 InterventionSentByEMail=Intervention %s sent by email
-InterventionDeletedInDolibarr=Intervention %s deleted
+InterventionDeletedInbespoerp=Intervention %s deleted
 InterventionsArea=Interventions area
 DraftFichinter=Draft interventions
 LastModifiedInterventions=Latest %s modified interventions

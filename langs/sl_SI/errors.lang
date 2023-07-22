@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# bespoerp language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Brez napake, zavezujemo se
@@ -51,10 +51,10 @@ ErrorWrongDate=Datum ni pravilen!
 ErrorFailedToWriteInDir=Napaka pri pisanju v mapo %s
 ErrorFailedToBuildArchive=Zgradnja arhivske datoteke %s ni uspela
 ErrorFoundBadEmailInFile=Napačna email sintaksa v vrstici %s v datoteki (naprimer vrstica %s z emailom=%s)
-ErrorUserCannotBeDelete=Uporabnika ni mogoče izbrisati. Morda je povezan z entitetami Dolibarr.
+ErrorUserCannotBeDelete=Uporabnika ni mogoče izbrisati. Morda je povezan z entitetami bespoerp.
 ErrorFieldsRequired=Nekatera zahtevana polja so ostala prazna.
 ErrorSubjectIsRequired=Zadeva e-poštnega sporočila je obvezna
-ErrorFailedToCreateDir=Kreiranje mape ni uspelo. Preverite, če ima uporabnik internetne strani dovoljenje za pisanje v mapo z Dolibarr dokumenti. Če je parameter <b>safe_mode</b> v tem PHP omogočen, preverite če je lastnik Dolibarr php datotek uporabnik web strežnika (ali skupina).
+ErrorFailedToCreateDir=Kreiranje mape ni uspelo. Preverite, če ima uporabnik internetne strani dovoljenje za pisanje v mapo z bespoerp dokumenti. Če je parameter <b>safe_mode</b> v tem PHP omogočen, preverite če je lastnik bespoerp php datotek uporabnik web strežnika (ali skupina).
 ErrorNoMailDefinedForThisUser=Ta uporabnik nima določenega Email naslova
 ErrorSetupOfEmailsNotComplete=Nastavitev e-pošte ni dokončana
 ErrorFeatureNeedJavascript=Za aktiviranje ali delovanje te funkcije je potreben javascript. Spremenite »Nastavitve – Prikaz«.
@@ -82,7 +82,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=Polje <b> %s </b> ne sme vsebov
 ErrorFieldMustHaveXChar=Polje <b> %s </b> mora imeti najmanj %s znakov.
 ErrorNoAccountancyModuleLoaded=Ni aktiviran računovodski modul
 ErrorExportDuplicateProfil=To ime profila že obstaja za ta izvozni niz.
-ErrorLDAPSetupNotComplete=Dolibarr-LDAP združevanje ni popolno.
+ErrorLDAPSetupNotComplete=bespoerp-LDAP združevanje ni popolno.
 ErrorLDAPMakeManualTest=Datoteka .ldif je bila ustvarjena v mapi %s. Poskusite jo naložiti ročno preko ukazne vrstice, da bi dobili več podatkov o napaki.
 ErrorCantSaveADoneUserWithZeroPercentage=Ni mogoče shraniti dejanja s statusom »ni začeto«, če je izpolnjeno tudi polje »končano do«.
 ErrorRefAlreadyExists=Referenca <b> %s </b> že obstaja.
@@ -115,8 +115,8 @@ ErrorProdIdAlreadyExist=%s je dodeljen v drugo tretjo
 ErrorFailedToSendPassword=Ni bilo mogoče poslati gesla
 ErrorFailedToLoadRSSFile=Ne Knjiga. Poskusite dodati stalno MAIN_SIMPLEXMLLOAD_DEBUG sporočila o napakah, če ne zagotavlja dovolj informacij.
 ErrorForbidden=Dostop zavrnjen. <br> Poskušate dostopati do strani, območja ali funkcije onemogočenega modula ali ne da bi bili v overjeni seji ali pa to ni dovoljeno vašemu uporabniku.
-ErrorForbidden2=Dovoljenje za to prijavo se lahko opredeli skrbnik Dolibarr iz menija %s-> %s.
-ErrorForbidden3=Zdi se, da je Dolibarr ne uporablja prek overjeno sejo. Oglejte si namestitveno dokumentacijo Dolibarr vedeti, kako upravljati authentications (htaccess, mod_auth ali drugo ...).
+ErrorForbidden2=Dovoljenje za to prijavo se lahko opredeli skrbnik bespoerp iz menija %s-> %s.
+ErrorForbidden3=Zdi se, da je bespoerp ne uporablja prek overjeno sejo. Oglejte si namestitveno dokumentacijo bespoerp vedeti, kako upravljati authentications (htaccess, mod_auth ali drugo ...).
 ErrorForbidden4=Opomba: počistite piškotke brskalnika, da uničite obstoječe seje za to prijavo.
 ErrorNoImagickReadimage=Razred Imagick ni mogoče najti v tem PHP. Št Predogled je lahko na voljo. Skrbniki lahko onemogočite to kartico od Setup meniju - Display.
 ErrorRecordAlreadyExists=Zapis že obstaja
@@ -139,8 +139,8 @@ ErrorWebServerUserHasNotPermission=Uporabniški račun <b>%s</b> uporablja za iz
 ErrorNoActivatedBarcode=Noben tip črtne kode ni aktiviran
 ErrUnzipFails=Razpakiranje %s z ZipArchive ni uspelo
 ErrNoZipEngine=V tem PHP-ju ni mehanizma za zip/razpakiranje datoteke %s
-ErrorFileMustBeADolibarrPackage=Datoteka %s mora biti zip paket Dolibarr
-ErrorModuleFileRequired=Izbrati morate datoteko paketa modula Dolibarr
+ErrorFileMustBeAbespoerpPackage=Datoteka %s mora biti zip paket bespoerp
+ErrorModuleFileRequired=Izbrati morate datoteko paketa modula bespoerp
 ErrorPhpCurlNotInstalled=PHP CURL ni nameščen, to je bistveno za pogovor s Paypalom
 ErrorFailedToAddToMailmanList=Zapisa %s ni bilo mogoče dodati na seznam Mailman %s ali bazo SPIP
 ErrorFailedToRemoveToMailmanList=Zapisa %s ni bilo mogoče odstraniti na seznam Mailman %s ali bazo SPIP
@@ -152,7 +152,7 @@ ErrorDateMustBeBeforeToday=Datum mora biti nižji od današnjega
 ErrorDateMustBeInFuture=Datum mora biti večji od današnjega
 ErrorPaymentModeDefinedToWithoutSetup=Način plačila je bil nastavljen na vrsto %s, vendar nastavitev modula Račun ni bila dokončana za določitev informacij, ki se prikažejo za ta način plačila.
 ErrorPHPNeedModule=Napaka, vaš PHP mora imeti nameščen modul <b> %s </b> za uporabo te funkcije.
-ErrorOpenIDSetupNotComplete=Nastavili ste konfiguracijsko datoteko Dolibarr, da omogoča preverjanje pristnosti OpenID, vendar URL storitve OpenID ni definiran v konstanti %s
+ErrorOpenIDSetupNotComplete=Nastavili ste konfiguracijsko datoteko bespoerp, da omogoča preverjanje pristnosti OpenID, vendar URL storitve OpenID ni definiran v konstanti %s
 ErrorWarehouseMustDiffers=Izvorna in ciljna skladišča se morajo razlikovati
 ErrorBadFormat=Neveljavna oblika!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Napaka, ta član še ni povezan z nobenim partnerjem. Povežite člana z obstoječim partnerjem ali ustvarite novega partnerja, preden ustvarite naročnino z računom.
@@ -215,7 +215,7 @@ ErrorUserNotAssignedToTask=Uporabnik mora biti dodeljen nalogi, da lahko vnese p
 ErrorTaskAlreadyAssigned=Naloga je že dodeljena uporabniku
 ErrorModuleFileSeemsToHaveAWrongFormat=Zdi se, da ima paket modula napačno obliko.
 ErrorModuleFileSeemsToHaveAWrongFormat2=V zip modula mora obstajati vsaj en obvezni imenik: <strong> %s </strong> ali <strong> %s </strong>
-ErrorFilenameDosNotMatchDolibarrPackageRules=Ime paketa modula ( <strong> %s </strong> ) se ne ujema s pričakovano sintakso imena: <strong> %s </strong>
+ErrorFilenameDosNotMatchbespoerpPackageRules=Ime paketa modula ( <strong> %s </strong> ) se ne ujema s pričakovano sintakso imena: <strong> %s </strong>
 ErrorDuplicateTrigger=Napaka, podvojeno ime sprožilca %s. Že naloženo iz %s.
 ErrorNoWarehouseDefined=Napaka, ni določenih skladišč.
 ErrorBadLinkSourceSetButBadValueForRef=Povezava, ki jo uporabljate, ni veljavna. 'Vir' za plačilo je določen, vendar vrednost za 'ref' ni veljavna.
@@ -306,7 +306,7 @@ ErrorTooMuchFileInForm=Too much files in form, the maximum number is %s file(s)
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=Vaš PHP parameter upload_max_filesize (%s) je višji od PHP parametra post_max_size (%s). To ni dosledna nastavitev.
-WarningPasswordSetWithNoAccount=Za tega člana je bilo nastavljeno geslo. Vendar ni bil ustvarjen noben uporabniški račun. To geslo je torej shranjeno, vendar ga ni mogoče uporabiti za prijavo v Dolibarr. Lahko ga uporablja zunanji modul/vmesnik, vendar če vam ni treba določiti prijave ali gesla za člana, lahko onemogočite možnost »Upravljanje prijave za vsakega člana« v nastavitvah modula Član. Če morate upravljati prijavo, vendar ne potrebujete gesla, lahko to polje pustite prazno, da se izognete temu opozorilu. Opomba: E-pošta se lahko uporablja tudi kot prijava, če je član povezan z uporabnikom.
+WarningPasswordSetWithNoAccount=Za tega člana je bilo nastavljeno geslo. Vendar ni bil ustvarjen noben uporabniški račun. To geslo je torej shranjeno, vendar ga ni mogoče uporabiti za prijavo v bespoerp. Lahko ga uporablja zunanji modul/vmesnik, vendar če vam ni treba določiti prijave ali gesla za člana, lahko onemogočite možnost »Upravljanje prijave za vsakega člana« v nastavitvah modula Član. Če morate upravljati prijavo, vendar ne potrebujete gesla, lahko to polje pustite prazno, da se izognete temu opozorilu. Opomba: E-pošta se lahko uporablja tudi kot prijava, če je član povezan z uporabnikom.
 WarningMandatorySetupNotComplete=Kliknite tukaj za nastavitev glavnih parametrov
 WarningEnableYourModulesApplications=Kliknite tukaj, da omogočite svoje module in aplikacije
 WarningSafeModeOnCheckExecDir=Pozor, PHP opcija <b>safe_mode</b> je vklopljena, zato mora biti ukaz shranjen znotraj mape, ki jo določa php parameter <b>safe_mode_exec_dir</b>.

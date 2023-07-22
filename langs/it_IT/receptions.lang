@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - receptions
+# bespoerp language file - Source file is en_US - receptions
 ReceptionDescription=Gestione ricezione prodotti (Crea documenti di ricezione)
 ReceptionsSetup=Configurazione delle ricezioni fornitore
 RefReception=Rif. ricezione
@@ -49,6 +49,6 @@ ReceptionsNumberingModules=Modulo per la generazione codici ricezione
 ReceptionsReceiptModel=Modelli generazione documenti
 NoMorePredefinedProductToDispatch=Non ci sono più prodotti predefiniti da spedire
 ReceptionExist=Esiste una ricezione
-ReceptionBackToDraftInDolibarr=Ricezione %s ritornato a bozza
-ReceptionClassifyClosedInDolibarr=Ricezione %s classificato Chiusa
-ReceptionUnClassifyCloseddInDolibarr=Ricezione %s ri-aperta
+ReceptionBackToDraftInbespoerp=Ricezione %s ritornato a bozza
+ReceptionClassifyClosedInbespoerp=Ricezione %s classificato Chiusa
+ReceptionUnClassifyCloseddInbespoerp=Ricezione %s ri-aperta

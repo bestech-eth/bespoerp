@@ -1,5 +1,5 @@
-# Dolibarr language file - Source file is en_US - boxes
-BoxDolibarrStateBoard=数据库中主要业务对象的统计
+# bespoerp language file - Source file is en_US - boxes
+BoxbespoerpStateBoard=数据库中主要业务对象的统计
 BoxLoginInformation=登录信息
 BoxLastRssInfos=RSS信息
 BoxLastProducts=最新的%s产品/服务

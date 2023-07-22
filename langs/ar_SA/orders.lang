@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - orders
+# bespoerp language file - Source file is en_US - orders
 OrderExists=تم بالفعل فتح أمر مرتبط بهذا الاقتراح ، لذلك لم يتم إنشاء أي أمر آخر تلقائيًا
 OrdersArea=منطقة أوامر العملاء
 SuppliersOrdersArea=منطقة أوامر الشراء
@@ -125,8 +125,8 @@ ConfirmCloneOrder=هل أنت متأكد من أنك تريد استنساخ ه�
 DispatchSupplierOrder=استلام أمر الشراء %s
 FirstApprovalAlreadyDone=تمت الموافقة الأولى
 SecondApprovalAlreadyDone=تمت الموافقة الثانية
-SupplierOrderReceivedInDolibarr=أمر الشراء %s استلم %s
-SupplierOrderSubmitedInDolibarr=تم تقديم امر الشراء %s
+SupplierOrderReceivedInbespoerp=أمر الشراء %s استلم %s
+SupplierOrderSubmitedInbespoerp=تم تقديم امر الشراء %s
 SupplierOrderClassifiedBilled=امر الشراء %s فى وضع فوترة
 OtherOrders=أوامر أخرى
 SupplierOrderValidatedAndApproved=تم التحقق من صحة طلب المورد واعتماده: %s

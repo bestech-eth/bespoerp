@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - bills
+# bespoerp language file - Source file is en_US - bills
 Bill=Рахунок-фактура
 Bills=Рахунки-фактури
 BillsCustomers=Рахунки-фактури клієнта
@@ -598,8 +598,8 @@ AutoFillDateFromShort=Встановити дату початку
 AutoFillDateTo=Встановити дату завершення рядка обслуговування з датою наступного рахунку-фактури
 AutoFillDateToShort=Установіть дату завершення
 MaxNumberOfGenerationReached=Максимальна кількість ген. досягнуто
-BILL_DELETEInDolibarr=Рахунок-фактура видалено
-BILL_SUPPLIER_DELETEInDolibarr=Рахунок-фактура постачальника видалено
+BILL_DELETEInbespoerp=Рахунок-фактура видалено
+BILL_SUPPLIER_DELETEInbespoerp=Рахунок-фактура постачальника видалено
 UnitPriceXQtyLessDiscount=Ціна за одиницю х Кількість - Знижка
 CustomersInvoicesArea=Платіжна зона клієнта
 SupplierInvoicesArea=Платіжна зона постачальника

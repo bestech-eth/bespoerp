@@ -183,7 +183,7 @@ abstract class ModeleNumRefRecruitmentJobPosition
 		if ($this->version == 'experimental') {
 			return $langs->trans("VersionExperimental");
 		}
-		if ($this->version == 'dolibarr') {
+		if ($this->version == 'bespoerp') {
 			return DOL_VERSION;
 		}
 		if ($this->version) {

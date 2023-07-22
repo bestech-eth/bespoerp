@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# bespoerp language file - Source file is en_US - paypal
 PaypalSetup=Танзимоти модули PayPal
-PaypalDesc=Ин модул имкон медиҳад, ки мизоҷон тавассути <a href="http://www.paypal.com" target="_blank"> PayPal </a> пардохт кунанд. Ин метавонад барои пардохти муваққатӣ ё барои пардохти марбут ба объекти Dolibarr истифода шавад (фактура, фармоиш, ...)
+PaypalDesc=Ин модул имкон медиҳад, ки мизоҷон тавассути <a href="http://www.paypal.com" target="_blank"> PayPal </a> пардохт кунанд. Ин метавонад барои пардохти муваққатӣ ё барои пардохти марбут ба объекти bespoerp истифода шавад (фактура, фармоиш, ...)
 PaypalOrCBDoPayment=Бо PayPal пардохт кунед (Card ё PayPal)
 PaypalDoPayment=Бо PayPal пардохт кунед
 PAYPAL_API_SANDBOX=Санҷиши режим/қуттии рег

@@ -31,7 +31,7 @@
  *  \brief      Page of contacts of thirdparties
  */
 
-// Load Dolibarr environment
+// Load bespoerp environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/company.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/images.lib.php';
@@ -94,7 +94,7 @@ if ($object->fetch($socid) <= 0 && $action == 'view') {
 	exit;
 }
 
-// Get object canvas (By default, this is not defined, so standard usage of dolibarr)
+// Get object canvas (By default, this is not defined, so standard usage of bespoerp)
 $canvas = $object->canvas ? $object->canvas : GETPOST("canvas");
 $objcanvas = null;
 if (!empty($canvas)) {

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# bespoerp language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Firmanavnet %s finnes allerede. Velg et annet!
 ErrorSetACountryFirst=Angi land først
 SelectThirdParty=Velg en tredjepart
@@ -12,7 +12,7 @@ MenuNewSupplier=Ny leverandør
 MenuNewPrivateIndividual=Ny privatperson
 NewCompany=Nytt selskap (prospekt, kunde, leverandør)
 NewThirdParty=Ny tredjepart (prospekt, kunde, leverandør)
-CreateDolibarrThirdPartySupplier=Opprett en tredjepart (leverandør)
+CreatebespoerpThirdPartySupplier=Opprett en tredjepart (leverandør)
 CreateThirdPartyOnly=Opprett tredjepart
 CreateThirdPartyAndContact=Opprett en tredjepart med underkontakt
 ProspectionArea=Prospektområde
@@ -383,7 +383,7 @@ CapitalOf=Aksjekapital på %s
 EditCompany=Rediger firma
 ThisUserIsNot=Denne brukeren er ikke et prospekt, kunde eller leverandør
 VATIntraCheck=Sjekk
-VATIntraCheckDesc=MVA-ID-en må inneholde landets prefiks. Koblingen <b> %s </b> bruker den europeiske MVA-kontrolltjenesten (VIES) som krever internettilgang fra Dolibarr-serveren.
+VATIntraCheckDesc=MVA-ID-en må inneholde landets prefiks. Koblingen <b> %s </b> bruker den europeiske MVA-kontrolltjenesten (VIES) som krever internettilgang fra bespoerp-serveren.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Sjekk internasjonal MVA-ID på EU-kommisjonens nettsted
 VATIntraManualCheck=Du kan også sjekke manuelt på EU-kommisjonens nettsted <a href="%s" target="_blank" rel="noopener noreferrer"> %s </a>
@@ -429,8 +429,8 @@ ProspectsByStatus=Prospekter etter status
 NoParentCompany=Ingen
 ExportCardToFormat=Eksporter kort til format
 ContactNotLinkedToCompany=Kontaktpersonen er ikke lenket til noen tredjepart
-DolibarrLogin=Dolibarr innlogging
-NoDolibarrAccess=Ingen tilgang til Dolibarr
+bespoerpLogin=bespoerp innlogging
+NobespoerpAccess=Ingen tilgang til bespoerp
 ExportDataset_company_1=Tredjeparter (Selskaper/organisasjoner/fysiske personer) og deres egenskaper
 ExportDataset_company_2=Kontakter og deres egenskaper
 ImportDataset_company_1=Tredjeparter og deres egenskaper

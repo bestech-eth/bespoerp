@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# bespoerp language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Nessun errore, committiamo
@@ -51,10 +51,10 @@ ErrorWrongDate=La data non è corretta!
 ErrorFailedToWriteInDir=Impossibile scrivere nella directory %s
 ErrorFailedToBuildArchive=Impossibile creare il file di archivio %s
 ErrorFoundBadEmailInFile=Sintassi email errata nelle righe %s del file (ad esempio alla riga %s con email = %s)
-ErrorUserCannotBeDelete=User cannot be deleted. Maybe it is associated to Dolibarr entities.
+ErrorUserCannotBeDelete=User cannot be deleted. Maybe it is associated to bespoerp entities.
 ErrorFieldsRequired=Mancano alcuni campi obbligatori.
 ErrorSubjectIsRequired=L'oggetto dell'email è obbligatorio
-ErrorFailedToCreateDir=Impossibile creare la directory. Verifica che l'utente del server Web abbia i permessi per scrivere nella directory Dolibarr. Se il parametro <b>safe_mode</b> è abilitato in PHP, verifica che i file php di Dolibarr appartengano all'utente o al gruppo del server web (per esempio www-data).
+ErrorFailedToCreateDir=Impossibile creare la directory. Verifica che l'utente del server Web abbia i permessi per scrivere nella directory bespoerp. Se il parametro <b>safe_mode</b> è abilitato in PHP, verifica che i file php di bespoerp appartengano all'utente o al gruppo del server web (per esempio www-data).
 ErrorNoMailDefinedForThisUser=Nessun indirizzo memorizzato per questo utente
 ErrorSetupOfEmailsNotComplete=L'impostazione delle e-mail non è completa
 ErrorFeatureNeedJavascript=Questa funzione necessita di javascript per essere attivata. Modificare questa impostazione nel menu Impostazioni - layout di visualizzazione.
@@ -115,8 +115,8 @@ ErrorProdIdAlreadyExist=%s è già assegnato
 ErrorFailedToSendPassword=Impossibile inviare la password
 ErrorFailedToLoadRSSFile=Impossibile ottenere feed RSS. Se i messaggi di errore non forniscono informazioni sufficienti, prova ad ativare il debug con MAIN_SIMPLEXMLLOAD_DEBUG.
 ErrorForbidden=Accesso negato.<br>Tentativo di accesso ad una pagina, area o funzionalità di un modulo disabilitato; oppure in una sessione non autenticata o comunque non consentita.
-ErrorForbidden2=L'autorizzazione all'accesso per questi dati può essere impostata dall'amministratore di Dolibarr tramite il menu %s - %s.
-ErrorForbidden3=Sembra che Dolibarr non venga utilizzato tramite una sessione autenticata. Dai un'occhiata alla documentazione di installazione Dolibarr per sapere come gestire le autenticazioni (htaccess, mod_auth o altri...).
+ErrorForbidden2=L'autorizzazione all'accesso per questi dati può essere impostata dall'amministratore di bespoerp tramite il menu %s - %s.
+ErrorForbidden3=Sembra che bespoerp non venga utilizzato tramite una sessione autenticata. Dai un'occhiata alla documentazione di installazione bespoerp per sapere come gestire le autenticazioni (htaccess, mod_auth o altri...).
 ErrorForbidden4=Nota: cancella i cookie del tuo browser per distruggere le sessioni esistenti per questo accesso.
 ErrorNoImagickReadimage=La funzione Imagick_readimage non è stata trovato nel PHP. L'anteprima non è disponibile. Gli amministratori possono disattivare questa scheda dal menu <b>Impostazioni - Schermo</b>
 ErrorRecordAlreadyExists=Il record esiste già
@@ -139,8 +139,8 @@ ErrorWebServerUserHasNotPermission=L'account utente <b>%s</b> utilizzato per ese
 ErrorNoActivatedBarcode=Nessun tipo di codice a barre attivato
 ErrUnzipFails=Estrazione dell'archivio %s con ZipArchive fallita
 ErrNoZipEngine=La funzione di compressione zip/unzip per il file %s non è disponibile in questa installazione di PHP
-ErrorFileMustBeADolibarrPackage=Il file %s deve essere un archivio zip Dolibarr
-ErrorModuleFileRequired=You must select a Dolibarr module package file
+ErrorFileMustBeAbespoerpPackage=Il file %s deve essere un archivio zip bespoerp
+ErrorModuleFileRequired=You must select a bespoerp module package file
 ErrorPhpCurlNotInstalled=PHP CURL non risulta installato, ma è necessario per comunicare con Paypal
 ErrorFailedToAddToMailmanList=Impossibile aggiungere il dato %s alla Mailman lista %s o SPIP base
 ErrorFailedToRemoveToMailmanList=Impossibile rimuovere il dato %s alla Mailman lista %s o SPIP base
@@ -152,7 +152,7 @@ ErrorDateMustBeBeforeToday=La data deve essere inferiore a quella odierna
 ErrorDateMustBeInFuture=La data deve essere maggiore di quella odierna
 ErrorPaymentModeDefinedToWithoutSetup=Un metodo di pagamento è stato impostato come %s ma il setup del modulo Fattura non è stato completato per definire le impostazioni da mostrare per questo metodo di pagamento.
 ErrorPHPNeedModule=Errore, il tuo PHP deve avere il modulo <b>%s</b> installato per usare questa funzionalità.
-ErrorOpenIDSetupNotComplete=Hai impostato il config file di Dolibarr per permettere l'autenticazione tramite OpenID, ma l'URL del service di OpenID non è definita nella costante %s
+ErrorOpenIDSetupNotComplete=Hai impostato il config file di bespoerp per permettere l'autenticazione tramite OpenID, ma l'URL del service di OpenID non è definita nella costante %s
 ErrorWarehouseMustDiffers=Il magazzino di origine e quello di destinazione devono essere differenti
 ErrorBadFormat=Formato non valido!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Errore, questo membro non è stato ancora collegato a nessuna terza parte. Collega il membro ad una delle terze parti esistenti o creane una nuova prima di creare sottoscrizioni con fattura.
@@ -215,7 +215,7 @@ ErrorUserNotAssignedToTask=User must be assigned to task to be able to enter tim
 ErrorTaskAlreadyAssigned=Attività già assegnata all'utente
 ErrorModuleFileSeemsToHaveAWrongFormat=The module package seems to have a wrong format.
 ErrorModuleFileSeemsToHaveAWrongFormat2=Deve esistere almeno una directory obbligatoria nello zip del modulo: <strong>%s</strong> o <strong>%s</strong>
-ErrorFilenameDosNotMatchDolibarrPackageRules=The name of the module package (<strong>%s</strong>) does not match expected name syntax: <strong>%s</strong>
+ErrorFilenameDosNotMatchbespoerpPackageRules=The name of the module package (<strong>%s</strong>) does not match expected name syntax: <strong>%s</strong>
 ErrorDuplicateTrigger=Error, duplicate trigger name %s. Already loaded from %s.
 ErrorNoWarehouseDefined=Errore: non è stato definito un magazzino.
 ErrorBadLinkSourceSetButBadValueForRef=The link you use is not valid. A 'source' for payment is defined, but value for 'ref' is not valid.
@@ -306,7 +306,7 @@ ErrorTooMuchFileInForm=Too much files in form, the maximum number is %s file(s)
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=Your PHP parameter upload_max_filesize (%s) is higher than PHP parameter post_max_size (%s). This is not a consistent setup.
-WarningPasswordSetWithNoAccount=A password was set for this member. However, no user account was created. So this password is stored but can't be used to login to Dolibarr. It may be used by an external module/interface but if you don't need to define any login nor password for a member, you can disable option "Manage a login for each member" from Member module setup. If you need to manage a login but don't need any password, you can keep this field empty to avoid this warning. Note: Email can also be used as a login if the member is linked to a user.
+WarningPasswordSetWithNoAccount=A password was set for this member. However, no user account was created. So this password is stored but can't be used to login to bespoerp. It may be used by an external module/interface but if you don't need to define any login nor password for a member, you can disable option "Manage a login for each member" from Member module setup. If you need to manage a login but don't need any password, you can keep this field empty to avoid this warning. Note: Email can also be used as a login if the member is linked to a user.
 WarningMandatorySetupNotComplete=Fare clic qui per impostare i parametri principali
 WarningEnableYourModulesApplications=Attiva i moduli/applicazioni per iniziare ad utilizzare il software
 WarningSafeModeOnCheckExecDir=Attenzione: quando è attiva l'opzione <b>safe_mode</b>, il comando deve essere contenuto in una directory dichiarata dal parametro <b>safe_mode_exec_dir</b>.
