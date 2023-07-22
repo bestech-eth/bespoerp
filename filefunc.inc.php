@@ -31,10 +31,10 @@
  */
 
 if (!defined('DOL_APPLICATION_TITLE')) {
-	define('DOL_APPLICATION_TITLE', 'Dolibarr');
+	define('DOL_APPLICATION_TITLE', 'BESPOERP');
 }
 if (!defined('DOL_VERSION')) {
-	define('DOL_VERSION', '17.0.1'); // a.b.c-alpha, a.b.c-beta, a.b.c-rcX or a.b.c
+	define('DOL_VERSION', '1.0.1'); // a.b.c-alpha, a.b.c-beta, a.b.c-rcX or a.b.c
 }
 
 if (!defined('EURO')) {
