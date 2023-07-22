@@ -268,7 +268,7 @@ SocialNetworks=Social Networks
 SocialNetworkId=ID della rete sociale
 ForDocumentationSeeWiki=Per la documentazione dell'utente o dello sviluppatore (Doc, FAQ...), <br> dai un'occhiata al Wiki di Dolibarr: <br> <b> <a href="%s" target="_blank" rel="noopener noreferrer"> %s </a> </b>
 ForAnswersSeeForum=Per qualsiasi altra domanda/aiuto, puoi usare il forum Dolibarr: <br> <b> <a href="%s" target="_blank" rel="noopener noreferrer"> %s </a> </b>
-HelpCenterDesc1=Here are some resources for getting help and support with Dolibarr.
+HelpCenterDesc1=Here are some resources for getting help and support with BESPOERP.
 HelpCenterDesc2=Alcune di queste risorse sono disponibili solo in <b>inglese</b> .
 CurrentMenuHandler=Attuale gestore menu
 MeasuringUnit=Unità di misura
