@@ -50,7 +50,7 @@ if (empty($conf->global->MAIN_MODULE_WEBSERVICES)) {
 $server = new nusoap_server();
 $server->soap_defencoding = 'UTF-8';
 $server->decode_utf8 = false;
-$ns = 'http://www.dolibarr.org/ns/';
+$ns = 'http://www.bespo.et/ns/';
 $server->configureWSDL('WebServicesDolibarrUser', $ns);
 $server->wsdl->schemaTargetNamespace = $ns;
 

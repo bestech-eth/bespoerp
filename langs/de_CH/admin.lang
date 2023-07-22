@@ -528,7 +528,7 @@ LDAPFieldAddress=Strasse
 LDAPFieldCountry=Land
 LDAPDescValues=Die Beispielwerte für <b>OpenLDAP</b> verfügen über folgende Muster: <b>core.schema, cosine.schema, inetorgperson.schema</b>. Wenn Sie diese Werte für OpenLDAP verwenden möchten, passen Sie bitte die LDAP-Konfigurationsdateu <b>slapd.conf</b> entsprechend an, damit all diese Muster geladen werden.
 ApplicativeCache=Applicative Cache
-MemcachedNotAvailable=Kein Cache Anwendung gefunden. \nSie können die Leistung durch die Installation des Cache-Server Memcached und die Aktivierung des Anwendungs Cache Modul\n<br>hier mehr Informationen <a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN">http://wiki.dolibarr.org/index.php/Module_MemCached_EN</a>.<br>\nverbessern.\nBeachten Sie, dass viele Billig-Provider keine solche Cache-Server in ihrer Infrastruktur anbieten.
+MemcachedNotAvailable=Kein Cache Anwendung gefunden. \nSie können die Leistung durch die Installation des Cache-Server Memcached und die Aktivierung des Anwendungs Cache Modul\n<br>hier mehr Informationen <a href="http://wiki.bespo.et/index.php/Module_MemCached_EN">http://wiki.bespo.et/index.php/Module_MemCached_EN</a>.<br>\nverbessern.\nBeachten Sie, dass viele Billig-Provider keine solche Cache-Server in ihrer Infrastruktur anbieten.
 MemcachedModuleAvailableButNotSetup=Module memcached für applicative Cache gefunden, aber Setup-Modul ist nicht vollständig.
 MemcachedAvailableAndSetup=Module memcached dedicated to use memcached server is enabled..
 ProductSetup=Produktmoduleinstellungen

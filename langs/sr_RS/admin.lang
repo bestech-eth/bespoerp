@@ -318,7 +318,7 @@ CompanyEmail=Company Email
 FeatureNotAvailableOnLinux=Mogućnost nije dostupna na Unix-olikim sistemima. Testirajte program za slanje maila lokalno.
 FixOnTransifex=Fix the translation on the online translation platform of project
 SubmitTranslation=Ako prevod ovog jezika nije kompletan ili ako pronađete greške, možete ih ispraviti editovanjem fajlova u folderu <b>langs/%s</b> i dostaviti svoje ispravke na www.transifex.com/dolibarr-association/dolibarr/
-SubmitTranslationENUS=If translation for this language is not complete or you find errors, you can correct this by editing files into directory <b>langs/%s</b> and submit modified files on dolibarr.org/forum or, if you are a developer, with a PR on github.com/Dolibarr/dolibarr
+SubmitTranslationENUS=If translation for this language is not complete or you find errors, you can correct this by editing files into directory <b>langs/%s</b> and submit modified files on bespo.et/forum or, if you are a developer, with a PR on github.com/Dolibarr/dolibarr
 ModuleSetup=Postavke modula
 ModulesSetup=Postavke modula/aplikacije
 ModuleFamilyBase=Sistem
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=Lista foldera sa šablonima u OpenDocument forma
 NumberOfModelFilesFound=Broj ODT/ODS šablona pronađenih u ovim folderima
 ExampleOfDirectoriesForModelGen=Primer sintakse: <br>c:\\myapp\\mydocumentdir\\mysubdir<br>/home/myapp/mydocumentdir/mysubdir <br>DOL_DATA_ROOT/ecm/ecmdir
 FollowingSubstitutionKeysCanBeUsed=<br>Da bi znali kako da kreirate vaše šablone odt dokumenata, pre čuvanja u ovim folderima, pročitajte Wiki dokumentaciju:
-FullListOnOnlineDocumentation=http://wiki.dolibarr.org/index.php/Create_an_ODT_document_template
+FullListOnOnlineDocumentation=http://wiki.bespo.et/index.php/Create_an_ODT_document_template
 FirstnameNamePosition=Pozicija Imena/Prezimena
 DescWeather=Sledeće slike će biti prikazane na komandnoj tabli kada broj kasnih akcija dostigne sledeću vrednost:
 KeyForWebServicesAccess=Ključ za korišćenje Web Servisa (parameter "dolibarrkey" unutar webservices)
@@ -1654,7 +1654,7 @@ NotInstalled=Not installed.
 NotSlowedDownByThis=Not slowed down by this.
 NotRiskOfLeakWithThis=Not risk of leak with this.
 ApplicativeCache=Applicative cache
-MemcachedNotAvailable=No applicative cache found. You can enhance performance by installing a cache server Memcached and a module able to use this cache server.<br>More information here <a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN">http://wiki.dolibarr.org/index.php/Module_MemCached_EN</a>.<br>Note that a lot of web hosting provider does not provide such cache server.
+MemcachedNotAvailable=No applicative cache found. You can enhance performance by installing a cache server Memcached and a module able to use this cache server.<br>More information here <a href="http://wiki.bespo.et/index.php/Module_MemCached_EN">http://wiki.bespo.et/index.php/Module_MemCached_EN</a>.<br>Note that a lot of web hosting provider does not provide such cache server.
 MemcachedModuleAvailableButNotSetup=Module memcached for applicative cache found but setup of module is not complete.
 MemcachedAvailableAndSetup=Module memcached dedicated to use memcached server is enabled.
 OPCodeCache=OPCode cache
@@ -2019,8 +2019,8 @@ ByDefaultInList=Prikaži po defaultu na prikazu liste
 YouUseLastStableVersion=You use the latest stable version
 TitleExampleForMajorRelease=Primer poruke koju možete koristiti da biste najavili novu verziju (možete je koristiti na Vašim sajtovima)
 TitleExampleForMaintenanceRelease=Primer poruke koju možete koristiti da biste najavili novu ispravku (možete je koristiti na Vašim sajtovima)
-ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s is available. Version %s is a major release with a lot of new features for both users and developers. You can download it from the download area of https://www.dolibarr.org portal (subdirectory Stable versions). You can read <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> for complete list of changes.
-ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s is available. Version %s is a maintenance version, so contains only bug fixes. We recommend all users to upgrade to this version. A maintenance release does not introduce new features or changes to the database. You may download it from the download area of https://www.dolibarr.org portal (subdirectory Stable versions). You can read the <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> for complete list of changes.
+ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s is available. Version %s is a major release with a lot of new features for both users and developers. You can download it from the download area of https://www.bespo.et portal (subdirectory Stable versions). You can read <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> for complete list of changes.
+ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s is available. Version %s is a maintenance version, so contains only bug fixes. We recommend all users to upgrade to this version. A maintenance release does not introduce new features or changes to the database. You may download it from the download area of https://www.bespo.et portal (subdirectory Stable versions). You can read the <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> for complete list of changes.
 MultiPriceRuleDesc=When option "Several levels of prices per product/service" is enabled, you can define different prices (one per price level) for each product. To save you time, here you may enter a rule to autocalculate a price for each level based on the price of the first level, so you will have to only enter a price for the first level for each product. This page is designed to save you time but is useful only if your prices for each level are relative to first level. You can ignore this page in most cases.
 ModelModulesProduct=Templates for product documents
 WarehouseModelModules=Templates for documents of warehouses

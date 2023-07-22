@@ -18,7 +18,7 @@ ob_start();
 <meta name="keywords" content="partners" />
 <meta name="title" content="Partners" />
 <meta name="description" content="Partners" />
-<meta name="generator" content="Dolibarr 17.0.0-alpha (https://www.dolibarr.org)" />
+<meta name="generator" content="Dolibarr 17.0.0-alpha (https://www.bespo.et)" />
 <meta name="dolibarr:pageid" content="191" />
 <?php if ($website->use_manifest) { print '<link rel="manifest" href="/manifest.json.php" />'."\n"; } ?>
 <!-- Include link to CSS file -->
@@ -65,7 +65,7 @@ ob_start();
     <div class="col-sm-8 col-md-2 col-lg-2">
         <div>
             <img src="/viewimage.php?modulepart=medias&file=image/template-corporate/dolibarr_256x256.png" height="64px"><br>
-            <div class="floatatbottom"><a href="https://www.dolibarr.org" target="_new">Dolibarr ERP CRM</a></div>
+            <div class="floatatbottom"><a href="https://www.bespo.et" target="_new">Dolibarr ERP CRM</a></div>
         </div>
     </div>
     <div class="col-sm-4 col-md-2 col-lg-2">

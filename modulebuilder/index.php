@@ -1970,7 +1970,7 @@ $text = $langs->trans("ModuleBuilder");
 
 print load_fiche_titre($text, '', 'title_setup');
 
-print '<span class="opacitymedium hideonsmartphone">'.$langs->trans("ModuleBuilderDesc", 'https://wiki.dolibarr.org/index.php/Module_development#Create_your_module').'</span>';
+print '<span class="opacitymedium hideonsmartphone">'.$langs->trans("ModuleBuilderDesc", 'https://wiki.bespo.et/index.php/Module_development#Create_your_module').'</span>';
 print '<br class="hideonsmartphone">';
 
 //print $textforlistofdirs;
@@ -2190,7 +2190,7 @@ if ($module == 'initmodule') {
 	print ' &nbsp; (';
 	print dolButtonToOpenUrlInDialogPopup('popup_modules_id', $langs->transnoentitiesnoconv("SeeIDsInUse"), $langs->transnoentitiesnoconv("SeeIDsInUse"), '/admin/system/modules.php?mainmenu=home&leftmenu=admintools_info', '', '');
 	print ' - ';
-	print '<a href="https://wiki.dolibarr.org/index.php/List_of_modules_id" target="_blank" rel="noopener noreferrer external">'.$langs->trans("SeeReservedIDsRangeHere").'</a>';
+	print '<a href="https://wiki.bespo.et/index.php/List_of_modules_id" target="_blank" rel="noopener noreferrer external">'.$langs->trans("SeeReservedIDsRangeHere").'</a>';
 	print ')';
 	print '</span>';
 	print '</div></div>';
@@ -2425,7 +2425,7 @@ if ($module == 'initmodule') {
 					print $moduleobj->numero;
 					print '<span class="opacitymedium">';
 					print ' &nbsp; (<a href="'.DOL_URL_ROOT.'/admin/system/modules.php?mainmenu=home&leftmenu=admintools_info" target="_blank" rel="noopener noreferrer">'.$langs->trans("SeeIDsInUse").'</a>';
-					print ' - <a href="https://wiki.dolibarr.org/index.php/List_of_modules_id" target="_blank" rel="noopener noreferrer external">'.$langs->trans("SeeReservedIDsRangeHere").'</a>)';
+					print ' - <a href="https://wiki.bespo.et/index.php/List_of_modules_id" target="_blank" rel="noopener noreferrer external">'.$langs->trans("SeeReservedIDsRangeHere").'</a>)';
 					print '</span>';
 					print '</td></tr>';
 
@@ -3026,7 +3026,7 @@ if ($module == 'initmodule') {
 							print '<tr class="liste_titre">';
 							print '<th class="none">';
 
-							$htmltext = $langs->trans("PropertyDesc").'<br><br><a class="" href="https://wiki.dolibarr.org/index.php/Language_and_development_rules#Table_and_fields_structures" target="_blank" rel="noopener noreferrer external">'.$langs->trans("SeeExamples").'</a>';
+							$htmltext = $langs->trans("PropertyDesc").'<br><br><a class="" href="https://wiki.bespo.et/index.php/Language_and_development_rules#Table_and_fields_structures" target="_blank" rel="noopener noreferrer external">'.$langs->trans("SeeExamples").'</a>';
 							print $form->textwithpicto($langs->trans("Code"), $htmltext, 1, 'help', 'extracss', 0, 3, 'propertyhelp');
 
 							print '</th>';
@@ -4597,7 +4597,7 @@ if ($module == 'initmodule') {
 						$path = isset($parts[5]) ? $parts[5] : '';
 
 						// If we want to remove the tab, then the format is 'objecttype:tabname:optionalcondition'
-						// See: https://wiki.dolibarr.org/index.php?title=Tabs_system#To_remove_an_existing_tab
+						// See: https://wiki.bespo.et/index.php?title=Tabs_system#To_remove_an_existing_tab
 						if ($tabName[0] === '-') {
 							$tabTitle = '';
 							$condition = isset($parts[2]) ? $parts[2] : '';

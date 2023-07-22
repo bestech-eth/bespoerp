@@ -18,4 +18,4 @@ ModuleZapierForDolibarrDesc = وحدة زابيا لدوليبار
 ZapierForDolibarrSetup=إعدادات زابيا لدوليبار
 ZapierDescription=الربط مع زابيا
 ZapierAbout=عن وحدة زابيا
-ZapierSetupPage=لا حاجة للاعدادات من جانب دوليبار لاستخدام زابيا على دوليبار.\nلكن، لابد من إنشاء حزمة على جانب زابيا لاستخدام زابيا على دوليبار. راجع التوثيق <a href="https://wiki.dolibarr.org/index.php/Module_Zapier">على هذه الصفحة</a>
+ZapierSetupPage=لا حاجة للاعدادات من جانب دوليبار لاستخدام زابيا على دوليبار.\nلكن، لابد من إنشاء حزمة على جانب زابيا لاستخدام زابيا على دوليبار. راجع التوثيق <a href="https://wiki.bespo.et/index.php/Module_Zapier">على هذه الصفحة</a>

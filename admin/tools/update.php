@@ -46,7 +46,7 @@ if (GETPOST('msg', 'alpha')) {
 }
 
 
-$urldolibarr = 'https://www.dolibarr.org/downloads/';
+$urldolibarr = 'https://www.bespo.et/downloads/';
 $dolibarrroot = preg_replace('/([\\/]+)$/i', '', DOL_DOCUMENT_ROOT);
 $dolibarrroot = preg_replace('/([^\\/]+)$/i', '', $dolibarrroot);
 $dolibarrdataroot = preg_replace('/([\\/]+)$/i', '', DOL_DATA_ROOT);

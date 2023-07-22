@@ -94,7 +94,7 @@ ALTER TABLE llx_opensurvey_sondage ADD COLUMN sujet TEXT;
 
 ALTER TABLE llx_facture_rec CHANGE COLUMN usenewprice usenewprice INTEGER DEFAULT 0;
 
--- Uniformize index name to match http://wiki.dolibarr.org/index.php/Language_and_development_rules#SQL_rules
+-- Uniformize index name to match http://wiki.bespo.et/index.php/Language_and_development_rules#SQL_rules
 ALTER TABLE llx_c_type_contact DROP index idx_c_type_contact_uk;
 ALTER TABLE llx_c_type_contact ADD UNIQUE INDEX uk_c_type_contact_id (element, source, code);
 ALTER TABLE llx_c_tva ADD UNIQUE INDEX uk_c_tva_id (fk_pays, taux, recuperableonly);

@@ -240,7 +240,7 @@ CompanyEmail=E-mail da empresa
 FeatureNotAvailableOnLinux=Função não disponível para sistemas tipo Unix. Teste de envio local.
 FixOnTransifex=Corrija a tradução na plataforma de tradução on-line do projeto
 SubmitTranslation=Se a tradução para este idioma não estiver completa ou você encontrar erros, você pode corrigir isso editando os arquivos no diretório <b>langs / %s</b> e enviar sua alteração para www.transifex.com/dolibarr-association/dolibarr/
-SubmitTranslationENUS=Se a tradução para este idioma não estiver completa ou você encontrar erros, pode corrigir isso editando os arquivos no diretório <b> langs/ %s </b> e enviar os arquivos modificados em dolibarr.org/forum ou, se você for um desenvolvedor, com um PR no github.com/Dolibarr/dolibarr
+SubmitTranslationENUS=Se a tradução para este idioma não estiver completa ou você encontrar erros, pode corrigir isso editando os arquivos no diretório <b> langs/ %s </b> e enviar os arquivos modificados em bespo.et/forum ou, se você for um desenvolvedor, com um PR no github.com/Dolibarr/dolibarr
 ModuleSetup=Conf. do módulo
 ModulesSetup=Configuração de Módulos/Aplicativos
 ModuleFamilyCrm=Gestão de Relacionamento com o Cliente (CRM)
@@ -1238,7 +1238,7 @@ NotInstalled=Não instalado.
 NotSlowedDownByThis=Velocidade não pôde ser diminuída
 NotRiskOfLeakWithThis=Não há risco de vazamento desta forma.
 ApplicativeCache=cache de aplicativo
-MemcachedNotAvailable=Nenhum cache de aplicativo foi encontrado. Você pode aumentar a performance instalando um servidor de cache Memcached e o módulo será capaz de usar esse servidor de cache. Mais informações aqui http://wiki.dolibarr.org/index.php/Module_MemCached_EN. Note que vários provedores de host web não dispõem de tal servidor de cache.
+MemcachedNotAvailable=Nenhum cache de aplicativo foi encontrado. Você pode aumentar a performance instalando um servidor de cache Memcached e o módulo será capaz de usar esse servidor de cache. Mais informações aqui http://wiki.bespo.et/index.php/Module_MemCached_EN. Note que vários provedores de host web não dispõem de tal servidor de cache.
 MemcachedModuleAvailableButNotSetup=Módulo de aceleração da memória cache está ativado mas a configuração não está completa
 MemcachedAvailableAndSetup=Módulo de aceleração da memória cache está ativado e a configuração está completa
 OPCodeCache=cache OPCode
@@ -1495,8 +1495,8 @@ ByDefaultInList=Exibir como padrão na visualização em lista
 YouUseLastStableVersion=Você utiliza a última versão estável
 TitleExampleForMajorRelease=Exemplo de mensagem que você pode usar para anunciar esta importante versão (sinta-se à vontade para usar isso nos seus websites)
 TitleExampleForMaintenanceRelease=Exemplo de mensagem que você pode usar para anunciar esta versão de manutenção (sinta-se à vontade para usar isso nos seus websites)
-ExampleOfNewsMessageForMajorRelease=O ERP e CRM Dolibarr %s está disponível. A versão %s é um lançamento principal com diversas novas funções para os usuários e desenvolvedores. Você pode baixá-la a partir da área de download do portal https://www.dolibarr.org (sub-diretório Versões estáveis). Você pode ler o <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> com a lista completa de mudanças.
-ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s está disponível. Versão %s é uma versão de manutenção, portanto, contém apenas correções de bugs. Recomendamos que todos os usuários atualizem para esta versão. Uma versão de manutenção não introduz novos recursos ou alterações no banco de dados. Você pode baixá-lo da área de download do portal https://www.dolibarr.org (subdiretório versões estáveis). Você pode ler o <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> para obter uma lista completa de alterações.
+ExampleOfNewsMessageForMajorRelease=O ERP e CRM Dolibarr %s está disponível. A versão %s é um lançamento principal com diversas novas funções para os usuários e desenvolvedores. Você pode baixá-la a partir da área de download do portal https://www.bespo.et (sub-diretório Versões estáveis). Você pode ler o <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> com a lista completa de mudanças.
+ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s está disponível. Versão %s é uma versão de manutenção, portanto, contém apenas correções de bugs. Recomendamos que todos os usuários atualizem para esta versão. Uma versão de manutenção não introduz novos recursos ou alterações no banco de dados. Você pode baixá-lo da área de download do portal https://www.bespo.et (subdiretório versões estáveis). Você pode ler o <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> para obter uma lista completa de alterações.
 MultiPriceRuleDesc=Quando a opção "Vários níveis de preços por produto / serviço" está ativada, você pode definir preços diferentes (um por nível de preço) para cada produto. Para poupar tempo, aqui você pode inserir uma regra para calcular automaticamente um preço para cada nível com base no preço do primeiro nível, então você terá que inserir apenas um preço para o primeiro nível para cada produto. Esta página foi projetada para poupar tempo, mas é útil somente se os preços de cada nível forem relativos ao primeiro nível. Você pode ignorar esta página na maioria dos casos.
 ModelModulesProduct=Temas para os documentos do produto
 WarehouseModelModules=Modelos para documentos de armazéns

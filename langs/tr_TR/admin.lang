@@ -318,7 +318,7 @@ CompanyEmail=Firma e-posta adresi
 FeatureNotAvailableOnLinux=Unix gibi sistemlerde bu özellik yoktur.
 FixOnTransifex=Çeviriyi projenin çevrimiçi çeviri platformunda düzeltin
 SubmitTranslation=Bu dilin çevirisi tamamlanmamışsa veya hatalar görüyorsanız, <b>langs/%s</b> dizindeki dosyalarını düzenleyerek bu hataları düzeltebilir ve değişikliklerinizi www.transifex.com/dolibarr-association/dolibarr/ adresine gönderebilirsiniz.
-SubmitTranslationENUS=Bu dil için çeviri tamamlanmamışsa ya da hatalar buluyorsanız, bunları <b>langs/%s</b> dizininde düzeltebilir ve değişikliklerinizi dolibarr.org/forum adresine gönderebilirsiniz veya geliştiriciyseniz github.com/Dolibarr/dolibarr adresinde bir PR ile düzenleyebilirsiniz.
+SubmitTranslationENUS=Bu dil için çeviri tamamlanmamışsa ya da hatalar buluyorsanız, bunları <b>langs/%s</b> dizininde düzeltebilir ve değişikliklerinizi bespo.et/forum adresine gönderebilirsiniz veya geliştiriciyseniz github.com/Dolibarr/dolibarr adresinde bir PR ile düzenleyebilirsiniz.
 ModuleSetup=Modül kurulumu
 ModulesSetup=Modül/Uygulama kurulumu
 ModuleFamilyBase=Sistem
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=OpenDocument biçimli şablon dosyalarını içe
 NumberOfModelFilesFound=Bu dizinlerde bulunana ODT/ODS şablon dosyalarının sayısı
 ExampleOfDirectoriesForModelGen=Sözdizimi örnekleri:<br>c: \\ myapp \\ mydocumentdir \\ mysubdir<br>/ home/myapp/mydocumentdir/mysubdir<br>DOL_DATA_ROOT/ecm/ecmdir
 FollowingSubstitutionKeysCanBeUsed=<br>Odt belge şablonlarının nasıl oluşturulacağını öğrenmek için o dizinlere kaydetmeden önce, wiki belgelerini okuyun:
-FullListOnOnlineDocumentation=http://wiki.dolibarr.org/index.php/Create_an_ODT_document_template
+FullListOnOnlineDocumentation=http://wiki.bespo.et/index.php/Create_an_ODT_document_template
 FirstnameNamePosition=Ad/Soyad konumu
 DescWeather=Gecikmiş eylem sayısı aşağıdaki değerlere ulaştığında gösterge panelinde aşağıdaki resimler gösterilecektir:
 KeyForWebServicesAccess=Web Hizmetleri kullanmak için anahtar (webhizmetlerindeki "dolibarrkey" parametresi)
@@ -1654,7 +1654,7 @@ NotInstalled=Yüklü değil.
 NotSlowedDownByThis=Bununla yavaşlamaz.
 NotRiskOfLeakWithThis=Bununla sızıntı riski yok.
 ApplicativeCache=\t\nUygulamalı önbellek
-MemcachedNotAvailable=Uygulanabilir önbellek bulunamadı. Performansı Memcached önbellek sunucusu ve bu önbellek sunucusunu kullanabilecek bir modül kurarak arttırabilirsiniz.<br>Daha fazla bilgiyi buradan <a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN">http://wiki.dolibarr.org/index.php/Module_MemCached_EN</a>.<br>bulabilirsiniz. Bu tür önbellek sunucusunu çok fazla web barındırıcısının sağlamadığını unutmayın.
+MemcachedNotAvailable=Uygulanabilir önbellek bulunamadı. Performansı Memcached önbellek sunucusu ve bu önbellek sunucusunu kullanabilecek bir modül kurarak arttırabilirsiniz.<br>Daha fazla bilgiyi buradan <a href="http://wiki.bespo.et/index.php/Module_MemCached_EN">http://wiki.bespo.et/index.php/Module_MemCached_EN</a>.<br>bulabilirsiniz. Bu tür önbellek sunucusunu çok fazla web barındırıcısının sağlamadığını unutmayın.
 MemcachedModuleAvailableButNotSetup=Uygulamalı önbellek için memcached modülü bulundu ama modülün kurulumu tamamlanmamış.
 MemcachedAvailableAndSetup=Memcached modülü etkinleştirilmiş memcached sunucusunu kullanmak içindir.
 OPCodeCache=OPCode önbelleği
@@ -2019,8 +2019,8 @@ ByDefaultInList=Liste görünümünde varsayılana göre göster
 YouUseLastStableVersion=En son kararlı sürümü kullanıyorsunuz
 TitleExampleForMajorRelease=Bu ana sürümü duyurmak için kullanabileceğiniz mesaj örneği (web sitenizde rahatça kullanabilirsiniz)
 TitleExampleForMaintenanceRelease=Bu bakım sürümü duyurmak için kullanabileceğiniz mesaj örneği (web sitenizde rahatça kullanabilirsiniz)
-ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s kullanıma hazır. Versiyon %s, hem kullanıcılar hem de geliştiriciler için bir çok yeni özelliğe sahip majör bir sürümdür. Bu sürümü https://www.dolibarr.org portalının indirme alanından indirebilirsiniz (alt dizin Kararlı sürümler). Değişikliklerin tam listesini <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> bölümünde inceleyebilirsiniz.
-ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s mevcuttur. %s sürümü bir bakım sürümüdür, bu nedenle yalnızca hata düzeltmelerini içerir. Tüm kullanıcıların bu sürüme yükseltmelerini tavsiye ederiz. Bir bakım sürümü, veritabanına yeni özellikler veya değişiklikler getirmez. Https://www.dolibarr.org portalının (alt dizin Stable sürümleri) indirme alanından indirebilirsiniz. Değişikliklerin tam listesi için <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog</a>’u okuyabilirsiniz.
+ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s kullanıma hazır. Versiyon %s, hem kullanıcılar hem de geliştiriciler için bir çok yeni özelliğe sahip majör bir sürümdür. Bu sürümü https://www.bespo.et portalının indirme alanından indirebilirsiniz (alt dizin Kararlı sürümler). Değişikliklerin tam listesini <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> bölümünde inceleyebilirsiniz.
+ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s mevcuttur. %s sürümü bir bakım sürümüdür, bu nedenle yalnızca hata düzeltmelerini içerir. Tüm kullanıcıların bu sürüme yükseltmelerini tavsiye ederiz. Bir bakım sürümü, veritabanına yeni özellikler veya değişiklikler getirmez. Https://www.bespo.et portalının (alt dizin Stable sürümleri) indirme alanından indirebilirsiniz. Değişikliklerin tam listesi için <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog</a>’u okuyabilirsiniz.
 MultiPriceRuleDesc="Ürün/hizmet başına birkaç fiyat düzeyi" seçeneği etkinleştirildiğinde, her ürün için farklı fiyatlar (fiyat düzeyi başına bir) tanımlayabilirsiniz. Size zaman kazandırmak için, ilk seviyenin fiyatına dayalı olarak her seviye için bir fiyatı otomatik hesaplamak üzere buraya bir kural girebilirsiniz, böylece her ürün için yalnızca ilk seviye için bir fiyat girmeniz gerekecektir. Bu sayfa size zaman kazandırmak için tasarlanmıştır, ancak yalnızca her seviye için fiyatlarınız birinci seviyeye göre ise kullanışlıdır. Çoğu durumda bu sayfayı göz ardı edebilirsiniz.
 ModelModulesProduct=Ürün belgeleri için şablonlar
 WarehouseModelModules=Depo belgeleri için şablonlar

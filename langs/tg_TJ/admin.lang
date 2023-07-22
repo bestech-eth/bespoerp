@@ -318,7 +318,7 @@ CompanyEmail=Почтаи электронии ширкат
 FeatureNotAvailableOnLinux=Хусусият дар системаҳои монанди Unix дастрас нест. Барномаи sendmail -и худро ба таври маҳаллӣ санҷед.
 FixOnTransifex=Тарҷумаро дар платформаи тарҷумаи онлайни лоиҳа ислоҳ кунед
 SubmitTranslation=Агар тарҷумаи ин забон пурра набошад ё шумо хатогиҳо пайдо кунед, шумо метавонед инро бо таҳрири файлҳо дар директорияи <b> langs/%s </b> ислоҳ кунед ва тағироти худро ба www.transifex.com/dolibarr-association/dolibarr/ ирсол кунед
-SubmitTranslationENUS=Агар тарҷумаи ин забон пурра набошад ё шумо хатогиҳо пайдо кунед, шумо метавонед инро бо таҳрири файлҳо ба директорияи <b> langs/%s </b> ислоҳ кунед ва файлҳои тағирёфтаро дар dolibarr.org/forum фиристед ё агар шумо таҳиягар бошед, бо PR дар github .com/Dolibarr/dolibarr
+SubmitTranslationENUS=Агар тарҷумаи ин забон пурра набошад ё шумо хатогиҳо пайдо кунед, шумо метавонед инро бо таҳрири файлҳо ба директорияи <b> langs/%s </b> ислоҳ кунед ва файлҳои тағирёфтаро дар bespo.et/forum фиристед ё агар шумо таҳиягар бошед, бо PR дар github .com/Dolibarr/dolibarr
 ModuleSetup=Танзими модул
 ModulesSetup=Модулҳо/Танзимоти барнома
 ModuleFamilyBase=Система
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=Рӯйхати феҳристҳо, ки доро
 NumberOfModelFilesFound=Шумораи файлҳои шаблонии ODT/ODS, ки дар ин директорияҳо пайдо шудаанд
 ExampleOfDirectoriesForModelGen=Намунаҳои синтаксис: <br> c: \\ myapp \\ mydocumentdir \\ mysubdir <br>/home/myapp/mydocumentdir/mysubdir <br> DOL_DATA_ROOT/ecm/ecmdir
 FollowingSubstitutionKeysCanBeUsed= <br> Барои донистани чӣ гуна сохтани қолабҳои ҳуҷҷатҳои одтии худ, пеш аз нигоҳ доштани онҳо дар ин директорияҳо, ҳуҷҷатҳои викиро хонед:
-FullListOnOnlineDocumentation=http://wiki.dolibarr.org/index.php/Create_an_ODT_document_template
+FullListOnOnlineDocumentation=http://wiki.bespo.et/index.php/Create_an_ODT_document_template
 FirstnameNamePosition=Мавқеи ном/насаб
 DescWeather=Вақте ки шумораи амалҳои дер ба арзишҳои зерин мерасад, дар панели тасвирҳо нишон дода мешавад:
 KeyForWebServicesAccess=Калид барои истифодаи хидматҳои веб (параметри "dolibarrkey" дар хидматҳои веб)
@@ -1654,7 +1654,7 @@ NotInstalled=Насб нашудааст.
 NotSlowedDownByThis=Бо ин суст нашудааст.
 NotRiskOfLeakWithThis=Бо ин хатари ихроҷ нест.
 ApplicativeCache=Кэши амалӣ
-MemcachedNotAvailable=Ягон кеши татбиқшаванда ёфт нашуд. Шумо метавонед тавассути насб кардани сервери кеши Memcached ва модули қодир ба истифода аз ин сервери кеш иҷрои корро беҳтар кунед. <br> Маълумоти бештар дар ин ҷо <a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN"> http://wiki.dolibarr.org/index.php/Module_MemCached_EN </a>. <br> Дар хотир доред, ки бисёр провайдери хостинги веб чунин сервери кэшро таъмин намекунад.
+MemcachedNotAvailable=Ягон кеши татбиқшаванда ёфт нашуд. Шумо метавонед тавассути насб кардани сервери кеши Memcached ва модули қодир ба истифода аз ин сервери кеш иҷрои корро беҳтар кунед. <br> Маълумоти бештар дар ин ҷо <a href="http://wiki.bespo.et/index.php/Module_MemCached_EN"> http://wiki.bespo.et/index.php/Module_MemCached_EN </a>. <br> Дар хотир доред, ки бисёр провайдери хостинги веб чунин сервери кэшро таъмин намекунад.
 MemcachedModuleAvailableButNotSetup=Модули memache барои кеши замимавӣ ёфт шуд, аммо насби модул ба анҷом нарасидааст.
 MemcachedAvailableAndSetup=Модули memcached бахшида ба истифодаи сервери memcached фаъол аст.
 OPCodeCache=Кэши OPCode
@@ -2019,8 +2019,8 @@ ByDefaultInList=Дар намуди рӯйхат бо нобаёнӣ нишон 
 YouUseLastStableVersion=Шумо версияи охирини устуворро истифода мебаред
 TitleExampleForMajorRelease=Намунаи паёмҳое, ки шумо метавонед барои эълон кардани ин нашри асосӣ истифода баред (озодона дар вебсайтҳои худ истифода баред)
 TitleExampleForMaintenanceRelease=Намунаи хабаре, ки шумо метавонед барои эълони ин нашри нигоҳдорӣ истифода баред (озодона дар вебсайтҳои худ истифода баред)
-ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s дастрас аст. Версияи %s як нашри муҳим бо бисёр хусусиятҳои нав барои корбарон ва таҳиягарон мебошад. Шумо метавонед онро аз минтақаи зеркашии портали https://www.dolibarr.org зеркашӣ кунед (зеркаталоги версияҳои устувор). Шумо метавонед <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> -ро барои рӯйхати пурраи тағиротҳо хонед.
-ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s дастрас аст. Версияи %s як версияи нигоҳдорӣ аст, бинобар ин танҳо ислоҳи хатогиҳо мавҷуд аст. Мо ба ҳамаи корбарон тавсия медиҳем, ки ба ин версия навсозӣ кунанд. Нашри нигоҳдорӣ хусусиятҳои нав ё тағиротро ба пойгоҳи дода ворид намекунад. Шумо метавонед онро аз минтақаи зеркашии портали https://www.dolibarr.org зеркашӣ кунед (зеркаталоги версияҳои устувор). Шумо метавонед <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> -ро барои рӯйхати пурраи тағиротҳо хонед.
+ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s дастрас аст. Версияи %s як нашри муҳим бо бисёр хусусиятҳои нав барои корбарон ва таҳиягарон мебошад. Шумо метавонед онро аз минтақаи зеркашии портали https://www.bespo.et зеркашӣ кунед (зеркаталоги версияҳои устувор). Шумо метавонед <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> -ро барои рӯйхати пурраи тағиротҳо хонед.
+ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s дастрас аст. Версияи %s як версияи нигоҳдорӣ аст, бинобар ин танҳо ислоҳи хатогиҳо мавҷуд аст. Мо ба ҳамаи корбарон тавсия медиҳем, ки ба ин версия навсозӣ кунанд. Нашри нигоҳдорӣ хусусиятҳои нав ё тағиротро ба пойгоҳи дода ворид намекунад. Шумо метавонед онро аз минтақаи зеркашии портали https://www.bespo.et зеркашӣ кунед (зеркаталоги версияҳои устувор). Шумо метавонед <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> -ро барои рӯйхати пурраи тағиротҳо хонед.
 MultiPriceRuleDesc=Вақте ки опсияи "Якчанд сатҳҳои нархҳо ба як маҳсулот/хидмат" фаъол карда мешавад, шумо метавонед барои ҳар як маҳсулот нархҳои гуногунро (як сатҳи нарх) муайян кунед. Барои сарфа кардани вақт, дар ин ҷо шумо метавонед қоидаеро барои худкор ҳисоб кардани нарх барои ҳар як сатҳ дар асоси нархи сатҳи аввал ворид кунед, бинобар ин шумо бояд танҳо барои ҳар як маҳсулот нархи сатҳи аввалро ворид кунед. Ин саҳифа барои сарфа кардани вақти шумо тарҳрезӣ шудааст, аммо танҳо дар сурате муфид аст, ки агар нархи шумо барои ҳар як сатҳ нисбат ба сатҳи аввал бошад. Дар аксари ҳолатҳо шумо метавонед ин саҳифаро нодида гиред.
 ModelModulesProduct=Шаблонҳо барои ҳуҷҷатҳои маҳсулот
 WarehouseModelModules=Шаблонҳо барои ҳуҷҷатҳои анборҳо

@@ -18,4 +18,4 @@ ModuleZapierForDolibarrDesc = Zapier Dolibarr modulhoz
 ZapierForDolibarrSetup=A Zapier beállítása Dolibarrhoz
 ZapierDescription=Interfész a Zapierrel
 ZapierAbout=A Zapier modulról
-ZapierSetupPage=A Zapier használatához nincs szükség a Dolibarr oldalon történő beállításra. A Zapier és a Dolibarr használatához azonban csomagot kell generálnia és közzé kell tennie a zapieren. Tekintse meg a dokumentációt <a href="https://wiki.dolibarr.org/index.php/Module_Zapier">ezen a wikioldalon</a>.
+ZapierSetupPage=A Zapier használatához nincs szükség a Dolibarr oldalon történő beállításra. A Zapier és a Dolibarr használatához azonban csomagot kell generálnia és közzé kell tennie a zapieren. Tekintse meg a dokumentációt <a href="https://wiki.bespo.et/index.php/Module_Zapier">ezen a wikioldalon</a>.

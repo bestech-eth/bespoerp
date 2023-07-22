@@ -318,7 +318,7 @@ CompanyEmail=Email Perusahaan
 FeatureNotAvailableOnLinux=Fitur tidak tersedia di sistem seperti Unix. Uji program sendmail Anda secara lokal.
 FixOnTransifex=Perbaiki terjemahan pada platform online terjemahan proyek
 SubmitTranslation=Jika terjemahan untuk bahasa ini tidak lengkap atau Anda menemukan kesalahan, Anda dapat memperbaikinya dengan mengedit file dalam direktori<b>langs / %s</b>dan kirimkan perubahan Anda ke www.transifex.com/dolibarr-association/dolibarr/
-SubmitTranslationENUS=Jika terjemahan untuk bahasa ini tidak lengkap atau Anda menemukan kesalahan, Anda dapat memperbaikinya dengan mengedit file ke direktori <b> langs/%s</b> dan mengirimkan file yang telah diubah ke dolibarr.org/forum atau, jika Anda seorang pengembang, dengan PR di github .com / Dolibarr / dolibarr
+SubmitTranslationENUS=Jika terjemahan untuk bahasa ini tidak lengkap atau Anda menemukan kesalahan, Anda dapat memperbaikinya dengan mengedit file ke direktori <b> langs/%s</b> dan mengirimkan file yang telah diubah ke bespo.et/forum atau, jika Anda seorang pengembang, dengan PR di github .com / Dolibarr / dolibarr
 ModuleSetup=Setup Modul
 ModulesSetup=Modul / Pengaturan aplikasi
 ModuleFamilyBase=Sistem
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=Daftar direktori yang berisi file templat dengan
 NumberOfModelFilesFound=Jumlah file template ODT / ODS yang ditemukan di direktori ini
 ExampleOfDirectoriesForModelGen=Contoh sintaks: <br> c: \\myapp\\mydocumentdir\\mysubdir <br> /home/myapp/mydocumentdir/mysubdir <br> DOL_DATA_ROOT/ecm/ecmdir
 FollowingSubstitutionKeysCanBeUsed= <br> Untuk mengetahui cara membuat tempt dokumen ODT Anda, sebelum menyimpannya di direktori tersebut, baca dokumentasi wiki:
-FullListOnOnlineDocumentation=http://wiki.dolibarr.org/index.php/Create_an_ODT_document_template
+FullListOnOnlineDocumentation=http://wiki.bespo.et/index.php/Create_an_ODT_document_template
 FirstnameNamePosition=Posisi Nama/Nama Belakang
 DescWeather=Gambar-gambar berikut akan ditampilkan di dasbor ketika jumlah tindakan terlambat mencapai nilai-nilai berikut:
 KeyForWebServicesAccess=Kunci untuk menggunakan Layanan Web (parameter "dolibarrkey" di layanan web)
@@ -1654,7 +1654,7 @@ NotInstalled=Tidak terpasang.
 NotSlowedDownByThis=Tidak diperlambat oleh ini.
 NotRiskOfLeakWithThis=Tidak ada resiko bocor dengan ini.
 ApplicativeCache=Cache yang berlaku
-MemcachedNotAvailable=Tidak ditemukan cache aplikatif. Anda dapat meningkatkan kinerja dengan menginstal server cache Memcached dan modul dapat menggunakan server cache ini. <br> Informasi lebih lanjut di sini <a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN"> http://wiki.dolibarr.org/index.php/Module_MemCached_EN </a>. <br> Perhatikan bahwa banyak penyedia hosting web tidak menyediakan server cache seperti itu.
+MemcachedNotAvailable=Tidak ditemukan cache aplikatif. Anda dapat meningkatkan kinerja dengan menginstal server cache Memcached dan modul dapat menggunakan server cache ini. <br> Informasi lebih lanjut di sini <a href="http://wiki.bespo.et/index.php/Module_MemCached_EN"> http://wiki.bespo.et/index.php/Module_MemCached_EN </a>. <br> Perhatikan bahwa banyak penyedia hosting web tidak menyediakan server cache seperti itu.
 MemcachedModuleAvailableButNotSetup=Modul memcached untuk cache aplikatif ditemukan tetapi pengaturan modul tidak lengkap.
 MemcachedAvailableAndSetup=Modul memcached yang didedikasikan untuk menggunakan server memcached diaktifkan.
 OPCodeCache=Tembolok OPCode
@@ -2019,8 +2019,8 @@ ByDefaultInList=Tampilkan secara default pada tampilan daftar
 YouUseLastStableVersion=Anda menggunakan versi stabil terbaru
 TitleExampleForMajorRelease=Contoh pesan yang dapat Anda gunakan untuk mengumumkan rilis utama ini (jangan ragu untuk menggunakannya di situs web Anda)
 TitleExampleForMaintenanceRelease=Contoh pesan yang dapat Anda gunakan untuk mengumumkan rilis pemeliharaan ini (jangan ragu untuk menggunakannya di situs web Anda)
-ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s tersedia. Versi %s adalah rilis utama dengan banyak fitur baru untuk pengguna dan pengembang. Anda dapat mengunduhnya dari area unduhan https://www.dolibarr.org portal (subdirektori versi Stabil). Anda dapat membaca <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> untuk daftar lengkap perubahan.
-ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s tersedia. Versi %s adalah versi pemeliharaan, jadi hanya berisi perbaikan bug. Kami menyarankan semua pengguna untuk meningkatkan ke versi ini. Rilis pemeliharaan tidak memperkenalkan fitur baru atau perubahan pada database. Anda dapat mengunduhnya dari area unduhan https://www.dolibarr.org portal (subdirektori versi Stabil). Anda dapat membaca <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> untuk daftar lengkap perubahan.
+ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s tersedia. Versi %s adalah rilis utama dengan banyak fitur baru untuk pengguna dan pengembang. Anda dapat mengunduhnya dari area unduhan https://www.bespo.et portal (subdirektori versi Stabil). Anda dapat membaca <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> untuk daftar lengkap perubahan.
+ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s tersedia. Versi %s adalah versi pemeliharaan, jadi hanya berisi perbaikan bug. Kami menyarankan semua pengguna untuk meningkatkan ke versi ini. Rilis pemeliharaan tidak memperkenalkan fitur baru atau perubahan pada database. Anda dapat mengunduhnya dari area unduhan https://www.bespo.et portal (subdirektori versi Stabil). Anda dapat membaca <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> untuk daftar lengkap perubahan.
 MultiPriceRuleDesc=Ketika opsi "Beberapa tingkat harga per produk / layanan" diaktifkan, Anda dapat menentukan harga yang berbeda (satu per tingkat harga) untuk setiap produk. Untuk menghemat waktu Anda, di sini Anda dapat memasukkan aturan untuk secara otomatis menghitung ulang harga untuk setiap level berdasarkan harga level pertama, jadi Anda hanya perlu memasukkan harga untuk level pertama untuk setiap produk. Halaman ini dirancang untuk menghemat waktu Anda tetapi hanya berguna jika harga Anda untuk setiap level relatif terhadap level pertama. Anda dapat mengabaikan halaman ini dalam banyak kasus.
 ModelModulesProduct=Template untuk dokumen produk
 WarehouseModelModules=Template untuk dokumen gudang

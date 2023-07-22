@@ -317,8 +317,8 @@ UserEmail=Uživatelský e-mail
 CompanyEmail=Společnost Email
 FeatureNotAvailableOnLinux=Funkce není k dispozici na Unixových systémech. Otestujte svůj sendmail program lokálně.
 FixOnTransifex=Fix the translation on the online translation platform of project
-SubmitTranslation=Pokud překlad pro tento jazyk je neúplný, nebo chybný, můžete jej opravit editací souborů v adresáři <b>langs/%s</b> a předložit změněné soubory na fóru www.dolibarr.org.\n\nAktuální překlady získáte na https://www.transifex.com/dolibarr-association/dolibarr/dashboard/ kde se také můžete po vytvoření účtu na překladech podílet.
-SubmitTranslationENUS=If translation for this language is not complete or you find errors, you can correct this by editing files into directory <b>langs/%s</b> and submit modified files on dolibarr.org/forum or, if you are a developer, with a PR on github.com/Dolibarr/dolibarr
+SubmitTranslation=Pokud překlad pro tento jazyk je neúplný, nebo chybný, můžete jej opravit editací souborů v adresáři <b>langs/%s</b> a předložit změněné soubory na fóru www.bespo.et.\n\nAktuální překlady získáte na https://www.transifex.com/dolibarr-association/dolibarr/dashboard/ kde se také můžete po vytvoření účtu na překladech podílet.
+SubmitTranslationENUS=If translation for this language is not complete or you find errors, you can correct this by editing files into directory <b>langs/%s</b> and submit modified files on bespo.et/forum or, if you are a developer, with a PR on github.com/Dolibarr/dolibarr
 ModuleSetup=Nastavení modulu
 ModulesSetup=Nastavení modulu/aplikace
 ModuleFamilyBase=Systém
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=Seznam adresářů obsahující soubory šablon 
 NumberOfModelFilesFound=Počet souborů šablon ODT / ODS nalezených v těchto adresářích
 ExampleOfDirectoriesForModelGen=Examples of syntax:<br>c:\\myapp\\mydocumentdir\\mysubdir<br>/home/myapp/mydocumentdir/mysubdir<br>DOL_DATA_ROOT/ecm/ecmdir
 FollowingSubstitutionKeysCanBeUsed=<br> Chcete-li vědět, jak vytvořit své ODT šablony dokumentů před jejich uložením do těchto adresářů, přečtěte si wiki dokumentace:
-FullListOnOnlineDocumentation=http://wiki.dolibarr.org/index.php/Create_an_ODT_document_template
+FullListOnOnlineDocumentation=http://wiki.bespo.et/index.php/Create_an_ODT_document_template
 FirstnameNamePosition=Pozice Jméno / Příjmení
 DescWeather=Jakmile počet pozdních akcí dosáhne následujících hodnot, na palubní desce se zobrazí následující obrázky:
 KeyForWebServicesAccess=Klíč pro použití webových služeb (parametr "dolibarrkey" ve webových službách)
@@ -1654,7 +1654,7 @@ NotInstalled=Not installed.
 NotSlowedDownByThis=Not slowed down by this.
 NotRiskOfLeakWithThis=Not risk of leak with this.
 ApplicativeCache=Aplikační vyrovnávací paměť
-MemcachedNotAvailable=Žádná aplikační mezipaměť nebyla nalezena. Výkon můžete zvýšit instalací serveru mezipaměti Memcached a modulu, který je schopen používat tento vyrovnávací server. <br> Více informací zde <a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN"> http://wiki.dolibarr.org/index.php/Module_MemCached_EN </a>. <br> Všimněte si, že mnoho poskytovatelů webhostingu neposkytuje takový mezipaměťový server.
+MemcachedNotAvailable=Žádná aplikační mezipaměť nebyla nalezena. Výkon můžete zvýšit instalací serveru mezipaměti Memcached a modulu, který je schopen používat tento vyrovnávací server. <br> Více informací zde <a href="http://wiki.bespo.et/index.php/Module_MemCached_EN"> http://wiki.bespo.et/index.php/Module_MemCached_EN </a>. <br> Všimněte si, že mnoho poskytovatelů webhostingu neposkytuje takový mezipaměťový server.
 MemcachedModuleAvailableButNotSetup=Modul memcached pro nalezenou mezipaměť, ale nastavení modulu není dokončeno.
 MemcachedAvailableAndSetup=Modul Memcached určené k použití Memcached serveru je povoleno.
 OPCodeCache=Opcode mezipaměti
@@ -2019,8 +2019,8 @@ ByDefaultInList=Zobrazit výchozí zobrazení seznamu
 YouUseLastStableVersion=Používáte nejnovější stabilní verzi
 TitleExampleForMajorRelease=Příklad zprávy, kterou lze použít k oznámit tuto hlavní verzi (bez obav používat na svých webových stránkách)
 TitleExampleForMaintenanceRelease=Příklad zprávy, kterou lze použít k oznámit toto uvolnění do provozu (bez obav používat na svých webových stránkách)
-ExampleOfNewsMessageForMajorRelease=Dolibarr ERP a CRM %s je k dispozici. Verze %s je hlavní verze s mnoha novými funkcemi pro uživatele i vývojáře. Můžete jej stáhnout z oblasti stahování https://www.dolibarr.org portálu (podadresář Stable verze). Pro úplný seznam změn můžete přečíst <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a>.
-ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP a CRM %s je k dispozici. Verze %s je verze pro údržbu, takže obsahuje pouze opravy chyb. Doporučujeme všem uživatelům přejít na tuto verzi. Uvolnění údržby nezavádí do databáze nové funkce ani změny. Můžete jej stáhnout z oblasti stahování https://www.dolibarr.org portálu (podadresář Stable verze). Můžete přečíst <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> pro úplný seznam změn.
+ExampleOfNewsMessageForMajorRelease=Dolibarr ERP a CRM %s je k dispozici. Verze %s je hlavní verze s mnoha novými funkcemi pro uživatele i vývojáře. Můžete jej stáhnout z oblasti stahování https://www.bespo.et portálu (podadresář Stable verze). Pro úplný seznam změn můžete přečíst <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a>.
+ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP a CRM %s je k dispozici. Verze %s je verze pro údržbu, takže obsahuje pouze opravy chyb. Doporučujeme všem uživatelům přejít na tuto verzi. Uvolnění údržby nezavádí do databáze nové funkce ani změny. Můžete jej stáhnout z oblasti stahování https://www.bespo.et portálu (podadresář Stable verze). Můžete přečíst <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> pro úplný seznam změn.
 MultiPriceRuleDesc=Pokud je povolena možnost "Několik úrovní cen na produkt / službu", můžete pro každý produkt definovat různé ceny (jedna za cenovou úroveň). Chcete-li ušetřit čas, můžete zde zadat pravidlo pro automatickou kalkulaci ceny za každou úroveň na základě ceny první úrovně, takže budete muset zadat pouze cenu za první úroveň pro každý produkt. Tato stránka je navržena tak, aby vám šetřila čas, ale je užitečná pouze tehdy, pokud jsou ceny pro každou úroveň relativní vzhledem k první úrovni. Tuto stránku můžete ignorovat ve většině případů.
 ModelModulesProduct=Šablony pro dokumenty produktů
 WarehouseModelModules=Templates for documents of warehouses

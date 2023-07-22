@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=Listado de directorios que contienen las plantil
 NumberOfModelFilesFound=Número de archivos de plantillas ODT/ODS encontrados en estos directorios
 ExampleOfDirectoriesForModelGen=Ejemplos de sintaxis: <br>c:\\myapp\\mydocumentdir\\mysubdir<br> /home/myapp/mydocumentdir/mysubdir <br> DOL_DATA_ROOT/ecm/ecmdir
 FollowingSubstitutionKeysCanBeUsed=Colocando los siguientes tags en la plantilla, obtendrá una sustitución con el valor personalizado al generar el documento:
-FullListOnOnlineDocumentation=http://wiki.dolibarr.org/index.php/Crear_un_modelo_de_documento_ODT
+FullListOnOnlineDocumentation=http://wiki.bespo.et/index.php/Crear_un_modelo_de_documento_ODT
 FirstnameNamePosition=Orden visualización nombre/apellidos
 DescWeather=Los siguientes gráficos se mostrarán en el panel si el número de elementos llegan a estos valores:
 KeyForWebServicesAccess=Clave para usar los Web Services (parámetro "dolibarrkey" en webservices)
@@ -1654,7 +1654,7 @@ NotInstalled=No instalado
 NotSlowedDownByThis=No se ralentiza por esto.
 NotRiskOfLeakWithThis=No hay riesgo de fuga con esto.
 ApplicativeCache=Aplicación caché
-MemcachedNotAvailable=No se ha encontrado una aplicación de cache. Puede mejorar el rendimiento instalando un cache server Memcached y un módulo capaz de usar ese servidor de cache.<br>Más información aquí <a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN">http://wiki.dolibarr.org/index.php/Module_MemCached_EN</a>.<br>Tenga en cuenta que algunos hostings no ofrecen servidores de cache.
+MemcachedNotAvailable=No se ha encontrado una aplicación de cache. Puede mejorar el rendimiento instalando un cache server Memcached y un módulo capaz de usar ese servidor de cache.<br>Más información aquí <a href="http://wiki.bespo.et/index.php/Module_MemCached_EN">http://wiki.bespo.et/index.php/Module_MemCached_EN</a>.<br>Tenga en cuenta que algunos hostings no ofrecen servidores de cache.
 MemcachedModuleAvailableButNotSetup=Módulo memcached para el caché aplicativo encontrado pero la configuración del módulo no está completa.
 MemcachedAvailableAndSetup=Memcached módulo dedicado a utilizar el servidor memcached está disponible.
 OPCodeCache=OPCode caché
@@ -2019,8 +2019,8 @@ ByDefaultInList=Mostrar por defecto en modo lista
 YouUseLastStableVersion=Usa la última versión estable
 TitleExampleForMajorRelease=Ejemplo de mensaje que puede usar para anunciar esta release mayor (no dude en usarlo en sus sitios web)
 TitleExampleForMaintenanceRelease=Ejemplo de mensaje que puede usar para anunciar esta versión de mantenimiento (no dude en usarlo en sus sitios web)
-ExampleOfNewsMessageForMajorRelease=Disponible ERP/CRM Dolibarr %s. La versión %s es una versión mayor con un montón de nuevas características, tanto para usuarios como para desarrolladores. Se puede descargar desde la sección de descargas del portal https://www.dolibarr.org (subdirectorio versiones estables). Puede leer <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> para ver la lista completa de los cambios.
-ExampleOfNewsMessageForMaintenanceRelease=Disponible ERP/CRM Dolibarr %s. La versión %s es una versión de mantenimiento, por lo que sólo contiene correcciones de errores. Recomendamos a todo el mundo que use una versión anterior que actualice a esta. Como cualquier versión de mantenimiento, no hay novedades. Se puede descargar desde la sección de descargas del portal https://www.dolibarr.org (subdirectorio versiones estables subdirectorio). Puede leer <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> para ver la lista completa de los cambios.
+ExampleOfNewsMessageForMajorRelease=Disponible ERP/CRM Dolibarr %s. La versión %s es una versión mayor con un montón de nuevas características, tanto para usuarios como para desarrolladores. Se puede descargar desde la sección de descargas del portal https://www.bespo.et (subdirectorio versiones estables). Puede leer <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> para ver la lista completa de los cambios.
+ExampleOfNewsMessageForMaintenanceRelease=Disponible ERP/CRM Dolibarr %s. La versión %s es una versión de mantenimiento, por lo que sólo contiene correcciones de errores. Recomendamos a todo el mundo que use una versión anterior que actualice a esta. Como cualquier versión de mantenimiento, no hay novedades. Se puede descargar desde la sección de descargas del portal https://www.bespo.et (subdirectorio versiones estables subdirectorio). Puede leer <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> para ver la lista completa de los cambios.
 MultiPriceRuleDesc=Cuando la opción "Diferentes niveles de precios por productos/servicios" esta activada, puede definir diferentes precios (uno por nivel de precios) para cada producto.  Para ahorrarle tiempo, puede escribir una regla para auto calcular un precio basado en el precio del primer nivel para cada producto, así solo tendrá que poner un solo precio para el primer nivel de cada producto. Esta página esta diseñada para ahorrarle tiempo, pero solamente será útil si los precios para cada nivel son relativos al primero. Puede ignorar esta página en la mayoría de los casos.
 ModelModulesProduct=Plantillas de documentos de productos
 WarehouseModelModules=Plantillas de documentos de almacenes

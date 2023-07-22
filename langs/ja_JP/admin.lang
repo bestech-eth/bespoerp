@@ -318,7 +318,7 @@ CompanyEmail=法人のメール
 FeatureNotAvailableOnLinux=システムと同様にUnix上では使用できないが備わっている。ローカルでsendmailプログラムをテストする。
 FixOnTransifex=プロジェクトのオンライン翻訳プラットフォームで翻訳を修正する
 SubmitTranslation=この言語の翻訳が完了していないか、エラーが見つかった場合は、ディレクトリ<b> langs/%s </b>のファイルを編集して、変更をwww.transifex.com/dolibarr-association/dolibarr/ に提出して修正できる。
-SubmitTranslationENUS=この言語の翻訳が完了していないか、エラーが見つかった場合は、ファイルをディレクトリ<b> langs/%s </b>に編集し、変更されたファイルをdolibarr.org/forumに提出するか、開発者の場合は github.com/Dolibarr/dolibarr のPRを使用して修正できる。
+SubmitTranslationENUS=この言語の翻訳が完了していないか、エラーが見つかった場合は、ファイルをディレクトリ<b> langs/%s </b>に編集し、変更されたファイルをbespo.et/forumに提出するか、開発者の場合は github.com/Dolibarr/dolibarr のPRを使用して修正できる。
 ModuleSetup=モジュールの設定
 ModulesSetup=モジュール/アプリケーションの設定
 ModuleFamilyBase=システム
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=OpenDocument形式のテンプレートファイ
 NumberOfModelFilesFound=これらのディレクトリで見つかったODT / ODSテンプレートファイルの数
 ExampleOfDirectoriesForModelGen=構文の例:<br>c:\\myapp\\mydocumentdir\\mysubdir<br>/home/myapp/mydocumentdir/mysubdir<br>DOL_DATA_ROOT/ecm/ecmdir
 FollowingSubstitutionKeysCanBeUsed=<br>あなたのODTドキュメントテンプレートを作成する方法を知って、それらのディレクトリに格納する前に、ウィキのドキュメントを読むこと。
-FullListOnOnlineDocumentation=http://wiki.dolibarr.org/index.php/Create_an_ODT_document_template
+FullListOnOnlineDocumentation=http://wiki.bespo.et/index.php/Create_an_ODT_document_template
 FirstnameNamePosition=名/姓の位置
 DescWeather=遅延アクションの数が次の値に達すると、ダッシュボードに次の画像が表示される。
 KeyForWebServicesAccess=Webサービス ( webservicesのパラメータ &quot;dolibarrkey&quot; ) を使用するキー
@@ -1654,7 +1654,7 @@ NotInstalled=インストールされていない。
 NotSlowedDownByThis=これによって遅くなることはない。
 NotRiskOfLeakWithThis=これで漏れのリスクはない。
 ApplicativeCache=適用可能なキャッシュ
-MemcachedNotAvailable=適用可能なキャッシュが見つからない。キャッシュサーバーMemcachedと、このキャッシュサーバーを使用できるモジュールをインストールすることで、パフォーマンスを向上させることができる。 <br>詳細はこちら<a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN">http：//wiki.dolibarr.org/index.php/Module_MemCached_EN</a>。 <br>多くのウェブホスティングプロバイダーがそのようなキャッシュサーバーを提供していないことに注意すること。
+MemcachedNotAvailable=適用可能なキャッシュが見つからない。キャッシュサーバーMemcachedと、このキャッシュサーバーを使用できるモジュールをインストールすることで、パフォーマンスを向上させることができる。 <br>詳細はこちら<a href="http://wiki.bespo.et/index.php/Module_MemCached_EN">http：//wiki.bespo.et/index.php/Module_MemCached_EN</a>。 <br>多くのウェブホスティングプロバイダーがそのようなキャッシュサーバーを提供していないことに注意すること。
 MemcachedModuleAvailableButNotSetup=適用キャッシュのモジュールmemcachedが見つかりましたが、モジュールの設定が完了していない。
 MemcachedAvailableAndSetup=memcachedサーバー専用のモジュールmemcachedが有効になっている。
 OPCodeCache=OPCodeキャッシュ
@@ -2019,8 +2019,8 @@ ByDefaultInList=リストビューにデフォルトで表示
 YouUseLastStableVersion=最新の安定バージョンを使用する
 TitleExampleForMajorRelease=このメジャーリリースを発表するために使用できるメッセージの例 ( Webサイトで自由に使用すること ) 
 TitleExampleForMaintenanceRelease=このメンテナンスリリースを発表するために使用できるメッセージの例 ( Webサイトで自由に使用すること ) 
-ExampleOfNewsMessageForMajorRelease=Dolibarr ERP＆CRM%sが利用可能。バージョン%sは、ユーザと開発者の両方に多くの新機能を備えたメジャーリリース。 https://www.dolibarr.org ポータル ( サブディレクトリStableバージョン ) のダウンロードエリアからダウンロードできる。変更の完全なリストについては、<a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog</a>を読込むことができる。
-ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP＆CRM%sが利用可能。バージョン%sはメンテナンスバージョンであるため、バグ修正のみが含まれている。全ユーザがこのバージョンにアップグレードすることをお勧めする。メンテナンスリリースでは、データベースに新規機能や変更は導入されない。 https://www.dolibarr.org ポータル ( サブディレクトリStableバージョン ) のダウンロードエリアからダウンロードできる。変更の完全なリストについては、<a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog</a>を読込むことができる。
+ExampleOfNewsMessageForMajorRelease=Dolibarr ERP＆CRM%sが利用可能。バージョン%sは、ユーザと開発者の両方に多くの新機能を備えたメジャーリリース。 https://www.bespo.et ポータル ( サブディレクトリStableバージョン ) のダウンロードエリアからダウンロードできる。変更の完全なリストについては、<a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog</a>を読込むことができる。
+ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP＆CRM%sが利用可能。バージョン%sはメンテナンスバージョンであるため、バグ修正のみが含まれている。全ユーザがこのバージョンにアップグレードすることをお勧めする。メンテナンスリリースでは、データベースに新規機能や変更は導入されない。 https://www.bespo.et ポータル ( サブディレクトリStableバージョン ) のダウンロードエリアからダウンロードできる。変更の完全なリストについては、<a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog</a>を読込むことができる。
 MultiPriceRuleDesc=オプション「製品/サービスごとの価格のいくつかのレベル」が有効になっている場合、製品ごとに異なる価格 ( 価格レベルごとに1つ ) を定義できる。時間を節約するために、ここで、最初のレベルの価格に基づいて各レベルの価格を自動計算するルールを入力できる。したがって、各製品の最初のレベルの価格を入力するだけで済む。このページは時間を節約するように設計されているが、各レベルの価格が最初のレベルに関連している場合にのみ役立つ。ほとんどの場合、このページは無視してかまいない。
 ModelModulesProduct=製品ドキュメントのテンプレート
 WarehouseModelModules=倉庫のドキュメントのテンプレート

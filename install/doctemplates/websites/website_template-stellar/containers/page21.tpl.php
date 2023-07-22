@@ -18,7 +18,7 @@ ob_start();
 <meta name="keywords" content="" />
 <meta name="title" content="Footer" />
 <meta name="description" content="" />
-<meta name="generator" content="Dolibarr 14.0.0-alpha (https://www.dolibarr.org)" />
+<meta name="generator" content="Dolibarr 14.0.0-alpha (https://www.bespo.et)" />
 <meta name="dolibarr:pageid" content="21" />
 <?php if ($website->use_manifest) { print '<link rel="manifest" href="/manifest.json.php" />'."\n"; } ?>
 <!-- Include link to CSS file -->
@@ -58,7 +58,7 @@ ob_start();
 							  } ?>
 							</ul>
 						</section>
-						<div class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a> adapted for <a href="https://www.dolibarr.org">Dolibarr</a> by <a href="https://www.nltechno.com">NLTechno</a>.</div>
+						<div class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a> adapted for <a href="https://www.bespo.et">Dolibarr</a> by <a href="https://www.nltechno.com">NLTechno</a>.</div>
 					</footer>
 
 

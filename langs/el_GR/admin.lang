@@ -318,7 +318,7 @@ CompanyEmail=Email εταιρείας
 FeatureNotAvailableOnLinux=Αυτή η λειτουργία δεν είναι διαθέσιμη σε συστήματα τυπου Unix. Δοκιμάστε το πρόγραμμα sendmail τοπικά.
 FixOnTransifex=Διορθώστε τη μετάφραση στην ηλεκτρονική πλατφόρμα μετάφρασης του Dolibarr
 SubmitTranslation=Εάν η μετάφραση για αυτήν τη γλώσσα δεν είναι πλήρης ή αν εντοπίσετε σφάλματα, μπορείτε να τα διορθώσετε τοπικά με την επεξεργασία αρχείων στον κατάλογο <b>langs / %s</b> και στη συνέχεια να υποβάλετε την αλλαγή σας στο www.transifex.com/dolibarr-association/dolibarr/
-SubmitTranslationENUS=Εάν η μετάφραση για αυτήν τη γλώσσα δεν έχει ολοκληρωθεί ή αν εντοπίσετε σφάλματα, μπορείτε να τα διορθώσετε τοπικά επεξεργαζόμενοι αρχεία στον κατάλογο <b> langs/%s </b> και να υποβάλετε τροποποιημένα αρχεία στο dolibarr.org/forum ή, εάν είστε προγραμματιστής με ενα PR στο github.com/Dolibarr/dolibarr
+SubmitTranslationENUS=Εάν η μετάφραση για αυτήν τη γλώσσα δεν έχει ολοκληρωθεί ή αν εντοπίσετε σφάλματα, μπορείτε να τα διορθώσετε τοπικά επεξεργαζόμενοι αρχεία στον κατάλογο <b> langs/%s </b> και να υποβάλετε τροποποιημένα αρχεία στο bespo.et/forum ή, εάν είστε προγραμματιστής με ενα PR στο github.com/Dolibarr/dolibarr
 ModuleSetup=Ρύθμιση ενότητας
 ModulesSetup=Ρύθμιση ενοτήτων/εφαρμογών
 ModuleFamilyBase=Σύστημα
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=Λίστα καταλόγων που περιέ�
 NumberOfModelFilesFound=Αριθμός αρχείων προτύπων ODT/ODS που βρέθηκαν σε αυτούς τους καταλόγους
 ExampleOfDirectoriesForModelGen=Παραδείγματα σύνταξης: <br>c:\\myapp\\mydocumentdir\\mysubdir<br>/home/myapp/mydocumentdir/mysubdir <br>DOL_DATA_ROOT/ecm/ecmdir
 FollowingSubstitutionKeysCanBeUsed=<br>Για να μάθετε πως να δημιουργήσετε τα δικά σας πρότυπα εγγράφων odt, πριν τα αποθηκεύσετε σε αυτούς τους φακέλους, διαβάστε την τεκμηρίωση στο wiki:
-FullListOnOnlineDocumentation=http://wiki.dolibarr.org/index.php/Create_an_ODT_document_template
+FullListOnOnlineDocumentation=http://wiki.bespo.et/index.php/Create_an_ODT_document_template
 FirstnameNamePosition=Θέση Ονόματος/Επιθέτου
 DescWeather=Οι παρακάτω εικόνες θα εμφανίζονται στον πίνακα ελέγχου όταν ο αριθμός των καθυστερημένων ενεργειών φτάσει τις ακόλουθες τιμές:
 KeyForWebServicesAccess=Κλειδί για τη χρήση Υπηρεσιών Ιστού (παράμετρος "dolibarrkey" σε υπηρεσίες web)
@@ -1654,7 +1654,7 @@ NotInstalled=Μη εγκατεστημένο.
 NotSlowedDownByThis=Δεν επιβραδύνεται από αυτό.
 NotRiskOfLeakWithThis=Δεν υπάρχει κίνδυνος διαρροής με αυτό.
 ApplicativeCache=Εφαρμογή Cache
-MemcachedNotAvailable=Δεν βρέθηκε εφαρμοστική κρυφή μνήμη. Μπορείτε να βελτιώσετε την απόδοση εγκαθιστώντας έναν διακομιστή προσωρινής μνήμης Memcached και μια ενότητα που μπορεί να χρησιμοποιήσει αυτόν τον διακομιστή προσωρινής μνήμης. <br> Περισσότερες πληροφορίες εδώ <a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN"> http://wiki.dolibarr.org/index.php/Module_MemCached_EN </a> . <br> Σημειώστε ότι πολλοί πάροχοι φιλοξενίας Ιστού δεν παρέχουν τέτοιο διακομιστή προσωρινής μνήμης.
+MemcachedNotAvailable=Δεν βρέθηκε εφαρμοστική κρυφή μνήμη. Μπορείτε να βελτιώσετε την απόδοση εγκαθιστώντας έναν διακομιστή προσωρινής μνήμης Memcached και μια ενότητα που μπορεί να χρησιμοποιήσει αυτόν τον διακομιστή προσωρινής μνήμης. <br> Περισσότερες πληροφορίες εδώ <a href="http://wiki.bespo.et/index.php/Module_MemCached_EN"> http://wiki.bespo.et/index.php/Module_MemCached_EN </a> . <br> Σημειώστε ότι πολλοί πάροχοι φιλοξενίας Ιστού δεν παρέχουν τέτοιο διακομιστή προσωρινής μνήμης.
 MemcachedModuleAvailableButNotSetup=Βρέθηκε η ενότητα memcached για την εφαρμοστική κρυφή μνήμη, αλλά η εγκατάσταση της ενότητας δεν έχει ολοκληρωθεί.
 MemcachedAvailableAndSetup=Η ενότητα memcached που αφορά στη χρήση διακομιστή memcached είναι ενεργοποιημένη.
 OPCodeCache=OPCode cache
@@ -2019,8 +2019,8 @@ ByDefaultInList=Εμφάνιση από προεπιλογή στην προβο
 YouUseLastStableVersion=Χρησιμοποιείτε την πιο πρόσφατη σταθερή έκδοση
 TitleExampleForMajorRelease=Παράδειγμα μηνύματος που μπορείτε να χρησιμοποιήσετε για να ανακοινώσετε αυτή τη σημαντική έκδοση (μην διστάσετε να το χρησιμοποιήσετε στις ιστοσελίδες σας)
 TitleExampleForMaintenanceRelease=Παράδειγμα μηνύματος που μπορείτε να χρησιμοποιήσετε για να ανακοινώσετε αυτήν την έκδοση συντήρησης (μπορείτε να το χρησιμοποιήσετε στις ιστοσελίδες σας)
-ExampleOfNewsMessageForMajorRelease=Το Dolibarr ERP & CRM %s είναι διαθέσιμο. Η έκδοση %s είναι μια σημαντική έκδοση με πολλές νέες δυνατότητες τόσο για χρήστες όσο και για προγραμματιστές. Μπορείτε να το κατεβάσετε από την περιοχή λήψης της πύλης https://www.dolibarr.org (στον υποκατάλογο σταθερών εκδόσεων). Μπορείτε να διαβάσετε το <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> για την πλήρη λίστα αλλαγών.
-ExampleOfNewsMessageForMaintenanceRelease=Το Dolibarr ERP & CRM %s είναι διαθέσιμο. Η έκδοση %s είναι μια έκδοση συντήρησης, επομένως περιέχει μόνο διορθώσεις σφαλμάτων. Συνιστούμε σε όλους τους χρήστες να κάνουν αναβάθμιση σε αυτήν την έκδοση. Μια έκδοση συντήρησης δεν εισάγει νέες δυνατότητες ή αλλαγές στη βάση δεδομένων. Μπορείτε να το κατεβάσετε από την περιοχή λήψης της πύλης https://www.dolibarr.org (στον υποκατάλογο σταθερών εκδόσεων). Μπορείτε να διαβάσετε το <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> για την πλήρη λίστα αλλαγών.
+ExampleOfNewsMessageForMajorRelease=Το Dolibarr ERP & CRM %s είναι διαθέσιμο. Η έκδοση %s είναι μια σημαντική έκδοση με πολλές νέες δυνατότητες τόσο για χρήστες όσο και για προγραμματιστές. Μπορείτε να το κατεβάσετε από την περιοχή λήψης της πύλης https://www.bespo.et (στον υποκατάλογο σταθερών εκδόσεων). Μπορείτε να διαβάσετε το <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> για την πλήρη λίστα αλλαγών.
+ExampleOfNewsMessageForMaintenanceRelease=Το Dolibarr ERP & CRM %s είναι διαθέσιμο. Η έκδοση %s είναι μια έκδοση συντήρησης, επομένως περιέχει μόνο διορθώσεις σφαλμάτων. Συνιστούμε σε όλους τους χρήστες να κάνουν αναβάθμιση σε αυτήν την έκδοση. Μια έκδοση συντήρησης δεν εισάγει νέες δυνατότητες ή αλλαγές στη βάση δεδομένων. Μπορείτε να το κατεβάσετε από την περιοχή λήψης της πύλης https://www.bespo.et (στον υποκατάλογο σταθερών εκδόσεων). Μπορείτε να διαβάσετε το <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> για την πλήρη λίστα αλλαγών.
 MultiPriceRuleDesc=Όταν είναι ενεργοποιημένη η επιλογή "Πολλά επίπεδα τιμών ανά προϊόν/υπηρεσία", μπορείτε να ορίσετε διαφορετικές τιμές (μία ανά επίπεδο τιμής) για κάθε προϊόν. Για να εξοικονομήσετε χρόνο, εδώ μπορείτε να εισαγάγετε έναν κανόνα για να υπολογίσετε αυτόματα μια τιμή για κάθε επίπεδο με βάση την τιμή του πρώτου επιπέδου, επομένως θα πρέπει να εισαγάγετε μόνο μια τιμή για το πρώτο επίπεδο για κάθε προϊόν. Αυτή η σελίδα έχει σχεδιαστεί για να σας εξοικονομεί χρόνο, αλλά είναι χρήσιμη μόνο εάν οι τιμές σας για κάθε επίπεδο είναι σε σχέση με το πρώτο επίπεδο. Μπορείτε να αγνοήσετε αυτήν τη σελίδα στις περισσότερες περιπτώσεις.
 ModelModulesProduct=Πρότυπα για έγγραφα προϊόντων
 WarehouseModelModules=Πρότυπα για έγγραφα αποθηκών

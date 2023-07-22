@@ -104,21 +104,21 @@ print '<td align="center" valign="middle">';
 
 print '<table class="nocellnopadd">';
 print '<tr><td align="center">';
-$urlwiki = 'https://wiki.dolibarr.org';
+$urlwiki = 'https://wiki.bespo.et';
 if (preg_match('/fr/i', $langs->defaultlang)) {
-	$urlwiki = 'https://wiki.dolibarr.org/index.php/Accueil';
+	$urlwiki = 'https://wiki.bespo.et/index.php/Accueil';
 }
 if (preg_match('/es/i', $langs->defaultlang)) {
-	$urlwiki = 'https://wiki.dolibarr.org/index.php/Portada';
+	$urlwiki = 'https://wiki.bespo.et/index.php/Portada';
 }
 if (preg_match('/de/i', $langs->defaultlang)) {
-	$urlwiki = 'https://wiki.dolibarr.org/index.php/Hauptseite';
+	$urlwiki = 'https://wiki.bespo.et/index.php/Hauptseite';
 }
 print '<div class="wordbreak">';
 print '<br>'.$langs->trans("ForDocumentationSeeWiki", $urlwiki, $urlwiki);
 print '<br>';
-$urlforum = 'https://www.dolibarr.org/forum/';
-$urlforumlocal = 'https://www.dolibarr.org/forum/';
+$urlforum = 'https://www.bespo.et/forum/';
+$urlforumlocal = 'https://www.bespo.et/forum/';
 if (preg_match('/fr/i', $langs->defaultlang)) {
 	$urlforumlocal = 'https://www.dolibarr.fr/forum/';
 }
@@ -170,7 +170,7 @@ print '</td></tr></table>';
 
 print '</td>';
 print '</tr><tr>';
-$urlwiki = 'https://partners.dolibarr.org';
+$urlwiki = 'https://partners.bespo.et';
 print '<td align="center" valign="top">';
 print '<table class="nocellnopadd">';
 print '<tr><td align="center">';
@@ -211,7 +211,7 @@ print '</td></tr></table>';
 
 print '</td>';
 print '</tr><tr>';
-$urlwiki = 'https://partners.dolibarr.org';
+$urlwiki = 'https://partners.bespo.et';
 print '<td align="center" valign="top">';
 print '<table class="nocellnopadd">';
 print '<tr><td align="center">';

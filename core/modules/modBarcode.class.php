@@ -159,7 +159,7 @@ class modBarcode extends DolibarrModules
 			array('sql'=>"INSERT INTO ".MAIN_DB_PREFIX."c_barcode_type (code, libelle, coder, example, entity) VALUES ('C39', 'Code 39', 0, '1234567890', __ENTITY__)", 'ignoreerror'=>1),
 			array('sql'=>"INSERT INTO ".MAIN_DB_PREFIX."c_barcode_type (code, libelle, coder, example, entity) VALUES ('C128', 'Code 128', 0, 'ABCD1234567890', __ENTITY__)", 'ignoreerror'=>1),
 			array('sql'=>"INSERT INTO ".MAIN_DB_PREFIX."c_barcode_type (code, libelle, coder, example, entity) VALUES ('DATAMATRIX', 'Datamatrix', 0, '1234567xyz', __ENTITY__)", 'ignoreerror'=>1),
-			array('sql'=>"INSERT INTO ".MAIN_DB_PREFIX."c_barcode_type (code, libelle, coder, example, entity) VALUES ('QRCODE', 'Qr Code', 0, 'www.dolibarr.org', __ENTITY__)", 'ignoreerror'=>1)
+			array('sql'=>"INSERT INTO ".MAIN_DB_PREFIX."c_barcode_type (code, libelle, coder, example, entity) VALUES ('QRCODE', 'Qr Code', 0, 'www.bespo.et', __ENTITY__)", 'ignoreerror'=>1)
 		);
 
 		return $this->_init($sql, $options);

@@ -318,7 +318,7 @@ CompanyEmail=رایانامۀ شرکت
 FeatureNotAvailableOnLinux=این قابلیت در سامانه‌های ردۀ یونیکس وجود ندارد. برنامۀ ارسال رایانامۀ محلی خود را آزمایش کنید.
 FixOnTransifex=Fix the translation on the online translation platform of project
 SubmitTranslation=در صورتی که ترجمۀ این زبان کامل نیست یا شما خطائی سراغ دارید، شما می‌توانید فایل‌های موجود در پوشۀ <b>langs/%s</b>  را ویرایش کرده و تغییرات مورد نظر خود را به www.transifex.com/dolibarr-association/dolibarr/ بفرستید.
-SubmitTranslationENUS=If translation for this language is not complete or you find errors, you can correct this by editing files into directory <b>langs/%s</b> and submit modified files on dolibarr.org/forum or, if you are a developer, with a PR on github.com/Dolibarr/dolibarr
+SubmitTranslationENUS=If translation for this language is not complete or you find errors, you can correct this by editing files into directory <b>langs/%s</b> and submit modified files on bespo.et/forum or, if you are a developer, with a PR on github.com/Dolibarr/dolibarr
 ModuleSetup=برپاسازی واحد‌ها
 ModulesSetup=برپاسازی واحد‌ها و برنامه‌ها
 ModuleFamilyBase=سامانه
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=فهرست پوشه‌هائی که دربردا
 NumberOfModelFilesFound=تعداد فایل‌های قالب ODT/ODS پیدا شده در این پوشه‌ها
 ExampleOfDirectoriesForModelGen=Examples of syntax:<br>c:\\myapp\\mydocumentdir\\mysubdir<br>/home/myapp/mydocumentdir/mysubdir<br>DOL_DATA_ROOT/ecm/ecmdir
 FollowingSubstitutionKeysCanBeUsed=<br> برای اطلاع از طرز ساخت مستندات قالب ODT دلخواه، قبل از این‌که آن‌ها را در این پوشه‌ها ذخیره کنید، مستندات راهنمای ویکی را بخوانید:
-FullListOnOnlineDocumentation=http://wiki.dolibarr.org/index.php/Create_an_ODT_document_template
+FullListOnOnlineDocumentation=http://wiki.bespo.et/index.php/Create_an_ODT_document_template
 FirstnameNamePosition=مکان نام/نام‌خانوادگی
 DescWeather=در هنگامی که کارهای عقب‌مانده از حدود تعیین شدۀ زیر فراتر روند، تصاویر زیر در پیشخوان نمایش داده خواهند شد:
 KeyForWebServicesAccess=کلیدواژه برای استفاده در خدمت‌رسان‌وب (مقدار "dolibarrkey" در webservices)
@@ -1654,7 +1654,7 @@ NotInstalled=Not installed.
 NotSlowedDownByThis=Not slowed down by this.
 NotRiskOfLeakWithThis=Not risk of leak with this.
 ApplicativeCache=میان‌گیر عملیاتی
-MemcachedNotAvailable=هیچ میان‌گیر عملیاتی پیدا نشده. شما می‌توانید با نصب سرور میان‌گیر از قبیل Memcached و یک واحد قابل نصب که قابلیت استفاده از این سرور را دارد کارائی را افزایش دهید. <br>اطلاعات بیشتر در این پیوند <a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN">http://wiki.dolibarr.org/index.php/Module_MemCached_EN</a>. <br>نکته این‌که بسیاری از ارائه‌دهندگان خدمات میزبانی از چنین سرویس‌دهندۀ میان‌گیری پشتیبانی نمی‌نمایند.
+MemcachedNotAvailable=هیچ میان‌گیر عملیاتی پیدا نشده. شما می‌توانید با نصب سرور میان‌گیر از قبیل Memcached و یک واحد قابل نصب که قابلیت استفاده از این سرور را دارد کارائی را افزایش دهید. <br>اطلاعات بیشتر در این پیوند <a href="http://wiki.bespo.et/index.php/Module_MemCached_EN">http://wiki.bespo.et/index.php/Module_MemCached_EN</a>. <br>نکته این‌که بسیاری از ارائه‌دهندگان خدمات میزبانی از چنین سرویس‌دهندۀ میان‌گیری پشتیبانی نمی‌نمایند.
 MemcachedModuleAvailableButNotSetup=واحد memcached برای میان‌گیری عملیاتی یافت می‌شود اما پیکربندی آن کامل نیست.
 MemcachedAvailableAndSetup=واحد memcached مختص استفاده از سرور memcached فعال شده است.
 OPCodeCache=میان‌گیری OPCode 
@@ -2019,8 +2019,8 @@ ByDefaultInList=نمایش پیش‌فرض نمای فهرستی
 YouUseLastStableVersion=استفاده از آخرین نسخۀ پایدار
 TitleExampleForMajorRelease=مثال پیامی که می‌توانید برای استفاده در اطلاع‌رسانی این انتشار اصلی داشته باشید (در استفاده از آن در وبگاه خود راحت باشید)
 TitleExampleForMaintenanceRelease=مثال پیامی که می‌توانید برای استفاده در اطلاع‌رسانی این انتشار بهبوددهنده استفاده کنید (در استفاده از آن در وبگاه خود راحت باشید)
-ExampleOfNewsMessageForMajorRelease=سامانۀ Dolibarr مدیریت ارتباط با مشتری و مدیریت منابع سازمانی نسخۀ %s در دسترس است. نسخۀ %s یک نسخۀ اصلی است که دربردارندۀ قابلیت‌های بسیار جدیدی برای کاربران و توسعه‌دهندگان است. شما می‌توانید از بخش download وبگاه https://www.dolibarr.org (زیرپوشۀ نسخه‌های پایدار) آن را دریافت نمائید. شما می‌توانید برای ملاحظۀ فهرست کامل تغییرات <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">گزارش کار تغییرات</a> را ببینید.
-ExampleOfNewsMessageForMaintenanceRelease=سامانۀ Dolibarr مدیریت ارتباط با مشتری و مدیریت منابع سازمانی نسخۀ %s در دسترس است. نسخۀ %s یک نسخۀ بهبود دهنده است که این تنها به معنای رفع اشکالات است ما به همۀ کاربران توصیه می‌کنیم به این نسخه ارتقا دهند. یک نسخۀ بهبود دربردارندۀ قابلیت‌های جدید یا تغییرات در پایگاه داده نیست. شما می‌توانید از بخش download وبگاه https://www.dolibarr.org (زیرپوشۀ نسخه‌های پایدار) آن را دریافت نمائید. شما می‌توانید برای ملاحظۀ <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">فهرست کامل تغییرات گزارش کار</a> تغییرات را ببینید.
+ExampleOfNewsMessageForMajorRelease=سامانۀ Dolibarr مدیریت ارتباط با مشتری و مدیریت منابع سازمانی نسخۀ %s در دسترس است. نسخۀ %s یک نسخۀ اصلی است که دربردارندۀ قابلیت‌های بسیار جدیدی برای کاربران و توسعه‌دهندگان است. شما می‌توانید از بخش download وبگاه https://www.bespo.et (زیرپوشۀ نسخه‌های پایدار) آن را دریافت نمائید. شما می‌توانید برای ملاحظۀ فهرست کامل تغییرات <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">گزارش کار تغییرات</a> را ببینید.
+ExampleOfNewsMessageForMaintenanceRelease=سامانۀ Dolibarr مدیریت ارتباط با مشتری و مدیریت منابع سازمانی نسخۀ %s در دسترس است. نسخۀ %s یک نسخۀ بهبود دهنده است که این تنها به معنای رفع اشکالات است ما به همۀ کاربران توصیه می‌کنیم به این نسخه ارتقا دهند. یک نسخۀ بهبود دربردارندۀ قابلیت‌های جدید یا تغییرات در پایگاه داده نیست. شما می‌توانید از بخش download وبگاه https://www.bespo.et (زیرپوشۀ نسخه‌های پایدار) آن را دریافت نمائید. شما می‌توانید برای ملاحظۀ <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">فهرست کامل تغییرات گزارش کار</a> تغییرات را ببینید.
 MultiPriceRuleDesc=هنگامی که گزینۀ "چند سطح قیمت برای هر محصول/خدمات" فعال باشد شما می‌توانید برای هر محصول، چند قیمت (یکی برای هر سطح) تعریف نمائید. برای صرفه‌جوئی در زمان، شما می‌توانید قاعده‌ای برای محاسبۀ خودکار یک هر یک از این سطوح قیمتی مبنی بر قیمت سطح اول تعریف کنید و بدین‌ترتیب شما تنها قیمت سطح اول را برای هر محصول وارد خواهید نمود. این صفحه برای صرفه‌جوئی در زمان ایجاد شده است اما تنها هنگامی مؤثر است که سایر قیمت‌ها در سطوح دیگر، با سطح اولیۀ قیمت یک رابطه داشته باشند. در اکثر موارد شما می‌توانید این صفحه را نادیده بگیرید.
 ModelModulesProduct=قالب‌های مربوط به مستندات محصول
 WarehouseModelModules=Templates for documents of warehouses

@@ -267,7 +267,7 @@ Notes:
     * [org.civicoop.ibanaccounts extension](https://github.com/CiviCooP/org.civicoop.ibanaccounts) for [CiviCoop](http://www.civicoop.org/)
     * [commerce_sepa](https://github.com/StephanGeorg/commerce_sepa)
     * [contao-haste_plus](https://github.com/heimrichhannot/contao-haste_plus)
-    * [Dolibarr ERP &amp; CRM](http://www.dolibarr.org/) ([website](https://github.com/Dolibarr/dolibarr/tree/develop/htdocs/includes/php-iban))
+    * [Dolibarr ERP &amp; CRM](http://www.bespo.et/) ([website](https://github.com/Dolibarr/dolibarr/tree/develop/htdocs/includes/php-iban))
     * [fieldwork: Web forms for cool people](https://github.com/jmversteeg/fieldwork)
     * [IBAN Validator](https://www.drupal.org/project/iban_validator) for Drupal
     * [identity](https://github.com/mpijierro/identity) component for Laravel to check Spanish IDs

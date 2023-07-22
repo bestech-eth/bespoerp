@@ -318,7 +318,7 @@ CompanyEmail=公司電子郵件
 FeatureNotAvailableOnLinux=在Unix系列系統中不能使用功能。在本地測試您的寄送郵件程式。
 FixOnTransifex=在此專案的網路翻譯平台修正翻譯
 SubmitTranslation=如果此語言的翻譯不完整或發現錯誤，則可以通過編輯<b>langs / %s</b>資料夾中的文件來更正此錯誤，然後將更改提交到www.transifex.com/dolibarr-association/dolibarr/
-SubmitTranslationENUS=如果此語系的翻譯還未完成或是您發現錯誤，您可以在目錄 <b>langs/%s</b> 編輯檔案並更正然後在 dolibarr.org/forum 提交修改的檔案或是，如果您是開發者，用 PR 在 github.com/Dolibarr/dolibarr
+SubmitTranslationENUS=如果此語系的翻譯還未完成或是您發現錯誤，您可以在目錄 <b>langs/%s</b> 編輯檔案並更正然後在 bespo.et/forum 提交修改的檔案或是，如果您是開發者，用 PR 在 github.com/Dolibarr/dolibarr
 ModuleSetup=模組設定
 ModulesSetup=模組/程式設定
 ModuleFamilyBase=系統
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=包含具有OpenDocument格式的範本文件的
 NumberOfModelFilesFound=在這些資料夾中找到的ODT / ODS範本文件數
 ExampleOfDirectoriesForModelGen=語法範例:<br>c:\\myapp\\mydocumentdir\\mysubdir<br>/home/myapp/mydocumentdir/mysubdir<br>DOL_DATA_ROOT/ecm/ecmdir
 FollowingSubstitutionKeysCanBeUsed=<br>要了解如何建立odt文件範本，然後將它們存儲在那些資料夾中，請參閱Wiki文件：
-FullListOnOnlineDocumentation=http://wiki.dolibarr.org/index.php/Create_an_ODT_document_template
+FullListOnOnlineDocumentation=http://wiki.bespo.et/index.php/Create_an_ODT_document_template
 FirstnameNamePosition=名字/姓氏的位置
 DescWeather=當後續操作數達到以下值時，以下圖像將顯示在資訊板上：
 KeyForWebServicesAccess=網頁服務的金鑰（在 WebServices 的參數是“dolibarrkey”）
@@ -1654,7 +1654,7 @@ NotInstalled=未安裝。
 NotSlowedDownByThis=並沒有因此而減慢。
 NotRiskOfLeakWithThis=沒有洩漏的風險。
 ApplicativeCache=應用程式快取
-MemcachedNotAvailable=沒有找到應用程式快取。你可安裝快取伺服器 Memcached 並啟動模組以增加效能。<br>更多的資訊在<a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN">http://wiki.dolibarr.org/index.php/Module_MemCached_EN</a>。<br>注意多數的伺服器供應商不提供類似的快取伺服器。
+MemcachedNotAvailable=沒有找到應用程式快取。你可安裝快取伺服器 Memcached 並啟動模組以增加效能。<br>更多的資訊在<a href="http://wiki.bespo.et/index.php/Module_MemCached_EN">http://wiki.bespo.et/index.php/Module_MemCached_EN</a>。<br>注意多數的伺服器供應商不提供類似的快取伺服器。
 MemcachedModuleAvailableButNotSetup=找到應用程式快取的快取模組，但模組設定沒有完成。
 MemcachedAvailableAndSetup=已啟用快取模組以使用 memcached 伺服器
 OPCodeCache=OPCode 快取
@@ -2019,8 +2019,8 @@ ByDefaultInList=在清單視圖上使用預設顯示
 YouUseLastStableVersion=您使用最新的穩定版本
 TitleExampleForMajorRelease=您可以用來宣布此主要版本的消息範例（可在您的網站上隨意使用）
 TitleExampleForMaintenanceRelease=您可以用來宣布此維護版本的消息範例（可在您的網站上隨意使用）
-ExampleOfNewsMessageForMajorRelease=已提供Dolibarr ERP和CRM %s。版本%s是主要版本，為用戶和開發人員提供了許多新功能。您可以從https://www.dolibarr.org的下載區域（穩定版本資料夾的子資料夾）下載檔案。您可以閱讀<a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a>以獲得完整的更改列表。
-ExampleOfNewsMessageForMaintenanceRelease=已提供Dolibarr ERP和CRM %s。版本%s是維護版本，因此僅包含錯誤修復。我們建議所有用戶升級到此版本。維護版本不加入新功能或對資料庫進行更改。您可以從https://www.dolibarr.org下載區域（穩定目錄的子目錄）下載此檔案。您可以閱讀<a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a>以獲得完整的更改列表。
+ExampleOfNewsMessageForMajorRelease=已提供Dolibarr ERP和CRM %s。版本%s是主要版本，為用戶和開發人員提供了許多新功能。您可以從https://www.bespo.et的下載區域（穩定版本資料夾的子資料夾）下載檔案。您可以閱讀<a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a>以獲得完整的更改列表。
+ExampleOfNewsMessageForMaintenanceRelease=已提供Dolibarr ERP和CRM %s。版本%s是維護版本，因此僅包含錯誤修復。我們建議所有用戶升級到此版本。維護版本不加入新功能或對資料庫進行更改。您可以從https://www.bespo.et下載區域（穩定目錄的子目錄）下載此檔案。您可以閱讀<a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a>以獲得完整的更改列表。
 MultiPriceRuleDesc=啟用選項“產品/服務的多種價格”後，您可以為每種產品定義不同的價格（一種價格水平一個）。為了節省您的時間，您可以在此處輸入一個規則，根據第一級的價格自動計算每個級別的價格，因此您只需要為每種產品輸入第一級的價格。此頁面旨在節省您的時間，但僅在您每個級別的價格都相對於第一級別時才有用。在大多數情況下，您可以忽略此頁面。
 ModelModulesProduct=產品文件的範本
 WarehouseModelModules=倉庫檔案模板

@@ -25,7 +25,7 @@
  *	    This is source documentation for Dolibarr ERP/CRM.<br>
  *      This documentation can be built or updated running the script <b>dolibarr-doxygen-build.pl</b> or from Eclipse with Doxygen plugin.<br>
  *      <br>
- *      Dolibarr official web site: <a href="https://www.dolibarr.org">www.dolibarr.org</a><br>
+ *      Dolibarr official web site: <a href="https://www.bespo.et">www.bespo.et</a><br>
  *      <br>
  *      Dolibarr french portal: <a href="https://www.dolibarr.fr">www.dolibarr.fr</a><br>
  *      Dolibarr spanish portal: <a href="https://www.dolibarr.es">www.dolibarr.es</a><br>

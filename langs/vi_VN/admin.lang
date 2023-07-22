@@ -318,7 +318,7 @@ CompanyEmail=Email công ty
 FeatureNotAvailableOnLinux=Tính năng không có sẵn trên Unix như hệ thống. Kiểm tra chương trình sendmail bản địa của bạn.
 FixOnTransifex=Fix the translation on the online translation platform of project
 SubmitTranslation=Nếu bản dịch cho ngôn ngữ này chưa hoàn thành hoặc bạn thấy có lỗi, bạn có thể sửa lỗi này bằng cách chỉnh sửa các tệp trong thư mục <b>langs / %s</b> và gửi thay đổi của bạn tới www.transifex.com/dolibarr-association/dolibarr/
-SubmitTranslationENUS=If translation for this language is not complete or you find errors, you can correct this by editing files into directory <b>langs/%s</b> and submit modified files on dolibarr.org/forum or, if you are a developer, with a PR on github.com/Dolibarr/dolibarr
+SubmitTranslationENUS=If translation for this language is not complete or you find errors, you can correct this by editing files into directory <b>langs/%s</b> and submit modified files on bespo.et/forum or, if you are a developer, with a PR on github.com/Dolibarr/dolibarr
 ModuleSetup=Cài đặt module
 ModulesSetup=Thiết lập Mô-đun / Ứng dụng 
 ModuleFamilyBase=Hệ thống
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=Danh sách các thư mục chứa các tệp m�
 NumberOfModelFilesFound=Số tệp mẫu ODT / ODS được tìm thấy trong các thư mục này
 ExampleOfDirectoriesForModelGen=Examples of syntax:<br>c:\\myapp\\mydocumentdir\\mysubdir<br>/home/myapp/mydocumentdir/mysubdir<br>DOL_DATA_ROOT/ecm/ecmdir
 FollowingSubstitutionKeysCanBeUsed=<br>To know how to create your odt document templates, before storing them in those directories, read wiki documentation:
-FullListOnOnlineDocumentation=http://wiki.dolibarr.org/index.php/Create_an_ODT_document_template
+FullListOnOnlineDocumentation=http://wiki.bespo.et/index.php/Create_an_ODT_document_template
 FirstnameNamePosition=Chức vụ của Tên/Họ
 DescWeather=Các hình ảnh sau sẽ được hiển thị trên bảng điều khiển khi số lượng hành động trễ đạt các giá trị sau:
 KeyForWebServicesAccess=Key to use Web Services (parameter "dolibarrkey" in webservices)
@@ -1654,7 +1654,7 @@ NotInstalled=Not installed.
 NotSlowedDownByThis=Not slowed down by this.
 NotRiskOfLeakWithThis=Not risk of leak with this.
 ApplicativeCache=Applicative cache
-MemcachedNotAvailable=No applicative cache found. You can enhance performance by installing a cache server Memcached and a module able to use this cache server.<br>More information here <a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN">http://wiki.dolibarr.org/index.php/Module_MemCached_EN</a>.<br>Note that a lot of web hosting provider does not provide such cache server.
+MemcachedNotAvailable=No applicative cache found. You can enhance performance by installing a cache server Memcached and a module able to use this cache server.<br>More information here <a href="http://wiki.bespo.et/index.php/Module_MemCached_EN">http://wiki.bespo.et/index.php/Module_MemCached_EN</a>.<br>Note that a lot of web hosting provider does not provide such cache server.
 MemcachedModuleAvailableButNotSetup=Module memcached for applicative cache found but setup of module is not complete.
 MemcachedAvailableAndSetup=Module memcached dedicated to use memcached server is enabled.
 OPCodeCache=OPCode cache
@@ -2019,8 +2019,8 @@ ByDefaultInList=Hiển thị theo mặc định trên chế độ xem danh sách
 YouUseLastStableVersion=Bạn sử dụng phiên bản ổn định mới nhất
 TitleExampleForMajorRelease=Ví dụ về tin nhắn bạn có thể sử dụng để thông báo bản phát hành chính này (vui lòng sử dụng nó trên các trang web của bạn)
 TitleExampleForMaintenanceRelease=Ví dụ về thông báo bạn có thể sử dụng để thông báo bản phát hành bảo trì này (vui lòng sử dụng nó trên các trang web của bạn)
-ExampleOfNewsMessageForMajorRelease=Dolibarr ERP &amp; CRM %s có sẵn. Phiên bản %s là phiên bản chính với nhiều tính năng mới cho cả người dùng và nhà phát triển. Bạn có thể tải xuống từ khu vực tải xuống của https://www.dolibarr.org cổng thông tin (thư mục con Phiên bản ổn định). Bạn có thể đọc <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> để biết danh sách đầy đủ các thay đổi.
-ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP &amp; CRM %s có sẵn. Phiên bản %s là phiên bản bảo trì, do đó chỉ chứa các bản sửa lỗi. Chúng tôi khuyên tất cả người dùng nâng cấp lên phiên bản này. Một bản phát hành bảo trì không giới thiệu các tính năng mới hoặc thay đổi cơ sở dữ liệu. Bạn có thể tải xuống từ khu vực tải xuống của https://www.dolibarr.org cổng thông tin (thư mục con Phiên bản ổn định). Bạn có thể đọc <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> để biết danh sách đầy đủ các thay đổi.
+ExampleOfNewsMessageForMajorRelease=Dolibarr ERP &amp; CRM %s có sẵn. Phiên bản %s là phiên bản chính với nhiều tính năng mới cho cả người dùng và nhà phát triển. Bạn có thể tải xuống từ khu vực tải xuống của https://www.bespo.et cổng thông tin (thư mục con Phiên bản ổn định). Bạn có thể đọc <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> để biết danh sách đầy đủ các thay đổi.
+ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP &amp; CRM %s có sẵn. Phiên bản %s là phiên bản bảo trì, do đó chỉ chứa các bản sửa lỗi. Chúng tôi khuyên tất cả người dùng nâng cấp lên phiên bản này. Một bản phát hành bảo trì không giới thiệu các tính năng mới hoặc thay đổi cơ sở dữ liệu. Bạn có thể tải xuống từ khu vực tải xuống của https://www.bespo.et cổng thông tin (thư mục con Phiên bản ổn định). Bạn có thể đọc <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> để biết danh sách đầy đủ các thay đổi.
 MultiPriceRuleDesc=Khi tùy chọn "Một số mức giá cho mỗi sản phẩm/dịch vụ" được bật, bạn có thể xác định các mức giá khác nhau (một mức cho mỗi mức giá) cho mỗi sản phẩm. Để tiết kiệm thời gian của bạn, ở đây bạn có thể nhập quy tắc để tự động định giá cho từng cấp dựa trên giá của cấp đầu tiên, do đó bạn sẽ chỉ phải nhập giá cho cấp đầu tiên cho mỗi sản phẩm. Trang này được thiết kế để giúp bạn tiết kiệm thời gian nhưng chỉ hữu ích nếu giá của bạn cho mỗi cấp tương đối so với cấp đầu tiên. Bạn có thể bỏ qua trang này trong hầu hết các trường hợp.
 ModelModulesProduct=Mẫu cho tài liệu sản phẩm
 WarehouseModelModules=Templates for documents of warehouses

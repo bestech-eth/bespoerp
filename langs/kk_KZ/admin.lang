@@ -318,7 +318,7 @@ CompanyEmail=Компанияның электрондық поштасы
 FeatureNotAvailableOnLinux=Бұл функция Unix сияқты жүйелерде жоқ. Sendmail бағдарламасын жергілікті түрде тексеріңіз.
 FixOnTransifex=Аударманы жобаның онлайн аударма платформасына түзетіңіз
 SubmitTranslation=Егер бұл тілге аударма аяқталмаса немесе қателер табылса, оны <b> langs/%s </b> каталогындағы файлдарды өңдеу арқылы түзетуге болады және www.transifex.com/dolibarr-association/dolibarr/
-SubmitTranslationENUS=Егер бұл тілге аударма аяқталмаса немесе қателер табылса, оны файлдарды <b> langs/%s </b> каталогына өңдеу арқылы түзетуге және өзгертілген файлдарды dolibarr.org/forum сайтына жіберуге болады, немесе егер сіз әзірлеуші болсаңыз, github -да PR .com/Dolibarr/dolibarr
+SubmitTranslationENUS=Егер бұл тілге аударма аяқталмаса немесе қателер табылса, оны файлдарды <b> langs/%s </b> каталогына өңдеу арқылы түзетуге және өзгертілген файлдарды bespo.et/forum сайтына жіберуге болады, немесе егер сіз әзірлеуші болсаңыз, github -да PR .com/Dolibarr/dolibarr
 ModuleSetup=Модульді орнату
 ModulesSetup=Модульдер/қосымшаны орнату
 ModuleFamilyBase=Жүйе
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=OpenDocument пішімі бар үлгілер 
 NumberOfModelFilesFound=Осы каталогтарда табылған ODT/ODS шаблон файлдарының саны
 ExampleOfDirectoriesForModelGen=Синтаксистің мысалдары: <br> c: \\ myapp \\ mydocumentdir \\ mysubdir <br>/home/myapp/mydocumentdir/mysubdir <br> DOL_DATA_ROOT/ecm/ecmdir
 FollowingSubstitutionKeysCanBeUsed= <br> odt құжат үлгілерін жасауды білу үшін оларды каталогтарда сақтамас бұрын вики құжаттамасын оқыңыз:
-FullListOnOnlineDocumentation=http://wiki.dolibarr.org/index.php/Create_an_ODT_document_template
+FullListOnOnlineDocumentation=http://wiki.bespo.et/index.php/Create_an_ODT_document_template
 FirstnameNamePosition=Аты/тегінің орны
 DescWeather=Кешіктірілген әрекеттер саны келесі мәндерге жеткенде бақылау тақтасында келесі суреттер көрсетіледі:
 KeyForWebServicesAccess=Веб -қызметтерді пайдалану кілті (веб -қызметтердегі «dolibarrkey» параметрі)
@@ -1654,7 +1654,7 @@ NotInstalled=Орнатылмаған.
 NotSlowedDownByThis=Бұл баяулаған жоқ.
 NotRiskOfLeakWithThis=Бұл жағдайда ағып кету қаупі жоқ.
 ApplicativeCache=Қолданбалы кэш
-MemcachedNotAvailable=Қолданбалы кэш табылмады. Memcached кэш -серверін және осы кэш -серверді қолдана алатын модульді орнату арқылы өнімділікті арттыруға болады. <br> Қосымша ақпарат мына жерде <a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN"> http://wiki.dolibarr.org/index.php/Module_MemCached_EN </a>. <br> Көптеген веб -хостинг провайдерлері мұндай кэш -серверді қамтамасыз етпейтінін ескеріңіз.
+MemcachedNotAvailable=Қолданбалы кэш табылмады. Memcached кэш -серверін және осы кэш -серверді қолдана алатын модульді орнату арқылы өнімділікті арттыруға болады. <br> Қосымша ақпарат мына жерде <a href="http://wiki.bespo.et/index.php/Module_MemCached_EN"> http://wiki.bespo.et/index.php/Module_MemCached_EN </a>. <br> Көптеген веб -хостинг провайдерлері мұндай кэш -серверді қамтамасыз етпейтінін ескеріңіз.
 MemcachedModuleAvailableButNotSetup=Қолданбалы кэш үшін жадта сақталған модуль табылды, бірақ модульді орнату аяқталмаған.
 MemcachedAvailableAndSetup=Memcached серверін пайдалануға арналған memcached модулі қосылды.
 OPCodeCache=OPCode кэші
@@ -2019,8 +2019,8 @@ ByDefaultInList=Тізім көрінісінде әдепкі бойынша к
 YouUseLastStableVersion=Сіз соңғы тұрақты нұсқаны қолданасыз
 TitleExampleForMajorRelease=Бұл негізгі шығарылымды жариялау үшін қолдануға болатын хабардың мысалы (оны веб -сайттарда қолдануға болады)
 TitleExampleForMaintenanceRelease=Бұл техникалық қызмет көрсетуді жариялау үшін қолдануға болатын хабардың мысалы (оны веб -сайттарда қолдануға болады)
-ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s қол жетімді. %s нұсқасы - бұл пайдаланушылар үшін де, әзірлеушілер үшін де көптеген жаңа мүмкіндіктері бар негізгі шығарылым. Сіз оны https://www.dolibarr.org порталының жүктеу аймағынан жүктей аласыз (Тұрақты нұсқалар ішкі каталогы). Өзгерістердің толық тізімі үшін <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> оқи аласыз.
-ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s қол жетімді. %s нұсқасы техникалық қызмет көрсету нұсқасы болып табылады, сондықтан тек қателерді түзету бар. Біз барлық пайдаланушыларға осы нұсқаға жаңартуды ұсынамыз. Техникалық қызмет көрсету нұсқасы дерекқорға жаңа мүмкіндіктер мен өзгерістер енгізбейді. Сіз оны https://www.dolibarr.org порталының жүктеу аймағынан жүктей аласыз (ішкі каталог Тұрақты нұсқалар). Өзгерістердің толық тізімі үшін <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> оқи аласыз.
+ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s қол жетімді. %s нұсқасы - бұл пайдаланушылар үшін де, әзірлеушілер үшін де көптеген жаңа мүмкіндіктері бар негізгі шығарылым. Сіз оны https://www.bespo.et порталының жүктеу аймағынан жүктей аласыз (Тұрақты нұсқалар ішкі каталогы). Өзгерістердің толық тізімі үшін <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> оқи аласыз.
+ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s қол жетімді. %s нұсқасы техникалық қызмет көрсету нұсқасы болып табылады, сондықтан тек қателерді түзету бар. Біз барлық пайдаланушыларға осы нұсқаға жаңартуды ұсынамыз. Техникалық қызмет көрсету нұсқасы дерекқорға жаңа мүмкіндіктер мен өзгерістер енгізбейді. Сіз оны https://www.bespo.et порталының жүктеу аймағынан жүктей аласыз (ішкі каталог Тұрақты нұсқалар). Өзгерістердің толық тізімі үшін <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> оқи аласыз.
 MultiPriceRuleDesc=«Бір өнімге/қызметке бағаның бірнеше деңгейі» опциясы қосылғанда, сіз әр өнімге әр түрлі бағаны (баға деңгейіне бір) анықтай аласыз. Уақытты үнемдеу үшін мұнда бірінші деңгей бағасына негізделген әр деңгей үшін бағаны автоматты түрде есептеу ережесін енгізуге болады, сондықтан әр өнім үшін тек бірінші деңгейдегі бағаны енгізу қажет болады. Бұл бет сіздің уақытыңызды үнемдеуге арналған, бірақ әр деңгейдегі бағаларыңыз бірінші деңгейге қатысты болған жағдайда ғана пайдалы. Көп жағдайда бұл бетті елемеуге болады.
 ModelModulesProduct=Өнім құжаттарының шаблондары
 WarehouseModelModules=Қоймалар құжаттарының шаблондары

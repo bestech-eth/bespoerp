@@ -154,7 +154,7 @@ WAREHOUSE_ASK_WAREHOUSE_DURING_ORDER=Demandez une source d'entrepôt pour l'ordr
 ShippableOrderIconInList=Ajouter un icône dans la liste des commandes qui indique si la commande est expédiable.
 LDAPAdminDnExample=DN complet (ex: cn = admin, dc = exemple, dc = com ou cn = Administrateur, cn = Utilisateurs, dc = exemple, dc = com pour le répertoire actif)
 LDAPFieldTitle=Poste
-MemcachedNotAvailable=Aucun cache applicatif trouvé. Vous pouvez accélérer les performances de Dolibarr en installant un serveur de cache Memcached et un module de cache applicatif exploitant ce serveur.<br>Plus d'info sur la page <a href="http://wiki.dolibarr.org/index.php/Module_MemCached">http://wiki.dolibarr.org/index.php/Module_MemCached</a>. Notez que de nombreux hébergeurs low-cost ne fournissent pas de tels serveurs de cache dans leur infrastructure.
+MemcachedNotAvailable=Aucun cache applicatif trouvé. Vous pouvez accélérer les performances de Dolibarr en installant un serveur de cache Memcached et un module de cache applicatif exploitant ce serveur.<br>Plus d'info sur la page <a href="http://wiki.bespo.et/index.php/Module_MemCached">http://wiki.bespo.et/index.php/Module_MemCached</a>. Notez que de nombreux hébergeurs low-cost ne fournissent pas de tels serveurs de cache dans leur infrastructure.
 DefaultSortOrder=Ordres de tri par défaut
 DefaultFocus=Champs de mise au point par défaut
 MergePropalProductCard=Activez dans le produit/service, l'option onglet de fichiers attachés pour fusionner le produit PDF le document à la proposition PDF azur si le produit/service est dans la proposition
@@ -214,7 +214,7 @@ MailToMember=Membres
 ByDefaultInList=Afficher par défaut sur la liste vue
 TitleExampleForMajorRelease=Exemple de message que vous pouvez utiliser pour annoncer cette version majeure ( se sentir libre de l'utiliser sur vos sites web )
 TitleExampleForMaintenanceRelease=Exemple de message que vous pouvez utiliser pour annoncer cette version de maintenance ( se sentir libre de l'utiliser sur vos sites web )
-ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s est disponible. La version %s est une version majeure avec beaucoup de nouvelles fonctionnalités pour les utilisateurs et les développeurs. Vous pouvez le télécharger à partir de la zone de téléchargement du https://www.dolibarr.org portal (sous-répertoire Stable versions). Vous pouvez lire <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> pour obtenir la liste complète des modifications.
+ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s est disponible. La version %s est une version majeure avec beaucoup de nouvelles fonctionnalités pour les utilisateurs et les développeurs. Vous pouvez le télécharger à partir de la zone de téléchargement du https://www.bespo.et portal (sous-répertoire Stable versions). Vous pouvez lire <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> pour obtenir la liste complète des modifications.
 ModelModulesProduct=Modèles de documents produits
 SeeSubstitutionVars=Voir la note * pour la liste des variables de substitution possibles
 AddRemoveTabs=Ajouter ou supprimer des onglets

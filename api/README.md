@@ -9,7 +9,7 @@ Extract any data or push insert, update or delete record using our new REST APIs
 
 
 <div align="center">
-  <img class="imgdoc" src="https://www.dolibarr.org//images/doc_apirest.png" alt="Dolibarr API explorer"/>
+  <img class="imgdoc" src="https://www.bespo.et//images/doc_apirest.png" alt="Dolibarr API explorer"/>
 </div>
 
 

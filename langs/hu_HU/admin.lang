@@ -318,7 +318,7 @@ CompanyEmail=Vállalati e-mail
 FeatureNotAvailableOnLinux=A szolgáltatás nem elérhető Unix szerű rendszereken. Teszteld a sendmail programot helyben.
 FixOnTransifex=Javítsa ki a fordítást a projekt online fordítási platformján
 SubmitTranslation=Ha a nyelv fordítása nem teljes, vagy hibákat talál, akkor javítsa ki az <b> langs / %s </b> könyvtárban található fájlok szerkesztésével, és küldje be a változást a www.transifex.com/dolibarr-association/dolibarr/ webhelyre.
-SubmitTranslationENUS=Ha ennek a nyelvnek a fordítása nem teljes, vagy hibákat talál, javíthatja ezt a fájlok szerkesztésével az <b>langs/%s</b> könyvtárban, és módosított fájlokat küldhet be a dolibarr.org/forum címre, vagy, ha fejlesztő, akkor a github PR-jével .com/Dolibarr/dolibarr
+SubmitTranslationENUS=Ha ennek a nyelvnek a fordítása nem teljes, vagy hibákat talál, javíthatja ezt a fájlok szerkesztésével az <b>langs/%s</b> könyvtárban, és módosított fájlokat küldhet be a bespo.et/forum címre, vagy, ha fejlesztő, akkor a github PR-jével .com/Dolibarr/dolibarr
 ModuleSetup=Modul beállítása
 ModulesSetup=Modulok / Alkalmazás beállításai
 ModuleFamilyBase=Rendszer
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=Az OpenDocument formátumú sablonfájlokat tart
 NumberOfModelFilesFound=Ezekben a könyvtárakban található ODT / ODS sablon fájlok száma
 ExampleOfDirectoriesForModelGen=Példák szintaxisra:<br>c:\\myapp\\mydocumentdir\\mysubdir<br>/home/myapp/mydocumentdir/mysubdir<br>DOL_DATA_ROOT/ecm/ecmdir
 FollowingSubstitutionKeysCanBeUsed=<br> Ha tudod, hogyan kell létrehozni a odt dokumentumsablonok, mielőtt tárolja őket azokra a könyvtárakra, olvasd el a wiki dokumentáció:
-FullListOnOnlineDocumentation=http://wiki.dolibarr.org/index.php/Create_an_ODT_document_template
+FullListOnOnlineDocumentation=http://wiki.bespo.et/index.php/Create_an_ODT_document_template
 FirstnameNamePosition=A név / vezetéknév sorrendje
 DescWeather=A következő képek akkor jelennek meg az irányítópulton, amikor a késleltetett műveletek száma eléri a következő értékeket:
 KeyForWebServicesAccess=A webes szolgáltatások kulcsa ("dolibarrkey" paraméter a webszolgáltatásoknál)
@@ -1654,7 +1654,7 @@ NotInstalled=Nincs telepítve.
 NotSlowedDownByThis=Ez nem lassítja le.
 NotRiskOfLeakWithThis=Nincs a szivárgás veszélye.
 ApplicativeCache=Alkalmazási gyorsítótár
-MemcachedNotAvailable=Nem található alkalmazás gyorsítótár. Javíthatja a teljesítményt egy Memcached gyorsítótár-kiszolgáló és egy ezt a gyorsítótár-kiszolgálót használó modul telepítésével.<br>További információ itt: <a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN">http: //wiki.dolibarr.org/index.php/Module_MemCached_EN</a>.<br>Ne feledje, hogy sok webtárhely-szolgáltató nem biztosít ilyen gyorsítótár-kiszolgálót.
+MemcachedNotAvailable=Nem található alkalmazás gyorsítótár. Javíthatja a teljesítményt egy Memcached gyorsítótár-kiszolgáló és egy ezt a gyorsítótár-kiszolgálót használó modul telepítésével.<br>További információ itt: <a href="http://wiki.bespo.et/index.php/Module_MemCached_EN">http: //wiki.bespo.et/index.php/Module_MemCached_EN</a>.<br>Ne feledje, hogy sok webtárhely-szolgáltató nem biztosít ilyen gyorsítótár-kiszolgálót.
 MemcachedModuleAvailableButNotSetup=Az alkalmazás gyorsítótárához tárolt modult megtaláltuk, de a modul beállítása nem fejeződött be.
 MemcachedAvailableAndSetup=A memcached szerver használatára szánt memcached modul engedélyezve van.
 OPCodeCache=OPCode gyorsítótár
@@ -2019,8 +2019,8 @@ ByDefaultInList=Alapértelmezés szerint megjelenítése listanézetben
 YouUseLastStableVersion=A legújabb stabil verziót használja
 TitleExampleForMajorRelease=Példa üzenetre, amellyel bejelentheti ezt a jelentős kiadást (bátran használhatja webhelyein)
 TitleExampleForMaintenanceRelease=Példa üzenetre, amellyel bejelentheti ezt a karbantartási kiadást (bátran használhatja webhelyein)
-ExampleOfNewsMessageForMajorRelease=A Dolibarr ERP és CRM %s elérhető. A %s verzió egy jelentős kiadás, számos új funkcióval mind a felhasználók, mind a fejlesztők számára. Letöltheti a https://www.dolibarr.org portál letöltési területéről (Stable versions alkönyvtár). A változtatások teljes listáját a <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> oldalon találja.
-ExampleOfNewsMessageForMaintenanceRelease=A Dolibarr ERP és CRM %s elérhető. A %s verzió karbantartási verzió, tehát csak hibajavításokat tartalmaz. Minden felhasználónak javasoljuk, hogy frissítsen erre a verzióra. A karbantartási kiadások nem vezetnek be új funkciókat vagy változtatásokat az adatbázisban. Letöltheti a https://www.dolibarr.org portál letöltési területéről (Stable versions alkönyvtár). A változtatások teljes listáját a <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> oldalon olvashatja el.
+ExampleOfNewsMessageForMajorRelease=A Dolibarr ERP és CRM %s elérhető. A %s verzió egy jelentős kiadás, számos új funkcióval mind a felhasználók, mind a fejlesztők számára. Letöltheti a https://www.bespo.et portál letöltési területéről (Stable versions alkönyvtár). A változtatások teljes listáját a <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> oldalon találja.
+ExampleOfNewsMessageForMaintenanceRelease=A Dolibarr ERP és CRM %s elérhető. A %s verzió karbantartási verzió, tehát csak hibajavításokat tartalmaz. Minden felhasználónak javasoljuk, hogy frissítsen erre a verzióra. A karbantartási kiadások nem vezetnek be új funkciókat vagy változtatásokat az adatbázisban. Letöltheti a https://www.bespo.et portál letöltési területéről (Stable versions alkönyvtár). A változtatások teljes listáját a <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> oldalon olvashatja el.
 MultiPriceRuleDesc=Ha a "Több árszint termékenként/szolgáltatásonként" opció engedélyezve van, minden termékhez különböző árat (árszintenként egyet) határozhat meg. Időmegtakarítás érdekében itt megadhat egy szabályt, amely automatikusan kiszámítja az egyes szintek árát az első szint ára alapján, így minden terméknél csak az első szint árat kell megadnia. Ez az oldal úgy készült, hogy időt takarítson meg, de csak akkor hasznos, ha az egyes szintek árai az első szinthez viszonyítva vannak. Ezt az oldalt a legtöbb esetben figyelmen kívül hagyhatja.
 ModelModulesProduct=Sablonok a termékdokumentumokhoz
 WarehouseModelModules=Sablonok a raktárak dokumentumaihoz

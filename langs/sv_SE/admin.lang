@@ -318,7 +318,7 @@ CompanyEmail=Företagets e-postadress
 FeatureNotAvailableOnLinux=Funktionen inte finns på Unix-liknande system. Testa sendmail lokalt.
 FixOnTransifex=Lös översättningen på onlineplattformen för översättningar
 SubmitTranslation=Om översättningen för detta språk inte är fullständig eller du hittar fel kan du korrigera detta genom att redigera filer i katalogen <b>langs/%s</b> och skicka in din ändring till www.transifex.com/dolibarr-association/dolibarr/
-SubmitTranslationENUS=Om översättningen för detta språk inte är komplett eller om du hittar fel kan du korrigera detta genom att redigera filer i katalogen <b>langs/%s</b> och skicka ändrade filer på dolibarr.org/forum eller, om du är utvecklare, med en PR på github.com/Dolibarr/dolibarr
+SubmitTranslationENUS=Om översättningen för detta språk inte är komplett eller om du hittar fel kan du korrigera detta genom att redigera filer i katalogen <b>langs/%s</b> och skicka ändrade filer på bespo.et/forum eller, om du är utvecklare, med en PR på github.com/Dolibarr/dolibarr
 ModuleSetup=Modulinställningar
 ModulesSetup=Inställningar för moduler/program
 ModuleFamilyBase=System
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=Lista över kataloger som innehåller mallfiler 
 NumberOfModelFilesFound=Antal ODT/ODS-mallfiler som finns i dessa kataloger
 ExampleOfDirectoriesForModelGen=Exempel på syntax: <br> c: \\myapp\\mydocumentdir\\mysubdir <br>/home/myapp/mydocumentdir/mysubdir <br>DOL_DATA_ROOT/ecm/ecmdir
 FollowingSubstitutionKeysCanBeUsed=<br>För att lära dig hur du skapar odt-mallar, innan du sparar dem i dessa kataloger, läs wiki-dokumentation:
-FullListOnOnlineDocumentation=http://wiki.dolibarr.org/index.php/Create_an_ODT_document_template
+FullListOnOnlineDocumentation=http://wiki.bespo.et/index.php/Create_an_ODT_document_template
 FirstnameNamePosition=Position för förnamn/efternamn
 DescWeather=Följande bilder visas på kontrollpanelen när antalet sena åtgärder når följande värden:
 KeyForWebServicesAccess=Nyckel för att använda Web Services (parameter &quot;dolibarrkey&quot; i WebServices)
@@ -1654,7 +1654,7 @@ NotInstalled=Inte installerad.
 NotSlowedDownByThis=Saktar inte ner av detta.
 NotRiskOfLeakWithThis=Ingen risk för läckage med detta.
 ApplicativeCache=Applikativ cache
-MemcachedNotAvailable=Ingen applikativ cache hittades. Du kan förbättra prestanda genom att installera en cache-server Memcached och en modul kunna använda denna cache-server. <br> Mer information här <a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN">http://wiki.dolibarr.org/index.php/Module_MemCached_EN</a> . <br> Observera att en hel del webbhotell leverantör inte lämnar sådana cache-server.
+MemcachedNotAvailable=Ingen applikativ cache hittades. Du kan förbättra prestanda genom att installera en cache-server Memcached och en modul kunna använda denna cache-server. <br> Mer information här <a href="http://wiki.bespo.et/index.php/Module_MemCached_EN">http://wiki.bespo.et/index.php/Module_MemCached_EN</a> . <br> Observera att en hel del webbhotell leverantör inte lämnar sådana cache-server.
 MemcachedModuleAvailableButNotSetup=Modul memcached för applikativ cache hittades men installationen av modulen är inte fullständig.
 MemcachedAvailableAndSetup=Modul memcached tillägnad använda memcached server är aktiverad.
 OPCodeCache=OPCODE cache
@@ -2019,8 +2019,8 @@ ByDefaultInList=Visa som standard i listvy
 YouUseLastStableVersion=Du använder den senaste stabila versionen
 TitleExampleForMajorRelease=Exempel på meddelande du kan använda för att meddela den här stora versionen (gärna använda den på dina webbplatser)
 TitleExampleForMaintenanceRelease=Exempel på meddelande du kan använda för att tillkännage denna underhållsutgåva (gärna använda den på dina webbplatser)
-ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s är tillgänglig. Version %s är en stor release med många nya funktioner för både användare och utvecklare. Du kan hämta det från hämtningsområdet på https://www.dolibarr.org portal (underkatalog Stabila versioner). Du kan läsa <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> för fullständig lista över ändringar.
-ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s är tillgänglig. Version %s är en underhållsversion, så innehåller bara buggfixar. Vi rekommenderar alla användare att uppgradera till den här versionen. En underhållsutgivning introducerar inte nya funktioner eller ändringar i databasen. Du kan hämta det från hämtningsområdet på https://www.dolibarr.org portal (underkatalog Stabila versioner). Du kan läsa <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> för fullständig lista över ändringar.
+ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s är tillgänglig. Version %s är en stor release med många nya funktioner för både användare och utvecklare. Du kan hämta det från hämtningsområdet på https://www.bespo.et portal (underkatalog Stabila versioner). Du kan läsa <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> för fullständig lista över ändringar.
+ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s är tillgänglig. Version %s är en underhållsversion, så innehåller bara buggfixar. Vi rekommenderar alla användare att uppgradera till den här versionen. En underhållsutgivning introducerar inte nya funktioner eller ändringar i databasen. Du kan hämta det från hämtningsområdet på https://www.bespo.et portal (underkatalog Stabila versioner). Du kan läsa <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> för fullständig lista över ändringar.
 MultiPriceRuleDesc=När alternativet "Flera prisnivåer per produkt / tjänst" är aktiverat kan du definiera olika priser (en per prisnivå) för varje produkt. För att spara tid kan du här ange en regel för att autokaluta ett pris för varje nivå baserat på priset på första nivån, så du måste bara ange ett pris för första nivån för varje produkt. Den här sidan är utformad för att spara tid, men är endast användbar om dina priser för varje nivå är i förhållande till första nivån. Du kan ignorera den här sidan i de flesta fall.
 ModelModulesProduct=Mallar för produktdokument
 WarehouseModelModules=Mallar för dokument från lager

@@ -18,7 +18,7 @@ ob_start();
 <meta name="keywords" content="" />
 <meta name="title" content="Our company is now on Dolibarr ERP CRM" />
 <meta name="description" content="Our company has moved on Dolibarr ERP CRM. This is an important step in improving all of our services." />
-<meta name="generator" content="Dolibarr 17.0.0-alpha (https://www.dolibarr.org)" />
+<meta name="generator" content="Dolibarr 17.0.0-alpha (https://www.bespo.et)" />
 <meta name="dolibarr:pageid" content="180" />
 <?php if ($website->use_manifest) { print '<link rel="manifest" href="/manifest.json.php" />'."\n"; } ?>
 <!-- Include link to CSS file -->
@@ -56,7 +56,7 @@ ob_start();
 
         <div class="container" contenteditable="true">
             <br><br><br>
-            Like several thousands of companies, our company (<?php echo $mysoc->name ?>) has moved all its information system to <a href="https://www.dolibarr.org">Dolibarr ERP CRM</a>. More than 20 applications have been replaced by only one, easier to use and fully integrated.
+            Like several thousands of companies, our company (<?php echo $mysoc->name ?>) has moved all its information system to <a href="https://www.bespo.et">Dolibarr ERP CRM</a>. More than 20 applications have been replaced by only one, easier to use and fully integrated.
             This is an important step in improving all of our services.
             
             <br><br><br>

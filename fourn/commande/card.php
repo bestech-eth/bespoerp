@@ -1432,7 +1432,7 @@ if (empty($reshook)) {
 		$ws_thirdparty  = GETPOST('ws_thirdparty', 'int');
 
 		// NS and Authentication parameters
-		$ws_ns = 'http://www.dolibarr.org/ns/';
+		$ws_ns = 'http://www.bespo.et/ns/';
 		$ws_authentication = array(
 			'dolibarrkey'=>$ws_key,
 			'sourceapplication'=>'DolibarrWebServiceClient',
@@ -2762,7 +2762,7 @@ if ($action == 'create') {
 			$ws_password = GETPOST('ws_password', 'alpha');
 
 			// NS and Authentication parameters
-			$ws_ns = 'http://www.dolibarr.org/ns/';
+			$ws_ns = 'http://www.bespo.et/ns/';
 			$ws_authentication = array(
 			'dolibarrkey'=>$ws_key,
 			'sourceapplication'=>'DolibarrWebServiceClient',

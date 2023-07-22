@@ -318,7 +318,7 @@ CompanyEmail=E-mailadres bedrijf
 FeatureNotAvailableOnLinux=Functionaliteit niet beschikbaar op Unix-achtige systemen. Test uw lokale 'sendmail' programma.
 FixOnTransifex=Verbeter de vertaling op het online vertaalplatform van het project
 SubmitTranslation=Als de vertaling voor deze taal niet compleet is of als u fouten vindt, kunt u dit corrigeren door bestanden in directory <b>langs / %s te bewerken</b> en uw wijziging in te dienen op www.transifex.com/dolibarr-association/dolibarr/
-SubmitTranslationENUS=Als de vertaling voor deze taal niet compleet is of als je fouten tegenkomt, kun je dit corrigeren door bestanden te bewerken in de directory <b> langs / %s </b> en aangepaste bestanden in te dienen op dolibarr.org/forum of, als je een ontwikkelaar bent, met een PR op github .com / Dolibarr / dolibarr
+SubmitTranslationENUS=Als de vertaling voor deze taal niet compleet is of als je fouten tegenkomt, kun je dit corrigeren door bestanden te bewerken in de directory <b> langs / %s </b> en aangepaste bestanden in te dienen op bespo.et/forum of, als je een ontwikkelaar bent, met een PR op github .com / Dolibarr / dolibarr
 ModuleSetup=Module instellingen
 ModulesSetup=Instellingen van modules & applicatie
 ModuleFamilyBase=Systeem
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=Lijst van de directory's die de templates bevatt
 NumberOfModelFilesFound=Aantal  gevonden ODT/ODS sjabloonbestanden
 ExampleOfDirectoriesForModelGen=Syntax-voorbeeld: <br> c: \\ myapp \\ mydocumentdir \\ mysubdir <br> / home / myapp / mydocumentdir / mysubdir <br> DOL_DATA_ROOT / ecm / ecmdir
 FollowingSubstitutionKeysCanBeUsed=Lees de Wiki documentatie om te weten hoe u uw odt documentsjablonen moet maken voordat u ze in die mappen opslaat
-FullListOnOnlineDocumentation=De complete lijst met beschikbare velden is te vinden in de gebruikersdocumentatie op de Wiki van Dolibar: http://wiki.dolibarr.org.
+FullListOnOnlineDocumentation=De complete lijst met beschikbare velden is te vinden in de gebruikersdocumentatie op de Wiki van Dolibar: http://wiki.bespo.et.
 FirstnameNamePosition=Positie van voornaam / achternaam
 DescWeather=De volgende afbeeldingen worden op het dashboard weergegeven wanneer het aantal late acties de volgende waarden bereiken:
 KeyForWebServicesAccess=Sleutel om webdiensten te gebruiken (waarde "dolibarrkey" in webdiensten)
@@ -1654,7 +1654,7 @@ NotInstalled=Niet geïnstalleerd.
 NotSlowedDownByThis=Hierdoor niet vertraagd.
 NotRiskOfLeakWithThis=Hiermee geen risico op lekken.
 ApplicativeCache=Applicatieve cache
-MemcachedNotAvailable=Geen applicatieve cache gevonden. U kunt de prestaties verbeteren door een cacheserver Memcached te installeren en een module die deze cacheserver kan gebruiken. <br> Meer informatie hier <a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN">http://wiki.dolibarr.org/index.php/Module_MemCached_EN</a> . <br> Merk op dat veel webhostingproviders dergelijke cacheserver niet bieden.
+MemcachedNotAvailable=Geen applicatieve cache gevonden. U kunt de prestaties verbeteren door een cacheserver Memcached te installeren en een module die deze cacheserver kan gebruiken. <br> Meer informatie hier <a href="http://wiki.bespo.et/index.php/Module_MemCached_EN">http://wiki.bespo.et/index.php/Module_MemCached_EN</a> . <br> Merk op dat veel webhostingproviders dergelijke cacheserver niet bieden.
 MemcachedModuleAvailableButNotSetup=Module in memcache voor applicatieve cache gevonden, maar installatie van module is niet voltooid.
 MemcachedAvailableAndSetup=Module memcached gewijd aan het gebruik van memcached server is ingeschakeld.
 OPCodeCache=OPCode cache
@@ -2019,8 +2019,8 @@ ByDefaultInList=Standaard weergeven in de lijstweergave
 YouUseLastStableVersion=U gebruikt de nieuwste stabiele versie
 TitleExampleForMajorRelease=Voorbeeld van een bericht dat u kunt gebruiken om deze belangrijke release aan te kondigen (gebruik het gerust op uw websites)
 TitleExampleForMaintenanceRelease=Voorbeeld van een bericht dat u kunt gebruiken om deze onderhoudsrelease aan te kondigen (gebruik het gerust op uw websites)
-ExampleOfNewsMessageForMajorRelease=Dolibarr ERP &amp; CRM %s is beschikbaar. Versie %s is een belangrijke release met veel nieuwe functies voor zowel gebruikers als ontwikkelaars. U kunt het downloaden van het downloadgedeelte van de https://www.dolibarr.org portal (submap Stabiele versies). U kunt <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> lezen voor een volledige lijst met wijzigingen.
-ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP &amp; CRM %s is beschikbaar. Versie %s is een onderhoudsversie, dus bevat alleen bugfixes. We raden alle gebruikers aan om naar deze versie te upgraden. Een onderhoudsrelease introduceert geen nieuwe functies of wijzigingen in de database. U kunt het downloaden van het downloadgedeelte van de https://www.dolibarr.org portal (submap Stabiele versies). U kunt de <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> lezen voor een volledige lijst met wijzigingen.
+ExampleOfNewsMessageForMajorRelease=Dolibarr ERP &amp; CRM %s is beschikbaar. Versie %s is een belangrijke release met veel nieuwe functies voor zowel gebruikers als ontwikkelaars. U kunt het downloaden van het downloadgedeelte van de https://www.bespo.et portal (submap Stabiele versies). U kunt <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> lezen voor een volledige lijst met wijzigingen.
+ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP &amp; CRM %s is beschikbaar. Versie %s is een onderhoudsversie, dus bevat alleen bugfixes. We raden alle gebruikers aan om naar deze versie te upgraden. Een onderhoudsrelease introduceert geen nieuwe functies of wijzigingen in de database. U kunt het downloaden van het downloadgedeelte van de https://www.bespo.et portal (submap Stabiele versies). U kunt de <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> lezen voor een volledige lijst met wijzigingen.
 MultiPriceRuleDesc=Wanneer de optie &quot;Meerdere prijsniveaus per product / service&quot; is ingeschakeld, kunt u verschillende prijzen (één per prijsniveau) voor elk product definiëren. Om u tijd te besparen, kunt u hier een regel invoeren om een prijs voor elk niveau automatisch te berekenen op basis van de prijs van het eerste niveau, dus u hoeft alleen een prijs voor het eerste niveau voor elk product in te voeren. Deze pagina is ontworpen om u tijd te besparen, maar is alleen nuttig als uw prijzen voor elk niveau relatief zijn aan het eerste niveau. U kunt deze pagina in de meeste gevallen negeren.
 ModelModulesProduct=Sjablonen voor productdocumenten
 WarehouseModelModules=Sjablonen voor magazijndocumenten

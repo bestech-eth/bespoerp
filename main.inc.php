@@ -1621,7 +1621,7 @@ function top_htmlhead($head, $title = '', $disablejs = 0, $disablehead = 0, $arr
 
 		//if (empty($conf->global->MAIN_OPTIMIZEFORTEXTBROWSER)) print '<link rel="top" title="'.$langs->trans("Home").'" href="'.(DOL_URL_ROOT?DOL_URL_ROOT:'/').'">'."\n";
 		//if (empty($conf->global->MAIN_OPTIMIZEFORTEXTBROWSER)) print '<link rel="copyright" title="GNU General Public License" href="https://www.gnu.org/copyleft/gpl.html#SEC1">'."\n";
-		//if (empty($conf->global->MAIN_OPTIMIZEFORTEXTBROWSER)) print '<link rel="author" title="Dolibarr Development Team" href="https://www.dolibarr.org">'."\n";
+		//if (empty($conf->global->MAIN_OPTIMIZEFORTEXTBROWSER)) print '<link rel="author" title="Dolibarr Development Team" href="https://www.bespo.et">'."\n";
 
 		// Mobile appli like icon
 		$manifest = DOL_URL_ROOT.'/theme/'.$conf->theme.'/manifest.json.php';
@@ -2983,7 +2983,7 @@ function left_menu($menu_array_before, $helppagename = '', $notused = '', $menu_
 
 		// Version
 		if (!empty($conf->global->MAIN_SHOW_VERSION)) {    // Version is already on help picto and on login page.
-			$doliurl = 'https://www.dolibarr.org';
+			$doliurl = 'https://www.bespo.et';
 			//local communities
 			if (preg_match('/fr/i', $langs->defaultlang)) {
 				$doliurl = 'https://www.dolibarr.fr';
@@ -3196,19 +3196,19 @@ function getHelpParamFor($helppagename, $langs)
 		// If WIKI URL
 		$reg = array();
 		if (preg_match('/^es/i', $langs->defaultlang)) {
-			$helpbaseurl = 'http://wiki.dolibarr.org/index.php/%s';
+			$helpbaseurl = 'http://wiki.bespo.et/index.php/%s';
 			if (preg_match('/ES:([^|]+)/i', $helppagename, $reg)) {
 				$helppage = $reg[1];
 			}
 		}
 		if (preg_match('/^fr/i', $langs->defaultlang)) {
-			$helpbaseurl = 'http://wiki.dolibarr.org/index.php/%s';
+			$helpbaseurl = 'http://wiki.bespo.et/index.php/%s';
 			if (preg_match('/FR:([^|]+)/i', $helppagename, $reg)) {
 				$helppage = $reg[1];
 			}
 		}
 		if (empty($helppage)) {	// If help page not already found
-			$helpbaseurl = 'http://wiki.dolibarr.org/index.php/%s';
+			$helpbaseurl = 'http://wiki.bespo.et/index.php/%s';
 			if (preg_match('/EN:([^|]+)/i', $helppagename, $reg)) {
 				$helppage = $reg[1];
 			}
@@ -3443,7 +3443,7 @@ if (!function_exists("llxFooter")) {
 
 						print "\n".'<!-- Includes JS for Ping of Dolibarr forceping='.$forceping.' MAIN_FIRST_PING_OK_DATE='.getDolGlobalString("MAIN_FIRST_PING_OK_DATE").' MAIN_FIRST_PING_OK_ID='.getDolGlobalString("MAIN_FIRST_PING_OK_ID").' MAIN_LAST_PING_KO_DATE='.getDolGlobalString("MAIN_LAST_PING_KO_DATE").' -->'."\n";
 						print "\n<!-- JS CODE TO ENABLE the anonymous Ping -->\n";
-						$url_for_ping = (empty($conf->global->MAIN_URL_FOR_PING) ? "https://ping.dolibarr.org/" : $conf->global->MAIN_URL_FOR_PING);
+						$url_for_ping = (empty($conf->global->MAIN_URL_FOR_PING) ? "https://ping.bespo.et/" : $conf->global->MAIN_URL_FOR_PING);
 						// Try to guess the distrib used
 						$distrib = 'standard';
 						if ($_SERVER["SERVER_ADMIN"] == 'doliwamp@localhost') {

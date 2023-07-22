@@ -1305,7 +1305,7 @@ if ($mode == 'develop') {
 	print '</tr>';
 
 	print '<tr class="oddeven" height="80">'."\n";
-	$url = 'https://partners.dolibarr.org';
+	$url = 'https://partners.bespo.et';
 	print '<td class="left">';
 	print'<a href="'.$url.'" target="_blank" rel="noopener noreferrer external"><img border="0" class="imgautosize imgmaxwidth180" src="'.DOL_URL_ROOT.'/theme/dolibarr_preferred_partner.png"></a>';
 	print '</td>';

@@ -18,7 +18,7 @@ ob_start();
 <meta name="keywords" content="" />
 <meta name="title" content="Footer" />
 <meta name="description" content="Footer" />
-<meta name="generator" content="Dolibarr 17.0.0-alpha (https://www.dolibarr.org)" />
+<meta name="generator" content="Dolibarr 17.0.0-alpha (https://www.bespo.et)" />
 <meta name="dolibarr:pageid" content="187" />
 <?php if ($website->use_manifest) { print '<link rel="manifest" href="/manifest.json.php" />'."\n"; } ?>
 <!-- Include link to CSS file -->
@@ -112,7 +112,7 @@ ob_start();
 
         <section id="sectionfooterdolibarr" contenteditable="true" class="footerdolibarr">
             <div class="center">
-            Website generated and powered by <a href="https://www.dolibarr.org" target="CRM and ERP for freelances, association and companies">Dolibarr ERP & CRM</a>
+            Website generated and powered by <a href="https://www.bespo.et" target="CRM and ERP for freelances, association and companies">Dolibarr ERP & CRM</a>
             </div>
         </section>
         

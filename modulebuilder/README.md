@@ -12,6 +12,6 @@ After enabling this module, you should find features to generate or edit modules
 Documentation
 -------------
 
-[Module tutorial](https://wiki.dolibarr.org/index.php/Module_development)
+[Module tutorial](https://wiki.bespo.et/index.php/Module_development)
 
-[Dolibarr development](https://wiki.dolibarr.org/index.php/Developer_documentation)
+[Dolibarr development](https://wiki.bespo.et/index.php/Developer_documentation)

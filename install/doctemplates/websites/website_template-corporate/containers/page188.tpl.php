@@ -18,7 +18,7 @@ ob_start();
 <meta name="keywords" content="" />
 <meta name="title" content="Header and Top Menu" />
 <meta name="description" content="Header with menu" />
-<meta name="generator" content="Dolibarr 17.0.0-alpha (https://www.dolibarr.org)" />
+<meta name="generator" content="Dolibarr 17.0.0-alpha (https://www.bespo.et)" />
 <meta name="dolibarr:pageid" content="188" />
 <?php if ($website->use_manifest) { print '<link rel="manifest" href="/manifest.json.php" />'."\n"; } ?>
 <!-- Include link to CSS file -->

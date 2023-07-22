@@ -52,7 +52,7 @@ llxHeader();
 
 print load_fiche_titre($langs->trans("Security"), '', 'title_setup');
 
-print '<span class="opacitymedium">'.$langs->trans("YouMayFindSecurityAdviceHere", 'hhttps://wiki.dolibarr.org/index.php/Security_information').'</span>';
+print '<span class="opacitymedium">'.$langs->trans("YouMayFindSecurityAdviceHere", 'hhttps://wiki.bespo.et/index.php/Security_information').'</span>';
 print ' &nbsp; &nbsp; ';
 print '<a href="'.$_SERVER["PHP_SELF"].'">';
 print img_picto($langs->trans("Reload"), 'refresh').' ';

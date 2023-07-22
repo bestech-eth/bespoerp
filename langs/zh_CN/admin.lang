@@ -318,7 +318,7 @@ CompanyEmail=公司邮箱
 FeatureNotAvailableOnLinux=功能在类Unix系统下不可用。请在本地测试您的sendmail程序。
 FixOnTransifex=于在线翻译平台上修复项目翻译
 SubmitTranslation=如果该语言的翻译不完整或您发现错误，您可以通过编辑目录 <b> langs/%s </b> 中的文件来更正此问题，并将您的更改提交到 www.transifex.com/dolibarr-association/dolibarr/
-SubmitTranslationENUS=如果该语言的翻译不完整或您发现错误，您可以通过将编辑目录 <b> langs/%s </b> 下的文件并在 dolibarr.org/forum 上提交修改后的文件来纠正此问题，或者，如果您是开发人员，请在 github.com/Dolibarr/dolibarr 上提交 PR 
+SubmitTranslationENUS=如果该语言的翻译不完整或您发现错误，您可以通过将编辑目录 <b> langs/%s </b> 下的文件并在 bespo.et/forum 上提交修改后的文件来纠正此问题，或者，如果您是开发人员，请在 github.com/Dolibarr/dolibarr 上提交 PR 
 ModuleSetup=模块设置
 ModulesSetup=模块/应用程序设置
 ModuleFamilyBase=系统
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=包含OpenDocument格式的文档的模板目录
 NumberOfModelFilesFound=在这些目录中发现的 ODT/ODS 模板文件数量
 ExampleOfDirectoriesForModelGen=语法示例： <br> c:\\myapp\\mydocumentdir\\mysubdir <br> /home/myapp/mydocumentdir/mysubdir <br> DOL_DATA_ROOT/ecm/ecmdir
 FollowingSubstitutionKeysCanBeUsed=<br>要知道如何建立您的ODT文件范本并储存在指定目录，请访问wiki网站：
-FullListOnOnlineDocumentation=http://wiki.dolibarr.org/index.php/Create_an_ODT_document_template
+FullListOnOnlineDocumentation=http://wiki.bespo.et/index.php/Create_an_ODT_document_template
 FirstnameNamePosition=名称/姓氏的位置顺序
 DescWeather=当延迟操作的数量达到以下值时，主看板上将显示以下图标：
 KeyForWebServicesAccess=使用 SOAP 服务的密钥 (webservices 中的"dolibarrkey"参数)
@@ -1654,7 +1654,7 @@ NotInstalled=未安装。
 NotSlowedDownByThis=并没有因此而减慢。
 NotRiskOfLeakWithThis=没有泄漏的风险。
 ApplicativeCache=应用型缓存
-MemcachedNotAvailable=找不到应用缓存。您可以通过安装缓存服务器Memcached和能够使用此缓存服务器的模块来增强性能。<br>更多信息，请访问<a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN"> http： //wiki.dolibarr.org/index.php/Module_MemCached_EN </a>。请注意，很多网络托管服务提供商都没有提供此类缓存服务器。
+MemcachedNotAvailable=找不到应用缓存。您可以通过安装缓存服务器Memcached和能够使用此缓存服务器的模块来增强性能。<br>更多信息，请访问<a href="http://wiki.bespo.et/index.php/Module_MemCached_EN"> http： //wiki.bespo.et/index.php/Module_MemCached_EN </a>。请注意，很多网络托管服务提供商都没有提供此类缓存服务器。
 MemcachedModuleAvailableButNotSetup=找到应用程序缓存的memcached模块，但模块设置不完整。
 MemcachedAvailableAndSetup=启用专用于使用memcached服务器的模块memcached。
 OPCodeCache=操作码缓存
@@ -2019,8 +2019,8 @@ ByDefaultInList=默认显示列表视图
 YouUseLastStableVersion=您使用最新的稳定版本
 TitleExampleForMajorRelease=您可以用来宣布此主要版本的消息示例（可以在您的网站上使用它）
 TitleExampleForMaintenanceRelease=您可以用来宣布此维护版本的消息示例（可以在您的网站上使用它）
-ExampleOfNewsMessageForMajorRelease=Dolibarr ERP＆CRM %s可用。版本%s是一个主要版本，为用户和开发人员提供了许多新功能。您可以从https://www.dolibarr.org portal（子目录稳定版本）的下载区下载它。您可以阅读<a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a>以获取完整的更改列表。
-ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s 可用。版本 %s 是维护版本，因此仅包含错误修复。我们建议所有用户升级到此版本。维护版本不会向数据库引入新功能或更改。您可以从 https://www.dolibarr.org 门户（子目录稳定版本）的下载区域下载它。您可以阅读 <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> 以获取完整的更改列表。
+ExampleOfNewsMessageForMajorRelease=Dolibarr ERP＆CRM %s可用。版本%s是一个主要版本，为用户和开发人员提供了许多新功能。您可以从https://www.bespo.et portal（子目录稳定版本）的下载区下载它。您可以阅读<a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a>以获取完整的更改列表。
+ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s 可用。版本 %s 是维护版本，因此仅包含错误修复。我们建议所有用户升级到此版本。维护版本不会向数据库引入新功能或更改。您可以从 https://www.bespo.et 门户（子目录稳定版本）的下载区域下载它。您可以阅读 <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> 以获取完整的更改列表。
 MultiPriceRuleDesc=当启用“每种产品/服务的多个价格级别”选项时，您可以为每种产品定义不同的价格（每个价格级别一个）。为了节省您的时间，您可以在此处输入一个规则，以根据第一级的价格自动计算每个级别的价格，因此您只需为每个产品输入第一级的价格。此页面旨在节省您的时间，但仅当您的每个级别的价格都与第一级别相关时才有用。在大多数情况下，您可以忽略此页面。
 ModelModulesProduct=产品文件模板
 WarehouseModelModules=仓库文件模板

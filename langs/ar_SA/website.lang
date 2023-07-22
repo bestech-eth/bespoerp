@@ -48,7 +48,7 @@ VirtualhostDesc=The name of the Virtual host or domain (For example: www.mywebsi
 SetHereVirtualHost=<u>بإستخدام اباتشي \\انجنكس\\...</u><br> على خادمك (اباتشي او انجنكس..) قم بإنشاء خادم افتراضي يدعم البي اتش بي واجعل المسار الجذر له<br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=مثال إعدادات لاستخدامه مع خادم اباتشي افتراضي
 YouCanAlsoTestWithPHPS=<u>لاستخدام خادم بي اتش بي المضمن </u><br>على بيئة التطوير ربما تفضل تجربة موقعك بخادم بي اتش بي المضمن (النسخة 5.5 فما فوق) عبر تشغيل <br><strong> php -S 0.0.0.0:8080 -t %s</strong> 
-YouCanAlsoDeployToAnotherWHP= <u> قم بتشغيل موقع الويب الخاص بك مع مزود استضافة Dolibarr آخر </u> <br> إذا لم يكن لديك خادم ويب مثل Apache أو NGinx متاحًا على الإنترنت ، فيمكنك تصدير واستيراد موقع الويب الخاص بك إلى مثيل Dolibarr آخر يوفره مزود استضافة Dolibarr آخر يوفره بالكامل التكامل مع وحدة موقع الويب. يمكنك العثور على قائمة ببعض موفري خدمة استضافة Dolibarr على <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external"> https://saas.dolibarr.org </a>
+YouCanAlsoDeployToAnotherWHP= <u> قم بتشغيل موقع الويب الخاص بك مع مزود استضافة Dolibarr آخر </u> <br> إذا لم يكن لديك خادم ويب مثل Apache أو NGinx متاحًا على الإنترنت ، فيمكنك تصدير واستيراد موقع الويب الخاص بك إلى مثيل Dolibarr آخر يوفره مزود استضافة Dolibarr آخر يوفره بالكامل التكامل مع وحدة موقع الويب. يمكنك العثور على قائمة ببعض موفري خدمة استضافة Dolibarr على <a href="https://saas.bespo.et" target="_blank" rel="noopener noreferrer external"> https://saas.bespo.et </a>
 CheckVirtualHostPerms=ايضاً تأكد من ان مستخدم الخادم (مثلا www-data ) لديه صلاحيات <strong>%s</strong> على الملفات <br><strong>%s</strong>
 ReadPerm=قرأ
 WritePerm=التعديل والكتابة

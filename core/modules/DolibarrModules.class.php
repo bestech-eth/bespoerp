@@ -43,7 +43,7 @@ class DolibarrModules // Can not be abstract, because we need to instantiate it 
 
 	/**
 	 * @var int Module unique ID
-	 * @see https://wiki.dolibarr.org/index.php/List_of_modules_id
+	 * @see https://wiki.bespo.et/index.php/List_of_modules_id
 	 */
 	public $numero;
 

@@ -18,4 +18,4 @@ ModuleZapierForDolibarrDesc = Zapier ar gyfer modiwl Dolibarr
 ZapierForDolibarrSetup=Gosod Zapier ar gyfer Dolibarr
 ZapierDescription=Rhyngwyneb â Zapier
 ZapierAbout=Am y modiwl Zapier
-ZapierSetupPage=Nid oes angen gosodiad ar ochr Dolibarr i ddefnyddio Zapier. Fodd bynnag, rhaid i chi gynhyrchu a chyhoeddi pecyn ar zapier i allu defnyddio Zapier gyda Dolibarr. Gweler y ddogfennaeth ar <a href="https://wiki.dolibarr.org/index.php/Module_Zapier"> y dudalen wiki hon </a> .
+ZapierSetupPage=Nid oes angen gosodiad ar ochr Dolibarr i ddefnyddio Zapier. Fodd bynnag, rhaid i chi gynhyrchu a chyhoeddi pecyn ar zapier i allu defnyddio Zapier gyda Dolibarr. Gweler y ddogfennaeth ar <a href="https://wiki.bespo.et/index.php/Module_Zapier"> y dudalen wiki hon </a> .

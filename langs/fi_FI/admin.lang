@@ -318,7 +318,7 @@ CompanyEmail=Yrityksen sähköposti
 FeatureNotAvailableOnLinux=Ominaisuus ei ole Unix-koneissa. Testaa sendmail ohjelmaa paikallisesti.
 FixOnTransifex=Korjaa käännös projektin online-käännösalustalla
 SubmitTranslation=Jos tämän kielen käännös ei ole täydellinen tai löydät virheitä, voit korjata tämän muokkaamalla tiedostoja hakemistossa <b> langs / %s </b> ja lähettämällä muutoksesi osoitteeseen www.transifex.com/dolibarr-association/dolibarr/
-SubmitTranslationENUS=Jos tämän kielen käännös ei ole täydellinen tai löydät virheitä, voit korjata tämän muokkaamalla tiedostoja hakemistoon <b> langs / %s </b> ja lähettämällä muokatut tiedostot osoitteeseen dolibarr.org/forum tai, jos olet kehittäjä, PR:llä osoitteessa github.com/Dolibarr/dolibarr
+SubmitTranslationENUS=Jos tämän kielen käännös ei ole täydellinen tai löydät virheitä, voit korjata tämän muokkaamalla tiedostoja hakemistoon <b> langs / %s </b> ja lähettämällä muokatut tiedostot osoitteeseen bespo.et/forum tai, jos olet kehittäjä, PR:llä osoitteessa github.com/Dolibarr/dolibarr
 ModuleSetup=Moduuli asetukset
 ModulesSetup=Moduulit/Applikaatio asetukset
 ModuleFamilyBase=Järjestelmä
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=Luettelo hakemistoista, jotka sisältävät mall
 NumberOfModelFilesFound=Näistä hakemistoista löydettyjen ODT / ODS-mallitiedostojen määrä
 ExampleOfDirectoriesForModelGen=Esimerkkejä syntaksista: <br> c:\\myapp\\mydocumentdir\\mysubdir <br> /home/myapp/mydocumentdir/mysubdir <br> DOL_DATA_ROOT/ecm/ecmdir
 FollowingSubstitutionKeysCanBeUsed=<br> Jos haluat tietää, miten voit luoda odt asiakirjamalleja, ennen kuin laitat ne näistä hakemistoista, lue wiki dokumentaatio:
-FullListOnOnlineDocumentation=http://wiki.dolibarr.org/index.php/Create_an_ODT_document_template
+FullListOnOnlineDocumentation=http://wiki.bespo.et/index.php/Create_an_ODT_document_template
 FirstnameNamePosition=Etunimi/Sukunimi - sijainti
 DescWeather=The following images will be shown on the dashboard when the number of late actions reach the following values:
 KeyForWebServicesAccess=Avain käyttää Web Services (parametri &quot;dolibarrkey&quot; in WebServices)
@@ -1654,7 +1654,7 @@ NotInstalled=Ei asennettu.
 NotSlowedDownByThis=Ei hidasta tätä.
 NotRiskOfLeakWithThis=Ei vuotoriskiä tällä.
 ApplicativeCache=Applicative cache
-MemcachedNotAvailable=No applicative cache found. You can enhance performance by installing a cache server Memcached and a module able to use this cache server.<br>More information here <a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN">http://wiki.dolibarr.org/index.php/Module_MemCached_EN</a>.<br>Note that a lot of web hosting provider does not provide such cache server.
+MemcachedNotAvailable=No applicative cache found. You can enhance performance by installing a cache server Memcached and a module able to use this cache server.<br>More information here <a href="http://wiki.bespo.et/index.php/Module_MemCached_EN">http://wiki.bespo.et/index.php/Module_MemCached_EN</a>.<br>Note that a lot of web hosting provider does not provide such cache server.
 MemcachedModuleAvailableButNotSetup=Module memcached for applicative cache found but setup of module is not complete.
 MemcachedAvailableAndSetup=Module memcached dedicated to use memcached server is enabled.
 OPCodeCache=OPCode cache
@@ -2019,8 +2019,8 @@ ByDefaultInList=Näytä oletuksena luettelonäkymässä
 YouUseLastStableVersion=Käytät uusinta vakaata versiota
 TitleExampleForMajorRelease=Esimerkki viestistä, jonka avulla voit ilmoittaa tästä suuresta julkaisusta (käytä sitä vapaasti verkkosivustollasi)
 TitleExampleForMaintenanceRelease=Esimerkki viestistä, jonka avulla voit ilmoittaa tästä ylläpitoversiosta (käytä sitä vapaasti verkkosivustoillasi)
-ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s on saatavana. Versio %s on merkittävä julkaisu, jossa on paljon uusia ominaisuuksia sekä käyttäjille että kehittäjille. Voit ladata sen https://www.dolibarr.org -portaalin latausalueelta (alihakemiston vakaa versio). Voit lukea täydellisen luettelon muutoksista <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a>.
-ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s on saatavana. Versio %s on ylläpitoversio, joten sisältää vain virhekorjauksia. Suosittelemme kaikkia käyttäjiä päivittämään tähän versioon. Ylläpitoversio ei tuo uusia ominaisuuksia tai muutoksia tietokantaan. Voit ladata sen https://www.dolibarr.org -portaalin latausalueelta (alihakemiston vakaa versio). Voit lukea täydellisen luettelon muutoksista <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a>.
+ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s on saatavana. Versio %s on merkittävä julkaisu, jossa on paljon uusia ominaisuuksia sekä käyttäjille että kehittäjille. Voit ladata sen https://www.bespo.et -portaalin latausalueelta (alihakemiston vakaa versio). Voit lukea täydellisen luettelon muutoksista <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a>.
+ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s on saatavana. Versio %s on ylläpitoversio, joten sisältää vain virhekorjauksia. Suosittelemme kaikkia käyttäjiä päivittämään tähän versioon. Ylläpitoversio ei tuo uusia ominaisuuksia tai muutoksia tietokantaan. Voit ladata sen https://www.bespo.et -portaalin latausalueelta (alihakemiston vakaa versio). Voit lukea täydellisen luettelon muutoksista <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a>.
 MultiPriceRuleDesc=Kun vaihtoehto "Useat hintatasot tuotetta / palvelua kohti" on käytössä, voit määrittää kullekin tuotteelle eri hinnat (yksi hintatasoa kohti). Ajan säästämiseksi voit kirjoittaa tähän säännön, jolla lasketaan hintataso jokaiselle tasolle ensimmäisen tason hinnan perusteella, joten sinun on annettava vain kunkin tuotteen ensimmäisen tason hinta. Tämä sivu on suunniteltu säästämään aikaa, mutta on hyödyllinen vain, jos kunkin tason hinnat ovat suhteessa ensimmäiseen tasoon. Voit sivuuttaa tämän sivun useimmissa tapauksissa.
 ModelModulesProduct=Mallipohjat tuotedokumentaatiolle
 WarehouseModelModules=Mallit varastojen asiakirjoille

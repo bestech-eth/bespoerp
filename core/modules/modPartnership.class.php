@@ -32,7 +32,7 @@ include_once DOL_DOCUMENT_ROOT.'/core/modules/DolibarrModules.class.php';
 /**
  *  Description and activation class for module Partnership
  *  This module is base on this specification :
- *  https://wiki.dolibarr.org/index.php?title=Draft:Module_Partnership_management#Note
+ *  https://wiki.bespo.et/index.php?title=Draft:Module_Partnership_management#Note
  */
 class modPartnership extends DolibarrModules
 {

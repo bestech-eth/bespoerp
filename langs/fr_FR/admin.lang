@@ -318,7 +318,7 @@ CompanyEmail=Email organization
 FeatureNotAvailableOnLinux=Fonctionnalité non disponible sous systèmes Unix. Tester votre sendmail localement.
 FixOnTransifex=Corriger la traduction sur la plate-forme en ligne de traduction du projet
 SubmitTranslation=Si la traduction de cette langue est incomplète ou si vous trouvez des erreurs, vous pouvez corriger cela en éditant les fichiers dans le répertoire <b>langs/%s</b> et soumettre vos changements sur www.transifex.com/dolibarr-association/dolibarr/
-SubmitTranslationENUS=Si la traduction pour cette langue est incomplète ou si vous trouvez des erreurs, vous pouvez les corriger en éditant les fichiers dans le dossier <b>langs/%s</b> et soumettre les fichiers modifiés sur le forum dolibarr.org/forum ou, pour les développeurs, via une PR sur github.com/Dolibarr/dolibarr
+SubmitTranslationENUS=Si la traduction pour cette langue est incomplète ou si vous trouvez des erreurs, vous pouvez les corriger en éditant les fichiers dans le dossier <b>langs/%s</b> et soumettre les fichiers modifiés sur le forum bespo.et/forum ou, pour les développeurs, via une PR sur github.com/Dolibarr/dolibarr
 ModuleSetup=Configuration du module
 ModulesSetup=Configuration Modules/Application
 ModuleFamilyBase=Système
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=Liste des répertoires contenant des documents m
 NumberOfModelFilesFound=Nombre de fichiers modèles ODT/ODS trouvés dans ce(s) répertoire(s)
 ExampleOfDirectoriesForModelGen=Exemples de syntaxe : <br>c:\\myapp\\mydocumentdir\\mysubdir<br>/home/myapp/mydocumentdir/mysubdir<br>DOL_DATA_ROOT/ecm/ecmdir
 FollowingSubstitutionKeysCanBeUsed=<br>Pour savoir comment rédiger des modèles de document odt avant de les placer dans un de ces répertoires, consulter la documentation du wiki :
-FullListOnOnlineDocumentation=http://wiki.dolibarr.org/index.php/Créer_un_modèle_de_document_ODT
+FullListOnOnlineDocumentation=http://wiki.bespo.et/index.php/Créer_un_modèle_de_document_ODT
 FirstnameNamePosition=Ordre d'affichage prénom/nom
 DescWeather=Les graphiques suivant seront affichés sur le tableau de bord si le nombre d'éléments en retard atteint ces valeurs :
 KeyForWebServicesAccess=Clé pour utiliser les Web Services (paramètre "dolibarrkey" dans les webservices)
@@ -1276,7 +1276,7 @@ TriggerAlwaysActive=Déclencheurs de ce fichier toujours actifs, quels que soien
 TriggerActiveAsModuleActive=Déclencheurs de ce fichier actifs car le module <b>%s</b> est actif.
 GeneratedPasswordDesc=Définissez ici quelle règle vous voulez utiliser pour générer les mots de passe quand vous demandez à générer un nouveau mot de passe
 DictionaryDesc=Définissez ici les données de référence. Vous pouvez compléter/modifier les données prédéfinies avec les vôtres.
-ConstDesc=Cette page vous permet d'éditer (remplacer) des paramètres non disponibles dans d'autres pages. Il s'agit principalement de paramètres réservés pour les développeurs et dépannage avancé uniquement. <a href="https://wiki.dolibarr.org/index.php/Setup_Other#List_of_known_hidden_options" title="External Site - opens in a new window" target="_blank">Consultez ici</a> la liste des options.
+ConstDesc=Cette page vous permet d'éditer (remplacer) des paramètres non disponibles dans d'autres pages. Il s'agit principalement de paramètres réservés pour les développeurs et dépannage avancé uniquement. <a href="https://wiki.bespo.et/index.php/Setup_Other#List_of_known_hidden_options" title="External Site - opens in a new window" target="_blank">Consultez ici</a> la liste des options.
 MiscellaneousOptions=Options diverses
 MiscellaneousDesc=Définissez ici les autres paramètres en rapport avec la sécurité.
 LimitsSetup=Configuration des limites et précisions
@@ -1654,7 +1654,7 @@ NotInstalled=Non installé.
 NotSlowedDownByThis=Non ralenti par cela.
 NotRiskOfLeakWithThis=Pas de risque de fuite de données avec cela.
 ApplicativeCache=Cache applicatif
-MemcachedNotAvailable=Aucun cache applicatif trouvé. Vous pouvez accélérer les performances de Dolibarr en installant un serveur de cache Memcached et un module de cache applicatif exploitant ce serveur.<br>Plus d'info ici<a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN">https://wiki.dolibarr.org/index.php/Module_MemCached</a>.<br>Notez que de nombreux hébergeurs low-cost ne fournissent pas de tels serveurs de cache dans leur infrastructure.
+MemcachedNotAvailable=Aucun cache applicatif trouvé. Vous pouvez accélérer les performances de Dolibarr en installant un serveur de cache Memcached et un module de cache applicatif exploitant ce serveur.<br>Plus d'info ici<a href="http://wiki.bespo.et/index.php/Module_MemCached_EN">https://wiki.bespo.et/index.php/Module_MemCached</a>.<br>Notez que de nombreux hébergeurs low-cost ne fournissent pas de tels serveurs de cache dans leur infrastructure.
 MemcachedModuleAvailableButNotSetup=Le module memcached pour le cache applicatif a été trouvé mais la configuration de ce module n'est pas complète.
 MemcachedAvailableAndSetup=Le module memcached dédié à l'utilisation du serveur de cache memcached est activé.
 OPCodeCache=Cache OPCode
@@ -2019,8 +2019,8 @@ ByDefaultInList=Afficher par défaut sur les vues listes
 YouUseLastStableVersion=Vous utilisez la dernière version stable
 TitleExampleForMajorRelease=Exemple de message que vous pouvez utiliser pour annonce une nouvelle version majeure (n'hésitez pas à l'utilisez pour vos propres news)
 TitleExampleForMaintenanceRelease=Exemple de message que vous pouvez utiliser pour annonce une nouvelle version de maintenance (n'hésitez pas à l'utilisez pour vos propres news)
-ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s est disponible. La version %s est une version majeure avec de nouvelles fonctionnalités pour les utilisateurs et les développeurs. Vous pouvez la télécharger à partir de la zone de téléchargement du portail https://www.dolibarr.org (sous-répertoire "Versions stables"). Vous pouvez lire le <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> pour la liste complète des changements.
-ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s est disponible. La version %s est une version de maintenance, aussi elle ne contient que des correctifs de bugs. Nous recommandons à toute personne utilisant une version plus ancienne de migrer vers celle-ci. En tant que version de maintenance, aucune nouvelle fonctionnalité n'est ajoutée, ni modification de format de données. Vous pouvez télécharger cette version à partir de la zone de téléchargement du portail https://www.dolibarr.org (sous-répertoire "Versions stables"). Vous pouvez lire le <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> pour la liste complète des changements.
+ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s est disponible. La version %s est une version majeure avec de nouvelles fonctionnalités pour les utilisateurs et les développeurs. Vous pouvez la télécharger à partir de la zone de téléchargement du portail https://www.bespo.et (sous-répertoire "Versions stables"). Vous pouvez lire le <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> pour la liste complète des changements.
+ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s est disponible. La version %s est une version de maintenance, aussi elle ne contient que des correctifs de bugs. Nous recommandons à toute personne utilisant une version plus ancienne de migrer vers celle-ci. En tant que version de maintenance, aucune nouvelle fonctionnalité n'est ajoutée, ni modification de format de données. Vous pouvez télécharger cette version à partir de la zone de téléchargement du portail https://www.bespo.et (sous-répertoire "Versions stables"). Vous pouvez lire le <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> pour la liste complète des changements.
 MultiPriceRuleDesc=Quand l'option "Plusieurs niveaux de prix par produit/service" est activée, vous pouvez définir différents prix (un par niveau de prix) pour chaque produits. Pour gagner du temps, vous pouvez entrer ici une règle pour avoir un prix pour chaque niveau calculé automatiquement. Cette page est destiné à vous faire gagner du temps mais n'est utile que si vos prix pour chaque niveaux sont relatif au premier niveau. Vous pouvez ignorer cette page dans la plupart des cas.
 ModelModulesProduct=Modèles des documents de produits
 WarehouseModelModules=Modèles pour les documents des entrepôts

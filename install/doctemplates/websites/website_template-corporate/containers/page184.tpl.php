@@ -18,7 +18,7 @@ ob_start();
 <meta name="keywords" content="testimonials, use cases, success story" />
 <meta name="title" content="Clients Testimonials" />
 <meta name="description" content="Client Testimonials" />
-<meta name="generator" content="Dolibarr 17.0.0-alpha (https://www.dolibarr.org)" />
+<meta name="generator" content="Dolibarr 17.0.0-alpha (https://www.bespo.et)" />
 <meta name="dolibarr:pageid" content="184" />
 <?php if ($website->use_manifest) { print '<link rel="manifest" href="/manifest.json.php" />'."\n"; } ?>
 <!-- Include link to CSS file -->

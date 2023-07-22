@@ -318,7 +318,7 @@ CompanyEmail=Unternehmens-E-Mail
 FeatureNotAvailableOnLinux=Diese Funktion ist in Unix-Umgebungen nicht verfügbar. Testen Sie Ihr sendmail Programm lokal.
 FixOnTransifex=Die Übersetzung in der Online-Übersetzungs-Plattform des Projektes korrigieren
 SubmitTranslation=Wenn die Übersetzung für diese Sprache nicht vollständig ist oder Sie Fehler finden, können Sie dies korrigieren, indem Sie Dateien im Verzeichnis <b>langs/%s</b> bearbeiten und Ihre Änderung an www.transifex.com/dolibarr-association/dolibarr/ senden.
-SubmitTranslationENUS=Ist die Übersetzung für diese Sprache nicht vollständig oder fehlerhaft, kann das durch editieren der Dateien im Verzeichnis  <b>langs/%s</b> korrigiert werden und modifizierte Dateien sollen auch auf dolibarr.org/forum gepostet oder, als Entwickler, mit einer PR auf github.com/Dolibarr/dolibarr bekanntgeben werden
+SubmitTranslationENUS=Ist die Übersetzung für diese Sprache nicht vollständig oder fehlerhaft, kann das durch editieren der Dateien im Verzeichnis  <b>langs/%s</b> korrigiert werden und modifizierte Dateien sollen auch auf bespo.et/forum gepostet oder, als Entwickler, mit einer PR auf github.com/Dolibarr/dolibarr bekanntgeben werden
 ModuleSetup=Moduleinstellung
 ModulesSetup=Modul-/Anwendungseinstellungen
 ModuleFamilyBase=System
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=Liste der Verzeichnisse mit Vorlagendateien im O
 NumberOfModelFilesFound=Anzahl der in diesen Verzeichnissen gefundenen .odt/.ods-Dokumentvorlagen
 ExampleOfDirectoriesForModelGen=Beispiele für die Syntax: <br> c:\\myapp\\mydocumentdir\\mysubdir <br> /home/myapp/mydocumentdir/mysubdir <br> DOL_DATA_ROOT/ecm/ecmdir
 FollowingSubstitutionKeysCanBeUsed=<br>Lesen Sie die Wiki Dokumentation um zu wissen, wie Sie Ihre odt Dokumentenvorlage erstellen, bevor Sie diese in den Kategorien speichern:
-FullListOnOnlineDocumentation=https://wiki.dolibarr.org/index.php/Create_an_ODT_document_template
+FullListOnOnlineDocumentation=https://wiki.bespo.et/index.php/Create_an_ODT_document_template
 FirstnameNamePosition=Reihenfolge von Vor- und Nachname
 DescWeather=Die folgenden Symbole werden auf der Startseite angezeigt, wenn die entsprechenden Toleranzwerte erreicht werden:
 KeyForWebServicesAccess=Schlüssel um Web Services zu nutzen (Parameter "dolibarrkey" in webservices)
@@ -1654,7 +1654,7 @@ NotInstalled=Nicht installiert.
 NotSlowedDownByThis=Die Leistung wird hierdurch nicht beeinträchtigt.
 NotRiskOfLeakWithThis=Dadurch keine Gefahr, sensitive Daten offenzulegen.
 ApplicativeCache=geeigneter Cache
-MemcachedNotAvailable=Kein Cache Anwendung gefunden. \nSie können die Leistung durch die Installation des Cache-Server Memcached und die Aktivierung des Moduls Anwendungscache<br>hier mehr Informationen <a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN">http://wiki.dolibarr.org/index.php/Module_MemCached_EN</a>.<br>\nverbessern.\nBeachten Sie, dass viele Billig-Provider keine solche Cache-Server in ihrer Infrastruktur anbieten.
+MemcachedNotAvailable=Kein Cache Anwendung gefunden. \nSie können die Leistung durch die Installation des Cache-Server Memcached und die Aktivierung des Moduls Anwendungscache<br>hier mehr Informationen <a href="http://wiki.bespo.et/index.php/Module_MemCached_EN">http://wiki.bespo.et/index.php/Module_MemCached_EN</a>.<br>\nverbessern.\nBeachten Sie, dass viele Billig-Provider keine solche Cache-Server in ihrer Infrastruktur anbieten.
 MemcachedModuleAvailableButNotSetup=Module memcached für geeigneten Cache gefunden, aber Setup-Modul ist nicht vollständig.
 MemcachedAvailableAndSetup=Modul memcached zur Benutzung eines memcached Servers ist aktiviert.
 OPCodeCache=OPCode Cache
@@ -2019,8 +2019,8 @@ ByDefaultInList=Standardanzeige als Listenansicht
 YouUseLastStableVersion=Sie verwenden die letzte stabile Version
 TitleExampleForMajorRelease=Beispielnachricht, die Sie nutzen können, um eine Hauptversion anzukündigen. Sie können diese auf Ihrer Website verwenden.
 TitleExampleForMaintenanceRelease=Beispielnachricht, die Sie nutzen können, um ein Wartungsupdate anzukündigen. Sie können diese auf Ihrer Website verwenden.
-ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s ist verfügbar. Version %s ist eine Hauptversion mit vielen neuen Features für Benutzer und Entwickler. Sie können die Version aus dem Download-Bereich des Portals https://www.dolibarr.org laden (Unterverzeichnis "stabile Versionen"). Lesen Sie die komplette Liste der <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">Änderungen</a>.
-ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s ist verfügbar. Version %s ist ein Wartungsupdate, das nur Fehlerbereinigungen enthält. Wir empfehlen allen Benutzern ein Upgrade auf diese Version. Wie bei jedem Wartungsupdate sind keinen neuen Features oder Änderungen in den Datenstrukturen enthalten. Sie können die Version aus dem Downloadbereich des Portals https://www.dolibarr.org laden (Unterverzeichnis &quot;stabile Versionen&quot;). Lesen Sie die komplette Liste der Änderungen im <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a>.
+ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s ist verfügbar. Version %s ist eine Hauptversion mit vielen neuen Features für Benutzer und Entwickler. Sie können die Version aus dem Download-Bereich des Portals https://www.bespo.et laden (Unterverzeichnis "stabile Versionen"). Lesen Sie die komplette Liste der <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">Änderungen</a>.
+ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s ist verfügbar. Version %s ist ein Wartungsupdate, das nur Fehlerbereinigungen enthält. Wir empfehlen allen Benutzern ein Upgrade auf diese Version. Wie bei jedem Wartungsupdate sind keinen neuen Features oder Änderungen in den Datenstrukturen enthalten. Sie können die Version aus dem Downloadbereich des Portals https://www.bespo.et laden (Unterverzeichnis &quot;stabile Versionen&quot;). Lesen Sie die komplette Liste der Änderungen im <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a>.
 MultiPriceRuleDesc=Wenn die Option "Mehrere Preisstufen pro Produkt/Leistung" aktiviert ist, können Sie für jedes Produkt unterschiedliche Preise definieren (einen pro Preisstufe). Um Zeit zu sparen, können Sie hier eine Regel eingeben, um einen Preis für jede Preisstufe auf der Grundlage des Preises der ersten Preisstufe automatisch zu berechnen, sodass Sie für jedes Produkt nur einen Preis für die erste Preisstufe eingeben müssen. Diese Seite soll Ihnen Zeit sparen, ist jedoch nur dann nützlich, wenn Ihre Preise für jedes Level im Verhältnis zum ersten Level stehen. Sie können diese Seite in den meisten Fällen ignorieren.
 ModelModulesProduct=Vorlagen für Produktdokumente
 WarehouseModelModules=Vorlagen für Lagerdokumente

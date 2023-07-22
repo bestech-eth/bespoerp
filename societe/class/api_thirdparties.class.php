@@ -1509,7 +1509,7 @@ class Thirdparties extends DolibarrApi
 	 * Create and attach a new gateway to an existing thirdparty
 	 *
 	 * Possible fields for request_data (request body) are specified in <code>llx_societe_account</code> table.<br>
-	 * See <a href="https://wiki.dolibarr.org/index.php/Table_llx_societe_account">Table llx_societe_account</a> wiki page for more information<br><br>
+	 * See <a href="https://wiki.bespo.et/index.php/Table_llx_societe_account">Table llx_societe_account</a> wiki page for more information<br><br>
 	 * <u>Example body payload :</u> <pre>{"key_account": "cus_DAVkLSs1LYyYI", "site": "stripe"}</pre>
 	 *
 	 * @param int $id ID of thirdparty

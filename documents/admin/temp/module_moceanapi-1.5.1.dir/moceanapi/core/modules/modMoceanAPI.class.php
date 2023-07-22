@@ -47,7 +47,7 @@ class modMoceanAPI extends DolibarrModules
 		// Id for module (must be unique).
 		// Use here a free id (See in Home -> System information -> Dolibarr for list of used modules id).
 		// 483151 - 483200
-		$this->numero = 483151; // TODO Go on page https://wiki.dolibarr.org/index.php/List_of_modules_id to reserve an id number for your module
+		$this->numero = 483151; // TODO Go on page https://wiki.bespo.et/index.php/List_of_modules_id to reserve an id number for your module
 
 		// Key text used to identify module (for permissions, menus, etc...)
 		$this->rights_class = 'moceanapi';

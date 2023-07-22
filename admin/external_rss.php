@@ -207,7 +207,7 @@ print '</tr>';
 print '<tr class="pair">';
 print '<td>'.$langs->trans('RSSUrl').'</td>';
 print '<td><input type="text" class="flat minwidth300" name="external_rss_urlrss_'.($lastexternalrss + 1).'" value=""></td>';
-print '<td>http://news.google.com/news?ned=us&topic=h&output=rss<br>http://www.dolibarr.org/rss</td>';
+print '<td>http://news.google.com/news?ned=us&topic=h&output=rss<br>http://www.bespo.et/rss</td>';
 print '</tr>';
 print '</table>';
 

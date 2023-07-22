@@ -196,7 +196,7 @@ class Canvas
 
 
 	// This functions should not be used anymore because canvas should contains only templates.
-	// https://wiki.dolibarr.org/index.php/Canvas_development
+	// https://wiki.bespo.et/index.php/Canvas_development
 
 	/**
 	 * 	Return if a canvas contains an action controller
@@ -217,7 +217,7 @@ class Canvas
 	 * 	@param		string		$action	Action string
 	 * 	@param		int			$id			Object id
 	 * 	@return		mixed					Return return code of doActions of canvas
-	 * 	@see		https://wiki.dolibarr.org/index.php/Canvas_development
+	 * 	@see		https://wiki.bespo.et/index.php/Canvas_development
 	 */
 	public function doActions(&$action = 'view', $id = 0)
 	{

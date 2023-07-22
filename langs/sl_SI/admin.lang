@@ -318,7 +318,7 @@ CompanyEmail=E-pošta podjetja
 FeatureNotAvailableOnLinux=Funkcija ni na voljo pri Unix sistemih. Preverite program za pošiljanje pošte lokalno.
 FixOnTransifex=Popravite prevod na spletni platformi za prevajanje projekta
 SubmitTranslation=Če prevod za ta jezik ni popoln ali najdete napake, lahko to popravite tako, da uredite datoteke v imeniku <b> langs/%s </b> in pošljete svojo spremembo na www.transifex.com/dolibarr-association/dolibarr/
-SubmitTranslationENUS=Če prevod za ta jezik ni popoln ali najdete napake, lahko to popravite tako, da uredite datoteke v imenik <b> langs/%s </b> in pošljete spremenjene datoteke na dolibarr.org/forum ali, če ste razvijalec, s PR na github .com/Dolibarr/dolibarr
+SubmitTranslationENUS=Če prevod za ta jezik ni popoln ali najdete napake, lahko to popravite tako, da uredite datoteke v imenik <b> langs/%s </b> in pošljete spremenjene datoteke na bespo.et/forum ali, če ste razvijalec, s PR na github .com/Dolibarr/dolibarr
 ModuleSetup=Nastavitve modula
 ModulesSetup=Nastavitev modulov/aplikacij
 ModuleFamilyBase=Sistem
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=Seznam map, ki vsebujejo predloge v OpenDocument
 NumberOfModelFilesFound=Število datotek predlog ODT/ODS, najdenih v teh imenikih
 ExampleOfDirectoriesForModelGen=Primeri sintakse: <br> c:\\myapp\\mydocumentdir\\mysubdir <br> /home/myapp/mydocumentdir/mysubdir <br> DOL_DATA_ROOT/ecm/ecmdir
 FollowingSubstitutionKeysCanBeUsed=Z dodatkom takih oznak v predlogo, boste ob kreiranju dokumenta dobili personalizirane vrednosti:
-FullListOnOnlineDocumentation=http://wiki.dolibarr.org
+FullListOnOnlineDocumentation=http://wiki.bespo.et
 FirstnameNamePosition=Položaj imena/priimka
 DescWeather=Ko število zapoznelih dejanj doseže naslednje vrednosti, bodo na nadzorni plošči prikazane naslednje slike:
 KeyForWebServicesAccess=Ključi za uporabo Web storitev (parameter "dolibarrkey" v internetnih storitvah)
@@ -1654,7 +1654,7 @@ NotInstalled=Ni nameščeno.
 NotSlowedDownByThis=To ne upočasni.
 NotRiskOfLeakWithThis=Pri tem ni nevarnosti puščanja.
 ApplicativeCache=Aplikativni predpomnilnik
-MemcachedNotAvailable=Ni najden aplikativni predpomnilnik. Zmogljivost lahko izboljšate z namestitvijo predpomnilniškega strežnika Memcached in modula, ki zna uporabljati ta predpomnilniški strežnik.<br>Več informacij najdete tukaj <a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN">http://wiki.dolibarr.org/index.php/Module_MemCached_EN</a>.<br>Vedite, da veliko gostiteljev spletnih strani ne zagotavlja takega predpomnilniškega strežnika..
+MemcachedNotAvailable=Ni najden aplikativni predpomnilnik. Zmogljivost lahko izboljšate z namestitvijo predpomnilniškega strežnika Memcached in modula, ki zna uporabljati ta predpomnilniški strežnik.<br>Več informacij najdete tukaj <a href="http://wiki.bespo.et/index.php/Module_MemCached_EN">http://wiki.bespo.et/index.php/Module_MemCached_EN</a>.<br>Vedite, da veliko gostiteljev spletnih strani ne zagotavlja takega predpomnilniškega strežnika..
 MemcachedModuleAvailableButNotSetup=Najden je predpomnilniški modul za aplikativni predpomnilnik, vendar nastavitev modula ni zaključena.
 MemcachedAvailableAndSetup=Vklopljen je predpomnilniški modul za predpomnilniški strežnik.
 OPCodeCache=OPCode predpomnilnik
@@ -2019,8 +2019,8 @@ ByDefaultInList=Privzeto pokaži v pogledu seznama
 YouUseLastStableVersion=Uporabljate najnovejšo stabilno različico
 TitleExampleForMajorRelease=Primer sporočila, ki ga lahko uporabite za najavo te večje izdaje (lahko ga uporabite na svojih spletnih mestih)
 TitleExampleForMaintenanceRelease=Primer sporočila, ki ga lahko uporabite za objavo te vzdrževalne izdaje (lahko ga uporabite na svojih spletnih mestih)
-ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s je na voljo. Različica %s je glavna izdaja z veliko novimi funkcijami za uporabnike in razvijalce. Prenesete ga lahko iz območja za prenos na portalu https://www.dolibarr.org (podimenik Stabilne različice). Za celoten seznam sprememb lahko preberete <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a>.
-ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s je na voljo. Različica %s je vzdrževalna različica, zato vsebuje samo popravke napak. Vsem uporabnikom priporočamo nadgradnjo na to različico. Vzdrževalna izdaja ne uvaja novih funkcij ali sprememb baze podatkov. Prenesete ga lahko iz območja za prenos na portalu https://www.dolibarr.org (podimenik Stabilne različice). Za celoten seznam sprememb lahko preberete <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a>.
+ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s je na voljo. Različica %s je glavna izdaja z veliko novimi funkcijami za uporabnike in razvijalce. Prenesete ga lahko iz območja za prenos na portalu https://www.bespo.et (podimenik Stabilne različice). Za celoten seznam sprememb lahko preberete <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a>.
+ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s je na voljo. Različica %s je vzdrževalna različica, zato vsebuje samo popravke napak. Vsem uporabnikom priporočamo nadgradnjo na to različico. Vzdrževalna izdaja ne uvaja novih funkcij ali sprememb baze podatkov. Prenesete ga lahko iz območja za prenos na portalu https://www.bespo.et (podimenik Stabilne različice). Za celoten seznam sprememb lahko preberete <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a>.
 MultiPriceRuleDesc=Ko je omogočena možnost "Več ravni cen na izdelek/storitev", lahko za vsak izdelek določite različne cene (ena na cenovni nivo). Da bi vam prihranili čas, lahko tukaj vnesete pravilo za samodejni izračun cene za vsako raven na podlagi cene prve ravni, tako da boste morali za vsak izdelek vnesti samo ceno za prvo raven. Ta stran je zasnovana tako, da vam prihrani čas, vendar je uporabna le, če so vaše cene za vsako raven relativne glede na prvo raven. To stran lahko v večini primerov prezrete.
 ModelModulesProduct=Predloge za dokumente izdelkov
 WarehouseModelModules=Predloge za dokumente skladišč

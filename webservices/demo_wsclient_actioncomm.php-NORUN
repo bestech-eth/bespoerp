@@ -32,7 +32,7 @@ $WS_DOL_URL = DOL_MAIN_URL_ROOT.'/webservices/server_actioncomm.php';
 $WS_METHOD_GET  = 'getActionComm';
 $WS_METHOD_CREATE = 'createActionComm';
 $WS_METHOD_GET_C_LIST = 'getListActionCommType';
-$ns='http://www.dolibarr.org/ns/';
+$ns='http://www.bespo.et/ns/';
 
 //Chosse action to do
 //$action='get';

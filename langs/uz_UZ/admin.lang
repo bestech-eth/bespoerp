@@ -318,7 +318,7 @@ CompanyEmail=Kompaniyaning elektron pochtasi
 FeatureNotAvailableOnLinux=Xususiyat Unix tizimlarida mavjud emas. Sendmail dasturini mahalliy darajada sinab ko'ring.
 FixOnTransifex=Tarjimani loyihaning onlayn tarjima platformasida tuzating
 SubmitTranslation=Agar ushbu til uchun tarjima tugallanmagan bo'lsa yoki siz xatolarni topsangiz, buni <b> langs / %s </b> katalogidagi fayllarni tahrirlash orqali o'zgartirishingiz va o'zgartirishingizni www.transifex.com/dolibarr-association/dolibarr/ ga yuborishingiz mumkin.
-SubmitTranslationENUS=Agar ushbu til uchun tarjima tugallanmagan bo'lsa yoki xatolarni topsangiz, uni fayllarni <b> langs / %s </b> katalogiga tahrirlash va o'zgartirilgan fayllarni dolibarr.org/forum saytiga yuborish yoki agar ishlab chiquvchi bo'lsangiz, github-da PR bilan tuzatish orqali tuzatishingiz mumkin. .com / Dolibarr / dolibarr
+SubmitTranslationENUS=Agar ushbu til uchun tarjima tugallanmagan bo'lsa yoki xatolarni topsangiz, uni fayllarni <b> langs / %s </b> katalogiga tahrirlash va o'zgartirilgan fayllarni bespo.et/forum saytiga yuborish yoki agar ishlab chiquvchi bo'lsangiz, github-da PR bilan tuzatish orqali tuzatishingiz mumkin. .com / Dolibarr / dolibarr
 ModuleSetup=Modulni sozlash
 ModulesSetup=Modullar / dasturni sozlash
 ModuleFamilyBase=Tizim
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=OpenDocument formatidagi shablon fayllarini o'z 
 NumberOfModelFilesFound=Ushbu kataloglarda topilgan ODT / ODS shablon fayllari soni
 ExampleOfDirectoriesForModelGen=Sintaksis namunalari: <br> c: \\ myapp \\ mydocumentdir \\ mysubdir <br> / home / myapp / mydocumentdir / mysubdir <br> DOL_DATA_ROOT / ecm / ecmdir
 FollowingSubstitutionKeysCanBeUsed= <br> Odt hujjat shablonlarini qanday yaratishni bilish uchun ularni o'sha kataloglarda saqlashdan oldin wiki hujjatlarini o'qing:
-FullListOnOnlineDocumentation=http://wiki.dolibarr.org/index.php/Create_an_ODT_document_template
+FullListOnOnlineDocumentation=http://wiki.bespo.et/index.php/Create_an_ODT_document_template
 FirstnameNamePosition=Ism / familiyaning joylashuvi
 DescWeather=Kechiktirilgan harakatlar soni quyidagi qiymatlarga yetganda quyidagi rasmlar panelida ko'rsatiladi:
 KeyForWebServicesAccess=Veb-xizmatlardan foydalanish kaliti (veb-xizmatlarda "dolibarrkey" parametri)
@@ -1654,7 +1654,7 @@ NotInstalled=O'rnatilmagan
 NotSlowedDownByThis=Bu bilan sekinlashmadi.
 NotRiskOfLeakWithThis=Bu bilan sizib chiqish xavfi yo'q.
 ApplicativeCache=Amaliy kesh
-MemcachedNotAvailable=Amaliy kesh topilmadi. Siz Memcached kesh-serverini va ushbu kesh-serverdan foydalanishga qodir bo'lgan modulni o'rnatish orqali ish faoliyatini oshirishingiz mumkin. <br> Qo'shimcha ma'lumot bu erda <a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN"> http://wiki.dolibarr.org/index.php/Module_MemCached_EN </a>. <br> E'tibor bering, ko'plab veb-xosting provayderlari bunday kesh-serverni ta'minlamaydilar.
+MemcachedNotAvailable=Amaliy kesh topilmadi. Siz Memcached kesh-serverini va ushbu kesh-serverdan foydalanishga qodir bo'lgan modulni o'rnatish orqali ish faoliyatini oshirishingiz mumkin. <br> Qo'shimcha ma'lumot bu erda <a href="http://wiki.bespo.et/index.php/Module_MemCached_EN"> http://wiki.bespo.et/index.php/Module_MemCached_EN </a>. <br> E'tibor bering, ko'plab veb-xosting provayderlari bunday kesh-serverni ta'minlamaydilar.
 MemcachedModuleAvailableButNotSetup=Amaliy kesh uchun memcached moduli topildi, ammo modulni sozlash tugallanmagan.
 MemcachedAvailableAndSetup=Memcached serveridan foydalanishga bag'ishlangan memcached moduli yoqilgan.
 OPCodeCache=OPCode kesh
@@ -2019,8 +2019,8 @@ ByDefaultInList=Ro'yxat ko'rinishida sukut bo'yicha ko'rsatish
 YouUseLastStableVersion=Siz eng so'nggi barqaror versiyadan foydalanasiz
 TitleExampleForMajorRelease=Ushbu yirik nashrni e'lon qilish uchun foydalanishingiz mumkin bo'lgan xabarning namunasi (uni o'zingizning veb-saytingizda ishlating)
 TitleExampleForMaintenanceRelease=Xizmat namunasi, ushbu texnik xizmat ko'rsatilishini e'lon qilish uchun foydalanishingiz mumkin (uni veb-saytlaringizda ishlating)
-ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s mavjud. %s versiyasi foydalanuvchilar uchun ham, ishlab chiquvchilar uchun ham juda ko'p yangi xususiyatlarga ega bo'lgan katta versiyadir. Siz uni https://www.dolibarr.org portalining yuklab olish maydonidan yuklab olishingiz mumkin (katalogning barqaror versiyalari). O'zgarishlarning to'liq ro'yxati uchun <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> o'qishingiz mumkin.
-ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s mavjud. %s versiyasi parvarishlash versiyasidir, shuning uchun faqat xatolarni tuzatishni o'z ichiga oladi. Barcha foydalanuvchilarga ushbu versiyaga o'tishni tavsiya etamiz. Ta'minot versiyasi ma'lumotlar bazasiga yangi xususiyatlar yoki o'zgarishlar kiritmaydi. Siz uni https://www.dolibarr.org portalining yuklab olish joyidan yuklab olishingiz mumkin (katalogning barqaror versiyalari). O'zgarishlarning to'liq ro'yxati uchun <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> ni o'qishingiz mumkin.
+ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s mavjud. %s versiyasi foydalanuvchilar uchun ham, ishlab chiquvchilar uchun ham juda ko'p yangi xususiyatlarga ega bo'lgan katta versiyadir. Siz uni https://www.bespo.et portalining yuklab olish maydonidan yuklab olishingiz mumkin (katalogning barqaror versiyalari). O'zgarishlarning to'liq ro'yxati uchun <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> o'qishingiz mumkin.
+ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s mavjud. %s versiyasi parvarishlash versiyasidir, shuning uchun faqat xatolarni tuzatishni o'z ichiga oladi. Barcha foydalanuvchilarga ushbu versiyaga o'tishni tavsiya etamiz. Ta'minot versiyasi ma'lumotlar bazasiga yangi xususiyatlar yoki o'zgarishlar kiritmaydi. Siz uni https://www.bespo.et portalining yuklab olish joyidan yuklab olishingiz mumkin (katalogning barqaror versiyalari). O'zgarishlarning to'liq ro'yxati uchun <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> ni o'qishingiz mumkin.
 MultiPriceRuleDesc="Mahsulot / xizmat uchun narxlarning bir necha darajalari" opsiyasi yoqilganda, har bir mahsulot uchun har xil narxlarni (narx darajasiga bitta) belgilashingiz mumkin. Vaqtingizni tejash uchun bu erda siz har bir darajadagi narxni birinchi darajadagi narxga qarab avtokalkulyatsiya qilish qoidasini kiritishingiz mumkin, shuning uchun har bir mahsulot uchun faqat birinchi darajadagi narxni kiritishingiz kerak bo'ladi. Ushbu sahifa sizning vaqtingizni tejashga mo'ljallangan, ammo har bir darajadagi narxlaringiz birinchi darajaga nisbatan foydali bo'lgan taqdirdagina foydali bo'ladi. Ko'p hollarda ushbu sahifani e'tiborsiz qoldirishingiz mumkin.
 ModelModulesProduct=Mahsulot hujjatlari uchun shablonlar
 WarehouseModelModules=Omborlar hujjatlari uchun shablonlar

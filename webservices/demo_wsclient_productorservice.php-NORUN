@@ -31,7 +31,7 @@ $WS_DOL_URL = DOL_MAIN_URL_ROOT.'/webservices/server_productorservice.php';
 $WS_METHOD1 = 'createProductOrService';
 $WS_METHOD2 = 'getProductOrService';
 $WS_METHOD3 = 'getListOfProductsOrServices';
-$ns='http://www.dolibarr.org/ns/';
+$ns='http://www.bespo.et/ns/';
 
 
 // Set the WebService URL

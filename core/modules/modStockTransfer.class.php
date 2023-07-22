@@ -46,7 +46,7 @@ class modStockTransfer extends DolibarrModules
 		$langs->load('stocks');
 		// Id for module (must be unique).
 		// Use here a free id (See in Home -> System information -> Dolibarr for list of used modules id).
-		$this->numero = 701; // TODO Go on page https://wiki.dolibarr.org/index.php/List_of_modules_id to reserve an id number for your module
+		$this->numero = 701; // TODO Go on page https://wiki.bespo.et/index.php/List_of_modules_id to reserve an id number for your module
 		// Key text used to identify module (for permissions, menus, etc...)
 		$this->rights_class = 'stocktransfer';
 		// Family can be 'base' (core modules),'crm','financial','hr','projects','products','ecm','technic' (transverse modules),'interface' (link with external tools),'other','...'

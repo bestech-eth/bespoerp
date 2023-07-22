@@ -33,7 +33,7 @@ $WS_METHOD_GETTHIRDSPARTY  = 'getThirdParty';
 $WS_METHOD_CREATETHIRDSPARTY = 'createThirdParty';
 $WS_METHOD_UPDATETHIRDSPARTY = 'updateThirdParty';
 $WS_METHOD_GETTHIRDSPARTYLIST = 'getListOfThirdParties';
-$ns='http://www.dolibarr.org/ns/';
+$ns='http://www.bespo.et/ns/';
 
 //Chosse action to do
 //$action='get';

@@ -18,4 +18,4 @@ ModuleZapierForDolibarrDesc = Zapier za modul Dolibarr
 ZapierForDolibarrSetup=Nastavitev Zapierja za Dolibarr
 ZapierDescription=Vmesnik z Zapierjem
 ZapierAbout=O modulu Zapier
-ZapierSetupPage=Za uporabo Zapierja na strani Dolibarr ni potrebna nastavitev. Vendar pa morate ustvariti in objaviti paket na zapierju, da lahko uporabljate Zapier z Dolibarrom. Oglejte si dokumentacijo na <a href="https://wiki.dolibarr.org/index.php/Module_Zapier"> tej strani wiki </a>.
+ZapierSetupPage=Za uporabo Zapierja na strani Dolibarr ni potrebna nastavitev. Vendar pa morate ustvariti in objaviti paket na zapierju, da lahko uporabljate Zapier z Dolibarrom. Oglejte si dokumentacijo na <a href="https://wiki.bespo.et/index.php/Module_Zapier"> tej strani wiki </a>.

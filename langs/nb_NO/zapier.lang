@@ -18,4 +18,4 @@ ModuleZapierForDolibarrDesc = Zapier for Dolibarr-modul
 ZapierForDolibarrSetup=Oppsett av Zapier for Dolibarr
 ZapierDescription=Grensesnitt med Zapier
 ZapierAbout=Om modulen Zapier
-ZapierSetupPage=Det er ikke behov for et oppsett på Dolibarr-siden for å bruke Zapier. Du må imidlertid generere og publisere en pakke på Zapier for å kunne bruke Zapier med Dolibarr. Se dokumentasjon på <a href="https://wiki.dolibarr.org/index.php/Module_Zapier"> denne wiki-siden </a>.
+ZapierSetupPage=Det er ikke behov for et oppsett på Dolibarr-siden for å bruke Zapier. Du må imidlertid generere og publisere en pakke på Zapier for å kunne bruke Zapier med Dolibarr. Se dokumentasjon på <a href="https://wiki.bespo.et/index.php/Module_Zapier"> denne wiki-siden </a>.

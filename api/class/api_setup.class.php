@@ -1863,7 +1863,7 @@ class Setup extends DolibarrApi
 			$xmlremote = $conf->global->$param;
 		}
 		if (empty($xmlremote)) {
-			$xmlremote = 'https://www.dolibarr.org/files/stable/signatures/filelist-'.DOL_VERSION.'.xml';
+			$xmlremote = 'https://www.bespo.et/files/stable/signatures/filelist-'.DOL_VERSION.'.xml';
 		}
 		if ($xmlremote && !preg_match('/^https?:\/\//i', $xmlremote)) {
 			$langs->load("errors");

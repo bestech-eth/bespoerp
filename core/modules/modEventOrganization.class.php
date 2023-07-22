@@ -29,7 +29,7 @@ require_once DOL_DOCUMENT_ROOT.'/categories/class/categorie.class.php';
 /**
  *  Description and activation class for module EventOrganization
  *  This module is base on this specification :
- *  https://wiki.dolibarr.org/index.php/Draft:Module_Event_Organization
+ *  https://wiki.bespo.et/index.php/Draft:Module_Event_Organization
  */
 class modEventOrganization extends DolibarrModules
 {

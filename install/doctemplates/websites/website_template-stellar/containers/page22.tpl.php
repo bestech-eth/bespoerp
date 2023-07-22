@@ -18,7 +18,7 @@ ob_start();
 <meta name="keywords" content="My generic page" />
 <meta name="title" content="Generic page" />
 <meta name="description" content="Generic page or my personal Blog" />
-<meta name="generator" content="Dolibarr 14.0.0-alpha (https://www.dolibarr.org)" />
+<meta name="generator" content="Dolibarr 14.0.0-alpha (https://www.bespo.et)" />
 <meta name="dolibarr:pageid" content="22" />
 <?php if ($website->use_manifest) { print '<link rel="manifest" href="/manifest.json.php" />'."\n"; } ?>
 <!-- Include link to CSS file -->

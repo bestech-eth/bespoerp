@@ -318,7 +318,7 @@ CompanyEmail=البريد الإلكتروني للشركة
 FeatureNotAvailableOnLinux=ميزة لا تتوفر على مثل أنظمة يونكس. sendmail برنامج الاختبار الخاص بك محليا.
 FixOnTransifex=إصلاح الترجمة على منصة الترجمة عبر الإنترنت للمشروع
 SubmitTranslation=إذا لم تكتمل الترجمة لهذه اللغة أو وجدت أخطاءً ، فيمكنك تصحيح ذلك عن طريق تحرير الملفات في الدليل <b> langs / %s </b> وإرسال التغيير إلى www.transifex.com/dolibarr-association/dolibarr/
-SubmitTranslationENUS=إذا لم تكتمل الترجمة لهذه اللغة أو وجدت أخطاء ، فيمكنك تصحيح ذلك عن طريق تحرير الملفات في الدليل <b> langs / %s </b> وإرسال الملفات المعدلة على dolibarr.org/forum أو ، إذا كنت مطورًا ، باستخدام العلاقات العامة على github .com / Dolibarr / dolibarr
+SubmitTranslationENUS=إذا لم تكتمل الترجمة لهذه اللغة أو وجدت أخطاء ، فيمكنك تصحيح ذلك عن طريق تحرير الملفات في الدليل <b> langs / %s </b> وإرسال الملفات المعدلة على bespo.et/forum أو ، إذا كنت مطورًا ، باستخدام العلاقات العامة على github .com / Dolibarr / dolibarr
 ModuleSetup=إعداد وحدة
 ModulesSetup=الوحدات النمطية / إعداد التطبيق
 ModuleFamilyBase=نظام
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=قائمة الدلائل التي تحتوي ع
 NumberOfModelFilesFound=عدد ملفات قوالب ODT / ODS الموجودة في هذه الدلائل
 ExampleOfDirectoriesForModelGen=أمثلة على بناء الجملة: <br> c: \\ myapp \\ mydocumentdir \\ mysubdir <br> / home / myapp / mydocumentdir / mysubdir <br> DOL_DATA_ROOT / ecm / ecmdir
 FollowingSubstitutionKeysCanBeUsed=<br> لمعرفة كيفية إنشاء قوالب المستند ODT، قبل تخزينها في تلك الدلائل، وقراءة وثائق ويكي:
-FullListOnOnlineDocumentation=http://wiki.dolibarr.org/index.php/Create_an_ODT_document_template
+FullListOnOnlineDocumentation=http://wiki.bespo.et/index.php/Create_an_ODT_document_template
 FirstnameNamePosition=موقف الإسم / اسم
 DescWeather=الصور التالية سيتم عرضها على لوحة المعلومات عندما يصل عدد الاجرائات المتأخرة للقيم التالية:
 KeyForWebServicesAccess=مفتاح لاستخدام خدمات الشبكة العالمية (المعلمة &quot;dolibarrkey&quot; في webservices)
@@ -1654,7 +1654,7 @@ NotInstalled=غير مثبت.
 NotSlowedDownByThis=لا تبطئ من قبل هذا.
 NotRiskOfLeakWithThis=لا يوجد خطر تسرب مع هذا.
 ApplicativeCache=مخبأ تطبيقي
-MemcachedNotAvailable=لم يتم العثور على مخبأ تطبيقي. يمكنك تحسين الأداء عن طريق تثبيت أعطها مخبأ خادم وحدة قادرة على استخدام هذا الخادم ذاكرة التخزين المؤقت. <br> مزيد من المعلومات هنا <a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN">http://wiki.dolibarr.org/index.php/Module_MemCached_EN.</a> <br> لاحظ أن الكثير من مزود استضافة المواقع لا توفر مثل هذا الخادم ذاكرة التخزين المؤقت.
+MemcachedNotAvailable=لم يتم العثور على مخبأ تطبيقي. يمكنك تحسين الأداء عن طريق تثبيت أعطها مخبأ خادم وحدة قادرة على استخدام هذا الخادم ذاكرة التخزين المؤقت. <br> مزيد من المعلومات هنا <a href="http://wiki.bespo.et/index.php/Module_MemCached_EN">http://wiki.bespo.et/index.php/Module_MemCached_EN.</a> <br> لاحظ أن الكثير من مزود استضافة المواقع لا توفر مثل هذا الخادم ذاكرة التخزين المؤقت.
 MemcachedModuleAvailableButNotSetup=وحدة أعطها لمخبأ تطبيقي وجدت ولكن الإعداد من وحدة ليست كاملة.
 MemcachedAvailableAndSetup=يتم تمكين أعطها حدة مخصصة لاستخدام الخادم أعطها.
 OPCodeCache=مخبأ شفرة التشغيل
@@ -2019,8 +2019,8 @@ ByDefaultInList=تظهر بشكل افتراضي على عرض القائمة
 YouUseLastStableVersion=أنت تستخدم أحدث إصدار ثابت
 TitleExampleForMajorRelease=مثال على رسالة يمكنك استخدامها ليعلن هذا الإصدار الرئيسي (لا تتردد في استخدامها على مواقع الويب الخاص بك)
 TitleExampleForMaintenanceRelease=مثال على الرسالة التي يمكن استخدامها ليعلن هذا البيان الصيانة (لا تتردد في استخدامها على مواقع الويب الخاص بك)
-ExampleOfNewsMessageForMajorRelease=يتوفر Dolibarr ERP & CRM %s. يعد الإصدار %s إصدارًا رئيسيًا يحتوي على الكثير من الميزات الجديدة لكل من المستخدمين والمطورين. يمكنك تنزيله من منطقة التنزيل في بوابة https://www.dolibarr.org (إصدارات الدليل الفرعي المستقرة). يمكنك قراءة <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> سجل التغيير </a> للحصول على قائمة كاملة بالتغييرات.
-ExampleOfNewsMessageForMaintenanceRelease=يتوفر Dolibarr ERP & CRM %s. الإصدار %s هو إصدار صيانة ، لذلك يحتوي فقط على إصلاحات الأخطاء. نوصي جميع المستخدمين بالترقية إلى هذا الإصدار. لا يقدم إصدار الصيانة ميزات جديدة أو تغييرات في قاعدة البيانات. يمكنك تنزيله من منطقة التنزيل في بوابة https://www.dolibarr.org (إصدارات الدليل الفرعي المستقرة). يمكنك قراءة سجل التغيير <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> </a> للحصول على قائمة كاملة بالتغييرات.
+ExampleOfNewsMessageForMajorRelease=يتوفر Dolibarr ERP & CRM %s. يعد الإصدار %s إصدارًا رئيسيًا يحتوي على الكثير من الميزات الجديدة لكل من المستخدمين والمطورين. يمكنك تنزيله من منطقة التنزيل في بوابة https://www.bespo.et (إصدارات الدليل الفرعي المستقرة). يمكنك قراءة <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> سجل التغيير </a> للحصول على قائمة كاملة بالتغييرات.
+ExampleOfNewsMessageForMaintenanceRelease=يتوفر Dolibarr ERP & CRM %s. الإصدار %s هو إصدار صيانة ، لذلك يحتوي فقط على إصلاحات الأخطاء. نوصي جميع المستخدمين بالترقية إلى هذا الإصدار. لا يقدم إصدار الصيانة ميزات جديدة أو تغييرات في قاعدة البيانات. يمكنك تنزيله من منطقة التنزيل في بوابة https://www.bespo.et (إصدارات الدليل الفرعي المستقرة). يمكنك قراءة سجل التغيير <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> </a> للحصول على قائمة كاملة بالتغييرات.
 MultiPriceRuleDesc=عند تمكين الخيار "عدة مستويات من الأسعار لكل منتج / خدمة" ، يمكنك تحديد أسعار مختلفة (مستوى لكل مستوى سعر) لكل منتج. لتوفير الوقت ، يمكنك هنا إدخال قاعدة لحساب سعر كل مستوى تلقائيًا بناءً على سعر المستوى الأول ، لذلك سيتعين عليك فقط إدخال سعر للمستوى الأول لكل منتج. تم تصميم هذه الصفحة لتوفير الوقت ولكنها مفيدة فقط إذا كانت أسعارك لكل مستوى متعلقة بالمستوى الأول. يمكنك تجاهل هذه الصفحة في معظم الحالات.
 ModelModulesProduct=قوالب لوثائق المنتج
 WarehouseModelModules=نماذج لوثائق المستودعات

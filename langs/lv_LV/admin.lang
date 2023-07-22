@@ -318,7 +318,7 @@ CompanyEmail=Uzņēmuma e-pasts
 FeatureNotAvailableOnLinux=Funkcija nav pieejams Unix tipa sistēmās. Pārbaudi savu sendmail programmu lokāli.
 FixOnTransifex=Fiksējiet tulkojumu projekta tiešsaistes tulkošanas platformā
 SubmitTranslation=Ja šīs valodas tulkojums nav pilnīgs vai Jūs atradīsiet kļūdas, varat to labot, rediģējot failus direktorijā <b>langs/%s</b> un iesniedzot izmaiņas vietnē www.transifex.com/dolibarr-association/dolibarr/
-SubmitTranslationENUS=Ja šīs valodas tulkojums nav pabeigts vai atrodat kļūdas, labojiet to, rediģējot failus direktorijā <b> langs / %s </b> un iesniedziet modificētus failus vietnē dolibarr.org/forum vai, ja esat izstrādātājs, ar PR vietni github. .com / Dolibarr / dolibarr
+SubmitTranslationENUS=Ja šīs valodas tulkojums nav pabeigts vai atrodat kļūdas, labojiet to, rediģējot failus direktorijā <b> langs / %s </b> un iesniedziet modificētus failus vietnē bespo.et/forum vai, ja esat izstrādātājs, ar PR vietni github. .com / Dolibarr / dolibarr
 ModuleSetup=Moduļa iestatīšana
 ModulesSetup=Moduļu/Aplikāciju iestatīšana
 ModuleFamilyBase=Sistēma
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=Saraksts ar direktorijām, kurās ir veidnes fai
 NumberOfModelFilesFound=ODT / ODS veidņu failu skaits, kas atrodams šajos katalogos
 ExampleOfDirectoriesForModelGen=Sintakses piemēri: <br> c: \\ myapp \\ mydocumentdir \\ mysubdir <br> / home / myapp / mydocumentdir / mysubdir <br> DOL_DATA_ROOT / ecm / ecmdir
 FollowingSubstitutionKeysCanBeUsed=<br> Lai uzzinātu, kā izveidot odt dokumentu veidnes, pirms saglabājot tos šajās mapēs, lasīt wiki dokumentāciju:
-FullListOnOnlineDocumentation=http://wiki.dolibarr.org/index.php/Create_an_ODT_document_template
+FullListOnOnlineDocumentation=http://wiki.bespo.et/index.php/Create_an_ODT_document_template
 FirstnameNamePosition=Vārda/Uzvārda atrašanās vieta
 DescWeather=Turpmāk redzamie attēli tiks parādīti panelī, kad kavēto darbību skaits sasniegs šādas vērtības:
 KeyForWebServicesAccess=Galvenais, lai izmantotu Web Services (parametrs "dolibarrkey", kas veikalu)
@@ -1654,7 +1654,7 @@ NotInstalled=Nav instalēts.
 NotSlowedDownByThis=Tas nav palēnināts.
 NotRiskOfLeakWithThis=Ar to nav noplūdes riska.
 ApplicativeCache=Piemērojamā kešatmiņa
-MemcachedNotAvailable=No applicative cache found. You can enhance performance by installing a cache server Memcached and a module able to use this cache server.<br>More information here <a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN">http://wiki.dolibarr.org/index.php/Module_MemCached_EN</a>.<br>Note that a lot of web hosting provider does not provide such cache server.
+MemcachedNotAvailable=No applicative cache found. You can enhance performance by installing a cache server Memcached and a module able to use this cache server.<br>More information here <a href="http://wiki.bespo.et/index.php/Module_MemCached_EN">http://wiki.bespo.et/index.php/Module_MemCached_EN</a>.<br>Note that a lot of web hosting provider does not provide such cache server.
 MemcachedModuleAvailableButNotSetup=Module memcached for applicative cache found but setup of module is not complete.
 MemcachedAvailableAndSetup=Module memcached dedicated to use memcached server is enabled.
 OPCodeCache=Opcode cache
@@ -2019,8 +2019,8 @@ ByDefaultInList=Rādīt pēc noklusējuma saraksta skatā
 YouUseLastStableVersion=Jūs izmantojat pēdējo stabilo versiju
 TitleExampleForMajorRelease=Example of message you can use to announce this major release (feel free to use it on your web sites)
 TitleExampleForMaintenanceRelease=Example of message you can use to announce this maintenance release (feel free to use it on your web sites)
-ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s ir pieejams. Versija %s ir liela versija ar daudzām jaunām funkcijām gan lietotājiem, gan izstrādātājiem. Jūs varat to lejupielādēt no https://www.dolibarr.org portāla lejupielādes apgabala (apakšdirektorijā Stable versijas). Lai iegūtu pilnīgu izmaiņu sarakstu, varat izlasīt <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a>.
-ExampleOfNewsMessageForMaintenanceRelease=Ir pieejams Dolibarr ERP & CRM %s. Versija %s ir apkopes versija, tāpēc tajā ir tikai kļūdu labojumi. Mēs iesakām visiem lietotājiem jaunināt uz šo versiju. Tehniskās apkopes izdevums neievieš jaunas funkcijas vai izmaiņas datubāzē. To var lejupielādēt no https://www.dolibarr.org portāla lejupielādes apgabala (apakšdirektorija Stabilas versijas). Lai iegūtu pilnīgu izmaiņu sarakstu, varat izlasīt <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a>.
+ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s ir pieejams. Versija %s ir liela versija ar daudzām jaunām funkcijām gan lietotājiem, gan izstrādātājiem. Jūs varat to lejupielādēt no https://www.bespo.et portāla lejupielādes apgabala (apakšdirektorijā Stable versijas). Lai iegūtu pilnīgu izmaiņu sarakstu, varat izlasīt <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a>.
+ExampleOfNewsMessageForMaintenanceRelease=Ir pieejams Dolibarr ERP & CRM %s. Versija %s ir apkopes versija, tāpēc tajā ir tikai kļūdu labojumi. Mēs iesakām visiem lietotājiem jaunināt uz šo versiju. Tehniskās apkopes izdevums neievieš jaunas funkcijas vai izmaiņas datubāzē. To var lejupielādēt no https://www.bespo.et portāla lejupielādes apgabala (apakšdirektorija Stabilas versijas). Lai iegūtu pilnīgu izmaiņu sarakstu, varat izlasīt <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a>.
 MultiPriceRuleDesc=Ja ir iespējota opcija "Vairāki cenu līmeņi uz produktu / pakalpojumu", katram produktam varat noteikt dažādas cenas (vienu cenu līmenī). Lai ietaupītu laiku, šeit jūs varat ievadīt noteikumu, lai automātiski aprēķinātu cenu katram līmenim, pamatojoties uz pirmā līmeņa cenu, tāpēc katram produktam būs jāievada tikai pirmā līmeņa cena. Šī lapa ir izstrādāta, lai ietaupītu jūsu laiku, taču tā ir noderīga tikai tad, ja jūsu cenas katram līmenim ir saistītas ar pirmo līmeni. Vairumā gadījumu šo lapu varat ignorēt.
 ModelModulesProduct=Veidlapas produktu dokumentos
 WarehouseModelModules=Noliktavu dokumentu paraugi

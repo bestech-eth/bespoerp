@@ -318,7 +318,7 @@ CompanyEmail=E-pošta tvrtke
 FeatureNotAvailableOnLinux=Mogućnost nije dostupna na UNIX-u. Testirajte sendmail program lokalno.
 FixOnTransifex=Popravite prijevod na platformi za online prevođenje projekta
 SubmitTranslation=Ako prijevod za ovaj jezik nije potpun ili nađete pogreške, možete to ispraviti tako da uređujete datoteke u direktoriju <b> langs/%s </b> i pošaljete svoju izmjenu na www.transifex.com/dolibarr-association/dolibarr/
-SubmitTranslationENUS=Ako prijevod za ovaj jezik nije potpun ili pronađete pogreške, možete to ispraviti tako da uređujete datoteke u direktorij <b> langs/%s </b> i pošaljete izmijenjene datoteke na dolibarr.org/forum ili, ako ste programer postavite pull request na github.com/Dolibarr/dolibarr
+SubmitTranslationENUS=Ako prijevod za ovaj jezik nije potpun ili pronađete pogreške, možete to ispraviti tako da uređujete datoteke u direktorij <b> langs/%s </b> i pošaljete izmijenjene datoteke na bespo.et/forum ili, ako ste programer postavite pull request na github.com/Dolibarr/dolibarr
 ModuleSetup=Podešavanje modula
 ModulesSetup=Podešavanje modula/aplikacija
 ModuleFamilyBase=Sistem
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=List of directories containing templates files w
 NumberOfModelFilesFound=Broj ODT/ODS datoteka predložaka pronađenih u ovim direktorijima
 ExampleOfDirectoriesForModelGen=Primjeri sintakse: <br> c:\\myapp\\mydocumentdir\\mysubdir <br> /home/myapp/mydocumentdir/mysubdir <br> DOL_DATA_ROOT/ecm/ecmdir
 FollowingSubstitutionKeysCanBeUsed=<br>Da bi ste saznali kako kreirati ODT predloške dokumenata, prije pohranjivanja istih u navedene mape, pročitajte wiki dokumentaciju na:
-FullListOnOnlineDocumentation=http://wiki.dolibarr.org/index.php/Create_an_ODT_document_template
+FullListOnOnlineDocumentation=http://wiki.bespo.et/index.php/Create_an_ODT_document_template
 FirstnameNamePosition=Pozicija Imena/Prezimena
 DescWeather=Sljedeće slike će se prikazati na nadzornoj ploči kada broj kasnih radnji dosegne sljedeće vrijednosti:
 KeyForWebServicesAccess=Ključ za korištenje web servisa (parametar "dolibarrkey" u web servisima)
@@ -1654,7 +1654,7 @@ NotInstalled=Nije instalirano.
 NotSlowedDownByThis=Nije usporen ovim.
 NotRiskOfLeakWithThis=S ovim nema opasnosti od curenja.
 ApplicativeCache=Applicative cache
-MemcachedNotAvailable=No applicative cache found. You can enhance performance by installing a cache server Memcached and a module able to use this cache server.<br>More information here <a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN">http://wiki.dolibarr.org/index.php/Module_MemCached_EN</a>.<br>Note that a lot of web hosting provider does not provide such cache server.
+MemcachedNotAvailable=No applicative cache found. You can enhance performance by installing a cache server Memcached and a module able to use this cache server.<br>More information here <a href="http://wiki.bespo.et/index.php/Module_MemCached_EN">http://wiki.bespo.et/index.php/Module_MemCached_EN</a>.<br>Note that a lot of web hosting provider does not provide such cache server.
 MemcachedModuleAvailableButNotSetup=Module memcached for applicative cache found but setup of module is not complete.
 MemcachedAvailableAndSetup=Module memcached dedicated to use memcached server is enabled.
 OPCodeCache=OPCode cache
@@ -2019,8 +2019,8 @@ ByDefaultInList=Prikaži kao zadano na popisu
 YouUseLastStableVersion=Koristite najnoviju stabilnu verziju
 TitleExampleForMajorRelease=Example of message you can use to announce this major release (feel free to use it on your web sites)
 TitleExampleForMaintenanceRelease=Example of message you can use to announce this maintenance release (feel free to use it on your web sites)
-ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s is available. Version %s is a major release with a lot of new features for both users and developers. You can download it from the download area of https://www.dolibarr.org portal (subdirectory Stable versions). You can read <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> for complete list of changes.
-ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s is available. Version %s is a maintenance version, so contains only bug fixes. We recommend all users to upgrade to this version. A maintenance release does not introduce new features or changes to the database. You may download it from the download area of https://www.dolibarr.org portal (subdirectory Stable versions). You can read the <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> for complete list of changes.
+ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s is available. Version %s is a major release with a lot of new features for both users and developers. You can download it from the download area of https://www.bespo.et portal (subdirectory Stable versions). You can read <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> for complete list of changes.
+ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s is available. Version %s is a maintenance version, so contains only bug fixes. We recommend all users to upgrade to this version. A maintenance release does not introduce new features or changes to the database. You may download it from the download area of https://www.bespo.et portal (subdirectory Stable versions). You can read the <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> for complete list of changes.
 MultiPriceRuleDesc=When option "Several levels of prices per product/service" is enabled, you can define different prices (one per price level) for each product. To save you time, here you may enter a rule to autocalculate a price for each level based on the price of the first level, so you will have to only enter a price for the first level for each product. This page is designed to save you time but is useful only if your prices for each level are relative to first level. You can ignore this page in most cases.
 ModelModulesProduct=Predlošci za dokumente proizvoda
 WarehouseModelModules=Predlošci za dokumente skladišta

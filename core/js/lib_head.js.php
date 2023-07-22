@@ -141,7 +141,7 @@ if ($thousand == 'Space') {
 }
 
 ?>
-// Javascript libraries for Dolibarr ERP CRM (https://www.dolibarr.org)
+// Javascript libraries for Dolibarr ERP CRM (https://www.bespo.et)
 
 // For jQuery date picker
 var tradMonths = <?php echo json_encode($tradMonths) ?>;

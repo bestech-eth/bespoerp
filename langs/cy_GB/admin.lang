@@ -318,7 +318,7 @@ CompanyEmail=E-bost y Cwmni
 FeatureNotAvailableOnLinux=Nid yw'r nodwedd ar gael ar systemau tebyg i Unix. Profwch eich rhaglen sendmail yn lleol.
 FixOnTransifex=Trwsiwch y cyfieithiad ar lwyfan cyfieithu ar-lein y prosiect
 SubmitTranslation=Os nad yw'r cyfieithiad ar gyfer yr iaith hon yn gyflawn neu os byddwch yn dod o hyd i wallau, gallwch gywiro hyn trwy olygu ffeiliau yn y cyfeiriadur <b> langs/%s </b> a chyflwyno'ch newid i www.transifex.com/dolibarr-association/dolibarrciation
-SubmitTranslationENUS=Os nad yw'r cyfieithiad ar gyfer yr iaith hon yn gyflawn neu os byddwch yn dod o hyd i wallau, gallwch gywiro hyn trwy olygu ffeiliau i gyfeiriadur <b> langs/%s </b> a chyflwyno ffeiliau wedi'u haddasu ar dolibarr.org/forum neu, os ydych yn ddatblygwr PR, gyda github .com/Dolibarr/dolibarr
+SubmitTranslationENUS=Os nad yw'r cyfieithiad ar gyfer yr iaith hon yn gyflawn neu os byddwch yn dod o hyd i wallau, gallwch gywiro hyn trwy olygu ffeiliau i gyfeiriadur <b> langs/%s </b> a chyflwyno ffeiliau wedi'u haddasu ar bespo.et/forum neu, os ydych yn ddatblygwr PR, gyda github .com/Dolibarr/dolibarr
 ModuleSetup=Gosod modiwl
 ModulesSetup=Modiwlau/Gosod Cymhwysiad
 ModuleFamilyBase=System
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=Rhestr o gyfeiriaduron yn cynnwys ffeiliau templ
 NumberOfModelFilesFound=Nifer y ffeiliau templed ODT/ODS a geir yn y cyfeiriaduron hyn
 ExampleOfDirectoriesForModelGen=Enghreifftiau o gystrawen: <br> c:\\myapp\\mydocumentdir\\mysubdir <br> /home/myapp/mydocumentdir/mysubdir <br> DOL_DATA_ROOT/ecm/ecmdir
 FollowingSubstitutionKeysCanBeUsed= <br> I wybod sut i greu eich templedi dogfen odt, cyn eu storio yn y cyfeiriaduron hynny, darllenwch ddogfennaeth wiki:
-FullListOnOnlineDocumentation=http://wiki.dolibarr.org/index.php/Create_an_ODT_document_template
+FullListOnOnlineDocumentation=http://wiki.bespo.et/index.php/Create_an_ODT_document_template
 FirstnameNamePosition=Safle Enw/Cyfenw
 DescWeather=Bydd y delweddau canlynol yn cael eu dangos ar y dangosfwrdd pan fydd nifer y gweithredoedd hwyr yn cyrraedd y gwerthoedd canlynol:
 KeyForWebServicesAccess=Allwedd i ddefnyddio Gwasanaethau Gwe (paramedr "dolibarrkey" mewn gwasanaethau gwe)
@@ -1654,7 +1654,7 @@ NotInstalled=Heb ei osod.
 NotSlowedDownByThis=Heb ei arafu gan hyn.
 NotRiskOfLeakWithThis=Dim risg o ollyngiad gyda hyn.
 ApplicativeCache=celc cymhwysiadol
-MemcachedNotAvailable=Ni chanfuwyd celc cymhwysiadol. Gallwch wella perfformiad trwy osod gweinydd cache Memcached a modiwl sy'n gallu defnyddio'r gweinydd cache hwn. <br> Mwy o wybodaeth yma <a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN"> http://wiki.dolibarr.org/index.php/Module_MemCached_CY </a> . <br> Sylwch nad yw llawer o ddarparwr gwe-letya yn darparu gweinydd storfa o'r fath.
+MemcachedNotAvailable=Ni chanfuwyd celc cymhwysiadol. Gallwch wella perfformiad trwy osod gweinydd cache Memcached a modiwl sy'n gallu defnyddio'r gweinydd cache hwn. <br> Mwy o wybodaeth yma <a href="http://wiki.bespo.et/index.php/Module_MemCached_EN"> http://wiki.bespo.et/index.php/Module_MemCached_CY </a> . <br> Sylwch nad yw llawer o ddarparwr gwe-letya yn darparu gweinydd storfa o'r fath.
 MemcachedModuleAvailableButNotSetup=Modiwl memcached ar gyfer celc cymhwysol wedi'i ganfod ond nid yw gosod y modiwl wedi'i gwblhau.
 MemcachedAvailableAndSetup=Mae modiwl memcached pwrpasol i ddefnyddio gweinydd memcached wedi'i alluogi.
 OPCodeCache=storfa OPCode
@@ -2019,8 +2019,8 @@ ByDefaultInList=Dangos yn ddiofyn ar olwg rhestr
 YouUseLastStableVersion=Rydych chi'n defnyddio'r fersiwn sefydlog ddiweddaraf
 TitleExampleForMajorRelease=Enghraifft o neges y gallwch ei defnyddio i gyhoeddi'r datganiad mawr hwn (mae croeso i chi ei ddefnyddio ar eich gwefannau)
 TitleExampleForMaintenanceRelease=Enghraifft o neges y gallwch ei defnyddio i gyhoeddi'r datganiad cynnal a chadw hwn (mae croeso i chi ei ddefnyddio ar eich gwefannau)
-ExampleOfNewsMessageForMajorRelease=Mae Dolibarr ERP & CRM %s ar gael. Mae fersiwn %s yn ddatganiad mawr gyda llawer o nodweddion newydd i ddefnyddwyr a datblygwyr. Gallwch ei lawrlwytho o ardal lawrlwytho porth https://www.dolibarr.org (fersiynau sefydlog yr is-gyfeiriadur). Gallwch ddarllen <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> i gael rhestr gyflawn o newidiadau.
-ExampleOfNewsMessageForMaintenanceRelease=Mae Dolibarr ERP & CRM %s ar gael. Mae fersiwn %s yn fersiwn cynnal a chadw, felly mae'n cynnwys dim ond atgyweiriadau nam. Rydym yn argymell bod pob defnyddiwr yn uwchraddio i'r fersiwn hon. Nid yw datganiad cynnal a chadw yn cyflwyno nodweddion newydd na newidiadau i'r gronfa ddata. Gallwch ei lawrlwytho o ardal lawrlwytho porth https://www.dolibarr.org (fersiynau Sefydlog yr is-gyfeiriadur). Gallwch ddarllen yr <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> i gael rhestr gyflawn o newidiadau.
+ExampleOfNewsMessageForMajorRelease=Mae Dolibarr ERP & CRM %s ar gael. Mae fersiwn %s yn ddatganiad mawr gyda llawer o nodweddion newydd i ddefnyddwyr a datblygwyr. Gallwch ei lawrlwytho o ardal lawrlwytho porth https://www.bespo.et (fersiynau sefydlog yr is-gyfeiriadur). Gallwch ddarllen <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> i gael rhestr gyflawn o newidiadau.
+ExampleOfNewsMessageForMaintenanceRelease=Mae Dolibarr ERP & CRM %s ar gael. Mae fersiwn %s yn fersiwn cynnal a chadw, felly mae'n cynnwys dim ond atgyweiriadau nam. Rydym yn argymell bod pob defnyddiwr yn uwchraddio i'r fersiwn hon. Nid yw datganiad cynnal a chadw yn cyflwyno nodweddion newydd na newidiadau i'r gronfa ddata. Gallwch ei lawrlwytho o ardal lawrlwytho porth https://www.bespo.et (fersiynau Sefydlog yr is-gyfeiriadur). Gallwch ddarllen yr <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> i gael rhestr gyflawn o newidiadau.
 MultiPriceRuleDesc=Pan fydd opsiwn "Sawl lefel o brisiau fesul cynnyrch / gwasanaeth" wedi'i alluogi, gallwch ddiffinio prisiau gwahanol (un fesul lefel pris) ar gyfer pob cynnyrch. Er mwyn arbed amser i chi, yma gallwch nodi rheol i gyfrifo pris yn awtomatig ar gyfer pob lefel yn seiliedig ar bris y lefel gyntaf, felly dim ond pris ar gyfer y lefel gyntaf y bydd yn rhaid i chi ei nodi ar gyfer pob cynnyrch. Cynlluniwyd y dudalen hon i arbed amser i chi ond mae'n ddefnyddiol dim ond os yw'ch prisiau ar gyfer pob lefel yn gymharol â'r lefel gyntaf. Gallwch anwybyddu'r dudalen hon yn y rhan fwyaf o achosion.
 ModelModulesProduct=Templedi ar gyfer dogfennau cynnyrch
 WarehouseModelModules=Templedi ar gyfer dogfennau warysau

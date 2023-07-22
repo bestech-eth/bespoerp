@@ -18,4 +18,4 @@ ModuleZapierForDolibarrDesc = Par zapier Dolibarr moduli
 ZapierForDolibarrSetup=Zapier iestatīšana Dolibarr
 ZapierDescription=Saskarne ar Zapier
 ZapierAbout=Par moduli Zapier
-ZapierSetupPage=Lai izmantotu Zapier, Dolibarr pusē nav nepieciešama iestatīšana. Tomēr, lai varētu izmantot Zapier ar Dolibarr, jums ir jāizveido un jāpublicē pakete zapier. Skatiet šīs wiki lapas <a href="https://wiki.dolibarr.org/index.php/Module_Zapier"> dokumentāciju </a>.
+ZapierSetupPage=Lai izmantotu Zapier, Dolibarr pusē nav nepieciešama iestatīšana. Tomēr, lai varētu izmantot Zapier ar Dolibarr, jums ir jāizveido un jāpublicē pakete zapier. Skatiet šīs wiki lapas <a href="https://wiki.bespo.et/index.php/Module_Zapier"> dokumentāciju </a>.

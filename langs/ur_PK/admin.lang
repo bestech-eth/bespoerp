@@ -318,7 +318,7 @@ CompanyEmail=کمپنی کا ای میل
 FeatureNotAvailableOnLinux=فیچر یونکس جیسے سسٹمز پر دستیاب نہیں ہے۔ مقامی طور پر اپنے بھیجے گئے میل پروگرام کی جانچ کریں۔
 FixOnTransifex=پروجیکٹ کے آن لائن ترجمہ پلیٹ فارم پر ترجمہ کو درست کریں۔
 SubmitTranslation=اگر اس زبان کا ترجمہ مکمل نہیں ہے یا آپ کو غلطیاں نظر آتی ہیں، تو آپ ڈائرکٹری میں فائلوں میں ترمیم کر کے اسے درست کر سکتے ہیں
-SubmitTranslationENUS=اگر اس زبان کا ترجمہ مکمل نہیں ہے یا آپ کو غلطیاں نظر آتی ہیں، تو آپ فائلوں کو ڈائرکٹری <b> langs/%s </b> میں ترمیم کر کے اسے درست کر سکتے ہیں اور ترمیم شدہ فائلیں dolibarr.org/forum پر جمع کر سکتے ہیں یا، اگر آپ gPR کے ساتھ ہیں .com/Dolibarr/dolibarr
+SubmitTranslationENUS=اگر اس زبان کا ترجمہ مکمل نہیں ہے یا آپ کو غلطیاں نظر آتی ہیں، تو آپ فائلوں کو ڈائرکٹری <b> langs/%s </b> میں ترمیم کر کے اسے درست کر سکتے ہیں اور ترمیم شدہ فائلیں bespo.et/forum پر جمع کر سکتے ہیں یا، اگر آپ gPR کے ساتھ ہیں .com/Dolibarr/dolibarr
 ModuleSetup=ماڈیول سیٹ اپ
 ModulesSetup=ماڈیولز/ایپلیکیشن سیٹ اپ
 ModuleFamilyBase=سسٹم
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=OpenDocument فارمیٹ کے ساتھ ٹیمپ
 NumberOfModelFilesFound=ان ڈائریکٹریوں میں پائی جانے والی ODT/ODS ٹیمپلیٹ فائلوں کی تعداد
 ExampleOfDirectoriesForModelGen=نحو کی مثالیں: <br> c:\\myapp\\mydocumentdir\\mysubdir <br> /home/myapp/mydocumentdir/mysubdir <br> DOL_DATA_ROOT/Mydocumentdir
 FollowingSubstitutionKeysCanBeUsed= <br> اپنے odt دستاویز کے سانچوں کو بنانے کا طریقہ جاننے کے لیے، ان ڈائریکٹریوں میں ذخیرہ کرنے سے پہلے، ویکی دستاویزات پڑھیں:
-FullListOnOnlineDocumentation=http://wiki.dolibarr.org/index.php/Create_an_ODT_document_template
+FullListOnOnlineDocumentation=http://wiki.bespo.et/index.php/Create_an_ODT_document_template
 FirstnameNamePosition=نام/آخری نام کی پوزیشن
 DescWeather=درج ذیل تصاویر ڈیش بورڈ پر دکھائی جائیں گی جب دیر سے ہونے والی کارروائیوں کی تعداد درج ذیل اقدار تک پہنچ جائے گی۔
 KeyForWebServicesAccess=ویب سروسز استعمال کرنے کی کلید (ویب سروسز میں پیرامیٹر "ڈولیبارکی")
@@ -1654,7 +1654,7 @@ NotInstalled=انسٹال نہیں ہے۔
 NotSlowedDownByThis=اس سے سست نہیں ہوا۔
 NotRiskOfLeakWithThis=اس کے ساتھ لیک ہونے کا خطرہ نہیں۔
 ApplicativeCache=قابل اطلاق کیشے
-MemcachedNotAvailable=کوئی قابل اطلاق کیش نہیں ملا۔ آپ کیش سرور Memcached اور اس کیش سرور کو استعمال کرنے کے قابل ایک ماڈیول انسٹال کرکے کارکردگی کو بڑھا سکتے ہیں۔ <br> مزید معلومات یہاں <a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN"> http://wiki.dolibarr.org/index.php/Module_MemCached_EN </a> ۔ <br> نوٹ کریں کہ بہت سارے ویب ہوسٹنگ فراہم کنندہ ایسے کیش سرور فراہم نہیں کرتے ہیں۔
+MemcachedNotAvailable=کوئی قابل اطلاق کیش نہیں ملا۔ آپ کیش سرور Memcached اور اس کیش سرور کو استعمال کرنے کے قابل ایک ماڈیول انسٹال کرکے کارکردگی کو بڑھا سکتے ہیں۔ <br> مزید معلومات یہاں <a href="http://wiki.bespo.et/index.php/Module_MemCached_EN"> http://wiki.bespo.et/index.php/Module_MemCached_EN </a> ۔ <br> نوٹ کریں کہ بہت سارے ویب ہوسٹنگ فراہم کنندہ ایسے کیش سرور فراہم نہیں کرتے ہیں۔
 MemcachedModuleAvailableButNotSetup=اطلاقی کیشے کے لیے ماڈیول میم کیچ مل گیا لیکن ماڈیول کا سیٹ اپ مکمل نہیں ہے۔
 MemcachedAvailableAndSetup=memcached سرور کو استعمال کرنے کے لیے وقف کردہ ماڈیول میم کیش فعال ہے۔
 OPCodeCache=اوپکوڈ کیشے
@@ -2019,8 +2019,8 @@ ByDefaultInList=لسٹ ویو پر بطور ڈیفالٹ دکھائیں۔
 YouUseLastStableVersion=آپ تازہ ترین مستحکم ورژن استعمال کرتے ہیں۔
 TitleExampleForMajorRelease=پیغام کی مثال جسے آپ اس بڑے ریلیز کا اعلان کرنے کے لیے استعمال کر سکتے ہیں (اسے اپنی ویب سائٹس پر بلا جھجھک استعمال کریں)
 TitleExampleForMaintenanceRelease=پیغام کی مثال جو آپ اس مینٹیننس ریلیز کا اعلان کرنے کے لیے استعمال کر سکتے ہیں (اسے اپنی ویب سائٹس پر بلا جھجھک استعمال کریں)
-ExampleOfNewsMessageForMajorRelease=Dolibarr ERP اور CRM %s دستیاب ہے۔ ورژن %s صارفین اور ڈویلپرز دونوں کے لیے بہت ساری نئی خصوصیات کے ساتھ ایک بڑی ریلیز ہے۔ آپ اسے https://www.dolibarr.org پورٹل (سب ڈائرکٹری اسٹیبل ورژن) کے ڈاؤن لوڈ ایریا سے ڈاؤن لوڈ کر سکتے ہیں۔ تبدیلیوں کی مکمل فہرست کے لیے آپ <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> پڑھ سکتے ہیں۔
-ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP اور CRM %s دستیاب ہے۔ ورژن %s ایک مینٹیننس ورژن ہے، لہذا اس میں صرف بگ فکسز شامل ہیں۔ ہم تمام صارفین کو اس ورژن میں اپ گریڈ کرنے کی تجویز کرتے ہیں۔ بحالی کی ریلیز ڈیٹا بیس میں نئی خصوصیات یا تبدیلیاں متعارف نہیں کرواتی ہے۔ آپ اسے https://www.dolibarr.org پورٹل (سب ڈائرکٹری سٹیبل ورژن) کے ڈاؤن لوڈ ایریا سے ڈاؤن لوڈ کر سکتے ہیں۔ تبدیلیوں کی مکمل فہرست کے لیے آپ <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> پڑھ سکتے ہیں۔
+ExampleOfNewsMessageForMajorRelease=Dolibarr ERP اور CRM %s دستیاب ہے۔ ورژن %s صارفین اور ڈویلپرز دونوں کے لیے بہت ساری نئی خصوصیات کے ساتھ ایک بڑی ریلیز ہے۔ آپ اسے https://www.bespo.et پورٹل (سب ڈائرکٹری اسٹیبل ورژن) کے ڈاؤن لوڈ ایریا سے ڈاؤن لوڈ کر سکتے ہیں۔ تبدیلیوں کی مکمل فہرست کے لیے آپ <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> پڑھ سکتے ہیں۔
+ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP اور CRM %s دستیاب ہے۔ ورژن %s ایک مینٹیننس ورژن ہے، لہذا اس میں صرف بگ فکسز شامل ہیں۔ ہم تمام صارفین کو اس ورژن میں اپ گریڈ کرنے کی تجویز کرتے ہیں۔ بحالی کی ریلیز ڈیٹا بیس میں نئی خصوصیات یا تبدیلیاں متعارف نہیں کرواتی ہے۔ آپ اسے https://www.bespo.et پورٹل (سب ڈائرکٹری سٹیبل ورژن) کے ڈاؤن لوڈ ایریا سے ڈاؤن لوڈ کر سکتے ہیں۔ تبدیلیوں کی مکمل فہرست کے لیے آپ <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> پڑھ سکتے ہیں۔
 MultiPriceRuleDesc=جب آپشن "قیمتوں کی کئی سطحیں فی پروڈکٹ/سروس" کو فعال کیا جاتا ہے، تو آپ ہر پروڈکٹ کے لیے مختلف قیمتیں (ایک فی قیمت کی سطح) کی وضاحت کر سکتے ہیں۔ آپ کا وقت بچانے کے لیے، یہاں آپ پہلے درجے کی قیمت کی بنیاد پر ہر سطح کے لیے قیمت کا خودکار حساب لگانے کے لیے ایک اصول درج کر سکتے ہیں، اس لیے آپ کو ہر پروڈکٹ کے لیے صرف پہلے درجے کی قیمت درج کرنی ہوگی۔ یہ صفحہ آپ کا وقت بچانے کے لیے ڈیزائن کیا گیا ہے لیکن صرف اس صورت میں مفید ہے جب ہر سطح کے لیے آپ کی قیمتیں پہلے درجے کی نسبت ہوں۔ آپ زیادہ تر معاملات میں اس صفحہ کو نظر انداز کر سکتے ہیں۔
 ModelModulesProduct=پروڈکٹ دستاویزات کے لیے ٹیمپلیٹس
 WarehouseModelModules=گوداموں کی دستاویزات کے سانچے

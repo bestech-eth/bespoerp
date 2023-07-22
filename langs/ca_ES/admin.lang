@@ -318,7 +318,7 @@ CompanyEmail=Correu electrònic de l'empresa
 FeatureNotAvailableOnLinux=Funcionalitat no disponible en sistemes Unix. Proveu el seu sendmail localment.
 FixOnTransifex=Corregeix la traducció a la plataforma de traducció en línia del projecte
 SubmitTranslation=Si la traducció d'aquest idioma no està completa o trobes errors, pots corregir-ho editant els arxius en el directori<b>langs/%s</b> i enviant els canvis a www.transifex.com/dolibarr-association/dolibarr/
-SubmitTranslationENUS=Si la traducció d’aquest idioma no és completa o si trobeu errors, podeu corregir-la editant fitxers al directori <b> langs / %s </b> i envieu fitxers modificats a dolibarr.org/forum o, si sou un desenvolupador, amb un PR a github .com / Dolibarr / dolibarr
+SubmitTranslationENUS=Si la traducció d’aquest idioma no és completa o si trobeu errors, podeu corregir-la editant fitxers al directori <b> langs / %s </b> i envieu fitxers modificats a bespo.et/forum o, si sou un desenvolupador, amb un PR a github .com / Dolibarr / dolibarr
 ModuleSetup=Configuració del mòdul
 ModulesSetup=Configuració de mòduls/aplicacions
 ModuleFamilyBase=Sistema
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=Llista de directoris que contenen fitxers de pla
 NumberOfModelFilesFound=Nombre d'arxius de plantilles ODT/ODS trobats en aquest(s) directori(s)
 ExampleOfDirectoriesForModelGen=Exemples de sintaxi: <br>c:\\myapp\\mydocumentdir\\mysubdir <br>/home/myapp/mydocumentdir/mysubdir<br>DOL_DATA_ROOT/ecm/ecmdir
 FollowingSubstitutionKeysCanBeUsed= <br> Per a saber com crear les teves plantilles de documents odt, abans d'emmagatzemar-les en aquests directoris, llegiu la documentació wiki:
-FullListOnOnlineDocumentation=http://wiki.dolibarr.org/index.php/Crear_un_modelo_de_documento_ODT
+FullListOnOnlineDocumentation=http://wiki.bespo.et/index.php/Crear_un_modelo_de_documento_ODT
 FirstnameNamePosition=Posició del Nom/Cognoms
 DescWeather=Les imatges següents es mostraran al tauler de control quan el nombre d'accions posteriors arriba als valors següents:
 KeyForWebServicesAccess=Clau per a utilitzar els serveis web (paràmetre «dolibarrkey» als serveis web)
@@ -1654,7 +1654,7 @@ NotInstalled=No està instal·lat.
 NotSlowedDownByThis=No frenat per això.
 NotRiskOfLeakWithThis=No hi ha risc de filtració amb això.
 ApplicativeCache=Aplicació memòria cau
-MemcachedNotAvailable=No s'ha trobat cap memòria cau aplicativa. Podeu millorar el rendiment instal·lant un servidor de memòria cau Memcached i un mòdul capaç d’utilitzar aquest servidor de memòria cau. <br> Més informació aquí <a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN"> http://wiki.dolibarr.org/index.php/Module_MemCached_EN </a>. <br> Tingueu en compte que molts proveïdors d'allotjament web no proporcionen aquest servidor de memòria cau.
+MemcachedNotAvailable=No s'ha trobat cap memòria cau aplicativa. Podeu millorar el rendiment instal·lant un servidor de memòria cau Memcached i un mòdul capaç d’utilitzar aquest servidor de memòria cau. <br> Més informació aquí <a href="http://wiki.bespo.et/index.php/Module_MemCached_EN"> http://wiki.bespo.et/index.php/Module_MemCached_EN </a>. <br> Tingueu en compte que molts proveïdors d'allotjament web no proporcionen aquest servidor de memòria cau.
 MemcachedModuleAvailableButNotSetup=S'ha trobat el mòdul memcached per a l'aplicació de memòria cau, però la configuració del mòdul no està completa.
 MemcachedAvailableAndSetup=El mòdul memcached dedicat a utilitzar el servidor memcached està habilitat.
 OPCodeCache=OPCode memòria cau
@@ -2019,8 +2019,8 @@ ByDefaultInList=Mostra per defecte en la vista del llistat
 YouUseLastStableVersion=Estàs utilitzant l'última versió estable
 TitleExampleForMajorRelease=Exemple de missatge que podeu utilitzar per a anunciar aquesta actualització de versió (no dubteu a utilitzar-lo als vostres llocs web)
 TitleExampleForMaintenanceRelease=Exemple de missatge que podeu utilitzar per a anunciar aquesta versió de manteniment (no dubteu a utilitzar-lo als vostres llocs web)
-ExampleOfNewsMessageForMajorRelease=Disponible ERP/CRM Dolibarr %s. La versió %s és una versió major amb un munt de noves característiques, tant per a usuaris com per a desenvolupadors. Es pot descarregar des de la secció de descàrregues del portal https://www.dolibarr.org (subdirectori versions estables). Podeu llegir <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> per a veure la llista completa dels canvis.
-ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s està disponible. La versió %s és una versió de manteniment, de manera que només conté correccions d'errors. Recomanem a tots els usuaris que actualitzin a aquesta versió. Una versió de manteniment no presenta noves funcions ni canvis a la base de dades. Podeu descarregar-lo des de l'àrea de descàrregues del portal https://www.dolibarr.org (subdirectori Versions estables). Podeu llegir el registre de canvis <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog </a> per a obtenir la llista completa de canvis.
+ExampleOfNewsMessageForMajorRelease=Disponible ERP/CRM Dolibarr %s. La versió %s és una versió major amb un munt de noves característiques, tant per a usuaris com per a desenvolupadors. Es pot descarregar des de la secció de descàrregues del portal https://www.bespo.et (subdirectori versions estables). Podeu llegir <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> per a veure la llista completa dels canvis.
+ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s està disponible. La versió %s és una versió de manteniment, de manera que només conté correccions d'errors. Recomanem a tots els usuaris que actualitzin a aquesta versió. Una versió de manteniment no presenta noves funcions ni canvis a la base de dades. Podeu descarregar-lo des de l'àrea de descàrregues del portal https://www.bespo.et (subdirectori Versions estables). Podeu llegir el registre de canvis <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog </a> per a obtenir la llista completa de canvis.
 MultiPriceRuleDesc=Quan l'opció "Diversos nivells de preus per producte/servei" està activada, podeu definir preus diferents (un preu per nivell) per a cada producte. Per a estalviar-vos temps, aquí podeu introduir una regla per a calcular automàticament un preu per a cada nivell en funció del preu del primer nivell, de manera que només haureu d'introduir un preu per al primer nivell per a cada producte. Aquesta pàgina està dissenyada per a estalviar-vos temps, però només és útil si els preus de cada nivell són relatius al primer nivell. Podeu ignorar aquesta pàgina en la majoria dels casos.
 ModelModulesProduct=Plantilles per documents de productes
 WarehouseModelModules=Plantilles per a documents de magatzems

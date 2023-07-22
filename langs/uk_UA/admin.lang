@@ -318,7 +318,7 @@ CompanyEmail=Корпоративна електронна пошта
 FeatureNotAvailableOnLinux=Функція недоступна в Unix-системах. Протестуйте свою програму sendmail локально.
 FixOnTransifex=Виправте переклад на онлайн-платформі перекладу проекту
 SubmitTranslation=Якщо переклад на цю мову не завершений або ви виявили помилки, ви можете виправити це, відредагувавши файли в каталозі <b> langs/ %s </b> та подавши свої зміни на www.transifex.com/dolibarr-association/dolibarr/
-SubmitTranslationENUS=Якщо переклад на цю мову не завершений або ви виявили помилки, ви можете виправити це, відредагувавши файли в каталозі <b> langs/ %s </b> та подавши змінені файли на dolibarr.org/forum або, якщо ви розробник, з PR на github .com/Dolibarr/dolibarr
+SubmitTranslationENUS=Якщо переклад на цю мову не завершений або ви виявили помилки, ви можете виправити це, відредагувавши файли в каталозі <b> langs/ %s </b> та подавши змінені файли на bespo.et/forum або, якщо ви розробник, з PR на github .com/Dolibarr/dolibarr
 ModuleSetup=Налаштування модулів
 ModulesSetup=Налаштування модулів та додатків
 ModuleFamilyBase=Система
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=Список каталогів, що містя
 NumberOfModelFilesFound=Кількість файлів шаблонів ODT/ODS, знайдених у цих каталогах
 ExampleOfDirectoriesForModelGen=Приклади синтаксису: <br> c:\\myapp\\mydocumentdir\\mysubdir <br> /home/myapp/mydocumentdir/mysubdir <br> DOL_DATA_ROOT/ecm/ecmdir
 FollowingSubstitutionKeysCanBeUsed= <br> Щоб дізнатися, як створити шаблони odt-документів, перш ніж зберігати їх у цих каталогах, прочитайте документацію на wiki:
-FullListOnOnlineDocumentation=http://wiki.dolibarr.org/index.php/Create_an_ODT_document_template
+FullListOnOnlineDocumentation=http://wiki.bespo.et/index.php/Create_an_ODT_document_template
 FirstnameNamePosition=Розміщення імені та прізвища
 DescWeather=Вибрані зображення будуть показані на панелі, коли кількість пізніх дій досягне таких значень:
 KeyForWebServicesAccess=Ключ для використання веб-служб (параметр "dolibarrkey" у веб-сервісах)
@@ -1654,7 +1654,7 @@ NotInstalled=Не встановлено.
 NotSlowedDownByThis=Не сповільнюється цим.
 NotRiskOfLeakWithThis=При цьому немає ризику витоку.
 ApplicativeCache=Аплікативний кеш
-MemcachedNotAvailable=Не знайдено аплікативний кеш. Ви можете підвищити продуктивність, встановивши кеш-сервер Memcached і модуль, здатний використовувати цей сервер кешу. <br> Більше інформації тут <a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN"> http://wiki.dolibarr.org/index.php/Module_MemCached_EN </a> . <br> Зауважте, що багато постачальників веб-хостингу не надають такий сервер кешу.
+MemcachedNotAvailable=Не знайдено аплікативний кеш. Ви можете підвищити продуктивність, встановивши кеш-сервер Memcached і модуль, здатний використовувати цей сервер кешу. <br> Більше інформації тут <a href="http://wiki.bespo.et/index.php/Module_MemCached_EN"> http://wiki.bespo.et/index.php/Module_MemCached_EN </a> . <br> Зауважте, що багато постачальників веб-хостингу не надають такий сервер кешу.
 MemcachedModuleAvailableButNotSetup=Знайдено модуль memcached для аплікативного кешу, але налаштування модуля не завершено.
 MemcachedAvailableAndSetup=Модуль memcached, призначений для використання сервера memcached, увімкнено.
 OPCodeCache=Кеш OPCode
@@ -2019,8 +2019,8 @@ ByDefaultInList=Показувати за замовчуванням у вигл
 YouUseLastStableVersion=Ви використовуєте останню стабільну версію
 TitleExampleForMajorRelease=Приклад повідомлення, яке ви можете використати, щоб анонсувати цей основний випуск (використовуйте його на своїх веб-сайтах)
 TitleExampleForMaintenanceRelease=Приклад повідомлення, яке ви можете використати, щоб оголосити цей випуск технічного обслуговування (використовуйте його на своїх веб-сайтах)
-ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s доступний. Версія %s є основним випуском з великою кількістю нових функцій як для користувачів, так і для розробників. Ви можете завантажити його з області завантаження порталу https://www.dolibarr.org (підкаталог Стабільні версії). Ви можете прочитати <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> Журнал змін </a> для отримання повного списку змін.
-ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s доступний. Версія %s є версією обслуговування, тому містить лише виправлення помилок. Ми рекомендуємо всім користувачам оновитися до цієї версії. Реліз обслуговування не вносить нових функцій або змін до бази даних. Ви можете завантажити його з області завантаження порталу https://www.dolibarr.org (підкаталог Стабільні версії). Ви можете прочитати <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> для отримання повного списку змін.
+ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s доступний. Версія %s є основним випуском з великою кількістю нових функцій як для користувачів, так і для розробників. Ви можете завантажити його з області завантаження порталу https://www.bespo.et (підкаталог Стабільні версії). Ви можете прочитати <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> Журнал змін </a> для отримання повного списку змін.
+ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s доступний. Версія %s є версією обслуговування, тому містить лише виправлення помилок. Ми рекомендуємо всім користувачам оновитися до цієї версії. Реліз обслуговування не вносить нових функцій або змін до бази даних. Ви можете завантажити його з області завантаження порталу https://www.bespo.et (підкаталог Стабільні версії). Ви можете прочитати <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog"> ChangeLog </a> для отримання повного списку змін.
 MultiPriceRuleDesc=Якщо увімкнено опцію «Кілька рівнів цін на продукт/послугу», ви можете визначити різні ціни (по одній на рівень ціни) для кожного товару. Щоб заощадити ваш час, тут ви можете ввести правило для автоматичного розрахунку ціни для кожного рівня на основі ціни першого рівня, тому вам доведеться вводити ціну лише для першого рівня для кожного товару. Ця сторінка розроблена, щоб заощадити ваш час, але корисна, лише якщо ваші ціни для кожного рівня відносно першого рівня. Ви можете проігнорувати цю сторінку в більшості випадків.
 ModelModulesProduct=Шаблони документів на товар
 WarehouseModelModules=Шаблони для складських документів

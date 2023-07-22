@@ -318,7 +318,7 @@ CompanyEmail=Firma e-mail
 FeatureNotAvailableOnLinux=Funktionen er ikke tilgængelig på Unix lignende systemer. Test dit sendmail program lokalt.
 FixOnTransifex=Ret oversættelsen på projektets online oversættelsesplatform
 SubmitTranslation=Hvis oversættelsen for dette sprog ikke er komplet, eller du finder fejl, kan du rette dette ved at redigere filer i mappen <b>langs/%s</b> og indsende din ændring til www.transifex.com/dolibarr-association/dolibarr/
-SubmitTranslationENUS=Hvis oversættelsen til dette sprog ikke er komplet, eller du finder fejl, kan du rette dette ved at redigere filer i mappen <b>langs/%s</b> og indsende ændrede filer på dolibarr.org/forum eller, hvis du er en PR på github.com/Dolibarr/dolibarr
+SubmitTranslationENUS=Hvis oversættelsen til dette sprog ikke er komplet, eller du finder fejl, kan du rette dette ved at redigere filer i mappen <b>langs/%s</b> og indsende ændrede filer på bespo.et/forum eller, hvis du er en PR på github.com/Dolibarr/dolibarr
 ModuleSetup=Modul opsætning
 ModulesSetup=Moduler/Applikationer opsætning
 ModuleFamilyBase=System
@@ -391,7 +391,7 @@ ListOfDirectoriesForModelGenODT=Liste over mapper, der indeholder skabelon filer
 NumberOfModelFilesFound=Antal ODT/ODS skabelon filer fundet i disse mapper
 ExampleOfDirectoriesForModelGen=Eksempler på syntaks:<br>c:\\myapp\\mydocumentdir\\mysubdir<br> /home/myapp/mydocumentdir/mysubdir<br>DOL_DATA_ROOT/ecm/ecmdir
 FollowingSubstitutionKeysCanBeUsed=<br>For at vide, hvordan du opretter dine odt dokument skabeloner, før du gemmer dem i disse mapper, skal du læse wiki-dokumentationen:
-FullListOnOnlineDocumentation=http://wiki.dolibarr.org/index.php/Create_an_ODT_document_template
+FullListOnOnlineDocumentation=http://wiki.bespo.et/index.php/Create_an_ODT_document_template
 FirstnameNamePosition=Position af navn/efternavns
 DescWeather=Følgende billeder vil blive vist på Betjeningspanelet, når antallet af sene handlinger når følgende værdier:
 KeyForWebServicesAccess=Nøgle til at bruge webtjenester (parameter "dolibarrkey" i webtjenester)
@@ -1654,7 +1654,7 @@ NotInstalled=Ikke installeret.
 NotSlowedDownByThis=Ikke forsinket af dette.
 NotRiskOfLeakWithThis=Ikke risiko for læk med dette.
 ApplicativeCache=Applikationsbuffer
-MemcachedNotAvailable=Ingen applikationsbuffer fundet. Du kan forbedre ydeevnen ved at installere en cache server Memcached og et modul, der kan bruge denne cacheserver.<br>Mere information her <a href="http://wiki.dolibarr.org/index.php/Module_MemCached_EN"> http://wiki.dolibarr.org/index.php/Module_MemCached_EN</a>.<br>Bemærk, at mange webhostingudbydere ikke leverer en sådan cache server.
+MemcachedNotAvailable=Ingen applikationsbuffer fundet. Du kan forbedre ydeevnen ved at installere en cache server Memcached og et modul, der kan bruge denne cacheserver.<br>Mere information her <a href="http://wiki.bespo.et/index.php/Module_MemCached_EN"> http://wiki.bespo.et/index.php/Module_MemCached_EN</a>.<br>Bemærk, at mange webhostingudbydere ikke leverer en sådan cache server.
 MemcachedModuleAvailableButNotSetup=Modul memcached for applikationsbuffer fundet, men opsætningen af modulet er ikke færdig.
 MemcachedAvailableAndSetup=Modul memcached dedikeret til at bruge memcached server er aktiveret.
 OPCodeCache=OPCode buffer
@@ -2019,8 +2019,8 @@ ByDefaultInList=Vis som standard på listevisning
 YouUseLastStableVersion=Du bruger den seneste stabile version
 TitleExampleForMajorRelease=Eksempel på besked, du kan bruge til at annoncere denne større udgivelse (du er velkommen til at bruge den på dine websteder)
 TitleExampleForMaintenanceRelease=Eksempel på besked, du kan bruge til at annoncere denne vedligeholdelsesudgivelse (du er velkommen til at bruge den på dine websteder)
-ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s er tilgængelig. Version %s er en stor udgivelse med en masse nye funktioner til både brugere og udviklere. Du kan downloade det fra downloadområdet på https://www.dolibarr.org-portalen (underkatalog Stabile versioner). Du kan læse <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> for en komplet liste over ændringer.
-ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s er tilgængelig. Version %s er en vedligeholdelsesversion, så indeholder kun fejlrettelser. Vi anbefaler alle brugere at opgradere til denne version. En vedligeholdelsesudgivelse introducerer ikke nye funktioner eller ændringer i databasen. Du kan downloade det fra downloadområdet på https://www.dolibarr.org-portalen (underkatalog Stabile versioner). Du kan læse <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> for en komplet liste over ændringer.
+ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s er tilgængelig. Version %s er en stor udgivelse med en masse nye funktioner til både brugere og udviklere. Du kan downloade det fra downloadområdet på https://www.bespo.et-portalen (underkatalog Stabile versioner). Du kan læse <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> for en komplet liste over ændringer.
+ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s er tilgængelig. Version %s er en vedligeholdelsesversion, så indeholder kun fejlrettelser. Vi anbefaler alle brugere at opgradere til denne version. En vedligeholdelsesudgivelse introducerer ikke nye funktioner eller ændringer i databasen. Du kan downloade det fra downloadområdet på https://www.bespo.et-portalen (underkatalog Stabile versioner). Du kan læse <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> for en komplet liste over ændringer.
 MultiPriceRuleDesc=Når indstillingen "Flere niveauer af priser pr. vare/ydelse" er aktiveret, kan du definere forskellige priser (én pr. prisniveau) for hvert vare. For at spare tid, kan du her indtaste en regel for automatisk at beregne en pris for hvert niveau baseret på prisen på det første niveau, så du skal kun indtaste en pris for det første niveau for hvert produkt. Denne side er designet til at spare dig tid, men er kun nyttig, hvis dine priser for hvert niveau er i forhold til første niveau. Du kan ignorere denne side i de fleste tilfælde.
 ModelModulesProduct=Skabeloner til varedokumenter
 WarehouseModelModules=Skabeloner til lagerdokumenter
