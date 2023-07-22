@@ -6,7 +6,7 @@ OtherSupport=Muut tuet
 ToSeeListOfAvailableRessources=Voit ottaa yhteyttä / nähdä käytettävissä olevat varat:
 HelpCenter=Ohjekeskukseen
 DolibarrHelpCenter=Bespo Help and Support Center
-ToGoBackToDolibarr=Otherwise, <a href="%s">click here to continue to use Dolibarr</a>.
+ToGoBackToDolibarr=Otherwise, <a href="%s">click here to continue to use Bespoerp</a>.
 TypeOfSupport=Type of support
 TypeSupportCommunauty=Yhteisössä (vapaa)
 TypeSupportCommercial=Kaupalliset
