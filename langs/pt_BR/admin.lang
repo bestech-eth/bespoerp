@@ -213,7 +213,7 @@ ReferencedPreferredPartners=Parceiro preferido
 ExternalResources=Fontes externas
 SocialNetworks=Redes Sociais
 SocialNetworkId=ID da rede social
-ForDocumentationSeeWiki=Para documentação de usuário ou desenvolvedor (Doc, FAQs...), <br> dê uma olhada no Dolibarr Wiki: <br> <b> <a href="%s" target="_blank" rel="noopener noreferrer"> %s </a> </b>
+ForDocumentationSeeWiki=Para documentação de usuário ou desenvolvedor (Doc, FAQs...), <br> dê uma olhada no Bespoerp Wiki: <br> <b> <a href="%s" target="_blank" rel="noopener noreferrer"> %s </a> </b>
 ForAnswersSeeForum=Para qualquer outra dúvida/ajuda, você pode usar o fórum Dolibarr: <br> <b> <a href="%s" target="_blank" rel="noopener noreferrer"> %s </a> </b>
 CurrentMenuHandler=Gestor atual de menu
 MeasuringUnit=Unidade de medida

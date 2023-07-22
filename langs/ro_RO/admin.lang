@@ -266,7 +266,7 @@ OtherResources=Alte resurse
 ExternalResources=Resurse externe
 SocialNetworks=Reţele sociale
 SocialNetworkId=ID reţea socială
-ForDocumentationSeeWiki=Pentru documentaţia de utilizare sau de dezvoltare (Doc, FAQs...),<br>consultă Dolibarr Wiki:<br><b><a href="%s" target="_blank" rel="noopener noreferrer">%s</a></b>
+ForDocumentationSeeWiki=Pentru documentaţia de utilizare sau de dezvoltare (Doc, FAQs...),<br>consultă Bespoerp Wiki:<br><b><a href="%s" target="_blank" rel="noopener noreferrer">%s</a></b>
 ForAnswersSeeForum=Pentru alte întrebări/suport, poţi utiliza forumul Dolibarr:<br><b><a href="%s" target="_blank" rel="noopener noreferrer">%s</a></b>
 HelpCenterDesc1=Iată câteva resurse pentru a obține ajutor și asistență cu Dolibarr.
 HelpCenterDesc2=Unele dintre aceste resurse sunt disponibile numai în <b>engleză</b>.

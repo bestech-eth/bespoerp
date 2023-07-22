@@ -266,7 +266,7 @@ OtherResources=Άλλοι πόροι
 ExternalResources=Εξωτερικοί πόροι
 SocialNetworks=Κοινωνικά δίκτυα
 SocialNetworkId=Αναγνωριστικό κοινωνικού δικτύου
-ForDocumentationSeeWiki=Για την τεκμηρίωση χρήστη ή προγραμματιστή (έγγραφο, συχνές ερωτήσεις...), <br> ρίξτε μια ματιά στο Dolibarr Wiki: <br> <b> <a href="%s" target="_blank" rel="noopener noreferrer"> %s</a></b>
+ForDocumentationSeeWiki=Για την τεκμηρίωση χρήστη ή προγραμματιστή (έγγραφο, συχνές ερωτήσεις...), <br> ρίξτε μια ματιά στο Bespoerp Wiki: <br> <b> <a href="%s" target="_blank" rel="noopener noreferrer"> %s</a></b>
 ForAnswersSeeForum=Για οποιεσδήποτε άλλες ερωτήσεις/βοήθεια, μπορείτε να χρησιμοποιήσετε το forum του Dolibarr:<br><b><a href="%s" target="_blank" rel="noopener noreferrer">%s</a></b>
 HelpCenterDesc1=Εδώ είναι μερικοί πόροι για να λάβετε βοήθεια και υποστήριξη με τον Dolibarr.
 HelpCenterDesc2=Μερικοί από αυτούς τους πόρους είναι διαθέσιμοι μόνο στα <b>αγγλικά</b> .

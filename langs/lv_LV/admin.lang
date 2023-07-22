@@ -266,7 +266,7 @@ OtherResources=Citi resursi
 ExternalResources=Ārējie resursi
 SocialNetworks=Sociālie tīkli
 SocialNetworkId=Sociālā tīkla ID
-ForDocumentationSeeWiki=Lietotāja vai izstrādātāja dokumentācijai (Dok., FAQ...) <br> skatiet Dolibarr Wiki: <br> <b> <a href="%s" target="_blank" rel="noopener noreferrer"> a0ecb2ec87f6077f80 a0ecb2ec87f4077f80.
+ForDocumentationSeeWiki=Lietotāja vai izstrādātāja dokumentācijai (Dok., FAQ...) <br> skatiet Bespoerp Wiki: <br> <b> <a href="%s" target="_blank" rel="noopener noreferrer"> a0ecb2ec87f6077f80 a0ecb2ec87f4077f80.
 ForAnswersSeeForum=Citu jautājumu/palīdzības gadījumā varat izmantot Dolibarr forumu: <br> <b> <a href="%s" target="_blank" rel="noopener noreferrer"> %s </a> a090f17f733
 HelpCenterDesc1=Šeit ir daži resursi, lai iegūtu Dolibarr palīdzību un atbalstu.
 HelpCenterDesc2=Daži no šiem resursiem ir pieejami tikai <b> angliski </b>.

@@ -1,7 +1,7 @@
 --- Translation How to --- 
 
 An instruction guide for translating Dolibarr in a new language is
-available on Dolibarr wiki:
+available on Bespoerp Wiki:
 
 English:  https://wiki.bespo.et/index.php/Translator_documentation
 French:   https://wiki.bespo.et/index.php/Documentation_traducteur

@@ -266,7 +266,7 @@ OtherResources=مصادر أخرى
 ExternalResources=موارد خارجية
 SocialNetworks=الشبكات الاجتماعية
 SocialNetworkId=معرف الشبكة الاجتماعية
-ForDocumentationSeeWiki=لوثائق المستخدم أو المطور (Doc ، FAQs ...) ، <br> ألق نظرة على Dolibarr Wiki: <br> <b> <a href="%s" target="_blank" rel="noopener noreferrer"> %s </a>39
+ForDocumentationSeeWiki=لوثائق المستخدم أو المطور (Doc ، FAQs ...) ، <br> ألق نظرة على Bespoerp Wiki: <br> <b> <a href="%s" target="_blank" rel="noopener noreferrer"> %s </a>39
 ForAnswersSeeForum=لأية أسئلة / مساعدة أخرى ، يمكنك استخدام منتدى Dolibarr: <br> <b> <a href="%s" target="_blank" rel="noopener noreferrer"> %s </a> </b>
 HelpCenterDesc1=فيما يلي بعض الموارد للحصول على المساعدة والدعم مع Dolibarr.
 HelpCenterDesc2=بعض هذه الموارد متاحة فقط في <b> english </b>.

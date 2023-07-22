@@ -266,7 +266,7 @@ OtherResources=Andre ressurser
 ExternalResources=Eksterne ressurser
 SocialNetworks=Sosiale nettverk
 SocialNetworkId=Sosialt nettverk ID
-ForDocumentationSeeWiki=For bruker- eller utviklerdokumentasjon (dok., vanlige spørsmål...), <br>, ta en titt på Dolibarr Wiki:<br><b><a href="%s" target="_blank" rel="noopener noreferrer">%s</a></b>
+ForDocumentationSeeWiki=For bruker- eller utviklerdokumentasjon (dok., vanlige spørsmål...), <br>, ta en titt på Bespoerp Wiki:<br><b><a href="%s" target="_blank" rel="noopener noreferrer">%s</a></b>
 ForAnswersSeeForum=For andre spørsmål/hjelp kan du bruke Dolibarr-forumet: <br><b><a href="%s" target="_blank" rel="noopener noreferrer">%s</a></b>
 HelpCenterDesc1=Her er noen ressurser for å få hjelp og støtte med Dolibarr.
 HelpCenterDesc2=Noen av disse ressursene er bare tilgjengelige på <b> engelsk </b>.

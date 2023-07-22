@@ -266,7 +266,7 @@ OtherResources=Drugi izvori
 ExternalResources=Vanjski resursi
 SocialNetworks=Društvene mreže
 SocialNetworkId=ID društvene mreže
-ForDocumentationSeeWiki=Za dokumentaciju za korisnike ili razvojne programere (Doc, FAQs...), <br> pogledajte Dolibarr Wiki: <br> <b> <a href="%s" target="_blank" rel="noopener noreferrer">%s</a></b>
+ForDocumentationSeeWiki=Za dokumentaciju za korisnike ili razvojne programere (Doc, FAQs...), <br> pogledajte Bespoerp Wiki: <br> <b> <a href="%s" target="_blank" rel="noopener noreferrer">%s</a></b>
 ForAnswersSeeForum=Za sva druga pitanja/pomoć možete koristiti Dolibarr forum: <br> <b> <a href="%s" target="_blank" rel="noopener noreferrer"> %s </a> </b>
 HelpCenterDesc1=Evo nekih resursa za dobivanje pomoći i podrške uz Dolibarr.
 HelpCenterDesc2=Neki od ovih resursa dostupni su samo na <b> engleskom </b>.
