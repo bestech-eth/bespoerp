@@ -5,7 +5,7 @@ RemoteControlSupport=Online reaalaja/kaudtoe tugi
 OtherSupport=Muu tugi
 ToSeeListOfAvailableRessources=Kontakteerumiseks/saadaval olevate ressursside nägemiseks:
 HelpCenter=Abiinfo
-DolibarrHelpCenter=Dolibarr Help and Support Center
+DolibarrHelpCenter=Bespo Help and Support Center
 ToGoBackToDolibarr=Otherwise, <a href="%s">click here to continue to use Dolibarr</a>.
 TypeOfSupport=Type of support
 TypeSupportCommunauty=Kogukond (tasuta)

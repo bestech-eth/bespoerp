@@ -5,7 +5,7 @@ RemoteControlSupport=Tiesioginis realaus laiko/nuotolinis palaikymas
 OtherSupport=Kita pagalba
 ToSeeListOfAvailableRessources=Susisiekti/pamatyti turimus išteklius:
 HelpCenter=Pagalbos centras
-DolibarrHelpCenter=Dolibarr Help and Support Center
+DolibarrHelpCenter=Bespo Help and Support Center
 ToGoBackToDolibarr=Otherwise, <a href="%s">click here to continue to use Dolibarr</a>.
 TypeOfSupport=Type of support
 TypeSupportCommunauty=Bendruomenė (nemokamai)
