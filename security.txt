@@ -1,5 +1,5 @@
-# Security policies of bespoerp ERP CRM project
-Contact: mailto:security@bespoerp.org
+# Security policies of Dolibarr ERP CRM project
+Contact: mailto:security@dolibarr.org
 Preferred-Languages: en
-Policy: https://github.com/bespoerp/bespoerp/security/policy
+Policy: https://github.com/Dolibarr/dolibarr/security/policy
 Expires: Sat, 31 Dec 2050 00:00:00 GMT

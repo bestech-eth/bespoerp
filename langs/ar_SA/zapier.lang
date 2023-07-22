@@ -13,9 +13,9 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-ModuleZapierForbespoerpName = زابيا لدوليبار
-ModuleZapierForbespoerpDesc = وحدة زابيا لدوليبار
-ZapierForbespoerpSetup=إعدادات زابيا لدوليبار
+ModuleZapierForDolibarrName = زابيا لدوليبار
+ModuleZapierForDolibarrDesc = وحدة زابيا لدوليبار
+ZapierForDolibarrSetup=إعدادات زابيا لدوليبار
 ZapierDescription=الربط مع زابيا
 ZapierAbout=عن وحدة زابيا
-ZapierSetupPage=لا حاجة للاعدادات من جانب دوليبار لاستخدام زابيا على دوليبار.\nلكن، لابد من إنشاء حزمة على جانب زابيا لاستخدام زابيا على دوليبار. راجع التوثيق <a href="https://wiki.bespoerp.org/index.php/Module_Zapier">على هذه الصفحة</a>
+ZapierSetupPage=لا حاجة للاعدادات من جانب دوليبار لاستخدام زابيا على دوليبار.\nلكن، لابد من إنشاء حزمة على جانب زابيا لاستخدام زابيا على دوليبار. راجع التوثيق <a href="https://wiki.dolibarr.org/index.php/Module_Zapier">على هذه الصفحة</a>

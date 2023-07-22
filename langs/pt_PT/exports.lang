@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - exports
+# Dolibarr language file - Source file is en_US - exports
 ExportsArea=Exportados
 ImportArea=Importar
 NewExport=Nova Exportação
@@ -59,7 +59,7 @@ ChooseFormatOfFileToImport=Escolha o formato de arquivo para usar como formato d
 ChooseFileToImport=Carregar arquivo, em seguida, clique no ícone %s para selecionar o arquivo como arquivo de importação de origem ...
 SourceFileFormat=Formato de arquivo de origem
 FieldsInSourceFile=Os campos em arquivo fonte
-FieldsInTargetDatabase=Campos de destino na base de dados bespoerp (negrito=obrigatório)
+FieldsInTargetDatabase=Campos de destino na base de dados Dolibarr (negrito=obrigatório)
 Field=Campo
 NoFields=Nenhum campo
 MoveField=Mover %s campo número da coluna

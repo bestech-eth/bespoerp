@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - ecm
+# Dolibarr language file - Source file is en_US - ecm
 ECMNbOfDocs=கோப்பகத்தில் உள்ள ஆவணங்களின் எண்ணிக்கை
 ECMSection=அடைவு
 ECMSectionManual=கையேடு அடைவு
@@ -16,7 +16,7 @@ ECMNbOfSubDir=துணை அடைவுகளின் எண்ணிக்�
 ECMNbOfFilesInSubDir=துணை அடைவுகளில் உள்ள கோப்புகளின் எண்ணிக்கை
 ECMCreationUser=படைப்பாளி
 ECMArea=DMS/ECM பகுதி
-ECMAreaDesc=DMS/ECM (ஆவண மேலாண்மை அமைப்பு / மின்னணு உள்ளடக்க மேலாண்மை) பகுதியானது bespoerp இல் அனைத்து வகையான ஆவணங்களையும் சேமிக்கவும், பகிரவும் மற்றும் விரைவாக தேடவும் உங்களை அனுமதிக்கிறது.
+ECMAreaDesc=DMS/ECM (ஆவண மேலாண்மை அமைப்பு / மின்னணு உள்ளடக்க மேலாண்மை) பகுதியானது Dolibarr இல் அனைத்து வகையான ஆவணங்களையும் சேமிக்கவும், பகிரவும் மற்றும் விரைவாக தேடவும் உங்களை அனுமதிக்கிறது.
 ECMAreaDesc2a=* Manual directories can be used to save documents not linked to a particular element.
 ECMAreaDesc2b=* Automatic directories are filled automatically when adding documents from the page of an element.
 ECMAreaDesc3=* Medias directories are files into the subdirectory <b>/medias</b> of documents directory, readable by everybody with no need to be logged and no need to have the file shared explicitely. It is used to store image files from emailing or website module.

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - printing
+# Dolibarr language file - Source file is en_US - printing
 Module64000Name=Печать в один клик
 Module64000Desc=Включить систему печати в один клик
 PrintingSetup=Настройка системы печати в один клик

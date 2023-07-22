@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - companies
+# Dolibarr language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=法人名 %s は既に存在する。別の名称を選択すること。
 ErrorSetACountryFirst=始めに国を設定する
 SelectThirdParty=取引先を選択する
@@ -12,7 +12,7 @@ MenuNewSupplier=新規仕入先
 MenuNewPrivateIndividual=新規個人
 NewCompany=新規法人 (見込客、顧客、仕入先)
 NewThirdParty=新規取引先 (見込客、顧客、仕入先)
-CreatebespoerpThirdPartySupplier=取引先を作成 (仕入先)
+CreateDolibarrThirdPartySupplier=取引先を作成 (仕入先)
 CreateThirdPartyOnly=取引先を作成
 CreateThirdPartyAndContact=取引先と連絡先を作成
 ProspectionArea=見込客エリア
@@ -383,7 +383,7 @@ CapitalOf=%sの首都
 EditCompany=会社を編集する。
 ThisUserIsNot=このユーザは見込客・顧客・仕入先のいずれにも該当しない
 VATIntraCheck=チェック
-VATIntraCheckDesc=VAT IDには、国のプレフィックスを含めることが必要。リンク<b>%s </b>は、欧州VATチェッカーサービス(VIES)を使用し、そのためにはbespoerpサーバーからのインターネットアクセスが必要。
+VATIntraCheckDesc=VAT IDには、国のプレフィックスを含めることが必要。リンク<b>%s </b>は、欧州VATチェッカーサービス(VIES)を使用し、そのためにはDolibarrサーバーからのインターネットアクセスが必要。
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=欧州委員会のウェブサイトでコミュニティ間のVAT IDを確認
 VATIntraManualCheck=欧州委員会のウェブサイト<a href="%s" target="_blank" rel="noopener noreferrer">%s</a>で手動で確認することもできる
@@ -429,8 +429,8 @@ ProspectsByStatus=状態別の見通し
 NoParentCompany=なし
 ExportCardToFormat=形式にカードをエクスポートする
 ContactNotLinkedToCompany=どの取引先にも該当しない連絡先
-bespoerpLogin=bespoerpログイン
-NobespoerpAccess=bespoerpへのアクセスなし
+DolibarrLogin=Dolibarrログイン
+NoDolibarrAccess=Dolibarrへのアクセスなし
 ExportDataset_company_1=取引先（法人・財団・個人）とそのプロパティ
 ExportDataset_company_2=連絡先とそのプロパティ
 ImportDataset_company_1=取引先とそのプロパティ

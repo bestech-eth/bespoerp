@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - multicurrency
+# Dolibarr language file - Source file is en_US - multicurrency
 MultiCurrency=多國幣別
 ErrorAddRateFail=增加的利率錯誤
 ErrorAddCurrencyFail=增加的幣別錯誤

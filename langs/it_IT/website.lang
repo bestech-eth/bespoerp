@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - website
+# Dolibarr language file - Source file is en_US - website
 Shortname=Codice
 WebsiteName=Name of the website
 WebsiteSetupDesc=Crea qui i siti web che desideri utilizzare. Quindi vai nel menu Siti Web per modificarli.
@@ -48,13 +48,13 @@ VirtualhostDesc=The name of the Virtual host or domain (For example: www.mywebsi
 SetHereVirtualHost= <u> Usa con Apache / NGinx / ... </u> <br> Crea sul tuo server web (Apache, Nginx, ...) un host virtuale dedicato con PHP abilitato e una directory principale su <br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Esempio da utilizzare nella configurazione dell'host virtuale Apache:
 YouCanAlsoTestWithPHPS=<u>Use with PHP embedded server</u><br>On develop environment, you may prefer to test the site with the PHP embedded web server (PHP 5.5 required) by running<br><strong>php -S 0.0.0.0:8080 -t %s</strong>
-YouCanAlsoDeployToAnotherWHP= <u> Esegui il tuo sito web con un altro provider di hosting bespoerp </u> <br> Se non hai un server web come Apache o NGinx disponibile su Internet, puoi esportare e importare il tuo sito web su un'altra istanza bespoerp fornita da un altro provider di hosting bespoerp che fornisce integrazione con il modulo Sito web. Puoi trovare un elenco di alcuni provider di hosting bespoerp su <a href="https://saas.bespoerp.org" target="_blank" rel="noopener noreferrer external"> https://saas.bespoerp.org </a>
+YouCanAlsoDeployToAnotherWHP= <u> Esegui il tuo sito web con un altro provider di hosting Dolibarr </u> <br> Se non hai un server web come Apache o NGinx disponibile su Internet, puoi esportare e importare il tuo sito web su un'altra istanza Dolibarr fornita da un altro provider di hosting Dolibarr che fornisce integrazione con il modulo Sito web. Puoi trovare un elenco di alcuni provider di hosting Dolibarr su <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external"> https://saas.dolibarr.org </a>
 CheckVirtualHostPerms=Controlla anche che l'utente dell'host virtuale (ad esempio www-data) abbia <strong> %s </strong> le autorizzazioni sui file in <br> <strong> %s
 ReadPerm=Da leggere
 WritePerm=Write
 TestDeployOnWeb=Test/deploy on web
 PreviewSiteServedByWebServer=<u>Preview %s in a new tab.</u><br><br>The %s will be served by an external web server (like Apache, Nginx, IIS). You must install and setup this server before to point to directory:<br><strong>%s</strong><br>URL served by external server:<br><strong>%s</strong>
-PreviewSiteServedBybespoerp= <u> Anteprima %s in una nuova scheda. </u> <br> <br> %s sarà servito dal server bespoerp pertanto non è necessario alcun server web aggiuntivo (come Apache, Nginx, IIS) per essere installato. <br> L'inconveniente è che gli URL delle pagine non sono facili da usare e iniziano con il percorso del tuo bespoerp. <br> URL servito da bespoerp: <br> <strong> %s </strong> <br> <br> Per utilizzare il proprio server web esterno per servire questo sito, creare un host virtuale sul server Web che punta sulla directory <br> <strong> %s </strong> <br> quindi immettere il nome di questo server virtuale nelle proprietà di questo sito Web e fare clic sul collegamento "Test / Distribuisci sul Web".
+PreviewSiteServedByDolibarr= <u> Anteprima %s in una nuova scheda. </u> <br> <br> %s sarà servito dal server Dolibarr pertanto non è necessario alcun server web aggiuntivo (come Apache, Nginx, IIS) per essere installato. <br> L'inconveniente è che gli URL delle pagine non sono facili da usare e iniziano con il percorso del tuo Dolibarr. <br> URL servito da Dolibarr: <br> <strong> %s </strong> <br> <br> Per utilizzare il proprio server web esterno per servire questo sito, creare un host virtuale sul server Web che punta sulla directory <br> <strong> %s </strong> <br> quindi immettere il nome di questo server virtuale nelle proprietà di questo sito Web e fare clic sul collegamento "Test / Distribuisci sul Web".
 VirtualHostUrlNotDefined=URL of the virtual host served by external web server not defined
 NoPageYet=No pages yet
 YouCanCreatePageOrImportTemplate=You can create a new page or import a full website template

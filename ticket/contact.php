@@ -24,7 +24,7 @@
  *       \brief      Contacts of tickets
  */
 
-// Load bespoerp environment
+// Load Dolibarr environment
 require '../main.inc.php';
 
 require_once DOL_DOCUMENT_ROOT.'/ticket/class/ticket.class.php';

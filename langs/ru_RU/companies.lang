@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - companies
+# Dolibarr language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Название компании %s уже существует. Выберите другое.
 ErrorSetACountryFirst=Сначала установите страну
 SelectThirdParty=Выберите контрагента
@@ -12,7 +12,7 @@ MenuNewSupplier=Новый Поставщик
 MenuNewPrivateIndividual=Новое физическое лицо
 NewCompany=Новая компания (лид, клиент, поставщик)
 NewThirdParty=Новый контрагент (лид, клиент, поставщик)
-CreatebespoerpThirdPartySupplier=Создать контрагента (поставщика)
+CreateDolibarrThirdPartySupplier=Создать контрагента (поставщика)
 CreateThirdPartyOnly=Создать контрагента
 CreateThirdPartyAndContact=Создать контрагента и связанный контакт
 ProspectionArea=Область разведки
@@ -383,7 +383,7 @@ CapitalOf=Капитал %s
 EditCompany=Изменить компанию
 ThisUserIsNot=Этот пользователь не является лидом, клиентом или поставщиком
 VATIntraCheck=Проверить
-VATIntraCheckDesc=ID НДС должен включать префикс страны. Ссылка <b>%s</b> использует европейскую службу проверки НДС (VIES), для которой требуется доступ в Интернет с сервера bespoerp.
+VATIntraCheckDesc=ID НДС должен включать префикс страны. Ссылка <b>%s</b> использует европейскую службу проверки НДС (VIES), для которой требуется доступ в Интернет с сервера Dolibarr.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Проверьте ID НДС на веб-сайте Европейской комиссии
 VATIntraManualCheck=Вы также можете проверить вручную на веб-сайте Европейской комиссии <a href="%s" target="_blank" rel="noopener noreferrer"> %s </a>
@@ -429,8 +429,8 @@ ProspectsByStatus=Лиды по статусу
 NoParentCompany=Нет
 ExportCardToFormat=Экспорт карточки в формате
 ContactNotLinkedToCompany=Контакт не связан с каким-либо контрагентом
-bespoerpLogin=Имя пользователя bespoerp
-NobespoerpAccess=Нет доступа к bespoerp
+DolibarrLogin=Имя пользователя Dolibarr
+NoDolibarrAccess=Нет доступа к Dolibarr
 ExportDataset_company_1=Контрагенты (компании/фонды/физические лица) и их свойства
 ExportDataset_company_2=Контакты и их свойства
 ImportDataset_company_1=Контрагенты и их свойства

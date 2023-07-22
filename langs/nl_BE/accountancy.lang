@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - accountancy
+# Dolibarr language file - Source file is en_US - accountancy
 ACCOUNTING_EXPORT_SEPARATORCSV=Kolom scheidingsteken voor exporteren naar bestand
 ACCOUNTING_EXPORT_DATE=Datum formaat voor exporteren naar bestand
 ACCOUNTING_EXPORT_PIECE=Exporteren van het aantal stukken

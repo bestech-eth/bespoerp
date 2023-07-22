@@ -1,7 +1,7 @@
-# bespoerp language file - Source file is en_US - paybox
+# Dolibarr language file - Source file is en_US - paybox
 PayBoxSetup=PayBox modulini sozlash
-PayBoxDesc=Ushbu modul mijozlar tomonidan <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a> to‘loviga ruxsat beruvchi sahifalarni taklif qiladi. Bu bepul to'lov uchun yoki ma'lum bir bespoerp ob'ekti bo'yicha to'lov uchun ishlatilishi mumkin (hisob-faktura, buyurtma, ...)
-FollowingUrlAreAvailableToMakePayments=bespoerp ob'ektlarida to'lovni amalga oshirish uchun xaridorga sahifani taqdim etish uchun quyidagi URL manzillar mavjud
+PayBoxDesc=Ushbu modul mijozlar tomonidan <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a> to‘loviga ruxsat beruvchi sahifalarni taklif qiladi. Bu bepul to'lov uchun yoki ma'lum bir Dolibarr ob'ekti bo'yicha to'lov uchun ishlatilishi mumkin (hisob-faktura, buyurtma, ...)
+FollowingUrlAreAvailableToMakePayments=Dolibarr ob'ektlarida to'lovni amalga oshirish uchun xaridorga sahifani taqdim etish uchun quyidagi URL manzillar mavjud
 PaymentForm=To'lov shakli
 WelcomeOnPaymentPage=Onlayn to'lov xizmatimizga xush kelibsiz
 ThisScreenAllowsYouToPay=Ushbu ekran sizga %s raqamiga onlayn to'lovni amalga oshirishga imkon beradi.

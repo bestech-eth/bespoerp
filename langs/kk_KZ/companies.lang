@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - companies
+# Dolibarr language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=%s компаниясының атауы бұрыннан бар. Басқа біреуін таңдаңыз.
 ErrorSetACountryFirst=Алдымен елді белгілеңіз
 SelectThirdParty=Үшінші тарапты таңдаңыз
@@ -12,7 +12,7 @@ MenuNewSupplier=Жаңа сатушы
 MenuNewPrivateIndividual=Жаңа жеке тұлға
 NewCompany=Жаңа компания (болашақ, тұтынушы, сатушы)
 NewThirdParty=Жаңа үшінші тарап (потенциал, тұтынушы, сатушы)
-CreatebespoerpThirdPartySupplier=Үшінші тарап құру (жеткізуші)
+CreateDolibarrThirdPartySupplier=Үшінші тарап құру (жеткізуші)
 CreateThirdPartyOnly=Үшінші тарап құру
 CreateThirdPartyAndContact=Үшінші тарап + бала контактісін жасаңыз
 ProspectionArea=Іздеу аймағы
@@ -383,7 +383,7 @@ CapitalOf=%s астанасы
 EditCompany=Компанияны өңдеу
 ThisUserIsNot=Бұл пайдаланушы потенциалды, тұтынушы немесе сатушы емес
 VATIntraCheck=Тексеру
-VATIntraCheckDesc=ҚҚС идентификаторы ел префиксін қамтуы тиіс. <b> %s </b> сілтемесі bespoerp серверінен Интернетке қосылуды қажет ететін Еуропалық ҚҚС тексеру қызметін (VIES) қолданады.
+VATIntraCheckDesc=ҚҚС идентификаторы ел префиксін қамтуы тиіс. <b> %s </b> сілтемесі Dolibarr серверінен Интернетке қосылуды қажет ететін Еуропалық ҚҚС тексеру қызметін (VIES) қолданады.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Еуропалық комиссияның веб-сайтынан ҚҚС бойынша Қауымдастық ішіндегі идентификаторды тексеріңіз
 VATIntraManualCheck=You can also check manually on the European Commission website <a href="%s" target="_blank" rel="noopener noreferrer">%s</a>
@@ -429,8 +429,8 @@ ProspectsByStatus=Статус бойынша перспективалар
 NoParentCompany=Ешқайсысы
 ExportCardToFormat=Пішімдеу үшін картаны экспорттаңыз
 ContactNotLinkedToCompany=Байланыс үшінші тараппен байланысты емес
-bespoerpLogin=bespoerp логині
-NobespoerpAccess=bespoerp қатынасы жоқ
+DolibarrLogin=Dolibarr логині
+NoDolibarrAccess=Dolibarr қатынасы жоқ
 ExportDataset_company_1=Үшінші тұлғалар (компаниялар/қорлар/жеке адамдар) және олардың қасиеттері
 ExportDataset_company_2=Байланыс және олардың қасиеттері
 ImportDataset_company_1=Үшінші тұлғалар және олардың қасиеттері

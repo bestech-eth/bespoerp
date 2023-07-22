@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - cron
+# Dolibarr language file - Source file is en_US - cron
 # About page
 # Right
 Permission23101 = Darllenwch Swydd wedi'i Amserlennu
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Analluogi
 CronTaskInactive=Mae'r swydd hon wedi'i hanalluogi (ddim wedi'i hamserlennu)
 CronId=Id
 CronClassFile=Enw ffeil gyda dosbarth
-CronModuleHelp=Enw cyfeiriadur modiwl bespoerp (hefyd yn gweithio gyda modiwl allanol bespoerp). <BR> Er enghraifft i alw'r dull nôl gwrthrych Cynnyrch bespoerp /htdocs/ <u> cynnyrch </u> /class/product.class.php, y gwerth ar gyfer modiwl yw <br>ccze7180 a0478fdca4dz0 /class/product.class.php
-CronClassFileHelp=Y llwybr cymharol ac enw'r ffeil i'w llwytho (mae'r llwybr yn gymharol â chyfeiriadur gwraidd gweinydd gwe). <BR> Er enghraifft i alw'r dull nôl o gwrthrych cynnyrch bespoerp htdocs/product/class/ <u> product.class.php </u> , y gwerth ar gyfer enw ffeil dosbarth yw a0342fccfda19bz71080 a0342fccfda19bz71080 a0342fccfda19bz71080 a0342fccfda19bz7130 a0342fccfda19bz71080 a0342fccfda19bz7180 a0342fccfda19bz7180 a0342fccfda19bz7180 a0342fccfda19bz71080804 a0342fccfda19bz7180 a0342fccfda19bz7180 a0342fccfda.
-CronObjectHelp=Enw'r gwrthrych i'w lwytho. <BR> Er enghraifft i alw'r dull nôl gwrthrych Cynnyrch bespoerp /htdocs/product/class/product.class.php, y gwerth ar gyfer enw ffeil dosbarth yw <br> <i> Cynnyrch </i>
-CronMethodHelp=Y dull gwrthrych i'w lansio. <BR> Er enghraifft i alw'r dull nôl o gwrthrych Cynnyrch bespoerp /htdocs/product/class/product.class.php, gwerth y dull yw <br> <i> fetch </i>
-CronArgsHelp=Mae'r dadleuon dull. <BR> Er enghraifft i alw'r dull nôl gwrthrych Cynnyrch bespoerp /htdocs/product/class/product.class.php, gall y gwerth ar gyfer paramedrau fod yn <br> <i> 0, ProductRef a0bae63758
+CronModuleHelp=Enw cyfeiriadur modiwl Dolibarr (hefyd yn gweithio gyda modiwl allanol Dolibarr). <BR> Er enghraifft i alw'r dull nôl gwrthrych Cynnyrch Dolibarr /htdocs/ <u> cynnyrch </u> /class/product.class.php, y gwerth ar gyfer modiwl yw <br>ccze7180 a0478fdca4dz0 /class/product.class.php
+CronClassFileHelp=Y llwybr cymharol ac enw'r ffeil i'w llwytho (mae'r llwybr yn gymharol â chyfeiriadur gwraidd gweinydd gwe). <BR> Er enghraifft i alw'r dull nôl o gwrthrych cynnyrch Dolibarr htdocs/product/class/ <u> product.class.php </u> , y gwerth ar gyfer enw ffeil dosbarth yw a0342fccfda19bz71080 a0342fccfda19bz71080 a0342fccfda19bz71080 a0342fccfda19bz7130 a0342fccfda19bz71080 a0342fccfda19bz7180 a0342fccfda19bz7180 a0342fccfda19bz7180 a0342fccfda19bz71080804 a0342fccfda19bz7180 a0342fccfda19bz7180 a0342fccfda.
+CronObjectHelp=Enw'r gwrthrych i'w lwytho. <BR> Er enghraifft i alw'r dull nôl gwrthrych Cynnyrch Dolibarr /htdocs/product/class/product.class.php, y gwerth ar gyfer enw ffeil dosbarth yw <br> <i> Cynnyrch </i>
+CronMethodHelp=Y dull gwrthrych i'w lansio. <BR> Er enghraifft i alw'r dull nôl o gwrthrych Cynnyrch Dolibarr /htdocs/product/class/product.class.php, gwerth y dull yw <br> <i> fetch </i>
+CronArgsHelp=Mae'r dadleuon dull. <BR> Er enghraifft i alw'r dull nôl gwrthrych Cynnyrch Dolibarr /htdocs/product/class/product.class.php, gall y gwerth ar gyfer paramedrau fod yn <br> <i> 0, ProductRef a0bae63758
 CronCommandHelp=Llinell orchymyn y system i'w gweithredu.
 CronCreateJob=Creu Swydd Restredig newydd
 CronFrom=Oddiwrth

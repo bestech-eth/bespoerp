@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - stripe
+# Dolibarr language file - Source file is en_US - stripe
 StripeSetup=Configurare modul Stripe
 StripeDesc=Oferiți clienților o pagină de plată online pentru plăți cu carduri de credit/debit via <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a>. Aceasta poate fi folosită pentru a permite clienților să efectueze plăți ad-hoc sau pentru plăți legate de un anumit obiect din sistem (factură, comandă, ...) 
 StripeOrCBDoPayment=Plătiți cu cardul de credit sau Stripe

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - orders
+# Dolibarr language file - Source file is en_US - orders
 OrdersArea=صارفین کے آرڈر کے علاقے
 SuppliersOrdersArea=خریداری کے آرڈر کا علاقہ
 OrderCard=آرڈر کارڈ
@@ -120,8 +120,8 @@ ConfirmCloneOrder=کیا آپ واقعی اس آرڈر کو کلون کرنا چ
 DispatchSupplierOrder=خریداری کا آرڈر %s وصول کرنا
 FirstApprovalAlreadyDone=پہلی منظوری ہو چکی ہے۔
 SecondApprovalAlreadyDone=دوسری منظوری پہلے ہی ہو چکی ہے۔
-SupplierOrderReceivedInbespoerp=خریداری کا آرڈر %s موصول ہوا %s
-SupplierOrderSubmitedInbespoerp=خریداری کا آرڈر %s جمع کرایا گیا۔
+SupplierOrderReceivedInDolibarr=خریداری کا آرڈر %s موصول ہوا %s
+SupplierOrderSubmitedInDolibarr=خریداری کا آرڈر %s جمع کرایا گیا۔
 SupplierOrderClassifiedBilled=پرچیز آرڈر %s سیٹ بل کر دیا گیا۔
 OtherOrders=دوسرے احکامات
 SupplierOrderValidatedAndApproved=سپلائر آرڈر کی توثیق اور منظوری دی گئی ہے: %s

@@ -1,8 +1,8 @@
-# bespoerp language file - Source file is en_US - stripe
+# Dolibarr language file - Source file is en_US - stripe
 StripeSetup=Impostazione modulo Stripe
-StripeDesc=Offri ai tuoi clienti una pagina di pagamento online per i pagamenti con carte di credito/debito tramite <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a> . Questo può essere utilizzato per consentire ai tuoi clienti di effettuare pagamenti ad hoc o per pagamenti relativi a un particolare oggetto bespoerp (fattura, ordine, ...)
+StripeDesc=Offri ai tuoi clienti una pagina di pagamento online per i pagamenti con carte di credito/debito tramite <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a> . Questo può essere utilizzato per consentire ai tuoi clienti di effettuare pagamenti ad hoc o per pagamenti relativi a un particolare oggetto Dolibarr (fattura, ordine, ...)
 StripeOrCBDoPayment=Paga con carta di credito o Stripe
-FollowingUrlAreAvailableToMakePayments=Puoi utilizzare i seguenti indirizzi per permettere ai clienti di effettuare pagamenti su bespoerp
+FollowingUrlAreAvailableToMakePayments=Puoi utilizzare i seguenti indirizzi per permettere ai clienti di effettuare pagamenti su Dolibarr
 PaymentForm=Forma di pagamento
 WelcomeOnPaymentPage=Benvenuto sulla nostra piattaforma per i pagamenti online
 ThisScreenAllowsYouToPay=Questa schermata consente di effettuare un pagamento online per %s.

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - products
+# Dolibarr language file - Source file is en_US - products
 ProductRef=Produkt ref.
 ProductLabel=Produktmärkning
 ProductLabelTranslated=Översatt produktetikett
@@ -300,7 +300,7 @@ MinSupplierPrice=Lägsta köpkurs
 MinCustomerPrice=Lägsta försäljningspris
 NoDynamicPrice=Inget dynamiskt pris
 DynamicPriceConfiguration=Dynamisk priskonfiguration
-DynamicPriceDesc=Du kan definiera matematiska formler för att beräkna kund- eller leverantörspriser. Sådana formler kan använda alla matematiska operatörer, vissa konstanter och variabler. Du kan här definiera variablerna du vill använda. Om variabeln behöver en automatisk uppdatering kan du definiera den externa adressen så att bespoerp kan uppdatera värdet automatiskt.
+DynamicPriceDesc=Du kan definiera matematiska formler för att beräkna kund- eller leverantörspriser. Sådana formler kan använda alla matematiska operatörer, vissa konstanter och variabler. Du kan här definiera variablerna du vill använda. Om variabeln behöver en automatisk uppdatering kan du definiera den externa adressen så att Dolibarr kan uppdatera värdet automatiskt.
 AddVariable=Lägg till variabel
 AddUpdater=Lägg till Updater
 GlobalVariables=Globala variabler
@@ -379,7 +379,7 @@ NewProductAttribute=Nya attribut
 NewProductAttributeValue=Nytt attributvärde
 ErrorCreatingProductAttributeValue=Det uppstod ett fel när du skapade attributvärdet. Det kan bero på att det redan finns ett existerande värde med den referensen
 ProductCombinationGeneratorWarning=Om du fortsätter, innan du genererar nya varianter, raderas alla tidigare. Redan befintliga kommer att uppdateras med de nya värdena
-TooMuchCombinationsWarning=Att generera många varianter kan leda till hög CPU, minnesanvändning och bespoerp inte kunna skapa dem. Aktivera alternativet "%s" kan bidra till att minska minnesanvändningen.
+TooMuchCombinationsWarning=Att generera många varianter kan leda till hög CPU, minnesanvändning och Dolibarr inte kunna skapa dem. Aktivera alternativet "%s" kan bidra till att minska minnesanvändningen.
 DoNotRemovePreviousCombinations=Ta inte bort tidigare varianter
 UsePercentageVariations=Använd procentuella variationer
 PercentageVariation=Procentuell variation

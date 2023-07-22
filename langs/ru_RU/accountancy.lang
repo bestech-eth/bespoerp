@@ -1,4 +1,4 @@
-# bespoerp language file - en_US - Accountancy (Double entries)
+# Dolibarr language file - en_US - Accountancy (Double entries)
 Accountancy=Бухгалтерия
 Accounting=Бухгалтерия
 ACCOUNTING_EXPORT_SEPARATORCSV=Разделитель колонок при экспорте в файл

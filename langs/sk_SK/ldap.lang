@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - ldap
+# Dolibarr language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=Heslo pre užívateľské <b>%s</b> na doméne <b>%s</b> musí byť zmenený.
 UserMustChangePassNextLogon=Užívateľ musí zmeniť heslo v doméne %s
 LDAPInformationsForThisContact=Informácie v databáze LDAP pre tento kontakt
@@ -22,6 +22,6 @@ GroupSynchronized=Skupina synchronizované
 MemberSynchronized=Člen synchronizované
 MemberTypeSynchronized=Member type synchronized
 ContactSynchronized=Kontaktujte synchronizované
-ForceSynchronize=Force synchronizácia bespoerp -&gt; LDAP
+ForceSynchronize=Force synchronizácia Dolibarr -&gt; LDAP
 ErrorFailedToReadLDAP=Nepodarilo sa prečítať LDAP databázy. Skontrolujte nastavenie LDAP modul a databázový dostupnosť.
 PasswordOfUserInLDAP=Password of user in LDAP

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - multicurrency
+# Dolibarr language file - Source file is en_US - multicurrency
 MultiCurrency=Flera valutor
 ErrorAddRateFail=Fel i tillagt pris
 ErrorAddCurrencyFail=Fel i tillagd valuta

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - printing
+# Dolibarr language file - Source file is en_US - printing
 ListDrivers=Lijst van beschikbare drivers
 PrintTestDesc=Beschikbare printers
 TargetedPrinter=Doelprinter

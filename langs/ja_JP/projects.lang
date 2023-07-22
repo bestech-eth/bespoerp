@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - projects
+# Dolibarr language file - Source file is en_US - projects
 RefProject=参照プロジェクト
 ProjectRef=プロジェクト参照符号
 ProjectId=プロジェクトID
@@ -157,12 +157,12 @@ ConfirmCloneProject=このプロジェクトのクローンを作成してもよ
 ProjectReportDate=新規プロジェクトの開始日に応じてタスクの日付を変更する
 ErrorShiftTaskDate=新規プロジェクトの開始日に応じてタスクの日付をシフトすることはできない
 ProjectsAndTasksLines=プロジェクトとタスク
-ProjectCreatedInbespoerp=プロジェクト%sは作成済
-ProjectValidatedInbespoerp=プロジェクト%sは検証済
-ProjectModifiedInbespoerp=プロジェクト%sは変更済
-TaskCreatedInbespoerp=タスク%sが作成された
-TaskModifiedInbespoerp=タスク%sが変更された
-TaskDeletedInbespoerp=タスク%sが削除された
+ProjectCreatedInDolibarr=プロジェクト%sは作成済
+ProjectValidatedInDolibarr=プロジェクト%sは検証済
+ProjectModifiedInDolibarr=プロジェクト%sは変更済
+TaskCreatedInDolibarr=タスク%sが作成された
+TaskModifiedInDolibarr=タスク%sが変更された
+TaskDeletedInDolibarr=タスク%sが削除された
 OpportunityStatus=リード状態
 OpportunityStatusShort=リード状態
 OpportunityProbability=リード確率

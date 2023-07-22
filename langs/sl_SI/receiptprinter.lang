@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - receiptprinter
+# Dolibarr language file - Source file is en_US - receiptprinter
 ReceiptPrinterSetup=Nastavitev modula ReceiptPrinter
 PrinterAdded=Dodan tiskalnik %s
 PrinterUpdated=Tiskalnik %s posodobljen

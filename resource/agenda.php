@@ -28,7 +28,7 @@
  *  \brief      Page of resource events
  */
 
-// Load bespoerp environment
+// Load Dolibarr environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/contact/class/contact.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/functions2.lib.php';

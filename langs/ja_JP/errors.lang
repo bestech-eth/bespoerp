@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - errors
+# Dolibarr language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=エラーなし、コミットする
@@ -51,10 +51,10 @@ ErrorWrongDate=日付が正しくない！
 ErrorFailedToWriteInDir=ディレクトリ%sの書き込みに失敗した
 ErrorFailedToBuildArchive=アーカイブ ファイル %s の構築に失敗した
 ErrorFoundBadEmailInFile=ファイル内の%s線の発見誤った電子メールのシンタックス(電子メール= %sを使用したサンプルライン%s)
-ErrorUserCannotBeDelete=ユーザを削除することはできない。多分それはbespoerpエンティティに関連付けられている。
+ErrorUserCannotBeDelete=ユーザを削除することはできない。多分それはDolibarrエンティティに関連付けられている。
 ErrorFieldsRequired=一部の必須フィールドは空白のままになっている。
 ErrorSubjectIsRequired=メールの件名が必要 
-ErrorFailedToCreateDir=ディレクトリの作成に失敗した。そのWebサーバのユーザがbespoerpのドキュメントディレクトリに書き込む権限を持って確認すること。パラメータ の<b>safe_modeが</b>このPHPが有効になっている場合、bespoerp PHPファイルは、Webサーバーのユーザ(またはグループ)に所有していることを確認すること。
+ErrorFailedToCreateDir=ディレクトリの作成に失敗した。そのWebサーバのユーザがDolibarrのドキュメントディレクトリに書き込む権限を持って確認すること。パラメータ の<b>safe_modeが</b>このPHPが有効になっている場合、Dolibarr PHPファイルは、Webサーバーのユーザ(またはグループ)に所有していることを確認すること。
 ErrorNoMailDefinedForThisUser=このユーザに定義されたメールはない
 ErrorSetupOfEmailsNotComplete=メールの設定が完了していない
 ErrorFeatureNeedJavascript=この機能は javascript が動作するよう活性化させる必要がある。設定でこれを変更 - 表示。
@@ -82,7 +82,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=フィールド <b> %s </b> に
 ErrorFieldMustHaveXChar=フィールド<b>%s </b>には、少なくとも%s文字が必要だ。
 ErrorNoAccountancyModuleLoaded=活性化済会計モジュールなし
 ErrorExportDuplicateProfil=このプロファイル名は、このエクスポートセットに既に存在する。
-ErrorLDAPSetupNotComplete=bespoerp-LDAPのマッチングは完全ではない。
+ErrorLDAPSetupNotComplete=Dolibarr-LDAPのマッチングは完全ではない。
 ErrorLDAPMakeManualTest=.ldifファイルは、ディレクトリ%sで生成された。エラーの詳細情報を持つようにコマンドラインから手動でそれをロードしようとする。
 ErrorCantSaveADoneUserWithZeroPercentage= "doneby" フィールドも入力されている場合、 "statusnotstarted" のアクションを保存できない。
 ErrorRefAlreadyExists=参照<b>%s</b>は既に存在する。
@@ -115,8 +115,8 @@ ErrorProdIdAlreadyExist=%sは別の第三者に割り当てられている
 ErrorFailedToSendPassword=パスワードの送信に失敗した
 ErrorFailedToLoadRSSFile=RSSフィードの取得に失敗した。エラーメッセージが十分な情報を提供していない場合は定数MAIN_SIMPLEXMLLOAD_DEBUGを追加しようとする。
 ErrorForbidden=アクセスが拒否された。 <br>無効にされたモジュールのページ、領域、または機能にアクセスしようとしたか、認証されたセッションに参加していないか、ユーザに許可されていない。
-ErrorForbidden2=このログインの許可は、メニュー%s  - &gt; %sからbespoerp管理者によって定義することができる。
-ErrorForbidden3=そのbespoerpが認証セッションを介して使用されていないようだ。認証を(htaccessファイルは、mod_authまたは他の...)を管理する方法を知ってbespoerp設定ドキュメントを見てみよう。
+ErrorForbidden2=このログインの許可は、メニュー%s  - &gt; %sからDolibarr管理者によって定義することができる。
+ErrorForbidden3=そのDolibarrが認証セッションを介して使用されていないようだ。認証を(htaccessファイルは、mod_authまたは他の...)を管理する方法を知ってDolibarr設定ドキュメントを見てみよう。
 ErrorForbidden4=注：このログインの既存のセッションを破棄するには、ブラウザのCookieをクリアすること。
 ErrorNoImagickReadimage=クラスImagickが、このPHPで発見さ​​れていない。なしプレビューは利用できない。管理者は、メニューのSetupから、このタブを無効にすることができる - 表示する。
 ErrorRecordAlreadyExists=既に登録されている
@@ -139,8 +139,8 @@ ErrorWebServerUserHasNotPermission=Webサーバを実行するユーザアカウ
 ErrorNoActivatedBarcode=活性化済バーコード·タイプなし
 ErrUnzipFails=ZipArchiveで%sを解凍できなかった
 ErrNoZipEngine=このPHPで%sファイルをzip / unzipするエンジンはない
-ErrorFileMustBeAbespoerpPackage=ファイル%sはbespoerpzipパッケージである必要がある
-ErrorModuleFileRequired=bespoerpモジュールパッケージファイルを選択する必要がある
+ErrorFileMustBeADolibarrPackage=ファイル%sはDolibarrzipパッケージである必要がある
+ErrorModuleFileRequired=Dolibarrモジュールパッケージファイルを選択する必要がある
 ErrorPhpCurlNotInstalled=PHPCURLがインストールされていない。これはPaypalと話すために不可欠だ。
 ErrorFailedToAddToMailmanList=レコード%sをMailmanリスト%sまたはSPIPベースに追加できなかった
 ErrorFailedToRemoveToMailmanList=レコード%sをMailmanリスト%sまたはSPIPベースに削除できなかった
@@ -152,7 +152,7 @@ ErrorDateMustBeBeforeToday=日付は今日よりも低くする必要がある
 ErrorDateMustBeInFuture=日付は今日より大きくなければならない
 ErrorPaymentModeDefinedToWithoutSetup=支払モードはタイプ%sに設定されたが、この支払モードで表示する情報を定義するためのモジュール請求書の設定が完了していなかった。
 ErrorPHPNeedModule=エラー、この機能を使用するには、PHPにモジュール<b> %s</b>がインストールされている必要がある。
-ErrorOpenIDSetupNotComplete=OpenID認証を許可するようにbespoerp構成ファイルを設定したが、OpenIDサービスのURLが定数%sに定義されていない
+ErrorOpenIDSetupNotComplete=OpenID認証を許可するようにDolibarr構成ファイルを設定したが、OpenIDサービスのURLが定数%sに定義されていない
 ErrorWarehouseMustDiffers=ソースウェアハウスとターゲットウェアハウスは異なる必要がある
 ErrorBadFormat=悪いフォーマット！
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=エラー、この構成員はまだ取引先にリンクされていない。請求書付きのサブスクリプションを作成する前に、構成員を既存の取引先にリンクするか、新規取引先を作成すること。
@@ -215,7 +215,7 @@ ErrorUserNotAssignedToTask=消費時間を入力できるようにするには�
 ErrorTaskAlreadyAssigned=既にユーザに割り当てられているタスク
 ErrorModuleFileSeemsToHaveAWrongFormat=モジュールパッケージの形式が間違っているようだ。
 ErrorModuleFileSeemsToHaveAWrongFormat2=モジュールのzipには、少なくとも1つの必須ディレクトリが存在する必要がある：<strong> %s</strong>または<strong>%s </strong>
-ErrorFilenameDosNotMatchbespoerpPackageRules=モジュールパッケージの名前(<strong> %s </strong>)が予期される名前の構文と一致しない：<strong> %s </strong>
+ErrorFilenameDosNotMatchDolibarrPackageRules=モジュールパッケージの名前(<strong> %s </strong>)が予期される名前の構文と一致しない：<strong> %s </strong>
 ErrorDuplicateTrigger=エラー、トリガー名%sが重複している。既に%sからロードされている。
 ErrorNoWarehouseDefined=エラー、倉庫が定義されていない。
 ErrorBadLinkSourceSetButBadValueForRef=使用しているリンクは無効だ。支払の "ソース" が定義されているが、 "ref" の値が無効だ。
@@ -313,7 +313,7 @@ ErrorCoherenceMenu= <b> %s </b> は、<b> %s </b> が「左」の場合に必要
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=PHPパラメータ upload_max_filesize(%s)は、PHPパラメータ post_max_size(%s)よりも大きくなっている。これは一貫した設定ではない。
-WarningPasswordSetWithNoAccount=この構成員にパスワードが設定された。ただし、ユーザアカウントは作成されなかった。したがって、このパスワードは保存されるが、bespoerpへのログインには使用できない。外部モジュール/インターフェースで使用できるが、構成員のログインやパスワードを定義する必要がない場合は、構成員モジュールの設定から "各構成員のログインを管理する" オプションを無効にすることができる。ログインを管理する必要があるがパスワードは必要ない場合は、このフィールドを空のままにして、この警告を回避できる。注：構成員がユーザにリンクされている場合は、電子メールをログインとして使用することもできる。
+WarningPasswordSetWithNoAccount=この構成員にパスワードが設定された。ただし、ユーザアカウントは作成されなかった。したがって、このパスワードは保存されるが、Dolibarrへのログインには使用できない。外部モジュール/インターフェースで使用できるが、構成員のログインやパスワードを定義する必要がない場合は、構成員モジュールの設定から "各構成員のログインを管理する" オプションを無効にすることができる。ログインを管理する必要があるがパスワードは必要ない場合は、このフィールドを空のままにして、この警告を回避できる。注：構成員がユーザにリンクされている場合は、電子メールをログインとして使用することもできる。
 WarningMandatorySetupNotComplete=主なパラメータの設定はこちら
 WarningEnableYourModulesApplications=モジュールとアプリケーションの有効化には、ここをクリックすること
 WarningSafeModeOnCheckExecDir=警告、PHPのオプション<b>セーフモードは、PHP</b>のパラメータ <b>safe_mode_exec_dirの</b>宣言されたディレクトリ内に格納する必要があるので、コマンドにある。

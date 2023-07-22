@@ -150,16 +150,16 @@ div.mainmenu.generic4::before {
 	color: #555;
 }
 
-/* Define square bespoerp logo in pure CSS */
+/* Define square Dolibarr logo in pure CSS */
 
-.fa-bespoerp-css{
+.fa-dolibarr-css{
 	color: #235481;
 	background: currentColor;
 	height: 150px;
 	width: 150px;
 	position: relative;
 }
-.fa-bespoerp-css:before{
+.fa-dolibarr-css:before{
 	content: '';
 	position: absolute;
 	left: 19%;
@@ -169,7 +169,7 @@ div.mainmenu.generic4::before {
 	border: solid 30px white;
 	border-radius: 0% 200% 200% 0% / 0% 180% 180% 0%;
 }
-.fa-bespoerp-css:after{
+.fa-dolibarr-css:after{
 	content: '';
 	position: absolute;
 	left: 19%;

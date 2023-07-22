@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - cron
+# Dolibarr language file - Source file is en_US - cron
 # About page
 # Right
 Permission23101 = Xem công việc theo lịch trình
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Vô hiệu hoá
 CronTaskInactive=This job is disabled (not scheduled)
 CronId=Id
 CronClassFile=Tên tệp với lớp
-CronModuleHelp=Tên của thư mục mô-đun bespoerp (cũng hoạt động với mô-đun bespoerp bên ngoài). <BR> Ví dụ: để gọi phương thức tìm nạp của đối tượng sản phẩm bespoerp/htdocs/<u>product</u>/class/products.class.php, giá trị cho mô-đun là <br> <i>product</i>
-CronClassFileHelp=Đường dẫn tương đối và tên tệp để tải (đường dẫn có liên quan đến thư mục gốc của máy chủ web). <BR> Ví dụ: để gọi phương thức tìm nạp của đối tượng Sản phẩm bespoerp htdocs/product/class/<u>product.class.php</u> , giá trị cho tên tệp lớp là <br> <i>product/class/product.class.php</i>
-CronObjectHelp=Tên đối tượng để tải. <BR> Ví dụ: để gọi phương thức tìm nạp của đối tượng Sản phẩm bespoerp /htdocs/product/class/products.class.php, giá trị cho tên tệp lớp là <br> <i>Product</i>
-CronMethodHelp=Phương thức đối tượng để khởi chạy. <BR> Ví dụ: để gọi phương thức tìm nạp của đối tượng Sản phẩm bespoerp /htdocs/product/class/products.class.php, giá trị của phương thức là <br> <i>fetch</i>
-CronArgsHelp=Các đối số phương thức. <BR> Ví dụ: để gọi phương thức tìm nạp của đối tượng Sản phẩm bespoerp /htdocs/product/class/products.class.php, giá trị cho tham số có thể là <br> <i>0, ProductRef</i>
+CronModuleHelp=Tên của thư mục mô-đun Dolibarr (cũng hoạt động với mô-đun Dolibarr bên ngoài). <BR> Ví dụ: để gọi phương thức tìm nạp của đối tượng sản phẩm Dolibarr/htdocs/<u>product</u>/class/products.class.php, giá trị cho mô-đun là <br> <i>product</i>
+CronClassFileHelp=Đường dẫn tương đối và tên tệp để tải (đường dẫn có liên quan đến thư mục gốc của máy chủ web). <BR> Ví dụ: để gọi phương thức tìm nạp của đối tượng Sản phẩm Dolibarr htdocs/product/class/<u>product.class.php</u> , giá trị cho tên tệp lớp là <br> <i>product/class/product.class.php</i>
+CronObjectHelp=Tên đối tượng để tải. <BR> Ví dụ: để gọi phương thức tìm nạp của đối tượng Sản phẩm Dolibarr /htdocs/product/class/products.class.php, giá trị cho tên tệp lớp là <br> <i>Product</i>
+CronMethodHelp=Phương thức đối tượng để khởi chạy. <BR> Ví dụ: để gọi phương thức tìm nạp của đối tượng Sản phẩm Dolibarr /htdocs/product/class/products.class.php, giá trị của phương thức là <br> <i>fetch</i>
+CronArgsHelp=Các đối số phương thức. <BR> Ví dụ: để gọi phương thức tìm nạp của đối tượng Sản phẩm Dolibarr /htdocs/product/class/products.class.php, giá trị cho tham số có thể là <br> <i>0, ProductRef</i>
 CronCommandHelp=Dòng lệnh hệ thống để thực thi.
 CronCreateJob=Tạo công việc theo lịch trình mới
 CronFrom=Từ

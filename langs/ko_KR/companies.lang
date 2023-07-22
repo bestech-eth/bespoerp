@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - companies
+# Dolibarr language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=회사 이름 %s이 (가) 이미 있습니다. 다른 것을 선택하십시오.
 ErrorSetACountryFirst=먼저 국가를 설정하십시오.
 SelectThirdParty=협력업체 선택
@@ -12,7 +12,7 @@ MenuNewSupplier=New Vendor
 MenuNewPrivateIndividual=신규 개인
 NewCompany=New company (prospect, customer, vendor)
 NewThirdParty=New Third Party (prospect, customer, vendor)
-CreatebespoerpThirdPartySupplier=Create a third party (vendor)
+CreateDolibarrThirdPartySupplier=Create a third party (vendor)
 CreateThirdPartyOnly=협력업체 생성
 CreateThirdPartyAndContact=협력업체 + 신생 연락처 만들기
 ProspectionArea=매장 지역
@@ -383,7 +383,7 @@ CapitalOf=자본금 %s
 EditCompany=회사 편집
 ThisUserIsNot=This user is not a prospect, customer or vendor
 VATIntraCheck=검사
-VATIntraCheckDesc=The VAT ID must include the country prefix. The link <b>%s</b> uses the European VAT checker service (VIES) which requires internet access from the bespoerp server.
+VATIntraCheckDesc=The VAT ID must include the country prefix. The link <b>%s</b> uses the European VAT checker service (VIES) which requires internet access from the Dolibarr server.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Check the intra-Community VAT ID on the European Commission website
 VATIntraManualCheck=You can also check manually on the European Commission website <a href="%s" target="_blank" rel="noopener noreferrer">%s</a>
@@ -429,8 +429,8 @@ ProspectsByStatus=상태 별 잠재고객
 NoParentCompany=없음
 ExportCardToFormat=포맷으로 카드 내보내기
 ContactNotLinkedToCompany=협력업체와 연결되지 않은 연락처
-bespoerpLogin=bespoerp 로그인
-NobespoerpAccess=bespoerp 접속 불가
+DolibarrLogin=Dolibarr 로그인
+NoDolibarrAccess=Dolibarr 접속 불가
 ExportDataset_company_1=Third-parties (companies/foundations/physical people) and their properties
 ExportDataset_company_2=Contacts and their properties
 ImportDataset_company_1=Third-parties and their properties

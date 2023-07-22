@@ -64,7 +64,7 @@ DATAPOLICY_opposition_prospection = Iebilst pret savu personas datu apstrādi iz
 # Popup
 #
 DATAPOLICY_POPUP_ANONYME_TITLE = Anonimizēt trešo pusi
-DATAPOLICY_POPUP_ANONYME_TEXTE = Jūs nevarat izdzēst šo kontaktpersonu no bespoerp, jo ir saistīti vienumi. Saskaņā ar GDPR jūs visus šos datus padarīsit anonīmus, lai ievērotu savas saistības. Vai vēlaties turpināt?
+DATAPOLICY_POPUP_ANONYME_TEXTE = Jūs nevarat izdzēst šo kontaktpersonu no Dolibarr, jo ir saistīti vienumi. Saskaņā ar GDPR jūs visus šos datus padarīsit anonīmus, lai ievērotu savas saistības. Vai vēlaties turpināt?
 
 #
 # Button for portability

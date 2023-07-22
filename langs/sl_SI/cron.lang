@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - cron
+# Dolibarr language file - Source file is en_US - cron
 # About page
 # Right
 Permission23101 = Preberi načrtovano delo
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Onemogoči
 CronTaskInactive=To opravilo je onemogočeno (ni načrtovano)
 CronId=Id
 CronClassFile=Ime datoteke z razredom
-CronModuleHelp=Ime imenika modulov bespoerp (deluje tudi z zunanjim modulom bespoerp). <BR> Če želite na primer poklicati metodo pridobivanja predmeta bespoerp Product /htdocs/ <u> product </u> /class/product.class.php, je vrednost za modul <br> <i> izdelek </i>
-CronClassFileHelp=Relativna pot in ime datoteke za nalaganje (pot je relativna glede na korenski imenik spletnega strežnika). <BR> Na primer, če želite poklicati metodo pridobivanja predmeta bespoerp Product htdocs/product/class/ <u> product.class.php </u> , je vrednost za ime datoteke razreda <br> <i> product/class/product.bace363z.php a058
-CronObjectHelp=Ime predmeta za nalaganje. <BR> Če želite na primer poklicati metodo pridobivanja predmeta bespoerp Product /htdocs/product/class/product.class.php, je vrednost za ime datoteke razreda <br> <i> Product </i>
-CronMethodHelp=Objektna metoda za zagon. <BR> Če želite na primer poklicati metodo pridobivanja predmeta bespoerp Product /htdocs/product/class/product.class.php, je vrednost za metodo <br> <i> pridobivanje </i>
-CronArgsHelp=Argumenti metode. <BR> Če želite na primer poklicati metodo pridobivanja predmeta bespoerp Product /htdocs/product/class/product.class.php, je lahko vrednost za parametre <br> <i> 0, ProductRef </i>
+CronModuleHelp=Ime imenika modulov Dolibarr (deluje tudi z zunanjim modulom Dolibarr). <BR> Če želite na primer poklicati metodo pridobivanja predmeta Dolibarr Product /htdocs/ <u> product </u> /class/product.class.php, je vrednost za modul <br> <i> izdelek </i>
+CronClassFileHelp=Relativna pot in ime datoteke za nalaganje (pot je relativna glede na korenski imenik spletnega strežnika). <BR> Na primer, če želite poklicati metodo pridobivanja predmeta Dolibarr Product htdocs/product/class/ <u> product.class.php </u> , je vrednost za ime datoteke razreda <br> <i> product/class/product.bace363z.php a058
+CronObjectHelp=Ime predmeta za nalaganje. <BR> Če želite na primer poklicati metodo pridobivanja predmeta Dolibarr Product /htdocs/product/class/product.class.php, je vrednost za ime datoteke razreda <br> <i> Product </i>
+CronMethodHelp=Objektna metoda za zagon. <BR> Če želite na primer poklicati metodo pridobivanja predmeta Dolibarr Product /htdocs/product/class/product.class.php, je vrednost za metodo <br> <i> pridobivanje </i>
+CronArgsHelp=Argumenti metode. <BR> Če želite na primer poklicati metodo pridobivanja predmeta Dolibarr Product /htdocs/product/class/product.class.php, je lahko vrednost za parametre <br> <i> 0, ProductRef </i>
 CronCommandHelp=Sistemska ukazna vrstica za izvedbo.
 CronCreateJob=Ustvari novo načrtovano opravilo
 CronFrom=Od

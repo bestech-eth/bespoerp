@@ -1,5 +1,5 @@
-# bespoerp language file - Source file is en_US - boxes
-BoxbespoerpStateBoard=ສະຖິຕິກ່ຽວກັບວັດຖຸທຸລະກິດຫຼັກໃນຖານຂໍ້ມູນ
+# Dolibarr language file - Source file is en_US - boxes
+BoxDolibarrStateBoard=ສະຖິຕິກ່ຽວກັບວັດຖຸທຸລະກິດຫຼັກໃນຖານຂໍ້ມູນ
 BoxLoginInformation=ຂໍ້ມູນເຂົ້າສູ່ລະບົບ
 BoxLastRssInfos=ຂໍ້ມູນ RSS
 BoxLastProducts=ຜະລິດຕະພັນ/ການບໍລິການຫຼ້າສຸດ %s

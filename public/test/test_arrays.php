@@ -16,12 +16,12 @@ if (!defined("NOLOGIN")) {
 	define("NOLOGIN", '1'); // If this page is public (can be called outside logged session)
 }
 
-// Load bespoerp environment
+// Load Dolibarr environment
 require '../../main.inc.php';
 
 // Security
-if ($bespoerp_main_prod) {
-	accessforbidden('Access forbidden when $bespoerp_main_prod is set to 1');
+if ($dolibarr_main_prod) {
+	accessforbidden('Access forbidden when $dolibarr_main_prod is set to 1');
 }
 
 
@@ -32,7 +32,7 @@ if ($bespoerp_main_prod) {
 
 $form = new Form($db);
 
-$usedolheader = 1; // 1 = Test inside a bespoerp page, 0 = Use hard coded header
+$usedolheader = 1; // 1 = Test inside a dolibarr page, 0 = Use hard coded header
 
 // HEADER
 //--------
@@ -48,7 +48,7 @@ if (empty($usedolheader)) {
 	<html>
 	<head>
 	<meta name="robots" content="noindex,nofollow" />
-	<meta name="author" content="bespoerp Development Team">
+	<meta name="author" content="Dolibarr Development Team">
 	<title>Test page</title>
 	<!-- Includes for JQuery (Ajax library) -->
 	<link rel="stylesheet" type="text/css" href="<?php echo DOL_URL_ROOT ?>/includes/jquery/css/base/jquery-ui.css" />

@@ -1,7 +1,7 @@
-# bespoerp language file - Source file is en_US - paybox
+# Dolibarr language file - Source file is en_US - paybox
 PayBoxSetup=Налаштування модуля PayBox
-PayBoxDesc=Цей модуль пропонує сторінки, які дозволяють клієнтам здійснювати оплату на <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a>. Це можна використовувати для безкоштовного платежу або для оплати за конкретний об’єкт bespoerp (рахунок-фактура, замовлення, ...)
-FollowingUrlAreAvailableToMakePayments=Наведені нижче URL-адреси доступні, щоб запропонувати клієнту сторінку для здійснення платежу за об’єктами bespoerp
+PayBoxDesc=Цей модуль пропонує сторінки, які дозволяють клієнтам здійснювати оплату на <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a>. Це можна використовувати для безкоштовного платежу або для оплати за конкретний об’єкт Dolibarr (рахунок-фактура, замовлення, ...)
+FollowingUrlAreAvailableToMakePayments=Наведені нижче URL-адреси доступні, щоб запропонувати клієнту сторінку для здійснення платежу за об’єктами Dolibarr
 PaymentForm=Форма оплати
 WelcomeOnPaymentPage=Ласкаво просимо до нашого сервісу онлайн-платежів
 ThisScreenAllowsYouToPay=На цьому екрані ви можете здійснити онлайн-платеж на адресу %s.

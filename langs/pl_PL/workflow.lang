@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - workflow
+# Dolibarr language file - Source file is en_US - workflow
 WorkflowSetup=Konfiguracja modułu przepływu pracy
 WorkflowDesc=Ten moduł zapewnia pewne automatyczne akcje. Domyślnie przepływ pracy jest otwarty (możesz robić rzeczy w dowolnej kolejności), ale tutaj możesz aktywować niektóre automatyczne akcje.
 ThereIsNoWorkflowToModify=Nie ma zmiany workflow dostępne z aktywnych modułów.

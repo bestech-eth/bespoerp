@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - workflow
+# Dolibarr language file - Source file is en_US - workflow
 WorkflowSetup=Nastavitev modula poteka dela
 WorkflowDesc=Ta modul ponuja nekaj samodejnih dejanj. Privzeto je potek dela odprt (stvari lahko počnete v želenem vrstnem redu), vendar lahko tukaj aktivirate nekaj samodejnih dejanj.
 ThereIsNoWorkflowToModify=Prilagajanje poteka dela za aktivirane module ni na voljo.

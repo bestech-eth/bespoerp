@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - projects
+# Dolibarr language file - Source file is en_US - projects
 RefProject=项目编号
 ProjectRef=项目编号
 ProjectId=项目ID号
@@ -157,12 +157,12 @@ ConfirmCloneProject=你确定要克隆这个项目吗？
 ProjectReportDate=根据新项目开始日期更改任务日期
 ErrorShiftTaskDate=根据新项目的开始日期，不可能的改变任务日期
 ProjectsAndTasksLines=项目和任务
-ProjectCreatedInbespoerp=项目 %s  创建
-ProjectValidatedInbespoerp=项目%s已通过验证
-ProjectModifiedInbespoerp=项目%s修改
-TaskCreatedInbespoerp=任务 %s 已创建
-TaskModifiedInbespoerp=任务 %s 已变更
-TaskDeletedInbespoerp=任务 %s 已删除
+ProjectCreatedInDolibarr=项目 %s  创建
+ProjectValidatedInDolibarr=项目%s已通过验证
+ProjectModifiedInDolibarr=项目%s修改
+TaskCreatedInDolibarr=任务 %s 已创建
+TaskModifiedInDolibarr=任务 %s 已变更
+TaskDeletedInDolibarr=任务 %s 已删除
 OpportunityStatus=Lead status
 OpportunityStatusShort=Lead status
 OpportunityProbability=Lead probability

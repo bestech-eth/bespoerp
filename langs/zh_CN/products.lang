@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - products
+# Dolibarr language file - Source file is en_US - products
 ProductRef=产品编号
 ProductLabel=产品名称
 ProductLabelTranslated=产品标签已翻译
@@ -300,7 +300,7 @@ MinSupplierPrice=最低购买价格
 MinCustomerPrice=最低售价
 NoDynamicPrice=No dynamic price
 DynamicPriceConfiguration=动态价格配置
-DynamicPriceDesc=You may define mathematical formulae to calculate Customer or Vendor prices. Such formulas can use all mathematical operators, some constants and variables. You can define here the variables you wish to use. If the variable needs an automatic update, you may define the external URL to allow bespoerp to update the value automatically.
+DynamicPriceDesc=You may define mathematical formulae to calculate Customer or Vendor prices. Such formulas can use all mathematical operators, some constants and variables. You can define here the variables you wish to use. If the variable needs an automatic update, you may define the external URL to allow Dolibarr to update the value automatically.
 AddVariable=添加变量
 AddUpdater=添加更新
 GlobalVariables=全局变量
@@ -379,7 +379,7 @@ NewProductAttribute=新建属性
 NewProductAttributeValue=新属性值
 ErrorCreatingProductAttributeValue=创建属性值时出错。可能是因为该引用已存在现有值
 ProductCombinationGeneratorWarning=如果继续，在生成新变体之前，所有先前的变体都将被删除。现有的将使用新值更新
-TooMuchCombinationsWarning=生成大量变体可能会导致高CPU，内存使用率，bespoerp无法创建它们。启用选项“%s”可能有助于减少内存使用量。
+TooMuchCombinationsWarning=生成大量变体可能会导致高CPU，内存使用率，Dolibarr无法创建它们。启用选项“%s”可能有助于减少内存使用量。
 DoNotRemovePreviousCombinations=不要删除以前的变种
 UsePercentageVariations=使用百分比变化
 PercentageVariation=百分率变化

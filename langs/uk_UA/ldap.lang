@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - ldap
+# Dolibarr language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=Пароль для користувача <b> %s </b> на домені <b> %s</b>  потрібно змінити.
 UserMustChangePassNextLogon=Користувач повинен змінити пароль на домені %s
 LDAPInformationsForThisContact=Інформація в базі даних LDAP для цього контакту
@@ -22,7 +22,7 @@ GroupSynchronized=Група синхронізована
 MemberSynchronized=Член синхронізовано
 MemberTypeSynchronized=Тип члена синхронізовано
 ContactSynchronized=Контакт синхронізовано
-ForceSynchronize=Примусова синхронізація bespoerp -> LDAP
+ForceSynchronize=Примусова синхронізація Dolibarr -> LDAP
 ErrorFailedToReadLDAP=Не вдалося прочитати базу даних LDAP. Перевірте налаштування модуля LDAP та доступність бази даних.
 PasswordOfUserInLDAP=Пароль користувача в LDAP
 LDAPPasswordHashType=Тип хешування пароля

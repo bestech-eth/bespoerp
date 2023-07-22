@@ -32,9 +32,9 @@ dol_include_once('/partnership/class/partnership.class.php');
  * API class for partnership partnership
  *
  * @access protected
- * @class  bespoerpApiAccess {@requires user,external}
+ * @class  DolibarrApiAccess {@requires user,external}
  */
-class PartnershipApi extends bespoerpApi
+class PartnershipApi extends DolibarrApi
 {
 	/**
 	 * @var Partnership $partnership {@type Partnership}
@@ -69,7 +69,7 @@ class PartnershipApi extends bespoerpApi
 	 */
 	public function get($id)
 	{
-		if (!bespoerpApiAccess::$user->rights->partnership->read) {
+		if (!DolibarrApiAccess::$user->rights->partnership->read) {
 			throw new RestException(401);
 		}
 
@@ -78,8 +78,8 @@ class PartnershipApi extends bespoerpApi
 			throw new RestException(404, 'Partnership not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('partnership', $this->partnership->id, 'partnership')) {
-			throw new RestException(401, 'Access to instance id='.$this->partnership->id.' of object not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('partnership', $this->partnership->id, 'partnership')) {
+			throw new RestException(401, 'Access to instance id='.$this->partnership->id.' of object not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
 		return $this->_cleanObjectDatas($this->partnership);
@@ -109,27 +109,27 @@ class PartnershipApi extends bespoerpApi
 		$obj_ret = array();
 		$tmpobject = new Partnership($this->db);
 
-		if (!bespoerpApiAccess::$user->rights->partnership->read) {
+		if (!DolibarrApiAccess::$user->rights->partnership->read) {
 			throw new RestException(401);
 		}
 
-		$socid = bespoerpApiAccess::$user->socid ? bespoerpApiAccess::$user->socid : '';
+		$socid = DolibarrApiAccess::$user->socid ? DolibarrApiAccess::$user->socid : '';
 
 		$restrictonsocid = 0; // Set to 1 if there is a field socid in table of object
 
 		// If the internal user must only see his customers, force searching by him
 		$search_sale = 0;
-		if ($restrictonsocid && !bespoerpApiAccess::$user->rights->societe->client->voir && !$socid) {
-			$search_sale = bespoerpApiAccess::$user->id;
+		if ($restrictonsocid && !DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) {
+			$search_sale = DolibarrApiAccess::$user->id;
 		}
 
 		$sql = "SELECT t.rowid";
-		if ($restrictonsocid && (!bespoerpApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) {
+		if ($restrictonsocid && (!DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) {
 			$sql .= ", sc.fk_soc, sc.fk_user"; // We need these fields in order to filter by sale (including the case where the user can only see his prospects)
 		}
 		$sql .= " FROM ".MAIN_DB_PREFIX.$tmpobject->table_element." as t";
 
-		if ($restrictonsocid && (!bespoerpApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) {
+		if ($restrictonsocid && (!DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) {
 			$sql .= ", ".MAIN_DB_PREFIX."societe_commerciaux as sc"; // We need this table joined to the select in order to filter by sale
 		}
 		$sql .= " WHERE 1 = 1";
@@ -141,7 +141,7 @@ class PartnershipApi extends bespoerpApi
 		if ($tmpobject->ismultientitymanaged) {
 			$sql .= ' AND t.entity IN ('.getEntity($tmpobject->element).')';
 		}
-		if ($restrictonsocid && (!bespoerpApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) {
+		if ($restrictonsocid && (!DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) {
 			$sql .= " AND t.fk_soc = sc.fk_soc";
 		}
 		if ($restrictonsocid && $socid) {
@@ -205,7 +205,7 @@ class PartnershipApi extends bespoerpApi
 	 */
 	public function post($request_data = null)
 	{
-		if (!bespoerpApiAccess::$user->rights->partnership->write) {
+		if (!DolibarrApiAccess::$user->rights->partnership->write) {
 			throw new RestException(401);
 		}
 
@@ -219,7 +219,7 @@ class PartnershipApi extends bespoerpApi
 		// Clean data
 		// $this->partnership->abc = sanitizeVal($this->partnership->abc, 'alphanohtml');
 
-		if ($this->partnership->create(bespoerpApiAccess::$user)<0) {
+		if ($this->partnership->create(DolibarrApiAccess::$user)<0) {
 			throw new RestException(500, "Error creating Partnership", array_merge(array($this->partnership->error), $this->partnership->errors));
 		}
 		return $this->partnership->id;
@@ -238,7 +238,7 @@ class PartnershipApi extends bespoerpApi
 	 */
 	public function put($id, $request_data = null)
 	{
-		if (!bespoerpApiAccess::$user->rights->partnership->write) {
+		if (!DolibarrApiAccess::$user->rights->partnership->write) {
 			throw new RestException(401);
 		}
 
@@ -247,8 +247,8 @@ class PartnershipApi extends bespoerpApi
 			throw new RestException(404, 'Partnership not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('partnership', $this->partnership->id, 'partnership')) {
-			throw new RestException(401, 'Access to instance id='.$this->partnership->id.' of object not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('partnership', $this->partnership->id, 'partnership')) {
+			throw new RestException(401, 'Access to instance id='.$this->partnership->id.' of object not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
 		foreach ($request_data as $field => $value) {
@@ -261,7 +261,7 @@ class PartnershipApi extends bespoerpApi
 		// Clean data
 		// $this->partnership->abc = sanitizeVal($this->partnership->abc, 'alphanohtml');
 
-		if ($this->partnership->update(bespoerpApiAccess::$user, false) > 0) {
+		if ($this->partnership->update(DolibarrApiAccess::$user, false) > 0) {
 			return $this->get($id);
 		} else {
 			throw new RestException(500, $this->partnership->error);
@@ -280,7 +280,7 @@ class PartnershipApi extends bespoerpApi
 	 */
 	public function delete($id)
 	{
-		if (!bespoerpApiAccess::$user->rights->partnership->delete) {
+		if (!DolibarrApiAccess::$user->rights->partnership->delete) {
 			throw new RestException(401);
 		}
 		$result = $this->partnership->fetch($id);
@@ -288,11 +288,11 @@ class PartnershipApi extends bespoerpApi
 			throw new RestException(404, 'Partnership not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('partnership', $this->partnership->id, 'partnership')) {
-			throw new RestException(401, 'Access to instance id='.$this->partnership->id.' of object not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('partnership', $this->partnership->id, 'partnership')) {
+			throw new RestException(401, 'Access to instance id='.$this->partnership->id.' of object not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
-		if (!$this->partnership->delete(bespoerpApiAccess::$user)) {
+		if (!$this->partnership->delete(DolibarrApiAccess::$user)) {
 			throw new RestException(500, 'Error when deleting Partnership : '.$this->partnership->error);
 		}
 

@@ -25,13 +25,13 @@ if (!defined("NOLOGIN")) {
 	define("NOLOGIN", '1'); // If this page is public (can be called outside logged session)
 }
 if (!defined('NOIPCHECK')) {
-	define('NOIPCHECK', '1'); // Do not check IP defined into conf $bespoerp_main_restrict_ip
+	define('NOIPCHECK', '1'); // Do not check IP defined into conf $dolibarr_main_restrict_ip
 }
 if (!defined('NOBROWSERNOTIF')) {
 	define('NOBROWSERNOTIF', '1');
 }
 
-// Load bespoerp environment
+// Load Dolibarr environment
 require '../../main.inc.php';
 
 if (!$conf->global->TAKEPOS_AUTO_ORDER) {

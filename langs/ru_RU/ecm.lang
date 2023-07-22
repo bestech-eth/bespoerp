@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - ecm
+# Dolibarr language file - Source file is en_US - ecm
 ECMNbOfDocs=Количество документов в каталоге
 ECMSection=Директория
 ECMSectionManual=Директория в ручном режиме
@@ -16,7 +16,7 @@ ECMNbOfSubDir=Количество поддиректорий
 ECMNbOfFilesInSubDir=Количество файлов в поддиректориях
 ECMCreationUser=Создатель
 ECMArea=Область DMS/ECM
-ECMAreaDesc=Область DMS/ECM (Система управления документами / Управление электронным контентом) позволяет сохранять, обмениваться и быстро искать все виды документов в bespoerp.
+ECMAreaDesc=Область DMS/ECM (Система управления документами / Управление электронным контентом) позволяет сохранять, обмениваться и быстро искать все виды документов в Dolibarr.
 ECMAreaDesc2a=* Manual directories can be used to save documents not linked to a particular element.
 ECMAreaDesc2b=* Automatic directories are filled automatically when adding documents from the page of an element.
 ECMAreaDesc3=* Medias directories are files into the subdirectory <b>/medias</b> of documents directory, readable by everybody with no need to be logged and no need to have the file shared explicitely. It is used to store image files from emailing or website module.

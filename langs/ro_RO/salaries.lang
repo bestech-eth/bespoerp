@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - salaries
+# Dolibarr language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Cont contabil (din Planul de Conturi) utilizat implicit pentru terți tip "utilizator".
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Contul contabil dedicat definit pe fișa de utilizator va fi folosit doar pentru contabilitate analitică. Acesta va fi folosit pentru Registrul general și ca valoare implicită de Subregistru dacă nu este definit un cont contabil dedicat pentru utilizator.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Contul contabil implicit pentru plata salariilor

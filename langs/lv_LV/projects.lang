@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - projects
+# Dolibarr language file - Source file is en_US - projects
 RefProject=Atsauces projekts
 ProjectRef=Projekta atsauces Nr.
 ProjectId=Projekta ID
@@ -157,12 +157,12 @@ ConfirmCloneProject=Vai tiešām vēlaties klonēt šo projektu?
 ProjectReportDate=Mainīt uzdevumu datumus saskaņā ar jauno projekta sākuma datumu
 ErrorShiftTaskDate=Nav iespējams novirzīt uzdevumu datumu saskaņā ar jaunu projektu uzsākšanas datuma
 ProjectsAndTasksLines=Projekti un uzdevumi
-ProjectCreatedInbespoerp=Projekts %s izveidots
-ProjectValidatedInbespoerp=Projekts %s apstiprināts
-ProjectModifiedInbespoerp=Projekts %s ir labots
-TaskCreatedInbespoerp=Uzdevums %s izveidots
-TaskModifiedInbespoerp=Uzdevums %s labots
-TaskDeletedInbespoerp=Uzdevums %s dzēsts
+ProjectCreatedInDolibarr=Projekts %s izveidots
+ProjectValidatedInDolibarr=Projekts %s apstiprināts
+ProjectModifiedInDolibarr=Projekts %s ir labots
+TaskCreatedInDolibarr=Uzdevums %s izveidots
+TaskModifiedInDolibarr=Uzdevums %s labots
+TaskDeletedInDolibarr=Uzdevums %s dzēsts
 OpportunityStatus=Svina statuss
 OpportunityStatusShort=Svina statuss
 OpportunityProbability=Svina varbūtība

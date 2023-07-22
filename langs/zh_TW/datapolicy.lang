@@ -64,7 +64,7 @@ DATAPOLICY_opposition_prospection = Opposes the processing of his personal data 
 # Popup
 #
 DATAPOLICY_POPUP_ANONYME_TITLE = 匿名合作方
-DATAPOLICY_POPUP_ANONYME_TEXTE = 您無法從 bespoerp 刪除此聯絡人，因為已有相關項目。根據 GDPR，您將使這些所有資料匿名，以遵從您的義務。您想繼續嗎 ？
+DATAPOLICY_POPUP_ANONYME_TEXTE = 您無法從 Dolibarr 刪除此聯絡人，因為已有相關項目。根據 GDPR，您將使這些所有資料匿名，以遵從您的義務。您想繼續嗎 ？
 
 #
 # Button for portability

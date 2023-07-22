@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - other
+# Dolibarr language file - Source file is en_US - other
 Tools=Ferramentas
 Birthday=Aniversário
 BirthdayAlertOn=Alerta de aniversário ativo
@@ -68,7 +68,7 @@ PredefinedMailContentSendSupplierOrder=__ (Olá) __ Por favor, encontre o nosso 
 PredefinedMailContentSendSupplierInvoice=__ (Olá) __ Por favor, encontre a fatura __REF__ anexada __ (Atenciosamente) __ __USER_SIGNATURE__
 PredefinedMailContentSendShipping=__ (Olá) __ Por favor encontre o envio __REF__ anexada __ (Atenciosamente) __ __USER_SIGNATURE__
 PredefinedMailContentSendFichInter=__ (Olá) __ Por favor, encontre a intervenção __REF__ anexada __ (Atenciosamente) __ __USER_SIGNATURE__
-DemoDesc=bespoerp e um ERP/CRM compacto, o qual suporta varios modulos para negocios. Uma demo mostrando todos os modulos nao faz sentido pois este cenario nunca occore (mais de cem modulos disponiveis). Portanto varios perfis de demo estao a disposicao.
+DemoDesc=Dolibarr e um ERP/CRM compacto, o qual suporta varios modulos para negocios. Uma demo mostrando todos os modulos nao faz sentido pois este cenario nunca occore (mais de cem modulos disponiveis). Portanto varios perfis de demo estao a disposicao.
 ChooseYourDemoProfil=Escolha o perfil de demonstração que melhor se enquadra nas suas necessidades...
 ChooseYourDemoProfilMore=... ou crie seu próprio perfil <br> (seleção de módulo manual)
 DemoFundation=Administração de Membros de uma associação
@@ -99,7 +99,7 @@ SizeUnitfoot=pe
 BugTracker=Incidências
 SendNewPasswordDesc=Este formulário permite que você solicite uma nova senha. Ele será enviado para seu endereço de e-mail. <br> A alteração entrará em vigor quando você clicar no link de confirmação no e-mail. <br> Verifique sua caixa de entrada.
 BackToLoginPage=Voltar e a página de login
-AuthenticationDoesNotAllowSendNewPassword=o modo de autentificação de bespoerp está configurado como "<b>%s</b>".<br>neste modo bespoerp não pode conhecer nem modificar a sua senha<br>Contacte com a sua administrador para conhecer as modalidades de alterar.
+AuthenticationDoesNotAllowSendNewPassword=o modo de autentificação de Dolibarr está configurado como "<b>%s</b>".<br>neste modo Dolibarr não pode conhecer nem modificar a sua senha<br>Contacte com a sua administrador para conhecer as modalidades de alterar.
 EnableGDLibraryDesc=Instale ou ative a biblioteca GD da sua instalação PHP para usar esta opção.
 ProfIdShortDesc=<b>Prof Id %s</b> é uma informação dePendente do país do Fornecedor.<br>Por Exemplo, para o país  <b>%s</b>, é o código <b>%s</b>.
 StatsByNumberOfUnits=Estatisticas para soma das quantidades nos produtos/servicos
@@ -136,7 +136,7 @@ EMailTextExpenseReportApproved=O relatório de despesas %s foi aprovado.
 EMailTextHolidayValidated=Deixar o pedido %s foi validado.
 EMailTextHolidayApproved=Deixar o pedido %s foi aprovado.
 ImportedWithSet=Data importacao
-bespoerpNotification=Notificação automatica
+DolibarrNotification=Notificação automatica
 ResizeDesc=Insira a nova largura <b>OU</b> o novo peso. A proporção sera mantida durante a transformacao...
 NewHeight=Nova altrua
 NewSizeAfterCropping=Nova dimensao depois do recorte

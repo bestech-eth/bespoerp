@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - interventions
+# Dolibarr language file - Source file is en_US - interventions
 Intervention=مداخلت
 Interventions=مداخلتیں
 InterventionCard=مداخلت کارڈ
@@ -30,13 +30,13 @@ InterventionClassifyDone="ہو گیا" کی درجہ بندی کریں
 StatusInterInvoiced=بل کیا گیا۔
 SendInterventionRef=مداخلت کا عرضی %s
 SendInterventionByMail=ای میل کے ذریعے مداخلت بھیجیں۔
-InterventionCreatedInbespoerp=مداخلت %s بنائی گئی۔
-InterventionValidatedInbespoerp=مداخلت %s کی توثیق کی گئی۔
-InterventionModifiedInbespoerp=مداخلت %s میں ترمیم کی گئی۔
-InterventionClassifiedBilledInbespoerp=مداخلت %s بل کے بطور سیٹ
-InterventionClassifiedUnbilledInbespoerp=مداخلت %s بغیر بل کے سیٹ کی گئی۔
+InterventionCreatedInDolibarr=مداخلت %s بنائی گئی۔
+InterventionValidatedInDolibarr=مداخلت %s کی توثیق کی گئی۔
+InterventionModifiedInDolibarr=مداخلت %s میں ترمیم کی گئی۔
+InterventionClassifiedBilledInDolibarr=مداخلت %s بل کے بطور سیٹ
+InterventionClassifiedUnbilledInDolibarr=مداخلت %s بغیر بل کے سیٹ کی گئی۔
 InterventionSentByEMail=مداخلت %s ای میل کے ذریعے بھیجی گئی۔
-InterventionDeletedInbespoerp=مداخلت %s کو حذف کر دیا گیا۔
+InterventionDeletedInDolibarr=مداخلت %s کو حذف کر دیا گیا۔
 InterventionsArea=مداخلت کا علاقہ
 DraftFichinter=مداخلتوں کا مسودہ
 LastModifiedInterventions=تازہ ترین %s ترمیم شدہ مداخلتیں۔

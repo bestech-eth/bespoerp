@@ -26,9 +26,9 @@ require_once DOL_DOCUMENT_ROOT.'/user/class/usergroup.class.php';
  * API class for users
  *
  * @access protected
- * @class  bespoerpApiAccess {@requires user,external}
+ * @class  DolibarrApiAccess {@requires user,external}
  */
-class Users extends bespoerpApi
+class Users extends DolibarrApi
 {
 	/**
 	 * @var array   $FIELDS     Mandatory fields, checked when create and update object
@@ -72,14 +72,14 @@ class Users extends bespoerpApi
 	{
 		global $conf;
 
-		if (empty(bespoerpApiAccess::$user->rights->user->user->lire) && empty(bespoerpApiAccess::$user->admin)) {
+		if (empty(DolibarrApiAccess::$user->rights->user->user->lire) && empty(DolibarrApiAccess::$user->admin)) {
 			throw new RestException(401, "You are not allowed to read list of users");
 		}
 
 		$obj_ret = array();
 
 		// case of external user, $societe param is ignored and replaced by user's socid
-		//$socid = bespoerpApiAccess::$user->socid ? bespoerpApiAccess::$user->socid : $societe;
+		//$socid = DolibarrApiAccess::$user->socid ? DolibarrApiAccess::$user->socid : $societe;
 
 		$sql = "SELECT t.rowid";
 		$sql .= " FROM ".$this->db->prefix()."user as t";
@@ -151,7 +151,7 @@ class Users extends bespoerpApi
 	 */
 	public function get($id, $includepermissions = 0)
 	{
-		if (empty(bespoerpApiAccess::$user->rights->user->user->lire) && empty(bespoerpApiAccess::$user->admin) && $id != 0 && bespoerpApiAccess::$user->id != $id) {
+		if (empty(DolibarrApiAccess::$user->rights->user->user->lire) && empty(DolibarrApiAccess::$user->admin) && $id != 0 && DolibarrApiAccess::$user->id != $id) {
 			throw new RestException(401, 'Not allowed');
 		}
 
@@ -164,8 +164,8 @@ class Users extends bespoerpApi
 			throw new RestException(404, 'User not found');
 		}
 
-		if ($id > 0 && !bespoerpApi::_checkAccessToResource('user', $this->useraccount->id, 'user')) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if ($id > 0 && !DolibarrApi::_checkAccessToResource('user', $this->useraccount->id, 'user')) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
 		if ($includepermissions) {
@@ -194,7 +194,7 @@ class Users extends bespoerpApi
 			throw new RestException(400, 'Bad parameters');
 		}
 
-		if (empty(bespoerpApiAccess::$user->rights->user->user->lire) && empty(bespoerpApiAccess::$user->admin) && bespoerpApiAccess::$user->login != $login) {
+		if (empty(DolibarrApiAccess::$user->rights->user->user->lire) && empty(DolibarrApiAccess::$user->admin) && DolibarrApiAccess::$user->login != $login) {
 			throw new RestException(401, 'Not allowed');
 		}
 
@@ -203,8 +203,8 @@ class Users extends bespoerpApi
 			throw new RestException(404, 'User not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('user', $this->useraccount->id, 'user')) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('user', $this->useraccount->id, 'user')) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
 		if ($includepermissions) {
@@ -233,7 +233,7 @@ class Users extends bespoerpApi
 			throw new RestException(400, 'Bad parameters');
 		}
 
-		if (empty(bespoerpApiAccess::$user->rights->user->user->lire) && empty(bespoerpApiAccess::$user->admin) && bespoerpApiAccess::$user->email != $email) {
+		if (empty(DolibarrApiAccess::$user->rights->user->user->lire) && empty(DolibarrApiAccess::$user->admin) && DolibarrApiAccess::$user->email != $email) {
 			throw new RestException(401, 'Not allowed');
 		}
 
@@ -242,8 +242,8 @@ class Users extends bespoerpApi
 			throw new RestException(404, 'User not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('user', $this->useraccount->id, 'user')) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('user', $this->useraccount->id, 'user')) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
 		if ($includepermissions) {
@@ -266,19 +266,19 @@ class Users extends bespoerpApi
 	 */
 	public function getInfo($includepermissions = 0)
 	{
-		if (empty(bespoerpApiAccess::$user->rights->user->self->creer) && empty(bespoerpApiAccess::$user->rights->user->user->lire) && empty(bespoerpApiAccess::$user->admin)) {
+		if (empty(DolibarrApiAccess::$user->rights->user->self->creer) && empty(DolibarrApiAccess::$user->rights->user->user->lire) && empty(DolibarrApiAccess::$user->admin)) {
 			throw new RestException(401, 'Not allowed');
 		}
 
-		$apiUser = bespoerpApiAccess::$user;
+		$apiUser = DolibarrApiAccess::$user;
 
 		$result = $this->useraccount->fetch($apiUser->id);
 		if (!$result) {
 			throw new RestException(404, 'User not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('user', $this->useraccount->id, 'user')) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('user', $this->useraccount->id, 'user')) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
 		if ($includepermissions) {
@@ -307,8 +307,8 @@ class Users extends bespoerpApi
 	public function post($request_data = null)
 	{
 		// Check user authorization
-		if (empty(bespoerpApiAccess::$user->rights->user->creer) && empty(bespoerpApiAccess::$user->admin)) {
-			throw new RestException(401, "User creation not allowed for login ".bespoerpApiAccess::$user->login);
+		if (empty(DolibarrApiAccess::$user->rights->user->creer) && empty(DolibarrApiAccess::$user->admin)) {
+			throw new RestException(401, "User creation not allowed for login ".DolibarrApiAccess::$user->login);
 		}
 
 		// check mandatory fields
@@ -326,7 +326,7 @@ class Users extends bespoerpApi
 				throw new RestException(401, 'The property '.$field." can't be set/modified using the APIs");
 			}
 			/*if ($field == 'pass') {
-				if (empty(bespoerpApiAccess::$user->rights->user->user->password)) {
+				if (empty(DolibarrApiAccess::$user->rights->user->user->password)) {
 					throw new RestException(401, 'You are not allowed to modify/set password of other users');
 					continue;
 				}
@@ -336,7 +336,7 @@ class Users extends bespoerpApi
 			$this->useraccount->$field = $value;
 		}
 
-		if ($this->useraccount->create(bespoerpApiAccess::$user) < 0) {
+		if ($this->useraccount->create(DolibarrApiAccess::$user) < 0) {
 			throw new RestException(500, 'Error creating', array_merge(array($this->useraccount->error), $this->useraccount->errors));
 		}
 		return $this->useraccount->id;
@@ -357,7 +357,7 @@ class Users extends bespoerpApi
 	public function put($id, $request_data = null)
 	{
 		// Check user authorization
-		if (empty(bespoerpApiAccess::$user->rights->user->user->creer) && empty(bespoerpApiAccess::$user->admin)) {
+		if (empty(DolibarrApiAccess::$user->rights->user->user->creer) && empty(DolibarrApiAccess::$user->admin)) {
 			throw new RestException(401, "User update not allowed");
 		}
 
@@ -366,8 +366,8 @@ class Users extends bespoerpApi
 			throw new RestException(404, 'Account not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('user', $this->useraccount->id, 'user')) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('user', $this->useraccount->id, 'user')) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
 		foreach ($request_data as $field => $value) {
@@ -379,14 +379,14 @@ class Users extends bespoerpApi
 				throw new RestException(401, 'The property '.$field." can't be set/modified using the APIs");
 			}
 			if ($field == 'pass') {
-				if ($this->useraccount->id != bespoerpApiAccess::$user->id && empty(bespoerpApiAccess::$user->rights->user->user->password)) {
+				if ($this->useraccount->id != DolibarrApiAccess::$user->id && empty(DolibarrApiAccess::$user->rights->user->user->password)) {
 					throw new RestException(401, 'You are not allowed to modify password of other users');
 				}
-				if ($this->useraccount->id == bespoerpApiAccess::$user->id && empty(bespoerpApiAccess::$user->rights->user->self->password)) {
+				if ($this->useraccount->id == DolibarrApiAccess::$user->id && empty(DolibarrApiAccess::$user->rights->user->self->password)) {
 					throw new RestException(401, 'You are not allowed to modify your own password');
 				}
 			}
-			if (bespoerpApiAccess::$user->admin) {	// If user for API is admin
+			if (DolibarrApiAccess::$user->admin) {	// If user for API is admin
 				if ($field == 'admin' && $value != $this->useraccount->admin && empty($value)) {
 					throw new RestException(401, 'Reseting the admin status of a user is not possible using the API');
 				}
@@ -412,7 +412,7 @@ class Users extends bespoerpApi
 
 		// If there is no error, update() returns the number of affected
 		// rows so if the update is a no op, the return value is zezo.
-		if ($this->useraccount->update(bespoerpApiAccess::$user) >= 0) {
+		if ($this->useraccount->update(DolibarrApiAccess::$user) >= 0) {
 			return $this->get($id);
 		} else {
 			throw new RestException(500, $this->useraccount->error);
@@ -433,7 +433,7 @@ class Users extends bespoerpApi
 	 */
 	public function getGroups($id)
 	{
-		if (empty(bespoerpApiAccess::$user->rights->user->user->lire) && empty(bespoerpApiAccess::$user->admin)) {
+		if (empty(DolibarrApiAccess::$user->rights->user->user->lire) && empty(DolibarrApiAccess::$user->admin)) {
 			throw new RestException(403);
 		}
 
@@ -473,7 +473,7 @@ class Users extends bespoerpApi
 	{
 		global $conf;
 
-		if (empty(bespoerpApiAccess::$user->rights->user->user->creer) && empty(bespoerpApiAccess::$user->admin)) {
+		if (empty(DolibarrApiAccess::$user->rights->user->user->creer) && empty(DolibarrApiAccess::$user->admin)) {
 			throw new RestException(401);
 		}
 
@@ -482,16 +482,16 @@ class Users extends bespoerpApi
 			throw new RestException(404, 'User not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('user', $this->useraccount->id, 'user')) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('user', $this->useraccount->id, 'user')) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
-		if (isModEnabled('multicompany') && !empty($conf->global->MULTICOMPANY_TRANSVERSE_MODE) && !empty(bespoerpApiAccess::$user->admin) && empty(bespoerpApiAccess::$user->entity)) {
+		if (isModEnabled('multicompany') && !empty($conf->global->MULTICOMPANY_TRANSVERSE_MODE) && !empty(DolibarrApiAccess::$user->admin) && empty(DolibarrApiAccess::$user->entity)) {
 			$entity = (!empty($entity) ? $entity : $conf->entity);
 		} else {
 			// When using API, action is done on entity of logged user because a user of entity X with permission to create user should not be able to
 			// hack the security by giving himself permissions on another entity.
-			$entity = (bespoerpApiAccess::$user->entity > 0 ? bespoerpApiAccess::$user->entity : $conf->entity);
+			$entity = (DolibarrApiAccess::$user->entity > 0 ? DolibarrApiAccess::$user->entity : $conf->entity);
 		}
 
 		$result = $this->useraccount->SetInGroup($group, $entity);
@@ -526,13 +526,13 @@ class Users extends bespoerpApi
 
 		$obj_ret = array();
 
-		if ((empty($conf->global->MAIN_USE_ADVANCED_PERMS) && empty(bespoerpApiAccess::$user->rights->user->user->lire) && empty(bespoerpApiAccess::$user->admin)) ||
-			!empty($conf->global->MAIN_USE_ADVANCED_PERMS) && empty(bespoerpApiAccess::$user->rights->user->group_advance->read) && empty(bespoerpApiAccess::$user->admin)) {
+		if ((empty($conf->global->MAIN_USE_ADVANCED_PERMS) && empty(DolibarrApiAccess::$user->rights->user->user->lire) && empty(DolibarrApiAccess::$user->admin)) ||
+			!empty($conf->global->MAIN_USE_ADVANCED_PERMS) && empty(DolibarrApiAccess::$user->rights->user->group_advance->read) && empty(DolibarrApiAccess::$user->admin)) {
 			throw new RestException(401, "You are not allowed to read groups");
 		}
 
 		// case of external user, $societe param is ignored and replaced by user's socid
-		//$socid = bespoerpApiAccess::$user->socid ? bespoerpApiAccess::$user->socid : $societe;
+		//$socid = DolibarrApiAccess::$user->socid ? DolibarrApiAccess::$user->socid : $societe;
 
 		$sql = "SELECT t.rowid";
 		$sql .= " FROM ".$this->db->prefix()."usergroup as t";
@@ -600,8 +600,8 @@ class Users extends bespoerpApi
 	{
 		global $db, $conf;
 
-		if ((empty($conf->global->MAIN_USE_ADVANCED_PERMS) && empty(bespoerpApiAccess::$user->rights->user->user->lire) && empty(bespoerpApiAccess::$user->admin)) ||
-			!empty($conf->global->MAIN_USE_ADVANCED_PERMS) && empty(bespoerpApiAccess::$user->rights->user->group_advance->read) && empty(bespoerpApiAccess::$user->admin)) {
+		if ((empty($conf->global->MAIN_USE_ADVANCED_PERMS) && empty(DolibarrApiAccess::$user->rights->user->user->lire) && empty(DolibarrApiAccess::$user->admin)) ||
+			!empty($conf->global->MAIN_USE_ADVANCED_PERMS) && empty(DolibarrApiAccess::$user->rights->user->group_advance->read) && empty(DolibarrApiAccess::$user->admin)) {
 			throw new RestException(401, "You are not allowed to read groups");
 		}
 
@@ -626,7 +626,7 @@ class Users extends bespoerpApi
 	 */
 	public function delete($id)
 	{
-		if (empty(bespoerpApiAccess::$user->rights->user->user->supprimer) && empty(bespoerpApiAccess::$user->admin)) {
+		if (empty(DolibarrApiAccess::$user->rights->user->user->supprimer) && empty(DolibarrApiAccess::$user->admin)) {
 			throw new RestException(401, 'Not allowed');
 		}
 		$result = $this->useraccount->fetch($id);
@@ -634,12 +634,12 @@ class Users extends bespoerpApi
 			throw new RestException(404, 'User not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('user', $this->useraccount->id, 'user')) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('user', $this->useraccount->id, 'user')) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 		$this->useraccount->oldcopy = clone $this->useraccount;
 
-		if (!$this->useraccount->delete(bespoerpApiAccess::$user)) {
+		if (!$this->useraccount->delete(DolibarrApiAccess::$user)) {
 			throw new RestException(500);
 		}
 
@@ -704,7 +704,7 @@ class Users extends bespoerpApi
 		unset($object->facebook);
 		unset($object->linkedin);
 
-		$canreadsalary = ((!empty($conf->salaries->enabled) && !empty(bespoerpApiAccess::$user->rights->salaries->read)) || (empty($conf->salaries->enabled)));
+		$canreadsalary = ((!empty($conf->salaries->enabled) && !empty(DolibarrApiAccess::$user->rights->salaries->read)) || (empty($conf->salaries->enabled)));
 
 		if (!$canreadsalary) {
 			unset($object->salary);

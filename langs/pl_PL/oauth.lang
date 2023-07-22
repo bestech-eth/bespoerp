@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - oauth
+# Dolibarr language file - Source file is en_US - oauth
 ConfigOAuth=Konfiguracja OAuth
 OAuthServices=Usługi OAuth
 ManualTokenGeneration=Ręczne generowanie tokena

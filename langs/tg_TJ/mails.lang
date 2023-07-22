@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - mails
+# Dolibarr language file - Source file is en_US - mails
 Mailing=Почтаи электронӣ
 EMailing=Почтаи электронӣ
 EMailings=Паёмҳои почтаи электронӣ
@@ -90,7 +90,7 @@ MailingModuleDescContactsByCategory=Тамос аз рӯи категорияҳ�
 MailingModuleDescContactsByFunction=Тамос бо мавқеъ
 MailingModuleDescEmailsFromFile=Почтаи электронӣ аз файл
 MailingModuleDescEmailsFromUser=Вуруди почтаи электронӣ аз ҷониби корбар
-MailingModuleDescbespoerpUsers=Истифодабарандагон бо почтаи электронӣ
+MailingModuleDescDolibarrUsers=Истифодабарандагон бо почтаи электронӣ
 MailingModuleDescThirdPartiesByCategories=Third parties
 SendingFromWebInterfaceIsNotAllowed=Фиристодан аз интерфейси веб манъ аст.
 EmailCollectorFilterDesc=Ҳама филтрҳо бояд мувофиқат кунанд, то почтаи электронӣ ҷамъоварӣ карда шавад

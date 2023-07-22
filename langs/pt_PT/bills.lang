@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - bills
+# Dolibarr language file - Source file is en_US - bills
 Bill=Fatura
 Bills=Faturas
 BillsCustomers=Faturas a clientes
@@ -612,8 +612,8 @@ AutoFillDateFromShort=Definir data de início
 AutoFillDateTo=Definir data final para a linha de serviço com a próxima data da fatura
 AutoFillDateToShort=Definir data final
 MaxNumberOfGenerationReached=Número máximo de gen. alcançado
-BILL_DELETEInbespoerp=Fatura eliminada
-BILL_SUPPLIER_DELETEInbespoerp=Supplier invoice deleted
+BILL_DELETEInDolibarr=Fatura eliminada
+BILL_SUPPLIER_DELETEInDolibarr=Supplier invoice deleted
 UnitPriceXQtyLessDiscount=Unit price x Qty - Discount
 CustomersInvoicesArea=Customer billing area
 SupplierInvoicesArea=Supplier billing area

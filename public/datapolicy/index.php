@@ -28,7 +28,7 @@ if (!defined('NOREQUIREMENU')) {
 	define('NOREQUIREMENU', '1');
 }
 
-// Load bespoerp environment
+// Load Dolibarr environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/contact/class/contact.class.php';
 require_once DOL_DOCUMENT_ROOT.'/societe/class/societe.class.php';
@@ -138,8 +138,8 @@ print "\n";
 print "<html>\n";
 print "<head>\n";
 print '<meta name="robots" content="noindex,nofollow">'."\n";
-print '<meta name="keywords" content="bespoerp">'."\n";
-print '<meta name="description" content="bespoerp DATAPOLICIES">'."\n";
+print '<meta name="keywords" content="dolibarr">'."\n";
+print '<meta name="description" content="Dolibarr DATAPOLICIES">'."\n";
 print "<title>".$langs->trans("DATAPOLICIESReturn")."</title>\n";
 print '<link rel="stylesheet" type="text/css" href="'.DOL_URL_ROOT.$conf->css.'?lang='.$lang.'">'."\n";
 print '<style type="text/css">';

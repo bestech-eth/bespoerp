@@ -26,7 +26,7 @@
  *    \brief      About page of module Zapier.
  */
 
-// Load bespoerp environment
+// Load Dolibarr environment
 require '../../main.inc.php';
 
 // Libraries

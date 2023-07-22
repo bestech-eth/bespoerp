@@ -18,16 +18,16 @@
 
 /**
  *       \file       htdocs/webservices/demo_wsclient_category.php
- *       \brief      Demo page to make a category call to bespoerp WebServices "server_category"
+ *       \brief      Demo page to make a category call to Dolibarr WebServices "server_category"
  */
 
-// This is to make bespoerp working with Plesk
+// This is to make Dolibarr working with Plesk
 set_include_path($_SERVER['DOCUMENT_ROOT'].'/htdocs');
 
 require_once("../master.inc.php");
 require_once(NUSOAP_PATH.'/nusoap.php');		// Include SOAP
 
-$WS_DOL_URL = $bespoerp_main_url_root.'/webservices/server_category.php';
+$WS_DOL_URL = $dolibarr_main_url_root.'/webservices/server_category.php';
 $WS_METHOD  = 'getCategory';
 
 // Set the WebService URL
@@ -45,7 +45,7 @@ if ($soapclient2)
 }
 // Call the WebService method and store its result in $result.
 $authentication=array(
-    'bespoerpkey'=>$conf->global->WEBSERVICES_KEY,
+    'dolibarrkey'=>$conf->global->WEBSERVICES_KEY,
     'sourceapplication'=>'DEMO',
     'login'=>'admin',
     'password'=>'changeme',

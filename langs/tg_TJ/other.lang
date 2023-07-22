@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - other
+# Dolibarr language file - Source file is en_US - other
 SecurityCode=Рамзи амниятӣ
 NumberingShort=N °
 Tools=Воситаҳо
@@ -104,7 +104,7 @@ PredefinedMailContentSendFichInter=__(Салом)__\n\nЛутфан дахола
 PredefinedMailContentLink=Шумо метавонед ба истиноди зер клик кунед, то пардохти худро пардохт накунед, агар он аллакай иҷро нашуда бошад.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Салом)__\n\n\n__ (Бо эҳтиром) __\n\n__ИСТИФОДАБАРАНДА__
 PredefinedMailContentSendActionComm=Ёдраскунандаи ҳодиса "__EVENT_LABEL__" санаи __EVENT_DATE__ дар __EVENT_TIME__ <br> <br> Ин паёми автоматӣ аст, лутфан ҷавоб надиҳед.
-DemoDesc=bespoerp як ERP/CRM -и паймонест, ки якчанд модулҳои тиҷоратиро дастгирӣ мекунад. Демо, ки ҳама модулҳоро нишон медиҳад, маъно надорад, зеро ин сенария ҳеҷ гоҳ рух намедиҳад (чандсад дастрас). Ҳамин тариқ, якчанд профилҳои намоишӣ дастрасанд.
+DemoDesc=Dolibarr як ERP/CRM -и паймонест, ки якчанд модулҳои тиҷоратиро дастгирӣ мекунад. Демо, ки ҳама модулҳоро нишон медиҳад, маъно надорад, зеро ин сенария ҳеҷ гоҳ рух намедиҳад (чандсад дастрас). Ҳамин тариқ, якчанд профилҳои намоишӣ дастрасанд.
 ChooseYourDemoProfil=Профили демоеро интихоб кунед, ки ба эҳтиёҷоти шумо мувофиқ бошад ...
 ChooseYourDemoProfilMore=... ё сохтани профили худ <br> (интихоби модули дастӣ)
 DemoFundation=Аъзоёни як фондро идора кунед
@@ -185,7 +185,7 @@ BackToLoginPage=Бозгашт ба саҳифаи воридшавӣ
 AuthenticationDoesNotAllowSendNewPassword=Ҳолати тасдиқкунӣ <b> %s </b> аст. <br> Дар ин режим, Долибарр наметавонад пароли шуморо донад ва тағир диҳад. <br> Агар шумо пароли худро тағир додан хоҳед, бо администратори система тамос гиред.
 EnableGDLibraryDesc=Китобхонаи GD -ро дар насби PHP -и худ насб кунед ё фаъол созед, то ин хосиятро истифода баред.
 ProfIdShortDesc= <b> Prof Id %s </b> иттилооте вобаста ба кишвари сеюм аст. <br> Масалан, барои кишвар <b> %s </b>, он рамзи <b> %s a09a4b739f
-bespoerpDemo=Намоиши bespoerp ERP/CRM
+DolibarrDemo=Намоиши Dolibarr ERP/CRM
 StatsByNumberOfUnits=Омор барои маблағи адад маҳсулот/хизматрасонӣ
 StatsByNumberOfEntities=Омор барои шумораи субъектҳои муроҷиаткунанда (рақами фактура ё фармоиш ...)
 NumberOfProposals=Шумораи пешниҳодҳо
@@ -223,7 +223,7 @@ EMailTextHolidayValidated=Дархости рухсатии %s тасдиқ ка
 EMailTextHolidayApproved=Дархости рухсатии %s тасдиқ карда шуд.
 EMailTextActionAdded=Амалияи %s ба рӯзнома илова карда шуд.
 ImportedWithSet=Маҷмӯи маълумотҳои воридотӣ
-bespoerpNotification=Огоҳии автоматӣ
+DolibarrNotification=Огоҳии автоматӣ
 ResizeDesc=Паҳнои навро ворид кунед <b> Ё </b> баландии нав. Таносуб ҳангоми тағир додани андоза нигоҳ дошта мешавад ...
 NewLength=Бари нав
 NewHeight=Баландии нав

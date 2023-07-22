@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - interventions
+# Dolibarr language file - Source file is en_US - interventions
 Intervention=التدخل
 Interventions=المداخلات
 InterventionCard=تدخل البطاقة
@@ -30,13 +30,13 @@ InterventionClassifyDone=تصنيف "تم"
 StatusInterInvoiced=فواتير
 SendInterventionRef=تقديم التدخل٪ الصورة
 SendInterventionByMail=أرسل المداخلة عبر البريد الإلكتروني
-InterventionCreatedInbespoerp=التدخل٪ الصورة خلقت
-InterventionValidatedInbespoerp=التدخل%s التأكد من صلاحيتها
-InterventionModifiedInbespoerp=التدخل٪ الصورة المعدلة
-InterventionClassifiedBilledInbespoerp=التدخل٪ الصورة كما وصفت مجموعة
-InterventionClassifiedUnbilledInbespoerp=التدخل٪ الصورة مجموعة كما فواتير
+InterventionCreatedInDolibarr=التدخل٪ الصورة خلقت
+InterventionValidatedInDolibarr=التدخل%s التأكد من صلاحيتها
+InterventionModifiedInDolibarr=التدخل٪ الصورة المعدلة
+InterventionClassifiedBilledInDolibarr=التدخل٪ الصورة كما وصفت مجموعة
+InterventionClassifiedUnbilledInDolibarr=التدخل٪ الصورة مجموعة كما فواتير
 InterventionSentByEMail=تم إرسال التدخل %s عبر البريد الإلكتروني
-InterventionDeletedInbespoerp=التدخل٪ الصورة حذفها
+InterventionDeletedInDolibarr=التدخل٪ الصورة حذفها
 InterventionsArea=منطقة التدخلات
 DraftFichinter=مشروع التدخلات
 LastModifiedInterventions=Latest %s modified interventions

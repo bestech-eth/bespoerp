@@ -17,10 +17,10 @@
 
 /**
  *       \file       htdocs/webservices/demo_wsclient_order.php
- *       \brief      Demo page to make a client call to bespoerp WebServices "server_order"
+ *       \brief      Demo page to make a client call to Dolibarr WebServices "server_order"
  */
 
-// This is to make bespoerp working with Plesk
+// This is to make Dolibarr working with Plesk
 set_include_path($_SERVER['DOCUMENT_ROOT'].'/htdocs');
 
 require_once '../master.inc.php';
@@ -30,7 +30,7 @@ $WS_DOL_URL = DOL_MAIN_URL_ROOT.'/webservices/server_order.php';
 //$WS_DOL_URL = 'http://localhost:8080/';	// To test with Soapui mock. If not a page, should end with /
 $WS_METHOD1  = 'getOrder';
 $WS_METHOD2  = 'getOrdersForThirdParty';
-$ns='http://www.bespoerp.org/ns/';
+$ns='http://www.dolibarr.org/ns/';
 
 
 // Set the WebService URL
@@ -50,7 +50,7 @@ if ($soapclient2)
 
 // Call the WebService method and store its result in $result.
 $authentication=array(
-    'bespoerpkey'=>$conf->global->WEBSERVICES_KEY,
+    'dolibarrkey'=>$conf->global->WEBSERVICES_KEY,
     'sourceapplication'=>'DEMO',
     'login'=>'admin',
     'password'=>'changeme',

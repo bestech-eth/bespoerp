@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - bills
+# Dolibarr language file - Source file is en_US - bills
 Bill=Ҳисобнома -фактура
 Bills=Ҳисобнома -фактураҳо
 BillsCustomers=Ҳисобномаҳои муштариён
@@ -598,8 +598,8 @@ AutoFillDateFromShort=Санаи оғозро таъин кунед
 AutoFillDateTo=Санаи анҷоми хати хидматро бо санаи навбатии ҳисобнома -фактура таъин кунед
 AutoFillDateToShort=Санаи анҷомро таъин кунед
 MaxNumberOfGenerationReached=Шумораи максималии ген. расид
-BILL_DELETEInbespoerp=Ҳисобнома нест карда шуд
-BILL_SUPPLIER_DELETEInbespoerp=Ҳисобнома -фактураи таъминкунанда нест карда шуд
+BILL_DELETEInDolibarr=Ҳисобнома нест карда шуд
+BILL_SUPPLIER_DELETEInDolibarr=Ҳисобнома -фактураи таъминкунанда нест карда шуд
 UnitPriceXQtyLessDiscount=Нархи воҳиди x Миқдор - Тахфиф
 CustomersInvoicesArea=Минтақаи ҳисобкунии муштариён
 SupplierInvoicesArea=Минтақаи ҳисобкунии таъминкунанда

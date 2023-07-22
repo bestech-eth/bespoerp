@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - bills
+# Dolibarr language file - Source file is en_US - bills
 Bill=ใบกำกับสินค้า
 Bills=ใบแจ้งหนี้
 BillsCustomers=Customer invoices
@@ -612,8 +612,8 @@ AutoFillDateFromShort=Set start date
 AutoFillDateTo=Set end date for service line with next invoice date
 AutoFillDateToShort=Set end date
 MaxNumberOfGenerationReached=Max number of gen. reached
-BILL_DELETEInbespoerp=Invoice deleted
-BILL_SUPPLIER_DELETEInbespoerp=Supplier invoice deleted
+BILL_DELETEInDolibarr=Invoice deleted
+BILL_SUPPLIER_DELETEInDolibarr=Supplier invoice deleted
 UnitPriceXQtyLessDiscount=Unit price x Qty - Discount
 CustomersInvoicesArea=Customer billing area
 SupplierInvoicesArea=Supplier billing area

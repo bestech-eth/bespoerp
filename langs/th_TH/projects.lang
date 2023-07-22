@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - projects
+# Dolibarr language file - Source file is en_US - projects
 RefProject=อ้าง โครงการ
 ProjectRef=Project ref.
 ProjectId=Id โครงการ
@@ -153,12 +153,12 @@ ConfirmCloneProject=Are you sure to clone this project?
 ProjectReportDate=Change task dates according to new project start date
 ErrorShiftTaskDate=เป็นไปไม่ได้ที่จะเปลี่ยนวันงานตามโครงการใหม่วันที่เริ่มต้น
 ProjectsAndTasksLines=โครงการและงาน
-ProjectCreatedInbespoerp=โครงการสร้าง% s
-ProjectValidatedInbespoerp=Project %s validated
-ProjectModifiedInbespoerp=Project %s modified
-TaskCreatedInbespoerp=งาน% s สร้าง
-TaskModifiedInbespoerp=งาน% s การแก้ไข
-TaskDeletedInbespoerp=งาน% s ลบ
+ProjectCreatedInDolibarr=โครงการสร้าง% s
+ProjectValidatedInDolibarr=Project %s validated
+ProjectModifiedInDolibarr=Project %s modified
+TaskCreatedInDolibarr=งาน% s สร้าง
+TaskModifiedInDolibarr=งาน% s การแก้ไข
+TaskDeletedInDolibarr=งาน% s ลบ
 OpportunityStatus=Lead status
 OpportunityStatusShort=Lead status
 OpportunityProbability=Lead probability

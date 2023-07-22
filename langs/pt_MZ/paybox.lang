@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - paybox
+# Dolibarr language file - Source file is en_US - paybox
 PayBoxSetup=Configuração do módulo PayBox
 PayBoxDesc=Este módulo oferece uma página de pagamento atravé do fornecedor <a href
 FollowingUrlAreAvailableToMakePayments=As seguintes URL estão disponíveis para permitir a um cliente efetuar um pagamento

@@ -44,7 +44,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=Te controleren backlinks
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=Aantal dagen voordat de status van een partnerschap wordt opgezegd wanneer een abonnement is verlopen
 ReferingWebsiteCheck=Controle van de website die verwijst
 ReferingWebsiteCheckDesc=U kunt een functie inschakelen om te controleren of uw partners een backlink hebben toegevoegd aan uw websitedomeinen op hun eigen website.
-PublicFormRegistrationPartnerDesc=bespoerp kan u een openbare URL/website verstrekken zodat externe bezoekers kunnen verzoeken om deel uit te maken van het partnerschapsprogramma.
+PublicFormRegistrationPartnerDesc=Dolibarr kan u een openbare URL/website verstrekken zodat externe bezoekers kunnen verzoeken om deel uit te maken van het partnerschapsprogramma.
 
 #
 # Object

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - receiptprinter
+# Dolibarr language file - Source file is en_US - receiptprinter
 ReceiptPrinterSetup=தொகுதி ReceiptPrinter அமைவு
 PrinterAdded=பிரிண்டர் %s சேர்க்கப்பட்டது
 PrinterUpdated=பிரிண்டர் %s புதுப்பிக்கப்பட்டது

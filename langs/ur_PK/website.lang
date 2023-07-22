@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - website
+# Dolibarr language file - Source file is en_US - website
 Shortname=کوڈ
 WebsiteName=Name of the website
 WebsiteSetupDesc=یہاں وہ ویب سائٹس بنائیں جو آپ استعمال کرنا چاہتے ہیں۔ پھر ان میں ترمیم کرنے کے لیے مینو ویب سائٹس میں جائیں۔
@@ -48,13 +48,13 @@ VirtualhostDesc=The name of the Virtual host or domain (For example: www.mywebsi
 SetHereVirtualHost= اپاچی کے ساتھ <u> استعمال / NGinx / ... </u> <br> آپ کے ویب سرور پر تخلیق کریں (اپاچی، Nginx ...) پی ایچ پی کے ساتھ ایک سرشار مجازی میزبان فعال اور پر ایک روٹ ڈائریکٹری <br> <strong> %s </strong>
 ExampleToUseInApacheVirtualHostConfig=اپاچی ورچوئل ہوسٹ سیٹ اپ میں استعمال کرنے کی مثال:
 YouCanAlsoTestWithPHPS= پر <br> PHP سرایت سرور </u> ساتھ <u> استعمال کے ماحول کی ترقی، آپ <br> <strong> PHP -S 0.0.0.0:8080 -t %s </strong> چلا کر PHP سرایت ویب سرور کے ساتھ سائٹ (PHP 5.5 درکار) کی جانچ کے لیے پسند کر سکتے ہیں
-YouCanAlsoDeployToAnotherWHP= <u> اپنی ویب سائٹ کو کسی اور bespoerp ہوسٹنگ فراہم کنندہ کے ساتھ چلائیں ویب سائٹ ماڈیول کے ساتھ انضمام۔ آپ کچھ ڈولیبر ہوسٹنگ فراہم کنندگان کی فہرست <a href="https://saas.bespoerp.org" target="_blank" rel="noopener noreferrer external"> https://saas.bespoerp.org </a> پر حاصل کر سکتے ہیں۔
+YouCanAlsoDeployToAnotherWHP= <u> اپنی ویب سائٹ کو کسی اور Dolibarr ہوسٹنگ فراہم کنندہ کے ساتھ چلائیں ویب سائٹ ماڈیول کے ساتھ انضمام۔ آپ کچھ ڈولیبر ہوسٹنگ فراہم کنندگان کی فہرست <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external"> https://saas.dolibarr.org </a> پر حاصل کر سکتے ہیں۔
 CheckVirtualHostPerms=یہ بھی چیک کریں کہ ورچوئل ہوسٹ صارف (مثال کے طور پر www-data) کے پاس <strong> <strong> %s </strong> فائلوں پر <br> a0e784394947c80947c08080847cfc9z0 اجازتیں ہیں۔
 ReadPerm=پڑھیں
 WritePerm=لکھیں۔
 TestDeployOnWeb=ویب پر ٹیسٹ/تعینات کریں۔
 PreviewSiteServedByWebServer= <u> ایک نئے ٹیب میں %s کا جائزہ لیں۔ </u> <br> <br> %s ایک بیرونی ویب سرور (جیسے Apache, Nginx, IIS) کے ذریعہ پیش کیا جائے گا۔ آپ کی ڈائریکٹری کی طرف اشارہ کرنے سے پہلے اس سرور انسٹال اور سیٹ اپ کرنا ضروری ہے: <br> <strong> %s </strong> <br> URL بیرونی سرور کی طرف سے خدمات انجام دیں: <br> <strong> %s </strong>
-PreviewSiteServedBybespoerp= <u> ایک نئے ٹیب میں %s کا جائزہ لیں۔ </u> <br> <br> %s bespoerp سرور کے ذریعہ پیش کیا جائے گا لہذا اسے انسٹال کرنے کے لئے کسی اضافی ویب سرور (جیسے Apache, Nginx, IIS) کی ضرورت نہیں ہے۔ <br> تکلیف یہ ہے کہ صفحات کے یو آر ایل صارف دوست نہیں ہیں اور آپ کے ڈولیبر کے راستے سے شروع ہوتے ہیں۔ <br> URL bespoerp طرف سے کی خدمت: <br> <strong> %s </strong> <br> اس ویب سائٹ کی خدمت کو اپنے ویب سرور پر ایک مجازی میزبان پیدا کرنے کے لئے آپ کی اپنی بیرونی ویب سرور کا استعمال کرنے کے <br> کہ ڈائریکٹری پر پوائنٹس <br> <strong> %s </strong> <br> پھر اس مجازی سرور کا نام درج کریں اس ویب سائٹ کی خصوصیات میں اور "Test/deploy on the web" کے لنک پر کلک کریں۔
+PreviewSiteServedByDolibarr= <u> ایک نئے ٹیب میں %s کا جائزہ لیں۔ </u> <br> <br> %s Dolibarr سرور کے ذریعہ پیش کیا جائے گا لہذا اسے انسٹال کرنے کے لئے کسی اضافی ویب سرور (جیسے Apache, Nginx, IIS) کی ضرورت نہیں ہے۔ <br> تکلیف یہ ہے کہ صفحات کے یو آر ایل صارف دوست نہیں ہیں اور آپ کے ڈولیبر کے راستے سے شروع ہوتے ہیں۔ <br> URL Dolibarr طرف سے کی خدمت: <br> <strong> %s </strong> <br> اس ویب سائٹ کی خدمت کو اپنے ویب سرور پر ایک مجازی میزبان پیدا کرنے کے لئے آپ کی اپنی بیرونی ویب سرور کا استعمال کرنے کے <br> کہ ڈائریکٹری پر پوائنٹس <br> <strong> %s </strong> <br> پھر اس مجازی سرور کا نام درج کریں اس ویب سائٹ کی خصوصیات میں اور "Test/deploy on the web" کے لنک پر کلک کریں۔
 VirtualHostUrlNotDefined=بیرونی ویب سرور کے ذریعہ پیش کردہ ورچوئل ہوسٹ کا URL متعین نہیں ہے۔
 NoPageYet=ابھی تک کوئی صفحہ نہیں ہے۔
 YouCanCreatePageOrImportTemplate=آپ ایک نیا صفحہ بنا سکتے ہیں یا مکمل ویب سائٹ ٹیمپلیٹ درآمد کر سکتے ہیں۔

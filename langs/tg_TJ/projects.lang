@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - projects
+# Dolibarr language file - Source file is en_US - projects
 RefProject=Реф. лоиҳа
 ProjectRef=Реферат лоиҳа
 ProjectId=Шиносаи лоиҳа
@@ -157,12 +157,12 @@ ConfirmCloneProject=Шумо боварӣ доред, ки ин лоиҳаро �
 ProjectReportDate=Санаи вазифаҳоро мувофиқи санаи оғози лоиҳа тағир диҳед
 ErrorShiftTaskDate=Аз рӯи санаи оғози лоиҳа тағир додани санаи вазифа имконнопазир аст
 ProjectsAndTasksLines=Лоиҳаҳо ва вазифаҳо
-ProjectCreatedInbespoerp=Лоиҳаи %s сохта шудааст
-ProjectValidatedInbespoerp=Лоиҳаи %s тасдиқ карда шуд
-ProjectModifiedInbespoerp=Лоиҳаи %s тағир дода шуд
-TaskCreatedInbespoerp=Вазифаи %s сохта шудааст
-TaskModifiedInbespoerp=Вазифаи %s тағир дода шуд
-TaskDeletedInbespoerp=Вазифаи %s нест карда шуд
+ProjectCreatedInDolibarr=Лоиҳаи %s сохта шудааст
+ProjectValidatedInDolibarr=Лоиҳаи %s тасдиқ карда шуд
+ProjectModifiedInDolibarr=Лоиҳаи %s тағир дода шуд
+TaskCreatedInDolibarr=Вазифаи %s сохта шудааст
+TaskModifiedInDolibarr=Вазифаи %s тағир дода шуд
+TaskDeletedInDolibarr=Вазифаи %s нест карда шуд
 OpportunityStatus=Ҳолати роҳбарӣ
 OpportunityStatusShort=Ҳолати роҳбарӣ
 OpportunityProbability=Эҳтимоли роҳбарӣ

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - projects
+# Dolibarr language file - Source file is en_US - projects
 RefProject=Ref. do projeto
 ProjectRef=Ref. do projeto
 ProjectId=Id. do Projeto
@@ -157,12 +157,12 @@ ConfirmCloneProject=Tem a certeza de que deseja clonar este projeto?
 ProjectReportDate=Alterar as datas das tarefas de acordo com a nova data de início do projeto
 ErrorShiftTaskDate=Impossível deslocar a data da tarefa de acordo com a data de início do novo projeto
 ProjectsAndTasksLines=Projetos e tarefas
-ProjectCreatedInbespoerp=Projeto %s criado
-ProjectValidatedInbespoerp=Projeto %s validado
-ProjectModifiedInbespoerp=Projeto %s, modificado
-TaskCreatedInbespoerp=%s tarefas criadas
-TaskModifiedInbespoerp=%s tarefas modificadas
-TaskDeletedInbespoerp=%s tarefas apagadas
+ProjectCreatedInDolibarr=Projeto %s criado
+ProjectValidatedInDolibarr=Projeto %s validado
+ProjectModifiedInDolibarr=Projeto %s, modificado
+TaskCreatedInDolibarr=%s tarefas criadas
+TaskModifiedInDolibarr=%s tarefas modificadas
+TaskDeletedInDolibarr=%s tarefas apagadas
 OpportunityStatus=Status de lead
 OpportunityStatusShort=Lead status
 OpportunityProbability=Probabilidade de chumbo

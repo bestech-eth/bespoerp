@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - receiptprinter
+# Dolibarr language file - Source file is en_US - receiptprinter
 ReceiptPrinterSetup=Configurare modul Imprimante de bonuri
 PrinterAdded=Imprimanta %s a fost adaugată
 PrinterUpdated=Imprimanta %s a fost actualizată

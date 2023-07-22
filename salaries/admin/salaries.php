@@ -22,7 +22,7 @@
  * \brief		Setup page to configure salaries module
  */
 
-// Load bespoerp environment
+// Load Dolibarr environment
 require '../../main.inc.php';
 
 // Class
@@ -57,7 +57,7 @@ if ($action == 'update') {
 	foreach ($list as $constname) {
 		$constvalue = GETPOST($constname, 'alpha');
 
-		if (!bespoerp_set_const($db, $constname, $constvalue, 'chaine', 0, '', $conf->entity)) {
+		if (!dolibarr_set_const($db, $constname, $constvalue, 'chaine', 0, '', $conf->entity)) {
 			$error++;
 		}
 	}
@@ -72,7 +72,7 @@ if ($action == 'update') {
 $reg = array();
 if (preg_match('/^(set|del)_?([A-Z_]+)$/', $action, $reg)) {
 	// Set boolean (on/off) constants
-	if (!bespoerp_set_const($db, $reg[2], ($reg[1] === 'set' ? '1' : '0'), 'chaine', 0, '', $conf->entity) > 0) {
+	if (!dolibarr_set_const($db, $reg[2], ($reg[1] === 'set' ? '1' : '0'), 'chaine', 0, '', $conf->entity) > 0) {
 		dol_print_error($db);
 	}
 }

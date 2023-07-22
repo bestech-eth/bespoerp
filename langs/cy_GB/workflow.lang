@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - workflow
+# Dolibarr language file - Source file is en_US - workflow
 WorkflowSetup=Gosod modiwl llif gwaith
 WorkflowDesc=Mae'r modiwl hwn yn darparu rhai gweithredoedd awtomatig. Yn ddiofyn, mae'r llif gwaith ar agor (gallwch chi wneud pethau yn y drefn rydych chi ei eisiau) ond yma gallwch chi actifadu rhai gweithredoedd awtomatig.
 ThereIsNoWorkflowToModify=Nid oes unrhyw addasiadau llif gwaith ar gael gyda'r modiwlau actifedig.

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - loan
+# Dolibarr language file - Source file is en_US - loan
 ModuleBuilderDesc=This tool must be used only by experienced users or developers. It provides utilities to build or edit your own module. Documentation for alternative <a href="%s" target="_blank" rel="noopener noreferrer">manual development is here</a>.
 EnterNameOfModuleDesc=Enter the name of the module/application to create with no spaces. Use uppercase to separate words (For example: MyModule, EcommerceForShop, SyncWithMySystem...)
 EnterNameOfObjectDesc=Enter the name of the object to create with no spaces. Use uppercase to separate words (For example: MyObject, Student, Teacher...). The CRUD class file, but also API file, pages to list/add/edit/delete object and SQL files will be generated.
@@ -28,7 +28,7 @@ EnterNameOfModuleToDeleteDesc=You can delete your module. WARNING: All coding fi
 EnterNameOfObjectToDeleteDesc=You can delete an object. WARNING: All coding files (generated or created manually) related to object will be deleted!
 DangerZone=Tehlikeli bölge
 BuildPackage=Build package
-BuildPackageDesc=You can generate a zip package of your application so your are ready to distribute it on any bespoerp. You can also distribute it or sell it on marketplace like <a href="https://www.dolistore.com">DoliStore.com</a>.
+BuildPackageDesc=You can generate a zip package of your application so your are ready to distribute it on any Dolibarr. You can also distribute it or sell it on marketplace like <a href="https://www.dolistore.com">DoliStore.com</a>.
 BuildDocumentation=Dökümantasyon oluşturun
 ModuleIsNotActive=This module is not activated yet. Go to %s to make it live or click here
 ModuleIsLive=This module has been activated. Any change may break a current live feature.
@@ -104,7 +104,7 @@ HooksDefDesc=Define in the <b>module_parts['hooks']</b> property, in the module 
 TriggerDefDesc=Define in the trigger file the code that you want to execute when a business event external to your module is executed (events triggered by other modules).
 SeeIDsInUse=See IDs in use in your installation
 SeeReservedIDsRangeHere=See range of reserved IDs
-ToolkitForDevelopers=bespoerp geliştiricileri için araç seti
+ToolkitForDevelopers=Dolibarr geliştiricileri için araç seti
 TryToUseTheModuleBuilder=Eğer SQL ve PHP hakkında bilginiz varsa, yerel modül oluşturucu sihirbazını kullanabilirsiniz.<br><strong>%s</strong> modülünü etkinleştirin ve sağ üst menüde yer alan <span class="fa fa-bug"></span> simgesine tıklayarak sihirbazı kullanın.<br>Uyarı: Bu gelişmiş bir geliştirici özelliğidir, bu nedenle aktif kullandığınız siteniz üzerinde deneme <b>yapmayın</b>!
 SeeTopRightMenu=Sağ üst menüde yer alan <span class="fa fa-bug"></span> simgesine bakın
 AddLanguageFile=Dil dosyası ekle

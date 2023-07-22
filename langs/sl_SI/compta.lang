@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - compta
+# Dolibarr language file - Source file is en_US - compta
 MenuFinancial=Obračunavanje | Plačilo
 TaxModuleSetupToModifyRules=Pojdite na nastavitev <a href="%s">Davčnega modula</a>  za spremembo kalkulacijskih pravil
 TaxModuleSetupToModifyRulesLT=Pojdite na <a href="%s"> Nastavitev podjetja </a>, da spremenite pravila za izračun

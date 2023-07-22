@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - exports
+# Dolibarr language file - Source file is en_US - exports
 ExportsArea=Dışa aktarımlar
 ImportArea=İçe aktar
 NewExport=Yeni Dışa Aktarma
@@ -59,7 +59,7 @@ ChooseFormatOfFileToImport=Kullanmak istediğiniz içe aktarma dosya biçimini, 
 ChooseFileToImport=Dosyayı yükleyin ve daha sonra bu dosyayı kaynak içe aktarma dosyası olarak seçmek için %s simgesine tıklayın...
 SourceFileFormat=Kaynak dosya biçimi
 FieldsInSourceFile=Kaynak dosyadaki alanlar
-FieldsInTargetDatabase=bespoerp veritabanındaki hedef alanlar (koyu=zorunlu)
+FieldsInTargetDatabase=Dolibarr veritabanındaki hedef alanlar (koyu=zorunlu)
 Field=Alan
 NoFields=Alan sayısı
 MoveField=%s numaralı alan sütununu taşıyın

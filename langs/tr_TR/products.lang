@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - products
+# Dolibarr language file - Source file is en_US - products
 ProductRef=Ürün ref.
 ProductLabel=Ürün etiketi
 ProductLabelTranslated=Çevirilmiş ürün etiketi
@@ -299,7 +299,7 @@ MinSupplierPrice=Minimum alış fiyatı
 MinCustomerPrice=Minimum satış fiyatı
 NoDynamicPrice=No dynamic price
 DynamicPriceConfiguration=Dinamik fiyat yapılandırması
-DynamicPriceDesc=Müşteri veya Tedarikçi fiyatlarını hesaplamak için matematiksel formüller tanımlayabilirsiniz. Bu formüller tüm matematiksel operatörleri, bazı sabitleri ve değişkenleri kullanabilir. Burada kullanmak istediğiniz değişkenleri tanımayabilirsiniz. Eğer değişkenin otomatik olarak güncellenmesi gerekiyorsa, bespoerp'ın bu değeri otomatik olarak güncellemesini sağlamak için harici URL tanımlayabilirsiniz.
+DynamicPriceDesc=Müşteri veya Tedarikçi fiyatlarını hesaplamak için matematiksel formüller tanımlayabilirsiniz. Bu formüller tüm matematiksel operatörleri, bazı sabitleri ve değişkenleri kullanabilir. Burada kullanmak istediğiniz değişkenleri tanımayabilirsiniz. Eğer değişkenin otomatik olarak güncellenmesi gerekiyorsa, Dolibarr'ın bu değeri otomatik olarak güncellemesini sağlamak için harici URL tanımlayabilirsiniz.
 AddVariable=Değişken ekle
 AddUpdater=Güncellemeci ekle
 GlobalVariables=Genel değişkenler
@@ -378,7 +378,7 @@ NewProductAttribute=Yeni bir öznitelik
 NewProductAttributeValue=Yeni nitelik değeri
 ErrorCreatingProductAttributeValue=Nitelik değeri oluşturulurken bir hata oluştu. Zaten bu referansla mevcut bir değer varsa olasıdır.
 ProductCombinationGeneratorWarning=Devam ederseniz, yeni varyasyonlar üretmeden önce önceki tüm değerler SİLİNECEKTİR. Zaten mevcut olanlar yeni değerlerle güncellenecektir
-TooMuchCombinationsWarning=Çok sayıda varyasyon üretmek yüksek CPU, bellek kullanımı ile sonuçlanabilir ve bespoerp bunları oluşturamayabilir. "%s" seçeneğinin etkinleştirilmesi bellek kullanımını azaltmaya yardımcı olabilir.
+TooMuchCombinationsWarning=Çok sayıda varyasyon üretmek yüksek CPU, bellek kullanımı ile sonuçlanabilir ve Dolibarr bunları oluşturamayabilir. "%s" seçeneğinin etkinleştirilmesi bellek kullanımını azaltmaya yardımcı olabilir.
 DoNotRemovePreviousCombinations=Önceki varyantları kaldırma
 UsePercentageVariations=Yüzde varyasyonlarını kullan
 PercentageVariation=Yüzde varyasyonu

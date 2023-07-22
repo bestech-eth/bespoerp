@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - sms
+# Dolibarr language file - Source file is en_US - sms
 SmsDesc=Op deze pagina kunt u de globals opties van de SMS-functies instellen.
 ValidSms=Sms valideren
 SmsStatusSentPartialy=Gedeeltelijk verzonden

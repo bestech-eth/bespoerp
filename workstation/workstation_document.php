@@ -23,7 +23,7 @@
  *  \brief      Tab for documents linked to Workstation
  */
 
-// Load bespoerp environment
+// Load Dolibarr environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formfile.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/company.lib.php';

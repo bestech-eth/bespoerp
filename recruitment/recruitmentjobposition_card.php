@@ -21,7 +21,7 @@
  *		\brief      Page to create/edit/view recruitmentjobposition
  */
 
-// Load bespoerp environment
+// Load Dolibarr environment
 require_once '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formcompany.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formfile.class.php';

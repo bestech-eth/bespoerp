@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - members
+# Dolibarr language file - Source file is en_US - members
 MembersArea=Membri
 MemberCard=Fişă membru
 SubscriptionCard=Fişă cotizaţie
@@ -230,8 +230,8 @@ YouMayFindYourInvoiceInThisEmail=Găseşti factura ta atașată acestui email
 XMembersClosed=%s membru(i) închis
 XExternalUserCreated=%s utilizator(i) externi creaţi
 ForceMemberNature=Impune natura membrului (Persoană fizică sau Presoană juridică)
-CreatebespoerpLoginDesc=Crearea unui cont de utilizator pentru membri le permite să se conecteze la aplicație. În funcție de drepturile acordate, aceștia vor putea, de exemplu, să își consulte sau să modifice fișa ei înșiși.
-CreatebespoerpThirdPartyDesc=Un terț este persoana juridică care va fi utilizată pe factură dacă decideți să generați factura pentru fiecare contribuție. O veți putea crea mai târziu în timpul procesului de înregistrare a contribuției. 
+CreateDolibarrLoginDesc=Crearea unui cont de utilizator pentru membri le permite să se conecteze la aplicație. În funcție de drepturile acordate, aceștia vor putea, de exemplu, să își consulte sau să modifice fișa ei înșiși.
+CreateDolibarrThirdPartyDesc=Un terț este persoana juridică care va fi utilizată pe factură dacă decideți să generați factura pentru fiecare contribuție. O veți putea crea mai târziu în timpul procesului de înregistrare a contribuției. 
 MemberFirstname=Prenume membru
 MemberLastname=Nume membru
 MemberCodeDesc=Cod de membru, unic pentru toți membrii 

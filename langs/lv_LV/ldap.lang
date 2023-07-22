@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - ldap
+# Dolibarr language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=Lietotāja parole <b>%s</b> domēnā <b>%s</b> ir jāmaina.
 UserMustChangePassNextLogon=Lietotājam ir jāmaina domēna %s  parole
 LDAPInformationsForThisContact=Informācija LDAP datubāzē šim kontaktam
@@ -22,7 +22,7 @@ GroupSynchronized=Grupa sinhronizēta
 MemberSynchronized=Biedrs sinhronizēts
 MemberTypeSynchronized=Dalībnieka veids ir sinhronizēts
 ContactSynchronized=Kontakti sinhronizēti
-ForceSynchronize=Forsēt sinhronizāciju bespoerp -> LDAP
+ForceSynchronize=Forsēt sinhronizāciju Dolibarr -> LDAP
 ErrorFailedToReadLDAP=Neizdevās nolasīt LDAP datu bāzi. Pārbaudiet LDAP moduļa iestatījumus un datubāzes pieejamību.
 PasswordOfUserInLDAP=Lietotāja LDAP parole
 LDAPPasswordHashType=Paroles jaukšanas veids

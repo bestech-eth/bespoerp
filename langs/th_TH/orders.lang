@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - orders
+# Dolibarr language file - Source file is en_US - orders
 OrdersArea=ลูกค้าที่สั่งซื้อในพื้นที่
 SuppliersOrdersArea=Purchase orders area
 OrderCard=สั่งซื้อบัตร
@@ -120,8 +120,8 @@ ConfirmCloneOrder=Are you sure you want to clone this order <b>%s</b>?
 DispatchSupplierOrder=Receiving purchase order %s
 FirstApprovalAlreadyDone=ได้รับการอนุมัติครั้งแรกที่ทำมาแล้ว
 SecondApprovalAlreadyDone=Second approval already done
-SupplierOrderReceivedInbespoerp=Purchase Order %s received %s
-SupplierOrderSubmitedInbespoerp=Purchase Order %s submitted
+SupplierOrderReceivedInDolibarr=Purchase Order %s received %s
+SupplierOrderSubmitedInDolibarr=Purchase Order %s submitted
 SupplierOrderClassifiedBilled=Purchase Order %s set billed
 OtherOrders=คำสั่งอื่น ๆ
 SupplierOrderValidatedAndApproved=Supplier order is validated and approved : %s

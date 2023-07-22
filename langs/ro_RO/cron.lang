@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - cron
+# Dolibarr language file - Source file is en_US - cron
 # About page
 # Right
 Permission23101 = Citeşte Job programat
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Dezactivare
 CronTaskInactive=Acest job este dezactivat (ne-programat)
 CronId=Id
 CronClassFile=Nume fișier cu clasă
-CronModuleHelp=Numele directorului modulului bespoerp (lucrați și cu modul bespoerp extern). <BR> De exemplu, pentru a apela metoda de fetch a obiectului Produs bespoerp /htdocs/<u> product</u>/class/product.class.php, valoarea pentru modul este <br><i>product</i>
-CronClassFileHelp=Calea relativă și numele fișierului de încărcat (calea este relativă la directorul rădăcină web). <BR> De exemplu, pentru a apela metoda fetch a obiectului produs bespoerp htdocs/product/class/<u>product.class.php</u>, valoarea pentru numele fişierului clasei este <br> <i> product/class/product.class.php </i>
-CronObjectHelp=Numele obiectului de încărcat . <BR> De exemplu, pentru a apela metoda fetch a produsului bespoerp obiect/htdocs/product/class/product.class.php, valoarea pentru numele fişierului clasei este<br> <i> Product</i>
-CronMethodHelp=Metoda obiectului pentru lansare.<BR> De exemplu, pentru a apela metoda fetch a produsului bespoerp obiect/htdocs/product/class/product.class.php, valoarea metodei este <br> <i> fetch </i>
-CronArgsHelp=Argumentele metodei. <BR> De exemplu, pentru a apela metoda de preluare a produsului bespoerp  object /htdocs/product/class/product.class.php, valoarea parametrilor poate fi <br> <i> 0, ProductRef </i>
+CronModuleHelp=Numele directorului modulului Dolibarr (lucrați și cu modul Dolibarr extern). <BR> De exemplu, pentru a apela metoda de fetch a obiectului Produs Dolibarr /htdocs/<u> product</u>/class/product.class.php, valoarea pentru modul este <br><i>product</i>
+CronClassFileHelp=Calea relativă și numele fișierului de încărcat (calea este relativă la directorul rădăcină web). <BR> De exemplu, pentru a apela metoda fetch a obiectului produs Dolibarr htdocs/product/class/<u>product.class.php</u>, valoarea pentru numele fişierului clasei este <br> <i> product/class/product.class.php </i>
+CronObjectHelp=Numele obiectului de încărcat . <BR> De exemplu, pentru a apela metoda fetch a produsului Dolibarr obiect/htdocs/product/class/product.class.php, valoarea pentru numele fişierului clasei este<br> <i> Product</i>
+CronMethodHelp=Metoda obiectului pentru lansare.<BR> De exemplu, pentru a apela metoda fetch a produsului Dolibarr obiect/htdocs/product/class/product.class.php, valoarea metodei este <br> <i> fetch </i>
+CronArgsHelp=Argumentele metodei. <BR> De exemplu, pentru a apela metoda de preluare a produsului Dolibarr  object /htdocs/product/class/product.class.php, valoarea parametrilor poate fi <br> <i> 0, ProductRef </i>
 CronCommandHelp=Linia de comandă de sistem pentru execuţie.
 CronCreateJob=Creare job programat
 CronFrom=De la

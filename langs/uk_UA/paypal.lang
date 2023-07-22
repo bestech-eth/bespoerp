@@ -1,6 +1,6 @@
-# bespoerp language file - Source file is en_US - paypal
+# Dolibarr language file - Source file is en_US - paypal
 PaypalSetup=Налаштування модуля PayPal
-PaypalDesc=Цей модуль дозволяє здійснювати оплату клієнтами через <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external"> PayPal </a> . Це можна використовувати для спеціального платежу або для платежу, пов’язаного з об’єктом bespoerp (рахунок-фактура, замовлення, ...)
+PaypalDesc=Цей модуль дозволяє здійснювати оплату клієнтами через <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external"> PayPal </a> . Це можна використовувати для спеціального платежу або для платежу, пов’язаного з об’єктом Dolibarr (рахунок-фактура, замовлення, ...)
 PaypalOrCBDoPayment=Оплата за допомогою PayPal (картка або PayPal)
 PaypalDoPayment=Оплатіть за допомогою PayPal
 PAYPAL_API_SANDBOX=Тестовий режим/пісочниця

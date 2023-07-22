@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - orders
+# Dolibarr language file - Source file is en_US - orders
 OrdersArea=Раздел заказов клиентов
 SuppliersOrdersArea=Область заказов на закупку
 OrderCard=Карточка заказа
@@ -124,8 +124,8 @@ ConfirmCloneOrder=Вы уверены, что хотите клонироват�
 DispatchSupplierOrder=Получение заказа на поставку %s
 FirstApprovalAlreadyDone=Первое утверждение уже сделано
 SecondApprovalAlreadyDone=Второе утверждение уже выполнено
-SupplierOrderReceivedInbespoerp=Заказ на покупку %s получен %s
-SupplierOrderSubmitedInbespoerp=Заказ на поставку %s отправлен
+SupplierOrderReceivedInDolibarr=Заказ на покупку %s получен %s
+SupplierOrderSubmitedInDolibarr=Заказ на поставку %s отправлен
 SupplierOrderClassifiedBilled=Счет за комплект заказа на закупку %s выставлен
 OtherOrders=Другие заказы
 SupplierOrderValidatedAndApproved=Заказ поставщика подтвержден и утвержден: %s

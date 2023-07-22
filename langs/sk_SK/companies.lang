@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - companies
+# Dolibarr language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Názov spoločnosti %s už existuje. Vyberte si inú.
 ErrorSetACountryFirst=Nastavenie krajiny prvý
 SelectThirdParty=Vyberte tretiu stranu
@@ -12,7 +12,7 @@ MenuNewSupplier=New Vendor
 MenuNewPrivateIndividual=Nová súkromná osoba
 NewCompany=New company (prospect, customer, vendor)
 NewThirdParty=New Third Party (prospect, customer, vendor)
-CreatebespoerpThirdPartySupplier=Create a third party (vendor)
+CreateDolibarrThirdPartySupplier=Create a third party (vendor)
 CreateThirdPartyOnly=Vytvoriť tretiu stranu
 CreateThirdPartyAndContact=Create a third party + a child contact
 ProspectionArea=Prospekcia plochy
@@ -383,7 +383,7 @@ CapitalOf=Hlavné mesto %s
 EditCompany=Upraviť spoločnosť
 ThisUserIsNot=This user is not a prospect, customer or vendor
 VATIntraCheck=Kontrola
-VATIntraCheckDesc=The VAT ID must include the country prefix. The link <b>%s</b> uses the European VAT checker service (VIES) which requires internet access from the bespoerp server.
+VATIntraCheckDesc=The VAT ID must include the country prefix. The link <b>%s</b> uses the European VAT checker service (VIES) which requires internet access from the Dolibarr server.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Check the intra-Community VAT ID on the European Commission website
 VATIntraManualCheck=You can also check manually on the European Commission website <a href="%s" target="_blank" rel="noopener noreferrer">%s</a>
@@ -429,8 +429,8 @@ ProspectsByStatus=Vyhliadky podľa postavenia
 NoParentCompany=Nikto
 ExportCardToFormat=Export do formátu karty
 ContactNotLinkedToCompany=Kontaktu, ktorý nie je spojený s akoukoľvek treťou stranou
-bespoerpLogin=bespoerp prihlásenie
-NobespoerpAccess=Žiadny prístup bespoerp
+DolibarrLogin=Dolibarr prihlásenie
+NoDolibarrAccess=Žiadny prístup Dolibarr
 ExportDataset_company_1=Third-parties (companies/foundations/physical people) and their properties
 ExportDataset_company_2=Contacts and their properties
 ImportDataset_company_1=Third-parties and their properties

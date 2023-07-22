@@ -18,7 +18,7 @@
 /**
  * \file    zapier/lib/zapier.lib.php
  * \ingroup zapier
- * \brief   Library files with common functions for ZapierForbespoerp
+ * \brief   Library files with common functions for ZapierForDolibarr
  */
 
 /**

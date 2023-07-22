@@ -354,7 +354,7 @@ class Productcustomerprice extends CommonObject
 	 * @param 	int 	$limit 		page
 	 * @param 	int 	$offset 	offset
 	 * @param 	array 	$filter 	Filter for select
-	 * @deprecated since bespoerp v17 use fetchAll
+	 * @deprecated since dolibarr v17 use fetchAll
 	 * @return 	int 				<0 if KO, >0 if OK
 	 */
 	public function fetch_all($sortorder = '', $sortfield = '', $limit = 0, $offset = 0, $filter = array())
@@ -375,7 +375,7 @@ class Productcustomerprice extends CommonObject
 	 * @param 	int 	$offset 	offset
 	 * @param 	array 	$filter 	Filter for select
 	 * @return 	int 				<0 if KO, >0 if OK
-	 * @since bespoerp v17
+	 * @since dolibarr v17
 	 */
 	public function fetchAll($sortorder = '', $sortfield = '', $limit = 0, $offset = 0, $filter = array())
 	{

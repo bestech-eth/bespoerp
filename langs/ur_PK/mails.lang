@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - mails
+# Dolibarr language file - Source file is en_US - mails
 Mailing=ای میل کرنا
 EMailing=ای میل کرنا
 EMailings=ای میلز
@@ -90,7 +90,7 @@ MailingModuleDescContactsByCategory=زمرے کے لحاظ سے رابطے
 MailingModuleDescContactsByFunction=پوزیشن کے لحاظ سے رابطے
 MailingModuleDescEmailsFromFile=فائل سے ای میلز
 MailingModuleDescEmailsFromUser=صارف کے ذریعے ای میلز کا ان پٹ
-MailingModuleDescbespoerpUsers=ای میلز والے صارفین
+MailingModuleDescDolibarrUsers=ای میلز والے صارفین
 MailingModuleDescThirdPartiesByCategories=Third parties
 SendingFromWebInterfaceIsNotAllowed=ویب انٹرفیس سے بھیجنے کی اجازت نہیں ہے۔
 EmailCollectorFilterDesc=ای میل جمع کرنے کے لیے تمام فلٹرز کا مماثل ہونا چاہیے۔

@@ -22,7 +22,7 @@
  *  \brief      Tab for notes on Partnership
  */
 
-// Load bespoerp environment
+// Load Dolibarr environment
 require '../main.inc.php';
 
 require_once DOL_DOCUMENT_ROOT.'/partnership/class/partnership.class.php';

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - marque pages
+# Dolibarr language file - Source file is en_US - marque pages
 AddThisPageToBookmarks=Dodajte trenutno stran med zaznamke
 Bookmark=Zaznamek
 Bookmarks=Zaznamki
@@ -15,7 +15,7 @@ UrlOrLink=URL
 BehaviourOnClick=Vedenje, ko je izbran URL zaznamka
 CreateBookmark=Kreiraj zaznamek
 SetHereATitleForLink=Nastavite ime za zaznamek
-UseAnExternalHttpLinkOrRelativebespoerpLink=Uporabite zunanjo/absolutno povezavo (https://externalurl.com) ali notranjo/relativno povezavo (/mypage.php). Uporabite lahko tudi telefon tel:0123456.
+UseAnExternalHttpLinkOrRelativeDolibarrLink=Uporabite zunanjo/absolutno povezavo (https://externalurl.com) ali notranjo/relativno povezavo (/mypage.php). Uporabite lahko tudi telefon tel:0123456.
 ChooseIfANewWindowMustBeOpenedOnClickOnBookmark=Izberite, ali naj se povezana stran odpre v trenutnem zavihku ali novem zavihku
 BookmarksManagement=Urejanje zaznamkov
 BookmarksMenuShortCut=Ctrl + shift + m

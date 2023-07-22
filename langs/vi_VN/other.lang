@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - other
+# Dolibarr language file - Source file is en_US - other
 SecurityCode=Mã bảo vệ
 NumberingShort=N°
 Tools=Công cụ
@@ -106,7 +106,7 @@ PredefinedMailContentSendFichInter=__ (Xin chào) __ \n\nVui lòng tìm sự can
 PredefinedMailContentLink=Bạn có thể nhấp vào liên kết bên dưới để thực hiện thanh toán nếu chưa được thực hiện.\n\n %s\n\n
 PredefinedMailContentGeneric=__ (Xin chào) __ \n\n\n__ (Trân trọng) __ \n\n__USER_SIGNATURE__
 PredefinedMailContentSendActionComm=Event reminder "__EVENT_LABEL__" on __EVENT_DATE__ at __EVENT_TIME__<br><br>This is an automatic message, please do not reply.
-DemoDesc=bespoerp là một ERP / CRM nhỏ gọn hỗ trợ một số mô-đun kinh doanh. Một bản demo giới thiệu tất cả các mô-đun không có ý nghĩa vì kịch bản này không bao giờ xảy ra (có sẵn hàng trăm). Vì vậy, một số hồ sơ demo là có sẵn.
+DemoDesc=Dolibarr là một ERP / CRM nhỏ gọn hỗ trợ một số mô-đun kinh doanh. Một bản demo giới thiệu tất cả các mô-đun không có ý nghĩa vì kịch bản này không bao giờ xảy ra (có sẵn hàng trăm). Vì vậy, một số hồ sơ demo là có sẵn.
 ChooseYourDemoProfil=Chọn hồ sơ demo phù hợp nhất với nhu cầu của bạn ...
 ChooseYourDemoProfilMore=... hoặc xây dựng hồ sơ của riêng bạn <br> (lựa chọn mô-đun thủ công)
 DemoFundation=Quản lý thành viên của một nền tảng
@@ -185,10 +185,10 @@ BugTracker=Theo dõi lỗi
 SendNewPasswordDesc=Hình thức này cho phép bạn yêu cầu một mật khẩu mới. Nó sẽ được gửi đến địa chỉ email của bạn. <br> Thay đổi sẽ có hiệu lực khi bạn nhấp vào liên kết xác nhận trong email. <br> Kiểm tra hộp thư của bạn.
 EnterNewPasswordHere=Enter your new password here
 BackToLoginPage=Trở lại trang đăng nhập
-AuthenticationDoesNotAllowSendNewPassword=Chế độ xác thực <b>là% s.</b> <br> Trong chế độ này, bespoerp không thể biết và cũng không thay đổi mật khẩu của bạn. <br> Liên hệ quản trị hệ thống của bạn nếu bạn muốn thay đổi mật khẩu của bạn.
+AuthenticationDoesNotAllowSendNewPassword=Chế độ xác thực <b>là% s.</b> <br> Trong chế độ này, Dolibarr không thể biết và cũng không thay đổi mật khẩu của bạn. <br> Liên hệ quản trị hệ thống của bạn nếu bạn muốn thay đổi mật khẩu của bạn.
 EnableGDLibraryDesc=Cài đặt hoặc kích hoạt thư viện GD trên bản cài đặt PHP của bạn để sử dụng tùy chọn này.
 ProfIdShortDesc=<b>Id Giáo sư% s</b> là một thông tin phụ thuộc vào quốc gia của bên thứ ba. <br> Ví dụ, đối với đất <b>nước% s,</b> đó là <b>mã% s.</b>
-bespoerpDemo=Giới thiệu bespoerp ERP / CRM
+DolibarrDemo=Giới thiệu Dolibarr ERP / CRM
 StatsByNumberOfUnits=Thống kê tổng số lượng sản phẩm / dịch vụ
 StatsByNumberOfEntities=Statistics for number of referring entities (no. of invoices, or orders...)
 NumberOfProposals=Số lượng đề xuất
@@ -229,7 +229,7 @@ EMailTextHolidayValidated=Yêu cầu nghỉ phép %s đã được xác nhận.
 EMailTextHolidayApproved=Yêu cầu nghỉ phép %s đã được phê duyệt.
 EMailTextActionAdded=The action %s has been added to the Agenda.
 ImportedWithSet=Thiết lập nhập dữ liệu
-bespoerpNotification=Thông báo tự động
+DolibarrNotification=Thông báo tự động
 ResizeDesc=Nhập chiều rộng mới <b>HOẶC</b> chiều cao mới. Tỷ lệ sẽ được giữ trong khi thay đổi kích thước ...
 NewLength=Chiều rộng mới
 NewHeight=Chiều cao mới

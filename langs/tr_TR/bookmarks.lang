@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - marque pages
+# Dolibarr language file - Source file is en_US - marque pages
 AddThisPageToBookmarks=Mevcut sayfayı yer imlerine ekle
 Bookmark=Yer imi
 Bookmarks=Yer imleri
@@ -15,7 +15,7 @@ UrlOrLink=URL
 BehaviourOnClick=Bir yer imi URL'si seçildiğindeki davranış
 CreateBookmark=Yer imi oluştur
 SetHereATitleForLink=Yer imi için bir ad belirleyin
-UseAnExternalHttpLinkOrRelativebespoerpLink=Use an external/absolute link (https://externalurl.com) or an internal/relative link (/mypage.php). You can also use phone like tel:0123456.
+UseAnExternalHttpLinkOrRelativeDolibarrLink=Use an external/absolute link (https://externalurl.com) or an internal/relative link (/mypage.php). You can also use phone like tel:0123456.
 ChooseIfANewWindowMustBeOpenedOnClickOnBookmark=Bağlantı verilen sayfanın mevcut sekmede mi yoksa yeni sekmede mi açılacağını seçin
 BookmarksManagement=Yer imi yönetimi
 BookmarksMenuShortCut=Ctrl + shift + m

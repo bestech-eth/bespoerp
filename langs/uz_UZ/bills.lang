@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - bills
+# Dolibarr language file - Source file is en_US - bills
 Bill=Hisob-faktura
 Bills=Hisob-fakturalar
 BillsCustomers=Mijozlarning hisob-fakturalari
@@ -607,8 +607,8 @@ AutoFillDateFromShort=Boshlanish sanasini belgilang
 AutoFillDateTo=Xizmat liniyasining tugash sanasini keyingi hisob-kitob sanasi bilan belgilang
 AutoFillDateToShort=Tugash sanasini belgilang
 MaxNumberOfGenerationReached=Maksimum gen soni. yetdi
-BILL_DELETEInbespoerp=Hisob-faktura o'chirildi
-BILL_SUPPLIER_DELETEInbespoerp=Ta'minlovchining hisob-fakturasi o'chirildi
+BILL_DELETEInDolibarr=Hisob-faktura o'chirildi
+BILL_SUPPLIER_DELETEInDolibarr=Ta'minlovchining hisob-fakturasi o'chirildi
 UnitPriceXQtyLessDiscount=Birlik narxi x Miqdor - chegirma
 CustomersInvoicesArea=Mijozlarning hisob-kitob maydoni
 SupplierInvoicesArea=Ta'minlovchining hisob-kitob maydoni

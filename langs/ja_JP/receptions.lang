@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - receptions
+# Dolibarr language file - Source file is en_US - receptions
 ReceptionDescription=仕入先領収管理（領収文書作成）
 ReceptionsSetup=仕入先領収設定
 RefReception=参照領収
@@ -49,6 +49,6 @@ ReceptionsNumberingModules=領収の採番モジュール
 ReceptionsReceiptModel=領収のドキュメントテンプレート
 NoMorePredefinedProductToDispatch=ディスパッチする事前定義された製品はもうない
 ReceptionExist=領収がある
-ReceptionBackToDraftInbespoerp=領収%sは下書きに戻す
-ReceptionClassifyClosedInbespoerp=領収%sは閉鎖済指定
-ReceptionUnClassifyCloseddInbespoerp=領収%sは再開
+ReceptionBackToDraftInDolibarr=領収%sは下書きに戻す
+ReceptionClassifyClosedInDolibarr=領収%sは閉鎖済指定
+ReceptionUnClassifyCloseddInDolibarr=領収%sは再開

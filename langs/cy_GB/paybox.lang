@@ -1,7 +1,7 @@
-# bespoerp language file - Source file is en_US - paybox
+# Dolibarr language file - Source file is en_US - paybox
 PayBoxSetup=Gosod modiwl PayBox
-PayBoxDesc=Mae'r modiwl hwn yn cynnig tudalennau i ganiatáu taliad ar <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a> gan gwsmeriaid. Gellir defnyddio hwn ar gyfer taliad am ddim neu am daliad ar wrthrych penodol bespoerp (anfoneb, archeb, ...)
-FollowingUrlAreAvailableToMakePayments=Mae URLs canlynol ar gael i gynnig tudalen i gwsmer i wneud taliad ar wrthrychau bespoerp
+PayBoxDesc=Mae'r modiwl hwn yn cynnig tudalennau i ganiatáu taliad ar <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a> gan gwsmeriaid. Gellir defnyddio hwn ar gyfer taliad am ddim neu am daliad ar wrthrych penodol Dolibarr (anfoneb, archeb, ...)
+FollowingUrlAreAvailableToMakePayments=Mae URLs canlynol ar gael i gynnig tudalen i gwsmer i wneud taliad ar wrthrychau Dolibarr
 PaymentForm=Ffurflen talu
 WelcomeOnPaymentPage=Croeso i'n gwasanaeth talu ar-lein
 ThisScreenAllowsYouToPay=Mae'r sgrin hon yn caniatáu ichi wneud taliad ar-lein i %s.

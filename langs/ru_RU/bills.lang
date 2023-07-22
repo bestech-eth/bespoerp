@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - bills
+# Dolibarr language file - Source file is en_US - bills
 Bill=Счёт
 Bills=Счета
 BillsCustomers=Счета клиента
@@ -612,8 +612,8 @@ AutoFillDateFromShort=Установить дату начала
 AutoFillDateTo=Установить дату окончания для строки обслуживания с датой следующего счета-фактуры
 AutoFillDateToShort=Установить дату окончания
 MaxNumberOfGenerationReached=Максимальное количество генераторов. достиг
-BILL_DELETEInbespoerp=Счёт удалён
-BILL_SUPPLIER_DELETEInbespoerp=Счет поставщика удален
+BILL_DELETEInDolibarr=Счёт удалён
+BILL_SUPPLIER_DELETEInDolibarr=Счет поставщика удален
 UnitPriceXQtyLessDiscount=Цена за единицу x Кол-во - Скидка
 CustomersInvoicesArea=Зона выставления счетов клиента
 SupplierInvoicesArea=Платежная зона поставщика

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - workflow
+# Dolibarr language file - Source file is en_US - workflow
 WorkflowSetup=Thiết lập mô-đun Quy trình
 WorkflowDesc=Mô-đun này cung cấp một số hành động tự động. Theo mặc định, quy trình làm việc được mở (bạn có thể thực hiện mọi thứ theo thứ tự bạn muốn) nhưng ở đây bạn có thể kích hoạt một số hành động tự động.
 ThereIsNoWorkflowToModify=Không có sửa đổi quy trình làm việc có sẵn với các mô-đun kích hoạt.

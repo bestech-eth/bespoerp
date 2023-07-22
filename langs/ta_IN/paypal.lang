@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - paypal
+# Dolibarr language file - Source file is en_US - paypal
 PaypalSetup=பேபால் தொகுதி அமைவு
 PaypalDesc=இந்த தொகுதி வாடிக்கையாளர்கள் <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external"> PayPal </a> வழியாக பணம் செலுத்த அனுமதிக்கிறது. இது தற்காலிக கட்டணத்திற்கு அல்லது டோலிபார் பொருள் தொடர்பான கட்டணத்திற்கு (விலைப்பட்டியல், ஆர்டர், ...) பயன்படுத்தப்படலாம்.
 PaypalOrCBDoPayment=பேபால் (அட்டை அல்லது பேபால்) மூலம் பணம் செலுத்துங்கள்

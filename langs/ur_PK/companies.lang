@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - companies
+# Dolibarr language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=کمپنی کا نام %s پہلے سے موجود ہے۔ ایک اور کا انتخاب کریں۔
 ErrorSetACountryFirst=پہلے ملک کو سیٹ کریں۔
 SelectThirdParty=تیسرے فریق کو منتخب کریں۔
@@ -12,7 +12,7 @@ MenuNewSupplier=نیا فروش
 MenuNewPrivateIndividual=نیا نجی فرد
 NewCompany=نئی کمپنی (امکان، گاہک، وینڈر)
 NewThirdParty=نئی تیسری پارٹی (امکان، گاہک، وینڈر)
-CreatebespoerpThirdPartySupplier=تیسری پارٹی بنائیں (فروش)
+CreateDolibarrThirdPartySupplier=تیسری پارٹی بنائیں (فروش)
 CreateThirdPartyOnly=تھرڈ پارٹی بنائیں
 CreateThirdPartyAndContact=ایک فریق ثالث + بچے کا رابطہ بنائیں
 ProspectionArea=پراسپیکشن ایریا
@@ -383,7 +383,7 @@ CapitalOf=%s کا سرمایہ
 EditCompany=کمپنی میں ترمیم کریں۔
 ThisUserIsNot=یہ صارف کوئی امکان، گاہک یا وینڈر نہیں ہے۔
 VATIntraCheck=چیک کریں۔
-VATIntraCheckDesc=VAT ID میں ملک کا سابقہ شامل ہونا چاہیے۔ لنک <b> %s </b> یورپی VAT چیکر سروس (VIES) کا استعمال کرتا ہے جسے bespoerp سرور سے انٹرنیٹ تک رسائی کی ضرورت ہوتی ہے۔
+VATIntraCheckDesc=VAT ID میں ملک کا سابقہ شامل ہونا چاہیے۔ لنک <b> %s </b> یورپی VAT چیکر سروس (VIES) کا استعمال کرتا ہے جسے Dolibarr سرور سے انٹرنیٹ تک رسائی کی ضرورت ہوتی ہے۔
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=یورپی کمیشن کی ویب سائٹ پر انٹرا کمیونٹی VAT ID چیک کریں۔
 VATIntraManualCheck=آپ یورپی کمیشن کی ویب سائٹ <a href="%s" target="_blank" rel="noopener noreferrer"> %s </a> پر دستی طور پر بھی چیک کر سکتے ہیں۔
@@ -429,8 +429,8 @@ ProspectsByStatus=حیثیت کے لحاظ سے امکانات
 NoParentCompany=کوئی نہیں۔
 ExportCardToFormat=فارمیٹ میں کارڈ برآمد کریں۔
 ContactNotLinkedToCompany=رابطہ کسی تیسرے فریق سے منسلک نہیں ہے۔
-bespoerpLogin=bespoerp لاگ ان
-NobespoerpAccess=bespoerp تک رسائی نہیں ہے۔
+DolibarrLogin=Dolibarr لاگ ان
+NoDolibarrAccess=Dolibarr تک رسائی نہیں ہے۔
 ExportDataset_company_1=فریق ثالث (کمپنیاں/فاؤنڈیشنز/جسمانی لوگ) اور ان کی خصوصیات
 ExportDataset_company_2=رابطے اور ان کی خصوصیات
 ImportDataset_company_1=فریق ثالث اور ان کی خصوصیات

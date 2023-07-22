@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - receptions
+# Dolibarr language file - Source file is en_US - receptions
 ReceptionDescription=Gestiune recepție furnizor (Creare documente de recepție)
 ReceptionsSetup=Configurare Recepţie furnizor
 RefReception=Ref. recepţie
@@ -49,6 +49,6 @@ ReceptionsNumberingModules=Mod de numerotare pentru recepţii
 ReceptionsReceiptModel=Şabloane documente pentru recepţii
 NoMorePredefinedProductToDispatch=Nu mai sunt produse predefinite pentru expediere
 ReceptionExist=O recepţie există
-ReceptionBackToDraftInbespoerp=Recepţia %s readusă la schiţă
-ReceptionClassifyClosedInbespoerp=Recepţia %s a fost clasificată ca Închisă
-ReceptionUnClassifyCloseddInbespoerp=Recepţia %s re-deschisă
+ReceptionBackToDraftInDolibarr=Recepţia %s readusă la schiţă
+ReceptionClassifyClosedInDolibarr=Recepţia %s a fost clasificată ca Închisă
+ReceptionUnClassifyCloseddInDolibarr=Recepţia %s re-deschisă

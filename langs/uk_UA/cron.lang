@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - cron
+# Dolibarr language file - Source file is en_US - cron
 # About page
 # Right
 Permission23101 = Прочитайте заплановану роботу
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Вимкнути
 CronTaskInactive=Це завдання вимкнено (не заплановано)
 CronId=id
 CronClassFile=Ім'я файлу з класом
-CronModuleHelp=Назва каталогу модуля bespoerp (також робота із зовнішнім модулем bespoerp). <BR> Наприклад, щоб викликати метод вибору продукту bespoerp об’єкта /htdocs/ <u> product </u> /class/product.class.php, значення для модуля: a0342fccfda19bz78038018fcfda19b27bc03808fcfda19b27bc3e38
-CronClassFileHelp=Відносний шлях та ім’я файлу для завантаження (шлях відносно кореневого каталогу веб-сервера). <BR> Наприклад, щоб викликати метод отримання об'єкта bespoerp Product htdocs/product/class/ <u> product.class.php </u> , значення для назви файлу класу a0342fccfda19bclass38fcfda19bclass19bclass38fcfda19bclass38
-CronObjectHelp=Ім'я об'єкта для завантаження. <BR> Наприклад, щоб викликати метод вибірки об'єкта bespoerp Product /htdocs/product/class/product.class.php, значення для імені файлу класу: <br> <i> Product a0ae64758bac33z
-CronMethodHelp=Об'єктний метод для запуску. <BR> Наприклад, щоб викликати метод вибірки об'єкта bespoerp Product /htdocs/product/class/product.class.php, значення для методу: <br> <i> fetch a0ae64758bac33z
-CronArgsHelp=Аргументи методу. <BR> Наприклад, щоб викликати метод вибірки об'єкта bespoerp Product /htdocs/product/class/product.class.php, значення параметрів може бути <br> <i> 0, ProductRef a0a8bac34z
+CronModuleHelp=Назва каталогу модуля Dolibarr (також робота із зовнішнім модулем Dolibarr). <BR> Наприклад, щоб викликати метод вибору продукту Dolibarr об’єкта /htdocs/ <u> product </u> /class/product.class.php, значення для модуля: a0342fccfda19bz78038018fcfda19b27bc03808fcfda19b27bc3e38
+CronClassFileHelp=Відносний шлях та ім’я файлу для завантаження (шлях відносно кореневого каталогу веб-сервера). <BR> Наприклад, щоб викликати метод отримання об'єкта Dolibarr Product htdocs/product/class/ <u> product.class.php </u> , значення для назви файлу класу a0342fccfda19bclass38fcfda19bclass19bclass38fcfda19bclass38
+CronObjectHelp=Ім'я об'єкта для завантаження. <BR> Наприклад, щоб викликати метод вибірки об'єкта Dolibarr Product /htdocs/product/class/product.class.php, значення для імені файлу класу: <br> <i> Product a0ae64758bac33z
+CronMethodHelp=Об'єктний метод для запуску. <BR> Наприклад, щоб викликати метод вибірки об'єкта Dolibarr Product /htdocs/product/class/product.class.php, значення для методу: <br> <i> fetch a0ae64758bac33z
+CronArgsHelp=Аргументи методу. <BR> Наприклад, щоб викликати метод вибірки об'єкта Dolibarr Product /htdocs/product/class/product.class.php, значення параметрів може бути <br> <i> 0, ProductRef a0a8bac34z
 CronCommandHelp=Системний командний рядок для виконання.
 CronCreateJob=Створити нове завдання за розкладом
 CronFrom=Продавець

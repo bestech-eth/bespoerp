@@ -41,7 +41,7 @@ require_once DOL_DOCUMENT_ROOT.'/user/class/usergroup.class.php';
 
 
 /**
- *	Class to manage bespoerp users
+ *	Class to manage Dolibarr users
  */
 class User extends CommonObject
 {
@@ -1980,7 +1980,7 @@ class User extends CommonObject
 		$sql .= ", national_registration_number = '".$this->db->escape($this->national_registration_number)."'";
 		$sql .= ", employee = ".(int) $this->employee;
 		$sql .= ", login = '".$this->db->escape($this->login)."'";
-		$sql .= ", api_key = ".($this->api_key ? "'".$this->db->escape(dolEncrypt($this->api_key, '', '', 'bespoerp'))."'" : "null");
+		$sql .= ", api_key = ".($this->api_key ? "'".$this->db->escape(dolEncrypt($this->api_key, '', '', 'dolibarr'))."'" : "null");
 		$sql .= ", gender = ".($this->gender != -1 ? "'".$this->db->escape($this->gender)."'" : "null"); // 'man' or 'woman'
 		$sql .= ", birth=".(strval($this->birth) != '' ? "'".$this->db->idate($this->birth, 'tzserver')."'" : 'null');
 		if (!empty($user->admin)) {
@@ -2397,7 +2397,7 @@ class User extends CommonObject
 	{
 		// phpcs:enable
 		global $conf, $langs, $mysoc;
-		global $bespoerp_main_url_root;
+		global $dolibarr_main_url_root;
 
 		require_once DOL_DOCUMENT_ROOT.'/core/class/CMailFile.class.php';
 
@@ -2430,7 +2430,7 @@ class User extends CommonObject
 		$subject = '['.$mysoc->name.'] '.$outputlangs->transnoentitiesnoconv("SubjectNewPassword", $appli);
 
 		// Define $urlwithroot
-		$urlwithouturlroot = preg_replace('/'.preg_quote(DOL_URL_ROOT, '/').'$/i', '', trim($bespoerp_main_url_root));
+		$urlwithouturlroot = preg_replace('/'.preg_quote(DOL_URL_ROOT, '/').'$/i', '', trim($dolibarr_main_url_root));
 		$urlwithroot = $urlwithouturlroot.DOL_URL_ROOT; // This is to use external domain name found into config file
 
 		if (!$changelater) {
@@ -2449,11 +2449,11 @@ class User extends CommonObject
 
 			dol_syslog(get_class($this)."::send_password changelater is off, url=".$url);
 		} else {
-			global $bespoerp_main_instance_unique_id;
+			global $dolibarr_main_instance_unique_id;
 
-			//print $password.'-'.$this->id.'-'.$bespoerp_main_instance_unique_id;
+			//print $password.'-'.$this->id.'-'.$dolibarr_main_instance_unique_id;
 			$url = $urlwithroot.'/user/passwordforgotten.php?action=validatenewpassword';
-			$url .= '&username='.urlencode($this->login)."&passworduidhash=".urlencode(dol_hash($password.'-'.$this->id.'-'.$bespoerp_main_instance_unique_id));
+			$url .= '&username='.urlencode($this->login)."&passworduidhash=".urlencode(dol_hash($password.'-'.$this->id.'-'.$dolibarr_main_instance_unique_id));
 			if (!empty($conf->multicompany->enabled)) {
 				$url .= '&entity='.(!empty($this->entity) ? $this->entity : 1);
 			}
@@ -2730,7 +2730,7 @@ class User extends CommonObject
 	public function getNomUrl($withpictoimg = 0, $option = '', $infologin = 0, $notooltip = 0, $maxlen = 24, $hidethirdpartylogo = 0, $mode = '', $morecss = '', $save_lastsearch_value = -1)
 	{
 		global $langs, $conf, $db, $hookmanager, $user;
-		global $bespoerp_main_authentication, $bespoerp_main_demo;
+		global $dolibarr_main_authentication, $dolibarr_main_demo;
 		global $menumanager;
 
 		if (!$user->hasRight('user', 'user', 'read') && $user->id != $this->id) {
@@ -2800,7 +2800,7 @@ class User extends CommonObject
 			if (!empty($conf->global->MAIN_MODULE_MULTICOMPANY)) {
 				$label .= '<br><b>'.$langs->trans("ConnectedOnMultiCompany").':</b> '.$conf->entity.' (User entity '.$this->entity.')';
 			}
-			$label .= '<br><b>'.$langs->trans("AuthenticationMode").':</b> '.dol_string_nohtmltag($_SESSION["dol_authmode"].(empty($bespoerp_main_demo) ? '' : ' (demo)'));
+			$label .= '<br><b>'.$langs->trans("AuthenticationMode").':</b> '.dol_string_nohtmltag($_SESSION["dol_authmode"].(empty($dolibarr_main_demo) ? '' : ' (demo)'));
 			$label .= '<br><b>'.$langs->trans("ConnectedSince").':</b> '.dol_print_date($this->datelastlogin, "dayhour", 'tzuser');
 			$label .= '<br><b>'.$langs->trans("PreviousConnexion").':</b> '.dol_print_date($this->datepreviouslogin, "dayhour", 'tzuser');
 			$label .= '<br><b>'.$langs->trans("CurrentTheme").':</b> '.dol_string_nohtmltag($conf->theme);
@@ -3163,7 +3163,7 @@ class User extends CommonObject
 				// Just for the default MD5 !
 				if (empty($conf->global->MAIN_SECURITY_HASH_ALGO)) {
 					if ($this->pass_indatabase_crypted && !empty($conf->global->LDAP_FIELD_PASSWORD_CRYPTED)) {
-						$info[$conf->global->LDAP_FIELD_PASSWORD_CRYPTED] = dolGetLdapPasswordHash($this->pass_indatabase_crypted, 'md5frommd5'); // Create OpenLDAP MD5 password from bespoerp MD5 password
+						$info[$conf->global->LDAP_FIELD_PASSWORD_CRYPTED] = dolGetLdapPasswordHash($this->pass_indatabase_crypted, 'md5frommd5'); // Create OpenLDAP MD5 password from Dolibarr MD5 password
 					}
 				}
 			} elseif (!empty($this->pass_indatabase)) {
@@ -3244,7 +3244,7 @@ class User extends CommonObject
 		$this->ref = 'SPECIMEN';
 		$this->specimen = 1;
 
-		$this->lastname = 'bespoerp';
+		$this->lastname = 'DOLIBARR';
 		$this->firstname = 'SPECIMEN';
 		$this->gender = 'man';
 		$this->note_public = 'This is a note public';
@@ -3384,7 +3384,7 @@ class User extends CommonObject
 	 *  @param	Object	$ldapuser	Ladp User
 	 *  @return int  				<0 if KO, >0 if OK
 	 */
-	public function update_ldap2bespoerp(&$ldapuser)
+	public function update_ldap2dolibarr(&$ldapuser)
 	{
 		// phpcs:enable
 		// TODO: Voir pourquoi le update met à jour avec toutes les valeurs vide (global $user écrase ?)
@@ -3413,7 +3413,7 @@ class User extends CommonObject
 
 		$result = $this->update($user);
 
-		dol_syslog(get_class($this)."::update_ldap2bespoerp result=".$result, LOG_DEBUG);
+		dol_syslog(get_class($this)."::update_ldap2dolibarr result=".$result, LOG_DEBUG);
 
 		return $result;
 	}

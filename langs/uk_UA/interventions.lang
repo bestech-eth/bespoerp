@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - interventions
+# Dolibarr language file - Source file is en_US - interventions
 Intervention=Втручання
 Interventions=Втручання
 InterventionCard=Інтервенційна карта
@@ -30,13 +30,13 @@ InterventionClassifyDone=Класифікувати "Готово"
 StatusInterInvoiced=Виставлений
 SendInterventionRef=Подання про втручання %s
 SendInterventionByMail=Надішліть втручання електронною поштою
-InterventionCreatedInbespoerp=Створено втручання %s
-InterventionValidatedInbespoerp=Втручання %s підтверджено
-InterventionModifiedInbespoerp=Втручання %s змінено
-InterventionClassifiedBilledInbespoerp=Втручання %s встановлено як оплачене
-InterventionClassifiedUnbilledInbespoerp=Втручання %s встановлено як не оплачене
+InterventionCreatedInDolibarr=Створено втручання %s
+InterventionValidatedInDolibarr=Втручання %s підтверджено
+InterventionModifiedInDolibarr=Втручання %s змінено
+InterventionClassifiedBilledInDolibarr=Втручання %s встановлено як оплачене
+InterventionClassifiedUnbilledInDolibarr=Втручання %s встановлено як не оплачене
 InterventionSentByEMail=Втручання %s надіслано електронною поштою
-InterventionDeletedInbespoerp=Втручання %s видалено
+InterventionDeletedInDolibarr=Втручання %s видалено
 InterventionsArea=Зона втручань
 DraftFichinter=Проект втручань
 LastModifiedInterventions=Останні модифіковані втручання %s

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - marque pages
+# Dolibarr language file - Source file is en_US - marque pages
 AddThisPageToBookmarks=Add current page to bookmarks
 Bookmark=ที่คั่นหนังสือ
 Bookmarks=ที่คั่นหน้า
@@ -15,7 +15,7 @@ UrlOrLink=URL
 BehaviourOnClick=Behaviour when a bookmark URL is selected
 CreateBookmark=สร้างที่คั่นหน้า
 SetHereATitleForLink=Set a name for the bookmark
-UseAnExternalHttpLinkOrRelativebespoerpLink=Use an external/absolute link (https://externalurl.com) or an internal/relative link (/mypage.php). You can also use phone like tel:0123456.
+UseAnExternalHttpLinkOrRelativeDolibarrLink=Use an external/absolute link (https://externalurl.com) or an internal/relative link (/mypage.php). You can also use phone like tel:0123456.
 ChooseIfANewWindowMustBeOpenedOnClickOnBookmark=Choose if the linked page should open in the current tab or a new tab
 BookmarksManagement=การจัดการที่คั่นหน้า
 BookmarksMenuShortCut=Ctrl + shift + m

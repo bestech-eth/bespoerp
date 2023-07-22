@@ -1,5 +1,5 @@
-# bespoerp language file - Source file is en_US - boxes
-BoxbespoerpStateBoard=தரவுத்தளத்தில் உள்ள முக்கிய வணிகப் பொருட்களின் புள்ளிவிவரங்கள்
+# Dolibarr language file - Source file is en_US - boxes
+BoxDolibarrStateBoard=தரவுத்தளத்தில் உள்ள முக்கிய வணிகப் பொருட்களின் புள்ளிவிவரங்கள்
 BoxLoginInformation=உள்நுழைவு தகவல்
 BoxLastRssInfos=ஆர்எஸ்எஸ் தகவல்
 BoxLastProducts=சமீபத்திய %s தயாரிப்புகள்/சேவைகள்

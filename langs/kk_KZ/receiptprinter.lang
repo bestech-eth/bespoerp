@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - receiptprinter
+# Dolibarr language file - Source file is en_US - receiptprinter
 ReceiptPrinterSetup=ReceiptPrinter модулін орнату
 PrinterAdded=%s принтері қосылды
 PrinterUpdated=%s принтері жаңартылды

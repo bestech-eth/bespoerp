@@ -1,7 +1,7 @@
-# bespoerp language file - Source file is en_US - paybox
+# Dolibarr language file - Source file is en_US - paybox
 PayBoxSetup=Paybox modulio nustatymas
-PayBoxDesc=Šis modulis siūlo puslapius, leidžiančius mokėjimą <a href="http://www.paybox.com" target="_blank">Paybox</a> klientams. Tai gali būti naudojama nemokamam mokėjimui arba  tam tikram specifiniam bespoerp mokėjimui (sąskaitos-faktūros, užskymas, ...)
-FollowingUrlAreAvailableToMakePayments=Sekantys URL siūlo puslapį klientui bespoerp objektų mokėjimui
+PayBoxDesc=Šis modulis siūlo puslapius, leidžiančius mokėjimą <a href="http://www.paybox.com" target="_blank">Paybox</a> klientams. Tai gali būti naudojama nemokamam mokėjimui arba  tam tikram specifiniam Dolibarr mokėjimui (sąskaitos-faktūros, užskymas, ...)
+FollowingUrlAreAvailableToMakePayments=Sekantys URL siūlo puslapį klientui Dolibarr objektų mokėjimui
 PaymentForm=Mokėjimo forma
 WelcomeOnPaymentPage=Welcome to our online payment service
 ThisScreenAllowsYouToPay=Šis ekranas leidžia atlikti internetinį mokėjimą į %s

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - companies
+# Dolibarr language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Номи ширкат %s аллакай вуҷуд дорад. Дигареро интихоб кунед.
 ErrorSetACountryFirst=Аввал кишварро таъин кунед
 SelectThirdParty=Шахси сеюмро интихоб кунед
@@ -12,7 +12,7 @@ MenuNewSupplier=Фурӯшандаи нав
 MenuNewPrivateIndividual=Шахси нави хусусӣ
 NewCompany=Ширкати нав (эҳтимол, муштарӣ, фурӯшанда)
 NewThirdParty=Шахси нави сеюм (эҳтимол, муштарӣ, фурӯшанда)
-CreatebespoerpThirdPartySupplier=Эҷоди як шахси сеюм (фурӯшанда)
+CreateDolibarrThirdPartySupplier=Эҷоди як шахси сеюм (фурӯшанда)
 CreateThirdPartyOnly=Эҷоди шахси сеюм
 CreateThirdPartyAndContact=Эҷоди як шахси сеюм + алоқа бо кӯдак
 ProspectionArea=Минтақаи ҷустуҷӯ
@@ -383,7 +383,7 @@ CapitalOf=Сармояи %s
 EditCompany=Таҳрири ширкат
 ThisUserIsNot=Ин корбар дурнамо, муштарӣ ё фурӯшанда нест
 VATIntraCheck=Санҷед
-VATIntraCheckDesc=ID ААИ бояд префикси кишварро дар бар гирад. Истиноди <b> %s </b> аз хидмати Аврупо оид ба андоз аз арзиши иловашуда (VIES) истифода мебарад, ки дастрасии интернетро аз сервери bespoerp талаб мекунад.
+VATIntraCheckDesc=ID ААИ бояд префикси кишварро дар бар гирад. Истиноди <b> %s </b> аз хидмати Аврупо оид ба андоз аз арзиши иловашуда (VIES) истифода мебарад, ки дастрасии интернетро аз сервери Dolibarr талаб мекунад.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Дар вебсайти Комиссияи Аврупо шиносномаи андоз аз арзиши иловашударо дар дохили ҷомеа санҷед
 VATIntraManualCheck=You can also check manually on the European Commission website <a href="%s" target="_blank" rel="noopener noreferrer">%s</a>
@@ -429,8 +429,8 @@ ProspectsByStatus=Дурнамо аз рӯи мақом
 NoParentCompany=Ҳеҷ
 ExportCardToFormat=Корти содиротӣ ба формат
 ContactNotLinkedToCompany=Тамос бо ягон шахси сеюм алоқаманд нест
-bespoerpLogin=Воридшавӣ bespoerp
-NobespoerpAccess=Дастрасии bespoerp нест
+DolibarrLogin=Воридшавӣ Dolibarr
+NoDolibarrAccess=Дастрасии Dolibarr нест
 ExportDataset_company_1=Шахсони сеюм (ширкатҳо/бунёдҳо/шахсони воқеӣ) ва хосиятҳои онҳо
 ExportDataset_company_2=Алоқаҳо ва хосиятҳои онҳо
 ImportDataset_company_1=Шахсони сеюм ва хосиятҳои онҳо

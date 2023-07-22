@@ -1,6 +1,6 @@
-# bespoerp language file - Source file is en_US - paypal
+# Dolibarr language file - Source file is en_US - paypal
 PaypalSetup=بايبال حدة الإعداد
-PaypalDesc=تسمح هذه الوحدة بالدفع من قبل العملاء عبر <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external"> PayPal </a>. يمكن استخدام هذا للدفع المخصص أو للدفع المتعلق بأحد عناصر bespoerp (فاتورة ، أمر ، ...)
+PaypalDesc=تسمح هذه الوحدة بالدفع من قبل العملاء عبر <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external"> PayPal </a>. يمكن استخدام هذا للدفع المخصص أو للدفع المتعلق بأحد عناصر Dolibarr (فاتورة ، أمر ، ...)
 PaypalOrCBDoPayment=الدفع باستخدام PayPal (البطاقة أو PayPal)
 PaypalDoPayment=الدفع بواسط باى بال
 PAYPAL_API_SANDBOX=وضع الاختبار / رمل

@@ -1,12 +1,12 @@
-# bespoerp language file - Source file is en_US - help
+# Dolibarr language file - Source file is en_US - help
 CommunitySupport=Forum/Wiki-ondersteuning
 EMailSupport=Ondersteuning voor e-mails
 RemoteControlSupport=Online realtime / ondersteuning op afstand
 OtherSupport=Andere ondersteuning
 ToSeeListOfAvailableRessources=Om contact op te nemen/beschikbare bronnen te bekijken:
 HelpCenter=Helpcentrum
-bespoerpHelpCenter=bespoerp Help- en ondersteuningscentrum
-ToGoBackTobespoerp=Anders <a href="%s"> klik hier om bespoerp te blijven gebruiken </a> .
+DolibarrHelpCenter=Dolibarr Help- en ondersteuningscentrum
+ToGoBackToDolibarr=Anders <a href="%s"> klik hier om Dolibarr te blijven gebruiken </a> .
 TypeOfSupport=Type ondersteuning
 TypeSupportCommunauty=Gemeenschap (gratis)
 TypeSupportCommercial=Reclame
@@ -17,7 +17,7 @@ TypeHelpOnly=Alleen hulp
 TypeHelpDev=Help+Ontwikkeling
 TypeHelpDevForm=Help+Ontwikkeling+Training
 BackToHelpCenter=Ga anders <a href="%s"> terug naar de startpagina van het Helpcentrum </a> .
-LinkToGoldMember=U kunt een van de door bespoerp voor uw taal geselecteerde trainers bellen (%s) door op hun Widget te klikken (status en maximumprijs worden automatisch bijgewerkt):
+LinkToGoldMember=U kunt een van de door Dolibarr voor uw taal geselecteerde trainers bellen (%s) door op hun Widget te klikken (status en maximumprijs worden automatisch bijgewerkt):
 PossibleLanguages=Ondersteunde talen
-SubscribeToFoundation=Help het bespoerp-project, abonneer je op de stichting
-SeeOfficalSupport=Voor officiële bespoerp-ondersteuning in uw taal: <br> <b> <a href="%s" target="_blank"> %s </a> </b>
+SubscribeToFoundation=Help het Dolibarr-project, abonneer je op de stichting
+SeeOfficalSupport=Voor officiële Dolibarr-ondersteuning in uw taal: <br> <b> <a href="%s" target="_blank"> %s </a> </b>

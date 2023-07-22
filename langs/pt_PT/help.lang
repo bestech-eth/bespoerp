@@ -1,12 +1,12 @@
-# bespoerp language file - Source file is en_US - help
+# Dolibarr language file - Source file is en_US - help
 CommunitySupport=Fórum / Wiki apoio
 EMailSupport=Emails apoio
 RemoteControlSupport=On-line em tempo real / suporte remoto
 OtherSupport=Outro apoio
 ToSeeListOfAvailableRessources=Para entrar em contato / ver recursos disponíveis:
 HelpCenter=Central de Ajuda
-bespoerpHelpCenter=Centro de ajuda e suporte bespoerp
-ToGoBackTobespoerp=Caso contrário, <a href="%s"> clique aqui para continuar a usar o bespoerp </a>.
+DolibarrHelpCenter=Centro de ajuda e suporte Dolibarr
+ToGoBackToDolibarr=Caso contrário, <a href="%s"> clique aqui para continuar a usar o Dolibarr </a>.
 TypeOfSupport=Tipo de suporte
 TypeSupportCommunauty=Comunidade (grátis)
 TypeSupportCommercial=Comercial
@@ -17,7 +17,7 @@ TypeHelpOnly=Ajuda só
 TypeHelpDev=Ajuda + Desenvolvimento
 TypeHelpDevForm=Ajuda + Desenvolvimento + Treinamento
 BackToHelpCenter=Caso contrário, <a href="%s"> volte para a página inicial da Central de Ajuda </a>.
-LinkToGoldMember=Você pode chamar um dos treinadores pré-selecionados pelo bespoerp para o seu idioma (%s) clicando no Widget (status e preço máximo atualizados automaticamente):
+LinkToGoldMember=Você pode chamar um dos treinadores pré-selecionados pelo Dolibarr para o seu idioma (%s) clicando no Widget (status e preço máximo atualizados automaticamente):
 PossibleLanguages=Idiomas suportados
-SubscribeToFoundation=Ajude o projeto bespoerp, assine a fundação
-SeeOfficalSupport=Para obter suporte oficial do bespoerp no seu idioma: <br><b><a href="%s" target="_blank">%s</a></b>
+SubscribeToFoundation=Ajude o projeto Dolibarr, assine a fundação
+SeeOfficalSupport=Para obter suporte oficial do Dolibarr no seu idioma: <br><b><a href="%s" target="_blank">%s</a></b>

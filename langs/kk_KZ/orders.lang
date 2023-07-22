@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - orders
+# Dolibarr language file - Source file is en_US - orders
 OrdersArea=Клиенттердің тапсырыс беру аймағы
 SuppliersOrdersArea=Сатып алуға тапсырыс беру аймағы
 OrderCard=Тапсырыс картасы
@@ -120,8 +120,8 @@ ConfirmCloneOrder=Бұл тапсырысты <b> %s </b> клондау кер�
 DispatchSupplierOrder=%s сатып алу тапсырысын алу
 FirstApprovalAlreadyDone=Алғашқы мақұлдау дайын
 SecondApprovalAlreadyDone=Екінші мақұлдау дайын
-SupplierOrderReceivedInbespoerp=%s сатып алу тапсырысы %s алды
-SupplierOrderSubmitedInbespoerp=%s сатып алу тапсырысы жіберілді
+SupplierOrderReceivedInDolibarr=%s сатып алу тапсырысы %s алды
+SupplierOrderSubmitedInDolibarr=%s сатып алу тапсырысы жіберілді
 SupplierOrderClassifiedBilled=%s сатып алу тапсырысы есептеледі
 OtherOrders=Басқа тапсырыстар
 SupplierOrderValidatedAndApproved=Supplier order is validated and approved : %s

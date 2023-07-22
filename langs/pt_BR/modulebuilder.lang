@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - modulebuilder
+# Dolibarr language file - Source file is en_US - modulebuilder
 ModuleBuilderDesc2=Caminho onde os módulos são gerados/editados (primeiro diretório para módulos externos definidos em %s): <strong>%s</strong>
 ModuleBuilderDesc3=Módulos gerados / editáveis ​​encontrados: <strong> %s </ strong>
 ModuleBuilderDescmenus=Esta guia é dedicada a definir as entradas do menu fornecidas pelo seu módulo.

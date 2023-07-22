@@ -1,8 +1,8 @@
-# bespoerp language file - Source file is en_US - stripe
+# Dolibarr language file - Source file is en_US - stripe
 StripeSetup=Thiết lập mô-đun cổng thanh toán Stripe
-StripeDesc=Offer your customers an online payment page for payments with credit/debit cards via <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a>. This can be used to allow your customers to make ad-hoc payments or for payments related to a particular bespoerp object (invoice, order, ...)
+StripeDesc=Offer your customers an online payment page for payments with credit/debit cards via <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a>. This can be used to allow your customers to make ad-hoc payments or for payments related to a particular Dolibarr object (invoice, order, ...)
 StripeOrCBDoPayment=Thanh toán bằng thẻ tín dụng hoặc Stripe
-FollowingUrlAreAvailableToMakePayments=Các URL sau có sẵn để cung cấp một trang cho khách hàng để thanh toán trên các đối tượng bespoerp
+FollowingUrlAreAvailableToMakePayments=Các URL sau có sẵn để cung cấp một trang cho khách hàng để thanh toán trên các đối tượng Dolibarr
 PaymentForm=Hình thức thanh toán
 WelcomeOnPaymentPage=Chào mừng bạn đến với dịch vụ thanh toán trực tuyến của chúng tôi
 ThisScreenAllowsYouToPay=Màn hình này cho phép bạn thực hiện thanh toán trực tuyến tới %s.

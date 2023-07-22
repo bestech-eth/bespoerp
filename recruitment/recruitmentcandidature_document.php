@@ -22,7 +22,7 @@
  *  \brief      Tab for documents linked to RecruitmentCandidature
  */
 
-// Load bespoerp environment
+// Load Dolibarr environment
 require_once '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/company.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/files.lib.php';

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - bills
+# Dolibarr language file - Source file is en_US - bills
 Bill=請求書
 Bills=請求書
 BillsCustomers=顧客請求書
@@ -612,8 +612,8 @@ AutoFillDateFromShort=開始日を設定する
 AutoFillDateTo=次の請求日でサービスラインの終了日を設定する
 AutoFillDateToShort=終了日を設定する
 MaxNumberOfGenerationReached=世代の最大数。到達した
-BILL_DELETEInbespoerp=請求書は削除済
-BILL_SUPPLIER_DELETEInbespoerp=サプライヤーの請求書が削除された
+BILL_DELETEInDolibarr=請求書は削除済
+BILL_SUPPLIER_DELETEInDolibarr=サプライヤーの請求書が削除された
 UnitPriceXQtyLessDiscount=単価x数量-割引
 CustomersInvoicesArea=顧客請求エリア
 SupplierInvoicesArea=サプライヤーの請求エリア

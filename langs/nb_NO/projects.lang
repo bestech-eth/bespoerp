@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - projects
+# Dolibarr language file - Source file is en_US - projects
 RefProject=Ref. prosjekt
 ProjectRef=Prosjektsref.
 ProjectId=Prosjekt-ID
@@ -157,12 +157,12 @@ ConfirmCloneProject=Er du sikker på at du vil klone dette prosjektet?
 ProjectReportDate=Endre oppgavedatoer i henhold til ny prosjekt-startdato
 ErrorShiftTaskDate=Kan ikke skifte oppgave-dato etter nytt prosjekt-startdato
 ProjectsAndTasksLines=Prosjekter og oppgaver
-ProjectCreatedInbespoerp=Prosjekt %s opprettet
-ProjectValidatedInbespoerp=Prosjekt %s validert
-ProjectModifiedInbespoerp=Prosjekt %s er endret
-TaskCreatedInbespoerp=Oppgave %s opprettet
-TaskModifiedInbespoerp=Oppgave %s endret
-TaskDeletedInbespoerp=Oppgave %s slettet
+ProjectCreatedInDolibarr=Prosjekt %s opprettet
+ProjectValidatedInDolibarr=Prosjekt %s validert
+ProjectModifiedInDolibarr=Prosjekt %s er endret
+TaskCreatedInDolibarr=Oppgave %s opprettet
+TaskModifiedInDolibarr=Oppgave %s endret
+TaskDeletedInDolibarr=Oppgave %s slettet
 OpportunityStatus=Lead status
 OpportunityStatusShort=Lead status
 OpportunityProbability=Lead sannsynlighet

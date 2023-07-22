@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - blockedlog
+# Dolibarr language file - Source file is en_US - blockedlog
 BlockedLog=Logs nao modificaveis
 BlockedLogDesc=Este módulo rastreia alguns eventos em um log inalterável (que você não pode modificar uma vez gravado) em uma cadeia de blocos, em tempo real. Este módulo oferece compatibilidade com os requisitos das leis de alguns países (como a França com a lei Finance 2016 - Norme NF525).
 Fingerprints=Eventos e impressoes digitais arquivados

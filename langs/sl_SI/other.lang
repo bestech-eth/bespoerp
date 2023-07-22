@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - other
+# Dolibarr language file - Source file is en_US - other
 SecurityCode=Varnostna koda
 NumberingShort=št
 Tools=Orodja
@@ -106,7 +106,7 @@ PredefinedMailContentSendFichInter=__(Zdravo)__\n\nPriložena je intervencija __
 PredefinedMailContentLink=Lahko kliknete spodnjo povezavo, da izvedete plačilo, če še ni izvedeno.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Zdravo)__\n\n\n__(s spoštovanjem)__\n\n__USER_SIGNATURE__
 PredefinedMailContentSendActionComm=Opomnik dogodka »__EVENT_LABEL__« dne __EVENT_DATE__ ob __EVENT_TIME__ <br> <br> To je samodejno sporočilo, ne odgovarjajte.
-DemoDesc=bespoerp je kompakten ERP/CRM, ki podpira več poslovnih modulov. Predstavitev, ki prikazuje vse module, nima smisla, saj se ta scenarij nikoli ne zgodi (na voljo jih je nekaj sto). Na voljo je torej več demo profilov.
+DemoDesc=Dolibarr je kompakten ERP/CRM, ki podpira več poslovnih modulov. Predstavitev, ki prikazuje vse module, nima smisla, saj se ta scenarij nikoli ne zgodi (na voljo jih je nekaj sto). Na voljo je torej več demo profilov.
 ChooseYourDemoProfil=Izberite demo profil, ki najbolj ustreza vašim potrebam...
 ChooseYourDemoProfilMore=... ali ustvarite svoj profil <br> (ročna izbira modula)
 DemoFundation=Urejanje članov ustanove
@@ -185,10 +185,10 @@ BugTracker=Sledenje hrošču
 SendNewPasswordDesc=Ta obrazec vam omogoča, da zahtevate novo geslo. Poslano bo na vaš e-poštni naslov. <br> Sprememba bo začela veljati, ko kliknete potrditveno povezavo v e-poštnem sporočilu. <br> Preverite svoj nabiralnik.
 EnterNewPasswordHere=Enter your new password here
 BackToLoginPage=Nazaj na stran za prijavo
-AuthenticationDoesNotAllowSendNewPassword=Preverjanje pristnosti je <b>%s</b>.<br>V tem načinu bespoerp ne more vedeti, niti spremeniti vašega gesla.<br>Če želite spremeniti geslo, se obrnite na vašega sistemskega administratorja.
+AuthenticationDoesNotAllowSendNewPassword=Preverjanje pristnosti je <b>%s</b>.<br>V tem načinu Dolibarr ne more vedeti, niti spremeniti vašega gesla.<br>Če želite spremeniti geslo, se obrnite na vašega sistemskega administratorja.
 EnableGDLibraryDesc=Za uporabo te možnosti namestite ali omogočite knjižnico GD v svoji namestitvi PHP.
 ProfIdShortDesc=<b>Prof Id %s</b> je informacija, odvisna od države partnerja.<br>Na primer za državo <b>%s</b>, je koda <b>%s</b>.
-bespoerpDemo=bespoerp ERP/CRM demo
+DolibarrDemo=Dolibarr ERP/CRM demo
 StatsByNumberOfUnits=Statistika za vsoto količin izdelkov/storitev
 StatsByNumberOfEntities=Statistika za število napotitvenih subjektov (št. računov ali naročil...)
 NumberOfProposals=Število predlogov
@@ -229,7 +229,7 @@ EMailTextHolidayValidated=Zahteva za dopust %s je bila potrjena.
 EMailTextHolidayApproved=Zahteva za dopust %s je bila odobrena.
 EMailTextActionAdded=Ukrep %s je bil dodan na dnevni red.
 ImportedWithSet=Nabor podatkov za uvoz
-bespoerpNotification=Avtomatsko obvestilo
+DolibarrNotification=Avtomatsko obvestilo
 ResizeDesc=Vnesite novo širino <b>ALI</b> novo višino. Razmerje se bo med spreminjanjem velikosti ohranilo...
 NewLength=Nova širina
 NewHeight=Nova višina

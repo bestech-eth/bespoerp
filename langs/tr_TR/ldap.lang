@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - ldap
+# Dolibarr language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=<b>%s</b> Etki alanındaki <b>%s</b> kullanıcısının parolası değiştirilmelidir.
 UserMustChangePassNextLogon=Kullanıcı, %s etki alanındaki  parolasını değiştirmelidir
 LDAPInformationsForThisContact=Bu kişi için LDAP veritabanındaki bilgi
@@ -22,6 +22,6 @@ GroupSynchronized=Grup senkronize edildi
 MemberSynchronized=Üye senkronize edildi
 MemberTypeSynchronized=Üye türü senkronize edildi
 ContactSynchronized=Kişi senkronize edildi
-ForceSynchronize=bespoerp -> LDAP senkronizyona zorla
+ForceSynchronize=Dolibarr -> LDAP senkronizyona zorla
 ErrorFailedToReadLDAP=LDAP veritabanı okunamadı. LDAP modülü kurulumunu ve veritabanı erişilebilirliğini denetleyin.
 PasswordOfUserInLDAP=LDAP'de kullanıcının şifresi

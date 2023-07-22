@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - mails
+# Dolibarr language file - Source file is en_US - mails
 Mailing=E-pošta
 EMailing=E-pošta
 EMailings=E-pošta
@@ -90,7 +90,7 @@ MailingModuleDescContactsByCategory=Kontakti po kategorijah
 MailingModuleDescContactsByFunction=Kontakti po položaju
 MailingModuleDescEmailsFromFile=E-poštna sporočila iz datoteke
 MailingModuleDescEmailsFromUser=E-poštna sporočila, ki jih vnese uporabnik
-MailingModuleDescbespoerpUsers=Uporabniki z e-pošto
+MailingModuleDescDolibarrUsers=Uporabniki z e-pošto
 MailingModuleDescThirdPartiesByCategories=Partnerji
 SendingFromWebInterfaceIsNotAllowed=Pošiljanje iz spletnega vmesnika ni dovoljeno.
 EmailCollectorFilterDesc=Za zbiranje e-pošte se morajo vsi filtri ujemati

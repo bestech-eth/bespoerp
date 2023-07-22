@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - mails
+# Dolibarr language file - Source file is en_US - mails
 Mailing=E-postalama
 EMailing=E-postalama
 EMailings=E-postalamalar
@@ -90,7 +90,7 @@ MailingModuleDescContactsByCategory=Kategorilere göre kişiler
 MailingModuleDescContactsByFunction=Pozisyona göre kişiler
 MailingModuleDescEmailsFromFile=Dosyadan e-postalar
 MailingModuleDescEmailsFromUser=Kullanıcı tarafından girilen e-postalar
-MailingModuleDescbespoerpUsers=E-postaları olan kullanıcılar
+MailingModuleDescDolibarrUsers=E-postaları olan kullanıcılar
 MailingModuleDescThirdPartiesByCategories=Cariler
 SendingFromWebInterfaceIsNotAllowed=Sending from web interface is not allowed.
 EmailCollectorFilterDesc=All filters must match to have an email being collected

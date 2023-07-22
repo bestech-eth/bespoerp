@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - workflow
+# Dolibarr language file - Source file is en_US - workflow
 WorkflowSetup=เวิร์กโฟลว์การติดตั้งโมดูล
 WorkflowDesc=This module provides some automatic actions. By default, the workflow is open (you can do things in the order you want) but here you can activate some automatic actions.
 ThereIsNoWorkflowToModify=ไม่มีการปรับเปลี่ยนขั้นตอนการทำงานที่มีอยู่กับโมดูลเปิดใช้งานคือ

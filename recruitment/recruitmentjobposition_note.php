@@ -22,7 +22,7 @@
  *  \brief      Car with notes on RecruitmentJobPosition
  */
 
-// Load bespoerp environment
+// Load Dolibarr environment
 require_once '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/recruitment/class/recruitmentjobposition.class.php';
 require_once DOL_DOCUMENT_ROOT.'/recruitment/lib/recruitment_recruitmentjobposition.lib.php';

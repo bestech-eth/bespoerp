@@ -719,7 +719,7 @@ class Product extends CommonObject
 
 		$this->db->begin();
 
-		// For automatic creation during create action (not used by bespoerp GUI, can be used by scripts)
+		// For automatic creation during create action (not used by Dolibarr GUI, can be used by scripts)
 		if ($this->barcode == -1) {
 			$this->barcode = $this->get_barcode($this, $this->barcode_type_code);
 		}

@@ -1,7 +1,7 @@
-# bespoerp language file - Source file is en_US - paybox
+# Dolibarr language file - Source file is en_US - paybox
 PayBoxSetup=PayBox模块设置
-PayBoxDesc=该模块提供页面，允许客户在<a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a>付款。这可以用于免费付款或给特定的 bespoerp 对象 (发票、订单……) 付款
-FollowingUrlAreAvailableToMakePayments=以下网址可提供给客户的网页上，能够作出bespoerp支付对象
+PayBoxDesc=该模块提供页面，允许客户在<a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a>付款。这可以用于免费付款或给特定的 Dolibarr 对象 (发票、订单……) 付款
+FollowingUrlAreAvailableToMakePayments=以下网址可提供给客户的网页上，能够作出Dolibarr支付对象
 PaymentForm=付款表单
 WelcomeOnPaymentPage=欢迎使用我们的在线付款服务
 ThisScreenAllowsYouToPay=这个屏幕允许你进行网上支付%s。

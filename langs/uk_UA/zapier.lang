@@ -13,9 +13,9 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-ModuleZapierForbespoerpName = Zapier для bespoerp
-ModuleZapierForbespoerpDesc = Zapier для модуля bespoerp
-ZapierForbespoerpSetup=Налаштування Zapier для bespoerp
+ModuleZapierForDolibarrName = Zapier для Dolibarr
+ModuleZapierForDolibarrDesc = Zapier для модуля Dolibarr
+ZapierForDolibarrSetup=Налаштування Zapier для Dolibarr
 ZapierDescription=Інтерфейс із Zapier
 ZapierAbout=Про модуль Zapier
-ZapierSetupPage=Для використання Zapier не потрібно налаштовувати bespoerp. Однак ви повинні створити та опублікувати пакунок на zapier, щоб мати можливість використовувати Zapier з bespoerp. Дивіться документацію на <a href="https://wiki.bespoerp.org/index.php/Module_Zapier"> на цій вікі-сторінці </a>.
+ZapierSetupPage=Для використання Zapier не потрібно налаштовувати Dolibarr. Однак ви повинні створити та опублікувати пакунок на zapier, щоб мати можливість використовувати Zapier з Dolibarr. Дивіться документацію на <a href="https://wiki.dolibarr.org/index.php/Module_Zapier"> на цій вікі-сторінці </a>.

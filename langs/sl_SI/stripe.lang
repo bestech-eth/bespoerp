@@ -1,8 +1,8 @@
-# bespoerp language file - Source file is en_US - stripe
+# Dolibarr language file - Source file is en_US - stripe
 StripeSetup=Nastavitev modula Stripe
-StripeDesc=Ponudite svojim strankam spletno plačilno stran za plačila s kreditnimi/debetnimi karticami prek <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a>. To lahko uporabite, da svojim strankam omogočite ad hoc plačila ali za plačila v zvezi z določenim objektom bespoerp (račun, naročilo, ...)
+StripeDesc=Ponudite svojim strankam spletno plačilno stran za plačila s kreditnimi/debetnimi karticami prek <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a>. To lahko uporabite, da svojim strankam omogočite ad hoc plačila ali za plačila v zvezi z določenim objektom Dolibarr (račun, naročilo, ...)
 StripeOrCBDoPayment=Plačajte s kreditno kartico ali Stripe
-FollowingUrlAreAvailableToMakePayments=Naslednji URL naslovi so na voljo kupcem za izvedbo plačil bespoerp postavk
+FollowingUrlAreAvailableToMakePayments=Naslednji URL naslovi so na voljo kupcem za izvedbo plačil Dolibarr postavk
 PaymentForm=Obrazec za plačilo
 WelcomeOnPaymentPage=Dobrodošli v naši spletni plačilni storitvi
 ThisScreenAllowsYouToPay=Ta zaslon omogoča online plačilo za %s.

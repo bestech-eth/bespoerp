@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - orders
+# Dolibarr language file - Source file is en_US - orders
 OrderExists=Ar šo piedāvājumu saistīts pasūtījums jau bija atvērts, tāpēc neviens cits pasūtījums netika izveidots automātiski
 OrdersArea=Klienti pasūtījumu sadaļa
 SuppliersOrdersArea=Pirkumu pasūtījumu apgabals
@@ -129,8 +129,8 @@ ConfirmCloneOrder=Vai jūs tiešām vēlaties klonēt šo pasūtījumu <b>%s</b>
 DispatchSupplierOrder=Pirkuma pasūtījuma saņemšana %s
 FirstApprovalAlreadyDone=Pirmais apstiprinājums jau ir izdarīts
 SecondApprovalAlreadyDone=Otrais apstiprinājums jau veikts
-SupplierOrderReceivedInbespoerp=Pirkuma pasūtījumu %s saņēma %s
-SupplierOrderSubmitedInbespoerp=Pirkuma pasūtījums %s iesniegts
+SupplierOrderReceivedInDolibarr=Pirkuma pasūtījumu %s saņēma %s
+SupplierOrderSubmitedInDolibarr=Pirkuma pasūtījums %s iesniegts
 SupplierOrderClassifiedBilled=Pirkuma pasūtījums %s, kas ir iekasēts
 OtherOrders=Citi pasūtījumi
 SupplierOrderValidatedAndApproved=Piegādātāja pasūtījums ir apstiprināts un apstiprināts: %s

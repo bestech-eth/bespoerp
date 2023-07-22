@@ -1,11 +1,11 @@
-# bespoerp language file - Source file is en_US - companies
+# Dolibarr language file - Source file is en_US - companies
 ConfirmDeleteCompany=Weet u zeker dat u dit bedrijf en alle gerelateerde gegevens wilt verwijderen?
 ConfirmDeleteContact=Weet u zeker dat u dit contact en alle gerelateerde gegevens wilt verwijderen?
 MenuNewThirdParty=Nieuwe derde partij
 MenuNewProspect=Nieuwe Prospect
 MenuNewSupplier=Nieuwe verkoper
 NewCompany=Nieuw bedrijf (prospect, klant, leverancier)
-CreatebespoerpThirdPartySupplier=Creëer een derde partij (leverancier)
+CreateDolibarrThirdPartySupplier=Creëer een derde partij (leverancier)
 CreateThirdPartyAndContact=Maak een derde partij + een child-contact
 CountryIsInEEC=Land ligt binnen de Europese Economische Gemeenschap
 ThirdPartyName=Naam derde partij

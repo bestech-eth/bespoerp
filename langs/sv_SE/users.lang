@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - users
+# Dolibarr language file - Source file is en_US - users
 HRMArea=HRM område
 UserCard=Användarkort
 GroupCard=Gruppkort
@@ -37,7 +37,7 @@ SuperAdministratorDesc=Global administratör
 AdministratorDesc=Administratör
 DefaultRights=Standardrättigheter
 DefaultRightsDesc=Ange <u>standardrättigheter</u> som automatiskt tilldelas en <u>ny</u> användare (för att ändra rättigheter för befintliga användare går du till användarkortet).
-bespoerpUsers=bespoerpanvändare
+DolibarrUsers=Dolibarranvändare
 LastName=Efternamn
 FirstName=Förnamn
 ListOfGroups=Lista grupper
@@ -61,13 +61,13 @@ PhotoFile=Bildfil
 ListOfUsersInGroup=Lista över användare i denna grupp
 ListOfGroupsForUser=Lista över grupper för denna användare
 LinkToCompanyContact=Länk till tredjepart/kontakt
-LinkedTobespoerpMember=Länk till medlem
-LinkedTobespoerpUser=Länk till användare
-LinkedTobespoerpThirdParty=Länk till tredjepart
-CreatebespoerpLogin=Skapa användare
-CreatebespoerpThirdParty=Skapa tredjepart
-LoginAccountDisableInbespoerp=Kontot inaktiverat i bespoerp
-PASSWORDInbespoerp=Lösenordet ändrat i bespoerp
+LinkedToDolibarrMember=Länk till medlem
+LinkedToDolibarrUser=Länk till användare
+LinkedToDolibarrThirdParty=Länk till tredjepart
+CreateDolibarrLogin=Skapa användare
+CreateDolibarrThirdParty=Skapa tredjepart
+LoginAccountDisableInDolibarr=Kontot inaktiverat i Dolibarr
+PASSWORDInDolibarr=Lösenordet ändrat i Dolibarr
 UsePersonalValue=Använd personligt värde
 ExportDataset_user_1=Användare och egenskaper
 DomainUser=Domänanvändare %s

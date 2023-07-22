@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - bills
+# Dolibarr language file - Source file is en_US - bills
 Bill=رسید
 Bills=رسیدیں
 BillsCustomers=کسٹمر کی رسیدیں
@@ -598,8 +598,8 @@ AutoFillDateFromShort=آغاز کی تاریخ مقرر کریں۔
 AutoFillDateTo=اگلی انوائس تاریخ کے ساتھ سروس لائن کے لیے اختتامی تاریخ مقرر کریں۔
 AutoFillDateToShort=اختتامی تاریخ مقرر کریں۔
 MaxNumberOfGenerationReached=جین کی زیادہ سے زیادہ تعداد۔ پہنچ گئے
-BILL_DELETEInbespoerp=رسید حذف کر دی گئی۔
-BILL_SUPPLIER_DELETEInbespoerp=فراہم کنندہ کی رسید حذف کر دی گئی۔
+BILL_DELETEInDolibarr=رسید حذف کر دی گئی۔
+BILL_SUPPLIER_DELETEInDolibarr=فراہم کنندہ کی رسید حذف کر دی گئی۔
 UnitPriceXQtyLessDiscount=یونٹ کی قیمت x مقدار - ڈسکاؤنٹ
 CustomersInvoicesArea=کسٹمر بلنگ ایریا
 SupplierInvoicesArea=سپلائر بلنگ ایریا

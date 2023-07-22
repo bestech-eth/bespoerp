@@ -1,7 +1,7 @@
-# bespoerp language file - Source file is en_US - paybox
+# Dolibarr language file - Source file is en_US - paybox
 PayBoxSetup=Paybox modul nastavenia
-PayBoxDesc=Tento modul ponúkajú stránky, ktoré umožnia platby na <a href="http://www.paybox.com" target="_blank">Paybox</a> zákazníkov. Toho možno využiť pre voľný platbu alebo platbu na určitý objekt bespoerp (faktúry, objednávky, ...)
-FollowingUrlAreAvailableToMakePayments=Nasledovné adresy URL sú k dispozícii ponúknuť stránky na zákazníka, aby platbu na bespoerp objektov
+PayBoxDesc=Tento modul ponúkajú stránky, ktoré umožnia platby na <a href="http://www.paybox.com" target="_blank">Paybox</a> zákazníkov. Toho možno využiť pre voľný platbu alebo platbu na určitý objekt Dolibarr (faktúry, objednávky, ...)
+FollowingUrlAreAvailableToMakePayments=Nasledovné adresy URL sú k dispozícii ponúknuť stránky na zákazníka, aby platbu na Dolibarr objektov
 PaymentForm=Platba formulár
 WelcomeOnPaymentPage=Welcome to our online payment service
 ThisScreenAllowsYouToPay=Táto obrazovka vám umožní vykonať on-line platbu %s.

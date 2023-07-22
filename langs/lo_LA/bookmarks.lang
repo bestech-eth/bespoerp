@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - marque pages
+# Dolibarr language file - Source file is en_US - marque pages
 AddThisPageToBookmarks=ເພີ່ມ ໜ້າ ປັດຈຸບັນໃສ່ບຸກມາກ
 Bookmark=ບຸກມາກ
 Bookmarks=ບຸກມາກ
@@ -15,7 +15,7 @@ UrlOrLink=URL
 BehaviourOnClick=ພຶດຕິ ກຳ ເມື່ອ URL ບຸກມາກຖືກເລືອກ
 CreateBookmark=ສ້າງບຸກມາກ
 SetHereATitleForLink=ຕັ້ງຊື່ໃຫ້ກັບບຸກມາກ
-UseAnExternalHttpLinkOrRelativebespoerpLink=Use an external/absolute link (https://externalurl.com) or an internal/relative link (/mypage.php). You can also use phone like tel:0123456.
+UseAnExternalHttpLinkOrRelativeDolibarrLink=Use an external/absolute link (https://externalurl.com) or an internal/relative link (/mypage.php). You can also use phone like tel:0123456.
 ChooseIfANewWindowMustBeOpenedOnClickOnBookmark=ເລືອກວ່າ ໜ້າ ທີ່ເຊື່ອມໂຍງຄວນຈະເປີດຢູ່ໃນແຖບປັດຈຸບັນຫຼືແຖບໃnew່
 BookmarksManagement=ການຈັດການ bookmarks
 BookmarksMenuShortCut=Ctrl + shift + m

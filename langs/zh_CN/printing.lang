@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - printing
+# Dolibarr language file - Source file is en_US - printing
 Module64000Name=一键打印
 Module64000Desc=启用一键打印系统
 PrintingSetup=一键打印系统的设置

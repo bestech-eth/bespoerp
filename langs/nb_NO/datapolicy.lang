@@ -64,7 +64,7 @@ DATAPOLICY_opposition_prospection = Motsetter seg behandling av personopplysning
 # Popup
 #
 DATAPOLICY_POPUP_ANONYME_TITLE = Anonymiser en tredjepart
-DATAPOLICY_POPUP_ANONYME_TEXTE = Du kan ikke slette denne kontakten fra bespoerp fordi det er relaterte elementer. I samsvar med GDPR vil du gjøre alle disse dataene anonyme for å respektere dine forpliktelser. Vil du fortsette?
+DATAPOLICY_POPUP_ANONYME_TEXTE = Du kan ikke slette denne kontakten fra Dolibarr fordi det er relaterte elementer. I samsvar med GDPR vil du gjøre alle disse dataene anonyme for å respektere dine forpliktelser. Vil du fortsette?
 
 #
 # Button for portability

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - errors
+# Dolibarr language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Nema greške, commit.
@@ -49,10 +49,10 @@ ErrorBadDateFormat=Vrednost "%s" ima pogrešan format datma
 ErrorWrongDate=Datum nije ispravan!
 ErrorFailedToWriteInDir=Greška prilikom pisanja u folder %s
 ErrorFoundBadEmailInFile=Pronađeni su mailovi sa pogrešnom sintaksom za %s linija u fajlu (primer linija %s sa mailom %s)
-ErrorUserCannotBeDelete=User cannot be deleted. Maybe it is associated to bespoerp entities.
+ErrorUserCannotBeDelete=User cannot be deleted. Maybe it is associated to Dolibarr entities.
 ErrorFieldsRequired=Some required fields have been left blank.
 ErrorSubjectIsRequired=The email subject is required
-ErrorFailedToCreateDir=Greška prilikom kreacije foldera. Proverite da li Web server nalog ima prava da piše u bespoerp documents folderu. Ako je parametar <b>safe_mode</b> aktivan u PHP-u, proverite da li bespoerp php fajlovi pripadaju korisniku (ili grupi) Web server naloga.
+ErrorFailedToCreateDir=Greška prilikom kreacije foldera. Proverite da li Web server nalog ima prava da piše u Dolibarr documents folderu. Ako je parametar <b>safe_mode</b> aktivan u PHP-u, proverite da li Dolibarr php fajlovi pripadaju korisniku (ili grupi) Web server naloga.
 ErrorNoMailDefinedForThisUser=Mail nije definisan za ovog korisnika
 ErrorSetupOfEmailsNotComplete=Setup of emails is not complete
 ErrorFeatureNeedJavascript=Za ovu funkcionalnost morate aktivirati javascript.
@@ -80,7 +80,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=The field <b>%s</b> must not co
 ErrorFieldMustHaveXChar=The field <b>%s</b> must have at least %s characters.
 ErrorNoAccountancyModuleLoaded=Modul računovodstvo nije aktiviran
 ErrorExportDuplicateProfil=Ovo ime profila već postoji za ovaj export set.
-ErrorLDAPSetupNotComplete=bespoerp-LDAP matching nije završen.
+ErrorLDAPSetupNotComplete=Dolibarr-LDAP matching nije završen.
 ErrorLDAPMakeManualTest=.ldif fajl je generisan u folderu %s. Pokušajte da ga učitate ručno iz komandne linije da biste imali više informacija o greškama.
 ErrorCantSaveADoneUserWithZeroPercentage=Can't save an action with "status not started" if field "done by" is also filled.
 ErrorRefAlreadyExists=Reference <b>%s</b> already exists.
@@ -114,7 +114,7 @@ ErrorFailedToSendPassword=Greška prilikom slanja lozinke
 ErrorFailedToLoadRSSFile=Greška prilikom čitanja RSS-a. Pokušajte da dodate konstantu MAIN_SIMPLEXMLLOAD_DEBUG ukoliko nemate dovoljno podataka za analizu greške.
 ErrorForbidden=Zabranjen pristup.<br>Pokušali ste da pristupite sadržaju deaktiviranog modula ili Vaš korisnik nema potrebna prava za pristup.
 ErrorForbidden2=Prava za ovog korisnik mogu biti definisana od strane administratora u meniju %s->%s.
-ErrorForbidden3=Izgleda da niste pristupili bespoerp-u preko autentifikovane sesije. Proverite dokumentaciju podešavanja da biste videli kako se podešavaju autentifikacije (htaccess, mod_auth i dr.).
+ErrorForbidden3=Izgleda da niste pristupili Dolibarr-u preko autentifikovane sesije. Proverite dokumentaciju podešavanja da biste videli kako se podešavaju autentifikacije (htaccess, mod_auth i dr.).
 ErrorForbidden4=Note: clear your browser cookies to destroy existing sessions for this login.
 ErrorNoImagickReadimage=Klasa Imagick nije nađena u PHP-u. Prikaz nije dostupan. Administratori mogu da deaktiviraju ovaj tab iz Podešavanja - Prikaz.
 ErrorRecordAlreadyExists=Linija već postoji
@@ -137,8 +137,8 @@ ErrorWebServerUserHasNotPermission=Korisnik <b>%s</b> nema prava za izvršavanje
 ErrorNoActivatedBarcode=Barcode tip nije aktiviran
 ErrUnzipFails=Greška prilikom dekompresije %s
 ErrNoZipEngine=No engine to zip/unzip %s file in this PHP
-ErrorFileMustBeAbespoerpPackage=Fajl %s mora biti bespoerp zip paket
-ErrorModuleFileRequired=You must select a bespoerp module package file
+ErrorFileMustBeADolibarrPackage=Fajl %s mora biti Dolibarr zip paket
+ErrorModuleFileRequired=You must select a Dolibarr module package file
 ErrorPhpCurlNotInstalled=PHP CURL nije instaliran, ovo je neophodno za Paypal
 ErrorFailedToAddToMailmanList=Greška prilikom dodavanja linije %s Mailman listi %s ili SPIP bazi
 ErrorFailedToRemoveToMailmanList=Greška prilikom uklanjanja linije %s iz Mailman liste %s ili SPIP baze
@@ -213,7 +213,7 @@ ErrorUserNotAssignedToTask=User must be assigned to task to be able to enter tim
 ErrorTaskAlreadyAssigned=Task already assigned to user
 ErrorModuleFileSeemsToHaveAWrongFormat=The module package seems to have a wrong format.
 ErrorModuleFileSeemsToHaveAWrongFormat2=At least one mandatory directory must exists into zip of module: <strong>%s</strong> or <strong>%s</strong>
-ErrorFilenameDosNotMatchbespoerpPackageRules=The name of the module package (<strong>%s</strong>) does not match expected name syntax: <strong>%s</strong>
+ErrorFilenameDosNotMatchDolibarrPackageRules=The name of the module package (<strong>%s</strong>) does not match expected name syntax: <strong>%s</strong>
 ErrorDuplicateTrigger=Error, duplicate trigger name %s. Already loaded from %s.
 ErrorNoWarehouseDefined=Error, no warehouses defined.
 ErrorBadLinkSourceSetButBadValueForRef=The link you use is not valid. A 'source' for payment is defined, but value for 'ref' is not valid.
@@ -294,7 +294,7 @@ ErrorQuantityIsLimitedTo=Quantity is limited to %s
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=Your PHP parameter upload_max_filesize (%s) is higher than PHP parameter post_max_size (%s). This is not a consistent setup.
-WarningPasswordSetWithNoAccount=Lozinka je podešena za ovog člana, ali korisnik nije kreiran. To znači da je lozinka sačuvana, ali se član ne može ulogovati na bespoerp. Informaciju može koristiti neka eksterna komponenta, ali ako nemate potrebe da definišete korisnika/lozinku za članove, možete deaktivirati opciju "Upravljanje lozinkama za svakog člana" u podešavanjima modula Članovi. Ukoliko morate da kreirate login, ali Vam nije potrebna lozinka, ostavite ovo polje prazno da se ovo upozorenje ne bi prikazivalo. Napomena: email može biti korišćen kao login ako je član povezan sa korisnikom.
+WarningPasswordSetWithNoAccount=Lozinka je podešena za ovog člana, ali korisnik nije kreiran. To znači da je lozinka sačuvana, ali se član ne može ulogovati na Dolibarr. Informaciju može koristiti neka eksterna komponenta, ali ako nemate potrebe da definišete korisnika/lozinku za članove, možete deaktivirati opciju "Upravljanje lozinkama za svakog člana" u podešavanjima modula Članovi. Ukoliko morate da kreirate login, ali Vam nije potrebna lozinka, ostavite ovo polje prazno da se ovo upozorenje ne bi prikazivalo. Napomena: email može biti korišćen kao login ako je član povezan sa korisnikom.
 WarningMandatorySetupNotComplete=Click here to setup main parameters
 WarningEnableYourModulesApplications=Click here to enable your modules and applications
 WarningSafeModeOnCheckExecDir=Upozorenje PHP opcija <b>safe_mode</b> je aktivna, tako da komanda mora biti u folderu definisanom u PHP parametru <b>safe_mode_exec_dir</b>.

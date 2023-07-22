@@ -44,7 +44,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=Atpakaļsaites, lai pārbaudītu
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=Nb dienas pirms partnerības statusa atcelšanas, kad abonements ir beidzies
 ReferingWebsiteCheck=Vietnes atsauces pārbaude
 ReferingWebsiteCheckDesc=Varat iespējot funkciju, lai pārbaudītu, vai jūsu partneri ir pievienojuši atpakaļsaišu jūsu vietnes domēniem savā vietnē.
-PublicFormRegistrationPartnerDesc=bespoerp var nodrošināt jums publisku URL/tīmekļa vietni, lai ārējie apmeklētāji varētu pieprasīt dalību partnerības programmā.
+PublicFormRegistrationPartnerDesc=Dolibarr var nodrošināt jums publisku URL/tīmekļa vietni, lai ārējie apmeklētāji varētu pieprasīt dalību partnerības programmā.
 
 #
 # Object

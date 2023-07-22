@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - bills
+# Dolibarr language file - Source file is en_US - bills
 Bill=ໃບແຈ້ງ ໜີ້
 Bills=ໃບແຈ້ງ ໜີ້
 BillsCustomers=ໃບແຈ້ງ ໜີ້ ລູກຄ້າ
@@ -598,8 +598,8 @@ AutoFillDateFromShort=ຕັ້ງວັນທີເລີ່ມຕົ້ນ
 AutoFillDateTo=ກໍານົດວັນທີສິ້ນສຸດສໍາລັບແຖວການບໍລິການກັບວັນທີໃບແຈ້ງ ໜີ້ ຕໍ່ໄປ
 AutoFillDateToShort=ກໍານົດວັນທີສິ້ນສຸດ
 MaxNumberOfGenerationReached=ຈຳ ນວນສູງສຸດຂອງ gen. ບັນລຸໄດ້
-BILL_DELETEInbespoerp=ລຶບໃບຮຽກເກັບເງິນແລ້ວ
-BILL_SUPPLIER_DELETEInbespoerp=ລຶບໃບຮຽກເກັບເງິນຜູ້ສະ ໜອງ ແລ້ວ
+BILL_DELETEInDolibarr=ລຶບໃບຮຽກເກັບເງິນແລ້ວ
+BILL_SUPPLIER_DELETEInDolibarr=ລຶບໃບຮຽກເກັບເງິນຜູ້ສະ ໜອງ ແລ້ວ
 UnitPriceXQtyLessDiscount=ລາຄາຕໍ່ຫົວ ໜ່ວຍ x ຈໍານວນ - ສ່ວນຫຼຸດ
 CustomersInvoicesArea=ພື້ນທີ່ເກັບເງິນຂອງລູກຄ້າ
 SupplierInvoicesArea=ພື້ນທີ່ຮຽກເກັບເງິນຂອງຜູ້ສະ ໜອງ

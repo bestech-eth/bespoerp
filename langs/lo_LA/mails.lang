@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - mails
+# Dolibarr language file - Source file is en_US - mails
 Mailing=ອີເມວ
 EMailing=ອີເມວ
 EMailings=ອີເມວ
@@ -90,7 +90,7 @@ MailingModuleDescContactsByCategory=ລາຍຊື່ຜູ້ຕິດຕໍ�
 MailingModuleDescContactsByFunction=ຕິດຕໍ່ພົວພັນໂດຍຕໍາແຫນ່ງ
 MailingModuleDescEmailsFromFile=ອີເມວຈາກໄຟລ
 MailingModuleDescEmailsFromUser=ການປ້ອນຂໍ້ມູນອີເມວໂດຍຜູ້ໃຊ້
-MailingModuleDescbespoerpUsers=ຜູ້ໃຊ້ທີ່ມີອີເມລ
+MailingModuleDescDolibarrUsers=ຜູ້ໃຊ້ທີ່ມີອີເມລ
 MailingModuleDescThirdPartiesByCategories=Third parties
 SendingFromWebInterfaceIsNotAllowed=ການສົ່ງຈາກອິນເຕີເຟດເວັບແມ່ນບໍ່ອະນຸຍາດ.
 EmailCollectorFilterDesc=ຕົວກັ່ນຕອງທັງmustົດຕ້ອງກົງກັນເພື່ອຈະໄດ້ເກັບ ກຳ ອີເມວ

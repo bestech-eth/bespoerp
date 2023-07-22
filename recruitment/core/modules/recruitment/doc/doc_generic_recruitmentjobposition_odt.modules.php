@@ -54,9 +54,9 @@ class doc_generic_recruitmentjobposition_odt extends ModelePDFRecruitmentJobPosi
 	public $phpmin = array(7, 0);
 
 	/**
-	 * @var string bespoerp version of the loaded document
+	 * @var string Dolibarr version of the loaded document
 	 */
-	public $version = 'bespoerp';
+	public $version = 'dolibarr';
 
 
 	/**

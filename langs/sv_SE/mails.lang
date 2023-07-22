@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - mails
+# Dolibarr language file - Source file is en_US - mails
 Mailing=E-post
 EMailing=E-post
 EMailings=E-post
@@ -90,7 +90,7 @@ MailingModuleDescContactsByCategory=Kontakter efter kategorier
 MailingModuleDescContactsByFunction=Kontakter efter position
 MailingModuleDescEmailsFromFile=E-post från fil
 MailingModuleDescEmailsFromUser=E-postmeddelanden inskrivna av användaren
-MailingModuleDescbespoerpUsers=Användare med e-post
+MailingModuleDescDolibarrUsers=Användare med e-post
 MailingModuleDescThirdPartiesByCategories=Tredjepart
 SendingFromWebInterfaceIsNotAllowed=Skicka från webbgränssnitt är inte tillåtet.
 EmailCollectorFilterDesc=Alla filter måste matcha för att ett e-postmeddelande ska samlas in

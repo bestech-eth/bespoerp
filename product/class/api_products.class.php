@@ -30,9 +30,9 @@ require_once DOL_DOCUMENT_ROOT.'/variants/class/ProductCombination2ValuePair.cla
  * API class for products
  *
  * @access protected
- * @class  bespoerpApiAccess {@requires user,external}
+ * @class  DolibarrApiAccess {@requires user,external}
  */
-class Products extends bespoerpApi
+class Products extends DolibarrApi
 {
 	/**
 	 * @var array   $FIELDS     Mandatory fields, checked when create and update object
@@ -179,13 +179,13 @@ class Products extends bespoerpApi
 	{
 		global $db, $conf;
 
-		if (!bespoerpApiAccess::$user->rights->produit->lire) {
+		if (!DolibarrApiAccess::$user->rights->produit->lire) {
 			throw new RestException(403);
 		}
 
 		$obj_ret = array();
 
-		$socid = bespoerpApiAccess::$user->socid ? bespoerpApiAccess::$user->socid : '';
+		$socid = DolibarrApiAccess::$user->socid ? DolibarrApiAccess::$user->socid : '';
 
 		$sql = "SELECT t.rowid, t.ref, t.ref_ext";
 		$sql .= " FROM ".$this->db->prefix()."product as t";
@@ -251,7 +251,7 @@ class Products extends bespoerpApi
 				if (!$ids_only) {
 					$product_static = new Product($this->db);
 					if ($product_static->fetch($obj->rowid)) {
-						if (!empty($includestockdata) && bespoerpApiAccess::$user->rights->stock->lire) {
+						if (!empty($includestockdata) && DolibarrApiAccess::$user->rights->stock->lire) {
 							$product_static->load_stock();
 
 							if (is_array($product_static->stock_warehouse)) {
@@ -308,7 +308,7 @@ class Products extends bespoerpApi
 	 */
 	public function post($request_data = null)
 	{
-		if (!bespoerpApiAccess::$user->rights->produit->creer) {
+		if (!DolibarrApiAccess::$user->rights->produit->creer) {
 			throw new RestException(401);
 		}
 		// Check mandatory fields
@@ -317,7 +317,7 @@ class Products extends bespoerpApi
 		foreach ($request_data as $field => $value) {
 			$this->product->$field = $value;
 		}
-		if ($this->product->create(bespoerpApiAccess::$user) < 0) {
+		if ($this->product->create(DolibarrApiAccess::$user) < 0) {
 			throw new RestException(500, "Error creating product", array_merge(array($this->product->error), $this->product->errors));
 		}
 
@@ -339,7 +339,7 @@ class Products extends bespoerpApi
 	{
 		global $conf;
 
-		if (!bespoerpApiAccess::$user->rights->produit->creer) {
+		if (!DolibarrApiAccess::$user->rights->produit->creer) {
 			throw new RestException(401);
 		}
 
@@ -348,8 +348,8 @@ class Products extends bespoerpApi
 			throw new RestException(404, 'Product not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('product', $this->product->id)) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('product', $this->product->id)) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
 		$oldproduct = dol_clone($this->product);
@@ -369,7 +369,7 @@ class Products extends bespoerpApi
 			$updatetype = true;
 		}
 
-		$result = $this->product->update($id, bespoerpApiAccess::$user, 1, 'update', $updatetype);
+		$result = $this->product->update($id, DolibarrApiAccess::$user, 1, 'update', $updatetype);
 
 		// If price mode is 1 price per product
 		if ($result > 0 && !empty($conf->global->PRODUCT_PRICE_UNIQ)) {
@@ -417,7 +417,7 @@ class Products extends bespoerpApi
 					$newpricemin = $this->product->price_min_ttc;
 				}
 
-				$result = $this->product->updatePrice($newprice, $this->product->price_base_type, bespoerpApiAccess::$user, $newvat, $newpricemin, 0, $newnpr, 0, 0, array(), $newvatsrccode);
+				$result = $this->product->updatePrice($newprice, $this->product->price_base_type, DolibarrApiAccess::$user, $newvat, $newpricemin, 0, $newnpr, 0, 0, array(), $newvatsrccode);
 			}
 		}
 
@@ -436,7 +436,7 @@ class Products extends bespoerpApi
 	 */
 	public function delete($id)
 	{
-		if (!bespoerpApiAccess::$user->rights->produit->supprimer) {
+		if (!DolibarrApiAccess::$user->rights->produit->supprimer) {
 			throw new RestException(401);
 		}
 		$result = $this->product->fetch($id);
@@ -444,15 +444,15 @@ class Products extends bespoerpApi
 			throw new RestException(404, 'Product not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('product', $this->product->id)) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('product', $this->product->id)) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
 		// The Product::delete() method uses the global variable $user.
 		global $user;
-		$user = bespoerpApiAccess::$user;
+		$user = DolibarrApiAccess::$user;
 
-		$res = $this->product->delete(bespoerpApiAccess::$user);
+		$res = $this->product->delete(DolibarrApiAccess::$user);
 		if ($res < 0) {
 			throw new RestException(500, "Can't delete, error occurs");
 		} elseif ($res == 0) {
@@ -481,12 +481,12 @@ class Products extends bespoerpApi
 	 */
 	public function getSubproducts($id)
 	{
-		if (!bespoerpApiAccess::$user->rights->produit->lire) {
+		if (!DolibarrApiAccess::$user->rights->produit->lire) {
 			throw new RestException(401);
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('product', $id)) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('product', $id)) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
 		$childsArbo = $this->product->getChildsArbo($id, 1);
@@ -519,12 +519,12 @@ class Products extends bespoerpApi
 	 */
 	public function addSubproducts($id, $subproduct_id, $qty, $incdec = 1)
 	{
-		if (!bespoerpApiAccess::$user->rights->produit->creer) {
+		if (!DolibarrApiAccess::$user->rights->produit->creer) {
 			throw new RestException(401);
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('product', $id)) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('product', $id)) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
 		$result = $this->product->add_sousproduit($id, $subproduct_id, $qty, $incdec);
@@ -549,12 +549,12 @@ class Products extends bespoerpApi
 	 */
 	public function delSubproducts($id, $subproduct_id)
 	{
-		if (!bespoerpApiAccess::$user->rights->produit->creer) {
+		if (!DolibarrApiAccess::$user->rights->produit->creer) {
 			throw new RestException(401);
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('product', $id)) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('product', $id)) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
 		$result = $this->product->del_sousproduit($id, $subproduct_id);
@@ -580,7 +580,7 @@ class Products extends bespoerpApi
 	 */
 	public function getCategories($id, $sortfield = "s.rowid", $sortorder = 'ASC', $limit = 0, $page = 0)
 	{
-		if (!bespoerpApiAccess::$user->rights->categorie->lire) {
+		if (!DolibarrApiAccess::$user->rights->categorie->lire) {
 			throw new RestException(401);
 		}
 
@@ -612,7 +612,7 @@ class Products extends bespoerpApi
 	{
 		global $conf;
 
-		if (!bespoerpApiAccess::$user->rights->produit->lire) {
+		if (!DolibarrApiAccess::$user->rights->produit->lire) {
 			throw new RestException(401);
 		}
 
@@ -654,7 +654,7 @@ class Products extends bespoerpApi
 	{
 		global $conf;
 
-		if (!bespoerpApiAccess::$user->rights->produit->lire) {
+		if (!DolibarrApiAccess::$user->rights->produit->lire) {
 			throw new RestException(401);
 		}
 
@@ -662,9 +662,9 @@ class Products extends bespoerpApi
 			throw new RestException(400, 'API not available: this mode of pricing is not enabled by setup');
 		}
 
-		$socid = bespoerpApiAccess::$user->socid ? bespoerpApiAccess::$user->socid : '';
+		$socid = DolibarrApiAccess::$user->socid ? DolibarrApiAccess::$user->socid : '';
 		if ($socid > 0 && $socid != $thirdparty_id) {
-			throw new RestException(401, 'Getting prices for all customers or for the customer ID '.$thirdparty_id.' is not allowed for login '.bespoerpApiAccess::$user->login);
+			throw new RestException(401, 'Getting prices for all customers or for the customer ID '.$thirdparty_id.' is not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
 		$result = $this->product->fetch($id);
@@ -703,7 +703,7 @@ class Products extends bespoerpApi
 	{
 		global $conf;
 
-		if (!bespoerpApiAccess::$user->rights->produit->lire) {
+		if (!DolibarrApiAccess::$user->rights->produit->lire) {
 			throw new RestException(401);
 		}
 
@@ -761,7 +761,7 @@ class Products extends bespoerpApi
 	 */
 	public function addPurchasePrice($id, $qty, $buyprice, $price_base_type, $fourn_id, $availability, $ref_fourn, $tva_tx, $charges = 0, $remise_percent = 0, $remise = 0, $newnpr = 0, $delivery_time_days = 0, $supplier_reputation = '', $localtaxes_array = array(), $newdefaultvatcode = '', $multicurrency_buyprice = 0, $multicurrency_price_base_type = 'HT', $multicurrency_tx = 1, $multicurrency_code = '', $desc_fourn = '', $barcode = '', $fk_barcode_type = null)
 	{
-		if (!bespoerpApiAccess::$user->rights->produit->creer) {
+		if (!DolibarrApiAccess::$user->rights->produit->creer) {
 			throw new RestException(401);
 		}
 
@@ -770,16 +770,16 @@ class Products extends bespoerpApi
 			throw new RestException(404, 'Product not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('product', $this->productsupplier->id)) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('product', $this->productsupplier->id)) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
-		$socid = bespoerpApiAccess::$user->socid ? bespoerpApiAccess::$user->socid : '';
+		$socid = DolibarrApiAccess::$user->socid ? DolibarrApiAccess::$user->socid : '';
 		if ($socid > 0 && $socid != $fourn_id) {
-			throw new RestException(401, 'Adding purchase price for the supplier ID '.$fourn_id.' is not allowed for login '.bespoerpApiAccess::$user->login);
+			throw new RestException(401, 'Adding purchase price for the supplier ID '.$fourn_id.' is not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
-		$result = $this->productsupplier->add_fournisseur(bespoerpApiAccess::$user, $fourn_id, $ref_fourn, $qty);
+		$result = $this->productsupplier->add_fournisseur(DolibarrApiAccess::$user, $fourn_id, $ref_fourn, $qty);
 		if ($result < 0) {
 			throw new RestException(500, "Error adding supplier to product : ".$this->db->lasterror());
 		}
@@ -795,7 +795,7 @@ class Products extends bespoerpApi
 		$desc_fourn = sanitizeVal($desc_fourn, 'restricthtml');
 		$barcode = sanitizeVal($barcode, 'alphanohtml');
 
-		$result = $this->productsupplier->update_buyprice($qty, $buyprice, bespoerpApiAccess::$user, $price_base_type, $fourn, $availability, $ref_fourn, $tva_tx, $charges, $remise_percent, $remise, $newnpr, $delivery_time_days, $supplier_reputation, $localtaxes_array, $newdefaultvatcode, $multicurrency_buyprice, $multicurrency_price_base_type, $multicurrency_tx, $multicurrency_code, $desc_fourn, $barcode, $fk_barcode_type);
+		$result = $this->productsupplier->update_buyprice($qty, $buyprice, DolibarrApiAccess::$user, $price_base_type, $fourn, $availability, $ref_fourn, $tva_tx, $charges, $remise_percent, $remise, $newnpr, $delivery_time_days, $supplier_reputation, $localtaxes_array, $newdefaultvatcode, $multicurrency_buyprice, $multicurrency_price_base_type, $multicurrency_tx, $multicurrency_code, $desc_fourn, $barcode, $fk_barcode_type);
 
 		if ($result <= 0) {
 			throw new RestException(500, "Error updating buy price : ".$this->db->lasterror());
@@ -819,7 +819,7 @@ class Products extends bespoerpApi
 	 */
 	public function deletePurchasePrice($id, $priceid)
 	{
-		if (!bespoerpApiAccess::$user->rights->produit->supprimer) {
+		if (!DolibarrApiAccess::$user->rights->produit->supprimer) {
 			throw new RestException(401);
 		}
 		$result = $this->productsupplier->fetch($id);
@@ -827,8 +827,8 @@ class Products extends bespoerpApi
 			throw new RestException(404, 'Product not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('product', $this->productsupplier->id)) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('product', $this->productsupplier->id)) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
 		$resultsupplier = 0;
@@ -858,14 +858,14 @@ class Products extends bespoerpApi
 	{
 		global $db, $conf;
 
-		if (!bespoerpApiAccess::$user->rights->produit->lire) {
+		if (!DolibarrApiAccess::$user->rights->produit->lire) {
 			throw new RestException(401);
 		}
 
 		$obj_ret = array();
 
 		// Force id of company for external users
-		$socid = bespoerpApiAccess::$user->socid ? bespoerpApiAccess::$user->socid : '';
+		$socid = DolibarrApiAccess::$user->socid ? DolibarrApiAccess::$user->socid : '';
 		if ($socid > 0) {
 			if ($supplier != $socid || empty($supplier)) {
 				throw new RestException(401, 'As an external user, you can request only for your supplier id = '.$socid);
@@ -972,19 +972,19 @@ class Products extends bespoerpApi
 
 		$id = (empty($id) ? 0 : $id);
 
-		if (!bespoerpApiAccess::$user->rights->produit->lire) {
+		if (!DolibarrApiAccess::$user->rights->produit->lire) {
 			throw new RestException(403);
 		}
 
-		$socid = bespoerpApiAccess::$user->socid ? bespoerpApiAccess::$user->socid : '';
+		$socid = DolibarrApiAccess::$user->socid ? DolibarrApiAccess::$user->socid : '';
 
 		$result = $this->product->fetch($id, $ref, $ref_ext, $barcode);
 		if (!$result) {
 			throw new RestException(404, 'Product not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('product', $this->product->id)) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('product', $this->product->id)) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
 		$product_fourn_list = array();
@@ -1019,7 +1019,7 @@ class Products extends bespoerpApi
 	 */
 	public function getAttributes($sortfield = "t.ref", $sortorder = 'ASC', $limit = 100, $page = 0, $sqlfilters = '')
 	{
-		if (!bespoerpApiAccess::$user->rights->produit->lire) {
+		if (!DolibarrApiAccess::$user->rights->produit->lire) {
 			throw new RestException(401);
 		}
 
@@ -1085,7 +1085,7 @@ class Products extends bespoerpApi
 	 */
 	public function getAttributeById($id)
 	{
-		if (!bespoerpApiAccess::$user->rights->produit->lire) {
+		if (!DolibarrApiAccess::$user->rights->produit->lire) {
 			throw new RestException(401);
 		}
 
@@ -1128,7 +1128,7 @@ class Products extends bespoerpApi
 	 */
 	public function getAttributesByRef($ref)
 	{
-		if (!bespoerpApiAccess::$user->rights->produit->lire) {
+		if (!DolibarrApiAccess::$user->rights->produit->lire) {
 			throw new RestException(401);
 		}
 
@@ -1178,7 +1178,7 @@ class Products extends bespoerpApi
 	 */
 	public function getAttributesByRefExt($ref_ext)
 	{
-		if (!bespoerpApiAccess::$user->rights->produit->lire) {
+		if (!DolibarrApiAccess::$user->rights->produit->lire) {
 			throw new RestException(401);
 		}
 
@@ -1229,7 +1229,7 @@ class Products extends bespoerpApi
 	 */
 	public function addAttributes($ref, $label, $ref_ext = '')
 	{
-		if (!bespoerpApiAccess::$user->rights->produit->creer) {
+		if (!DolibarrApiAccess::$user->rights->produit->creer) {
 			throw new RestException(401);
 		}
 
@@ -1238,7 +1238,7 @@ class Products extends bespoerpApi
 		$prodattr->ref = $ref;
 		$prodattr->ref_ext = $ref_ext;
 
-		$resid = $prodattr->create(bespoerpApiAccess::$user);
+		$resid = $prodattr->create(DolibarrApiAccess::$user);
 		if ($resid <= 0) {
 			throw new RestException(500, "Error creating new attribute");
 		}
@@ -1260,7 +1260,7 @@ class Products extends bespoerpApi
 	 */
 	public function putAttributes($id, $request_data = null)
 	{
-		if (!bespoerpApiAccess::$user->rights->produit->creer) {
+		if (!DolibarrApiAccess::$user->rights->produit->creer) {
 			throw new RestException(401);
 		}
 
@@ -1280,7 +1280,7 @@ class Products extends bespoerpApi
 			$prodattr->$field = $value;
 		}
 
-		if ($prodattr->update(bespoerpApiAccess::$user) > 0) {
+		if ($prodattr->update(DolibarrApiAccess::$user) > 0) {
 			$result = $prodattr->fetch((int) $id);
 			if ($result == 0) {
 				throw new RestException(404, 'Attribute not found');
@@ -1306,13 +1306,13 @@ class Products extends bespoerpApi
 	 */
 	public function deleteAttributes($id)
 	{
-		if (!bespoerpApiAccess::$user->rights->produit->supprimer) {
+		if (!DolibarrApiAccess::$user->rights->produit->supprimer) {
 			throw new RestException(401);
 		}
 
 		$prodattr = new ProductAttribute($this->db);
 		$prodattr->id = (int) $id;
-		$result = $prodattr->delete(bespoerpApiAccess::$user);
+		$result = $prodattr->delete(DolibarrApiAccess::$user);
 
 		if ($result <= 0) {
 			throw new RestException(500, "Error deleting attribute");
@@ -1334,7 +1334,7 @@ class Products extends bespoerpApi
 	 */
 	public function getAttributeValueById($id)
 	{
-		if (!bespoerpApiAccess::$user->rights->produit->lire) {
+		if (!DolibarrApiAccess::$user->rights->produit->lire) {
 			throw new RestException(401);
 		}
 
@@ -1375,7 +1375,7 @@ class Products extends bespoerpApi
 	 */
 	public function getAttributeValueByRef($id, $ref)
 	{
-		if (!bespoerpApiAccess::$user->rights->produit->lire) {
+		if (!DolibarrApiAccess::$user->rights->produit->lire) {
 			throw new RestException(401);
 		}
 
@@ -1418,7 +1418,7 @@ class Products extends bespoerpApi
 	 */
 	public function deleteAttributeValueByRef($id, $ref)
 	{
-		if (!bespoerpApiAccess::$user->rights->produit->supprimer) {
+		if (!DolibarrApiAccess::$user->rights->produit->supprimer) {
 			throw new RestException(401);
 		}
 
@@ -1440,7 +1440,7 @@ class Products extends bespoerpApi
 
 		$attrval = new ProductAttributeValue($this->db);
 		$attrval->id = $result->rowid;
-		$result = $attrval->delete(bespoerpApiAccess::$user);
+		$result = $attrval->delete(DolibarrApiAccess::$user);
 		if ($result > 0) {
 			return 1;
 		}
@@ -1461,7 +1461,7 @@ class Products extends bespoerpApi
 	 */
 	public function getAttributeValues($id)
 	{
-		if (!bespoerpApiAccess::$user->rights->produit->lire) {
+		if (!DolibarrApiAccess::$user->rights->produit->lire) {
 			throw new RestException(401);
 		}
 
@@ -1492,7 +1492,7 @@ class Products extends bespoerpApi
 	 */
 	public function getAttributeValuesByRef($ref)
 	{
-		if (!bespoerpApiAccess::$user->rights->produit->lire) {
+		if (!DolibarrApiAccess::$user->rights->produit->lire) {
 			throw new RestException(401);
 		}
 
@@ -1534,7 +1534,7 @@ class Products extends bespoerpApi
 	 */
 	public function addAttributeValue($id, $ref, $value)
 	{
-		if (!bespoerpApiAccess::$user->rights->produit->creer) {
+		if (!DolibarrApiAccess::$user->rights->produit->creer) {
 			throw new RestException(401);
 		}
 
@@ -1547,7 +1547,7 @@ class Products extends bespoerpApi
 		$objectval->ref = $ref;
 		$objectval->value = $value;
 
-		if ($objectval->create(bespoerpApiAccess::$user) > 0) {
+		if ($objectval->create(DolibarrApiAccess::$user) > 0) {
 			return $objectval->id;
 		}
 		throw new RestException(500, "Error creating new attribute value");
@@ -1567,7 +1567,7 @@ class Products extends bespoerpApi
 	 */
 	public function putAttributeValue($id, $request_data)
 	{
-		if (!bespoerpApiAccess::$user->rights->produit->creer) {
+		if (!DolibarrApiAccess::$user->rights->produit->creer) {
 			throw new RestException(401);
 		}
 
@@ -1587,7 +1587,7 @@ class Products extends bespoerpApi
 			$objectval->$field = $value;
 		}
 
-		if ($objectval->update(bespoerpApiAccess::$user) > 0) {
+		if ($objectval->update(DolibarrApiAccess::$user) > 0) {
 			$result = $objectval->fetch((int) $id);
 			if ($result == 0) {
 				throw new RestException(404, 'Attribute not found');
@@ -1613,14 +1613,14 @@ class Products extends bespoerpApi
 	 */
 	public function deleteAttributeValueById($id)
 	{
-		if (!bespoerpApiAccess::$user->rights->produit->supprimer) {
+		if (!DolibarrApiAccess::$user->rights->produit->supprimer) {
 			throw new RestException(401);
 		}
 
 		$objectval = new ProductAttributeValue($this->db);
 		$objectval->id = (int) $id;
 
-		if ($objectval->delete(bespoerpApiAccess::$user) > 0) {
+		if ($objectval->delete(DolibarrApiAccess::$user) > 0) {
 			return 1;
 		}
 		throw new RestException(500, "Error deleting attribute value");
@@ -1640,7 +1640,7 @@ class Products extends bespoerpApi
 	 */
 	public function getVariants($id, $includestock = 0)
 	{
-		if (!bespoerpApiAccess::$user->rights->produit->lire) {
+		if (!DolibarrApiAccess::$user->rights->produit->lire) {
 			throw new RestException(401);
 		}
 
@@ -1652,7 +1652,7 @@ class Products extends bespoerpApi
 			$combinations[$key]->attributes = $prodc2vp->fetchByFkCombination((int) $combination->id);
 			$combinations[$key] = $this->_cleanObjectDatas($combinations[$key]);
 
-			if (!empty($includestock) && bespoerpApiAccess::$user->rights->stock->lire) {
+			if (!empty($includestock) && DolibarrApiAccess::$user->rights->stock->lire) {
 				$productModel = new Product($this->db);
 				$productModel->fetch((int) $combination->fk_product_child);
 				$productModel->load_stock($includestock);
@@ -1676,7 +1676,7 @@ class Products extends bespoerpApi
 	 */
 	public function getVariantsByProdRef($ref)
 	{
-		if (!bespoerpApiAccess::$user->rights->produit->lire) {
+		if (!DolibarrApiAccess::$user->rights->produit->lire) {
 			throw new RestException(401);
 		}
 
@@ -1719,7 +1719,7 @@ class Products extends bespoerpApi
 	 */
 	public function addVariant($id, $weight_impact, $price_impact, $price_impact_is_percent, $features, $reference = '', $ref_ext = '')
 	{
-		if (!bespoerpApiAccess::$user->rights->produit->creer) {
+		if (!DolibarrApiAccess::$user->rights->produit->creer) {
 			throw new RestException(401);
 		}
 
@@ -1748,7 +1748,7 @@ class Products extends bespoerpApi
 
 		$prodcomb = new ProductCombination($this->db);
 
-		$result = $prodcomb->createProductCombination(bespoerpApiAccess::$user, $this->product, $features, array(), $price_impact_is_percent, $price_impact, $weight_impact, $reference, $ref_ext);
+		$result = $prodcomb->createProductCombination(DolibarrApiAccess::$user, $this->product, $features, array(), $price_impact_is_percent, $price_impact, $weight_impact, $reference, $ref_ext);
 		if ($result > 0) {
 			return $result;
 		} else {
@@ -1776,7 +1776,7 @@ class Products extends bespoerpApi
 	 */
 	public function addVariantByProductRef($ref, $weight_impact, $price_impact, $price_impact_is_percent, $features)
 	{
-		if (!bespoerpApiAccess::$user->rights->produit->creer) {
+		if (!DolibarrApiAccess::$user->rights->produit->creer) {
 			throw new RestException(401);
 		}
 
@@ -1805,7 +1805,7 @@ class Products extends bespoerpApi
 
 		$prodcomb = new ProductCombination($this->db);
 		if (!$prodcomb->fetchByProductCombination2ValuePairs($this->product->id, $features)) {
-			$result = $prodcomb->createProductCombination(bespoerpApiAccess::$user, $this->product, $features, array(), $price_impact_is_percent, $price_impact, $weight_impact);
+			$result = $prodcomb->createProductCombination(DolibarrApiAccess::$user, $this->product, $features, array(), $price_impact_is_percent, $price_impact, $weight_impact);
 			if ($result > 0) {
 				return $result;
 			} else {
@@ -1830,7 +1830,7 @@ class Products extends bespoerpApi
 	 */
 	public function putVariant($id, $request_data = null)
 	{
-		if (!bespoerpApiAccess::$user->rights->produit->creer) {
+		if (!DolibarrApiAccess::$user->rights->produit->creer) {
 			throw new RestException(401);
 		}
 
@@ -1844,7 +1844,7 @@ class Products extends bespoerpApi
 			$prodcomb->$field = $value;
 		}
 
-		$result = $prodcomb->update(bespoerpApiAccess::$user);
+		$result = $prodcomb->update(DolibarrApiAccess::$user);
 		if ($result > 0) {
 			return 1;
 		}
@@ -1864,13 +1864,13 @@ class Products extends bespoerpApi
 	 */
 	public function deleteVariant($id)
 	{
-		if (!bespoerpApiAccess::$user->rights->produit->supprimer) {
+		if (!DolibarrApiAccess::$user->rights->produit->supprimer) {
 			throw new RestException(401);
 		}
 
 		$prodcomb = new ProductCombination($this->db);
 		$prodcomb->id = (int) $id;
-		$result = $prodcomb->delete(bespoerpApiAccess::$user);
+		$result = $prodcomb->delete(DolibarrApiAccess::$user);
 		if ($result <= 0) {
 			throw new RestException(500, "Error deleting variant");
 		}
@@ -1894,12 +1894,12 @@ class Products extends bespoerpApi
 	public function getStock($id, $selected_warehouse_id = null)
 	{
 
-		if (!bespoerpApiAccess::$user->rights->produit->lire || !bespoerpApiAccess::$user->rights->stock->lire) {
+		if (!DolibarrApiAccess::$user->rights->produit->lire || !DolibarrApiAccess::$user->rights->stock->lire) {
 			throw new RestException(401);
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('product', $id)) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('product', $id)) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
 		$product_model = new Product($this->db);
@@ -1980,7 +1980,7 @@ class Products extends bespoerpApi
 
 		unset($object->supplierprices);	// Mut use another API to get them
 
-		if (empty(bespoerpApiAccess::$user->rights->stock->lire)) {
+		if (empty(DolibarrApiAccess::$user->rights->stock->lire)) {
 			unset($object->stock_reel);
 			unset($object->stock_theorique);
 			unset($object->stock_warehouse);
@@ -2035,7 +2035,7 @@ class Products extends bespoerpApi
 
 		$id = (empty($id) ? 0 : $id);
 
-		if (!bespoerpApiAccess::$user->rights->produit->lire) {
+		if (!DolibarrApiAccess::$user->rights->produit->lire) {
 			throw new RestException(403);
 		}
 
@@ -2044,11 +2044,11 @@ class Products extends bespoerpApi
 			throw new RestException(404, 'Product not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('product', $this->product->id)) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('product', $this->product->id)) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
-		if (!empty($includestockdata) && bespoerpApiAccess::$user->rights->stock->lire) {
+		if (!empty($includestockdata) && DolibarrApiAccess::$user->rights->stock->lire) {
 			$this->product->load_stock($includestockdata);
 
 			if (is_array($this->product->stock_warehouse)) {

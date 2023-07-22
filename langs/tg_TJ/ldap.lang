@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - ldap
+# Dolibarr language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=Рамзи корбар <b> %s </b> дар домени <b> %s </b> бояд иваз карда шавад.
 UserMustChangePassNextLogon=Истифодабаранда бояд гузарвожаро дар домени %s иваз кунад
 LDAPInformationsForThisContact=Маълумот дар махзани LDAP барои ин тамос
@@ -22,6 +22,6 @@ GroupSynchronized=Гурӯҳ ҳамоҳанг карда шудааст
 MemberSynchronized=Аъзо ҳамоҳанг карда шуд
 MemberTypeSynchronized=Навъи аъзо ҳамоҳанг карда шудааст
 ContactSynchronized=Тамос ҳамоҳанг карда шудааст
-ForceSynchronize=Ҳамоҳангсозии маҷбурӣ bespoerp -> LDAP
+ForceSynchronize=Ҳамоҳангсозии маҷбурӣ Dolibarr -> LDAP
 ErrorFailedToReadLDAP=Базаи LDAP хонда нашуд. Танзимоти модули LDAP ва дастрасии пойгоҳи додаҳоро тафтиш кунед.
 PasswordOfUserInLDAP=Рамзи корбар дар LDAP

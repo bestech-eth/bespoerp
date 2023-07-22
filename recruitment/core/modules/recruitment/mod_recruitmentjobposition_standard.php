@@ -31,10 +31,10 @@ dol_include_once('/recruitment/core/modules/recruitment/modules_recruitmentjobpo
 class mod_recruitmentjobposition_standard extends ModeleNumRefRecruitmentJobPosition
 {
 	/**
-	 * bespoerp version of the loaded document
+	 * Dolibarr version of the loaded document
 	 * @var string
 	 */
-	public $version = 'bespoerp'; // 'development', 'experimental', 'bespoerp'
+	public $version = 'dolibarr'; // 'development', 'experimental', 'dolibarr'
 
 	public $prefix = 'JOB';
 

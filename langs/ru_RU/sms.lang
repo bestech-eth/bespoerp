@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - sms
+# Dolibarr language file - Source file is en_US - sms
 Sms=Sms
 SmsSetup=Настройка СМС
 SmsDesc=На этой странице можно определить глобальные параметры функций СМС.

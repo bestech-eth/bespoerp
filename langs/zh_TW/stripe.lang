@@ -1,8 +1,8 @@
-# bespoerp language file - Source file is en_US - stripe
+# Dolibarr language file - Source file is en_US - stripe
 StripeSetup=Stripe模組設定
-StripeDesc=通過<a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a>為客戶提供一個Stripe線上支付頁面，以使用信用卡/簽帳卡付款。這可允許您的客戶進行臨時付款或用於與特定bespoerp項目（發票，訂單等）有關的付款。
+StripeDesc=通過<a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a>為客戶提供一個Stripe線上支付頁面，以使用信用卡/簽帳卡付款。這可允許您的客戶進行臨時付款或用於與特定Dolibarr項目（發票，訂單等）有關的付款。
 StripeOrCBDoPayment=用信用卡或Stripe付款
-FollowingUrlAreAvailableToMakePayments=以下網址可用於向客戶提供頁面以對bespoerp項目進行付款
+FollowingUrlAreAvailableToMakePayments=以下網址可用於向客戶提供頁面以對Dolibarr項目進行付款
 PaymentForm=付款表單
 WelcomeOnPaymentPage=歡迎使用我們的線上支付服務
 ThisScreenAllowsYouToPay=這個畫面允許你進行線上支付到%s。

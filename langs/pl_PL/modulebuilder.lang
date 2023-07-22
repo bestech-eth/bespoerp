@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - loan
+# Dolibarr language file - Source file is en_US - loan
 IdModule= Module id
 ModuleBuilderDesc=This tool must be used only by experienced users or developers. It provides utilities to build or edit your own module. Documentation for alternative <a href="%s" target="_blank" rel="noopener noreferrer">manual development is here</a>.
 EnterNameOfModuleDesc=Enter the name of the module/application to create with no spaces. Use uppercase to separate words (For example: MyModule, EcommerceForShop, SyncWithMySystem...)
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=Możesz usunąć swój moduł. UWAGA: Wszystkie pl
 EnterNameOfObjectToDeleteDesc=Możesz usunąć obiekt. OSTRZEŻENIE: Wszystkie pliki kodujące (wygenerowane lub utworzone ręcznie) związane z obiektem zostaną usunięte!
 DangerZone=Strefa niebezpieczna
 BuildPackage=Zbuduj pakiet
-BuildPackageDesc=Możesz wygenerować pakiet zip swojej aplikacji, abyś był gotowy do dystrybucji na dowolnym urządzeniu bespoerp. Możesz go również rozprowadzać lub sprzedawać na platformie handlowej, takiej jak <a href="https://www.dolistore.com"> DoliStore.com </a>.
+BuildPackageDesc=Możesz wygenerować pakiet zip swojej aplikacji, abyś był gotowy do dystrybucji na dowolnym urządzeniu Dolibarr. Możesz go również rozprowadzać lub sprzedawać na platformie handlowej, takiej jak <a href="https://www.dolistore.com"> DoliStore.com </a>.
 BuildDocumentation=Zbuduj dokumentację
 ModuleIsNotActive=Ten moduł nie jest jeszcze aktywowany. Przejdź do %s, aby udostępnić go na żywo lub kliknij tutaj
 ModuleIsLive=Ten moduł został aktywowany. Każda zmiana może zepsuć obecną funkcję na żywo.
@@ -110,7 +110,7 @@ HooksDefDesc=Zdefiniuj we właściwości <b> module_parts ['hooks'] </b>, w desk
 TriggerDefDesc=Define in the trigger file the code that you want to execute when a business event external to your module is executed (events triggered by other modules).
 SeeIDsInUse=Zobacz identyfikatory używane w Twojej instalacji
 SeeReservedIDsRangeHere=Zobacz zakres zarezerwowanych identyfikatorów
-ToolkitForDevelopers=Zestaw narzędzi dla programistów bespoerp
+ToolkitForDevelopers=Zestaw narzędzi dla programistów Dolibarr
 TryToUseTheModuleBuilder=Jeśli znasz język SQL i PHP, możesz skorzystać z kreatora kreatora modułów natywnych. <br> Włącz moduł <strong> %s </strong> i użyj kreatora, klikając <span class="fa fa-bug"> </span> w prawym górnym menu. <br> Ostrzeżenie: to jest zaawansowana funkcja programisty, <b> nie eksperymentuj </b> w swojej witrynie produkcyjnej!
 SeeTopRightMenu=Zobacz <span class="fa fa-bug"> </span> w prawym górnym menu
 AddLanguageFile=Dodaj plik językowy

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - mails
+# Dolibarr language file - Source file is en_US - mails
 Mailing=Elektron pochta xabarlari
 EMailing=Elektron pochta xabarlari
 EMailings=Elektron pochta xabarlari
@@ -90,7 +90,7 @@ MailingModuleDescContactsByCategory=Kategoriyalar bo'yicha aloqalar
 MailingModuleDescContactsByFunction=Kontaktlar joylashuvi bo'yicha
 MailingModuleDescEmailsFromFile=Fayldan elektron pochta xabarlari
 MailingModuleDescEmailsFromUser=Foydalanuvchi tomonidan kiritilgan elektron pochta xabarlari
-MailingModuleDescbespoerpUsers=Elektron pochta xabarlari bo'lgan foydalanuvchilar
+MailingModuleDescDolibarrUsers=Elektron pochta xabarlari bo'lgan foydalanuvchilar
 MailingModuleDescThirdPartiesByCategories=Third parties
 SendingFromWebInterfaceIsNotAllowed=Veb-interfeysdan yuborishga yo'l qo'yilmaydi.
 EmailCollectorFilterDesc=Elektron pochta to'planishi uchun barcha filtrlar mos kelishi kerak

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - orders
+# Dolibarr language file - Source file is en_US - orders
 OrdersArea=ເຂດທີ່ລູກຄ້າສັ່ງ
 SuppliersOrdersArea=ພື້ນທີ່ການສັ່ງຊື້
 OrderCard=ສັ່ງບັດ
@@ -120,8 +120,8 @@ ConfirmCloneOrder=ເຈົ້າແນ່ໃຈບໍ່ວ່າເຈົ້�
 DispatchSupplierOrder=ໄດ້ຮັບຄໍາສັ່ງຊື້ %s
 FirstApprovalAlreadyDone=ການອະນຸມັດ ທຳ ອິດໄດ້ເຮັດແລ້ວ
 SecondApprovalAlreadyDone=ການອະນຸມັດຄັ້ງທີສອງ ສຳ ເລັດແລ້ວ
-SupplierOrderReceivedInbespoerp=ການສັ່ງຊື້ %s ໄດ້ຮັບ %s
-SupplierOrderSubmitedInbespoerp=ໃບສັ່ງຊື້ %s ສົ່ງແລ້ວ
+SupplierOrderReceivedInDolibarr=ການສັ່ງຊື້ %s ໄດ້ຮັບ %s
+SupplierOrderSubmitedInDolibarr=ໃບສັ່ງຊື້ %s ສົ່ງແລ້ວ
 SupplierOrderClassifiedBilled=ການສັ່ງຊື້ຊຸດຊຸດ %s
 OtherOrders=ຄໍາສັ່ງອື່ນ
 SupplierOrderValidatedAndApproved=Supplier order is validated and approved : %s

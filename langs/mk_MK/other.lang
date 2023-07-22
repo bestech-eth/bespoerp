@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - other
+# Dolibarr language file - Source file is en_US - other
 SecurityCode=Security code
 NumberingShort=N°
 Tools=Tools
@@ -106,7 +106,7 @@ PredefinedMailContentSendFichInter=__(Hello)__\n\nPlease find intervention __REF
 PredefinedMailContentLink=You can click on the link below to make your payment if it is not already done.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Hello)__\n\n\n__(Sincerely)__\n\n__USER_SIGNATURE__
 PredefinedMailContentSendActionComm=Event reminder "__EVENT_LABEL__" on __EVENT_DATE__ at __EVENT_TIME__<br><br>This is an automatic message, please do not reply.
-DemoDesc=bespoerp is a compact ERP/CRM supporting several business modules. A demo showcasing all modules makes no sense as this scenario never occurs (several hundred available). So, several demo profiles are available.
+DemoDesc=Dolibarr is a compact ERP/CRM supporting several business modules. A demo showcasing all modules makes no sense as this scenario never occurs (several hundred available). So, several demo profiles are available.
 ChooseYourDemoProfil=Choose the demo profile that best suits your needs...
 ChooseYourDemoProfilMore=...or build your own profile<br>(manual module selection)
 DemoFundation=Manage members of a foundation
@@ -185,10 +185,10 @@ BugTracker=Bug tracker
 SendNewPasswordDesc=This form allows you to request a new password. It will be sent to your email address.<br>Change will become effective once you click on the confirmation link in the email.<br>Check your inbox.
 EnterNewPasswordHere=Enter your new password here
 BackToLoginPage=Back to login page
-AuthenticationDoesNotAllowSendNewPassword=Authentication mode is <b>%s</b>.<br>In this mode, bespoerp can't know nor change your password.<br>Contact your system administrator if you want to change your password.
+AuthenticationDoesNotAllowSendNewPassword=Authentication mode is <b>%s</b>.<br>In this mode, Dolibarr can't know nor change your password.<br>Contact your system administrator if you want to change your password.
 EnableGDLibraryDesc=Install or enable GD library on your PHP installation to use this option.
 ProfIdShortDesc=<b>Prof Id %s</b> is an information depending on third party country.<br>For example, for country <b>%s</b>, it's code <b>%s</b>.
-bespoerpDemo=bespoerp ERP/CRM demo
+DolibarrDemo=Dolibarr ERP/CRM demo
 StatsByNumberOfUnits=Statistics for sum of qty of products/services
 StatsByNumberOfEntities=Statistics for number of referring entities (no. of invoices, or orders...)
 NumberOfProposals=Number of proposals
@@ -229,7 +229,7 @@ EMailTextHolidayValidated=Leave request %s has been validated.
 EMailTextHolidayApproved=Leave request %s has been approved.
 EMailTextActionAdded=The action %s has been added to the Agenda.
 ImportedWithSet=Importation data set
-bespoerpNotification=Automatic notification
+DolibarrNotification=Automatic notification
 ResizeDesc=Enter new width <b>OR</b> new height. Ratio will be kept during resizing...
 NewLength=New width
 NewHeight=New height

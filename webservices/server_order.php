@@ -19,7 +19,7 @@
 
 /**
  *       \file       htdocs/webservices/server_order.php
- *       \brief      File that is entry point to call bespoerp WebServices
+ *       \brief      File that is entry point to call Dolibarr WebServices
  */
 
 if (!defined("NOCSRFCHECK")) {
@@ -33,14 +33,14 @@ require_once DOL_DOCUMENT_ROOT.'/core/class/extrafields.class.php';
 require_once DOL_DOCUMENT_ROOT."/commande/class/commande.class.php";
 
 
-dol_syslog("Call bespoerp webservices interfaces");
+dol_syslog("Call Dolibarr webservices interfaces");
 
 $langs->load("main");
 
 // Enable and test if module web services is enabled
 if (empty($conf->global->MAIN_MODULE_WEBSERVICES)) {
 	$langs->load("admin");
-	dol_syslog("Call bespoerp webservices interfaces with module webservices disabled");
+	dol_syslog("Call Dolibarr webservices interfaces with module webservices disabled");
 	print $langs->trans("WarningModuleNotActive", 'WebServices').'.<br><br>';
 	print $langs->trans("ToActivateModule");
 	exit;
@@ -50,8 +50,8 @@ if (empty($conf->global->MAIN_MODULE_WEBSERVICES)) {
 $server = new nusoap_server();
 $server->soap_defencoding = 'UTF-8';
 $server->decode_utf8 = false;
-$ns = 'http://www.bespoerp.org/ns/';
-$server->configureWSDL('WebServicesbespoerpOrder', $ns);
+$ns = 'http://www.dolibarr.org/ns/';
+$server->configureWSDL('WebServicesDolibarrOrder', $ns);
 $server->wsdl->schemaTargetNamespace = $ns;
 
 
@@ -63,7 +63,7 @@ $server->wsdl->addComplexType(
 	'all',
 	'',
 	array(
-				'bespoerpkey' => array('name'=>'bespoerpkey', 'type'=>'xsd:string'),
+				'dolibarrkey' => array('name'=>'dolibarrkey', 'type'=>'xsd:string'),
 				'sourceapplication' => array('name'=>'sourceapplication', 'type'=>'xsd:string'),
 				'login' => array('name'=>'login', 'type'=>'xsd:string'),
 				'password' => array('name'=>'password', 'type'=>'xsd:string'),

@@ -34,7 +34,7 @@ if (!defined('NOREQUIREAJAX')) {
 	define('NOREQUIREAJAX', '1');
 }
 
-// Load bespoerp environment
+// Load Dolibarr environment
 require '../main.inc.php';
 
 if (empty($user->rights->takepos->run)) {

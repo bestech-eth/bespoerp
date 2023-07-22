@@ -1,5 +1,5 @@
-# bespoerp language file - Source file is en_US - boxes
-BoxbespoerpStateBoard=إحصائيات عن كائنات الأعمال الرئيسية في قاعدة البيانات
+# Dolibarr language file - Source file is en_US - boxes
+BoxDolibarrStateBoard=إحصائيات عن كائنات الأعمال الرئيسية في قاعدة البيانات
 BoxLoginInformation=معلومات تسجيل الدخول
 BoxLastRssInfos=معلومات RSS
 BoxLastProducts=أحدث %s منتجات | خدمات 

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - loan
+# Dolibarr language file - Source file is en_US - loan
 IdModule= Module id
 ModuleBuilderDesc=This tool must be used only by experienced users or developers. It provides utilities to build or edit your own module. Documentation for alternative <a href="%s" target="_blank" rel="noopener noreferrer">manual development is here</a>.
 EnterNameOfModuleDesc=Enter the name of the module/application to create with no spaces. Use uppercase to separate words (For example: MyModule, EcommerceForShop, SyncWithMySystem...)
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=Сіз модульді жоя аласыз. ЕС�
 EnterNameOfObjectToDeleteDesc=Сіз объектіні жоюға болады. ЕСКЕРТУ: Нысанға қатысты барлық кодтау файлдары (қолмен жасалады немесе жасалады) жойылады!
 DangerZone=Қауіпті аймақ
 BuildPackage=Пакет құрастыру
-BuildPackageDesc=Сіз өзіңіздің қосымшаңыздың zip пакетін жасай аласыз, сондықтан сіз оны кез келген bespoerp -да таратуға дайынсыз. Сіз оны <a href="https://www.dolistore.com"> DoliStore.com </a> сияқты таратуға немесе нарықта сатуға болады.
+BuildPackageDesc=Сіз өзіңіздің қосымшаңыздың zip пакетін жасай аласыз, сондықтан сіз оны кез келген Dolibarr -да таратуға дайынсыз. Сіз оны <a href="https://www.dolistore.com"> DoliStore.com </a> сияқты таратуға немесе нарықта сатуға болады.
 BuildDocumentation=Құжаттарды құру
 ModuleIsNotActive=Бұл модуль әлі іске қосылмаған. %s сайтына өтіңіз немесе оны мына жерден басыңыз
 ModuleIsLive=Бұл модуль іске қосылды. Кез келген өзгеріс ағымдағы тірі функцияны бұзуы мүмкін.
@@ -110,7 +110,7 @@ HooksDefDesc=<b> module_parts ['ілмектер'] </b> қасиетінде м�
 TriggerDefDesc=Define in the trigger file the code that you want to execute when a business event external to your module is executed (events triggered by other modules).
 SeeIDsInUse=Орнату кезінде пайдаланылатын идентификаторларды қараңыз
 SeeReservedIDsRangeHere=Резервтелген идентификаторлар ауқымын қараңыз
-ToolkitForDevelopers=bespoerp әзірлеушілеріне арналған құралдар жинағы
+ToolkitForDevelopers=Dolibarr әзірлеушілеріне арналған құралдар жинағы
 TryToUseTheModuleBuilder=Егер сізде SQL және PHP білімдері болса, сіз модуль құрушы шеберін қолдана аласыз. <br> <strong> %s </strong> модулін қосыңыз және <span class="fa fa-bug"> </span> бойынша шертіңіз. <br> Ескерту: Бұл әзірлеушінің жетілдірілген мүмкіндігі, </b> емес, <b> жасаңыз!
 SeeTopRightMenu=Жоғарғы оң жақ мәзірден <span class="fa fa-bug"> </span> қараңыз
 AddLanguageFile=Тілдік файлды қосыңыз

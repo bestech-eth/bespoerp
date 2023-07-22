@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - interventions
+# Dolibarr language file - Source file is en_US - interventions
 Intervention=Ymyrraeth
 Interventions=Ymyriadau
 InterventionCard=Cerdyn ymyrraeth
@@ -30,13 +30,13 @@ InterventionClassifyDone=Dosbarthu "Gwneud"
 StatusInterInvoiced=Wedi'i filio
 SendInterventionRef=Cyflwyno ymyriad %s
 SendInterventionByMail=Anfonwch ymyriad trwy e-bost
-InterventionCreatedInbespoerp=Ymyrraeth %s wedi'i greu
-InterventionValidatedInbespoerp=Ymyrraeth %s wedi'i ddilysu
-InterventionModifiedInbespoerp=Ymyrraeth %s wedi'i addasu
-InterventionClassifiedBilledInbespoerp=Ymyrraeth %s wedi'i osod fel y'i bil
-InterventionClassifiedUnbilledInbespoerp=Ymyrraeth %s wedi'i osod fel un heb ei filio
+InterventionCreatedInDolibarr=Ymyrraeth %s wedi'i greu
+InterventionValidatedInDolibarr=Ymyrraeth %s wedi'i ddilysu
+InterventionModifiedInDolibarr=Ymyrraeth %s wedi'i addasu
+InterventionClassifiedBilledInDolibarr=Ymyrraeth %s wedi'i osod fel y'i bil
+InterventionClassifiedUnbilledInDolibarr=Ymyrraeth %s wedi'i osod fel un heb ei filio
 InterventionSentByEMail=Ymyrraeth %s wedi'i anfon trwy e-bost
-InterventionDeletedInbespoerp=Ymyrraeth %s wedi'i ddileu
+InterventionDeletedInDolibarr=Ymyrraeth %s wedi'i ddileu
 InterventionsArea=Maes ymyriadau
 DraftFichinter=Ymyriadau drafft
 LastModifiedInterventions=Ymyriadau diweddaraf wedi'u haddasu %s

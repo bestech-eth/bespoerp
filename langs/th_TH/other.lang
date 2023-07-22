@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - other
+# Dolibarr language file - Source file is en_US - other
 SecurityCode=รหัสรักษาความปลอดภัย
 NumberingShort=N°
 Tools=เครื่องมือ
@@ -106,7 +106,7 @@ PredefinedMailContentSendFichInter=__(Hello)__\n\nPlease find intervention __REF
 PredefinedMailContentLink=You can click on the link below to make your payment if it is not already done.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Hello)__\n\n\n__(Sincerely)__\n\n__USER_SIGNATURE__
 PredefinedMailContentSendActionComm=Event reminder "__EVENT_LABEL__" on __EVENT_DATE__ at __EVENT_TIME__<br><br>This is an automatic message, please do not reply.
-DemoDesc=bespoerp is a compact ERP/CRM supporting several business modules. A demo showcasing all modules makes no sense as this scenario never occurs (several hundred available). So, several demo profiles are available.
+DemoDesc=Dolibarr is a compact ERP/CRM supporting several business modules. A demo showcasing all modules makes no sense as this scenario never occurs (several hundred available). So, several demo profiles are available.
 ChooseYourDemoProfil=Choose the demo profile that best suits your needs...
 ChooseYourDemoProfilMore=...or build your own profile<br>(manual module selection)
 DemoFundation=จัดการสมาชิกของมูลนิธิ
@@ -185,10 +185,10 @@ BugTracker=ติดตามข้อผิดพลาด
 SendNewPasswordDesc=This form allows you to request a new password. It will be sent to your email address.<br>Change will become effective once you click on the confirmation link in the email.<br>Check your inbox.
 EnterNewPasswordHere=Enter your new password here
 BackToLoginPage=กลับไปหน้าเข้าสู่ระบบ
-AuthenticationDoesNotAllowSendNewPassword=<b>โหมดการตรวจสอบเป็น%</b> s <br> ในโหมดนี้ bespoerp ไม่สามารถรู้หรือเปลี่ยนรหัสผ่านของคุณ <br> ติดต่อผู้ดูแลระบบของคุณถ้าคุณต้องการที่จะเปลี่ยนรหัสผ่านของคุณ
+AuthenticationDoesNotAllowSendNewPassword=<b>โหมดการตรวจสอบเป็น%</b> s <br> ในโหมดนี้ Dolibarr ไม่สามารถรู้หรือเปลี่ยนรหัสผ่านของคุณ <br> ติดต่อผู้ดูแลระบบของคุณถ้าคุณต้องการที่จะเปลี่ยนรหัสผ่านของคุณ
 EnableGDLibraryDesc=Install or enable GD library on your PHP installation to use this option.
 ProfIdShortDesc=<b>ศ Id% s</b> ข้อมูลขึ้นอยู่กับประเทศของบุคคลที่สาม <br> <b>ตัวอย่างเช่นสำหรับประเทศ% s ก็รหัส%</b> s
-bespoerpDemo=bespoerp ERP / CRM สาธิต
+DolibarrDemo=Dolibarr ERP / CRM สาธิต
 StatsByNumberOfUnits=Statistics for sum of qty of products/services
 StatsByNumberOfEntities=Statistics for number of referring entities (no. of invoices, or orders...)
 NumberOfProposals=Number of proposals
@@ -229,7 +229,7 @@ EMailTextHolidayValidated=Leave request %s has been validated.
 EMailTextHolidayApproved=Leave request %s has been approved.
 EMailTextActionAdded=The action %s has been added to the Agenda.
 ImportedWithSet=การนำเข้าข้อมูลที่ตั้ง
-bespoerpNotification=การแจ้งเตือนอัตโนมัติ
+DolibarrNotification=การแจ้งเตือนอัตโนมัติ
 ResizeDesc=<b>ป้อนความกว้างใหม่หรือสูงใหม่</b> อัตราส่วนจะถูกเก็บไว้ในช่วงการปรับขนาด ...
 NewLength=ความกว้างของใหม่
 NewHeight=ความสูงใหม่

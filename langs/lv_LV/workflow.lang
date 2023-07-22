@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - workflow
+# Dolibarr language file - Source file is en_US - workflow
 WorkflowSetup=Darbplūsmu moduļa iestatīšana
 WorkflowDesc=Šis modulis nodrošina dažas automātiskas darbības. Pēc noklusējuma darbplūsma ir atvērta (jūs varat darīt lietas vēlamajā secībā), taču šeit jūs varat aktivizēt dažas automātiskas darbības.
 ThereIsNoWorkflowToModify=Nav aktivizētu moduļu darbplūsmas izmaiņām.

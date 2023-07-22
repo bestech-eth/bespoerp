@@ -1,6 +1,6 @@
-# bespoerp language file - Source file is en_US - paypal
+# Dolibarr language file - Source file is en_US - paypal
 PaypalSetup=Thiết lập mô-đun PayPal
-PaypalDesc=Mô-đun này cho phép thanh toán của khách hàng thông qua <a href="http://www.paypal.com" target="_blank">PayPal</a> . Điều này có thể được sử dụng cho thanh toán đặc biệt hoặc thanh toán liên quan đến đối tượng bespoerp (hóa đơn, đơn đặt hàng, ...)
+PaypalDesc=Mô-đun này cho phép thanh toán của khách hàng thông qua <a href="http://www.paypal.com" target="_blank">PayPal</a> . Điều này có thể được sử dụng cho thanh toán đặc biệt hoặc thanh toán liên quan đến đối tượng Dolibarr (hóa đơn, đơn đặt hàng, ...)
 PaypalOrCBDoPayment=Thanh toán bằng PayPal (Thẻ hoặc PayPal)
 PaypalDoPayment=Thanh toán bằng PayPal
 PAYPAL_API_SANDBOX=Chế độ kiểm tra / hộp cát

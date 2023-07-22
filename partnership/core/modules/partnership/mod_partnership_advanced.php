@@ -35,10 +35,10 @@ dol_include_once('/partnership/core/modules/partnership/modules_partnership.php'
 class mod_partnership_advanced extends ModeleNumRefPartnership
 {
 	/**
-	 * bespoerp version of the loaded document
+	 * Dolibarr version of the loaded document
 	 * @var string
 	 */
-	public $version = 'bespoerp'; // 'development', 'experimental', 'bespoerp'
+	public $version = 'dolibarr'; // 'development', 'experimental', 'dolibarr'
 
 	/**
 	 * @var string Error message

@@ -788,7 +788,7 @@ if ($action == 'create' && $user->rights->projet->creer && (empty($object->third
 	if (!empty($conf->global->MAIN_INPUT_DESC_HEIGHT)) {
 		$nbrows = $conf->global->MAIN_INPUT_DESC_HEIGHT;
 	}
-	$doleditor = new DolEditor('description', $object->description, '', 80, 'bespoerp_details', '', false, true, $cked_enabled, $nbrows);
+	$doleditor = new DolEditor('description', $object->description, '', 80, 'dolibarr_details', '', false, true, $cked_enabled, $nbrows);
 	print $doleditor->Create();
 
 	print '</td></tr>';

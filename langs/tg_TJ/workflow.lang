@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - workflow
+# Dolibarr language file - Source file is en_US - workflow
 WorkflowSetup=Танзими модули ҷараёни кор
 WorkflowDesc=Ин модул баъзе амалҳои автоматиро таъмин мекунад. Бо нобаёнӣ, ҷараёни кор кушода аст (шумо метавонед чизҳоро бо тартиби дилхоҳатон иҷро кунед), аммо дар ин ҷо шумо метавонед баъзе амалҳои автоматиро фаъол созед.
 ThereIsNoWorkflowToModify=Бо модулҳои фаъол ягон тағироти ҷараёни кор мавҷуд нест.

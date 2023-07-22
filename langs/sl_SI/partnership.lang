@@ -44,7 +44,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=Povratne povezave za preverjanje
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=Število dni pred preklicem statusa partnerstva, ko je naročnina potekla
 ReferingWebsiteCheck=Preverjanje napotitve na spletno stran
 ReferingWebsiteCheckDesc=Omogočite lahko funkcijo za preverjanje, ali so vaši partnerji dodali povratno povezavo do domen vašega spletnega mesta na svojem spletnem mestu.
-PublicFormRegistrationPartnerDesc=bespoerp vam lahko zagotovi javni URL/spletno mesto, ki zunanjim obiskovalcem omogoča, da zaprosijo za sodelovanje v partnerskem programu.
+PublicFormRegistrationPartnerDesc=Dolibarr vam lahko zagotovi javni URL/spletno mesto, ki zunanjim obiskovalcem omogoča, da zaprosijo za sodelovanje v partnerskem programu.
 
 #
 # Object

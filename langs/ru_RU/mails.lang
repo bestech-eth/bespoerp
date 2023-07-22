@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - mails
+# Dolibarr language file - Source file is en_US - mails
 Mailing=Рассылка
 EMailing=Рассылка
 EMailings=Рассылки
@@ -90,7 +90,7 @@ MailingModuleDescContactsByCategory=Контакты по категориям
 MailingModuleDescContactsByFunction=Контакты по должности
 MailingModuleDescEmailsFromFile=Электронные письма из файла
 MailingModuleDescEmailsFromUser=Электронные письма, введенные пользователем
-MailingModuleDescbespoerpUsers=Пользователи с электронной почтой
+MailingModuleDescDolibarrUsers=Пользователи с электронной почтой
 MailingModuleDescThirdPartiesByCategories=Контрагенты
 SendingFromWebInterfaceIsNotAllowed=Отправка из веб-интерфейса не разрешена.
 EmailCollectorFilterDesc=Все фильтры должны совпадать, чтобы электронная почта была собрана

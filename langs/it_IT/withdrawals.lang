@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - withdrawals
+# Dolibarr language file - Source file is en_US - withdrawals
 CustomersStandingOrdersArea=Pagamenti tramite ordini di addebito diretto
 SuppliersStandingOrdersArea=Pagamenti tramite bonifico bancario
 StandingOrdersPayment=Direct debit payment orders

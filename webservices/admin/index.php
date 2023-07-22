@@ -24,7 +24,7 @@
  *		\brief      Page to setup webservices module
  */
 
-// Load bespoerp environment
+// Load Dolibarr environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 
@@ -42,7 +42,7 @@ if ($actionsave) {
 
 	$db->begin();
 
-	$i += bespoerp_set_const($db, 'WEBSERVICES_KEY', GETPOST("WEBSERVICES_KEY"), 'chaine', 0, '', $conf->entity);
+	$i += dolibarr_set_const($db, 'WEBSERVICES_KEY', GETPOST("WEBSERVICES_KEY"), 'chaine', 0, '', $conf->entity);
 
 	if ($i >= 1) {
 		$db->commit();

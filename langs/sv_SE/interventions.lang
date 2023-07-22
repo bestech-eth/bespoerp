@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - interventions
+# Dolibarr language file - Source file is en_US - interventions
 Intervention=Intervention
 Interventions=Interventioner
 InterventionCard=Interventionskort
@@ -30,13 +30,13 @@ InterventionClassifyDone=Markera som klar
 StatusInterInvoiced=Fakturerade
 SendInterventionRef=Inlämning av intervention %s
 SendInterventionByMail=Skicka intervention via e-post
-InterventionCreatedInbespoerp=Intervention %s skapad
-InterventionValidatedInbespoerp=Intervention %s bekräftad
-InterventionModifiedInbespoerp=Intervention %s ändrad
-InterventionClassifiedBilledInbespoerp=Intervention %s angiven som fakturerad
-InterventionClassifiedUnbilledInbespoerp=Intervention %s angiven som ofakturerad
+InterventionCreatedInDolibarr=Intervention %s skapad
+InterventionValidatedInDolibarr=Intervention %s bekräftad
+InterventionModifiedInDolibarr=Intervention %s ändrad
+InterventionClassifiedBilledInDolibarr=Intervention %s angiven som fakturerad
+InterventionClassifiedUnbilledInDolibarr=Intervention %s angiven som ofakturerad
 InterventionSentByEMail=Intervention %s skickad via e-post
-InterventionDeletedInbespoerp=Intervention %s raderad
+InterventionDeletedInDolibarr=Intervention %s raderad
 InterventionsArea=Interventioner
 DraftFichinter=Utkast till Interventioner
 LastModifiedInterventions=Senaste %s ändrade interventioner

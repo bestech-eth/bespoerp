@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - mails
+# Dolibarr language file - Source file is en_US - mails
 Mailing=E-pasta sūtīšana
 EMailing=E-pasta sūtīšanas
 EMailings=E-pastu sūtīšana
@@ -90,7 +90,7 @@ MailingModuleDescContactsByCategory=Kontakti pa sadaļām
 MailingModuleDescContactsByFunction=Kontakti pēc amata
 MailingModuleDescEmailsFromFile=E-pasti no faila
 MailingModuleDescEmailsFromUser=Lietotāja ievadītie e-pasti
-MailingModuleDescbespoerpUsers=Lietotāji ar e-pastu
+MailingModuleDescDolibarrUsers=Lietotāji ar e-pastu
 MailingModuleDescThirdPartiesByCategories=Trešās puses
 SendingFromWebInterfaceIsNotAllowed=Sūtīšana no tīmekļa saskarnes nav atļauta.
 EmailCollectorFilterDesc=Lai e-pasts tiktu apkopots, visiem filtriem ir jāatbilst

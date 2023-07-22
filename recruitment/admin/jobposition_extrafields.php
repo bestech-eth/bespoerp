@@ -21,7 +21,7 @@
  *		\brief      Page to setup extra fields of Candidature
  */
 
-// Load bespoerp environment
+// Load Dolibarr environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/recruitment/lib/recruitment.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/extrafields.class.php';

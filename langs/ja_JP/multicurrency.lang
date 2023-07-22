@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - multicurrency
+# Dolibarr language file - Source file is en_US - multicurrency
 MultiCurrency=多通貨
 ErrorAddRateFail=追加済レートのエラー
 ErrorAddCurrencyFail=追加済通貨のエラー

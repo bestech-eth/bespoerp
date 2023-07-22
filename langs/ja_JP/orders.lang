@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - orders
+# Dolibarr language file - Source file is en_US - orders
 OrderExists=この提案にリンクされた注文はすでに開かれているため、他の注文は自動的に作成されませんでした
 OrdersArea=お客様の注文エリア
 SuppliersOrdersArea=購買発注エリア
@@ -129,8 +129,8 @@ ConfirmCloneOrder=この注文のクローンを作成してもよいか<b>%s </
 DispatchSupplierOrder=購買発注の受信%s
 FirstApprovalAlreadyDone=最初の承認は既に行われている
 SecondApprovalAlreadyDone=2回目の承認は既に完了している
-SupplierOrderReceivedInbespoerp=購買発注%sが%sを受け取りた
-SupplierOrderSubmitedInbespoerp=購買発注%sが提出された
+SupplierOrderReceivedInDolibarr=購買発注%sが%sを受け取りた
+SupplierOrderSubmitedInDolibarr=購買発注%sが提出された
 SupplierOrderClassifiedBilled=購買発注%sセットの請求
 OtherOrders=他の注文
 SupplierOrderValidatedAndApproved=サプライヤーの注文は検証済および承認されている：%s

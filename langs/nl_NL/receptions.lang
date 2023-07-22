@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - receptions
+# Dolibarr language file - Source file is en_US - receptions
 ReceptionDescription=Beheer van leveranciersontvangst (ontvangstdocumenten maken)
 ReceptionsSetup=Leveranciersontvangst instellen
 RefReception=Ontvangst ref.
@@ -49,6 +49,6 @@ ReceptionsNumberingModules=Nummeringsmodule voor ontvangsten
 ReceptionsReceiptModel=Documentsjablonen voor ontvangsten
 NoMorePredefinedProductToDispatch=Geen voorgedefinieerde producten meer om te verzenden
 ReceptionExist=Ontvangst bestaat reeds
-ReceptionBackToDraftInbespoerp=Receptie %s terug naar concept
-ReceptionClassifyClosedInbespoerp=Receptie %s geclassificeerd Gesloten
-ReceptionUnClassifyCloseddInbespoerp=Receptie %s heropend
+ReceptionBackToDraftInDolibarr=Receptie %s terug naar concept
+ReceptionClassifyClosedInDolibarr=Receptie %s geclassificeerd Gesloten
+ReceptionUnClassifyCloseddInDolibarr=Receptie %s heropend

@@ -1,6 +1,6 @@
-# bespoerp language file - Source file is en_US - paypal
+# Dolibarr language file - Source file is en_US - paypal
 PaypalSetup=Installation av PayPal-modul
-PaypalDesc=Denna modul låter dig ta betalt av kunder via <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a>. Detta kan användas vid en direktbetalning eller för betalning relaterad till ett bespoerp-objekt (faktura, order, ...)
+PaypalDesc=Denna modul låter dig ta betalt av kunder via <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a>. Detta kan användas vid en direktbetalning eller för betalning relaterad till ett Dolibarr-objekt (faktura, order, ...)
 PaypalOrCBDoPayment=Betala med PayPal (kort eller PayPal)
 PaypalDoPayment=Betala med PayPal
 PAYPAL_API_SANDBOX=Testläge/sandlåda

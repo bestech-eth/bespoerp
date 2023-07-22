@@ -1,5 +1,5 @@
-# bespoerp language file - Source file is en_US - boxes
-BoxbespoerpStateBoard=Statistik över huvudsakliga affärsobjekt i databasen
+# Dolibarr language file - Source file is en_US - boxes
+BoxDolibarrStateBoard=Statistik över huvudsakliga affärsobjekt i databasen
 BoxLoginInformation=inloggningsinformation
 BoxLastRssInfos=RSS Information
 BoxLastProducts=Senaste %s produkter/tjänster

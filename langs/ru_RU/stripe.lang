@@ -1,8 +1,8 @@
-# bespoerp language file - Source file is en_US - stripe
+# Dolibarr language file - Source file is en_US - stripe
 StripeSetup=Настройка модуля Stripe
-StripeDesc=Предложите своим клиентам страницу онлайн-платежей для платежей кредитными/дебетовыми картами через <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a> . Это можно использовать, чтобы позволить вашим клиентам совершать разовые платежи или платежи, связанные с конкретным объектом bespoerp (счет, заказ, ...)
+StripeDesc=Предложите своим клиентам страницу онлайн-платежей для платежей кредитными/дебетовыми картами через <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a> . Это можно использовать, чтобы позволить вашим клиентам совершать разовые платежи или платежи, связанные с конкретным объектом Dolibarr (счет, заказ, ...)
 StripeOrCBDoPayment=Оплата кредитной картой или Stripe
-FollowingUrlAreAvailableToMakePayments=После URL, можно предложить страницу к клиенту сделать платеж по bespoerp объектов
+FollowingUrlAreAvailableToMakePayments=После URL, можно предложить страницу к клиенту сделать платеж по Dolibarr объектов
 PaymentForm=Форма оплаты
 WelcomeOnPaymentPage=Добро пожаловать в нашу службу онлайн-платежей
 ThisScreenAllowsYouToPay=На этом экране можно сделать онлайн-платежей для %s.

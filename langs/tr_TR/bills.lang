@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - bills
+# Dolibarr language file - Source file is en_US - bills
 Bill=Fatura
 Bills=Faturalar
 BillsCustomers=Müşteri faturaları
@@ -594,8 +594,8 @@ AutoFillDateFromShort=Başlangıç tarihini ayarla
 AutoFillDateTo=Set end date for service line with next invoice date
 AutoFillDateToShort=Bitiş tarihini ayarla
 MaxNumberOfGenerationReached=Max number of gen. reached
-BILL_DELETEInbespoerp=Fatura silindi
-BILL_SUPPLIER_DELETEInbespoerp=Tedarikçi fatura silindi
+BILL_DELETEInDolibarr=Fatura silindi
+BILL_SUPPLIER_DELETEInDolibarr=Tedarikçi fatura silindi
 UnitPriceXQtyLessDiscount=Unit price x Qty - Discount
 CustomersInvoicesArea=Müşteri faturalandırma alanı
 SupplierInvoicesArea=Tedarikçi faturalandırma alanı

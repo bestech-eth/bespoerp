@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - salaries
+# Dolibarr language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=บัญชี (จากผังบัญชี) ใช้เป็นค่าเริ่มต้นสำหรับบุคคลที่สาม "ผู้ใช้"
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=บัญชีเฉพาะที่กำหนดไว้ในบัตรผู้ใช้จะใช้สำหรับบัญชีแยกประเภทย่อยเท่านั้น ค่านี้จะใช้สำหรับบัญชีแยกประเภททั่วไปและเป็นค่าเริ่มต้นของการบัญชีแยกประเภทย่อย หากไม่ได้กำหนดบัญชีผู้ใช้เฉพาะสำหรับผู้ใช้
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=บัญชีโดยปริยายสำหรับการจ่ายค่าจ้าง

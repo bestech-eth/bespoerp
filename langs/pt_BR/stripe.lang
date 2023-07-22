@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - stripe
+# Dolibarr language file - Source file is en_US - stripe
 StripeSetup=Configuração do módulo de boleto
 StripeOrCBDoPayment=Pagar com cartão de crédito ou boleto
 STRIPE_PAYONLINE_SENDEMAIL=Notificação por e-mail após uma tentativa de pagamento (sucesso ou falha)

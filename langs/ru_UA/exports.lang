@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - exports
+# Dolibarr language file - Source file is en_US - exports
 ErrorMissingMandatoryValue=Mandatory data is empty in the source file for field <b>%s</b>.
 DataComeFromFileFieldNb=Value to insert comes from field number <b>%s</b> in source file.
 DataComeFromIdFoundFromRef=Value that comes from field number <b>%s</b> of source file will be used to find the id of the parent object to use (so the object <b>%s</b> that has the ref. from source file must exist in the database).

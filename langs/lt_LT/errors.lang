@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - errors
+# Dolibarr language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Nėra klaidos, mes įsipareigojame
@@ -48,10 +48,10 @@ ErrorBadDateFormat=Reikšmė '%s' turi neteisingą datos formatą
 ErrorWrongDate=Data yra neteisinga !
 ErrorFailedToWriteInDir=Nepavyko įrašyti į katalogą %s
 ErrorFoundBadEmailInFile=Rasta neteisinga elektroninio pašto sintaksė failo eilutėje %s (eilutės pavyzdys %s su e-paštas=%s)
-ErrorUserCannotBeDelete=User cannot be deleted. Maybe it is associated to bespoerp entities.
+ErrorUserCannotBeDelete=User cannot be deleted. Maybe it is associated to Dolibarr entities.
 ErrorFieldsRequired=Some required fields have been left blank.
 ErrorSubjectIsRequired=The email subject is required
-ErrorFailedToCreateDir=Nepavyko sukurti aplanko. Įsitikinkite, kad web serverio vartotojas turi teisę rašyti į bespoerp dokumentų aplanką. Jei parametras <b>safe_mode</b> yra įjungtas šio PHP, patikrinkite, ar bespoerp PHP failai priklauso web serverio vartotojui (ar jų grupei).
+ErrorFailedToCreateDir=Nepavyko sukurti aplanko. Įsitikinkite, kad web serverio vartotojas turi teisę rašyti į Dolibarr dokumentų aplanką. Jei parametras <b>safe_mode</b> yra įjungtas šio PHP, patikrinkite, ar Dolibarr PHP failai priklauso web serverio vartotojui (ar jų grupei).
 ErrorNoMailDefinedForThisUser=Šiam klientui neapibrėžtas paštas
 ErrorSetupOfEmailsNotComplete=Setup of emails is not complete
 ErrorFeatureNeedJavascript=Šiai funkcijai turi būti aktyvuotas Javascript, kad galėtumėte dirbti. Pakeiskite tai meniu Nustatymai-Ekranas.
@@ -79,7 +79,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=The field <b>%s</b> must not co
 ErrorFieldMustHaveXChar=The field <b>%s</b> must have at least %s characters.
 ErrorNoAccountancyModuleLoaded=Nėra aktyvaus apskaitos modulio
 ErrorExportDuplicateProfil=Profilio vardas jau egzistuoja šiam eksporto rinkiniui
-ErrorLDAPSetupNotComplete=bespoerp-LDAP derinimas nėra pilnas
+ErrorLDAPSetupNotComplete=Dolibarr-LDAP derinimas nėra pilnas
 ErrorLDAPMakeManualTest=.ldif failas buvo sukurtas aplanke: %s. Pabandykite įkelti jį rankiniu būdu per komandinę eilutę, kad gauti daugiau informacijos apie klaidas
 ErrorCantSaveADoneUserWithZeroPercentage=Can't save an action with "status not started" if field "done by" is also filled.
 ErrorRefAlreadyExists=Reference <b>%s</b> already exists.
@@ -111,8 +111,8 @@ ErrorProdIdAlreadyExist=%s priskiriamas kitai trečiąjai šaliai
 ErrorFailedToSendPassword=Nepavyko išsiųsti slaptažodžio
 ErrorFailedToLoadRSSFile=Nepavyksta gauti RSS feed. Pabandykite pridėti konstantą MAIN_SIMPLEXMLLOAD_DEBUG, jei klaidų pranešimai nesuteikia pakankamai informacijos.
 ErrorForbidden=Access denied.<br>You try to access to a page, area or feature of a disabled module or without being in an authenticated session or that is not allowed to your user.
-ErrorForbidden2=Leidimas šiam prisijungimo vardui gali būti nustatomas Jūsų bespoerp administratoriaus iš meniu %s>%s.
-ErrorForbidden3=Atrodo, kad bespoerp nenaudojamas per patvirtintą sesiją. Pažvelkite į bespoerp nustatymų dokumentus, norėdami sužinoti, kaip valdyti patvirtinimus (htaccess, mod_auth ar kitas ...).
+ErrorForbidden2=Leidimas šiam prisijungimo vardui gali būti nustatomas Jūsų Dolibarr administratoriaus iš meniu %s>%s.
+ErrorForbidden3=Atrodo, kad Dolibarr nenaudojamas per patvirtintą sesiją. Pažvelkite į Dolibarr nustatymų dokumentus, norėdami sužinoti, kaip valdyti patvirtinimus (htaccess, mod_auth ar kitas ...).
 ErrorForbidden4=Note: clear your browser cookies to destroy existing sessions for this login.
 ErrorNoImagickReadimage=Klasė Imagick nerasta šiame PHP. Peržiūra negalima. Administratoriai gali išjungti šią kortelę iš meniu Nustatymai - Ekranas.
 ErrorRecordAlreadyExists=Įrašas jau egzistuoja
@@ -135,8 +135,8 @@ ErrorWebServerUserHasNotPermission=Vartotojo sąskaita <b>%s</b> naudojama web s
 ErrorNoActivatedBarcode=Nėra įjungta brūkšninio kodo tipo
 ErrUnzipFails=Nepavyko išpakuoti %s su ZipArchive
 ErrNoZipEngine=No engine to zip/unzip %s file in this PHP
-ErrorFileMustBeAbespoerpPackage=Failas %s turi būti bespoerp zip paketas
-ErrorModuleFileRequired=You must select a bespoerp module package file
+ErrorFileMustBeADolibarrPackage=Failas %s turi būti Dolibarr zip paketas
+ErrorModuleFileRequired=You must select a Dolibarr module package file
 ErrorPhpCurlNotInstalled=PHP CURL nėra įdiegta, tai yra būtina kalbantis su PayPal
 ErrorFailedToAddToMailmanList=Nepavyko pridėti įrašo %s į Paštininko sąrašą %s arba SPIP bazę
 ErrorFailedToRemoveToMailmanList=Nepavyko pašalinti įrašo %s iš Paštininko sąrašo %s arba SPIP bazės
@@ -148,7 +148,7 @@ ErrorDateMustBeBeforeToday=The date must be lower than today
 ErrorDateMustBeInFuture=The date must be greater than today
 ErrorPaymentModeDefinedToWithoutSetup=Mokėjimo būdo tipas buvo nustatytas %s, bet modulio Sąskaita faktūra nustatymas nebuvo pilnai baigtas mokėjimo būdo informacijos parodymui.
 ErrorPHPNeedModule=Klaida, Jūsų PHP turi turėti modulį <b>%s</b> įdiegtą šios funkcijos naudojimui.
-ErrorOpenIDSetupNotComplete=Nustatyti bespoerp config failą, kad būtų leidžiama OpenID patvirtinimas, bet OpenID paslaugos URL nėra apibrėžtas kaip konstanta %s.
+ErrorOpenIDSetupNotComplete=Nustatyti Dolibarr config failą, kad būtų leidžiama OpenID patvirtinimas, bet OpenID paslaugos URL nėra apibrėžtas kaip konstanta %s.
 ErrorWarehouseMustDiffers=Šaltinio ir paskirties sandėliai privalo skirtis
 ErrorBadFormat=Blogas formatas !
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Error, this member is not yet linked to any third party. Link member to an existing third party or create a new third party before creating subscription with invoice.
@@ -211,7 +211,7 @@ ErrorUserNotAssignedToTask=User must be assigned to task to be able to enter tim
 ErrorTaskAlreadyAssigned=Task already assigned to user
 ErrorModuleFileSeemsToHaveAWrongFormat=The module package seems to have a wrong format.
 ErrorModuleFileSeemsToHaveAWrongFormat2=At least one mandatory directory must exists into zip of module: <strong>%s</strong> or <strong>%s</strong>
-ErrorFilenameDosNotMatchbespoerpPackageRules=The name of the module package (<strong>%s</strong>) does not match expected name syntax: <strong>%s</strong>
+ErrorFilenameDosNotMatchDolibarrPackageRules=The name of the module package (<strong>%s</strong>) does not match expected name syntax: <strong>%s</strong>
 ErrorDuplicateTrigger=Error, duplicate trigger name %s. Already loaded from %s.
 ErrorNoWarehouseDefined=Error, no warehouses defined.
 ErrorBadLinkSourceSetButBadValueForRef=The link you use is not valid. A 'source' for payment is defined, but value for 'ref' is not valid.
@@ -280,7 +280,7 @@ ErrorRequestTooLarge=Error, request too large
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=Your PHP parameter upload_max_filesize (%s) is higher than PHP parameter post_max_size (%s). This is not a consistent setup.
-WarningPasswordSetWithNoAccount=A password was set for this member. However, no user account was created. So this password is stored but can't be used to login to bespoerp. It may be used by an external module/interface but if you don't need to define any login nor password for a member, you can disable option "Manage a login for each member" from Member module setup. If you need to manage a login but don't need any password, you can keep this field empty to avoid this warning. Note: Email can also be used as a login if the member is linked to a user.
+WarningPasswordSetWithNoAccount=A password was set for this member. However, no user account was created. So this password is stored but can't be used to login to Dolibarr. It may be used by an external module/interface but if you don't need to define any login nor password for a member, you can disable option "Manage a login for each member" from Member module setup. If you need to manage a login but don't need any password, you can keep this field empty to avoid this warning. Note: Email can also be used as a login if the member is linked to a user.
 WarningMandatorySetupNotComplete=Click here to setup mandatory parameters
 WarningEnableYourModulesApplications=Click here to enable your modules and applications
 WarningSafeModeOnCheckExecDir=Įspėjimas, PHP opcija <b>safe_mode</b> yra įjungta, todėl komanda turi būti saugoma viduje aplanko deklaruota php parametro <b>safe_mode_exec_dir</b>.

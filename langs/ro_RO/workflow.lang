@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - workflow
+# Dolibarr language file - Source file is en_US - workflow
 WorkflowSetup=Configurare modul Fluxuri de lucru
 WorkflowDesc=Acest module oferă câteva acțiuni automate. Implicit, fluxul de lucru este deschis (puteți face lucrurile în ordinea pe care o doriți), dar aici puteți activa unele acțiuni automate.
 ThereIsNoWorkflowToModify=Nu există modificări de flux disponibile pentru modulele activate.

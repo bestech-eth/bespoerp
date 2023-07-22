@@ -645,8 +645,8 @@ class WebsitePage extends CommonObject
 			$result = $websiteobj->fetch($this->fk_website);
 
 			if ($result > 0) {
-				global $bespoerp_main_data_root;
-				$pathofwebsite = $bespoerp_main_data_root.($conf->entity > 1 ? '/'.$conf->entity : '').'/website/'.$websiteobj->ref;
+				global $dolibarr_main_data_root;
+				$pathofwebsite = $dolibarr_main_data_root.($conf->entity > 1 ? '/'.$conf->entity : '').'/website/'.$websiteobj->ref;
 
 				$filealias = $pathofwebsite.'/'.$this->pageurl.'.php';
 				$filetpl = $pathofwebsite.'/page'.$this->id.'.tpl.php';
@@ -769,7 +769,7 @@ class WebsitePage extends CommonObject
 	public function getNomUrl($withpicto = 0, $option = '', $notooltip = 0, $maxlen = 24, $morecss = '')
 	{
 		global $langs, $conf, $db;
-		global $bespoerp_main_authentication, $bespoerp_main_demo;
+		global $dolibarr_main_authentication, $dolibarr_main_demo;
 		global $menumanager;
 
 		$result = '';

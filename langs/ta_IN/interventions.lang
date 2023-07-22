@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - interventions
+# Dolibarr language file - Source file is en_US - interventions
 Intervention=தலையீடு
 Interventions=தலையீடுகள்
 InterventionCard=தலையீட்டு அட்டை
@@ -30,13 +30,13 @@ InterventionClassifyDone="முடிந்தது" என்று வகை
 StatusInterInvoiced=கட்டணம் வசூலிக்கப்பட்டது
 SendInterventionRef=தலையீட்டின் சமர்ப்பிப்பு %s
 SendInterventionByMail=மின்னஞ்சல் மூலம் தலையீட்டை அனுப்பவும்
-InterventionCreatedInbespoerp=தலையீடு %s உருவாக்கப்பட்டது
-InterventionValidatedInbespoerp=தலையீடு %s சரிபார்க்கப்பட்டது
-InterventionModifiedInbespoerp=தலையீடு %s மாற்றப்பட்டது
-InterventionClassifiedBilledInbespoerp=தலையீடு %s பில் செய்யப்பட்டுள்ளது
-InterventionClassifiedUnbilledInbespoerp=தலையீடு %s கட்டணம் செலுத்தப்படாததாக அமைக்கப்பட்டது
+InterventionCreatedInDolibarr=தலையீடு %s உருவாக்கப்பட்டது
+InterventionValidatedInDolibarr=தலையீடு %s சரிபார்க்கப்பட்டது
+InterventionModifiedInDolibarr=தலையீடு %s மாற்றப்பட்டது
+InterventionClassifiedBilledInDolibarr=தலையீடு %s பில் செய்யப்பட்டுள்ளது
+InterventionClassifiedUnbilledInDolibarr=தலையீடு %s கட்டணம் செலுத்தப்படாததாக அமைக்கப்பட்டது
 InterventionSentByEMail=தலையீடு %s மின்னஞ்சல் மூலம் அனுப்பப்பட்டது
-InterventionDeletedInbespoerp=தலையீடு %s நீக்கப்பட்டது
+InterventionDeletedInDolibarr=தலையீடு %s நீக்கப்பட்டது
 InterventionsArea=தலையீடு பகுதி
 DraftFichinter=வரைவு தலையீடுகள்
 LastModifiedInterventions=சமீபத்திய %s மாற்றியமைக்கப்பட்ட தலையீடுகள்

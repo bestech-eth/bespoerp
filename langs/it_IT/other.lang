@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - other
+# Dolibarr language file - Source file is en_US - other
 SecurityCode=Codice di sicurezza
 NumberingShort=N°
 Tools=Strumenti
@@ -104,7 +104,7 @@ PredefinedMailContentSendFichInter=__(Hello)__\n\nPlease find intervention __REF
 PredefinedMailContentLink=You can click on the link below to make your payment if it is not already done.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Buongiorno)__\n\n\n__(Cordialmente)__\n\n__USER_SIGNATURE__
 PredefinedMailContentSendActionComm=Promemoria evento "__EVENT_LABEL__" il __EVENT_DATE__ at __EVENT_TIME__ <br> <br> Questo è un messaggio automatico, per favore non rispondere.
-DemoDesc=bespoerp è un ERP/CRM compatto composto di diversi moduli funzionali. Un demo comprendente tutti i moduli non ha alcun senso, perché un caso simile non esiste nella realtà. Sono dunque disponibili diversi profili demo.
+DemoDesc=Dolibarr è un ERP/CRM compatto composto di diversi moduli funzionali. Un demo comprendente tutti i moduli non ha alcun senso, perché un caso simile non esiste nella realtà. Sono dunque disponibili diversi profili demo.
 ChooseYourDemoProfil=Scegli il profilo demo che corrisponde alla tua attività ...
 ChooseYourDemoProfilMore=...or build your own profile<br>(manual module selection)
 DemoFundation=Gestisci i membri di una Fondazione
@@ -182,10 +182,10 @@ SizeUnitpoint=punto
 BugTracker=Bug tracker
 SendNewPasswordDesc=Questo modulo consente di richiedere una nuova password che verrà inviata al tuo indirizzo email. <br> Il cambiamento sarà effettivo solo dopo aver cliccato sul link di conferma contenuto nell'email. <br> Controlla la tua casella di posta.
 BackToLoginPage=Torna alla pagina di login
-AuthenticationDoesNotAllowSendNewPassword=La modalità di autenticazione è <b>%s</b>.<br/>In questa modalità bespoerp non può sapere né cambiare la tua password.<br/>Contatta l'amministratore di sistema se desideri cambiare password.
+AuthenticationDoesNotAllowSendNewPassword=La modalità di autenticazione è <b>%s</b>.<br/>In questa modalità Dolibarr non può sapere né cambiare la tua password.<br/>Contatta l'amministratore di sistema se desideri cambiare password.
 EnableGDLibraryDesc=Per usare questa opzione bisogna installare o abilitare la libreria GD in PHP.
 ProfIdShortDesc=<b>Prof ID %s</b> è un dato dipendente dal paese terzo.<br/> Ad esempio, per il <b>paese %s,</b> è il <b>codice %s.</b>
-bespoerpDemo=bespoerp ERP/CRM demo
+DolibarrDemo=Dolibarr ERP/CRM demo
 StatsByNumberOfUnits=Statistiche per somma della quantità di prodotti / servizi
 StatsByNumberOfEntities=Statistiche per numero di soggetti di riferimento (n. di fatture, o ordini...)
 NumberOfProposals=Numero di preventivi
@@ -223,7 +223,7 @@ EMailTextHolidayValidated=La richiesta di ferie/permesso %s è stata convalidata
 EMailTextHolidayApproved=Leave request %s has been approved.
 EMailTextActionAdded=L'azione %s è stata aggiunta all'Agenda.
 ImportedWithSet=Set dati importazione
-bespoerpNotification=Notifica automatica
+DolibarrNotification=Notifica automatica
 ResizeDesc=Ridimesiona con larghezza <b>o</b> altezza nuove. Il ridimensionamento è proporzionale, il rapporto tra le due dimenzioni verrà mantenuto.
 NewLength=Nuovo larghezza
 NewHeight=Nuova altezza

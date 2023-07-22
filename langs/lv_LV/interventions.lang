@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - interventions
+# Dolibarr language file - Source file is en_US - interventions
 Intervention=Iejaukšanās
 Interventions=Iejaukšanās
 InterventionCard=Iejaukšanās kartiņa
@@ -30,13 +30,13 @@ InterventionClassifyDone=Klasificēt "Pabeigts"
 StatusInterInvoiced=Jāmaksā
 SendInterventionRef=Submission of intervention %s
 SendInterventionByMail=Sūtīt interviju pa e-pastu
-InterventionCreatedInbespoerp=Izveidota intervence %s
-InterventionValidatedInbespoerp=Intervence %s validēta
-InterventionModifiedInbespoerp=Intervention %s modified
-InterventionClassifiedBilledInbespoerp=Intervention %s set as billed
-InterventionClassifiedUnbilledInbespoerp=Intervention %s set as unbilled
+InterventionCreatedInDolibarr=Izveidota intervence %s
+InterventionValidatedInDolibarr=Intervence %s validēta
+InterventionModifiedInDolibarr=Intervention %s modified
+InterventionClassifiedBilledInDolibarr=Intervention %s set as billed
+InterventionClassifiedUnbilledInDolibarr=Intervention %s set as unbilled
 InterventionSentByEMail=Intervence %s nosūtīta pa e-pastu
-InterventionDeletedInbespoerp=Intervention %s deleted
+InterventionDeletedInDolibarr=Intervention %s deleted
 InterventionsArea=Intervences zona
 DraftFichinter=Intervences projekts
 LastModifiedInterventions=Jaunākās %s labotās iejaukšanās

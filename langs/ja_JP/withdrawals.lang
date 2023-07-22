@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - withdrawals
+# Dolibarr language file - Source file is en_US - withdrawals
 CustomersStandingOrdersArea=口座振替による支払
 SuppliersStandingOrdersArea=債権譲渡による支払
 StandingOrdersPayment=口座振替の支払注文

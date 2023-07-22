@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - interventions
+# Dolibarr language file - Source file is en_US - interventions
 Intervention=Intervencija
 Interventions=Intervencije
 InterventionCard=Kartica intervencije
@@ -30,13 +30,13 @@ InterventionClassifyDone=Razvrsti "Končano"
 StatusInterInvoiced=Zaračunano
 SendInterventionRef=Oddana intervencija %s
 SendInterventionByMail=Pošljite intervencijo po elektronski pošti
-InterventionCreatedInbespoerp=Intervencija %s je ustvarjena
-InterventionValidatedInbespoerp=Intervencija %s je potrjena
-InterventionModifiedInbespoerp=Intervencija %s je spremenjena
-InterventionClassifiedBilledInbespoerp=Intervencijo %s označi kot "zaračunana"
-InterventionClassifiedUnbilledInbespoerp=Intervencijo %s označi kot "nezaračunana"
+InterventionCreatedInDolibarr=Intervencija %s je ustvarjena
+InterventionValidatedInDolibarr=Intervencija %s je potrjena
+InterventionModifiedInDolibarr=Intervencija %s je spremenjena
+InterventionClassifiedBilledInDolibarr=Intervencijo %s označi kot "zaračunana"
+InterventionClassifiedUnbilledInDolibarr=Intervencijo %s označi kot "nezaračunana"
 InterventionSentByEMail=Intervencija %s poslana po elektronski pošti
-InterventionDeletedInbespoerp=Intervencija %s je izbrisana
+InterventionDeletedInDolibarr=Intervencija %s je izbrisana
 InterventionsArea=Območje intervencij
 DraftFichinter=Osnutki posegov
 LastModifiedInterventions=Zadnje %s spremenjene intervencije

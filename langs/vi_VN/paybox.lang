@@ -1,7 +1,7 @@
-# bespoerp language file - Source file is en_US - paybox
+# Dolibarr language file - Source file is en_US - paybox
 PayBoxSetup=Thiết lập mô-đun PayBox
-PayBoxDesc=Mô-đun này cung cấp các trang để cho phép thanh toán trên <a href="http://www.paybox.com" target="_blank">Paybox</a> của khách hàng. Điều này có thể được sử dụng để thanh toán tự do hoặc thanh toán cho một đối tượng bespoerp cụ thể (hóa đơn, đơn đặt hàng, ...)
-FollowingUrlAreAvailableToMakePayments=Các URL sau có sẵn để cung cấp một trang cho khách hàng để thanh toán trên các đối tượng bespoerp
+PayBoxDesc=Mô-đun này cung cấp các trang để cho phép thanh toán trên <a href="http://www.paybox.com" target="_blank">Paybox</a> của khách hàng. Điều này có thể được sử dụng để thanh toán tự do hoặc thanh toán cho một đối tượng Dolibarr cụ thể (hóa đơn, đơn đặt hàng, ...)
+FollowingUrlAreAvailableToMakePayments=Các URL sau có sẵn để cung cấp một trang cho khách hàng để thanh toán trên các đối tượng Dolibarr
 PaymentForm=Hình thức thanh toán
 WelcomeOnPaymentPage=Chào mừng bạn đến với dịch vụ thanh toán trực tuyến của chúng tôi
 ThisScreenAllowsYouToPay=Màn hình này cho phép bạn thực hiện thanh toán trực tuyến tới %s.

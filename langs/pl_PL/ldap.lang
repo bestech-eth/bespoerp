@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - ldap
+# Dolibarr language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=Hasło dla <b>użytkownika %s na %s</b> domeny muszą być zmienione.
 UserMustChangePassNextLogon=Użytkownik musi zmienić hasło w domenie %s
 LDAPInformationsForThisContact=Informacje zawarte w bazie danych LDAP dla tego kontaktu
@@ -22,6 +22,6 @@ GroupSynchronized=Grupa zsynchronizowana
 MemberSynchronized=Państwa zsynchronizowane
 MemberTypeSynchronized=Member type synchronized
 ContactSynchronized=Kontakt zsynchronizowany
-ForceSynchronize=Synchronizacja użytkownika (bespoerp -> LDAP)
+ForceSynchronize=Synchronizacja użytkownika (Dolibarr -> LDAP)
 ErrorFailedToReadLDAP=Nie można odczytać bazy danych LDAP. Sprawdź LDAP moduł konfiguracji bazy danych i dostępności.
 PasswordOfUserInLDAP=Password of user in LDAP

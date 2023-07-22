@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - members
+# Dolibarr language file - Source file is en_US - members
 MemberStatusDraft=Rascunho (precisa ser validada)
 MemberStatusDraftShort=Minuta
 MemberStatusActiveShort=Validada

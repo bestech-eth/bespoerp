@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - website
+# Dolibarr language file - Source file is en_US - website
 Shortname=Kod
 WebsiteName=Name of the website
 WebsiteSetupDesc=Tu utwórz witryny, które chcesz użyć. Następnie, przejdź do menu Witryny, aby je edytować.
@@ -48,13 +48,13 @@ VirtualhostDesc=The name of the Virtual host or domain (For example: www.mywebsi
 SetHereVirtualHost= <u> Użyj z Apache / NGinx / ... </u> <br> Utwórz na swoim serwerze internetowym (Apache, Nginx, ...) dedykowany wirtualny host z włączoną obsługą PHP i katalog główny na <br> <strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Przykład do użycia w konfiguracji hosta wirtualnego Apache:
 YouCanAlsoTestWithPHPS=<u> Używaj z wbudowanym serwerem PHP </u> <br>Gdy w środowisku rozwojowym preferujesz testowanie web strony z web serwerem wbudowanym w PHP (wymagane PHP 5.5 lub nowsze), to uruchamiaj<br> <strong> php -S 0.0.0.0:8080 -t %s</strong>
-YouCanAlsoDeployToAnotherWHP=<u>Run your web site with another bespoerp Hosting provider</u><br>If you don't have a web server like Apache or NGinx available on internet, you can export and import your web site onto another bespoerp instance provided by another bespoerp hosting provider that provide full integration with the Website module. You can find a list of some bespoerp hosting providers on <a href="https://saas.bespoerp.org" target="_blank" rel="noopener noreferrer external">https://saas.bespoerp.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Run your web site with another Dolibarr Hosting provider</u><br>If you don't have a web server like Apache or NGinx available on internet, you can export and import your web site onto another Dolibarr instance provided by another Dolibarr hosting provider that provide full integration with the Website module. You can find a list of some Dolibarr hosting providers on <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a>
 CheckVirtualHostPerms=Sprawdź również, czy użytkownik wirtualnego hosta (na przykład dane www) ma <strong> %s </strong> uprawnienia do plików w <br> <strong> %s</strong>
 ReadPerm=Czytanie
 WritePerm=Zapis
 TestDeployOnWeb=Testuj/wdróż na web serwerze
 PreviewSiteServedByWebServer=<u>Podgląd %s w nowej zakładce.</u><br><br>%s będzie obsługiwana przez zewnętrzny web serwer (np. Apache, Nginx, IIS). Musisz zainstalować i skonfigurować taki web serwer, zanim wskazanie do katalogu:<br><strong>%s</strong><br>URL obsługiwany przez zewnętrzny web serwer:<br><strong>%s</strong>
-PreviewSiteServedBybespoerp= <u> Podgląd %s w nowej karcie. </u> <br> <br> Serwer %s będzie obsługiwany przez serwer bespoerp, więc nie jest potrzebny żaden dodatkowy serwer WWW (taki jak Apache, Nginx, IIS) do zainstalowania. <br> Niedogodnością jest to, że adresy URL stron nie są przyjazne dla użytkownika i zaczynają się od ścieżki do Twojego bespoerpa. <br> URL podawane przez bespoerp: <br> <strong> %s </strong> <br> <br> Aby korzystać z własnego serwera zewnętrznego internetowej, aby służyć tej strony internetowej, stworzenie wirtualnego hosta na serwerze WWW, które punkty na katalogu <br> <strong> %s </strong> <br> następnie wprowadź nazwę tego serwera wirtualnego we właściwościach tej witryny i kliknij łącze „Przetestuj / Wdróż w sieci”.
+PreviewSiteServedByDolibarr= <u> Podgląd %s w nowej karcie. </u> <br> <br> Serwer %s będzie obsługiwany przez serwer Dolibarr, więc nie jest potrzebny żaden dodatkowy serwer WWW (taki jak Apache, Nginx, IIS) do zainstalowania. <br> Niedogodnością jest to, że adresy URL stron nie są przyjazne dla użytkownika i zaczynają się od ścieżki do Twojego Dolibarra. <br> URL podawane przez Dolibarr: <br> <strong> %s </strong> <br> <br> Aby korzystać z własnego serwera zewnętrznego internetowej, aby służyć tej strony internetowej, stworzenie wirtualnego hosta na serwerze WWW, które punkty na katalogu <br> <strong> %s </strong> <br> następnie wprowadź nazwę tego serwera wirtualnego we właściwościach tej witryny i kliknij łącze „Przetestuj / Wdróż w sieci”.
 VirtualHostUrlNotDefined=Adres URL wirtualnego hosta obsługiwanego przez zewnętrzny web serwer nie został zdefiniowany
 NoPageYet=Brak stron
 YouCanCreatePageOrImportTemplate=Możesz utworzyć nową stronę albo załadować pełny szablon witryny

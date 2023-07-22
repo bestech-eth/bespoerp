@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - products
+# Dolibarr language file - Source file is en_US - products
 ProductRef=Tham chiếu sản phẩm.
 ProductLabel=Nhãn sản phẩm
 ProductLabelTranslated=Nhãn sản phẩm đã dịch
@@ -300,7 +300,7 @@ MinSupplierPrice=Giá mua tối thiểu
 MinCustomerPrice=Giá bán tối thiểu
 NoDynamicPrice=No dynamic price
 DynamicPriceConfiguration=Cấu hình giá linh hoạt
-DynamicPriceDesc=Bạn có thể định nghĩa các công thức toán học để tính giá cho Khách hàng hoặc của Nhà cung cấp. Các công thức như vậy có thể sử dụng tất cả các toán tử, hằng số và biến. Ở đây, bạn có thể định nghĩa các biến bạn muốn sử dụng. Nếu biến cần cập nhật tự động, bạn có thể định rõ URL bên ngoài để cho phép bespoerp tự động cập nhật giá trị.
+DynamicPriceDesc=Bạn có thể định nghĩa các công thức toán học để tính giá cho Khách hàng hoặc của Nhà cung cấp. Các công thức như vậy có thể sử dụng tất cả các toán tử, hằng số và biến. Ở đây, bạn có thể định nghĩa các biến bạn muốn sử dụng. Nếu biến cần cập nhật tự động, bạn có thể định rõ URL bên ngoài để cho phép Dolibarr tự động cập nhật giá trị.
 AddVariable=Thêm biến
 AddUpdater=Thêm nguồn cập nhật
 GlobalVariables=Biến toàn cầu
@@ -379,7 +379,7 @@ NewProductAttribute=Thuộc tính mới
 NewProductAttributeValue=Giá trị thuộc tính mới
 ErrorCreatingProductAttributeValue=Có lỗi trong khi tạo giá trị thuộc tính. Có thể là vì đã có một giá trị hiện tại trùng với tham chiếu đó
 ProductCombinationGeneratorWarning=Nếu bạn tiếp tục, trước khi tạo ra biến thể mới, tất cả biến thể trước đó sẽ bị XÓA. Các biến thể hiện có sẽ được cập nhật với giá trị mới
-TooMuchCombinationsWarning=Tạo nhiều biến thể có thể dẫn đến CPU cao và sử dụng bộ nhớ, bespoerp không thể tạo chúng. Kích hoạt tùy chọn "%s" có thể giúp giảm mức sử dụng bộ nhớ.
+TooMuchCombinationsWarning=Tạo nhiều biến thể có thể dẫn đến CPU cao và sử dụng bộ nhớ, Dolibarr không thể tạo chúng. Kích hoạt tùy chọn "%s" có thể giúp giảm mức sử dụng bộ nhớ.
 DoNotRemovePreviousCombinations=Không thể loại bỏ các biến thể trước
 UsePercentageVariations=Sử dụng các biến thể tỷ lệ phần trăm
 PercentageVariation=Biến thể tỷ lệ phần trăm

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - receptions
+# Dolibarr language file - Source file is en_US - receptions
 ReceptionDescription=Vendor reception management (Create reception documents)
 ReceptionsSetup=Vendor Reception setup
 RefReception=Ref. வரவேற்பு
@@ -49,6 +49,6 @@ ReceptionsReceiptModel=வரவேற்புகளுக்கான ஆவ�
 NoMorePredefinedProductToDispatch=அனுப்புவதற்கு முன் வரையறுக்கப்பட்ட தயாரிப்புகள் இல்லை
 ReceptionExist=வரவேற்பு உள்ளது
 ByingPrice=பையிங் விலை
-ReceptionBackToDraftInbespoerp=வரவேற்பு %s வரைவுக்குத் திரும்பு
-ReceptionClassifyClosedInbespoerp=வரவேற்பு %s வகைப்படுத்தப்பட்டது மூடப்பட்டது
-ReceptionUnClassifyCloseddInbespoerp=வரவேற்பு %s மீண்டும் திறக்கப்பட்டது
+ReceptionBackToDraftInDolibarr=வரவேற்பு %s வரைவுக்குத் திரும்பு
+ReceptionClassifyClosedInDolibarr=வரவேற்பு %s வகைப்படுத்தப்பட்டது மூடப்பட்டது
+ReceptionUnClassifyCloseddInDolibarr=வரவேற்பு %s மீண்டும் திறக்கப்பட்டது

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - receiptprinter
+# Dolibarr language file - Source file is en_US - receiptprinter
 ReceiptPrinterSetup=Moduļa Čeku printera uzstādīšana
 PrinterAdded=Pievienots printeris %s
 PrinterUpdated=Printeris %s ir atjaunināts

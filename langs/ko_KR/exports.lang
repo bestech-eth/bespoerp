@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - exports
+# Dolibarr language file - Source file is en_US - exports
 ExportsArea=내보내기
 ImportArea=Import
 NewExport=New Export
@@ -59,7 +59,7 @@ ChooseFormatOfFileToImport=Choose the file format to use as import file format b
 ChooseFileToImport=Upload file then click on the %s icon to select file as source import file...
 SourceFileFormat=Source file format
 FieldsInSourceFile=Fields in source file
-FieldsInTargetDatabase=Target fields in bespoerp database (bold=mandatory)
+FieldsInTargetDatabase=Target fields in Dolibarr database (bold=mandatory)
 Field=Field
 NoFields=No fields
 MoveField=Move field column number %s

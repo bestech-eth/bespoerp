@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - paybox
+# Dolibarr language file - Source file is en_US - paybox
 PayBoxSetup=PayBox konfiguracji modułu
 PayBoxDesc=Moduł ten oferują strony, umożliwiające płatności na <a href="http://www.paybox.com" target="_blank">Paybox</a> przez klientów. Może to być wykorzystane do swobodnej zapłaty lub płatności w szczególności obiektu Dolibara np za faktury, zamówienia, ...
 FollowingUrlAreAvailableToMakePayments=Nastepujące adresy są dostępne dla klienta, by mógł dokonać płatności za faktury zamówienia

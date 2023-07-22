@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - bills
+# Dolibarr language file - Source file is en_US - bills
 Bill=Factuur
 Bills=Facturen
 BillsCustomers=Klantenfactuur
@@ -598,8 +598,8 @@ AutoFillDateFromShort=Vanaf datum
 AutoFillDateTo=Stel de einddatum in voor de servicelijn met de volgende factuur-datum
 AutoFillDateToShort=Tot datum
 MaxNumberOfGenerationReached=Max aantal gegenereerd bereikt
-BILL_DELETEInbespoerp=Factuur verwijderd
-BILL_SUPPLIER_DELETEInbespoerp=Leverancierfactuur verwijderd
+BILL_DELETEInDolibarr=Factuur verwijderd
+BILL_SUPPLIER_DELETEInDolibarr=Leverancierfactuur verwijderd
 UnitPriceXQtyLessDiscount=Eenheidsprijs x Aantal - Korting
 CustomersInvoicesArea=Factureringsgebied voor klanten
 SupplierInvoicesArea=Factureringsgebied leverancier

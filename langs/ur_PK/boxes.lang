@@ -1,5 +1,5 @@
-# bespoerp language file - Source file is en_US - boxes
-BoxbespoerpStateBoard=ڈیٹا بیس میں اہم کاروباری اشیاء کے اعدادوشمار
+# Dolibarr language file - Source file is en_US - boxes
+BoxDolibarrStateBoard=ڈیٹا بیس میں اہم کاروباری اشیاء کے اعدادوشمار
 BoxLoginInformation=لاگ ان کی معلومات
 BoxLastRssInfos=آر ایس ایس کی معلومات
 BoxLastProducts=تازہ ترین %s مصنوعات/خدمات

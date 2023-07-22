@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - companies
+# Dolibarr language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Tên công ty %s đã tồn tại. Chọn tên khác khác.
 ErrorSetACountryFirst=Thiết lập quốc gia trước
 SelectThirdParty=Chọn một bên thứ ba
@@ -12,7 +12,7 @@ MenuNewSupplier=Nhà cung cấp mới
 MenuNewPrivateIndividual=Cá nhân mới
 NewCompany=Công ty mới (khách nàng tiềm năng, khách hàng, nhà cung cấp)
 NewThirdParty=Bên thứ ba mới (triển vọng, khách hàng, nhà cung cấp)
-CreatebespoerpThirdPartySupplier=Tạo bên thứ ba mới (nhà cung cấp)
+CreateDolibarrThirdPartySupplier=Tạo bên thứ ba mới (nhà cung cấp)
 CreateThirdPartyOnly=Tạo bên thứ ba
 CreateThirdPartyAndContact=Tạo 1 bên thứ ba + 1 đầu mối cấp con
 ProspectionArea=Khu vực khảo sát
@@ -383,7 +383,7 @@ CapitalOf=Vốn của %s
 EditCompany=Chỉnh sửa công ty
 ThisUserIsNot=Người này không phải tiềm năng, khách hàng hoặc NCC
 VATIntraCheck=Kiểm tra
-VATIntraCheckDesc=ID VAT phải bao gồm tiền tố quốc gia. Liên kết <b>%s</b> sử dụng dịch vụ kiểm tra VAT Châu Âu (VIES) yêu cầu truy cập internet từ máy chủ bespoerp.
+VATIntraCheckDesc=ID VAT phải bao gồm tiền tố quốc gia. Liên kết <b>%s</b> sử dụng dịch vụ kiểm tra VAT Châu Âu (VIES) yêu cầu truy cập internet từ máy chủ Dolibarr.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Kiểm tra ID VAT nội bộ cộng đồng trên trang web của Ủy ban Châu Âu
 VATIntraManualCheck=You can also check manually on the European Commission website <a href="%s" target="_blank" rel="noopener noreferrer">%s</a>
@@ -429,8 +429,8 @@ ProspectsByStatus=KH tiềm năng theo trạng thái
 NoParentCompany=Không
 ExportCardToFormat=Thẻ xuất để định dạng
 ContactNotLinkedToCompany=Liên lạc không liên quan đến bất kỳ bên thứ ba
-bespoerpLogin=Đăng nhập bespoerp
-NobespoerpAccess=Không truy cập bespoerp
+DolibarrLogin=Đăng nhập Dolibarr
+NoDolibarrAccess=Không truy cập Dolibarr
 ExportDataset_company_1=Bên thứ ba (công ty / tổ chức / người) và tính chất của họ
 ExportDataset_company_2=Liên lạc và tính chất của họ
 ImportDataset_company_1=Bên thứ ba và tính chất của họ

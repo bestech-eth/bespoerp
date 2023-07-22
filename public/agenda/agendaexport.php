@@ -19,9 +19,9 @@
  * 	\file       htdocs/public/agenda/agendaexport.php
  * 	\ingroup    agenda
  * 	\brief      Page to export agenda
- * 				http://127.0.0.1/bespoerp/public/agenda/agendaexport.php?format=vcal&exportkey=cle
- * 				http://127.0.0.1/bespoerp/public/agenda/agendaexport.php?format=ical&type=event&exportkey=cle
- * 				http://127.0.0.1/bespoerp/public/agenda/agendaexport.php?format=rss&exportkey=cle
+ * 				http://127.0.0.1/dolibarr/public/agenda/agendaexport.php?format=vcal&exportkey=cle
+ * 				http://127.0.0.1/dolibarr/public/agenda/agendaexport.php?format=ical&type=event&exportkey=cle
+ * 				http://127.0.0.1/dolibarr/public/agenda/agendaexport.php?format=rss&exportkey=cle
  *              Other parameters into url are:
  *              &notolderthan=99
  *              &year=2015
@@ -47,7 +47,7 @@ if (!defined('NOCSRFCHECK')) {
 	define("NOCSRFCHECK", 1); // We accept to go on this page from external web site.
 }
 if (!defined('NOIPCHECK')) {
-	define('NOIPCHECK', '1'); // Do not check IP defined into conf $bespoerp_main_restrict_ip
+	define('NOIPCHECK', '1'); // Do not check IP defined into conf $dolibarr_main_restrict_ip
 }
 
 
@@ -79,7 +79,7 @@ if (is_numeric($entity)) {
 	define("DOLENTITY", $entity);
 }
 
-// Load bespoerp environment
+// Load Dolibarr environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/comm/action/class/actioncomm.class.php';
 
@@ -178,7 +178,7 @@ if ($reshook < 0) {
 
 
 // Define filename with prefix on filters predica (each predica set must have on cache file)
-$shortfilename = 'bespoerpcalendar';
+$shortfilename = 'dolibarrcalendar';
 $filename = $shortfilename;
 // Complete long filename
 foreach ($filters as $key => $value) {
@@ -227,7 +227,7 @@ if ($format == 'ical') {
 if ($format == 'rss') {
 	$shortfilename .= '.rss'; $filename .= '.rss';
 }
-if ($shortfilename == 'bespoerpcalendar') {
+if ($shortfilename == 'dolibarrcalendar') {
 	$langs->load("errors");
 	llxHeaderVierge();
 	print '<div class="error">'.$langs->trans("ErrorWrongValueForParameterX", 'format').'</div>';

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - marque pages
+# Dolibarr language file - Source file is en_US - marque pages
 AddThisPageToBookmarks=現在のページをブックマークに追加 
 Bookmark=ブックマーク
 Bookmarks=ブックマーク
@@ -15,7 +15,7 @@ UrlOrLink=URL
 BehaviourOnClick=ブックマークURLを選択した場合の動作
 CreateBookmark=ブックマークを作成。
 SetHereATitleForLink=ブックマークの名前を設定 
-UseAnExternalHttpLinkOrRelativebespoerpLink=外部/絶対リンク (https://externalurl.com) または内部/相対リンク (/mypage.php) を使用する。 tel:0123456 のような電話を使用することもできる。
+UseAnExternalHttpLinkOrRelativeDolibarrLink=外部/絶対リンク (https://externalurl.com) または内部/相対リンク (/mypage.php) を使用する。 tel:0123456 のような電話を使用することもできる。
 ChooseIfANewWindowMustBeOpenedOnClickOnBookmark=リンクされたページを現在のタブで開くか、新規タブで開くかを選択 
 BookmarksManagement=ブックマークの管理
 BookmarksMenuShortCut=Ctrl +シフト+ m

@@ -1,6 +1,6 @@
-# bespoerp language file - Source file is en_US - paypal
+# Dolibarr language file - Source file is en_US - paypal
 PaypalSetup=PayPal module setup
-PaypalDesc=Deze module maakt betaling door klanten via <a href="http://www.paypal.com" target="_blank">PayPal mogelijk</a> . Dit kan worden gebruikt voor een willekeurige betaling of voor een betaling gerelateerd aan een bespoerp-object (factuur, bestelling, ...)
+PaypalDesc=Deze module maakt betaling door klanten via <a href="http://www.paypal.com" target="_blank">PayPal mogelijk</a> . Dit kan worden gebruikt voor een willekeurige betaling of voor een betaling gerelateerd aan een Dolibarr-object (factuur, bestelling, ...)
 PaypalOrCBDoPayment=Betalen met PayPal (Creditcard of PayPal)
 PaypalDoPayment=Betaal met PayPal
 PAYPAL_API_SANDBOX=Mode test / zandbak

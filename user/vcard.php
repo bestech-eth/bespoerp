@@ -25,7 +25,7 @@
  *		\brief      Onglet vcard d'un user
  */
 
-// Load bespoerp environment
+// Load Dolibarr environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/user/class/user.class.php';
 require_once DOL_DOCUMENT_ROOT.'/societe/class/societe.class.php';
@@ -60,9 +60,9 @@ if ($user2->socid) {
 
 // We create VCard
 $v = new vCard();
-$v->setProdId('bespoerp '.DOL_VERSION);
+$v->setProdId('Dolibarr '.DOL_VERSION);
 
-$v->setUid('bespoerp-USERID-'.$user2->id);
+$v->setUid('DOLIBARR-USERID-'.$user2->id);
 $v->setName($user2->lastname, $user2->firstname, "", $user2->civility_code, "");
 $v->setFormattedName($user2->getFullName($langs, 1));
 

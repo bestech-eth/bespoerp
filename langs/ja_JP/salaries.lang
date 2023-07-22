@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - salaries
+# Dolibarr language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=「ユーザ」取引先にデフォルトで使用されるアカウント (勘定科目表から)
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=ユーザカードに定義された専用口座は補助元帳会計のみに使用される。これは、General Ledger に使用され、ユーザの専用ユーザ アカウンティング アカウントが定義されていない場合は Subledger アカウンティングのデフォルト値として使用される。
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=賃金支払のデフォルトの勘定科目

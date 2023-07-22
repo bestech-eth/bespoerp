@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - marque pages
+# Dolibarr language file - Source file is en_US - marque pages
 AddThisPageToBookmarks=موجودہ صفحہ کو بُک مارکس میں شامل کریں۔
 Bookmark=بک مارک
 Bookmarks=بک مارکس
@@ -15,7 +15,7 @@ UrlOrLink=URL
 BehaviourOnClick=ایک بک مارک URL منتخب ہونے پر برتاؤ
 CreateBookmark=بک مارک بنائیں
 SetHereATitleForLink=بک مارک کے لیے ایک نام سیٹ کریں۔
-UseAnExternalHttpLinkOrRelativebespoerpLink=ایک بیرونی/مطلق لنک (https://externalurl.com) یا اندرونی/رشتہ دار لنک (/mypage.php) استعمال کریں۔ آپ tel:0123456 کی طرح فون بھی استعمال کر سکتے ہیں۔
+UseAnExternalHttpLinkOrRelativeDolibarrLink=ایک بیرونی/مطلق لنک (https://externalurl.com) یا اندرونی/رشتہ دار لنک (/mypage.php) استعمال کریں۔ آپ tel:0123456 کی طرح فون بھی استعمال کر سکتے ہیں۔
 ChooseIfANewWindowMustBeOpenedOnClickOnBookmark=منتخب کریں کہ منسلک صفحہ موجودہ ٹیب میں کھلنا چاہیے یا نئے ٹیب میں
 BookmarksManagement=بُک مارکس کا انتظام
 BookmarksMenuShortCut=Ctrl + shift + m

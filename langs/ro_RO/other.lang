@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - other
+# Dolibarr language file - Source file is en_US - other
 SecurityCode=Cod de securitate
 NumberingShort=N°
 Tools=Instrumente
@@ -106,7 +106,7 @@ PredefinedMailContentSendFichInter=__(Hello)__\n\nConsultați detaliile pentru l
 PredefinedMailContentLink=Puteți accesa link-ul de mai jos pentru a efectua plata dacă nu aţi făcut-o deja.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Hello)__\n\n\n\n__(Sincerely)__\n\n__USER_SIGNATURE__
 PredefinedMailContentSendActionComm=Reminder eveniment "__EVENT_LABEL__"  în data de  __EVENT_DATE__ la ora  __EVENT_TIME__<br><br> Acesta este un mesaj automat, vă rugăm să nu răspundeți.
-DemoDesc=bespoerp este un sistem ERP/CRM compact care suportă mai multe module de afaceri. O prezentare Demo pentru toate modulele nu are sens deoarece acest scenariu nu se produce niciodată (câteva sute de module sunt disponibile). În concluzie, sunt disponibile mai multe profiluri demo.
+DemoDesc=Dolibarr este un sistem ERP/CRM compact care suportă mai multe module de afaceri. O prezentare Demo pentru toate modulele nu are sens deoarece acest scenariu nu se produce niciodată (câteva sute de module sunt disponibile). În concluzie, sunt disponibile mai multe profiluri demo.
 ChooseYourDemoProfil=Alege profilul demonstrativ care se potrivește cel mai bine nevoilor tale...
 ChooseYourDemoProfilMore=...sau construiți propriul profil <br> (selectarea manuală a modulelor)
 DemoFundation=Gestionarea membrilor unui fundaţii
@@ -188,7 +188,7 @@ BackToLoginPage=Înapoi la pagina de conectare
 AuthenticationDoesNotAllowSendNewPassword=Metoda de autentificare este <b>%s</b>. <br> În acest mod, sistemul nu poate şti şi nici nu poate să-ţi schimbe parola. <br> Contactează administratorul de sistem dacă vrei să-ţi schimbi parola.
 EnableGDLibraryDesc=Instalați sau activați biblioteca GD în configuraţia PHP pentru a utiliza această opțiune.
 ProfIdShortDesc=<b>Prof Id %s</b> este identificator profesional alocat în funcţie de ţara terţului.<br> De exemplu, pentru <b> %s</b> este codul <b>%s</b>.
-bespoerpDemo=Demo bespoerp ERP/CRM
+DolibarrDemo=Demo Dolibarr ERP/CRM
 StatsByNumberOfUnits=Statistici pentru suma cantităţilor produselor/serviciilor
 StatsByNumberOfEntities=Statistici pentru numărul entităților referite (nr. facturi sau comenzi...)
 NumberOfProposals=Număr de oferte comerciale
@@ -229,7 +229,7 @@ EMailTextHolidayValidated=Cererea de concediu %s a fost validată.
 EMailTextHolidayApproved=Cererea de concediu %s a fost aprobată.
 EMailTextActionAdded=Acțiunea %s a fost adăugată în Agendă.
 ImportedWithSet=Import de date
-bespoerpNotification=Notificare automată
+DolibarrNotification=Notificare automată
 ResizeDesc=Introduceţi noua lăţime <b>SAU</b> noua înălţime. Raportul va fi păstrat în timpul redimensionării...
 NewLength=Lăţime nouă
 NewHeight=Înălţime nouă

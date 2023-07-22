@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - orders
+# Dolibarr language file - Source file is en_US - orders
 OrderExists=En beställning var redan öppen länkad till detta förslag, så ingen annan beställning skapades automatiskt
 OrdersArea=Kundordrar
 SuppliersOrdersArea=Inköpsordrar
@@ -129,8 +129,8 @@ ConfirmCloneOrder=Är du säker på att du vill klona denna order <b> %s </b>?
 DispatchSupplierOrder=Ta emot inköpsorder %s
 FirstApprovalAlreadyDone=Första godkännande redan gjort
 SecondApprovalAlreadyDone=Andra godkännande redan gjort
-SupplierOrderReceivedInbespoerp=Beställningsorder %s fick %s
-SupplierOrderSubmitedInbespoerp=Beställningsnummer %s skickat
+SupplierOrderReceivedInDolibarr=Beställningsorder %s fick %s
+SupplierOrderSubmitedInDolibarr=Beställningsnummer %s skickat
 SupplierOrderClassifiedBilled=Beställningsorder %s set fakturerad
 OtherOrders=Övriga beställningar
 SupplierOrderValidatedAndApproved=Leverantörsorder är validerad och godkänd: %s

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - loan
+# Dolibarr language file - Source file is en_US - loan
 IdModule= Modul-ID
 ModuleBuilderDesc=Dette verktøyet må kun brukes av erfarne brukere eller utviklere. Det gir verktøy for å bygge eller redigere din egen modul. Dokumentasjon for alternativ <a href="%s" target="_blank" rel="noopener noreferrer"> manuell utvikling er her </a> .
 EnterNameOfModuleDesc=Skriv inn navnet på modulen/applikasjonen som skal opprettes uten mellomrom. Bruk store bokstaver for å skille ord (for eksempel: MyModule, EcommerceForShop, SyncWithMySystem...)
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=Du kan slette modulen din. ADVARSEL: Alle kodefile
 EnterNameOfObjectToDeleteDesc=Du kan slette et objekt. ADVARSEL: Alle kodingsfiler (generert eller opprettet manuelt) relatert til objekt blir slettet!
 DangerZone=Faresone
 BuildPackage=Bygg pakke
-BuildPackageDesc=Du kan generere en zip-pakke med applikasjonen din, slik at du er klar til å distribuere den på en hvilken som helst bespoerp. Du kan også distribuere den eller selge den på enmarkedsplass som <a href="https://www.dolistore.com">DoliStore.com</a> .
+BuildPackageDesc=Du kan generere en zip-pakke med applikasjonen din, slik at du er klar til å distribuere den på en hvilken som helst Dolibarr. Du kan også distribuere den eller selge den på enmarkedsplass som <a href="https://www.dolistore.com">DoliStore.com</a> .
 BuildDocumentation=Bygg dokumentasjon
 ModuleIsNotActive=Denne modulen er ikke aktivert ennå. Gå til %s for å aktivere, eller klikk her
 ModuleIsLive=Denne modulen har blitt aktivert. Enhver endring kan ødelegge en gjeldende kjørende funksjon.
@@ -110,7 +110,7 @@ HooksDefDesc=Definer egenskapen <b> module_parts ['hooks'] </b> i modulbeskrivel
 TriggerDefDesc=Definer i triggerfilen koden du ønsker å kjøre når en forretningshendelse utenfor modulen din blir utført (hendelser utløst av andre moduler).
 SeeIDsInUse=Se IDer som brukes i installasjonen din
 SeeReservedIDsRangeHere=Se område av reserverte IDer
-ToolkitForDevelopers=Verktøy for bespoerp-utviklere
+ToolkitForDevelopers=Verktøy for Dolibarr-utviklere
 TryToUseTheModuleBuilder=Hvis du har kunnskap i SQL og PHP, kan du prøve å bruke veiviseren for modulbyggeren. <br>Aktiver modulen<strong>%s</strong> og bruk veiviseren ved å klikke på <span class="fa fa-bug"></span> i øverste høyre meny. <br>Advarsel: Dette er en avansert utviklerfunksjon, <b>IKKE </b>eksperimenter med en produktiv applikasjon!
 SeeTopRightMenu=Se <span class="fa fa-bug"></span> i øverste høyre meny
 AddLanguageFile=Legg til språkfil

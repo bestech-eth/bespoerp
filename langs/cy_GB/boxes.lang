@@ -1,5 +1,5 @@
-# bespoerp language file - Source file is en_US - boxes
-BoxbespoerpStateBoard=Ystadegau ar brif wrthrychau busnes yn y gronfa ddata
+# Dolibarr language file - Source file is en_US - boxes
+BoxDolibarrStateBoard=Ystadegau ar brif wrthrychau busnes yn y gronfa ddata
 BoxLoginInformation=Gwybodaeth Mewngofnodi
 BoxLastRssInfos=Gwybodaeth RSS
 BoxLastProducts=Cynhyrchion/Gwasanaethau %s diweddaraf

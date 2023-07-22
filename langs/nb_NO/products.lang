@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - products
+# Dolibarr language file - Source file is en_US - products
 ProductRef=Vare ref.
 ProductLabel=Vareetikett
 ProductLabelTranslated=Oversatt produktetikett
@@ -300,7 +300,7 @@ MinSupplierPrice=Laveste innkjøpspris
 MinCustomerPrice=Minste salgspris
 NoDynamicPrice=Ingen dynamisk pris
 DynamicPriceConfiguration=Dynamisk pris-konfigurering
-DynamicPriceDesc=Du kan definere matematiske formler for å beregne kunde- eller leverandørpriser. Slike formler kan bruke alle matematiske operatører, noen konstanter og variabler. Du kan definere variablene du vil bruke. Hvis variabelen trenger en automatisk oppdatering, kan du definere den eksterne nettadressen for å tillate bespoerp å oppdatere verdien automatisk.
+DynamicPriceDesc=Du kan definere matematiske formler for å beregne kunde- eller leverandørpriser. Slike formler kan bruke alle matematiske operatører, noen konstanter og variabler. Du kan definere variablene du vil bruke. Hvis variabelen trenger en automatisk oppdatering, kan du definere den eksterne nettadressen for å tillate Dolibarr å oppdatere verdien automatisk.
 AddVariable=Legg til variabel
 AddUpdater=Velg oppdaterer
 GlobalVariables=Globale variabler
@@ -379,7 +379,7 @@ NewProductAttribute=Ny attributt
 NewProductAttributeValue=Ny attributtverdi
 ErrorCreatingProductAttributeValue=Det oppstod en feil under oppretting av attributtverdien . Det kan være fordi det allerede er en eksisterende verdi med den referansen
 ProductCombinationGeneratorWarning=Hvis du fortsetter, før du genererer nye varianter, vil alle foregående bli slettet. Eksisterende vil bli oppdatert med de nye verdiene
-TooMuchCombinationsWarning=Generering av mange varianter kan resultere i høy CPU- og minnebruk og gjøre bespoerp ute av stand til å lage dem. Aktiver alternativet "%s" for å bidra til å redusere minnebruken .
+TooMuchCombinationsWarning=Generering av mange varianter kan resultere i høy CPU- og minnebruk og gjøre Dolibarr ute av stand til å lage dem. Aktiver alternativet "%s" for å bidra til å redusere minnebruken .
 DoNotRemovePreviousCombinations=Ikke fjern tidligere varevarianter
 UsePercentageVariations=Brok prosentvise variasjoner
 PercentageVariation=Variasjonsprosent

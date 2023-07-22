@@ -64,8 +64,8 @@ if (!empty($conf->global->MAIN_APPLICATION_TITLE)) {
 }
 
 top_httphead('text/json');
-// Important: Following code is to avoid page request by browser and PHP CPU at each bespoerp page access.
-if (empty($bespoerp_nocache)) {
+// Important: Following code is to avoid page request by browser and PHP CPU at each Dolibarr page access.
+if (empty($dolibarr_nocache)) {
 	header('Cache-Control: max-age=10800, public, must-revalidate');
 	// For a text/json, we must set an Expires to avoid to have it forced to an expired value by the web server
 	header('Expires: '.gmdate('D, d M Y H:i:s', dol_now('gmt') + 10800).' GMT');
@@ -78,7 +78,7 @@ if (empty($bespoerp_nocache)) {
 	"name": "<?php echo $appli; ?>",
 	"icons": [
 		{
-			"src": "<?php echo DOL_URL_ROOT.'/theme/bespoerp_256x256_color.png'; ?>",
+			"src": "<?php echo DOL_URL_ROOT.'/theme/dolibarr_256x256_color.png'; ?>",
 			"sizes": "256x256",
 			"type": "image/png"
 		}

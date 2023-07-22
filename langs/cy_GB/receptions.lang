@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - receptions
+# Dolibarr language file - Source file is en_US - receptions
 ReceptionDescription=Rheoli derbynfa gwerthwr (Creu dogfennau derbynfa)
 ReceptionsSetup=Gosodiad Derbynfa Gwerthwr
 RefReception=Cyf. derbyniad
@@ -49,6 +49,6 @@ ReceptionsReceiptModel=Templedi dogfennau ar gyfer derbynfeydd
 NoMorePredefinedProductToDispatch=Dim mwy o gynhyrchion wedi'u diffinio ymlaen llaw i'w hanfon
 ReceptionExist=Mae derbyniad yn bodoli
 ByingPrice=Bying pris
-ReceptionBackToDraftInbespoerp=Derbyn %s yn ôl i'r drafft
-ReceptionClassifyClosedInbespoerp=Derbynfa %s wedi'i ddosbarthu Ar Gau
-ReceptionUnClassifyCloseddInbespoerp=Derbynfa %s yn ail agor
+ReceptionBackToDraftInDolibarr=Derbyn %s yn ôl i'r drafft
+ReceptionClassifyClosedInDolibarr=Derbynfa %s wedi'i ddosbarthu Ar Gau
+ReceptionUnClassifyCloseddInDolibarr=Derbynfa %s yn ail agor

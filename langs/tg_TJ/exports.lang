@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - exports
+# Dolibarr language file - Source file is en_US - exports
 ExportsArea=Содирот
 ImportArea=Воридот
 NewExport=Содироти нав
@@ -59,7 +59,7 @@ ChooseFormatOfFileToImport=Формати файлро, ки ҳамчун фор
 ChooseFileToImport=Файлро бор кунед ва пас тасвири %s -ро клик кунед, то файлро ҳамчун файли воридоти манбаъ интихоб кунед ...
 SourceFileFormat=Формати файли манбаъ
 FieldsInSourceFile=Майдонҳо дар файли манбаъ
-FieldsInTargetDatabase=Майдонҳои ҳадаф дар пойгоҳи додаҳои bespoerp (ғафс = ҳатмӣ)
+FieldsInTargetDatabase=Майдонҳои ҳадаф дар пойгоҳи додаҳои Dolibarr (ғафс = ҳатмӣ)
 Field=Майдон
 NoFields=Майдон нест
 MoveField=Рақами сутуни майдони %s -ро кӯчонед

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - ldap
+# Dolibarr language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=<b> <b> %s </b> доменіндегі <b> %s </b> пайдаланушының құпия сөзін өзгерту қажет.
 UserMustChangePassNextLogon=Пайдаланушы %s доменіндегі құпия сөзді өзгертуі керек
 LDAPInformationsForThisContact=Бұл контакт үшін LDAP дерекқорындағы ақпарат
@@ -22,6 +22,6 @@ GroupSynchronized=Топ синхрондалды
 MemberSynchronized=Мүше синхрондалды
 MemberTypeSynchronized=Мүше түрі синхрондалған
 ContactSynchronized=Контакт синхрондалған
-ForceSynchronize=bespoerp -> LDAP синхрондауды мәжбүрлеңіз
+ForceSynchronize=Dolibarr -> LDAP синхрондауды мәжбүрлеңіз
 ErrorFailedToReadLDAP=LDAP дерекқоры оқылмады. LDAP модулінің орнатылуын және дерекқордың қолжетімділігін тексеріңіз.
 PasswordOfUserInLDAP=LDAP ішіндегі пайдаланушының құпия сөзі

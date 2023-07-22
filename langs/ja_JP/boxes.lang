@@ -1,5 +1,5 @@
-# bespoerp language file - Source file is en_US - boxes
-BoxbespoerpStateBoard=データベース内の主要ビジネスオブジェクトに関する統計
+# Dolibarr language file - Source file is en_US - boxes
+BoxDolibarrStateBoard=データベース内の主要ビジネスオブジェクトに関する統計
 BoxLoginInformation=ログイン情報
 BoxLastRssInfos=RSS情報
 BoxLastProducts=最新の%s製品/サービス

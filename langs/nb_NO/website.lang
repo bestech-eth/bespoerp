@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - website
+# Dolibarr language file - Source file is en_US - website
 Shortname=Kode
 WebsiteName=Navn på nettstedet
 WebsiteSetupDesc=Opprett de nettstedene du ønsker å bruke her. Deretter går du inn i meny Nettsteder for å redigere dem.
@@ -48,13 +48,13 @@ VirtualhostDesc=Navnet på den virtuelle verten eller domenet (for eksempel: www
 SetHereVirtualHost=<u>Bruk med Apache/NGinx/...</u><br>Opprett på webserveren din (Apache, Nginx, ...) en dedikert virtuell vert med PHP aktivert og en rotkatalog på <br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Eksempel på Apache virtuelt vertsoppsett:
 YouCanAlsoTestWithPHPS= <u> Bruk med PHP-innebygd server </u> <br> I utviklingsmiljø kan du foretrekke å teste nettstedet med PHP-innebygd webserver (PHP 5.5 nødvendig) ved å kjøre <br> <strong> php -S 0.0.0.0:8080 -t %s </strong>
-YouCanAlsoDeployToAnotherWHP= <u> Kjør nettstedet ditt med en annen bespoerp-vertsleverandør </u> <br> Hvis du ikke har en nettserver som Apache eller NGinx tilgjengelig på internett, kan du \neksportere og importere nettstedet ditt til en annen bespoerp-instans levert av en annen bespoerp-vertsleverandør som gir full integrasjon med nettstedsmodulen. Du kan finne en liste over noen bespoerp-vertsleverandører på <a href="https://saas.bespoerp.org" target="_blank" rel="noopener noreferrer external">https://saas.bespoerp.org3 </a>
+YouCanAlsoDeployToAnotherWHP= <u> Kjør nettstedet ditt med en annen Dolibarr-vertsleverandør </u> <br> Hvis du ikke har en nettserver som Apache eller NGinx tilgjengelig på internett, kan du \neksportere og importere nettstedet ditt til en annen Dolibarr-instans levert av en annen Dolibarr-vertsleverandør som gir full integrasjon med nettstedsmodulen. Du kan finne en liste over noen Dolibarr-vertsleverandører på <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org3 </a>
 CheckVirtualHostPerms=Sjekk også at den virtuelle vertsbrukeren (for eksempel www-data) har <strong>%s</strong> tillatelser på filer i<br><strong>%s</strong>
 ReadPerm=Les
 WritePerm=Skriv
 TestDeployOnWeb=Test/distribuer på nett
 PreviewSiteServedByWebServer=<u> Forhåndsvis %s i en ny fane. </u><br><br>%s vil bli servet av en ekstern webserver (som Apache, Nginx, IIS). Du må installere og sette opp denne serveren før du peker på katalogen:<br><strong>%s</strong><br>URL servet av ekstern server:<br><strong>%s</strong>
-PreviewSiteServedBybespoerp= <u> Forhåndsvisning %s i en ny fane. </u><br><br> %s vil bli utført av bespoerp-serveren, slik at den ikke trenger noen ekstra webserver (som Apache, Nginx, IIS) for å installeres. <br> Det ubeleilige er at nettadressene til sidene ikke er brukervennlige og starter med banen til bespoerp. <br> URL fra bespoerp: <br><strong>%s</strong><br><br> for å bruke din egen eksterne webserver til å tjene dette nettstedet, opprett en virtuell maskin på webserveren som peker på katalogen <br> <strong> %s </strong> <br> , skriv deretter inn navnet på denne virtuelle serveren i egenskapene til dette nettstedet og klikk på lenken "Test/implementer på nett".
+PreviewSiteServedByDolibarr= <u> Forhåndsvisning %s i en ny fane. </u><br><br> %s vil bli utført av Dolibarr-serveren, slik at den ikke trenger noen ekstra webserver (som Apache, Nginx, IIS) for å installeres. <br> Det ubeleilige er at nettadressene til sidene ikke er brukervennlige og starter med banen til Dolibarr. <br> URL fra Dolibarr: <br><strong>%s</strong><br><br> for å bruke din egen eksterne webserver til å tjene dette nettstedet, opprett en virtuell maskin på webserveren som peker på katalogen <br> <strong> %s </strong> <br> , skriv deretter inn navnet på denne virtuelle serveren i egenskapene til dette nettstedet og klikk på lenken "Test/implementer på nett".
 VirtualHostUrlNotDefined=URL til ekstern webserver ikke definert
 NoPageYet=Ingen sider ennå
 YouCanCreatePageOrImportTemplate=Du kan opprette en ny side eller importere en full nettsidemal

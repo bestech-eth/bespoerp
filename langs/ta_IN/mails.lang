@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - mails
+# Dolibarr language file - Source file is en_US - mails
 Mailing=மின்னஞ்சல் அனுப்புதல்
 EMailing=மின்னஞ்சல் அனுப்புதல்
 EMailings=மின்னஞ்சல்கள்
@@ -90,7 +90,7 @@ MailingModuleDescContactsByCategory=வகைகளின்படி தொட�
 MailingModuleDescContactsByFunction=நிலை மூலம் தொடர்புகள்
 MailingModuleDescEmailsFromFile=கோப்பிலிருந்து மின்னஞ்சல்கள்
 MailingModuleDescEmailsFromUser=பயனரின் மின்னஞ்சல்கள் உள்ளீடு
-MailingModuleDescbespoerpUsers=மின்னஞ்சல்களைக் கொண்ட பயனர்கள்
+MailingModuleDescDolibarrUsers=மின்னஞ்சல்களைக் கொண்ட பயனர்கள்
 MailingModuleDescThirdPartiesByCategories=Third parties
 SendingFromWebInterfaceIsNotAllowed=இணைய இடைமுகத்திலிருந்து அனுப்ப அனுமதி இல்லை.
 EmailCollectorFilterDesc=மின்னஞ்சலைச் சேகரிக்க அனைத்து வடிப்பான்களும் பொருந்த வேண்டும்

@@ -32,9 +32,9 @@ dol_include_once('/recruitment/class/recruitmentcandidature.class.php');
  * API class for recruitment
  *
  * @access protected
- * @class  bespoerpApiAccess {@requires user,external}
+ * @class  DolibarrApiAccess {@requires user,external}
  */
-class Recruitment extends bespoerpApi
+class Recruitment extends DolibarrApi
 {
 	/**
 	 * @var RecruitmentJobPosition $jobposition {@type RecruitmentJobPosition}
@@ -76,7 +76,7 @@ class Recruitment extends bespoerpApi
 	 */
 	public function getJobPosition($id)
 	{
-		if (!bespoerpApiAccess::$user->rights->recruitment->recruitmentjobposition->read) {
+		if (!DolibarrApiAccess::$user->rights->recruitment->recruitmentjobposition->read) {
 			throw new RestException(401);
 		}
 
@@ -85,8 +85,8 @@ class Recruitment extends bespoerpApi
 			throw new RestException(404, 'JobPosition not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('recruitment', $this->jobposition->id, 'recruitment_recruitmentjobposition')) {
-			throw new RestException(401, 'Access to instance id='.$this->jobposition->id.' of object not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('recruitment', $this->jobposition->id, 'recruitment_recruitmentjobposition')) {
+			throw new RestException(401, 'Access to instance id='.$this->jobposition->id.' of object not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
 		return $this->_cleanObjectDatas($this->jobposition);
@@ -107,7 +107,7 @@ class Recruitment extends bespoerpApi
 	 */
 	public function getCandidature($id)
 	{
-		if (!bespoerpApiAccess::$user->rights->recruitment->recruitmentjobposition->read) {
+		if (!DolibarrApiAccess::$user->rights->recruitment->recruitmentjobposition->read) {
 			throw new RestException(401);
 		}
 
@@ -116,8 +116,8 @@ class Recruitment extends bespoerpApi
 			throw new RestException(404, 'Candidature not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('recruitment', $this->candidature->id, 'recruitment_recruitmentcandidature')) {
-			throw new RestException(401, 'Access to instance id='.$this->candidature->id.' of object not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('recruitment', $this->candidature->id, 'recruitment_recruitmentcandidature')) {
+			throw new RestException(401, 'Access to instance id='.$this->candidature->id.' of object not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
 		return $this->_cleanObjectDatas($this->candidature);
@@ -147,27 +147,27 @@ class Recruitment extends bespoerpApi
 		$obj_ret = array();
 		$tmpobject = new RecruitmentJobPosition($this->db);
 
-		if (!bespoerpApiAccess::$user->rights->recruitment->recruitmentjobposition->read) {
+		if (!DolibarrApiAccess::$user->rights->recruitment->recruitmentjobposition->read) {
 			throw new RestException(401);
 		}
 
-		$socid = bespoerpApiAccess::$user->socid ? bespoerpApiAccess::$user->socid : '';
+		$socid = DolibarrApiAccess::$user->socid ? DolibarrApiAccess::$user->socid : '';
 
 		$restrictonsocid = 0; // Set to 1 if there is a field socid in table of object
 
 		// If the internal user must only see his customers, force searching by him
 		$search_sale = 0;
-		if ($restrictonsocid && !bespoerpApiAccess::$user->rights->societe->client->voir && !$socid) {
-			$search_sale = bespoerpApiAccess::$user->id;
+		if ($restrictonsocid && !DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) {
+			$search_sale = DolibarrApiAccess::$user->id;
 		}
 
 		$sql = "SELECT t.rowid";
-		if ($restrictonsocid && (!bespoerpApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) {
+		if ($restrictonsocid && (!DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) {
 			$sql .= ", sc.fk_soc, sc.fk_user"; // We need these fields in order to filter by sale (including the case where the user can only see his prospects)
 		}
 		$sql .= " FROM ".MAIN_DB_PREFIX.$tmpobject->table_element." as t";
 
-		if ($restrictonsocid && (!bespoerpApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) {
+		if ($restrictonsocid && (!DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) {
 			$sql .= ", ".MAIN_DB_PREFIX."societe_commerciaux as sc"; // We need this table joined to the select in order to filter by sale
 		}
 		$sql .= " WHERE 1 = 1";
@@ -179,7 +179,7 @@ class Recruitment extends bespoerpApi
 		if ($tmpobject->ismultientitymanaged) {
 			$sql .= ' AND t.entity IN ('.getEntity($tmpobject->element).')';
 		}
-		if ($restrictonsocid && (!bespoerpApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) {
+		if ($restrictonsocid && (!DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) {
 			$sql .= " AND t.fk_soc = sc.fk_soc";
 		}
 		if ($restrictonsocid && $socid) {
@@ -254,27 +254,27 @@ class Recruitment extends bespoerpApi
 		$obj_ret = array();
 		$tmpobject = new RecruitmentCandidature($this->db);
 
-		if (!bespoerpApiAccess::$user->rights->recruitment->recruitmentjobposition->read) {
+		if (!DolibarrApiAccess::$user->rights->recruitment->recruitmentjobposition->read) {
 			throw new RestException(401);
 		}
 
-		$socid = bespoerpApiAccess::$user->socid ? bespoerpApiAccess::$user->socid : '';
+		$socid = DolibarrApiAccess::$user->socid ? DolibarrApiAccess::$user->socid : '';
 
 		$restrictonsocid = 0; // Set to 1 if there is a field socid in table of object
 
 		// If the internal user must only see his customers, force searching by him
 		$search_sale = 0;
-		if ($restrictonsocid && !bespoerpApiAccess::$user->rights->societe->client->voir && !$socid) {
-			$search_sale = bespoerpApiAccess::$user->id;
+		if ($restrictonsocid && !DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) {
+			$search_sale = DolibarrApiAccess::$user->id;
 		}
 
 		$sql = "SELECT t.rowid";
-		if ($restrictonsocid && (!bespoerpApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) {
+		if ($restrictonsocid && (!DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) {
 			$sql .= ", sc.fk_soc, sc.fk_user"; // We need these fields in order to filter by sale (including the case where the user can only see his prospects)
 		}
 		$sql .= " FROM ".MAIN_DB_PREFIX.$tmpobject->table_element." as t";
 
-		if ($restrictonsocid && (!bespoerpApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) {
+		if ($restrictonsocid && (!DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) {
 			$sql .= ", ".MAIN_DB_PREFIX."societe_commerciaux as sc"; // We need this table joined to the select in order to filter by sale
 		}
 		$sql .= " WHERE 1 = 1";
@@ -286,7 +286,7 @@ class Recruitment extends bespoerpApi
 		if ($tmpobject->ismultientitymanaged) {
 			$sql .= ' AND t.entity IN ('.getEntity($tmpobject->element).')';
 		}
-		if ($restrictonsocid && (!bespoerpApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) {
+		if ($restrictonsocid && (!DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) {
 			$sql .= " AND t.fk_soc = sc.fk_soc";
 		}
 		if ($restrictonsocid && $socid) {
@@ -350,7 +350,7 @@ class Recruitment extends bespoerpApi
 	 */
 	public function postJobPosition($request_data = null)
 	{
-		if (!bespoerpApiAccess::$user->rights->recruitment->recruitmentjobposition->write) {
+		if (!DolibarrApiAccess::$user->rights->recruitment->recruitmentjobposition->write) {
 			throw new RestException(401);
 		}
 
@@ -364,7 +364,7 @@ class Recruitment extends bespoerpApi
 		// Clean data
 		// $this->jobposition->abc = sanitizeVal($this->jobposition->abc, 'alphanohtml');
 
-		if ($this->jobposition->create(bespoerpApiAccess::$user)<0) {
+		if ($this->jobposition->create(DolibarrApiAccess::$user)<0) {
 			throw new RestException(500, "Error creating jobposition", array_merge(array($this->jobposition->error), $this->jobposition->errors));
 		}
 		return $this->jobposition->id;
@@ -382,7 +382,7 @@ class Recruitment extends bespoerpApi
 	*/
 	public function postCandidature($request_data = null)
 	{
-		if (!bespoerpApiAccess::$user->rights->recruitment->recruitmentjobposition->write) {
+		if (!DolibarrApiAccess::$user->rights->recruitment->recruitmentjobposition->write) {
 			throw new RestException(401);
 		}
 
@@ -396,7 +396,7 @@ class Recruitment extends bespoerpApi
 		// Clean data
 		// $this->jobposition->abc = sanitizeVal($this->jobposition->abc, 'alphanohtml');
 
-		if ($this->candidature->create(bespoerpApiAccess::$user)<0) {
+		if ($this->candidature->create(DolibarrApiAccess::$user)<0) {
 			throw new RestException(500, "Error creating candidature", array_merge(array($this->candidature->error), $this->candidature->errors));
 		}
 		return $this->candidature->id;
@@ -415,7 +415,7 @@ class Recruitment extends bespoerpApi
 	 */
 	public function putJobPosition($id, $request_data = null)
 	{
-		if (!bespoerpApiAccess::$user->rights->recruitment->recruitmentjobposition->write) {
+		if (!DolibarrApiAccess::$user->rights->recruitment->recruitmentjobposition->write) {
 			throw new RestException(401);
 		}
 
@@ -424,8 +424,8 @@ class Recruitment extends bespoerpApi
 			throw new RestException(404, 'jobposition not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('recruitment', $this->jobposition->id, 'recruitment_recruitmentjobposition')) {
-			throw new RestException(401, 'Access to instance id='.$this->jobposition->id.' of object not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('recruitment', $this->jobposition->id, 'recruitment_recruitmentjobposition')) {
+			throw new RestException(401, 'Access to instance id='.$this->jobposition->id.' of object not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
 		foreach ($request_data as $field => $value) {
@@ -438,7 +438,7 @@ class Recruitment extends bespoerpApi
 		// Clean data
 		// $this->jobposition->abc = sanitizeVal($this->jobposition->abc, 'alphanohtml');
 
-		if ($this->jobposition->update(bespoerpApiAccess::$user, false) > 0) {
+		if ($this->jobposition->update(DolibarrApiAccess::$user, false) > 0) {
 			return $this->getJobPosition($id);
 		} else {
 			throw new RestException(500, $this->jobposition->error);
@@ -458,7 +458,7 @@ class Recruitment extends bespoerpApi
 	 */
 	public function putCandidature($id, $request_data = null)
 	{
-		if (!bespoerpApiAccess::$user->rights->recruitment->recruitmentjobposition->write) {
+		if (!DolibarrApiAccess::$user->rights->recruitment->recruitmentjobposition->write) {
 			throw new RestException(401);
 		}
 
@@ -467,8 +467,8 @@ class Recruitment extends bespoerpApi
 			throw new RestException(404, 'candidature not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('recruitment', $this->candidature->id, 'recruitment_recruitmentcandidature')) {
-			throw new RestException(401, 'Access to instance id='.$this->candidature->id.' of object not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('recruitment', $this->candidature->id, 'recruitment_recruitmentcandidature')) {
+			throw new RestException(401, 'Access to instance id='.$this->candidature->id.' of object not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
 		foreach ($request_data as $field => $value) {
@@ -481,7 +481,7 @@ class Recruitment extends bespoerpApi
 		// Clean data
 		// $this->jobposition->abc = sanitizeVal($this->jobposition->abc, 'alphanohtml');
 
-		if ($this->candidature->update(bespoerpApiAccess::$user, false) > 0) {
+		if ($this->candidature->update(DolibarrApiAccess::$user, false) > 0) {
 			return $this->getCandidature($id);
 		} else {
 			throw new RestException(500, $this->candidature->error);
@@ -501,7 +501,7 @@ class Recruitment extends bespoerpApi
 	 */
 	public function deleteJobPosition($id)
 	{
-		if (!bespoerpApiAccess::$user->rights->recruitment->recruitmentjobposition->delete) {
+		if (!DolibarrApiAccess::$user->rights->recruitment->recruitmentjobposition->delete) {
 			throw new RestException(401);
 		}
 		$result = $this->jobposition->fetch($id);
@@ -509,11 +509,11 @@ class Recruitment extends bespoerpApi
 			throw new RestException(404, 'jobposition not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('recruitment', $this->jobposition->id, 'recruitment_recruitmentjobposition')) {
-			throw new RestException(401, 'Access to instance id='.$this->jobposition->id.' of object not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('recruitment', $this->jobposition->id, 'recruitment_recruitmentjobposition')) {
+			throw new RestException(401, 'Access to instance id='.$this->jobposition->id.' of object not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
-		if (!$this->jobposition->delete(bespoerpApiAccess::$user)) {
+		if (!$this->jobposition->delete(DolibarrApiAccess::$user)) {
 			throw new RestException(500, 'Error when deleting jobposition : '.$this->jobposition->error);
 		}
 
@@ -537,7 +537,7 @@ class Recruitment extends bespoerpApi
 	 */
 	public function deleteCandidature($id)
 	{
-		if (!bespoerpApiAccess::$user->rights->recruitment->recruitmentjobposition->delete) {
+		if (!DolibarrApiAccess::$user->rights->recruitment->recruitmentjobposition->delete) {
 			throw new RestException(401);
 		}
 		$result = $this->candidature->fetch($id);
@@ -545,11 +545,11 @@ class Recruitment extends bespoerpApi
 			throw new RestException(404, 'candidature not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('recruitment', $this->candidature->id, 'recruitment_recruitmentcandidature')) {
-			throw new RestException(401, 'Access to instance id='.$this->candidature->id.' of object not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('recruitment', $this->candidature->id, 'recruitment_recruitmentcandidature')) {
+			throw new RestException(401, 'Access to instance id='.$this->candidature->id.' of object not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
-		if (!$this->candidature->delete(bespoerpApiAccess::$user)) {
+		if (!$this->candidature->delete(DolibarrApiAccess::$user)) {
 			throw new RestException(500, 'Error when deleting candidature : '.$this->candidature->error);
 		}
 

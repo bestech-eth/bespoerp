@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - receptions
+# Dolibarr language file - Source file is en_US - receptions
 ReceptionDescription=Pārdevēja pieņemšanas vadība (izveidot pieņemšanas dokumentus)
 ReceptionsSetup=Pārdevēja pieņemšanas iestatīšana
 RefReception=Ref. uzņemšana
@@ -49,6 +49,6 @@ ReceptionsNumberingModules=Pieņemšanas numurēšanas modulis
 ReceptionsReceiptModel=Pieņemšanas dokumentu veidnes
 NoMorePredefinedProductToDispatch=Vairs nav iepriekš nosūtītu produktu
 ReceptionExist=Reģistratūra pastāv
-ReceptionBackToDraftInbespoerp=Saņemšana %s atpakaļ uz melnrakstu
-ReceptionClassifyClosedInbespoerp=Reģistratūra %s klasificēta Slēgta
-ReceptionUnClassifyCloseddInbespoerp=Reģistratūra %s atkal tiek atvērta
+ReceptionBackToDraftInDolibarr=Saņemšana %s atpakaļ uz melnrakstu
+ReceptionClassifyClosedInDolibarr=Reģistratūra %s klasificēta Slēgta
+ReceptionUnClassifyCloseddInDolibarr=Reģistratūra %s atkal tiek atvērta

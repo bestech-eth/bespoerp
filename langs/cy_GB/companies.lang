@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - companies
+# Dolibarr language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Mae enw'r cwmni %s eisoes yn bodoli. Dewiswch un arall.
 ErrorSetACountryFirst=Gosodwch y wlad yn gyntaf
 SelectThirdParty=Dewiswch drydydd parti
@@ -12,7 +12,7 @@ MenuNewSupplier=Gwerthwr Newydd
 MenuNewPrivateIndividual=Unigolyn preifat newydd
 NewCompany=Cwmni newydd (rhagolygon, cwsmer, gwerthwr)
 NewThirdParty=Trydydd Parti Newydd (rhagolygon, cwsmer, gwerthwr)
-CreatebespoerpThirdPartySupplier=Creu trydydd parti (gwerthwr)
+CreateDolibarrThirdPartySupplier=Creu trydydd parti (gwerthwr)
 CreateThirdPartyOnly=Creu trydydd parti
 CreateThirdPartyAndContact=Creu trydydd parti + cyswllt plentyn
 ProspectionArea=Ardal rhagolygon
@@ -383,7 +383,7 @@ CapitalOf=Cyfalaf o %s
 EditCompany=Golygu cwmni
 ThisUserIsNot=Nid yw'r defnyddiwr hwn yn ddarpar, cwsmer neu werthwr
 VATIntraCheck=Gwirio
-VATIntraCheckDesc=Rhaid i'r ID TAW gynnwys rhagddodiad y wlad. Mae'r ddolen <b> %s </b> yn defnyddio'r gwasanaeth gwirio TAW Ewropeaidd (VIES) sy'n gofyn am fynediad i'r rhyngrwyd o weinydd bespoerp.
+VATIntraCheckDesc=Rhaid i'r ID TAW gynnwys rhagddodiad y wlad. Mae'r ddolen <b> %s </b> yn defnyddio'r gwasanaeth gwirio TAW Ewropeaidd (VIES) sy'n gofyn am fynediad i'r rhyngrwyd o weinydd Dolibarr.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Gwiriwch yr ID TAW o fewn y Gymuned ar wefan y Comisiwn Ewropeaidd
 VATIntraManualCheck=Gallwch hefyd wirio â llaw ar wefan y Comisiwn Ewropeaidd <a href="%s" target="_blank" rel="noopener noreferrer"> %s </a>
@@ -429,8 +429,8 @@ ProspectsByStatus=Rhagolygon yn ôl statws
 NoParentCompany=Dim
 ExportCardToFormat=Allforio cerdyn i fformat
 ContactNotLinkedToCompany=Nid yw'r cyswllt yn gysylltiedig ag unrhyw drydydd parti
-bespoerpLogin=Mewngofnod bespoerp
-NobespoerpAccess=Dim mynediad i Dbespoerp
+DolibarrLogin=Mewngofnod Dolibarr
+NoDolibarrAccess=Dim mynediad i Ddolibarr
 ExportDataset_company_1=Trydydd partïon (cwmnïau/sylfeini/pobl gorfforol) a’u priodweddau
 ExportDataset_company_2=Cysylltiadau a'u heiddo
 ImportDataset_company_1=Trydydd partïon a'u priodweddau

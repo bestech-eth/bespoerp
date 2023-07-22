@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - ldap
+# Dolibarr language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=A senha de <b>%s</b> ao domínio <b>%s</b> deve de ser modificada.
 UserMustChangePassNextLogon=O usuário deve alterar de senha na próxima login
 LDAPInformationsForThisContact=Informação da base de dados LDAP deste contato

@@ -1,4 +1,4 @@
-# CHANGELOG RECRUITMENT FOR [bespoerp ERP CRM](https://www.bespoerp.org)
+# CHANGELOG RECRUITMENT FOR [DOLIBARR ERP CRM](https://www.dolibarr.org)
 
 ## 1.0
 

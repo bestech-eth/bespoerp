@@ -21,7 +21,7 @@
  *  \brief	  Setup page of product lot module
  */
 
-// Load bespoerp environment
+// Load Dolibarr environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/product/stock/class/productlot.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
@@ -51,7 +51,7 @@ if ($action == 'updateMaskLot') {
 	$maskbatch = GETPOST('maskLot', 'alpha');
 
 	if ($maskconstbatch && preg_match('/_MASK$/', $maskconstbatch)) {
-		$res = bespoerp_set_const($db, $maskconstbatch, $maskbatch, 'chaine', 0, '', $conf->entity);
+		$res = dolibarr_set_const($db, $maskconstbatch, $maskbatch, 'chaine', 0, '', $conf->entity);
 		if ($res <= 0) $error++;
 	}
 
@@ -65,7 +65,7 @@ if ($action == 'updateMaskLot') {
 	$maskbatch = GETPOST('maskSN', 'alpha');
 
 	if ($maskconstbatch && preg_match('/_MASK$/', $maskconstbatch)) {
-		$res = bespoerp_set_const($db, $maskconstbatch, $maskbatch, 'chaine', 0, '', $conf->entity);
+		$res = dolibarr_set_const($db, $maskconstbatch, $maskbatch, 'chaine', 0, '', $conf->entity);
 		if ($res <= 0) $error++;
 	}
 
@@ -75,18 +75,18 @@ if ($action == 'updateMaskLot') {
 		setEventMessages($langs->trans("Error"), null, 'errors');
 	}
 } elseif ($action == 'setmodlot') {
-	bespoerp_set_const($db, "PRODUCTBATCH_LOT_ADDON", $value, 'chaine', 0, '', $conf->entity);
+	dolibarr_set_const($db, "PRODUCTBATCH_LOT_ADDON", $value, 'chaine', 0, '', $conf->entity);
 } elseif ($action == 'setmodsn') {
-	bespoerp_set_const($db, "PRODUCTBATCH_SN_ADDON", $value, 'chaine', 0, '', $conf->entity);
+	dolibarr_set_const($db, "PRODUCTBATCH_SN_ADDON", $value, 'chaine', 0, '', $conf->entity);
 } elseif ($action == 'setmaskslot') {
-	bespoerp_set_const($db, "PRODUCTBATCH_LOT_USE_PRODUCT_MASKS", $value, 'bool', 0, '', $conf->entity);
+	dolibarr_set_const($db, "PRODUCTBATCH_LOT_USE_PRODUCT_MASKS", $value, 'bool', 0, '', $conf->entity);
 	if ($value == '1' && $conf->global->PRODUCTBATCH_LOT_ADDONS !== 'mod_lot_advanced') {
-		bespoerp_set_const($db, "PRODUCTBATCH_LOT_ADDON", 'mod_lot_advanced', 'chaine', 0, '', $conf->entity);
+		dolibarr_set_const($db, "PRODUCTBATCH_LOT_ADDON", 'mod_lot_advanced', 'chaine', 0, '', $conf->entity);
 	}
 } elseif ($action == 'setmaskssn') {
-	bespoerp_set_const($db, "PRODUCTBATCH_SN_USE_PRODUCT_MASKS", $value, 'bool', 0, '', $conf->entity);
+	dolibarr_set_const($db, "PRODUCTBATCH_SN_USE_PRODUCT_MASKS", $value, 'bool', 0, '', $conf->entity);
 	if ($value == '1' && $conf->global->PRODUCTBATCH_SN_ADDONS !== 'mod_sn_advanced') {
-		bespoerp_set_const($db, "PRODUCTBATCH_SN_ADDON", 'mod_sn_advanced', 'chaine', 0, '', $conf->entity);
+		dolibarr_set_const($db, "PRODUCTBATCH_SN_ADDON", 'mod_sn_advanced', 'chaine', 0, '', $conf->entity);
 	}
 }
 
@@ -109,7 +109,7 @@ print dol_get_fiche_head($head, 'settings', $langs->trans("Batch"), -1, 'lot');
 
 
 if ($conf->global->MAIN_FEATURES_LEVEL < 2) {
-	// The feature to define the numbering module of lot or serial is no enabled bcause it is not used anywhere in bespoerp code: You can set it
+	// The feature to define the numbering module of lot or serial is no enabled bcause it is not used anywhere in Dolibarr code: You can set it
 	// but the numbering module is not used.
 	// TODO Use it on lot creation page, when you create a lot and when the lot number is kept empty to define the lot according
 	// to the selected product.

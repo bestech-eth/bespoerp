@@ -1,8 +1,8 @@
-# bespoerp language file - Source file is en_US - stripe
+# Dolibarr language file - Source file is en_US - stripe
 StripeSetup=پٹی ماڈیول سیٹ اپ
-StripeDesc=اپنے صارفین کو کریڈٹ/ڈیبٹ کارڈز کے ذریعے ادائیگیوں کے لیے ایک آن لائن ادائیگی کا صفحہ پیش کریں <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a>۔ اس کا استعمال آپ کے صارفین کو ایڈہاک ادائیگیوں کی اجازت دینے کے لیے یا کسی خاص bespoerp آبجیکٹ (انوائس، آرڈر، ...) سے متعلق ادائیگیوں کے لیے کیا جا سکتا ہے۔
+StripeDesc=اپنے صارفین کو کریڈٹ/ڈیبٹ کارڈز کے ذریعے ادائیگیوں کے لیے ایک آن لائن ادائیگی کا صفحہ پیش کریں <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a>۔ اس کا استعمال آپ کے صارفین کو ایڈہاک ادائیگیوں کی اجازت دینے کے لیے یا کسی خاص Dolibarr آبجیکٹ (انوائس، آرڈر، ...) سے متعلق ادائیگیوں کے لیے کیا جا سکتا ہے۔
 StripeOrCBDoPayment=کریڈٹ کارڈ یا پٹی سے ادائیگی کریں۔
-FollowingUrlAreAvailableToMakePayments=bespoerp اشیاء پر ادائیگی کرنے کے لیے صارف کو صفحہ پیش کرنے کے لیے درج ذیل URLs دستیاب ہیں۔
+FollowingUrlAreAvailableToMakePayments=Dolibarr اشیاء پر ادائیگی کرنے کے لیے صارف کو صفحہ پیش کرنے کے لیے درج ذیل URLs دستیاب ہیں۔
 PaymentForm=ادائیگی کا فارم
 WelcomeOnPaymentPage=ہماری آن لائن ادائیگی کی خدمت میں خوش آمدید
 ThisScreenAllowsYouToPay=یہ اسکرین آپ کو %s پر آن لائن ادائیگی کرنے کی اجازت دیتی ہے۔

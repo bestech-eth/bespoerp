@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - ldap
+# Dolibarr language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=<b> %s </b> ڈومین <b> %s a09a4b739f170z8 پر پاس ورڈ تبدیل کرنا ضروری ہے۔
 UserMustChangePassNextLogon=صارف کو ڈومین %s پر پاس ورڈ تبدیل کرنا ہوگا۔
 LDAPInformationsForThisContact=اس رابطے کے لیے LDAP ڈیٹا بیس میں معلومات
@@ -22,7 +22,7 @@ GroupSynchronized=گروپ مطابقت پذیر
 MemberSynchronized=ممبر مطابقت پذیر
 MemberTypeSynchronized=ممبر کی قسم مطابقت پذیر
 ContactSynchronized=رابطہ مطابقت پذیر
-ForceSynchronize=bespoerp -> LDAP کو زبردستی ہم آہنگ کریں۔
+ForceSynchronize=Dolibarr -> LDAP کو زبردستی ہم آہنگ کریں۔
 ErrorFailedToReadLDAP=LDAP ڈیٹا بیس کو پڑھنے میں ناکام۔ LDAP ماڈیول سیٹ اپ اور ڈیٹا بیس کی رسائی کو چیک کریں۔
 PasswordOfUserInLDAP=LDAP میں صارف کا پاس ورڈ
 LDAPPasswordHashType=پاس ورڈ ہیش کی قسم

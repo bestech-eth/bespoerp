@@ -20,9 +20,9 @@
  *  \brief      Script to search companies names based on incoming calls, from caller phone number
  *	\remarks    To use this script, your Asterisk must be compiled with CURL, and your dialplan must be something like this:
  *
- *              exten => s,1,Set(CALLERID(name)=${CURL(http://IP-bespoerp:80/asterisk/cidlookup.php?phone=${CALLERID(num)}&securitykey=SECURITYKEY)})
+ *              exten => s,1,Set(CALLERID(name)=${CURL(http://IP-DOLIBARR:80/asterisk/cidlookup.php?phone=${CALLERID(num)}&securitykey=SECURITYKEY)})
  *
- *			    Change IP-bespoerp to the IP address of your bespoerp server
+ *			    Change IP-DOLIBARR to the IP address of your dolibarr server
  *			    Change SECURITYKEY to the value defined into your setup of module ClickToDial
  */
 
@@ -42,7 +42,7 @@ if (!defined('NOLOGIN')) {
 	define('NOLOGIN', '1');
 }
 if (!defined('NOIPCHECK')) {
-	define('NOIPCHECK', '1'); // Do not check IP defined into conf $bespoerp_main_restrict_ip
+	define('NOIPCHECK', '1'); // Do not check IP defined into conf $dolibarr_main_restrict_ip
 }
 
 // So log file will have a suffix

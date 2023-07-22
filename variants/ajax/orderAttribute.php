@@ -35,7 +35,7 @@ if (!defined('NOREQUIRETRAN')) {
 	define('NOREQUIRETRAN', '1');
 }
 
-// Load bespoerp environment
+// Load Dolibarr environment
 require '../../main.inc.php';
 require DOL_DOCUMENT_ROOT . '/variants/class/ProductAttribute.class.php';
 

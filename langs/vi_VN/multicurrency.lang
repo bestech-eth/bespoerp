@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - multicurrency
+# Dolibarr language file - Source file is en_US - multicurrency
 MultiCurrency=Đa tiền tệ
 ErrorAddRateFail=Xảy ra lỗi trong thêm tỷ lệ
 ErrorAddCurrencyFail=Xảy ra lỗi trong thêm tiền tệ

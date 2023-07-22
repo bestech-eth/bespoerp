@@ -20,7 +20,7 @@
 
 /**
  *		\file       htdocs/viewimage.php
- *		\brief      Wrapper to show images into bespoerp screens.
+ *		\brief      Wrapper to show images into Dolibarr screens.
  *		\remarks    Call to wrapper is :
  *					DOL_URL_ROOT.'/viewimage.php?modulepart=diroffile&file=relativepathofofile&cache=0
  *					DOL_URL_ROOT.'/viewimage.php?hashp=sharekey
@@ -60,7 +60,7 @@ if (isset($_GET["modulepart"]) && $_GET["modulepart"] == 'mycompany' && preg_mat
 		define("NOCSRFCHECK", 1); // We accept to go on this page from external web site.
 	}
 	if (!defined("NOIPCHECK")) {
-		define("NOIPCHECK", 1); // Do not check IP defined into conf $bespoerp_main_restrict_ip
+		define("NOIPCHECK", 1); // Do not check IP defined into conf $dolibarr_main_restrict_ip
 	}
 }
 // For direct external download link, we don't need to load/check we are into a login session
@@ -72,7 +72,7 @@ if (isset($_GET["hashp"]) && !defined("NOLOGIN")) {
 		define("NOCSRFCHECK", 1); // We accept to go on this page from external web site.
 	}
 	if (!defined("NOIPCHECK")) {
-		define("NOIPCHECK", 1); // Do not check IP defined into conf $bespoerp_main_restrict_ip
+		define("NOIPCHECK", 1); // Do not check IP defined into conf $dolibarr_main_restrict_ip
 	}
 }
 // Some value of modulepart can be used to get resources that are public so no login are required.
@@ -84,7 +84,7 @@ if (isset($_GET["modulepart"]) && $_GET["modulepart"] == 'medias') {
 		define("NOCSRFCHECK", 1); // We accept to go on this page from external web site.
 	}
 	if (!defined("NOIPCHECK")) {
-		define("NOIPCHECK", 1); // Do not check IP defined into conf $bespoerp_main_restrict_ip
+		define("NOIPCHECK", 1); // Do not check IP defined into conf $dolibarr_main_restrict_ip
 	}
 }
 
@@ -97,7 +97,7 @@ if (isset($_GET["modulepart"]) && $_GET["modulepart"] == 'product' && isset($_GE
 		define("NOCSRFCHECK", 1); // We accept to go on this page from external web site.
 	}
 	if (!defined("NOIPCHECK")) {
-		define("NOIPCHECK", 1); // Do not check IP defined into conf $bespoerp_main_restrict_ip
+		define("NOIPCHECK", 1); // Do not check IP defined into conf $dolibarr_main_restrict_ip
 	}
 }
 
@@ -163,14 +163,14 @@ if ($modulepart == 'fckeditor') {
 
 if (GETPOST("cache", 'alpha')) {
 	// Important: Following code is to avoid page request by browser and PHP CPU at
-	// each bespoerp page access.
-	if (empty($bespoerp_nocache)) {
+	// each Dolibarr page access.
+	if (empty($dolibarr_nocache)) {
 		header('Cache-Control: max-age=3600, public, must-revalidate');
 		header('Pragma: cache'); // This is to avoid having Pragma: no-cache
 	} else {
 		header('Cache-Control: no-cache');
 	}
-	//print $bespoerp_nocache; exit;
+	//print $dolibarr_nocache; exit;
 }
 
 // If we have a hash public (hashp), we guess the original_file.

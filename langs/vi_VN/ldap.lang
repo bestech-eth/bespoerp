@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - ldap
+# Dolibarr language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=Mật khẩu cho người <b>dùng% s</b> trên <b>miền% s</b> phải được thay đổi.
 UserMustChangePassNextLogon=Người dùng phải thay đổi mật khẩu trên tên miền %s
 LDAPInformationsForThisContact=Thông tin trong cơ sở dữ liệu LDAP cho liên hệ này
@@ -22,6 +22,6 @@ GroupSynchronized=Nhóm được đồng bộ hóa
 MemberSynchronized=Thành viên được đồng bộ hóa
 MemberTypeSynchronized=Loại thành viên được đồng bộ hóa
 ContactSynchronized=Liên lạc được đồng bộ hóa
-ForceSynchronize=Ép buộc đồng bộ hóa bespoerp -> LDAP
+ForceSynchronize=Ép buộc đồng bộ hóa Dolibarr -> LDAP
 ErrorFailedToReadLDAP=Không thể đọc cơ sở dữ liệu LDAP. Kiểm tra thiết lập mô-đun LDAP và khả năng tiếp cận cơ sở dữ liệu.
 PasswordOfUserInLDAP=Mật khẩu của người dùng trong LDAP

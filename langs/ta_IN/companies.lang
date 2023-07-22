@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - companies
+# Dolibarr language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=நிறுவனத்தின் பெயர் %s ஏற்கனவே உள்ளது. இன்னொன்றைத் தேர்ந்தெடுங்கள்.
 ErrorSetACountryFirst=முதலில் நாட்டை அமைக்கவும்
 SelectThirdParty=மூன்றாம் தரப்பினரைத் தேர்ந்தெடுக்கவும்
@@ -12,7 +12,7 @@ MenuNewSupplier=புதிய விற்பனையாளர்
 MenuNewPrivateIndividual=புதிய தனிப்பட்ட நபர்
 NewCompany=புதிய நிறுவனம் (எதிர்பார்ப்பு, வாடிக்கையாளர், விற்பனையாளர்)
 NewThirdParty=புதிய மூன்றாம் தரப்பு (எதிர்பார்ப்பு, வாடிக்கையாளர், விற்பனையாளர்)
-CreatebespoerpThirdPartySupplier=மூன்றாம் தரப்பை உருவாக்கு (விற்பனையாளர்)
+CreateDolibarrThirdPartySupplier=மூன்றாம் தரப்பை உருவாக்கு (விற்பனையாளர்)
 CreateThirdPartyOnly=மூன்றாம் தரப்பை உருவாக்கவும்
 CreateThirdPartyAndContact=மூன்றாம் தரப்பு + குழந்தை தொடர்பை உருவாக்கவும்
 ProspectionArea=எதிர்பார்ப்பு பகுதி
@@ -383,7 +383,7 @@ CapitalOf=%s இன் மூலதனம்
 EditCompany=நிறுவனத்தைத் திருத்தவும்
 ThisUserIsNot=இந்த பயனர் ஒரு வாய்ப்பு, வாடிக்கையாளர் அல்லது விற்பனையாளர் அல்ல
 VATIntraCheck=காசோலை
-VATIntraCheckDesc=VAT ஐடியில் நாட்டின் முன்னொட்டு இருக்க வேண்டும். <b> %s </b> என்ற இணைப்பு ஐரோப்பிய VAT சரிபார்ப்பு சேவையைப் (VIES) பயன்படுத்துகிறது, இதற்கு bespoerp சேவையகத்திலிருந்து இணைய அணுகல் தேவைப்படுகிறது.
+VATIntraCheckDesc=VAT ஐடியில் நாட்டின் முன்னொட்டு இருக்க வேண்டும். <b> %s </b> என்ற இணைப்பு ஐரோப்பிய VAT சரிபார்ப்பு சேவையைப் (VIES) பயன்படுத்துகிறது, இதற்கு Dolibarr சேவையகத்திலிருந்து இணைய அணுகல் தேவைப்படுகிறது.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=ஐரோப்பிய ஆணைய இணையதளத்தில் உள்ள சமூக VAT ஐடியைப் பார்க்கவும்
 VATIntraManualCheck=ஐரோப்பிய ஆணைய இணையதளமான <a href="%s" target="_blank" rel="noopener noreferrer"> %s </a> இல் நீங்கள் கைமுறையாகச் சரிபார்க்கலாம்.
@@ -429,8 +429,8 @@ ProspectsByStatus=நிலை மூலம் வாய்ப்புகள்
 NoParentCompany=இல்லை
 ExportCardToFormat=அட்டையை வடிவமைப்பிற்கு ஏற்றுமதி செய்யவும்
 ContactNotLinkedToCompany=எந்த மூன்றாம் தரப்பினருடனும் தொடர்பு இணைக்கப்படவில்லை
-bespoerpLogin=டோலிபார் உள்நுழைவு
-NobespoerpAccess=டோலிபார் அணுகல் இல்லை
+DolibarrLogin=டோலிபார் உள்நுழைவு
+NoDolibarrAccess=டோலிபார் அணுகல் இல்லை
 ExportDataset_company_1=மூன்றாம் தரப்பினர் (நிறுவனங்கள்/அடிப்படைகள்/உடல் சார்ந்த நபர்கள்) மற்றும் அவற்றின் பண்புகள்
 ExportDataset_company_2=தொடர்புகள் மற்றும் அவற்றின் பண்புகள்
 ImportDataset_company_1=மூன்றாம் தரப்பினர் மற்றும் அவற்றின் பண்புகள்

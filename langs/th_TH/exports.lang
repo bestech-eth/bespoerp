@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - exports
+# Dolibarr language file - Source file is en_US - exports
 ExportsArea=การส่งออก
 ImportArea=Import
 NewExport=New Export
@@ -59,7 +59,7 @@ ChooseFormatOfFileToImport=Choose the file format to use as import file format b
 ChooseFileToImport=Upload file then click on the %s icon to select file as source import file...
 SourceFileFormat=แหล่งที่มาของรูปแบบไฟล์
 FieldsInSourceFile=เขตข้อมูลในแฟ้มแหล่งที่มา
-FieldsInTargetDatabase=สาขาเป้าหมายในฐานข้อมูล bespoerp (ตัวหนา = บังคับ)
+FieldsInTargetDatabase=สาขาเป้าหมายในฐานข้อมูล Dolibarr (ตัวหนา = บังคับ)
 Field=สนาม
 NoFields=ไม่มีสาขา
 MoveField=คอลัมน์ย้ายสนามจำนวน% s

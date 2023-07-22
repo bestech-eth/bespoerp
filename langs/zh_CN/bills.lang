@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - bills
+# Dolibarr language file - Source file is en_US - bills
 Bill=发票
 Bills=发票
 BillsCustomers=顾客发票
@@ -608,8 +608,8 @@ AutoFillDateFromShort=设置开始日期
 AutoFillDateTo=使用下一个发票日期设置服务项目的结束日期
 AutoFillDateToShort=设置结束日期
 MaxNumberOfGenerationReached=最大数量。到达
-BILL_DELETEInbespoerp=发票已删除
-BILL_SUPPLIER_DELETEInbespoerp=Supplier invoice deleted
+BILL_DELETEInDolibarr=发票已删除
+BILL_SUPPLIER_DELETEInDolibarr=Supplier invoice deleted
 UnitPriceXQtyLessDiscount=Unit price x Qty - Discount
 CustomersInvoicesArea=Customer billing area
 SupplierInvoicesArea=Supplier billing area

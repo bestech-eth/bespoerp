@@ -22,7 +22,7 @@
  *		\brief      Page to make production on a MO
  */
 
-// Load bespoerp environment
+// Load Dolibarr environment
 require '../main.inc.php';
 
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formcompany.class.php';

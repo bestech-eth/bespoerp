@@ -1,7 +1,7 @@
-# bespoerp language file - Source file is en_US - paybox
+# Dolibarr language file - Source file is en_US - paybox
 PayBoxSetup=Podešavanja modula PayBox
-PayBoxDesc=Ovaj modul nudi strane za uplatu na <a href="http://www.paybox.com" target="_blank">Paybox-u</a>. Može biti korišćen za slobodne uplate, ili za uplate vezane za određeni bespoerp objekat (faktura, narudžbenica, ...)
-FollowingUrlAreAvailableToMakePayments=Sledeći URL-ovi mogu omogućiti klijentu da izvrši uplatu na bespoerp objekte
+PayBoxDesc=Ovaj modul nudi strane za uplatu na <a href="http://www.paybox.com" target="_blank">Paybox-u</a>. Može biti korišćen za slobodne uplate, ili za uplate vezane za određeni Dolibarr objekat (faktura, narudžbenica, ...)
+FollowingUrlAreAvailableToMakePayments=Sledeći URL-ovi mogu omogućiti klijentu da izvrši uplatu na Dolibarr objekte
 PaymentForm=Forma za uplatu
 WelcomeOnPaymentPage=Welcome to our online payment service
 ThisScreenAllowsYouToPay=Ovaj ekran vam omogućava da izvršite online uplatu u korist %s

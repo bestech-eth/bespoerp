@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - mails
+# Dolibarr language file - Source file is en_US - mails
 Mailing=E-bostio
 EMailing=E-bostio
 EMailings=E-byst
@@ -90,7 +90,7 @@ MailingModuleDescContactsByCategory=Cysylltiadau yn ôl categorïau
 MailingModuleDescContactsByFunction=Cysylltiadau yn ôl swydd
 MailingModuleDescEmailsFromFile=E-byst o ffeil
 MailingModuleDescEmailsFromUser=Mewnbwn e-byst gan ddefnyddiwr
-MailingModuleDescbespoerpUsers=Defnyddwyr ag E-byst
+MailingModuleDescDolibarrUsers=Defnyddwyr ag E-byst
 MailingModuleDescThirdPartiesByCategories=Third parties
 SendingFromWebInterfaceIsNotAllowed=Ni chaniateir anfon o ryngwyneb gwe.
 EmailCollectorFilterDesc=Rhaid i bob hidlydd gyfateb i gael e-bost yn cael ei gasglu

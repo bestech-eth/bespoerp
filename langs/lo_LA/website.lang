@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - website
+# Dolibarr language file - Source file is en_US - website
 Shortname=ລະຫັດ
 WebsiteName=Name of the website
 WebsiteSetupDesc=ສ້າງທີ່ນີ້ເວັບໄຊທທີ່ທ່ານຕ້ອງການນໍາໃຊ້. ຈາກນັ້ນເຂົ້າໄປທີ່ເມນູເວັບໄຊທ to ເພື່ອແກ້ໄຂພວກມັນ.
@@ -48,13 +48,13 @@ VirtualhostDesc=The name of the Virtual host or domain (For example: www.mywebsi
 SetHereVirtualHost= <u> ໃຊ້ກັບ Apache / Nginx / ... </u> <br> ສ້າງໃນເຄື່ອງແມ່ຂ່າຍເວັບຂອງທ່ານ (Apache, Nginx, ... ) ເປັນ Host Virtual ອຸທິດກັບ PHP ເປີດແລະລະບົບຮາກໃນ <br> <strong> %s </strong>
 ExampleToUseInApacheVirtualHostConfig=ຕົວຢ່າງທີ່ຈະໃຊ້ໃນການຕັ້ງຄ່າເຈົ້າພາບ virtual Apache:
 YouCanAlsoTestWithPHPS= <u> ໃຊ້ກັບ PHP ຝັງ </u> ເຄື່ອງແມ່ຂ່າຍຂອງ <br> On ພັດທະນາສະພາບແວດລ້ອມ, ທ່ານອາດຈະຕ້ອງການທີ່ຈະທົດສອບເວັບໄຊທີ່ມີ PHP ຝັງເຄື່ອງແມ່ຂ່າຍເວັບທີ່ (PHP 5.5 ທີ່ກໍານົດໄວ້) ໂດຍໃຊ້ <br> <strong> php -S 0.0.0.0:8080 -t %s </strong>
-YouCanAlsoDeployToAnotherWHP=<u>Run your web site with another bespoerp Hosting provider</u><br>If you don't have a web server like Apache or NGinx available on internet, you can export and import your web site onto another bespoerp instance provided by another bespoerp hosting provider that provide full integration with the Website module. You can find a list of some bespoerp hosting providers on <a href="https://saas.bespoerp.org" target="_blank" rel="noopener noreferrer external">https://saas.bespoerp.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Run your web site with another Dolibarr Hosting provider</u><br>If you don't have a web server like Apache or NGinx available on internet, you can export and import your web site onto another Dolibarr instance provided by another Dolibarr hosting provider that provide full integration with the Website module. You can find a list of some Dolibarr hosting providers on <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a>
 CheckVirtualHostPerms=Check also that the virtual host user (for example www-data) has <strong>%s</strong> permissions on files into<br><strong>%s</strong>
 ReadPerm=ອ່ານ
 WritePerm=ຂຽນ
 TestDeployOnWeb=ທົດສອບ/ນຳ ໃຊ້ຢູ່ເທິງເວັບ
 PreviewSiteServedByWebServer= <u> ສະແດງຕົວຢ່າງ %s ຢູ່ໃນແຖບໃ່. </u> <br> <br> %s ຈະຖືກບໍລິການໂດຍເຊີບເວີເວັບພາຍນອກ (ເຊັ່ນ Apache, Nginx, IIS). ທ່ານຕ້ອງການຕິດຕັ້ງແລະການຕັ້ງຄ່າຂອງເຄື່ອງແມ່ຂ່າຍນີ້ກ່ອນທີ່ຈະຊີ້ໃຫ້ເຫັນເຖິງລະບົບ: <br> <strong> %s </strong> <br> URL ບໍລິການໂດຍເຄື່ອງແມ່ຂ່າຍຂອງພາຍນອກ: <br> <strong> %s </strong>
-PreviewSiteServedBybespoerp= <u> ສະແດງຕົວຢ່າງ %s ຢູ່ໃນແຖບໃ່. </u> <br> <br> %s ຈະຖືກບໍລິການໂດຍເຊີບເວີ bespoerp ດັ່ງນັ້ນມັນບໍ່ຕ້ອງການມີເວັບເຊີບເວີພິເສດໃດ ((ເຊັ່ນ: Apache, Nginx, IIS) ຕິດຕັ້ງໃສ່. <br> ຄວາມບໍ່ສະດວກແມ່ນ URL ຂອງ ໜ້າ ເວັບຕ່າງ not ບໍ່ເປັນມິດກັບຜູ້ໃຊ້ແລະເລີ່ມດ້ວຍເສັ້ນທາງຂອງ bespoerp ຂອງທ່ານ. <br> URL ບໍລິການໂດຍກໍາໄລ: <br> <strong> %s </strong> <br> <br> ການນໍາໃຊ້ເວັບໄຊຕ໌ພາຍນອກຂອງເຄື່ອງແມ່ຂ່າຍຂອງທ່ານເອງເພື່ອຮັບໃຊ້ເວັບໄຊດັ່ງກ່າວນີ້, ສ້າງພາບ virtual ກ່ຽວກັບເຄື່ອງແມ່ຂ່າຍເວັບຂອງທ່ານທີ່ຈຸດກ່ຽວກັບລະບົບ <br> <strong> %s </strong> <br> ແລ້ວໃສ່ຊື່ຂອງເຄື່ອງແມ່ຂ່າຍ virtual ນີ້ ໃນຄຸນສົມບັດຂອງເວັບໄຊທ this ນີ້ແລະຄລິກທີ່ລິ້ງ "ທົດສອບ/ປັບໃຊ້ໃນເວັບ".
+PreviewSiteServedByDolibarr= <u> ສະແດງຕົວຢ່າງ %s ຢູ່ໃນແຖບໃ່. </u> <br> <br> %s ຈະຖືກບໍລິການໂດຍເຊີບເວີ Dolibarr ດັ່ງນັ້ນມັນບໍ່ຕ້ອງການມີເວັບເຊີບເວີພິເສດໃດ ((ເຊັ່ນ: Apache, Nginx, IIS) ຕິດຕັ້ງໃສ່. <br> ຄວາມບໍ່ສະດວກແມ່ນ URL ຂອງ ໜ້າ ເວັບຕ່າງ not ບໍ່ເປັນມິດກັບຜູ້ໃຊ້ແລະເລີ່ມດ້ວຍເສັ້ນທາງຂອງ Dolibarr ຂອງທ່ານ. <br> URL ບໍລິການໂດຍກໍາໄລ: <br> <strong> %s </strong> <br> <br> ການນໍາໃຊ້ເວັບໄຊຕ໌ພາຍນອກຂອງເຄື່ອງແມ່ຂ່າຍຂອງທ່ານເອງເພື່ອຮັບໃຊ້ເວັບໄຊດັ່ງກ່າວນີ້, ສ້າງພາບ virtual ກ່ຽວກັບເຄື່ອງແມ່ຂ່າຍເວັບຂອງທ່ານທີ່ຈຸດກ່ຽວກັບລະບົບ <br> <strong> %s </strong> <br> ແລ້ວໃສ່ຊື່ຂອງເຄື່ອງແມ່ຂ່າຍ virtual ນີ້ ໃນຄຸນສົມບັດຂອງເວັບໄຊທ this ນີ້ແລະຄລິກທີ່ລິ້ງ "ທົດສອບ/ປັບໃຊ້ໃນເວັບ".
 VirtualHostUrlNotDefined=URL ຂອງແມ່ຂ່າຍສະເືອນໃຫ້ບໍລິການໂດຍເຊີບເວີເວັບພາຍນອກບໍ່ໄດ້ລະບຸ
 NoPageYet=ບໍ່ມີ ໜ້າ ເທື່ອ
 YouCanCreatePageOrImportTemplate=ເຈົ້າສາມາດສ້າງ ໜ້າ ໃor່ຫຼື ນຳ ເຂົ້າແມ່ແບບເວັບໄຊທ full ເຕັມຮູບແບບ

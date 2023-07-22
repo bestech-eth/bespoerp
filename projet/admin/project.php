@@ -27,7 +27,7 @@
  *  \brief      Page to setup project module
  */
 
-// Load bespoerp environment
+// Load Dolibarr environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/project.lib.php';
@@ -59,7 +59,7 @@ if ($action == 'updateMask') {
 	$maskproject = GETPOST('maskproject', 'alpha');
 
 	if ($maskconstproject && preg_match('/_MASK$/', $maskconstproject)) {
-		$res = bespoerp_set_const($db, $maskconstproject, $maskproject, 'chaine', 0, '', $conf->entity);
+		$res = dolibarr_set_const($db, $maskconstproject, $maskproject, 'chaine', 0, '', $conf->entity);
 	}
 
 	if (!($res > 0)) {
@@ -78,7 +78,7 @@ if ($action == 'updateMaskTask') {
 	$masktaskt = GETPOST('masktask', 'alpha');
 
 	if ($maskconstmasktask && preg_match('/_MASK$/', $maskconstmasktask)) {
-		$res = bespoerp_set_const($db, $maskconstmasktask, $masktaskt, 'chaine', 0, '', $conf->entity);
+		$res = dolibarr_set_const($db, $maskconstmasktask, $masktaskt, 'chaine', 0, '', $conf->entity);
 	}
 
 	if (!($res > 0)) {
@@ -168,19 +168,19 @@ if ($action == 'updateMaskTask') {
 	$ret = delDocumentModel($value, $type);
 	if ($ret > 0) {
 		if ($conf->global->PROJECT_ADDON_PDF == "$value") {
-			bespoerp_del_const($db, 'PROJECT_ADDON_PDF', $conf->entity);
+			dolibarr_del_const($db, 'PROJECT_ADDON_PDF', $conf->entity);
 		}
 	}
 } elseif ($action == 'deltask') {
 	$ret = delDocumentModel($value, 'project_task');
 	if ($ret > 0) {
 		if ($conf->global->PROJECT_TASK_ADDON_PDF == "$value") {
-			bespoerp_del_const($db, 'PROJECT_TASK_ADDON_PDF', $conf->entity);
+			dolibarr_del_const($db, 'PROJECT_TASK_ADDON_PDF', $conf->entity);
 		}
 	}
 } elseif ($action == 'setdoc') {
 	// Set default model
-	bespoerp_set_const($db, "PROJECT_ADDON_PDF", $value, 'chaine', 0, '', $conf->entity);
+	dolibarr_set_const($db, "PROJECT_ADDON_PDF", $value, 'chaine', 0, '', $conf->entity);
 
 	// On active le modele
 	$ret = delDocumentModel($value, $type);
@@ -188,7 +188,7 @@ if ($action == 'updateMaskTask') {
 		$ret = addDocumentModel($value, $type, $label, $scandir);
 	}
 } elseif ($action == 'setdoctask') {
-	if (bespoerp_set_const($db, "PROJECT_TASK_ADDON_PDF", $value, 'chaine', 0, '', $conf->entity)) {
+	if (dolibarr_set_const($db, "PROJECT_TASK_ADDON_PDF", $value, 'chaine', 0, '', $conf->entity)) {
 		// La constante qui a ete lue en avant du nouveau set
 		// on passe donc par une variable pour avoir un affichage coherent
 		$conf->global->PROJECT_TASK_ADDON_PDF = $value;
@@ -203,30 +203,30 @@ if ($action == 'updateMaskTask') {
 	// TODO Verifier si module numerotation choisi peut etre active
 	// par appel methode canBeActivated
 
-	bespoerp_set_const($db, "PROJECT_ADDON", $value, 'chaine', 0, '', $conf->entity);
+	dolibarr_set_const($db, "PROJECT_ADDON", $value, 'chaine', 0, '', $conf->entity);
 } elseif ($action == 'setmodtask') {
 	// TODO Verifier si module numerotation choisi peut etre active
 	// par appel methode canBeActivated
 
-	bespoerp_set_const($db, "PROJECT_TASK_ADDON", $value, 'chaine', 0, '', $conf->entity);
+	dolibarr_set_const($db, "PROJECT_TASK_ADDON", $value, 'chaine', 0, '', $conf->entity);
 } elseif ($action == 'updateoptions') {
 	if (GETPOST('PROJECT_USE_SEARCH_TO_SELECT')) {
 		$companysearch = GETPOST('activate_PROJECT_USE_SEARCH_TO_SELECT', 'alpha');
-		if (bespoerp_set_const($db, "PROJECT_USE_SEARCH_TO_SELECT", $companysearch, 'chaine', 0, '', $conf->entity)) {
+		if (dolibarr_set_const($db, "PROJECT_USE_SEARCH_TO_SELECT", $companysearch, 'chaine', 0, '', $conf->entity)) {
 			$conf->global->PROJECT_USE_SEARCH_TO_SELECT = $companysearch;
 		}
 	}
 	if (GETPOST('PROJECT_ALLOW_TO_LINK_FROM_OTHER_COMPANY')) {
 		$projectToSelect = GETPOST('projectToSelect', 'alpha');
-		bespoerp_set_const($db, 'PROJECT_ALLOW_TO_LINK_FROM_OTHER_COMPANY', $projectToSelect, 'chaine', 0, '', $conf->entity); //Allow to disable this configuration if empty value
+		dolibarr_set_const($db, 'PROJECT_ALLOW_TO_LINK_FROM_OTHER_COMPANY', $projectToSelect, 'chaine', 0, '', $conf->entity); //Allow to disable this configuration if empty value
 	}
 	if (GETPOST('PROJECT_TIMESHEET_PREVENT_AFTER_MONTHS')) {
 		$timesheetFreezeDuration = GETPOST('timesheetFreezeDuration', 'alpha');
-		bespoerp_set_const($db, 'PROJECT_TIMESHEET_PREVENT_AFTER_MONTHS', intval($timesheetFreezeDuration), 'chaine', 0, '', $conf->entity); //Allow to disable this configuration if empty value
+		dolibarr_set_const($db, 'PROJECT_TIMESHEET_PREVENT_AFTER_MONTHS', intval($timesheetFreezeDuration), 'chaine', 0, '', $conf->entity); //Allow to disable this configuration if empty value
 	}
 } elseif (preg_match('/^(set|del)_?([A-Z_]+)$/', $action, $reg)) {
 	// Set boolean (on/off) constants
-	if (!bespoerp_set_const($db, $reg[2], ($reg[1] === 'set' ? '1' : '0'), 'chaine', 0, '', $conf->entity) > 0) {
+	if (!dolibarr_set_const($db, $reg[2], ($reg[1] === 'set' ? '1' : '0'), 'chaine', 0, '', $conf->entity) > 0) {
 		dol_print_error($db);
 	}
 }

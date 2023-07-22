@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - loan
+# Dolibarr language file - Source file is en_US - loan
 IdModule= Module id
 ModuleBuilderDesc=இந்த கருவியை அனுபவம் வாய்ந்த பயனர்கள் அல்லது டெவலப்பர்கள் மட்டுமே பயன்படுத்த வேண்டும். இது உங்கள் சொந்த தொகுதியை உருவாக்க அல்லது திருத்துவதற்கான பயன்பாடுகளை வழங்குகிறது. மாற்று <a href="%s" target="_blank" rel="noopener noreferrer"> கைமுறை மேம்பாட்டிற்கான ஆவணம் இங்கே </a> .
 EnterNameOfModuleDesc=Enter the name of the module/application to create with no spaces. Use uppercase to separate words (For example: MyModule, EcommerceForShop, SyncWithMySystem...)

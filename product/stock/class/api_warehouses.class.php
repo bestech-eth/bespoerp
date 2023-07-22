@@ -24,9 +24,9 @@
  * API class for warehouses
  *
  * @access protected
- * @class  bespoerpApiAccess {@requires user,external}
+ * @class  DolibarrApiAccess {@requires user,external}
  */
-class Warehouses extends bespoerpApi
+class Warehouses extends DolibarrApi
 {
 	/**
 	 * @var array   $FIELDS     Mandatory fields, checked when create and update object
@@ -62,7 +62,7 @@ class Warehouses extends bespoerpApi
 	 */
 	public function get($id)
 	{
-		if (!bespoerpApiAccess::$user->rights->stock->lire) {
+		if (!DolibarrApiAccess::$user->rights->stock->lire) {
 			throw new RestException(401);
 		}
 
@@ -71,8 +71,8 @@ class Warehouses extends bespoerpApi
 			throw new RestException(404, 'warehouse not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('warehouse', $this->warehouse->id)) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('warehouse', $this->warehouse->id)) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
 		return $this->_cleanObjectDatas($this->warehouse);
@@ -99,7 +99,7 @@ class Warehouses extends bespoerpApi
 
 		$obj_ret = array();
 
-		if (!bespoerpApiAccess::$user->rights->stock->lire) {
+		if (!DolibarrApiAccess::$user->rights->stock->lire) {
 			throw new RestException(401);
 		}
 
@@ -164,7 +164,7 @@ class Warehouses extends bespoerpApi
 	 */
 	public function post($request_data = null)
 	{
-		if (!bespoerpApiAccess::$user->rights->stock->creer) {
+		if (!DolibarrApiAccess::$user->rights->stock->creer) {
 			throw new RestException(401);
 		}
 
@@ -174,7 +174,7 @@ class Warehouses extends bespoerpApi
 		foreach ($request_data as $field => $value) {
 			$this->warehouse->$field = $value;
 		}
-		if ($this->warehouse->create(bespoerpApiAccess::$user) < 0) {
+		if ($this->warehouse->create(DolibarrApiAccess::$user) < 0) {
 			throw new RestException(500, "Error creating warehouse", array_merge(array($this->warehouse->error), $this->warehouse->errors));
 		}
 		return $this->warehouse->id;
@@ -189,7 +189,7 @@ class Warehouses extends bespoerpApi
 	 */
 	public function put($id, $request_data = null)
 	{
-		if (!bespoerpApiAccess::$user->rights->stock->creer) {
+		if (!DolibarrApiAccess::$user->rights->stock->creer) {
 			throw new RestException(401);
 		}
 
@@ -198,8 +198,8 @@ class Warehouses extends bespoerpApi
 			throw new RestException(404, 'warehouse not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('stock', $this->warehouse->id)) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('stock', $this->warehouse->id)) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
 		foreach ($request_data as $field => $value) {
@@ -209,7 +209,7 @@ class Warehouses extends bespoerpApi
 			$this->warehouse->$field = $value;
 		}
 
-		if ($this->warehouse->update($id, bespoerpApiAccess::$user)) {
+		if ($this->warehouse->update($id, DolibarrApiAccess::$user)) {
 			return $this->get($id);
 		}
 
@@ -224,7 +224,7 @@ class Warehouses extends bespoerpApi
 	 */
 	public function delete($id)
 	{
-		if (!bespoerpApiAccess::$user->rights->stock->supprimer) {
+		if (!DolibarrApiAccess::$user->rights->stock->supprimer) {
 			throw new RestException(401);
 		}
 		$result = $this->warehouse->fetch($id);
@@ -232,11 +232,11 @@ class Warehouses extends bespoerpApi
 			throw new RestException(404, 'warehouse not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('stock', $this->warehouse->id)) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('stock', $this->warehouse->id)) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
-		if (!$this->warehouse->delete(bespoerpApiAccess::$user)) {
+		if (!$this->warehouse->delete(DolibarrApiAccess::$user)) {
 			throw new RestException(401, 'error when delete warehouse');
 		}
 

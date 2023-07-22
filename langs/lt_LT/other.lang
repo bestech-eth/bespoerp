@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - other
+# Dolibarr language file - Source file is en_US - other
 SecurityCode=Saugos kodas
 NumberingShort=N°
 Tools=Įrankiai
@@ -106,7 +106,7 @@ PredefinedMailContentSendFichInter=__(Hello)__\n\nPlease find intervention __REF
 PredefinedMailContentLink=You can click on the link below to make your payment if it is not already done.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Hello)__\n\n\n__(Sincerely)__\n\n__USER_SIGNATURE__
 PredefinedMailContentSendActionComm=Event reminder "__EVENT_LABEL__" on __EVENT_DATE__ at __EVENT_TIME__<br><br>This is an automatic message, please do not reply.
-DemoDesc=bespoerp is a compact ERP/CRM supporting several business modules. A demo showcasing all modules makes no sense as this scenario never occurs (several hundred available). So, several demo profiles are available.
+DemoDesc=Dolibarr is a compact ERP/CRM supporting several business modules. A demo showcasing all modules makes no sense as this scenario never occurs (several hundred available). So, several demo profiles are available.
 ChooseYourDemoProfil=Choose the demo profile that best suits your needs...
 ChooseYourDemoProfilMore=...or build your own profile<br>(manual module selection)
 DemoFundation=Valdyti organizacijos narius
@@ -185,10 +185,10 @@ BugTracker=Defekto trekeris
 SendNewPasswordDesc=This form allows you to request a new password. It will be sent to your email address.<br>Change will become effective once you click on the confirmation link in the email.<br>Check your inbox.
 EnterNewPasswordHere=Enter your new password here
 BackToLoginPage=Atgal į prisijungimo puslapį
-AuthenticationDoesNotAllowSendNewPassword=Autentifikavimo režimas yra <b>%s</b>.<br>Šiame režime bespoerp negali žinoti, nei pakeisti Jūsų slaptažodžio.<br>Susisiekite su sistemos administratoriumi, jei norite pakeisti savo slaptažodį.
+AuthenticationDoesNotAllowSendNewPassword=Autentifikavimo režimas yra <b>%s</b>.<br>Šiame režime Dolibarr negali žinoti, nei pakeisti Jūsų slaptažodžio.<br>Susisiekite su sistemos administratoriumi, jei norite pakeisti savo slaptažodį.
 EnableGDLibraryDesc=Install or enable GD library on your PHP installation to use this option.
 ProfIdShortDesc=<b>Prof ID%s</b> yra informacija, priklausoma nuo trečiosios šalies dalyvio šalies.<br>Pavyzdžiui, šaliai <b>%s</b>, jo kodas <b>%s</b>.
-bespoerpDemo=bespoerp ERP/CRM demo
+DolibarrDemo=Dolibarr ERP/CRM demo
 StatsByNumberOfUnits=Statistics for sum of qty of products/services
 StatsByNumberOfEntities=Statistics for number of referring entities (no. of invoices, or orders...)
 NumberOfProposals=Number of proposals
@@ -229,7 +229,7 @@ EMailTextHolidayValidated=Leave request %s has been validated.
 EMailTextHolidayApproved=Leave request %s has been approved.
 EMailTextActionAdded=The action %s has been added to the Agenda.
 ImportedWithSet=Importavimo duomenų rinkinys
-bespoerpNotification=Automatinis pranešimas
+DolibarrNotification=Automatinis pranešimas
 ResizeDesc=Įveskite naują plotį <b>arba</b> naują aukštį. Santykis bus išlaikomas keičiant dydį ...
 NewLength=Naujas plotis
 NewHeight=Naujas aukštis

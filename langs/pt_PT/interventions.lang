@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - interventions
+# Dolibarr language file - Source file is en_US - interventions
 Intervention=Intervenção
 Interventions=Intervenções
 InterventionCard=Ficha de intervenção
@@ -30,13 +30,13 @@ InterventionClassifyDone=Classificar como "Efetuado"
 StatusInterInvoiced=Faturada
 SendInterventionRef=Submissão da intervenção %s
 SendInterventionByMail=Send intervention by email
-InterventionCreatedInbespoerp=Intervenção %s criada
-InterventionValidatedInbespoerp=Intervenção %s validada
-InterventionModifiedInbespoerp=Intervenção %s modificada
-InterventionClassifiedBilledInbespoerp=Intervenção %s definida como faturada
-InterventionClassifiedUnbilledInbespoerp=Intervenção %s definida como não faturada
+InterventionCreatedInDolibarr=Intervenção %s criada
+InterventionValidatedInDolibarr=Intervenção %s validada
+InterventionModifiedInDolibarr=Intervenção %s modificada
+InterventionClassifiedBilledInDolibarr=Intervenção %s definida como faturada
+InterventionClassifiedUnbilledInDolibarr=Intervenção %s definida como não faturada
 InterventionSentByEMail=Intervenção %s enviada por email
-InterventionDeletedInbespoerp=Intervenção %s eliminada
+InterventionDeletedInDolibarr=Intervenção %s eliminada
 InterventionsArea=Área de Intervenções
 DraftFichinter=Intervenções rascunho
 LastModifiedInterventions=Últimas %s intervenções modificadas 

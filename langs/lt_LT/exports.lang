@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - exports
+# Dolibarr language file - Source file is en_US - exports
 ExportsArea=Eksportas
 ImportArea=Import
 NewExport=New Export
@@ -59,7 +59,7 @@ ChooseFormatOfFileToImport=Choose the file format to use as import file format b
 ChooseFileToImport=Upload file then click on the %s icon to select file as source import file...
 SourceFileFormat=Šaltinio failo formatas
 FieldsInSourceFile=Šaltinio failo laukai
-FieldsInTargetDatabase=Uždavinių laukai bespoerp duomenų bazėje (paryškinta=privaloma)
+FieldsInTargetDatabase=Uždavinių laukai Dolibarr duomenų bazėje (paryškinta=privaloma)
 Field=Laukas
 NoFields=Nėra laukų
 MoveField=Perkelti lauko stulpelio numerį %s

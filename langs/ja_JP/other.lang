@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - other
+# Dolibarr language file - Source file is en_US - other
 SecurityCode=セキュリティコード
 NumberingShort=番号
 Tools=ツール
@@ -106,7 +106,7 @@ PredefinedMailContentSendFichInter=__(こんにちは)__\n\n添付の介入__REF
 PredefinedMailContentLink=まだ行っていない場合は、下のリンクをクリックして支払を行うことができる。\n\n%s\n\n
 PredefinedMailContentGeneric=__(こんにちは)__\n\n\n__(誠意をこめて)__\n\n__USER_SIGNATURE__
 PredefinedMailContentSendActionComm=__EVENT_DATE__の__EVENT_TIME__のイベントリマインダー「__EVENT_LABEL __」<br><br>これは自動メッセージ 。返信しないこと。
-DemoDesc=bespoerpは、いくつかのビジネスモジュールをサポートするコンパクトなERP / CRM 。このシナリオは決して発生しないため、全モジュールを紹介するデモは意味がない(数百が利用可能)。したがって、いくつかのデモプロファイルが利用可能 。
+DemoDesc=Dolibarrは、いくつかのビジネスモジュールをサポートするコンパクトなERP / CRM 。このシナリオは決して発生しないため、全モジュールを紹介するデモは意味がない(数百が利用可能)。したがって、いくつかのデモプロファイルが利用可能 。
 ChooseYourDemoProfil=ニーズに最適なデモプロファイルを選択すること...
 ChooseYourDemoProfilMore=...または独自のプロファイルを作成する<br>(手動モジュール選択)
 DemoFundation=基礎の構成員を管理する
@@ -185,10 +185,10 @@ BugTracker=バグトラッカー
 SendNewPasswordDesc=このフォームでは、新規パスワードを要求できる。それはあなたのメールアドレスに送られる。 <br>メール内の確定リンクをクリックすると、変更が有効になる。 <br>受信トレイを確定すること。
 EnterNewPasswordHere=ここに新しいパスワードを入力してください
 BackToLoginPage=ログインページに戻る
-AuthenticationDoesNotAllowSendNewPassword=認証モードは<b>%s</b> 。 <br>このモードではbespoerp上でパスワードの表示も変更もできない。 <br>パスワードを変更したい場合はシステム管理者に連絡すること。
+AuthenticationDoesNotAllowSendNewPassword=認証モードは<b>%s</b> 。 <br>このモードではDolibarr上でパスワードの表示も変更もできない。 <br>パスワードを変更したい場合はシステム管理者に連絡すること。
 EnableGDLibraryDesc=このオプションを使用するには、PHPインストールでGDライブラリをインストールまたは有効にする。
 ProfIdShortDesc=<b>プロフID %sは、</b>取引先の国に応じた情報 。 <br>たとえば、国<b>%s</b>に対して、コードは<b>%s</b> 。
-bespoerpDemo=bespoerp ERP / CRMデモ
+DolibarrDemo=Dolibarr ERP / CRMデモ
 StatsByNumberOfUnits=製品/サービスの数量の合計の統計
 StatsByNumberOfEntities=参照エンティティの数の統計（請求書または注文の数...）
 NumberOfProposals=提案数
@@ -229,7 +229,7 @@ EMailTextHolidayValidated=休暇申請%sは検証済。
 EMailTextHolidayApproved=休暇申請%sが承認された。
 EMailTextActionAdded=アクション%sがアジェンダに追加された。
 ImportedWithSet=輸入データセット
-bespoerpNotification=自動通知
+DolibarrNotification=自動通知
 ResizeDesc=新規幅<b>または</b>新規高さを入力する。比率は、サイズ変更時に保持される...
 NewLength=新規幅
 NewHeight=新規高さ

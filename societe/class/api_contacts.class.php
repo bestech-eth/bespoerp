@@ -26,9 +26,9 @@ use Luracast\Restler\RestException;
  * API class for contacts
  *
  * @access protected
- * @class  bespoerpApiAccess {@requires user,external}
+ * @class  DolibarrApiAccess {@requires user,external}
  */
-class Contacts extends bespoerpApi
+class Contacts extends DolibarrApi
 {
 	/**
 	 *
@@ -71,7 +71,7 @@ class Contacts extends bespoerpApi
 	 */
 	public function get($id, $includecount = 0, $includeroles = 0)
 	{
-		if (!bespoerpApiAccess::$user->rights->societe->contact->lire) {
+		if (!DolibarrApiAccess::$user->rights->societe->contact->lire) {
 			throw new RestException(401, 'No permission to read contacts');
 		}
 
@@ -85,8 +85,8 @@ class Contacts extends bespoerpApi
 			throw new RestException(404, 'Contact not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('contact', $this->contact->id, 'socpeople&societe')) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('contact', $this->contact->id, 'socpeople&societe')) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
 		if ($includecount) {
@@ -119,7 +119,7 @@ class Contacts extends bespoerpApi
 	 */
 	public function getByEmail($email, $includecount = 0, $includeroles = 0)
 	{
-		if (!bespoerpApiAccess::$user->rights->societe->contact->lire) {
+		if (!DolibarrApiAccess::$user->rights->societe->contact->lire) {
 			throw new RestException(401, 'No permission to read contacts');
 		}
 
@@ -133,8 +133,8 @@ class Contacts extends bespoerpApi
 			throw new RestException(404, 'Contact not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('contact', $this->contact->id, 'socpeople&societe')) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('contact', $this->contact->id, 'socpeople&societe')) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
 		if ($includecount) {
@@ -176,17 +176,17 @@ class Contacts extends bespoerpApi
 
 		$obj_ret = array();
 
-		if (!bespoerpApiAccess::$user->rights->societe->contact->lire) {
+		if (!DolibarrApiAccess::$user->rights->societe->contact->lire) {
 			throw new RestException(401, 'No permission to read contacts');
 		}
 
 		// case of external user, $thirdparty_ids param is ignored and replaced by user's socid
-		$socids = bespoerpApiAccess::$user->socid ? bespoerpApiAccess::$user->socid : $thirdparty_ids;
+		$socids = DolibarrApiAccess::$user->socid ? DolibarrApiAccess::$user->socid : $thirdparty_ids;
 
 		// If the internal user must only see his customers, force searching by him
 		$search_sale = 0;
-		if (!bespoerpApiAccess::$user->rights->societe->client->voir && !$socids) {
-			$search_sale = bespoerpApiAccess::$user->id;
+		if (!DolibarrApiAccess::$user->rights->societe->client->voir && !$socids) {
+			$search_sale = DolibarrApiAccess::$user->id;
 		}
 
 		$sql = "SELECT t.rowid";
@@ -195,7 +195,7 @@ class Contacts extends bespoerpApi
 			$sql .= ", ".MAIN_DB_PREFIX."categorie_contact as c";
 		}
 		$sql .= " LEFT JOIN ".MAIN_DB_PREFIX."socpeople_extrafields as te ON te.fk_object = t.rowid";
-		if ((!bespoerpApiAccess::$user->rights->societe->client->voir && !$socids) || $search_sale > 0) {
+		if ((!DolibarrApiAccess::$user->rights->societe->client->voir && !$socids) || $search_sale > 0) {
 			// We need this table joined to the select in order to filter by sale
 			$sql .= ", ".MAIN_DB_PREFIX."societe_commerciaux as sc";
 		}
@@ -205,7 +205,7 @@ class Contacts extends bespoerpApi
 			$sql .= " AND t.fk_soc IN (".$this->db->sanitize($socids).")";
 		}
 
-		if ((!bespoerpApiAccess::$user->rights->societe->client->voir && !$socids) || $search_sale > 0) {
+		if ((!DolibarrApiAccess::$user->rights->societe->client->voir && !$socids) || $search_sale > 0) {
 			$sql .= " AND t.fk_soc = sc.fk_soc";
 		}
 		if ($search_sale > 0) {
@@ -283,7 +283,7 @@ class Contacts extends bespoerpApi
 	 */
 	public function post($request_data = null)
 	{
-		if (!bespoerpApiAccess::$user->rights->societe->contact->creer) {
+		if (!DolibarrApiAccess::$user->rights->societe->contact->creer) {
 			throw new RestException(401, 'No permission to create/update contacts');
 		}
 		// Check mandatory fields
@@ -292,7 +292,7 @@ class Contacts extends bespoerpApi
 		foreach ($request_data as $field => $value) {
 			$this->contact->$field = $value;
 		}
-		if ($this->contact->create(bespoerpApiAccess::$user) < 0) {
+		if ($this->contact->create(DolibarrApiAccess::$user) < 0) {
 			throw new RestException(500, "Error creating contact", array_merge(array($this->contact->error), $this->contact->errors));
 		}
 		if (isModEnabled('mailing') && !empty($this->contact->email) && isset($this->contact->no_email)) {
@@ -310,7 +310,7 @@ class Contacts extends bespoerpApi
 	 */
 	public function put($id, $request_data = null)
 	{
-		if (!bespoerpApiAccess::$user->rights->societe->contact->creer) {
+		if (!DolibarrApiAccess::$user->rights->societe->contact->creer) {
 			throw new RestException(401, 'No permission to create/update contacts');
 		}
 
@@ -319,8 +319,8 @@ class Contacts extends bespoerpApi
 			throw new RestException(404, 'Contact not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('contact', $this->contact->id, 'socpeople&societe')) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('contact', $this->contact->id, 'socpeople&societe')) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
 		foreach ($request_data as $field => $value) {
@@ -334,7 +334,7 @@ class Contacts extends bespoerpApi
 			$this->contact->setNoEmail($this->contact->no_email);
 		}
 
-		if ($this->contact->update($id, bespoerpApiAccess::$user, 1, 'update')) {
+		if ($this->contact->update($id, DolibarrApiAccess::$user, 1, 'update')) {
 			return $this->get($id);
 		}
 
@@ -349,7 +349,7 @@ class Contacts extends bespoerpApi
 	 */
 	public function delete($id)
 	{
-		if (!bespoerpApiAccess::$user->rights->societe->contact->supprimer) {
+		if (!DolibarrApiAccess::$user->rights->societe->contact->supprimer) {
 			throw new RestException(401, 'No permission to delete contacts');
 		}
 		$result = $this->contact->fetch($id);
@@ -357,8 +357,8 @@ class Contacts extends bespoerpApi
 			throw new RestException(404, 'Contact not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('contact', $this->contact->id, 'socpeople&societe')) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('contact', $this->contact->id, 'socpeople&societe')) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 		$this->contact->oldcopy = clone $this->contact;
 		return $this->contact->delete();
@@ -375,7 +375,7 @@ class Contacts extends bespoerpApi
 	 */
 	public function createUser($id, $request_data = null)
 	{
-		//if (!bespoerpApiAccess::$user->rights->user->user->creer) {
+		//if (!DolibarrApiAccess::$user->rights->user->user->creer) {
 		//throw new RestException(401);
 		//}
 
@@ -386,10 +386,10 @@ class Contacts extends bespoerpApi
 			throw new RestException(400, "password field missing");
 		}
 
-		if (!bespoerpApiAccess::$user->rights->societe->contact->lire) {
+		if (!DolibarrApiAccess::$user->rights->societe->contact->lire) {
 			throw new RestException(401, 'No permission to read contacts');
 		}
-		if (!bespoerpApiAccess::$user->rights->user->user->creer) {
+		if (!DolibarrApiAccess::$user->rights->user->user->creer) {
 			throw new RestException(401, 'No permission to create user');
 		}
 
@@ -399,8 +399,8 @@ class Contacts extends bespoerpApi
 			throw new RestException(404, 'Contact not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('contact', $contact->id, 'socpeople&societe')) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('contact', $contact->id, 'socpeople&societe')) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
 		// Check mandatory fields
@@ -432,7 +432,7 @@ class Contacts extends bespoerpApi
 	 */
 	public function getCategories($id, $sortfield = "s.rowid", $sortorder = 'ASC', $limit = 0, $page = 0)
 	{
-		if (!bespoerpApiAccess::$user->rights->categorie->lire) {
+		if (!DolibarrApiAccess::$user->rights->categorie->lire) {
 			throw new RestException(401);
 		}
 
@@ -466,7 +466,7 @@ class Contacts extends bespoerpApi
 	 */
 	public function addCategory($id, $category_id)
 	{
-		if (!bespoerpApiAccess::$user->rights->societe->contact->creer) {
+		if (!DolibarrApiAccess::$user->rights->societe->contact->creer) {
 			throw new RestException(401, 'Insufficient rights');
 		}
 
@@ -480,11 +480,11 @@ class Contacts extends bespoerpApi
 			throw new RestException(404, 'category not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('contact', $this->contact->id)) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('contact', $this->contact->id)) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
-		if (!bespoerpApi::_checkAccessToResource('category', $category->id)) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('category', $category->id)) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
 		$category->add_type($this->contact, 'contact');
@@ -506,7 +506,7 @@ class Contacts extends bespoerpApi
 	 */
 	public function deleteCategory($id, $category_id)
 	{
-		if (!bespoerpApiAccess::$user->rights->societe->contact->creer) {
+		if (!DolibarrApiAccess::$user->rights->societe->contact->creer) {
 			throw new RestException(401, 'Insufficient rights');
 		}
 
@@ -520,11 +520,11 @@ class Contacts extends bespoerpApi
 			throw new RestException(404, 'category not found');
 		}
 
-		if (!bespoerpApi::_checkAccessToResource('contact', $this->contact->id)) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('contact', $this->contact->id)) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
-		if (!bespoerpApi::_checkAccessToResource('category', $category->id)) {
-			throw new RestException(401, 'Access not allowed for login '.bespoerpApiAccess::$user->login);
+		if (!DolibarrApi::_checkAccessToResource('category', $category->id)) {
+			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
 		}
 
 		$category->del_type($this->contact, 'contact');

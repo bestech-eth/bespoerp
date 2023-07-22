@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - oauth
+# Dolibarr language file - Source file is en_US - oauth
 ConfigOAuth=ການຕັ້ງຄ່າ OAuth
 OAuthServices=ບໍລິການ OAuth
 ManualTokenGeneration=ການສ້າງໂທເຄັນດ້ວຍຕົນເອງ

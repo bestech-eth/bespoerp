@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - receptions
+# Dolibarr language file - Source file is en_US - receptions
 ReceptionDescription=Управління прийомом постачальників (Створення приймальних документів)
 ReceptionsSetup=Налаштування прийому постачальника
 RefReception=Пос. прийом
@@ -49,6 +49,6 @@ ReceptionsReceiptModel=Шаблони документів для прийомі
 NoMorePredefinedProductToDispatch=Більше ніяких попередньо визначених продуктів для відправки
 ReceptionExist=Приймальня існує
 ByingPrice=Вихідна ціна
-ReceptionBackToDraftInbespoerp=Прийом %s повернутися до чернетки
-ReceptionClassifyClosedInbespoerp=Прийом %s закритий
-ReceptionUnClassifyCloseddInbespoerp=Прийом %s знову відкритий
+ReceptionBackToDraftInDolibarr=Прийом %s повернутися до чернетки
+ReceptionClassifyClosedInDolibarr=Прийом %s закритий
+ReceptionUnClassifyCloseddInDolibarr=Прийом %s знову відкритий

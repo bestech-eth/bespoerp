@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - website
+# Dolibarr language file - Source file is en_US - website
 Shortname=Koda
 WebsiteName=Ime spletne strani
 WebsiteSetupDesc=Tukaj ustvarite spletna mesta, ki jih želite uporabljati. Nato pojdite v meni Spletna mesta, da jih uredite.
@@ -48,13 +48,13 @@ VirtualhostDesc=Ime virtualnega gostitelja ali domene (na primer: www.mywebsite.
 SetHereVirtualHost= <u> Uporabite z Apache/NGinx/... </u> <br> Na svojem spletnem strežniku (Apache, Nginx, ...) ustvarite namenski navidezni gostitelj z omogočenim PHP in korenskim imenikom na <br> <strong> a0ecb2f6zd807f109f
 ExampleToUseInApacheVirtualHostConfig=Primer za uporabo pri nastavitvi virtualnega gostitelja Apache:
 YouCanAlsoTestWithPHPS= <u> Use with PHP embedded server </u>  <br> On develop environment, you may prefer to test the site with the PHP embedded web server (PHP 5.5 required) by running <br>  <strong> php -S 0.0.0.0:8080 -t %s </strong>
-YouCanAlsoDeployToAnotherWHP= <u> Poganjajte svoje spletno mesto z drugim ponudnikom gostovanja bespoerp </u> <br> Če v internetu nimate na voljo spletnega strežnika, kot je Apache ali NGinx, lahko izvozite in uvozite svoje spletno mesto v drug primerek bespoerp, ki ga nudi drug ponudnik gostovanja bespoerp in ki nudi popolno integracija z modulom Spletna stran. Seznam nekaterih ponudnikov gostovanja bespoerp najdete na <a href="https://saas.bespoerp.org" target="_blank" rel="noopener noreferrer external"> https://saas.bespoerp.org </a>
+YouCanAlsoDeployToAnotherWHP= <u> Poganjajte svoje spletno mesto z drugim ponudnikom gostovanja Dolibarr </u> <br> Če v internetu nimate na voljo spletnega strežnika, kot je Apache ali NGinx, lahko izvozite in uvozite svoje spletno mesto v drug primerek Dolibarr, ki ga nudi drug ponudnik gostovanja Dolibarr in ki nudi popolno integracija z modulom Spletna stran. Seznam nekaterih ponudnikov gostovanja Dolibarr najdete na <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external"> https://saas.dolibarr.org </a>
 CheckVirtualHostPerms=Preverite tudi, ali ima uporabnik navideznega gostitelja (na primer www-data) <strong> %s </strong> dovoljenja za datoteke v <br> <strong> %s a0a65d071f6fc9z
 ReadPerm=Preberite
 WritePerm=Pišite
 TestDeployOnWeb=Test/uvedba v spletu
 PreviewSiteServedByWebServer= <u> Predogled %s v novem zavihku. </u> <br> <br> %s bo stregel zunanji spletni strežnik (kot je Apache, Nginx, IIS). You must install and setup this server before to point to directory: <br>  <strong> %s </strong>  <br> URL served by external server: <br>  <strong> %s </strong>
-PreviewSiteServedBybespoerp= <u> Predogled %s v novem zavihku. </u> <br> <br> %s bo stregel strežnik bespoerp, tako da ne potrebuje dodatnega spletnega strežnika (kot je Apache, Nginx, IIS), ki ga je treba namestiti. <br> Neprijetno je, da URL-ji strani niso uporabniku prijazni in se začnejo s potjo vašega bespoerpja. <br> URL served by bespoerp: <br>  <strong> %s </strong>  <br>  <br> To use your own external web server to serve this web site, create a virtual host on your web server that points on directory <br>  <strong> %s </strong>  <br> then enter the name of this virtual server v lastnostih tega spletnega mesta in kliknite na povezavo "Preizkusi/Uvedi v spletu".
+PreviewSiteServedByDolibarr= <u> Predogled %s v novem zavihku. </u> <br> <br> %s bo stregel strežnik Dolibarr, tako da ne potrebuje dodatnega spletnega strežnika (kot je Apache, Nginx, IIS), ki ga je treba namestiti. <br> Neprijetno je, da URL-ji strani niso uporabniku prijazni in se začnejo s potjo vašega Dolibarrja. <br> URL served by Dolibarr: <br>  <strong> %s </strong>  <br>  <br> To use your own external web server to serve this web site, create a virtual host on your web server that points on directory <br>  <strong> %s </strong>  <br> then enter the name of this virtual server v lastnostih tega spletnega mesta in kliknite na povezavo "Preizkusi/Uvedi v spletu".
 VirtualHostUrlNotDefined=URL virtualnega gostitelja, ki ga streže zunanji spletni strežnik, ni definiran
 NoPageYet=Ni še nobene strani
 YouCanCreatePageOrImportTemplate=Ustvarite lahko novo stran ali uvozite celotno predlogo spletnega mesta

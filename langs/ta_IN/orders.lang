@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - orders
+# Dolibarr language file - Source file is en_US - orders
 OrdersArea=வாடிக்கையாளர்கள் ஆர்டர் செய்யும் பகுதி
 SuppliersOrdersArea=கொள்முதல் ஆர்டர்கள் பகுதி
 OrderCard=ஆர்டர் அட்டை
@@ -120,8 +120,8 @@ ConfirmCloneOrder=<b> %s </b> இந்த ஆர்டரை நிச்சய
 DispatchSupplierOrder=%s கொள்முதல் ஆர்டரைப் பெறுகிறது
 FirstApprovalAlreadyDone=முதல் ஒப்புதல் ஏற்கனவே முடிந்துவிட்டது
 SecondApprovalAlreadyDone=இரண்டாவது ஒப்புதல் ஏற்கனவே முடிந்தது
-SupplierOrderReceivedInbespoerp=%s வாங்கிய ஆர்டர் %s
-SupplierOrderSubmitedInbespoerp=வாங்குதல் ஆர்டர் %s சமர்ப்பிக்கப்பட்டது
+SupplierOrderReceivedInDolibarr=%s வாங்கிய ஆர்டர் %s
+SupplierOrderSubmitedInDolibarr=வாங்குதல் ஆர்டர் %s சமர்ப்பிக்கப்பட்டது
 SupplierOrderClassifiedBilled=பர்ச்சேஸ் ஆர்டர் %s செட் பில் செய்யப்பட்டது
 OtherOrders=பிற ஆர்டர்கள்
 SupplierOrderValidatedAndApproved=சப்ளையர் ஆர்டர் சரிபார்க்கப்பட்டு அங்கீகரிக்கப்பட்டது: %s

@@ -1,7 +1,7 @@
-# bespoerp language file - Source file is en_US - paybox
+# Dolibarr language file - Source file is en_US - paybox
 PayBoxSetup=PayBox模組設定
-PayBoxDesc=此模組允許客戶以<a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a>付款。這可以用於臨時付款或與bespoerp項目有關的付款（發票，訂單等）。
-FollowingUrlAreAvailableToMakePayments=以下網址可提供給客戶的網頁上，能夠作出bespoerp支付對象
+PayBoxDesc=此模組允許客戶以<a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a>付款。這可以用於臨時付款或與Dolibarr項目有關的付款（發票，訂單等）。
+FollowingUrlAreAvailableToMakePayments=以下網址可提供給客戶的網頁上，能夠作出Dolibarr支付對象
 PaymentForm=付款方式
 WelcomeOnPaymentPage=歡迎使用我們的線上支付服務
 ThisScreenAllowsYouToPay=這個屏幕允許你進行網上支付%s。

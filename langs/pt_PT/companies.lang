@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - companies
+# Dolibarr language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=O nome da empresa %s já existe. Escolha outro.
 ErrorSetACountryFirst=Defina primeiro o país
 SelectThirdParty=Selecione um terceiro
@@ -12,7 +12,7 @@ MenuNewSupplier=Novo Fornecedor
 MenuNewPrivateIndividual=Novo Particular
 NewCompany=Nova empresa (potencial cliente, cliente, fornecedor)
 NewThirdParty=Novo Terceiro (potencial cliente, cliente, fornecedor)
-CreatebespoerpThirdPartySupplier=Criar um terceiro (fornecedor)
+CreateDolibarrThirdPartySupplier=Criar um terceiro (fornecedor)
 CreateThirdPartyOnly=Criar terceiro
 CreateThirdPartyAndContact=Criar um terceiro e um dos seus contactos
 ProspectionArea=Área de prospeção
@@ -383,7 +383,7 @@ CapitalOf=Capital Social de %s
 EditCompany=Modificar Empresa
 ThisUserIsNot=Este usuário não é um cliente potencial, ou fornecedor
 VATIntraCheck=Verificar
-VATIntraCheckDesc=O ID do IVA deve incluir o prefixo do país. O link <b> %s </b> usa o serviço de verificador de IVA europeu (VIES) que requer acesso à Internet do servidor bespoerp.
+VATIntraCheckDesc=O ID do IVA deve incluir o prefixo do país. O link <b> %s </b> usa o serviço de verificador de IVA europeu (VIES) que requer acesso à Internet do servidor Dolibarr.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Verifique o ID do IVA intracomunitário no site da Comissão Europeia
 VATIntraManualCheck=Também pode verificar manualmente no ''site'' da Web da Comissão Europeia <a href="%s" target="_blank" rel="noopener noreferrer">%s</a>
@@ -429,8 +429,8 @@ ProspectsByStatus=Clientes Potenciais por Estado
 NoParentCompany=Nenhuma
 ExportCardToFormat=Exportar ficha para o formato
 ContactNotLinkedToCompany=Contacto não vinculado a um Terceiro
-bespoerpLogin=bespoerp - Iniciar Sessão
-NobespoerpAccess=Sem Acesso
+DolibarrLogin=Dolibarr - Iniciar Sessão
+NoDolibarrAccess=Sem Acesso
 ExportDataset_company_1=Terceiros (empresas / fundações / pessoas físicas) e suas propriedades
 ExportDataset_company_2=Contatos e suas propriedades
 ImportDataset_company_1=Terceiros e suas propriedades

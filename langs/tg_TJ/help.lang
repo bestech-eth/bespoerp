@@ -1,12 +1,12 @@
-# bespoerp language file - Source file is en_US - help
+# Dolibarr language file - Source file is en_US - help
 CommunitySupport=Дастгирии форум/Wiki
 EMailSupport=Дастгирии почтаи электронӣ
 RemoteControlSupport=Дастгирии онлайн дар вақти воқеӣ / дурдаст
 OtherSupport=Дастгирии дигар
 ToSeeListOfAvailableRessources=Барои тамос/дидани захираҳои мавҷуда:
 HelpCenter=Маркази кӯмак
-bespoerpHelpCenter=Маркази кӯмак ва дастгирии bespoerp
-ToGoBackTobespoerp=Дар акси ҳол, <a href="%s"> барои идома додани истифодаи bespoerp </a> ин ҷо клик кунед.
+DolibarrHelpCenter=Маркази кӯмак ва дастгирии Dolibarr
+ToGoBackToDolibarr=Дар акси ҳол, <a href="%s"> барои идома додани истифодаи Dolibarr </a> ин ҷо клик кунед.
 TypeOfSupport=Навъи дастгирӣ
 TypeSupportCommunauty=Ҷамъият (ройгон)
 TypeSupportCommercial=Тиҷоратӣ
@@ -17,7 +17,7 @@ TypeHelpOnly=Фақат ёрдам
 TypeHelpDev=Кӯмак+Рушд
 TypeHelpDevForm=Кӯмак+Рушд+Омӯзиш
 BackToHelpCenter=Дар акси ҳол, <a href="%s"> ба саҳифаи хонагии маркази Help </a> баргардед.
-LinkToGoldMember=Шумо метавонед ба яке аз тренерон, ки bespoerp барои забони худ интихоб кардааст, занг занед (%s) бо пахши виҷети онҳо (мақом ва нархи ҳадди аксар ба таври худкор нав карда мешавад):
+LinkToGoldMember=Шумо метавонед ба яке аз тренерон, ки Dolibarr барои забони худ интихоб кардааст, занг занед (%s) бо пахши виҷети онҳо (мақом ва нархи ҳадди аксар ба таври худкор нав карда мешавад):
 PossibleLanguages=Забонҳои дастгирӣшаванда
-SubscribeToFoundation=Ба лоиҳаи bespoerp кумак кунед, ба бунёд обуна шавед
-SeeOfficalSupport=Барои дастгирии расмии bespoerp бо забони шумо: <br> <b> <a href="%s" target="_blank"> %s </a> </b>
+SubscribeToFoundation=Ба лоиҳаи Dolibarr кумак кунед, ба бунёд обуна шавед
+SeeOfficalSupport=Барои дастгирии расмии Dolibarr бо забони шумо: <br> <b> <a href="%s" target="_blank"> %s </a> </b>

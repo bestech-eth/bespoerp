@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - errors
+# Dolibarr language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Nicio eroare, dăm commit
@@ -82,7 +82,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=Câmpul <b>%s</b> nu trebuie s�
 ErrorFieldMustHaveXChar=Câmpul <b>%s</b> trebuie să aibă cel puțin %scaractere.
 ErrorNoAccountancyModuleLoaded=Modulul Contabilitate nu este activat 
 ErrorExportDuplicateProfil=Acest nume de profil există deja pentru acest set de export.
-ErrorLDAPSetupNotComplete=Potrivirea bespoerp-LDAP nu este finalizată.
+ErrorLDAPSetupNotComplete=Potrivirea Dolibarr-LDAP nu este finalizată.
 ErrorLDAPMakeManualTest=Un fişier .ldif a fost generat în directorul %s. Încercaţi să încărcaţi manual din linia de comandă pentru a avea mai multe informatii cu privire la erori.
 ErrorCantSaveADoneUserWithZeroPercentage=Nu se poate salva o acțiune cu "starea nu a început" dacă se completează și câmpul "efectuat de".
 ErrorRefAlreadyExists=Referinţa <b>%s</b> există deja.
@@ -139,8 +139,8 @@ ErrorWebServerUserHasNotPermission=Contul de utilizator <b>%s</b> folosit pentru
 ErrorNoActivatedBarcode=Niciun tip de coduri de bare activat
 ErrUnzipFails=Eşec la dezarhivarea fişierului %s cu ZipArchive
 ErrNoZipEngine=Nu există niciun motor pentru a arhiva/dezarhiva fișierul %s în această configuraţie PHP
-ErrorFileMustBeAbespoerpPackage=Fșierul %s  trebuie să fie un pachet zip bespoerp
-ErrorModuleFileRequired=Trebuie să selectați un fișier pachet de modul bespoerp
+ErrorFileMustBeADolibarrPackage=Fșierul %s  trebuie să fie un pachet zip Dolibarr
+ErrorModuleFileRequired=Trebuie să selectați un fișier pachet de modul Dolibarr
 ErrorPhpCurlNotInstalled=PHP CURL nu este instalat, acest lucru este esențial pentru comunicarea cu Paypal
 ErrorFailedToAddToMailmanList=Eşec la adăugarea %s la lista de Mailman %s sau la baza SPIP
 ErrorFailedToRemoveToMailmanList=Eşec la înlăturarea %s din lista de Mailman %s sau din baza SPIP
@@ -215,7 +215,7 @@ ErrorUserNotAssignedToTask=Utilizatorul trebuie să fie atribuit task-ului pentr
 ErrorTaskAlreadyAssigned=Task atribuit deja utilizatorului
 ErrorModuleFileSeemsToHaveAWrongFormat=Pachetul de modul pare să aibă un format greșit.
 ErrorModuleFileSeemsToHaveAWrongFormat2=Cel puțin un director trebuie să existe obligatoriu în arhiva zip a modulului: <strong>%s</strong> sau <strong>%s</strong> 
-ErrorFilenameDosNotMatchbespoerpPackageRules=Numele pachetului de modul (<strong> %s</strong>) nu se potrivește cu sintaxa de denumire așteptată: <strong>%s</strong>
+ErrorFilenameDosNotMatchDolibarrPackageRules=Numele pachetului de modul (<strong> %s</strong>) nu se potrivește cu sintaxa de denumire așteptată: <strong>%s</strong>
 ErrorDuplicateTrigger=Eroare, nume de trigger duplicat  %s. Este deja încărcat de %s.
 ErrorNoWarehouseDefined=Eroare, nu au fost definite depozite.
 ErrorBadLinkSourceSetButBadValueForRef=Linkul pe care îl utilizați nu este valid. O "sursă" pentru plată este definită, dar valoarea pentru "ref" nu este validă.

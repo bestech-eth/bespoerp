@@ -29,7 +29,7 @@ require_once '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/functions.lib.php';
 
 // Security
-if ($bespoerp_main_prod) {
+if ($dolibarr_main_prod) {
 	accessforbidden();
 }
 

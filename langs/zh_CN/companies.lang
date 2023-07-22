@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - companies
+# Dolibarr language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=公司名称%s已经存在。请使用其它名称。
 ErrorSetACountryFirst=请先设置国家
 SelectThirdParty=选择合伙人
@@ -12,7 +12,7 @@ MenuNewSupplier=New Vendor
 MenuNewPrivateIndividual=新私营个体
 NewCompany=新建公司 (准客户,客户,供应商)
 NewThirdParty=New Third Party (prospect, customer, vendor)
-CreatebespoerpThirdPartySupplier=创建合伙人（供应商）
+CreateDolibarrThirdPartySupplier=创建合伙人（供应商）
 CreateThirdPartyOnly=创建合伙人
 CreateThirdPartyAndContact=创建合伙人+联系人
 ProspectionArea=准客户区
@@ -383,7 +383,7 @@ CapitalOf=注册资金 %s
 EditCompany=编辑公司
 ThisUserIsNot=This user is not a prospect, customer or vendor
 VATIntraCheck=支票
-VATIntraCheckDesc=The VAT ID must include the country prefix. The link <b>%s</b> uses the European VAT checker service (VIES) which requires internet access from the bespoerp server.
+VATIntraCheckDesc=The VAT ID must include the country prefix. The link <b>%s</b> uses the European VAT checker service (VIES) which requires internet access from the Dolibarr server.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Check the intra-Community VAT ID on the European Commission website
 VATIntraManualCheck=You can also check manually on the European Commission website <a href="%s" target="_blank" rel="noopener noreferrer">%s</a>
@@ -429,8 +429,8 @@ ProspectsByStatus=按准客户状态
 NoParentCompany=无
 ExportCardToFormat=导出名片格式
 ContactNotLinkedToCompany=联系人未链接到任何合伙人
-bespoerpLogin=登陆bespoerp
-NobespoerpAccess=没有bespoerp访问
+DolibarrLogin=登陆Dolibarr
+NoDolibarrAccess=没有Dolibarr访问
 ExportDataset_company_1=Third-parties (companies/foundations/physical people) and their properties
 ExportDataset_company_2=Contacts and their properties
 ImportDataset_company_1=Third-parties and their properties

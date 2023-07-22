@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
-	<title>bespoerp 404 error page</title>
+	<title>Dolibarr 404 error page</title>
   </head>
 
   <body>

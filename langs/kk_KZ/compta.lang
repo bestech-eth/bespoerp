@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - compta
+# Dolibarr language file - Source file is en_US - compta
 MenuFinancial=Төлем | Төлем
 TaxModuleSetupToModifyRules=Есептеу ережелерін өзгерту үшін <a href="%s"> </a> салықтар модулін орнатуға өтіңіз.
 TaxModuleSetupToModifyRulesLT=<a href="%s"> Компанияның </a> орнатуына өтіңіз, есептеу ережелерін өзгертіңіз.

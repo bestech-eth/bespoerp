@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - projects
+# Dolibarr language file - Source file is en_US - projects
 RefProject=Ref. projekt
 ProjectRef=Numer referencyjny projektu
 ProjectId=Projekt Id
@@ -157,12 +157,12 @@ ConfirmCloneProject=Czy powielić ten projekt?
 ProjectReportDate=Zmień daty zadań zgodnie z nową datą rozpoczęcia projektu
 ErrorShiftTaskDate=Niemożliwe do przesunięcia daty zadania według nowej daty rozpoczęcia projektu
 ProjectsAndTasksLines=Projekty i zadania
-ProjectCreatedInbespoerp=Projekt %s utworzony
-ProjectValidatedInbespoerp=Projekt %s został zweryfikowany
-ProjectModifiedInbespoerp=Projekt %s zmodyfikowany
-TaskCreatedInbespoerp=Zadanie %s utworzono
-TaskModifiedInbespoerp=Zadań %s zmodyfikowano
-TaskDeletedInbespoerp=Zadań %s usunięto
+ProjectCreatedInDolibarr=Projekt %s utworzony
+ProjectValidatedInDolibarr=Projekt %s został zweryfikowany
+ProjectModifiedInDolibarr=Projekt %s zmodyfikowany
+TaskCreatedInDolibarr=Zadanie %s utworzono
+TaskModifiedInDolibarr=Zadań %s zmodyfikowano
+TaskDeletedInDolibarr=Zadań %s usunięto
 OpportunityStatus=Status potencjalnego klienta
 OpportunityStatusShort=Status potencjalnego klienta
 OpportunityProbability=Prawdopodobieństwo ołowiu

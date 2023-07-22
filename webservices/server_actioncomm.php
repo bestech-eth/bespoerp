@@ -15,12 +15,12 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  *
- * Path to WSDL is: http://localhost/bespoerp/webservices/server_actioncomm.php?wsdl
+ * Path to WSDL is: http://localhost/dolibarr/webservices/server_actioncomm.php?wsdl
  */
 
 /**
  *       \file       htdocs/webservices/server_actioncomm.php
- *       \brief      File that is entry point to call bespoerp WebServices
+ *       \brief      File that is entry point to call Dolibarr WebServices
  */
 
 if (!defined("NOCSRFCHECK")) {
@@ -41,7 +41,7 @@ dol_syslog("Call ActionComm webservices interfaces");
 // Enable and test if module web services is enabled
 if (empty($conf->global->MAIN_MODULE_WEBSERVICES)) {
 	$langs->load("admin");
-	dol_syslog("Call bespoerp webservices interfaces with module webservices disabled");
+	dol_syslog("Call Dolibarr webservices interfaces with module webservices disabled");
 	print $langs->trans("WarningModuleNotActive", 'WebServices').'.<br><br>';
 	print $langs->trans("ToActivateModule");
 	exit;
@@ -51,8 +51,8 @@ if (empty($conf->global->MAIN_MODULE_WEBSERVICES)) {
 $server = new nusoap_server();
 $server->soap_defencoding = 'UTF-8';
 $server->decode_utf8 = false;
-$ns = 'http://www.bespoerp.org/ns/';
-$server->configureWSDL('WebServicesbespoerpActionComm', $ns);
+$ns = 'http://www.dolibarr.org/ns/';
+$server->configureWSDL('WebServicesDolibarrActionComm', $ns);
 $server->wsdl->schemaTargetNamespace = $ns;
 
 
@@ -64,7 +64,7 @@ $server->wsdl->addComplexType(
 	'all',
 	'',
 	array(
-		'bespoerpkey' => array('name'=>'bespoerpkey', 'type'=>'xsd:string'),
+		'dolibarrkey' => array('name'=>'dolibarrkey', 'type'=>'xsd:string'),
 		'sourceapplication' => array('name'=>'sourceapplication', 'type'=>'xsd:string'),
 		'login' => array('name'=>'login', 'type'=>'xsd:string'),
 		'password' => array('name'=>'password', 'type'=>'xsd:string'),

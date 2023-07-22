@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - sms
+# Dolibarr language file - Source file is en_US - sms
 Sms=SMS
 SmsSetup=SMSの設定
 SmsDesc=このページでは、SMS機能のグローバルオプションを定義できる

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - orders
+# Dolibarr language file - Source file is en_US - orders
 OrderExists=與此提案/建議書相關聯的訂單已打開，因此不會自動建立其他訂單
 OrdersArea=客戶訂單區
 SuppliersOrdersArea=採購訂單區
@@ -129,8 +129,8 @@ ConfirmCloneOrder=您確定要複製此<b>%s</b>訂單嗎？
 DispatchSupplierOrder=接收%s採購訂單
 FirstApprovalAlreadyDone=第一次批准已經完成
 SecondApprovalAlreadyDone=第二次批准已經完成
-SupplierOrderReceivedInbespoerp=採購訂單%s已收到%s
-SupplierOrderSubmitedInbespoerp=已提交%s採購訂單
+SupplierOrderReceivedInDolibarr=採購訂單%s已收到%s
+SupplierOrderSubmitedInDolibarr=已提交%s採購訂單
 SupplierOrderClassifiedBilled=採購訂單%s設置為已開票
 OtherOrders=其他訂單
 SupplierOrderValidatedAndApproved=供應商訂單已驗證並且已批准:%s

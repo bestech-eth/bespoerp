@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - workflow
+# Dolibarr language file - Source file is en_US - workflow
 WorkflowSetup=Жұмыс процесінің модулін орнату
 WorkflowDesc=Бұл модуль кейбір автоматты әрекеттерді қамтамасыз етеді. Әдепкі бойынша, жұмыс процесі ашық (сіз кез келген нәрсені өзіңіз жасай аласыз), бірақ мұнда сіз автоматты әрекеттерді белсендіре аласыз.
 ThereIsNoWorkflowToModify=Іске қосылған модульдермен жұмыс процесінің модификациясы жоқ.

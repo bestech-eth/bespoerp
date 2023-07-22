@@ -147,7 +147,7 @@ abstract class ModeleNumRefRecruitmentCandidature
 		if ($this->version == 'experimental') {
 			return $langs->trans("VersionExperimental");
 		}
-		if ($this->version == 'bespoerp') {
+		if ($this->version == 'dolibarr') {
 			return DOL_VERSION;
 		}
 		if ($this->version) {

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - exports
+# Dolibarr language file - Source file is en_US - exports
 ExportsArea=Izvoz
 ImportArea=Uvozi
 NewExport=Nov izvoz
@@ -61,7 +61,7 @@ ChooseFormatOfFileToImport=Izberite obliko datoteke, ki jo želite uporabiti kot
 ChooseFileToImport=Naložite datoteko in kliknite ikono %s, da izberete datoteko kot izvorno uvozno datoteko ...
 SourceFileFormat=Format izvorne datoteke
 FieldsInSourceFile=Polja v izvorni datoteki
-FieldsInTargetDatabase=Ciljna polja v bespoerp bazi podatkov (krepko=obvezno)
+FieldsInTargetDatabase=Ciljna polja v Dolibarr bazi podatkov (krepko=obvezno)
 Field=Polje
 NoFields=Ni polj
 MoveField=Premaknite kolono s polji številka %s

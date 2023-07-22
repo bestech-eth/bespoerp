@@ -15,11 +15,11 @@
    version="1.1"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="dolistore_logo.svg"
-   inkscape:export-filename="/home/ldestailleur/git/bespoerp-foundation/logo-cliparts/dolistore_logo.png"
+   inkscape:export-filename="/home/ldestailleur/git/dolibarr-foundation/logo-cliparts/dolistore_logo.png"
    inkscape:export-xdpi="192"
    inkscape:export-ydpi="192">
   <title
-     id="title3072">Logo bespoerp ERP-CRM</title>
+     id="title3072">Logo Dolibarr ERP-CRM</title>
   <defs
      id="defs3452">
     <linearGradient
@@ -63,7 +63,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>Logo bespoerp ERP-CRM</dc:title>
+        <dc:title>Logo Dolibarr ERP-CRM</dc:title>
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
         <dc:creator>

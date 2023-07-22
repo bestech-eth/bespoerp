@@ -21,7 +21,7 @@
  * \brief   Recruitment setup page.
  */
 
-// Load bespoerp environment
+// Load Dolibarr environment
 $res = 0;
 // Try main.inc.php into web root known defined into CONTEXT_DOCUMENT_ROOT (not always defined)
 if (!$res && !empty($_SERVER["CONTEXT_DOCUMENT_ROOT"])) {
@@ -96,7 +96,7 @@ if ($action == 'updateMask') {
 	$maskvalue = GETPOST('maskjob', 'alpha');
 
 	if ($maskconst && preg_match('/_MASK$/', $maskconst)) {
-		$res = bespoerp_set_const($db, $maskconst, $maskvalue, 'chaine', 0, '', $conf->entity);
+		$res = dolibarr_set_const($db, $maskconst, $maskvalue, 'chaine', 0, '', $conf->entity);
 	}
 
 	if (!($res > 0)) {
@@ -153,7 +153,7 @@ if ($action == 'updateMask') {
 		if (!empty($tmpobjectkey)) {
 			$constforval = 'RECRUITMENT_'.strtoupper($tmpobjectkey).'_ADDON_PDF';
 			if ($conf->global->$constforval == "$value") {
-				bespoerp_del_const($db, $constforval, $conf->entity);
+				dolibarr_del_const($db, $constforval, $conf->entity);
 			}
 		}
 	}
@@ -163,14 +163,14 @@ if ($action == 'updateMask') {
 	if (!empty($tmpobjectkey)) {
 		$constforval = 'RECRUITMENT_'.strtoupper($tmpobjectkey)."_ADDON";
 
-		bespoerp_set_const($db, $constforval, $value, 'chaine', 0, '', $conf->entity);
+		dolibarr_set_const($db, $constforval, $value, 'chaine', 0, '', $conf->entity);
 	}
 } elseif ($action == 'setdoc') {
 	// Set default model
 	$tmpobjectkey = GETPOST('object');
 	if (!empty($tmpobjectkey)) {
 		$constforval = 'RECRUITMENT_'.strtoupper($tmpobjectkey).'_ADDON_PDF';
-		if (bespoerp_set_const($db, $constforval, $value, 'chaine', 0, '', $conf->entity)) {
+		if (dolibarr_set_const($db, $constforval, $value, 'chaine', 0, '', $conf->entity)) {
 			// The constant that was read before the new set
 			// We therefore requires a variable to have a coherent view
 			$conf->global->$constforval = $value;
@@ -186,7 +186,7 @@ if ($action == 'updateMask') {
 	$tmpobjectkey = GETPOST('object');
 	if (!empty($tmpobjectkey)) {
 		$constforval = 'RECRUITMENT_'.strtoupper($tmpobjectkey).'_ADDON_PDF';
-		bespoerp_del_const($db, $constforval, $conf->entity);
+		dolibarr_del_const($db, $constforval, $conf->entity);
 	}
 }
 

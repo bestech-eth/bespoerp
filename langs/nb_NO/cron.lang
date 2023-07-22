@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - cron
+# Dolibarr language file - Source file is en_US - cron
 # About page
 # Right
 Permission23101 = Les planlagt jobb
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Deaktiver
 CronTaskInactive=Denne jobben er deaktivert (ikke planlagt)
 CronId=ID
 CronClassFile=Filnavn med klasse
-CronModuleHelp=Navn på bespoerp-modulkatalog (også arbeid med ekstern bespoerp-modul). <BR> For eksempel å kalle hentmetoden for bespoerp Produkt objektet /htdocs/<u>product</u>/class/product.class.php, er verdien for modulen <br><i> produkt </i>
-CronClassFileHelp=Den relative banen og filnavnet som skal lastes (banen er i forhold til webserverens rotkatalog). <BR> For eksempel for å kalle hentmetoden for bespoerp Produkt-objekt htdocs/product/class/ <u> product.class.php </u>, er verdien for klassen filnavn <br><i> produkt/klasse/product.class.php</i>
-CronObjectHelp=Objektnavnet som skal lastes inn. <BR> For eksempel for å kalle hentmetoden for bespoerp Product-objektet /htdocs/product/class/product.class.php, er verdien for klassefilenavnet <br> <i> Produkt </i>
-CronMethodHelp=Objektmetoden å kjøre. <BR> For eksempel å kalle hentmetoden for bespoerp Product-objektet /htdocs/product/class/product.class.php, er verdien for metoden <br> <i> hent </i>
-CronArgsHelp=Metoden argumenter. <BR> For eksempel for å kalle hentemetoden for bespoerp Product-objektet /htdocs/product/class/product.class.php, kan verdien for paramters være<br> <i> 0, ProductRef </i>
+CronModuleHelp=Navn på Dolibarr-modulkatalog (også arbeid med ekstern Dolibarr-modul). <BR> For eksempel å kalle hentmetoden for Dolibarr Produkt objektet /htdocs/<u>product</u>/class/product.class.php, er verdien for modulen <br><i> produkt </i>
+CronClassFileHelp=Den relative banen og filnavnet som skal lastes (banen er i forhold til webserverens rotkatalog). <BR> For eksempel for å kalle hentmetoden for Dolibarr Produkt-objekt htdocs/product/class/ <u> product.class.php </u>, er verdien for klassen filnavn <br><i> produkt/klasse/product.class.php</i>
+CronObjectHelp=Objektnavnet som skal lastes inn. <BR> For eksempel for å kalle hentmetoden for Dolibarr Product-objektet /htdocs/product/class/product.class.php, er verdien for klassefilenavnet <br> <i> Produkt </i>
+CronMethodHelp=Objektmetoden å kjøre. <BR> For eksempel å kalle hentmetoden for Dolibarr Product-objektet /htdocs/product/class/product.class.php, er verdien for metoden <br> <i> hent </i>
+CronArgsHelp=Metoden argumenter. <BR> For eksempel for å kalle hentemetoden for Dolibarr Product-objektet /htdocs/product/class/product.class.php, kan verdien for paramters være<br> <i> 0, ProductRef </i>
 CronCommandHelp=System kommandolinje som skal kjøres
 CronCreateJob=Opprett ny planlagt jobb
 CronFrom=Fra

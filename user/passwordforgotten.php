@@ -25,7 +25,7 @@
 
 define("NOLOGIN", 1); // This means this output page does not require to be logged.
 
-// Load bespoerp environment
+// Load Dolibarr environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/contact/class/contact.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/usergroups.lib.php';
@@ -44,7 +44,7 @@ if (!empty($conf->global->MAIN_SECURITY_DISABLEFORGETPASSLINK)) {
 }
 
 $action = GETPOST('action', 'aZ09');
-$mode = $bespoerp_main_authentication;
+$mode = $dolibarr_main_authentication;
 if (!$mode) {
 	$mode = 'http';
 }
@@ -94,10 +94,10 @@ if (empty($reshook)) {
 		if ($result < 0) {
 			$message = '<div class="error">'.dol_escape_htmltag($langs->trans("ErrorTechnicalError")).'</div>';
 		} else {
-			global $bespoerp_main_instance_unique_id;
+			global $dolibarr_main_instance_unique_id;
 
-			//print $edituser->pass_temp.'-'.$edituser->id.'-'.$bespoerp_main_instance_unique_id.' '.$passworduidhash;
-			if ($edituser->pass_temp && dol_verifyHash($edituser->pass_temp.'-'.$edituser->id.'-'.$bespoerp_main_instance_unique_id, $passworduidhash)) {
+			//print $edituser->pass_temp.'-'.$edituser->id.'-'.$dolibarr_main_instance_unique_id.' '.$passworduidhash;
+			if ($edituser->pass_temp && dol_verifyHash($edituser->pass_temp.'-'.$edituser->id.'-'.$dolibarr_main_instance_unique_id, $passworduidhash)) {
 				// Clear session
 				unset($_SESSION['dol_login']);
 				$_SESSION['dol_loginmesg'] = '<!-- warning -->'.$langs->transnoentitiesnoconv('NewPasswordValidated'); // Save message for the session page
@@ -178,7 +178,7 @@ if (empty($reshook)) {
 $dol_url_root = DOL_URL_ROOT;
 
 // Title
-$title = 'bespoerp '.DOL_VERSION;
+$title = 'Dolibarr '.DOL_VERSION;
 if (!empty($conf->global->MAIN_APPLICATION_TITLE)) {
 	$title = $conf->global->MAIN_APPLICATION_TITLE;
 }
@@ -198,7 +198,7 @@ if (!$username) {
 
 // Send password button enabled ?
 $disabled = 'disabled';
-if (preg_match('/bespoerp/i', $mode)) {
+if (preg_match('/dolibarr/i', $mode)) {
 	$disabled = '';
 }
 if (!empty($conf->global->MAIN_SECURITY_ENABLE_SENDPASSWORD)) {
@@ -214,10 +214,10 @@ if (!empty($mysoc->logo_small) && is_readable($conf->mycompany->dir_output.'/log
 } elseif (!empty($mysoc->logo_small) && is_readable($conf->mycompany->dir_output.'/logos/'.$mysoc->logo)) {
 	$urllogo = DOL_URL_ROOT.'/viewimage.php?cache=1&amp;modulepart=mycompany&amp;file='.urlencode('logos/'.$mysoc->logo);
 	$width = 128;
-} elseif (is_readable(DOL_DOCUMENT_ROOT.'/theme/'.$conf->theme.'/img/bespoerp_logo.svg')) {
-	$urllogo = DOL_URL_ROOT.'/theme/'.$conf->theme.'/img/bespoerp_logo.svg';
-} elseif (is_readable(DOL_DOCUMENT_ROOT.'/theme/bespoerp_logo.svg')) {
-	$urllogo = DOL_URL_ROOT.'/theme/bespoerp_logo.svg';
+} elseif (is_readable(DOL_DOCUMENT_ROOT.'/theme/'.$conf->theme.'/img/dolibarr_logo.svg')) {
+	$urllogo = DOL_URL_ROOT.'/theme/'.$conf->theme.'/img/dolibarr_logo.svg';
+} elseif (is_readable(DOL_DOCUMENT_ROOT.'/theme/dolibarr_logo.svg')) {
+	$urllogo = DOL_URL_ROOT.'/theme/dolibarr_logo.svg';
 }
 
 // Security graphical code

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - loan
+# Dolibarr language file - Source file is en_US - loan
 IdModule= Module id
 ModuleBuilderDesc=Цим інструментом повинні користуватися лише досвідчені користувачі або розробники. Він надає утиліти для створення або редагування вашого власного модуля. Документація для альтернативної розробки вручну <a href="%s" target="_blank" rel="noopener noreferrer"> знаходиться тут </a>.
 EnterNameOfModuleDesc=Enter the name of the module/application to create with no spaces. Use uppercase to separate words (For example: MyModule, EcommerceForShop, SyncWithMySystem...)
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=Ви можете видалити свій мод
 EnterNameOfObjectToDeleteDesc=Ви можете видалити об’єкт. ПОПЕРЕДЖЕННЯ: усі файли кодування (згенеровані чи створені вручну), пов’язані з об’єктом, будуть видалені!
 DangerZone=НЕБЕЗПЕЧНА ЗОНА
 BuildPackage=Збірний пакет
-BuildPackageDesc=Ви можете створити zip-пакет своєї програми, щоб ви були готові розповсюдити його на будь-якому bespoerp. Ви також можете поширювати його або продавати на ринку, наприклад <a href="https://www.dolistore.com"> DoliStore.com </a>.
+BuildPackageDesc=Ви можете створити zip-пакет своєї програми, щоб ви були готові розповсюдити його на будь-якому Dolibarr. Ви також можете поширювати його або продавати на ринку, наприклад <a href="https://www.dolistore.com"> DoliStore.com </a>.
 BuildDocumentation=Складання документації
 ModuleIsNotActive=Цей модуль ще не активований. Перейдіть до %s, щоб опублікувати його, або натисніть тут
 ModuleIsLive=Цей модуль активовано. Будь-які зміни можуть порушити дію поточної функції.
@@ -110,7 +110,7 @@ HooksDefDesc=Визначте у властивості <b> module_parts['hooks'
 TriggerDefDesc=Визначте у файлі тригера код, який ви хочете виконати, коли виконується зовнішня для вашого модуля бізнес-подія (події, ініційовані іншими модулями).
 SeeIDsInUse=Перегляньте ідентифікатори, які використовуються у вашій установці
 SeeReservedIDsRangeHere=Перегляньте діапазон зарезервованих ідентифікаторів
-ToolkitForDevelopers=Набір інструментів для розробників bespoerp
+ToolkitForDevelopers=Набір інструментів для розробників Dolibarr
 TryToUseTheModuleBuilder=Якщо ви володієте знаннями SQL і PHP, ви можете скористатися власним майстром створення модулів. <br> Увімкніть модуль <strong> %s </strong> і скористайтеся майстром, клацнувши <span class="fa fa-bug"> a014fc1b95 меню вгорі праворуч. <br> Попередження: це розширена функція розробника, експериментуйте <b>, а не </b> на своєму виробничому сайті!
 SeeTopRightMenu=Дивіться <span class="fa fa-bug"> </span> у верхньому правому меню
 AddLanguageFile=Додати мовний файл

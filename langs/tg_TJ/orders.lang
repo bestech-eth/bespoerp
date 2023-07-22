@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - orders
+# Dolibarr language file - Source file is en_US - orders
 OrdersArea=Минтақаи фармоишҳои муштариён
 SuppliersOrdersArea=Минтақаи фармоишҳо
 OrderCard=Корти фармоиш
@@ -120,8 +120,8 @@ ConfirmCloneOrder=Шумо мутмаин ҳастед, ки ин фармонр
 DispatchSupplierOrder=Гирифтани фармоиши харид %s
 FirstApprovalAlreadyDone=Тасдиқи аввал аллакай анҷом дода шудааст
 SecondApprovalAlreadyDone=Тасдиқи дуюм аллакай анҷом дода шудааст
-SupplierOrderReceivedInbespoerp=Фармоиши харид %s %s гирифт
-SupplierOrderSubmitedInbespoerp=Фармоиши харид %s пешниҳод карда шуд
+SupplierOrderReceivedInDolibarr=Фармоиши харид %s %s гирифт
+SupplierOrderSubmitedInDolibarr=Фармоиши харид %s пешниҳод карда шуд
 SupplierOrderClassifiedBilled=Тартиби харид %s ҳисоб карда мешавад
 OtherOrders=Фармоишҳои дигар
 SupplierOrderValidatedAndApproved=Supplier order is validated and approved : %s

@@ -212,7 +212,7 @@ class ActionsTicket
 			include_once DOL_DOCUMENT_ROOT.'/core/class/doleditor.class.php';
 			$uselocalbrowser = true;
 			$ckeditorenabledforticket = $conf->global->FCKEDITOR_ENABLE_TICKET;
-			$doleditor = new DolEditor('message_initial', $msg, '100%', 250, 'bespoerp_details', 'In', true, $uselocalbrowser, $ckeditorenabledforticket, ROWS_9, '95%');
+			$doleditor = new DolEditor('message_initial', $msg, '100%', 250, 'dolibarr_details', 'In', true, $uselocalbrowser, $ckeditorenabledforticket, ROWS_9, '95%');
 			$doleditor->Create();
 		} else {
 			// Deal with format differences (text / HTML)

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - errors
+# Dolibarr language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Dim camgymeriad, rydym yn ymrwymo
@@ -51,10 +51,10 @@ ErrorWrongDate=Nid yw'r dyddiad yn gywir!
 ErrorFailedToWriteInDir=Wedi methu ag ysgrifennu yn y cyfeiriadur %s
 ErrorFailedToBuildArchive=Failed to build archive file %s
 ErrorFoundBadEmailInFile=Wedi dod o hyd i gystrawen e-bost anghywir ar gyfer llinellau %s yn y ffeil (llinell enghreifftiol %s gydag e-bost=%s)
-ErrorUserCannotBeDelete=Ni ellir dileu defnyddiwr. Efallai ei fod yn gysylltiedig ag endidau bespoerp.
+ErrorUserCannotBeDelete=Ni ellir dileu defnyddiwr. Efallai ei fod yn gysylltiedig ag endidau Dolibarr.
 ErrorFieldsRequired=Mae rhai meysydd gofynnol wedi'u gadael yn wag.
 ErrorSubjectIsRequired=Mae angen pwnc yr e-bost
-ErrorFailedToCreateDir=Wedi methu creu cyfeiriadur. Gwiriwch fod gan ddefnyddiwr gweinydd Gwe ganiatâd i ysgrifennu i gyfeiriadur dogfennau bespoerp. Os yw paramedr <b> safe_mode </b> wedi'i alluogi ar y PHP hwn, gwiriwch fod ffeiliau php bespoerp yn berchen i ddefnyddiwr gweinydd gwe (neu grŵp).
+ErrorFailedToCreateDir=Wedi methu creu cyfeiriadur. Gwiriwch fod gan ddefnyddiwr gweinydd Gwe ganiatâd i ysgrifennu i gyfeiriadur dogfennau Dolibarr. Os yw paramedr <b> safe_mode </b> wedi'i alluogi ar y PHP hwn, gwiriwch fod ffeiliau php Dolibarr yn berchen i ddefnyddiwr gweinydd gwe (neu grŵp).
 ErrorNoMailDefinedForThisUser=Dim post wedi'i ddiffinio ar gyfer y defnyddiwr hwn
 ErrorSetupOfEmailsNotComplete=Nid yw gosod e-byst yn gyflawn
 ErrorFeatureNeedJavascript=Mae angen javascript i weithredu'r nodwedd hon i weithio. Newidiwch hyn yn y gosodiad - arddangos.
@@ -82,7 +82,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=The field <b>%s</b> must not co
 ErrorFieldMustHaveXChar=Rhaid i'r maes <b> %s </b> fod ag o leiaf %s nodau.
 ErrorNoAccountancyModuleLoaded=Dim modiwl cyfrifeg wedi'i actifadu
 ErrorExportDuplicateProfil=Mae'r enw proffil hwn eisoes yn bodoli ar gyfer y set allforio hon.
-ErrorLDAPSetupNotComplete=Nid yw paru bespoerp-LDAP wedi'i gwblhau.
+ErrorLDAPSetupNotComplete=Nid yw paru Dolibarr-LDAP wedi'i gwblhau.
 ErrorLDAPMakeManualTest=Mae ffeil .ldif wedi'i chynhyrchu yn y cyfeiriadur %s. Ceisiwch ei lwytho â llaw o'r llinell orchymyn i gael mwy o wybodaeth am wallau.
 ErrorCantSaveADoneUserWithZeroPercentage=Methu â chadw gweithred gyda "statws heb ei gychwyn" os yw maes "done by" hefyd wedi'i lenwi.
 ErrorRefAlreadyExists=Mae cyfeirnod <b> %s </b> eisoes yn bodoli.
@@ -115,8 +115,8 @@ ErrorProdIdAlreadyExist=%s yn cael ei neilltuo i draean arall
 ErrorFailedToSendPassword=Wedi methu ag anfon cyfrinair
 ErrorFailedToLoadRSSFile=Yn methu â chael porthiant RSS. Ceisiwch ychwanegu MAIN_SIMPLEXMLLOAD_DEBUG cyson os nad yw negeseuon gwall yn rhoi digon o wybodaeth.
 ErrorForbidden=Mynediad wedi ei wrthod. <br> Rydych yn ceisio cyrchu tudalen, ardal neu nodwedd modiwl anabl neu heb fod mewn sesiwn wedi'i dilysu neu nad yw'n cael ei chaniatáu i'ch defnyddiwr.
-ErrorForbidden2=Gall eich gweinyddwr bespoerp ddiffinio caniatâd ar gyfer y mewngofnodi hwn o ddewislen %s->%s.
-ErrorForbidden3=Mae'n ymddangos nad yw bespoerp yn cael ei ddefnyddio trwy sesiwn ddilysu. Edrychwch ar ddogfennaeth gosod bespoerp i wybod sut i reoli dilysiadau (htaccess, mod_auth neu arall...).
+ErrorForbidden2=Gall eich gweinyddwr Dolibarr ddiffinio caniatâd ar gyfer y mewngofnodi hwn o ddewislen %s->%s.
+ErrorForbidden3=Mae'n ymddangos nad yw Dolibarr yn cael ei ddefnyddio trwy sesiwn ddilysu. Edrychwch ar ddogfennaeth gosod Dolibarr i wybod sut i reoli dilysiadau (htaccess, mod_auth neu arall...).
 ErrorForbidden4=Sylwch: cliriwch gwcis eich porwr i ddinistrio sesiynau presennol ar gyfer y mewngofnodi hwn.
 ErrorNoImagickReadimage=Nid yw Class Imagick i'w gael yn y PHP hwn. Ni all rhagolwg fod ar gael. Gall gweinyddwyr analluogi'r tab hwn o Setup menu - Display.
 ErrorRecordAlreadyExists=Mae'r cofnod eisoes yn bodoli
@@ -139,8 +139,8 @@ ErrorWebServerUserHasNotPermission=Nid oes gan y cyfrif defnyddiwr <b> %s </b> a
 ErrorNoActivatedBarcode=Dim math cod bar wedi'i actifadu
 ErrUnzipFails=Wedi methu dadsipio %s gyda ZipArchive
 ErrNoZipEngine=Dim injan i zipio/dadsipio ffeil %s yn y PHP hwn
-ErrorFileMustBeAbespoerpPackage=Rhaid i'r ffeil %s fod yn becyn zip bespoerp
-ErrorModuleFileRequired=Rhaid i chi ddewis ffeil pecyn modiwl bespoerp
+ErrorFileMustBeADolibarrPackage=Rhaid i'r ffeil %s fod yn becyn zip Dolibarr
+ErrorModuleFileRequired=Rhaid i chi ddewis ffeil pecyn modiwl Dolibarr
 ErrorPhpCurlNotInstalled=Nid yw'r PHP CURL wedi'i osod, mae hyn yn hanfodol i siarad â Paypal
 ErrorFailedToAddToMailmanList=Wedi methu ychwanegu cofnod %s i restr Mailman %s neu sylfaen SPIP
 ErrorFailedToRemoveToMailmanList=Wedi methu tynnu cofnod %s i restr Mailman %s neu sylfaen SPIP
@@ -152,7 +152,7 @@ ErrorDateMustBeBeforeToday=Rhaid i'r dyddiad fod yn is na heddiw
 ErrorDateMustBeInFuture=Rhaid i'r dyddiad fod yn fwy na heddiw
 ErrorPaymentModeDefinedToWithoutSetup=Gosodwyd modd talu i deipio %s ond ni chwblhawyd gosod Anfoneb modiwl i ddiffinio gwybodaeth i'w dangos ar gyfer y dull talu hwn.
 ErrorPHPNeedModule=Gwall, rhaid bod modiwl <b> %s </b> wedi'i osod ar eich PHP i ddefnyddio'r nodwedd hon.
-ErrorOpenIDSetupNotComplete=Rydych yn gosod ffeil ffurfweddu bespoerp i ganiatáu dilysu OpenID, ond nid yw URL gwasanaeth OpenID wedi'i ddiffinio i %s cyson
+ErrorOpenIDSetupNotComplete=Rydych yn gosod ffeil ffurfweddu Dolibarr i ganiatáu dilysu OpenID, ond nid yw URL gwasanaeth OpenID wedi'i ddiffinio i %s cyson
 ErrorWarehouseMustDiffers=Rhaid i warysau ffynhonnell a tharged fod yn wahanol
 ErrorBadFormat=Fformat gwael!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Gwall, nid yw'r aelod hwn wedi'i gysylltu ag unrhyw drydydd parti eto. Cysylltwch aelod â thrydydd parti presennol neu crëwch drydydd parti newydd cyn creu tanysgrifiad gydag anfoneb.
@@ -215,7 +215,7 @@ ErrorUserNotAssignedToTask=Rhaid neilltuo defnyddiwr i'r dasg i allu nodi'r amse
 ErrorTaskAlreadyAssigned=Tasg eisoes wedi'i neilltuo i'r defnyddiwr
 ErrorModuleFileSeemsToHaveAWrongFormat=Mae'n ymddangos bod gan y pecyn modiwl fformat anghywir.
 ErrorModuleFileSeemsToHaveAWrongFormat2=Rhaid bod o leiaf un cyfeiriadur gorfodol yn sip y modiwl: <strong> %s </strong> neu <strong> %s a0a65fz01
-ErrorFilenameDosNotMatchbespoerpPackageRules=Nid yw enw'r pecyn modiwl ( <strong> %s </strong> ) yn cyd-fynd â chystrawen yr enw disgwyliedig: <strong> %s a0765d9
+ErrorFilenameDosNotMatchDolibarrPackageRules=Nid yw enw'r pecyn modiwl ( <strong> %s </strong> ) yn cyd-fynd â chystrawen yr enw disgwyliedig: <strong> %s a0765d9
 ErrorDuplicateTrigger=Gwall, dyblyg enw sbardun %s. Eisoes wedi'i lwytho o %s.
 ErrorNoWarehouseDefined=Gwall, dim warysau wedi'u diffinio.
 ErrorBadLinkSourceSetButBadValueForRef=Nid yw'r ddolen a ddefnyddiwch yn ddilys. Diffinnir 'ffynhonnell' ar gyfer taliad, ond nid yw gwerth 'cyf' yn ddilys.
@@ -306,7 +306,7 @@ ErrorTooMuchFileInForm=Too much files in form, the maximum number is %s file(s)
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=Mae eich paramedr PHP upload_max_filesize (%s) yn uwch na pharamedr PHP post_max_size (%s). Nid yw hwn yn drefniant cyson.
-WarningPasswordSetWithNoAccount=Gosodwyd cyfrinair ar gyfer yr aelod hwn. Fodd bynnag, ni chrëwyd unrhyw gyfrif defnyddiwr. Felly mae'r cyfrinair hwn yn cael ei storio ond ni ellir ei ddefnyddio i fewngofnodi i Dbespoerp. Gellir ei ddefnyddio gan fodiwl/rhyngwyneb allanol ond os nad oes angen i chi ddiffinio unrhyw fewngofnodi na chyfrinair ar gyfer aelod, gallwch analluogi opsiwn "Rheoli mewngofnodi ar gyfer pob aelod" o osod modiwl Aelod. Os oes angen i chi reoli mewngofnodi ond nad oes angen unrhyw gyfrinair arnoch, gallwch gadw'r maes hwn yn wag er mwyn osgoi'r rhybudd hwn. Nodyn: Gellir defnyddio e-bost hefyd fel mewngofnodi os yw'r aelod yn gysylltiedig â defnyddiwr.
+WarningPasswordSetWithNoAccount=Gosodwyd cyfrinair ar gyfer yr aelod hwn. Fodd bynnag, ni chrëwyd unrhyw gyfrif defnyddiwr. Felly mae'r cyfrinair hwn yn cael ei storio ond ni ellir ei ddefnyddio i fewngofnodi i Ddolibarr. Gellir ei ddefnyddio gan fodiwl/rhyngwyneb allanol ond os nad oes angen i chi ddiffinio unrhyw fewngofnodi na chyfrinair ar gyfer aelod, gallwch analluogi opsiwn "Rheoli mewngofnodi ar gyfer pob aelod" o osod modiwl Aelod. Os oes angen i chi reoli mewngofnodi ond nad oes angen unrhyw gyfrinair arnoch, gallwch gadw'r maes hwn yn wag er mwyn osgoi'r rhybudd hwn. Nodyn: Gellir defnyddio e-bost hefyd fel mewngofnodi os yw'r aelod yn gysylltiedig â defnyddiwr.
 WarningMandatorySetupNotComplete=Click here to setup main parameters
 WarningEnableYourModulesApplications=Cliciwch yma i alluogi eich modiwlau a'ch cymwysiadau
 WarningSafeModeOnCheckExecDir=Rhybudd, mae opsiwn PHP <b> safe_mode </b> ymlaen felly mae'n rhaid storio'r gorchymyn y tu mewn i gyfeiriadur a ddatganwyd gan baramedr php <b> safe_mode_exec_dir </b> .

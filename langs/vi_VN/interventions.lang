@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - interventions
+# Dolibarr language file - Source file is en_US - interventions
 Intervention=Can thiệp
 Interventions=Các can thiệp
 InterventionCard=Thẻ can thiệp
@@ -30,13 +30,13 @@ InterventionClassifyDone=Phân loại "Xong"
 StatusInterInvoiced=Hóa đơn
 SendInterventionRef=Đệ trình can thiệp %s
 SendInterventionByMail=Gửi can thiệp qua email
-InterventionCreatedInbespoerp=Can thiệp %s đã tạo
-InterventionValidatedInbespoerp=Can thiệp %s đã xác nhận
-InterventionModifiedInbespoerp=Can thiệp %s được sửa đổi
-InterventionClassifiedBilledInbespoerp=Can thiệp %s đã đặt là ra hóa đơn
-InterventionClassifiedUnbilledInbespoerp=Can thiệp %s đã đặt là không có hóa đơn
+InterventionCreatedInDolibarr=Can thiệp %s đã tạo
+InterventionValidatedInDolibarr=Can thiệp %s đã xác nhận
+InterventionModifiedInDolibarr=Can thiệp %s được sửa đổi
+InterventionClassifiedBilledInDolibarr=Can thiệp %s đã đặt là ra hóa đơn
+InterventionClassifiedUnbilledInDolibarr=Can thiệp %s đã đặt là không có hóa đơn
 InterventionSentByEMail=Can thiệp %s được gửi qua email
-InterventionDeletedInbespoerp=Can thiệp %s đã xóa
+InterventionDeletedInDolibarr=Can thiệp %s đã xóa
 InterventionsArea=Khu vực can thiệp
 DraftFichinter=Dự thảo can thiệp
 LastModifiedInterventions=Can thiệp sửa đổi mới nhất %s

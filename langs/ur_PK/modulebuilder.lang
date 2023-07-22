@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - loan
+# Dolibarr language file - Source file is en_US - loan
 IdModule= Module id
 ModuleBuilderDesc=یہ ٹول صرف تجربہ کار صارفین یا ڈویلپرز کے ذریعہ استعمال کیا جانا چاہئے۔ یہ آپ کے اپنے ماڈیول کو بنانے یا اس میں ترمیم کرنے کے لیے افادیت فراہم کرتا ہے۔ متبادل <a href="%s" target="_blank" rel="noopener noreferrer"> مینوئل ڈویلپمنٹ کے لیے دستاویزات یہاں </a> ہے۔
 EnterNameOfModuleDesc=Enter the name of the module/application to create with no spaces. Use uppercase to separate words (For example: MyModule, EcommerceForShop, SyncWithMySystem...)
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=آپ اپنے ماڈیول کو حذف کر سکت
 EnterNameOfObjectToDeleteDesc=آپ کسی چیز کو حذف کر سکتے ہیں۔ انتباہ: آبجیکٹ سے متعلق تمام کوڈنگ فائلز (دستی طور پر تیار کردہ یا تخلیق کردہ) حذف کر دی جائیں گی!
 DangerZone=خطرہ زون
 BuildPackage=پیکج بنائیں
-BuildPackageDesc=آپ اپنی درخواست کا زپ پیکج بنا سکتے ہیں تاکہ آپ اسے کسی بھی bespoerp پر تقسیم کرنے کے لیے تیار ہوں۔ آپ اسے تقسیم بھی کر سکتے ہیں یا بازار میں فروخت کر سکتے ہیں جیسے <a href="https://www.dolistore.com"> DoliStore.com </a>۔
+BuildPackageDesc=آپ اپنی درخواست کا زپ پیکج بنا سکتے ہیں تاکہ آپ اسے کسی بھی Dolibarr پر تقسیم کرنے کے لیے تیار ہوں۔ آپ اسے تقسیم بھی کر سکتے ہیں یا بازار میں فروخت کر سکتے ہیں جیسے <a href="https://www.dolistore.com"> DoliStore.com </a>۔
 BuildDocumentation=دستاویزات بنائیں
 ModuleIsNotActive=یہ ماڈیول ابھی چالو نہیں ہوا ہے۔ اسے لائیو بنانے کے لیے %s پر جائیں یا یہاں کلک کریں۔
 ModuleIsLive=اس ماڈیول کو چالو کر دیا گیا ہے۔ کوئی بھی تبدیلی موجودہ لائیو خصوصیت کو توڑ سکتی ہے۔
@@ -110,7 +110,7 @@ HooksDefDesc=<b> module_parts['hooks'] </b> پراپرٹی میں وضاحت ک�
 TriggerDefDesc=ٹرگر فائل میں اس کوڈ کی وضاحت کریں جسے آپ اس وقت انجام دینا چاہتے ہیں جب آپ کے ماڈیول سے باہر کوئی کاروباری واقعہ انجام دیا جاتا ہے (دوسرے ماڈیولز کے ذریعے متحرک ہونے والے واقعات)۔
 SeeIDsInUse=اپنی انسٹالیشن میں استعمال میں آئی آئی ڈی دیکھیں
 SeeReservedIDsRangeHere=مخصوص IDs کی رینج دیکھیں
-ToolkitForDevelopers=bespoerp ڈویلپرز کے لیے ٹول کٹ
+ToolkitForDevelopers=Dolibarr ڈویلپرز کے لیے ٹول کٹ
 TryToUseTheModuleBuilder=اگر آپ کو SQL اور PHP کا علم ہے تو آپ مقامی ماڈیول بلڈر وزرڈ استعمال کر سکتے ہیں۔ <br> ماڈیول <strong> %s </strong> کو فعال کریں اور <span class="fa fa-bug"> a014f17 کے اوپری دائیں پر کلک کرکے وزرڈ کا استعمال کریں۔ <br> انتباہ: یہ ایک اعلی درجے کی ڈویلپر خصوصیت ہے، اپنی پروڈکشن سائٹ پر <b> نہیں </b> تجربہ کریں!
 SeeTopRightMenu=اوپر دائیں مینو میں <span class="fa fa-bug"> </span> دیکھیں
 AddLanguageFile=زبان کی فائل شامل کریں۔

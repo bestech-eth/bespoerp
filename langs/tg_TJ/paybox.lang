@@ -1,7 +1,7 @@
-# bespoerp language file - Source file is en_US - paybox
+# Dolibarr language file - Source file is en_US - paybox
 PayBoxSetup=Танзими модули PayBox
-PayBoxDesc=Ин модул саҳифаҳоро пешниҳод мекунад, то аз ҷониби муштариён дар <a href="http://www.paybox.com" target="_blank"> Paybox </a> пардохт кунанд. Ин метавонад барои пардохти ройгон ё барои пардохт дар объекти мушаххаси bespoerp истифода шавад (фактура, фармоиш, ...)
-FollowingUrlAreAvailableToMakePayments=URL -ҳои зерин барои пешниҳоди саҳифа ба муштарӣ барои пардохт дар объектҳои bespoerp дастрасанд
+PayBoxDesc=Ин модул саҳифаҳоро пешниҳод мекунад, то аз ҷониби муштариён дар <a href="http://www.paybox.com" target="_blank"> Paybox </a> пардохт кунанд. Ин метавонад барои пардохти ройгон ё барои пардохт дар объекти мушаххаси Dolibarr истифода шавад (фактура, фармоиш, ...)
+FollowingUrlAreAvailableToMakePayments=URL -ҳои зерин барои пешниҳоди саҳифа ба муштарӣ барои пардохт дар объектҳои Dolibarr дастрасанд
 PaymentForm=Шакли пардохт
 WelcomeOnPaymentPage=Хуш омадед ба хидмати пардохти онлайни мо
 ThisScreenAllowsYouToPay=Ин экран ба шумо имкон медиҳад, ки пардохти онлайнро ба %s пардохт кунед.

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - cron
+# Dolibarr language file - Source file is en_US - cron
 # About page
 # Right
 Permission23101 = Läs Planerad jobb
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Inaktivera
 CronTaskInactive=Detta arbete är inaktiverat (ej schemalagt)
 CronId=Id
 CronClassFile=Filnamn med klass
-CronModuleHelp=Namn på bespoerp-modulkatalogen (fungerar även med extern bespoerp-modul). <BR> Till exempel att ringa hämtningsmetoden för bespoerp Produktobjekt / htdocs / <u> produkt </u> /class/product.class.php, värdet för modulen är <br> <i> produkt </i>
-CronClassFileHelp=Den relativa sökvägen och filnamnet som ska laddas (sökvägen är i förhållande till webbserverns rotkatalog). <BR> Till exempel för att hämta hämtningsmetoden för bespoerp Produktobjekt htdocs / product / class / <u> product.class.php </u>, värdet för klassfilnamnet är <br> <i> produkt / class / product.class.php </i>
-CronObjectHelp=Objektnamnet att ladda. <BR> Till exempel för att hämta hämtningsmetoden för bespoerp Product-objektet /htdocs/product/class/product.class.php, är värdet för klassfilnamnet <br> <i> Produkt </i>
-CronMethodHelp=Objektmetoden att starta. <BR> Till exempel för att hämta hämtningsmetoden för bespoerp Product-objektet /htdocs/product/class/product.class.php, är värdet för metoden <br> <i> hämta </i>
-CronArgsHelp=Metod argumenten. <BR> Till exempel för att ringa hämtningsmetoden för bespoerp Product-objektet /htdocs/product/class/product.class.php, kan parameterns värde vara <br> <i> 0, ProductRef </i>
+CronModuleHelp=Namn på Dolibarr-modulkatalogen (fungerar även med extern Dolibarr-modul). <BR> Till exempel att ringa hämtningsmetoden för Dolibarr Produktobjekt / htdocs / <u> produkt </u> /class/product.class.php, värdet för modulen är <br> <i> produkt </i>
+CronClassFileHelp=Den relativa sökvägen och filnamnet som ska laddas (sökvägen är i förhållande till webbserverns rotkatalog). <BR> Till exempel för att hämta hämtningsmetoden för Dolibarr Produktobjekt htdocs / product / class / <u> product.class.php </u>, värdet för klassfilnamnet är <br> <i> produkt / class / product.class.php </i>
+CronObjectHelp=Objektnamnet att ladda. <BR> Till exempel för att hämta hämtningsmetoden för Dolibarr Product-objektet /htdocs/product/class/product.class.php, är värdet för klassfilnamnet <br> <i> Produkt </i>
+CronMethodHelp=Objektmetoden att starta. <BR> Till exempel för att hämta hämtningsmetoden för Dolibarr Product-objektet /htdocs/product/class/product.class.php, är värdet för metoden <br> <i> hämta </i>
+CronArgsHelp=Metod argumenten. <BR> Till exempel för att ringa hämtningsmetoden för Dolibarr Product-objektet /htdocs/product/class/product.class.php, kan parameterns värde vara <br> <i> 0, ProductRef </i>
 CronCommandHelp=Systemet kommandoraden som ska köras.
 CronCreateJob=Skapa nytt schemalagt jobb
 CronFrom=Från

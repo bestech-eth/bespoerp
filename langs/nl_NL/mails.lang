@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - mails
+# Dolibarr language file - Source file is en_US - mails
 Mailing=E-Mailing
 EMailing=E-Mailing
 EMailings=E-Mailings
@@ -90,7 +90,7 @@ MailingModuleDescContactsByCategory=Contacten per categorie
 MailingModuleDescContactsByFunction=Contacten per positie
 MailingModuleDescEmailsFromFile=E-mails uit bestand
 MailingModuleDescEmailsFromUser=E-mails door gebruiker opgemaakt
-MailingModuleDescbespoerpUsers=Gebruikers met e-mails
+MailingModuleDescDolibarrUsers=Gebruikers met e-mails
 MailingModuleDescThirdPartiesByCategories=Derde partijen
 SendingFromWebInterfaceIsNotAllowed=Verzenden vanuit de web interface is niet toegestaan.
 EmailCollectorFilterDesc=Alle filters moeten overeenkomen om een e-mail te kunnen verzamelen

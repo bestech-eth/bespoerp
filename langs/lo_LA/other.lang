@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - other
+# Dolibarr language file - Source file is en_US - other
 SecurityCode=ລະ​ຫັດ​ຄວາມ​ປອດ​ໄພ
 NumberingShort=N °
 Tools=ເຄື່ອງມື
@@ -104,7 +104,7 @@ PredefinedMailContentSendFichInter=__ (ສະບາຍດີ) __\n\nກະລຸ
 PredefinedMailContentLink=ເຈົ້າສາມາດຄລິກໃສ່ການເຊື່ອມຕໍ່ລຸ່ມນີ້ເພື່ອຊໍາລະເງິນຂອງເຈົ້າຖ້າມັນຍັງບໍ່ແລ້ວ.\n\n%s\n\n
 PredefinedMailContentGeneric=__ (ສະບາຍດີ) __\n\n\n__ (ດ້ວຍຄວາມນັບຖື) __\n\n__USER_SIGNATURE__
 PredefinedMailContentSendActionComm=ແຈ້ງເຕືອນເຫດການ "__EVENT_LABEL__" ໃນ __EVENT_DATE__ ເວລາ __EVENT_TIME__ <br> <br> ນີ້ແມ່ນຂໍ້ຄວາມອັດຕະໂນມັດ, ກະລຸນາຢ່າຕອບກັບ.
-DemoDesc=bespoerp ເປັນ ERP/CRM ທີ່ກະທັດຮັດສະ ໜັບ ສະ ໜູນ ໂມດູນທຸລະກິດຫຼາຍອັນ. ການສາທິດການສະແດງໂມດູນທັງmakesົດບໍ່ມີຄວາມasາຍເພາະສະຖານະການນີ້ບໍ່ເຄີຍເກີດຂຶ້ນ (ມີຫຼາຍຮ້ອຍອັນ). ດັ່ງນັ້ນ, ໂປຣໄຟລ dem ສາທິດ ຈຳ ນວນ ໜຶ່ງ ສາມາດໃຊ້ໄດ້.
+DemoDesc=Dolibarr ເປັນ ERP/CRM ທີ່ກະທັດຮັດສະ ໜັບ ສະ ໜູນ ໂມດູນທຸລະກິດຫຼາຍອັນ. ການສາທິດການສະແດງໂມດູນທັງmakesົດບໍ່ມີຄວາມasາຍເພາະສະຖານະການນີ້ບໍ່ເຄີຍເກີດຂຶ້ນ (ມີຫຼາຍຮ້ອຍອັນ). ດັ່ງນັ້ນ, ໂປຣໄຟລ dem ສາທິດ ຈຳ ນວນ ໜຶ່ງ ສາມາດໃຊ້ໄດ້.
 ChooseYourDemoProfil=ເລືອກໂປຣໄຟລ dem ສາທິດທີ່ເsuitsາະສົມກັບຄວາມຕ້ອງການຂອງເຈົ້າທີ່ສຸດ ...
 ChooseYourDemoProfilMore=... ຫຼືສ້າງໂປຣໄຟລ your ຂອງເຈົ້າເອງ <br> (ການເລືອກໂມດູນດ້ວຍຕົນເອງ)
 DemoFundation=ຄຸ້ມຄອງສະມາຊິກຂອງຮາກຖານ
@@ -182,10 +182,10 @@ SizeUnitpoint=ຈຸດ
 BugTracker=ຕົວຕິດຕາມຂໍ້ຜິດພາດ
 SendNewPasswordDesc=ແບບຟອມນີ້ອະນຸຍາດໃຫ້ເຈົ້າຮ້ອງຂໍລະຫັດຜ່ານໃ່. ມັນຈະຖືກສົ່ງໄປຫາທີ່ຢູ່ອີເມລ your ຂອງທ່ານ. <br> ການປ່ຽນແປງຈະມີຜົນບັງຄັບໃຊ້ເມື່ອເຈົ້າຄລິກໃສ່ລິ້ງການຢືນຢັນໃນອີເມວ. <br> ກວດເບິ່ງອິນບັອກຂອງເຈົ້າ.
 BackToLoginPage=ກັບໄປທີ່ ໜ້າ ເຂົ້າສູ່ລະບົບ
-AuthenticationDoesNotAllowSendNewPassword=ຮູບແບບການພິສູດຢືນຢັນແມ່ນ <b> %s </b>. <br> ຢູ່ໃນໂmodeດນີ້, bespoerp ບໍ່ສາມາດຮູ້ຫຼືປ່ຽນລະຫັດຜ່ານຂອງເຈົ້າໄດ້. <br> ຕິດຕໍ່ຫາຜູ້ເບິ່ງແຍງລະບົບຂອງເຈົ້າຖ້າເຈົ້າຕ້ອງການປ່ຽນລະຫັດຜ່ານຂອງເຈົ້າ.
+AuthenticationDoesNotAllowSendNewPassword=ຮູບແບບການພິສູດຢືນຢັນແມ່ນ <b> %s </b>. <br> ຢູ່ໃນໂmodeດນີ້, Dolibarr ບໍ່ສາມາດຮູ້ຫຼືປ່ຽນລະຫັດຜ່ານຂອງເຈົ້າໄດ້. <br> ຕິດຕໍ່ຫາຜູ້ເບິ່ງແຍງລະບົບຂອງເຈົ້າຖ້າເຈົ້າຕ້ອງການປ່ຽນລະຫັດຜ່ານຂອງເຈົ້າ.
 EnableGDLibraryDesc=ຕິດຕັ້ງຫຼືເປີດໃຊ້ຫ້ອງສະGຸດ GD ໃນການຕິດຕັ້ງ PHP ຂອງເຈົ້າເພື່ອໃຊ້ຕົວເລືອກນີ້.
 ProfIdShortDesc= <b> Prof Id %s </b> ແມ່ນຂໍ້ມູນອີງຕາມປະເທດຂອງບຸກຄົນທີສາມ. <br> ຕົວຢ່າງ, ສໍາລັບປະເທດ <b> %s </b>, ມັນເປັນລະຫັດ <b> %s a09a4b739f17f800.
-bespoerpDemo=ການສາທິດ bespoerp ERP/CRM
+DolibarrDemo=ການສາທິດ Dolibarr ERP/CRM
 StatsByNumberOfUnits=ສະຖິຕິຜົນລວມຂອງ ຈຳ ນວນຜະລິດຕະພັນ/ການບໍລິການ
 StatsByNumberOfEntities=ສະຖິຕິສໍາລັບຈໍານວນຂອງນິຕິບຸກຄົນທີ່ອ້າງອີງ (ບໍ່ມີໃບຮຽກເກັບເງິນ, ຫຼືຄໍາສັ່ງ ... )
 NumberOfProposals=ຈຳ ນວນຂໍ້ສະ ເໜີ
@@ -223,7 +223,7 @@ EMailTextHolidayValidated=ການຮ້ອງຂໍການອອກຈາກ
 EMailTextHolidayApproved=ຄຳ ຮ້ອງຂໍອອກຈາກການອະນຸມັດ %s.
 EMailTextActionAdded=ການປະຕິບັດ %s ໄດ້ຖືກເພີ່ມເຂົ້າໃນວາລະ.
 ImportedWithSet=ຊຸດຂໍ້ມູນການ ນຳ ເຂົ້າ
-bespoerpNotification=ການແຈ້ງເຕືອນອັດຕະໂນມັດ
+DolibarrNotification=ການແຈ້ງເຕືອນອັດຕະໂນມັດ
 ResizeDesc=ໃສ່ຄວາມກວ້າງໃa່ <b> ຫຼື </b> ຄວາມສູງໃ່. ອັດຕາສ່ວນຈະຖືກຮັກສາໄວ້ໃນລະຫວ່າງການປັບຂະ ໜາດ ...
 NewLength=ຄວາມກວ້າງໃຫມ່
 NewHeight=ຄວາມສູງໃ່

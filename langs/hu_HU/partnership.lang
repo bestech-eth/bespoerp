@@ -44,7 +44,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=Visszamutató hivatkozások az ellenőrzéshez
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=Nb napok a partnerség állapotának lemondása előtt, ha az előfizetés lejárt
 ReferingWebsiteCheck=A webhely hivatkozásának ellenőrzése
 ReferingWebsiteCheckDesc=Engedélyezhet egy funkciót, amellyel ellenőrizheti, hogy partnerei hozzáadtak-e egy visszamutató hivatkozást az Ön webhelyének domainjéhez a saját webhelyükön.
-PublicFormRegistrationPartnerDesc=A bespoerp nyilvános URL-t/webhelyet tud Önnek biztosítani, amely lehetővé teszi a külső látogatók számára, hogy kérjék a partnerségi programban való részvételt.
+PublicFormRegistrationPartnerDesc=A Dolibarr nyilvános URL-t/webhelyet tud Önnek biztosítani, amely lehetővé teszi a külső látogatók számára, hogy kérjék a partnerségi programban való részvételt.
 
 #
 # Object

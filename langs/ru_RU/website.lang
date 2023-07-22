@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - website
+# Dolibarr language file - Source file is en_US - website
 Shortname=Код
 WebsiteName=Name of the website
 WebsiteSetupDesc=Создайте здесь веб-сайты, которые вы хотите использовать. Затем перейдите в меню «Сайты», чтобы отредактировать их.
@@ -48,13 +48,13 @@ VirtualhostDesc=The name of the Virtual host or domain (For example: www.mywebsi
 SetHereVirtualHost=<u>Использовать с Apache/NGinx/...</u><br>Создайте на своем веб-сервере (Apache, Nginx, ...) выделенный виртуальный хост с включенным PHP и корневым каталогом в<br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Пример использования в настройке виртуального хоста Apache:
 YouCanAlsoTestWithPHPS=<u>Использование со встроенным сервером PHP</u><br>В среде разработки вы можете предпочесть протестировать сайт с помощью встроенного веб-сервера PHP (требуется PHP 5.5), запустив<br><strong>php -S 0.0.0.0:8080 -t %s</strong>
-YouCanAlsoDeployToAnotherWHP= <u> Запустите свой веб-сайт с помощью другого хостинг-провайдера bespoerp. интеграция с модулем Сайт. Вы можете найти список некоторых хостинг-провайдеров bespoerp на <a href="https://saas.bespoerp.org" target="_blank" rel="noopener noreferrer external"> https://saas.bespoerp.org </a>
+YouCanAlsoDeployToAnotherWHP= <u> Запустите свой веб-сайт с помощью другого хостинг-провайдера Dolibarr. интеграция с модулем Сайт. Вы можете найти список некоторых хостинг-провайдеров Dolibarr на <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external"> https://saas.dolibarr.org </a>
 CheckVirtualHostPerms=Также проверьте, что у пользователя виртуального хоста (например, www-data) есть<strong>%s</strong> разрешения на файлы в<br><strong>%s</strong>
 ReadPerm=Читать
 WritePerm=Писать
 TestDeployOnWeb=Тестирование/развертывание в Интернете
 PreviewSiteServedByWebServer=<u>Предварительный просмотр %s в новой вкладке.</u><br><br>%s будет обслуживаться внешним веб-сервером (например, Apache, Nginx, IIS). Вы должны установить и настроить этот сервер, прежде чем указывать на каталог:<br><strong>%s</strong><br>URL-адрес, обслуживаемый внешним сервером:<br><strong>%s</strong>
-PreviewSiteServedBybespoerp=<u>Предварительный просмотр %s в новой вкладке.</u><br><br>%s будет обслуживаться сервером bespoerp, поэтому для него не требуется установка какого-либо дополнительного веб-сервера (например, Apache, Nginx, IIS). <br> Неудобство в том, что URL-адреса страниц не удобны для пользователя и начинаются с пути вашего bespoerp.<br>URL обслуживается bespoerp:<br><strong>%s</strong><br><br>Чтобы использовать собственный внешний веб-сервер для обслуживания данного веб-сайта, создать виртуальный хост на вашем веб-сервере, который указывает на каталог<br><strong>%s</strong><br>введите имя этого виртуального сервера в свойствах этого веб-сайта и щелкните ссылку «Проверить/Развернуть в Интернете».
+PreviewSiteServedByDolibarr=<u>Предварительный просмотр %s в новой вкладке.</u><br><br>%s будет обслуживаться сервером Dolibarr, поэтому для него не требуется установка какого-либо дополнительного веб-сервера (например, Apache, Nginx, IIS). <br> Неудобство в том, что URL-адреса страниц не удобны для пользователя и начинаются с пути вашего Dolibarr.<br>URL обслуживается Dolibarr:<br><strong>%s</strong><br><br>Чтобы использовать собственный внешний веб-сервер для обслуживания данного веб-сайта, создать виртуальный хост на вашем веб-сервере, который указывает на каталог<br><strong>%s</strong><br>введите имя этого виртуального сервера в свойствах этого веб-сайта и щелкните ссылку «Проверить/Развернуть в Интернете».
 VirtualHostUrlNotDefined=URL-адрес виртуального хоста, обслуживаемого внешним веб-сервером, не определен
 NoPageYet=Страниц пока нет
 YouCanCreatePageOrImportTemplate=Вы можете создать новую страницу или импортировать полный шаблон сайта.

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - workflow
+# Dolibarr language file - Source file is en_US - workflow
 WorkflowSetup=ورک فلو ماڈیول سیٹ اپ
 WorkflowDesc=یہ ماڈیول کچھ خودکار کارروائیاں فراہم کرتا ہے۔ پہلے سے طے شدہ طور پر، ورک فلو کھلا ہے (آپ اپنی مرضی کے مطابق چیزیں کر سکتے ہیں) لیکن یہاں آپ کچھ خودکار کارروائیوں کو چالو کر سکتے ہیں۔
 ThereIsNoWorkflowToModify=فعال ماڈیولز کے ساتھ ورک فلو میں کوئی ترمیم دستیاب نہیں ہے۔

@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - workflow
+# Dolibarr language file - Source file is en_US - workflow
 WorkflowSetup=Inställning av arbetsflödesmodul
 WorkflowDesc=Denna modul ger några automatiska åtgärder. Som standard är arbetsflödet öppet (du kan göra saker i den ordning du vill) men här kan du aktivera några automatiska åtgärder.
 ThereIsNoWorkflowToModify=Det finns inga arbetsflödesändringar tillgängliga med de aktiverade modulerna.

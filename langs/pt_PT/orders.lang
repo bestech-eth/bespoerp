@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - orders
+# Dolibarr language file - Source file is en_US - orders
 OrdersArea=Área de encomendas de clientes
 SuppliersOrdersArea=Área de encomendas de compra
 OrderCard=Ficha da encomenda
@@ -120,8 +120,8 @@ ConfirmCloneOrder=Tem a certeza que pretende clonar a encomenda <b>%s</b>?
 DispatchSupplierOrder=Receiving purchase order %s
 FirstApprovalAlreadyDone=A primeira aprovação já foi efetuada
 SecondApprovalAlreadyDone=A segunda aprovação já foi efetuada
-SupplierOrderReceivedInbespoerp=A encomenda a fornecedor, %s, foi recebida %s
-SupplierOrderSubmitedInbespoerp=Purchase Order %s submitted
+SupplierOrderReceivedInDolibarr=A encomenda a fornecedor, %s, foi recebida %s
+SupplierOrderSubmitedInDolibarr=Purchase Order %s submitted
 SupplierOrderClassifiedBilled=A encomenda a fornecedor, %s, foi faturada
 OtherOrders=Outros Pedidos
 SupplierOrderValidatedAndApproved=Supplier order is validated and approved : %s

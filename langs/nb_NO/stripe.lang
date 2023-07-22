@@ -1,8 +1,8 @@
-# bespoerp language file - Source file is en_US - stripe
+# Dolibarr language file - Source file is en_US - stripe
 StripeSetup=Stripe-moduloppsett
-StripeDesc=Tilby kundene dine en online betalingsside for betalinger med kreditt-/debetkort via <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a> . Dette kan brukes til å la kundene dine foreta ad-hoc-betalinger eller for betalinger relatert til et bestemt bespoerp-objekt (faktura, ordre, ...)
+StripeDesc=Tilby kundene dine en online betalingsside for betalinger med kreditt-/debetkort via <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a> . Dette kan brukes til å la kundene dine foreta ad-hoc-betalinger eller for betalinger relatert til et bestemt Dolibarr-objekt (faktura, ordre, ...)
 StripeOrCBDoPayment=Betal med kredittkort eller Stripe
-FollowingUrlAreAvailableToMakePayments=Følgende nettadresser er tilgjengelige for kundene til å foreta betalinger for bespoerp objekter
+FollowingUrlAreAvailableToMakePayments=Følgende nettadresser er tilgjengelige for kundene til å foreta betalinger for Dolibarr objekter
 PaymentForm=Betalingskjema
 WelcomeOnPaymentPage=Velkommen til vår online betalingstjeneste
 ThisScreenAllowsYouToPay=I detteskjermbildet kan du foreta en online betaling til %s.

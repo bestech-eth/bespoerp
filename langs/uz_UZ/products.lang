@@ -1,4 +1,4 @@
-# bespoerp language file - Source file is en_US - products
+# Dolibarr language file - Source file is en_US - products
 ProductRef=Mahsulot ref.
 ProductLabel=Mahsulot yorlig'i
 ProductLabelTranslated=Tarjima qilingan mahsulot yorlig'i
@@ -300,7 +300,7 @@ MinSupplierPrice=Minimal sotib olish narxi
 MinCustomerPrice=Minimal sotish narxi
 NoDynamicPrice=Dinamik narx yo'q
 DynamicPriceConfiguration=Dinamik narx konfiguratsiyasi
-DynamicPriceDesc=Siz xaridor yoki sotuvchi narxlarini hisoblash uchun matematik formulalarni belgilashingiz mumkin. Bunday formulalar barcha matematik operatorlardan, ba'zi bir doimiy va o'zgaruvchilardan foydalanishi mumkin. Siz bu erda foydalanmoqchi bo'lgan o'zgaruvchilarni belgilashingiz mumkin. Agar o'zgaruvchiga avtomatik yangilanish kerak bo'lsa, siz bespoerp-ga qiymatni avtomatik ravishda yangilashiga ruxsat berish uchun tashqi URL manzilini belgilashingiz mumkin.
+DynamicPriceDesc=Siz xaridor yoki sotuvchi narxlarini hisoblash uchun matematik formulalarni belgilashingiz mumkin. Bunday formulalar barcha matematik operatorlardan, ba'zi bir doimiy va o'zgaruvchilardan foydalanishi mumkin. Siz bu erda foydalanmoqchi bo'lgan o'zgaruvchilarni belgilashingiz mumkin. Agar o'zgaruvchiga avtomatik yangilanish kerak bo'lsa, siz Dolibarr-ga qiymatni avtomatik ravishda yangilashiga ruxsat berish uchun tashqi URL manzilini belgilashingiz mumkin.
 AddVariable=O'zgaruvchini qo'shish
 AddUpdater=Updater-ni qo'shing
 GlobalVariables=Global o'zgaruvchilar
@@ -379,7 +379,7 @@ NewProductAttribute=Yangi atribut
 NewProductAttributeValue=Yangi atribut qiymati
 ErrorCreatingProductAttributeValue=Atribut qiymatini yaratishda xatolik yuz berdi. Ehtimol, ushbu ma'lumotnomada allaqachon mavjud qiymat mavjud
 ProductCombinationGeneratorWarning=Agar davom ettirsangiz, yangi variantlarni yaratishdan oldin, avvalgi barcha ma'lumotlar O'chiriladi. Allaqachon mavjud bo'lganlar yangi qadriyatlar bilan yangilanadi
-TooMuchCombinationsWarning=Ko'pgina variantlarni yaratish yuqori protsessorga, xotiradan foydalanishga va bespoerp ularni yaratishga olib kelmasligi mumkin. "%s" parametrini yoqish xotira hajmini kamaytirishga yordam beradi.
+TooMuchCombinationsWarning=Ko'pgina variantlarni yaratish yuqori protsessorga, xotiradan foydalanishga va Dolibarr ularni yaratishga olib kelmasligi mumkin. "%s" parametrini yoqish xotira hajmini kamaytirishga yordam beradi.
 DoNotRemovePreviousCombinations=Oldingi variantlarni olib tashlamang
 UsePercentageVariations=Foizli o'zgarishlardan foydalaning
 PercentageVariation=Foizning o'zgarishi
