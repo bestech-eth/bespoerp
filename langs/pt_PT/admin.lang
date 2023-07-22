@@ -267,7 +267,7 @@ ExternalResources=Recursos Externos
 SocialNetworks=Redes sociais
 SocialNetworkId=Id. da Rede Social
 ForDocumentationSeeWiki=For user or developer documentation (Doc, FAQs...),<br>take a look at the Bespoerp Wiki:<br><b><a href="%s" target="_blank" rel="noopener noreferrer">%s</a></b>
-ForAnswersSeeForum=For any other questions/help, you can use the Dolibarr forum:<br><b><a href="%s" target="_blank" rel="noopener noreferrer">%s</a></b>
+ForAnswersSeeForum=For any other questions/help, you can use the Bespoerp forum:<br><b><a href="%s" target="_blank" rel="noopener noreferrer">%s</a></b>
 HelpCenterDesc1=Aqui estão alguns recursos para obter ajuda e suporte com o Dolibarr.
 HelpCenterDesc2=Alguns desses recursos estão disponíveis apenas em <b> english </ b>.
 CurrentMenuHandler=Gestor de menu atual

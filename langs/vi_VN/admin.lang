@@ -267,7 +267,7 @@ ExternalResources=Tài nguyên bên ngoài
 SocialNetworks=Mạng xã hội
 SocialNetworkId=Social Network ID
 ForDocumentationSeeWiki=For user or developer documentation (Doc, FAQs...),<br>take a look at the Bespoerp Wiki:<br><b><a href="%s" target="_blank" rel="noopener noreferrer">%s</a></b>
-ForAnswersSeeForum=For any other questions/help, you can use the Dolibarr forum:<br><b><a href="%s" target="_blank" rel="noopener noreferrer">%s</a></b>
+ForAnswersSeeForum=For any other questions/help, you can use the Bespoerp forum:<br><b><a href="%s" target="_blank" rel="noopener noreferrer">%s</a></b>
 HelpCenterDesc1=Dưới đây là một số tài nguyên để nhận trợ giúp và hỗ trợ với Dolibarr.
 HelpCenterDesc2=Một số tài nguyên này chỉ có sẵn bằng <b>tiếng Anh</b> .
 CurrentMenuHandler=Điều khiển menu hiện tại

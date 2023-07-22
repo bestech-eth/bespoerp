@@ -267,7 +267,7 @@ ExternalResources=ຊັບພະຍາກອນພາຍນອກ
 SocialNetworks=ເຄືອຂ່າຍສັງຄົມ
 SocialNetworkId=ID ເຄືອຂ່າຍສັງຄົມ
 ForDocumentationSeeWiki=For user or developer documentation (Doc, FAQs...),<br>take a look at the Bespoerp Wiki:<br><b><a href="%s" target="_blank" rel="noopener noreferrer">%s</a></b>
-ForAnswersSeeForum=For any other questions/help, you can use the Dolibarr forum:<br><b><a href="%s" target="_blank" rel="noopener noreferrer">%s</a></b>
+ForAnswersSeeForum=For any other questions/help, you can use the Bespoerp forum:<br><b><a href="%s" target="_blank" rel="noopener noreferrer">%s</a></b>
 HelpCenterDesc1=ນີ້ແມ່ນແຫຼ່ງຂໍ້ມູນ ຈຳ ນວນ ໜຶ່ງ ເພື່ອໃຫ້ໄດ້ຮັບການຊ່ວຍເຫຼືອແລະການສະ ໜັບ ສະ ໜູນ ກັບ Dolibarr.
 HelpCenterDesc2=ບາງແຫຼ່ງຂໍ້ມູນເຫຼົ່ານີ້ມີຢູ່ໃນ <b> english </b> ເທົ່ານັ້ນ.
 CurrentMenuHandler=ຕົວຈັດການເມນູປັດຈຸບັນ

@@ -267,7 +267,7 @@ ExternalResources=Външни ресурси
 SocialNetworks=Социални мрежи
 SocialNetworkId=Social Network ID
 ForDocumentationSeeWiki=For user or developer documentation (Doc, FAQs...),<br>take a look at the Bespoerp Wiki:<br><b><a href="%s" target="_blank" rel="noopener noreferrer">%s</a></b>
-ForAnswersSeeForum=For any other questions/help, you can use the Dolibarr forum:<br><b><a href="%s" target="_blank" rel="noopener noreferrer">%s</a></b>
+ForAnswersSeeForum=For any other questions/help, you can use the Bespoerp forum:<br><b><a href="%s" target="_blank" rel="noopener noreferrer">%s</a></b>
 HelpCenterDesc1=Ресурси за получаване на помощ и поддръжка относно Dolibarr
 HelpCenterDesc2=Някои от тези ресурси са достъпни само на <b>английски език</b>
 CurrentMenuHandler=Текущ манипулатор на менюто
